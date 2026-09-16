@@ -54,6 +54,11 @@
   };
   const app = () => document.getElementById("app");
 
+  let skillAudio = null;
+  let audioGen = 0;
+  const TAP_SKIP = new Set(["the", "and", "for", "with", "that", "this"]);
+  const TAP_MARK_RE = /\[\[([^\]]+)\]\]/g;
+
   function t(en, ko) {
     return state.lang === "ko" && ko ? ko : en;
   }
@@ -352,13 +357,221 @@
     return t(skill.prompt_en, skill.prompt_ko);
   }
 
-  function explainText(it) {
-    if (state.lang === "ko" && it.explain_ko) return String(it.explain_ko).trim();
+  function skillExplainText(it) {
+    const fromItem = it && it.explain_skill_en;
+    if (fromItem) return String(fromItem).trim();
+    const fromSkill = state.skill && state.skill.explain_skill_en;
+    if (fromSkill) return String(fromSkill).trim();
+    return "";
+  }
+
+  function itemExplainText(it) {
+    if (it.explain_item_en) return String(it.explain_item_en).trim();
     if (it.explain_en) return String(it.explain_en).trim();
     const choices = it.choices || [];
     const idx = it.answer_index;
     const correct = typeof idx === "number" && choices[idx] ? choices[idx] : answerWord(it);
     return "The answer is " + correct + ".";
+  }
+
+  function extractTapMarks(text) {
+    const marks = [];
+    TAP_MARK_RE.lastIndex = 0;
+    String(text || "").replace(TAP_MARK_RE, (_, w) => {
+      marks.push(w);
+      return w;
+    });
+    TAP_MARK_RE.lastIndex = 0;
+    return marks;
+  }
+
+  function uniqueTapKeys(words) {
+    const seen = new Set();
+    const out = [];
+    for (const w of words) {
+      if (!w || seen.has(w)) continue;
+      seen.add(w);
+      out.push(w);
+    }
+    return out;
+  }
+
+  function autoPickTapWords(text, n) {
+    const words = [];
+    const seen = new Set();
+    const re = /[A-Za-z][A-Za-z']*/g;
+    let m;
+    while ((m = re.exec(String(text || ""))) && words.length < n) {
+      const raw = m[0];
+      if (raw.length < 3) continue;
+      const key = raw.toLowerCase();
+      if (TAP_SKIP.has(key) || seen.has(key)) continue;
+      seen.add(key);
+      words.push(raw);
+    }
+    return words;
+  }
+
+  function stopSkillAudio() {
+    if (!skillAudio) return;
+    try {
+      skillAudio.pause();
+      skillAudio.removeAttribute("src");
+      skillAudio.load();
+    } catch (_) {}
+    skillAudio = null;
+  }
+
+  function stopAllAudio() {
+    audioGen += 1;
+    stopSkillAudio();
+    try {
+      speechSynthesis.cancel();
+    } catch (_) {}
+    const p = ttsPlugin();
+    if (p && p.stop) p.stop().catch(() => {});
+  }
+
+  function playSkillFish(skill) {
+    const rel = skill && skill.audio_skill;
+    if (!rel) return Promise.resolve(false);
+    return new Promise((resolve) => {
+      stopSkillAudio();
+      const audio = new Audio(PACK + rel);
+      skillAudio = audio;
+      let settled = false;
+      let started = false;
+      const done = (ok) => {
+        if (settled) return;
+        settled = true;
+        clearTimeout(timer);
+        try {
+          audio.pause();
+        } catch (_) {}
+        if (skillAudio === audio) skillAudio = null;
+        resolve(ok);
+      };
+      const timer = setTimeout(() => done(started), 8000);
+      audio.addEventListener("playing", () => {
+        started = true;
+      });
+      audio.addEventListener("ended", () => done(true));
+      audio.addEventListener("error", () => done(false));
+      const playP = audio.play();
+      if (playP && playP.then) {
+        playP.then(() => {
+          started = true;
+        }).catch(() => done(false));
+      }
+    });
+  }
+
+  function makeTapChip(surface, key, tappedSet, onTap) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "tap-word" + (tappedSet.has(key) ? " tapped" : "");
+    b.dataset.tap = key;
+    b.textContent = surface;
+    b.onclick = () => onTap(key);
+    return b;
+  }
+
+  function appendMarkedExplain(parent, text, tappedSet, needed, onTap) {
+    const src = String(text || "");
+    const re = /\[\[([^\]]+)\]\]/g;
+    let last = 0;
+    let m;
+    while ((m = re.exec(src))) {
+      if (m.index > last) parent.appendChild(document.createTextNode(src.slice(last, m.index)));
+      const surface = m[1];
+      needed.add(surface);
+      parent.appendChild(makeTapChip(surface, surface, tappedSet, onTap));
+      last = re.lastIndex;
+    }
+    if (last < src.length) parent.appendChild(document.createTextNode(src.slice(last)));
+  }
+
+  function appendAutoExplain(parent, text, tapWords, tappedSet, needed, onTap) {
+    const src = String(text || "");
+    if (!tapWords.length) {
+      parent.appendChild(document.createTextNode(src));
+      return;
+    }
+    const escaped = tapWords
+      .slice()
+      .sort((a, b) => b.length - a.length)
+      .map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    const re = new RegExp("\\b(" + escaped.join("|") + ")\\b", "gi");
+    let last = 0;
+    let m;
+    while ((m = re.exec(src))) {
+      if (m.index > last) parent.appendChild(document.createTextNode(src.slice(last, m.index)));
+      const surface = m[1];
+      const key = surface.toLowerCase();
+      needed.add(key);
+      parent.appendChild(makeTapChip(surface, key, tappedSet, onTap));
+      last = re.lastIndex;
+    }
+    if (last < src.length) parent.appendChild(document.createTextNode(src.slice(last)));
+  }
+
+  function appendExplainBlock(panel, heading, text, mode, tapWords, tappedSet, needed, onTap) {
+    if (!text) return;
+    const block = document.createElement("div");
+    block.className = "explain-block";
+    if (heading) {
+      const h = document.createElement("div");
+      h.className = "explain-h";
+      h.textContent = heading;
+      block.appendChild(h);
+    }
+    const body = document.createElement("p");
+    body.className = "explain-body";
+    if (mode === "marks") appendMarkedExplain(body, text, tappedSet, needed, onTap);
+    else appendAutoExplain(body, text, tapWords, tappedSet, needed, onTap);
+    block.appendChild(body);
+    panel.appendChild(block);
+  }
+
+  function fillExplainPanel(panel, it, nextBtn) {
+    panel.innerHTML = "";
+    const skillText = skillExplainText(it);
+    const itemText = itemExplainText(it);
+    const marked = uniqueTapKeys(extractTapMarks(skillText).concat(extractTapMarks(itemText)));
+    const mode = marked.length ? "marks" : "auto";
+    TAP_MARK_RE.lastIndex = 0;
+    const autoWords =
+      mode === "auto" ? autoPickTapWords((skillText + " " + itemText).replace(TAP_MARK_RE, "$1"), 3) : [];
+    const tappedSet = new Set();
+    const needed = new Set();
+    const syncNext = () => {
+      const ready = needed.size === 0 || [...needed].every((k) => tappedSet.has(k));
+      if (nextBtn) {
+        nextBtn.disabled = !ready;
+        nextBtn.classList.toggle("wait-taps", !ready);
+      }
+    };
+    const onTap = (key) => {
+      if (tappedSet.has(key)) return;
+      tappedSet.add(key);
+      panel.querySelectorAll(".tap-word").forEach((el) => {
+        if (el.dataset.tap === key) el.classList.add("tapped");
+      });
+      syncNext();
+    };
+    appendExplainBlock(panel, skillText ? "The skill:" : "", skillText, mode, autoWords, tappedSet, needed, onTap);
+    appendExplainBlock(panel, "This one:", itemText, mode, autoWords, tappedSet, needed, onTap);
+    if (mode === "auto" && needed.size === 0 && autoWords.length) {
+      const row = document.createElement("div");
+      row.className = "tap-word-row";
+      for (const w of autoWords) {
+        const key = w.toLowerCase();
+        needed.add(key);
+        row.appendChild(makeTapChip(w, key, tappedSet, onTap));
+      }
+      panel.appendChild(row);
+    }
+    syncNext();
   }
 
   function skillsInCategory(key) {
@@ -581,6 +794,7 @@
   }
 
   async function startSkill(skill, opts = {}) {
+    stopAllAudio();
     state.skill = skill;
     state.selectedCategory = opts.category || state.selectedCategory || skill.category || null;
     state.fromSearch = !!opts.fromSearch;
@@ -600,6 +814,7 @@
     }
     state.queue = servePool(state.items, skill.skill_id);
     state.idx = 0;
+    state.skillIntroPlayed[skill.skill_id] = false;
     showItem();
   }
 
@@ -608,12 +823,14 @@
   }
 
   function playBack() {
+    stopAllAudio();
     if (state.fromSearch) home();
     else if (state.selectedCategory) categoryList(state.selectedCategory);
     else home();
   }
 
   function showItem() {
+    stopAllAudio();
     const skill = state.skill;
     const it = currentItem();
     if (!it) {
@@ -624,6 +841,7 @@
     state.orderPicked = [];
     const el = app();
     el.innerHTML = "";
+    const gen = audioGen;
 
     appendScoreBar(el, skill.skill_id);
 
@@ -671,8 +889,9 @@
     el.appendChild(fb);
     const explainEl = $(`<div class="explain-panel" id="explain" hidden></div>`);
     el.appendChild(explainEl);
-    const next = $(`<button type="button" class="btn primary" id="next" style="display:none">Next</button>`);
+    const next = $(`<button type="button" class="btn primary wait-taps" id="next" style="display:none" disabled>Next</button>`);
     next.onclick = () => {
+      if (next.disabled) return;
       state.idx += 1;
       if (state.idx >= state.queue.length) {
         state.queue = servePool(state.items, skill.skill_id);
@@ -683,18 +902,30 @@
     el.appendChild(next);
 
     if (soundEnabled()) {
-      setTimeout(() => playItemAudio(skill, readText), 300);
+      setTimeout(() => {
+        if (gen !== audioGen) return;
+        playItemAudio(skill, readText, gen);
+      }, 300);
     }
   }
 
-  async function playItemAudio(skill, itemText) {
+  async function playItemAudio(skill, itemText, gen) {
+    if (gen !== audioGen) return;
+    if (!soundEnabled()) return;
     const sid = skill.skill_id;
     const needSkillIntro = !state.skillIntroPlayed[sid];
     if (needSkillIntro) {
       state.skillIntroPlayed[sid] = true;
-      const intro = skillPromptText(skill);
-      if (intro) await speak(intro, { role: "skill" });
+      const playedMp3 = await playSkillFish(skill);
+      if (gen !== audioGen) return;
+      if (!soundEnabled()) return;
+      if (!playedMp3) {
+        const intro = skillPromptText(skill);
+        if (intro) await speak(intro, { role: "skill" });
+      }
     }
+    if (gen !== audioGen) return;
+    if (!soundEnabled()) return;
     if (itemText) await speak(itemText, { role: "item" });
   }
 
@@ -815,17 +1046,12 @@
     const s = applyScore(skillId, ok, it.tier || 2);
     const fb = document.getElementById("fb");
     if (fb) fb.textContent = ok ? "Yes  ·  " + s + "%" : "Not that  ·  " + s + "%";
+    const n = document.getElementById("next");
     const ex = document.getElementById("explain");
     if (ex) {
-      if (ok) {
-        ex.hidden = true;
-        ex.textContent = "";
-      } else {
-        ex.hidden = false;
-        ex.textContent = explainText(it);
-      }
+      ex.hidden = false;
+      fillExplainPanel(ex, it, n);
     }
-    const n = document.getElementById("next");
     if (n) n.style.display = "block";
     refreshScoreBar(skillId);
   }
