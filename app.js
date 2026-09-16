@@ -7,12 +7,35 @@
     { key: "vocabulary", label: "Vocabulary" },
   ];
 
+  const LANGUAGES = [
+    { code: "en", label: "English" },
+    { code: "ko", label: "한국어" },
+    { code: "zh-Hans", label: "简体中文" },
+    { code: "es", label: "Español" },
+    { code: "hi", label: "हिन्दी" },
+    { code: "ja", label: "日本語" },
+    { code: "de", label: "Deutsch" },
+    { code: "vi", label: "Tiếng Việt" },
+    { code: "pt-BR", label: "Português" },
+    { code: "id", label: "Indonesia" },
+    { code: "fr", label: "Français" },
+    { code: "ar", label: "العربية" },
+    { code: "tr", label: "Türkçe" },
+    { code: "it", label: "Italiano" },
+    { code: "pl", label: "Polski" },
+  ];
+
+  const LANG_CODES = new Set(LANGUAGES.map((l) => l.code));
+  const savedLang = localStorage.getItem("sb_lang");
+  const initialLang = savedLang && LANG_CODES.has(savedLang) ? savedLang : "en";
+
   const state = {
     skills: [],
     pictures: {},
     scoreTable: null,
-    lang: "en",
+    lang: initialLang,
     voice: localStorage.getItem("sb_voice") || "puck",
+    skillIntroPlayed: {},
     skill: null,
     selectedCategory: null,
     queue: [],
@@ -142,24 +165,150 @@
     return null;
   }
 
-  async function speak(text) {
+  let voicesReadyPromise = null;
+  function ensureVoices() {
+    if (voicesReadyPromise) return voicesReadyPromise;
+    voicesReadyPromise = new Promise((resolve) => {
+      const pick = () => {
+        const v = speechSynthesis.getVoices();
+        if (v && v.length) {
+          resolve(v);
+          return true;
+        }
+        return false;
+      };
+      if (pick()) return;
+      const onChange = () => {
+        if (pick()) speechSynthesis.removeEventListener("voiceschanged", onChange);
+      };
+      speechSynthesis.addEventListener("voiceschanged", onChange);
+      setTimeout(() => resolve(speechSynthesis.getVoices() || []), 800);
+    });
+    return voicesReadyPromise;
+  }
+
+  const FEMALE_HINTS = [
+    "samantha",
+    "karen",
+    "moira",
+    "victoria",
+    "zira",
+    "female",
+    "google us english",
+    "google uk english female",
+  ];
+  const MALE_HINTS = [
+    "daniel",
+    "alex",
+    "fred",
+    "david",
+    "arthur",
+    "gordon",
+    "rishi",
+    "male",
+    "en-us-x-iom",
+    "google uk english male",
+    "google us english male",
+  ];
+  const FEMALE_REJECT = ["samantha", "karen", "moira", "victoria", "zira", "female"];
+
+  function voiceKey(v) {
+    return (v.voiceURI + " " + v.name).toLowerCase();
+  }
+
+  function isEnglishVoice(v) {
+    const lang = (v.lang || "").toLowerCase();
+    return lang.startsWith("en");
+  }
+
+  function scoreVoice(v, wantFemale) {
+    const k = voiceKey(v);
+    let score = isEnglishVoice(v) ? 10 : 0;
+    const hints = wantFemale ? FEMALE_HINTS : MALE_HINTS;
+    for (const h of hints) {
+      if (k.includes(h)) score += 20;
+    }
+    if (wantFemale) {
+      if (k.includes("male")) score -= 40;
+      for (const h of MALE_HINTS) {
+        if (h !== "male" && k.includes(h)) score -= 25;
+      }
+    } else {
+      for (const r of FEMALE_REJECT) {
+        if (k.includes(r)) score -= 50;
+      }
+      if (k.includes("female")) score -= 40;
+    }
+    return score;
+  }
+
+  function pickVoice(voices, wantFemale, storedUri) {
+    if (storedUri) {
+      const hit = voices.find((v) => v.voiceURI === storedUri);
+      if (hit) return hit;
+    }
+    const en = voices.filter(isEnglishVoice);
+    const pool = en.length ? en : voices;
+    let best = null;
+    let bestScore = -Infinity;
+    for (const v of pool) {
+      const s = scoreVoice(v, wantFemale);
+      if (s > bestScore) {
+        bestScore = s;
+        best = v;
+      }
+    }
+    if (!wantFemale && best) {
+      const k = voiceKey(best);
+      for (const r of FEMALE_REJECT) {
+        if (k.includes(r)) best = null;
+      }
+    }
+    return best;
+  }
+
+  function roleWantsFemale(role) {
+    const puck = state.voice !== "bella";
+    if (role === "skill") return puck;
+    return !puck;
+  }
+
+  async function speak(text, opts = {}) {
     const word = String(text || "").trim();
     if (!word) return;
-    const sid = state.voice === "bella" ? 0 : 1;
+    const role = opts.role || "item";
+    const wantFemale = roleWantsFemale(role);
+    const sid = wantFemale ? 0 : 1;
     const p = ttsPlugin();
     try {
       if (p && p.stop) p.stop().catch(() => {});
       if (p && p.speak) {
-        await p.speak({ text: word, sid, gender: state.voice === "bella" ? "female" : "male" });
+        await p.speak({ text: word, sid, gender: wantFemale ? "female" : "male" });
         return;
       }
     } catch (_) {}
-    try {
-      const u = new SpeechSynthesisUtterance(word);
-      u.lang = "en-US";
-      speechSynthesis.cancel();
-      speechSynthesis.speak(u);
-    } catch (_) {}
+    const voices = await ensureVoices();
+    const storeKey = wantFemale ? "sb_voice_uri_bella" : "sb_voice_uri_puck";
+    const stored = localStorage.getItem(storeKey);
+    let voice = pickVoice(voices, wantFemale, stored);
+    return new Promise((resolve) => {
+      try {
+        const u = new SpeechSynthesisUtterance(word);
+        u.lang = "en-US";
+        if (voice) {
+          u.voice = voice;
+          if (!stored) localStorage.setItem(storeKey, voice.voiceURI);
+        } else if (!wantFemale) {
+          u.pitch = 0.85;
+        }
+        u.onend = () => resolve();
+        u.onerror = () => resolve();
+        speechSynthesis.cancel();
+        speechSynthesis.speak(u);
+      } catch (_) {
+        resolve();
+      }
+    });
   }
 
   function lemmas(it) {
@@ -191,10 +340,25 @@
     return parts.every((p) => p.length <= 4);
   }
 
-  function autoReadText(skill, it, stemVisible) {
+  function itemReadText(skill, it, stemVisible) {
+    if (it.speak_en) return String(it.speak_en).trim();
     if (isListenPresent(skill)) return answerWord(it);
     if (it.stem && stemVisible) return it.stem;
     return t(skill.prompt_en, skill.prompt_ko);
+  }
+
+  function skillPromptText(skill) {
+    if (isBlendListen(skill)) return "Listen. Which word?";
+    return t(skill.prompt_en, skill.prompt_ko);
+  }
+
+  function explainText(it) {
+    if (state.lang === "ko" && it.explain_ko) return String(it.explain_ko).trim();
+    if (it.explain_en) return String(it.explain_en).trim();
+    const choices = it.choices || [];
+    const idx = it.answer_index;
+    const correct = typeof idx === "number" && choices[idx] ? choices[idx] : answerWord(it);
+    return "The answer is " + correct + ".";
   }
 
   function skillsInCategory(key) {
@@ -219,6 +383,52 @@
     };
     el.appendChild(btn);
     return btn;
+  }
+
+  function setLang(code) {
+    if (!LANG_CODES.has(code)) return;
+    state.lang = code;
+    localStorage.setItem("sb_lang", code);
+  }
+
+  function appendLanguageControl(el, rerender) {
+    const wrap = $('<label class="lang-wrap"><span class="lang-lbl">Language</span></label>');
+    const sel = document.createElement("select");
+    sel.className = "lang-select";
+    sel.setAttribute("aria-label", "Language");
+    for (const L of LANGUAGES) {
+      const o = document.createElement("option");
+      o.value = L.code;
+      o.textContent = L.label;
+      if (L.code === state.lang) o.selected = true;
+      sel.appendChild(o);
+    }
+    sel.onchange = () => {
+      setLang(sel.value);
+      rerender();
+    };
+    wrap.appendChild(sel);
+    el.appendChild(wrap);
+    return wrap;
+  }
+
+  function appendVoiceToggle(el, rerender) {
+    const voice = $(
+      `<button type="button" class="btn small">Voice: ${state.voice === "bella" ? "Bella" : "Puck"}</button>`
+    );
+    voice.onclick = () => {
+      state.voice = state.voice === "bella" ? "puck" : "bella";
+      localStorage.setItem("sb_voice", state.voice);
+      rerender();
+    };
+    el.appendChild(voice);
+    return voice;
+  }
+
+  function appendPlayToolbar(el, rerender) {
+    appendSoundToggle(el, rerender);
+    appendLanguageControl(el, rerender);
+    appendVoiceToggle(el, rerender);
   }
 
   function appendScoreBar(el, skillId) {
@@ -255,6 +465,7 @@
     state.skills = skills;
     state.pictures = pictures;
     state.scoreTable = score;
+    ensureVoices();
     home();
   }
 
@@ -266,22 +477,7 @@
     el.appendChild($(`<h1 class="title-main">English Skill Builder · Grade 1</h1>`));
 
     const toolbar = $('<div class="toolbar row"></div>');
-    appendSoundToggle(toolbar, home);
-    const lang = $(`<button type="button" class="btn small">${state.lang === "ko" ? "한국어" : "English"}</button>`);
-    lang.onclick = () => {
-      state.lang = state.lang === "ko" ? "en" : "ko";
-      home();
-    };
-    const voice = $(
-      `<button type="button" class="btn small">Voice: ${state.voice === "bella" ? "Bella" : "Puck"}</button>`
-    );
-    voice.onclick = () => {
-      state.voice = state.voice === "bella" ? "puck" : "bella";
-      localStorage.setItem("sb_voice", state.voice);
-      home();
-    };
-    toolbar.appendChild(lang);
-    toolbar.appendChild(voice);
+    appendPlayToolbar(toolbar, home);
     el.appendChild(toolbar);
 
     const search = $(`<input class="search" type="search" placeholder="Find a skill" autocomplete="off" />`);
@@ -352,7 +548,7 @@
     el.appendChild($(`<h1 class="title-main">${escapeHtml(categoryLabel(catKey))}</h1>`));
 
     const toolbar = $('<div class="toolbar row"></div>');
-    appendSoundToggle(toolbar, () => categoryList(catKey));
+    appendPlayToolbar(toolbar, () => categoryList(catKey));
     el.appendChild(toolbar);
 
     const list = document.createElement("div");
@@ -435,7 +631,7 @@
     const back = $(`<button type="button" class="btn small">← Back</button>`);
     back.onclick = playBack;
     top.appendChild(back);
-    appendSoundToggle(top, showItem);
+    appendPlayToolbar(top, showItem);
     el.appendChild(top);
 
     el.appendChild($(`<div class="muted skill-line">${escapeHtml(skill.number)}. ${escapeHtml(skill.title_en)}</div>`));
@@ -460,9 +656,9 @@
 
     if (stemVisible) el.appendChild($(`<div class="stem">${escapeHtml(it.stem)}</div>`));
 
-    const readText = autoReadText(skill, it, stemVisible);
+    const readText = itemReadText(skill, it, stemVisible);
     const replay = $(`<button type="button" class="btn replay" aria-label="Play again">▶</button>`);
-    replay.onclick = () => speak(readText);
+    replay.onclick = () => speak(readText, { role: "item" });
     el.appendChild(replay);
 
     const type = it.item_type || skill.item_type || "abcd";
@@ -473,6 +669,8 @@
 
     const fb = $(`<div class="feedback" id="fb"></div>`);
     el.appendChild(fb);
+    const explainEl = $(`<div class="explain-panel" id="explain" hidden></div>`);
+    el.appendChild(explainEl);
     const next = $(`<button type="button" class="btn primary" id="next" style="display:none">Next</button>`);
     next.onclick = () => {
       state.idx += 1;
@@ -484,7 +682,20 @@
     };
     el.appendChild(next);
 
-    if (soundEnabled() && readText) setTimeout(() => speak(readText), 300);
+    if (soundEnabled()) {
+      setTimeout(() => playItemAudio(skill, readText), 300);
+    }
+  }
+
+  async function playItemAudio(skill, itemText) {
+    const sid = skill.skill_id;
+    const needSkillIntro = !state.skillIntroPlayed[sid];
+    if (needSkillIntro) {
+      state.skillIntroPlayed[sid] = true;
+      const intro = skillPromptText(skill);
+      if (intro) await speak(intro, { role: "skill" });
+    }
+    if (itemText) await speak(itemText, { role: "item" });
   }
 
   function escapeHtml(s) {
@@ -504,7 +715,7 @@
     el.appendChild(img);
   }
 
-  function renderChoices(el, it, hideStem) {
+  function renderChoices(el, it) {
     const type = it.item_type || "abcd";
     if (type === "picture_to_word" || type === "ab" || type === "odd_one_out") {
       addPic(el, lemmas(it)[0]);
@@ -604,6 +815,16 @@
     const s = applyScore(skillId, ok, it.tier || 2);
     const fb = document.getElementById("fb");
     if (fb) fb.textContent = ok ? "Yes  ·  " + s + "%" : "Not that  ·  " + s + "%";
+    const ex = document.getElementById("explain");
+    if (ex) {
+      if (ok) {
+        ex.hidden = true;
+        ex.textContent = "";
+      } else {
+        ex.hidden = false;
+        ex.textContent = explainText(it);
+      }
+    }
     const n = document.getElementById("next");
     if (n) n.style.display = "block";
     refreshScoreBar(skillId);
