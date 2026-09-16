@@ -1,1 +1,2482 @@
-[{"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0001", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Look at this.", "choices": ["The cat sat.", "The dog ran.", "The sun is hot."], "explain_key": "scene_match", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0002", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Which one is it?", "choices": ["The boat is big.", "The moon is out.", "The hat is black."], "explain_key": "scene_match", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0003", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick the right one.", "choices": ["The tree is tall.", "The bag is red.", "The fish can swim."], "explain_key": "scene_match", "media": [{"lemma": "bag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0004", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find the right one.", "choices": ["The apple is in the bag.", "The cake is on the plate.", "The bird is in the nest."], "explain_key": "not_short_a", "media": [{"lemma": "apple"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0005", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> can see this.", "choices": ["<NAME> has a book.", "<NAME> has a map.", "The book is on the desk."], "explain_key": "scene_match", "media": [{"lemma": "map"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0006", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "What do you see?", "choices": ["Mom has a blue coat.", "The baby is in bed.", "Dad has a black hat."], "explain_key": "scene_match", "media": [{"lemma": "dad"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0007", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look here.", "choices": ["The hat sat.", "The cat sat.", "The cake sat.", "A big dog sat."], "explain_key": "close_word", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0008", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Which one?", "choices": ["The man ran.", "The men ran.", "The moon ran.", "The cake ran."], "explain_key": "close_word", "media": [{"lemma": "man"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0009", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "What is here?", "choices": ["The sun is hot.", "The rat ran.", "The dog ran."], "explain_key": "scene_match", "media": [{"lemma": "rat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0010", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "See this?", "choices": ["The cap is red.", "The tree is tall.", "The coat is blue."], "explain_key": "scene_match", "media": [{"lemma": "cap"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0011", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Look now.", "choices": ["The fan is on.", "The fish can swim.", "The moon is out."], "explain_key": "scene_match", "media": [{"lemma": "fan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0012", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Can you tell?", "choices": ["The bird can fly.", "The van is red.", "The bus is big."], "explain_key": "scene_match", "media": [{"lemma": "van"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0013", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick one.", "choices": ["The sky is blue.", "The bed is soft.", "The mat is flat."], "explain_key": "scene_match", "media": [{"lemma": "mat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0014", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Look at it.", "choices": ["The ice is cold.", "The pan is hot.", "The pot is cold."], "explain_key": "scene_match", "media": [{"lemma": "pan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0015", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Which is it?", "choices": ["The cow is big.", "The bee is busy.", "The ant is small."], "explain_key": "scene_match", "media": [{"lemma": "ant"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0016", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "See it?", "choices": ["The lamp is on.", "The sun is hot.", "The moon is out."], "explain_key": "scene_match", "media": [{"lemma": "lamp"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0017", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "What is this?", "choices": ["The milk is cold.", "The ham is hot.", "The soup is hot."], "explain_key": "scene_match", "media": [{"lemma": "ham"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0018", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Try this.", "choices": ["Dad has tea.", "Mom has jam.", "Mom has milk."], "explain_key": "scene_match", "media": [{"lemma": "jam"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0019", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Find it.", "choices": ["The boat is big.", "The flag is red.", "The tree is tall."], "explain_key": "scene_match", "media": [{"lemma": "flag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0020", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "What is it?", "choices": ["The snow is cold.", "The sand is dry.", "The rain is wet."], "explain_key": "scene_match", "media": [{"lemma": "sand"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0021", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "See this one.", "choices": ["The fish can swim.", "The bird can fly.", "The bat can fly."], "explain_key": "scene_match", "media": [{"lemma": "bat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0022", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Look close.", "choices": ["The cow can moo.", "The cat can nap.", "The dog can run."], "explain_key": "scene_match", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0023", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Tap here.", "choices": ["The shoe is brown.", "The hat is black.", "The coat is blue."], "explain_key": "scene_match", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0024", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick it.", "choices": ["The bag is big.", "The box is small.", "The cup is red."], "explain_key": "scene_match", "media": [{"lemma": "bag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0025", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "What is that?", "choices": ["The baby is small.", "Dad has a cap.", "Mom has a coat."], "explain_key": "scene_match", "media": [{"lemma": "dad"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0026", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "See the thing.", "choices": ["The map is flat.", "The ball is round.", "The book is thick."], "explain_key": "scene_match", "media": [{"lemma": "map"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0027", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Look at that.", "choices": ["The boy has a ball.", "The man has a hat.", "The girl has a doll."], "explain_key": "scene_match", "media": [{"lemma": "man"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0028", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Tell me.", "choices": ["A rat is fast.", "A cow is slow.", "A fox is fast."], "explain_key": "scene_match", "media": [{"lemma": "rat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0029", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick the one.", "choices": ["A cap is on.", "A shoe is on.", "A coat is on."], "explain_key": "scene_match", "media": [{"lemma": "cap"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0030", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Check this.", "choices": ["A fan can spin.", "A top can spin.", "A ball can roll."], "explain_key": "scene_match", "media": [{"lemma": "fan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0031", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Which is here?", "choices": ["A mat is flat.", "A lake is deep.", "A hill is tall."], "explain_key": "scene_match", "media": [{"lemma": "mat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0032", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "See what?", "choices": ["A pan can cook.", "A pot can cook.", "A cup can hold."], "explain_key": "scene_match", "media": [{"lemma": "pan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0033", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Spot it.", "choices": ["A worm can crawl.", "An ant can crawl.", "A bird can fly."], "explain_key": "scene_match", "media": [{"lemma": "ant"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0034", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Look up.", "choices": ["A rock is hard.", "A lamp can glow.", "A star can glow."], "explain_key": "scene_match", "media": [{"lemma": "lamp"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0035", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Find the one.", "choices": ["Ham is for lunch.", "Cake is for fun.", "Soup is for lunch."], "explain_key": "scene_match", "media": [{"lemma": "ham"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0036", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find this one.", "choices": ["The cake is sweet.", "The bird is in the nest.", "The apple is red."], "explain_key": "not_short_a", "media": [{"lemma": "apple"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0037", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "What is on it?", "choices": ["The cat has a cap.", "The cake is on the plate.", "The bird is in the tree."], "explain_key": "scene_match", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0038", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at this now.", "choices": ["The cake is on the plate.", "The hat is on Dad.", "The baby is in bed."], "explain_key": "scene_match", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0039", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Which fits?", "choices": ["The cake is on the plate.", "The fish is in the pond.", "The bag has a map."], "explain_key": "scene_match", "media": [{"lemma": "bag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0040", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> sees this.", "choices": ["<NAME> has a cap.", "<NAME> has a book.", "The cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "cap"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0041", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "What is in it?", "choices": ["The cake is on the plate.", "The rat is in the barn.", "The moon is out."], "explain_key": "scene_match", "media": [{"lemma": "rat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0042", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See this now.", "choices": ["The bird is in the nest.", "The cake is on the plate.", "The fan is on the desk."], "explain_key": "scene_match", "media": [{"lemma": "fan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0043", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick the best.", "choices": ["The cake is on the plate.", "The boat is on the lake.", "The van is in the yard."], "explain_key": "scene_match", "media": [{"lemma": "van"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0044", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look over here.", "choices": ["The book is on the desk.", "The mat is on the floor.", "The cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "mat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0045", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "What is on top?", "choices": ["The pan is on the stove.", "The cake is on the plate.", "The cup is on the table."], "explain_key": "scene_match", "media": [{"lemma": "pan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0046", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find this.", "choices": ["The bee is on the flower.", "The ant is on the sand.", "The cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "ant"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0047", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Which fits best?", "choices": ["The lamp is on the desk.", "The clock is on the wall.", "The cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "lamp"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0048", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at that now.", "choices": ["Ham is on the plate.", "The egg is in the cup.", "The cake is on the plate."], "explain_key": "not_short_a", "media": [{"lemma": "ham"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0049", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See this thing.", "choices": ["Milk is in the cup.", "Jam is in the jar.", "The cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "jam"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0050", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "What sits here?", "choices": ["The kite is in the sky.", "The cake is on the plate.", "The flag is on the pole."], "explain_key": "scene_match", "media": [{"lemma": "flag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0051", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick this.", "choices": ["Snow is on the hill.", "Sand is at the beach.", "The cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "sand"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0052", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look down.", "choices": ["The bird is in the tree.", "The cake is on the plate.", "The bat is in the barn."], "explain_key": "scene_match", "media": [{"lemma": "bat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0053", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> found this.", "choices": ["<NAME> has a map.", "<NAME> has a cake.", "The book is on the desk."], "explain_key": "not_short_a", "media": [{"lemma": "map"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0054", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "What is with him?", "choices": ["The cake is on the plate.", "Mom has a blue coat.", "Dad has a black hat."], "explain_key": "scene_match", "media": [{"lemma": "dad"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0055", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find him.", "choices": ["The men have a ball.", "The cake is on the plate.", "The man has a bag."], "explain_key": "scene_match", "media": [{"lemma": "man"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0056", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Which is red?", "choices": ["A cake is on the plate.", "An apple is in the bag.", "A bird is in the nest."], "explain_key": "not_short_a", "media": [{"lemma": "apple"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0057", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look over there.", "choices": ["A dog is in the yard.", "A cake is on the plate.", "A cat is on the mat."], "explain_key": "scene_match", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0058", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See it now.", "choices": ["A hat is on the bed.", "A cake is on the plate.", "A coat is on the hook."], "explain_key": "scene_match", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0059", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "What is on it now?", "choices": ["A bag is on the chair.", "A cake is on the plate.", "A box is on the floor."], "explain_key": "scene_match", "media": [{"lemma": "bag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0060", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick this one.", "choices": ["A cap is on the hook.", "A cake is on the plate.", "A coat is on the bed."], "explain_key": "scene_match", "media": [{"lemma": "cap"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0061", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find that one.", "choices": ["A rat is in the barn.", "A cow is in the field.", "A cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "rat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0062", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at this too.", "choices": ["A cake is on the plate.", "A lamp is on the desk.", "A fan is on the table."], "explain_key": "scene_match", "media": [{"lemma": "fan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0063", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look out there.", "choices": ["A cake is on the plate.", "A bus is at school.", "A van is in the yard."], "explain_key": "scene_match", "media": [{"lemma": "van"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0064", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See this here.", "choices": ["A cake is on the plate.", "A rug is in the room.", "A mat is by the door."], "explain_key": "scene_match", "media": [{"lemma": "mat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0065", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look in here.", "choices": ["A pot is on the stove.", "A pan is in the kitchen.", "A cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "pan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0066", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See this tiny one.", "choices": ["A bee is on the flower.", "A cake is on the plate.", "An ant is on the leaf."], "explain_key": "scene_match", "media": [{"lemma": "ant"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0067", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick that.", "choices": ["A lamp is by the bed.", "A clock is on the wall.", "A cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "lamp"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0068", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look right here.", "choices": ["Cake is on the plate.", "Soup is in the bowl.", "Ham is on the table."], "explain_key": "not_short_a", "media": [{"lemma": "ham"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0069", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at this food.", "choices": ["Cake is on the plate.", "Butter is on the bread.", "Jam is on the bread."], "explain_key": "scene_match", "media": [{"lemma": "jam"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0070", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the wall.", "choices": ["A flag is on the wall.", "A map is on the desk.", "A cake is on the plate."], "explain_key": "scene_match", "media": [{"lemma": "flag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0071", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at this pile.", "choices": ["Sand is in the box.", "Cake is on the plate.", "Dirt is in the yard."], "explain_key": "scene_match", "media": [{"lemma": "sand"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0072", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See up there.", "choices": ["A bat is in the tree.", "A cake is on the plate.", "A bird is in the nest."], "explain_key": "scene_match", "media": [{"lemma": "bat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0073", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Check here.", "choices": ["The dog can run.", "The cake is red.", "The hat is black.", "The cat is black."], "explain_key": "close_word", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0074", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Check again.", "choices": ["The cat is mad.", "The hat is mad.", "The cake is mad.", "The dog is sad."], "explain_key": "close_word", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0075", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Who is this?", "choices": ["The man has a cap.", "The men have a cap.", "The moon is out.", "The cake is big."], "explain_key": "close_word", "media": [{"lemma": "man"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0076", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See this face.", "choices": ["The mask is black.", "The mat is black.", "The cake is black.", "The dog ran."], "explain_key": "close_word", "media": [{"lemma": "mask"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0077", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "What is red?", "choices": ["The bag is red.", "The cake is red.", "The boat is big.", "The bat is red."], "explain_key": "close_word", "media": [{"lemma": "bag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0078", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look again.", "choices": ["The cat can fly.", "The bird can fly.", "The cake is big.", "The bat can fly."], "explain_key": "close_word", "media": [{"lemma": "bat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0079", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look up here.", "choices": ["The cake is sweet.", "The dog ran fast.", "The cap is red.", "The cat is red."], "explain_key": "close_word", "media": [{"lemma": "cap"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0080", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Which is small?", "choices": ["The cake is sweet.", "The rat is small.", "The dog is big.", "The cat is small."], "explain_key": "close_word", "media": [{"lemma": "rat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0081", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Try here.", "choices": ["The mat is flat.", "The hat is flat.", "The cake is sweet.", "The dog ran."], "explain_key": "close_word", "media": [{"lemma": "mat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0082", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See this well.", "choices": ["The pan is hot.", "The cake is hot.", "The dog ran.", "The pen is hot."], "explain_key": "close_word", "media": [{"lemma": "pan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0083", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "What is on?", "choices": ["The cake is on.", "The fan is on.", "The dog ran.", "The van is on."], "explain_key": "close_word", "media": [{"lemma": "fan"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0084", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Pick well.", "choices": ["The cake is red.", "The dog ran.", "The van is red.", "The fan is red."], "explain_key": "close_word", "media": [{"lemma": "van"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0085", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look well.", "choices": ["The cake is sweet.", "The cat is small.", "The dog is big.", "The ant is small."], "explain_key": "close_word", "media": [{"lemma": "ant"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0086", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Which is on?", "choices": ["The hat is on.", "The lamp is on.", "The dog ran.", "The cake is on."], "explain_key": "close_word", "media": [{"lemma": "lamp"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0087", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "What is so hot?", "choices": ["The dog ran.", "The hat is hot.", "The ham is hot.", "The cake is hot."], "explain_key": "close_word", "media": [{"lemma": "ham"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0088", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "What tastes sweet?", "choices": ["The dog ran.", "Jam is sweet.", "The cake is sweet.", "The hat is sweet."], "explain_key": "close_word", "media": [{"lemma": "jam"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0089", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "What is up?", "choices": ["The cake is red.", "The dog ran.", "The hat is red.", "The flag is red."], "explain_key": "close_word", "media": [{"lemma": "flag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0090", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look low.", "choices": ["The cake is dry.", "The sand is dry.", "The dog ran.", "The hat is dry."], "explain_key": "close_word", "media": [{"lemma": "sand"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0091", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Which is flat?", "choices": ["The cake is flat.", "The map is flat.", "The hat is flat.", "The dog ran."], "explain_key": "close_word", "media": [{"lemma": "map"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0092", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See him now?", "choices": ["Dad has a hat.", "The cake is sweet.", "The dog ran.", "The man has a hat."], "explain_key": "close_word", "media": [{"lemma": "dad"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0093", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Pick red.", "choices": ["The cake is red.", "The dog ran.", "The hat is red.", "The apple is red."], "explain_key": "close_word", "media": [{"lemma": "apple"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0094", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look twice.", "choices": ["The cat can nap.", "The dog can run.", "The cake can nap.", "The hat can nap."], "explain_key": "close_word", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0095", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Which is black?", "choices": ["The hat is black.", "The dog ran.", "The cat is black.", "The cake is black."], "explain_key": "close_word", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0096", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find big.", "choices": ["The bat is big.", "The dog ran.", "The bag is big.", "The cake is big."], "explain_key": "close_word", "media": [{"lemma": "bag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0097", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See him?", "choices": ["The hat ran fast.", "The cake ran fast.", "The man ran fast.", "The men ran fast."], "explain_key": "close_word", "media": [{"lemma": "man"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0098", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See this car.", "choices": ["The cab is yellow.", "The cub is yellow.", "The cake is yellow.", "The dog ran."], "explain_key": "close_word", "media": [{"lemma": "cab"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0099", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Which is fast?", "choices": ["The cake ran fast.", "The dog ran fast.", "The cat ran fast.", "The rat ran fast."], "explain_key": "close_word", "media": [{"lemma": "rat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_a_sentence_that_matches_the_0100", "family_id": "fam_choose_the_short_a_sentence_that_matches_the", "skill_id": "seed_choose_the_short_a_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "What can we eat?", "choices": ["The snack is good.", "The snake is good.", "The cake is good.", "The dog can run."], "explain_key": "close_word", "media": [{"lemma": "snack"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}]
+[
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0001",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look at this.",
+    "choices": [
+      "The cat sat.",
+      "The dog ran.",
+      "The sun is hot."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "You see a [[cat]] that [[sat]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0002",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which one is it?",
+    "choices": [
+      "The boat is big.",
+      "The moon is out.",
+      "The hat is black."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[hat]] is [[black]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0003",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the right one.",
+    "choices": [
+      "The tree is tall.",
+      "The bag is red.",
+      "The fish can swim."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[bag]] is [[red]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0004",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find the right one.",
+    "choices": [
+      "The apple is in the bag.",
+      "The cake is on the plate.",
+      "The bird is in the nest."
+    ],
+    "explain_key": "not_short_a",
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that matches. Listen for singing letter a like in [[cat]].",
+    "explain_item_en": "The [[apple]] is in the [[bag]]. Cake has a quiet e.",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0005",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> can see this.",
+    "choices": [
+      "<NAME> has a book.",
+      "<NAME> has a map.",
+      "The book is on the desk."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "You see a [[map]]. Put the sounds together: m-a-p, [[map]].",
+    "speak_en": "Which sentence matches what you see?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0006",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What do you see?",
+    "choices": [
+      "Mom has a blue coat.",
+      "The baby is in bed.",
+      "Dad has a black hat."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "[[Dad]] has a black [[hat]].",
+    "speak_en": "What do you see in this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0007",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look here.",
+    "choices": [
+      "The hat sat.",
+      "The cat sat.",
+      "The cake sat.",
+      "A big dog sat."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look close. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "A [[cat]] sat. Not a [[hat]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0008",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which one?",
+    "choices": [
+      "The man ran.",
+      "The men ran.",
+      "The moon ran.",
+      "The cake ran."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "man"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look close. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "One [[man]] [[ran]]. Not many men.",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0009",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What is here?",
+    "choices": [
+      "The sun is hot.",
+      "The rat ran.",
+      "The dog ran."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[rat]] [[ran]].",
+    "speak_en": "Which sentence matches what is here?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0010",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "See this?",
+    "choices": [
+      "The cap is red.",
+      "The tree is tall.",
+      "The coat is blue."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[cap]] is [[red]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0011",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look now.",
+    "choices": [
+      "The fan is on.",
+      "The fish can swim.",
+      "The moon is out."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "fan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[fan]] is spinning. That is what you [[see]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0012",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Can you tell?",
+    "choices": [
+      "The bird can fly.",
+      "The van is red.",
+      "The bus is big."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "van"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[van]] is [[red]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0013",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick one.",
+    "choices": [
+      "The sky is blue.",
+      "The bed is soft.",
+      "The mat is flat."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "mat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[mat]] is [[flat]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0014",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look at it.",
+    "choices": [
+      "The ice is cold.",
+      "The pan is hot.",
+      "The pot is cold."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[pan]] is [[hot]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0015",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which is it?",
+    "choices": [
+      "The cow is big.",
+      "The bee is busy.",
+      "The ant is small."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[ant]] is [[small]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0016",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "See it?",
+    "choices": [
+      "The lamp is on.",
+      "The sun is hot.",
+      "The moon is out."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[lamp]] is lit. That is what you [[see]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0017",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What is this?",
+    "choices": [
+      "The milk is cold.",
+      "The ham is hot.",
+      "The soup is hot."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "ham"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[ham]] is [[hot]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0018",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Try this.",
+    "choices": [
+      "Dad has tea.",
+      "Mom has jam.",
+      "Mom has milk."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "jam"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "[[Mom]] has [[jam]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0019",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find it.",
+    "choices": [
+      "The boat is big.",
+      "The flag is red.",
+      "The tree is tall."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "flag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[flag]] is [[red]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0020",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What is it?",
+    "choices": [
+      "The snow is cold.",
+      "The sand is dry.",
+      "The rain is wet."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[sand]] is [[dry]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0021",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "See this one.",
+    "choices": [
+      "The fish can swim.",
+      "The bird can fly.",
+      "The bat can fly."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "bat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[bat]] can [[fly]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0022",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look close.",
+    "choices": [
+      "The cow can moo.",
+      "The cat can nap.",
+      "The dog can run."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[cat]] can [[nap]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0023",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap here.",
+    "choices": [
+      "The shoe is brown.",
+      "The hat is black.",
+      "The coat is blue."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[hat]] is [[black]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0024",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick it.",
+    "choices": [
+      "The bag is big.",
+      "The box is small.",
+      "The cup is red."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[bag]] is [[big]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0025",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What is that?",
+    "choices": [
+      "The baby is small.",
+      "Dad has a cap.",
+      "Mom has a coat."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "[[Dad]] has a [[cap]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0026",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "See the thing.",
+    "choices": [
+      "The map is flat.",
+      "The ball is round.",
+      "The book is thick."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[map]] is [[flat]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0027",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look at that.",
+    "choices": [
+      "The boy has a ball.",
+      "The man has a hat.",
+      "The girl has a doll."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "man"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[man]] has a [[hat]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0028",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tell me.",
+    "choices": [
+      "A rat is fast.",
+      "A cow is slow.",
+      "A fox is fast."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "A [[rat]] is [[fast]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0029",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the one.",
+    "choices": [
+      "A cap is on.",
+      "A shoe is on.",
+      "A coat is on."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "A [[cap]] sits there. That is what you [[see]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0030",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Check this.",
+    "choices": [
+      "A fan can spin.",
+      "A top can spin.",
+      "A ball can roll."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "fan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "A [[fan]] can [[spin]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0031",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which is here?",
+    "choices": [
+      "A mat is flat.",
+      "A lake is deep.",
+      "A hill is tall."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "mat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "A [[mat]] is [[flat]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0032",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "See what?",
+    "choices": [
+      "A pan can cook.",
+      "A pot can cook.",
+      "A cup can hold."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "A [[pan]] can [[cook]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0033",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spot it.",
+    "choices": [
+      "A worm can crawl.",
+      "An ant can crawl.",
+      "A bird can fly."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "An [[ant]] can [[crawl]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0034",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look up.",
+    "choices": [
+      "A rock is hard.",
+      "A lamp can glow.",
+      "A star can glow."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "A [[lamp]] can [[glow]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0035",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the one.",
+    "choices": [
+      "Ham is for lunch.",
+      "Cake is for fun.",
+      "Soup is for lunch."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "ham"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "[[Ham]] is for [[lunch]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0036",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find this one.",
+    "choices": [
+      "The cake is sweet.",
+      "The bird is in the nest.",
+      "The apple is red."
+    ],
+    "explain_key": "not_short_a",
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Pick the sentence that matches. Listen for singing letter a like in [[cat]].",
+    "explain_item_en": "The [[apple]] is [[red]]. Cake has a quiet e.",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0037",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What is on it?",
+    "choices": [
+      "The cat has a cap.",
+      "The cake is on the plate.",
+      "The bird is in the tree."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[cat]] has a [[cap]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0038",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at this now.",
+    "choices": [
+      "The cake is on the plate.",
+      "The hat is on Dad.",
+      "The baby is in bed."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[hat]] is on [[Dad]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0039",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which fits?",
+    "choices": [
+      "The cake is on the plate.",
+      "The fish is in the pond.",
+      "The bag has a map."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[bag]] has a [[map]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0040",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> sees this.",
+    "choices": [
+      "<NAME> has a cap.",
+      "<NAME> has a book.",
+      "The cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "You see a [[cap]]. Put the sounds together: c-a-p, [[cap]].",
+    "speak_en": "Which sentence matches what you see?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0041",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What is in it?",
+    "choices": [
+      "The cake is on the plate.",
+      "The rat is in the barn.",
+      "The moon is out."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[rat]] is in the [[barn]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0042",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See this now.",
+    "choices": [
+      "The bird is in the nest.",
+      "The cake is on the plate.",
+      "The fan is on the desk."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "fan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[fan]] is on the [[desk]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0043",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick the best.",
+    "choices": [
+      "The cake is on the plate.",
+      "The boat is on the lake.",
+      "The van is in the yard."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "van"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[van]] is in the [[yard]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0044",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look over here.",
+    "choices": [
+      "The book is on the desk.",
+      "The mat is on the floor.",
+      "The cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "mat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[mat]] is on the [[floor]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0045",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What is on top?",
+    "choices": [
+      "The pan is on the stove.",
+      "The cake is on the plate.",
+      "The cup is on the table."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[pan]] is on the [[stove]].",
+    "speak_en": "What is on top in this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0046",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find this.",
+    "choices": [
+      "The bee is on the flower.",
+      "The ant is on the sand.",
+      "The cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "The [[ant]] is on the [[sand]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0047",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which fits best?",
+    "choices": [
+      "The lamp is on the desk.",
+      "The clock is on the wall.",
+      "The cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[lamp]] is on the [[desk]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0048",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at that now.",
+    "choices": [
+      "Ham is on the plate.",
+      "The egg is in the cup.",
+      "The cake is on the plate."
+    ],
+    "explain_key": "not_short_a",
+    "media": [
+      {
+        "lemma": "ham"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Pick the sentence that matches. Listen for singing letter a like in [[cat]].",
+    "explain_item_en": "[[Ham]] is on the [[plate]]. Cake has a quiet e.",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0049",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See this thing.",
+    "choices": [
+      "Milk is in the cup.",
+      "Jam is in the jar.",
+      "The cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "jam"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look at the picture. Pick the sentence that [[matches]] and has singing letter a like in cat.",
+    "explain_item_en": "[[Jam]] is in the [[jar]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0050",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What sits here?",
+    "choices": [
+      "The kite is in the sky.",
+      "The cake is on the plate.",
+      "The flag is on the pole."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "flag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Pick the sentence that [[matches]]. Listen for singing letter a like in cat.",
+    "explain_item_en": "The [[flag]] is on the [[pole]].",
+    "speak_en": "Which sentence matches this picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0051",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick this.",
+    "choices": [
+      "Snow is on the hill.",
+      "Sand is at the beach.",
+      "The cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0052",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look down.",
+    "choices": [
+      "The bird is in the tree.",
+      "The cake is on the plate.",
+      "The bat is in the barn."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "bat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0053",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> found this.",
+    "choices": [
+      "<NAME> has a map.",
+      "<NAME> has a cake.",
+      "The book is on the desk."
+    ],
+    "explain_key": "not_short_a",
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0054",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What is with him?",
+    "choices": [
+      "The cake is on the plate.",
+      "Mom has a blue coat.",
+      "Dad has a black hat."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0055",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find him.",
+    "choices": [
+      "The men have a ball.",
+      "The cake is on the plate.",
+      "The man has a bag."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "man"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0056",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which is red?",
+    "choices": [
+      "A cake is on the plate.",
+      "An apple is in the bag.",
+      "A bird is in the nest."
+    ],
+    "explain_key": "not_short_a",
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0057",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look over there.",
+    "choices": [
+      "A dog is in the yard.",
+      "A cake is on the plate.",
+      "A cat is on the mat."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0058",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See it now.",
+    "choices": [
+      "A hat is on the bed.",
+      "A cake is on the plate.",
+      "A coat is on the hook."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0059",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What is on it now?",
+    "choices": [
+      "A bag is on the chair.",
+      "A cake is on the plate.",
+      "A box is on the floor."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0060",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick this one.",
+    "choices": [
+      "A cap is on the hook.",
+      "A cake is on the plate.",
+      "A coat is on the bed."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0061",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find that one.",
+    "choices": [
+      "A rat is in the barn.",
+      "A cow is in the field.",
+      "A cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0062",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at this too.",
+    "choices": [
+      "A cake is on the plate.",
+      "A lamp is on the desk.",
+      "A fan is on the table."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "fan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0063",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look out there.",
+    "choices": [
+      "A cake is on the plate.",
+      "A bus is at school.",
+      "A van is in the yard."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "van"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0064",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See this here.",
+    "choices": [
+      "A cake is on the plate.",
+      "A rug is in the room.",
+      "A mat is by the door."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "mat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0065",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look in here.",
+    "choices": [
+      "A pot is on the stove.",
+      "A pan is in the kitchen.",
+      "A cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0066",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See this tiny one.",
+    "choices": [
+      "A bee is on the flower.",
+      "A cake is on the plate.",
+      "An ant is on the leaf."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0067",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick that.",
+    "choices": [
+      "A lamp is by the bed.",
+      "A clock is on the wall.",
+      "A cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0068",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look right here.",
+    "choices": [
+      "Cake is on the plate.",
+      "Soup is in the bowl.",
+      "Ham is on the table."
+    ],
+    "explain_key": "not_short_a",
+    "media": [
+      {
+        "lemma": "ham"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0069",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at this food.",
+    "choices": [
+      "Cake is on the plate.",
+      "Butter is on the bread.",
+      "Jam is on the bread."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "jam"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0070",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the wall.",
+    "choices": [
+      "A flag is on the wall.",
+      "A map is on the desk.",
+      "A cake is on the plate."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "flag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0071",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at this pile.",
+    "choices": [
+      "Sand is in the box.",
+      "Cake is on the plate.",
+      "Dirt is in the yard."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0072",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See up there.",
+    "choices": [
+      "A bat is in the tree.",
+      "A cake is on the plate.",
+      "A bird is in the nest."
+    ],
+    "explain_key": "scene_match",
+    "media": [
+      {
+        "lemma": "bat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0073",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Check here.",
+    "choices": [
+      "The dog can run.",
+      "The cake is red.",
+      "The hat is black.",
+      "The cat is black."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0074",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Check again.",
+    "choices": [
+      "The cat is mad.",
+      "The hat is mad.",
+      "The cake is mad.",
+      "The dog is sad."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0075",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Who is this?",
+    "choices": [
+      "The man has a cap.",
+      "The men have a cap.",
+      "The moon is out.",
+      "The cake is big."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "man"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0076",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See this face.",
+    "choices": [
+      "The mask is black.",
+      "The mat is black.",
+      "The cake is black.",
+      "The dog ran."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "mask"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0077",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "What is red?",
+    "choices": [
+      "The bag is red.",
+      "The cake is red.",
+      "The boat is big.",
+      "The bat is red."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0078",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look again.",
+    "choices": [
+      "The cat can fly.",
+      "The bird can fly.",
+      "The cake is big.",
+      "The bat can fly."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "bat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0079",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look up here.",
+    "choices": [
+      "The cake is sweet.",
+      "The dog ran fast.",
+      "The cap is red.",
+      "The cat is red."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0080",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which is small?",
+    "choices": [
+      "The cake is sweet.",
+      "The rat is small.",
+      "The dog is big.",
+      "The cat is small."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0081",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Try here.",
+    "choices": [
+      "The mat is flat.",
+      "The hat is flat.",
+      "The cake is sweet.",
+      "The dog ran."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "mat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0082",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See this well.",
+    "choices": [
+      "The pan is hot.",
+      "The cake is hot.",
+      "The dog ran.",
+      "The pen is hot."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0083",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "What is on?",
+    "choices": [
+      "The cake is on.",
+      "The fan is on.",
+      "The dog ran.",
+      "The van is on."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "fan"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0084",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick well.",
+    "choices": [
+      "The cake is red.",
+      "The dog ran.",
+      "The van is red.",
+      "The fan is red."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "van"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0085",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look well.",
+    "choices": [
+      "The cake is sweet.",
+      "The cat is small.",
+      "The dog is big.",
+      "The ant is small."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0086",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which is on?",
+    "choices": [
+      "The hat is on.",
+      "The lamp is on.",
+      "The dog ran.",
+      "The cake is on."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0087",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "What is so hot?",
+    "choices": [
+      "The dog ran.",
+      "The hat is hot.",
+      "The ham is hot.",
+      "The cake is hot."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "ham"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0088",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "What tastes sweet?",
+    "choices": [
+      "The dog ran.",
+      "Jam is sweet.",
+      "The cake is sweet.",
+      "The hat is sweet."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "jam"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0089",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "What is up?",
+    "choices": [
+      "The cake is red.",
+      "The dog ran.",
+      "The hat is red.",
+      "The flag is red."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "flag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0090",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look low.",
+    "choices": [
+      "The cake is dry.",
+      "The sand is dry.",
+      "The dog ran.",
+      "The hat is dry."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0091",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which is flat?",
+    "choices": [
+      "The cake is flat.",
+      "The map is flat.",
+      "The hat is flat.",
+      "The dog ran."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0092",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See him now?",
+    "choices": [
+      "Dad has a hat.",
+      "The cake is sweet.",
+      "The dog ran.",
+      "The man has a hat."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0093",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick red.",
+    "choices": [
+      "The cake is red.",
+      "The dog ran.",
+      "The hat is red.",
+      "The apple is red."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0094",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look twice.",
+    "choices": [
+      "The cat can nap.",
+      "The dog can run.",
+      "The cake can nap.",
+      "The hat can nap."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0095",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which is black?",
+    "choices": [
+      "The hat is black.",
+      "The dog ran.",
+      "The cat is black.",
+      "The cake is black."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0096",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Find big.",
+    "choices": [
+      "The bat is big.",
+      "The dog ran.",
+      "The bag is big.",
+      "The cake is big."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0097",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See him?",
+    "choices": [
+      "The hat ran fast.",
+      "The cake ran fast.",
+      "The man ran fast.",
+      "The men ran fast."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "man"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0098",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See this car.",
+    "choices": [
+      "The cab is yellow.",
+      "The cub is yellow.",
+      "The cake is yellow.",
+      "The dog ran."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "cab"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0099",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which is fast?",
+    "choices": [
+      "The cake ran fast.",
+      "The dog ran fast.",
+      "The cat ran fast.",
+      "The rat ran fast."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_a_sentence_that_matches_the_0100",
+    "family_id": "fam_choose_the_short_a_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_a_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "What can we eat?",
+    "choices": [
+      "The snack is good.",
+      "The snake is good.",
+      "The cake is good.",
+      "The dog can run."
+    ],
+    "explain_key": "close_word",
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  }
+]

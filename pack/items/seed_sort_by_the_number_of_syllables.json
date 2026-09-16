@@ -1,1 +1,2797 @@
-[{"item_id": "seed_sort_by_the_number_of_syllables_0001", "tier": 1, "stem": "cat, rabbit, dog, kitten", "choices": ["cat", "rabbit", "dog", "kitten"], "explain_key": "count_the_parts", "media": [{"lemma": "rabbit"}], "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_by_the_number_of_syllables_0002", "tier": 1, "stem": "apple, pig, hen, table", "choices": ["apple", "pig", "hen", "table"], "explain_key": "count_the_parts", "media": [{"lemma": "apple"}], "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_by_the_number_of_syllables_0003", "tier": 1, "stem": "yellow, sun, water, tree", "choices": ["yellow", "sun", "water", "tree"], "explain_key": "one_part_bin", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_by_the_number_of_syllables_0004", "tier": 2, "stem": "sock, letter, window, book", "choices": ["sock", "letter", "window", "book"], "explain_key": "two_part_bin", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_by_the_number_of_syllables_0005", "tier": 2, "stem": "farm, summer, winter, milk", "choices": ["farm", "summer", "winter", "milk"], "explain_key": "two_part_bin", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_by_the_number_of_syllables_0006", "tier": 2, "stem": "morning, cake, sister, snow", "choices": ["morning", "cake", "sister", "snow"], "explain_key": "count_the_parts", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_by_the_number_of_syllables_0007", "tier": 3, "stem": "school, teacher, paper, park", "choices": ["school", "teacher", "paper", "park"], "explain_key": "long_but_one", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_by_the_number_of_syllables_0008", "tier": 3, "stem": "monkey, fish, pocket, plate", "choices": ["monkey", "fish", "pocket", "plate"], "explain_key": "count_the_parts", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_by_the_number_of_syllables_0009", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "hen, kitten, pig, rabbit", "choices": ["hen", "kitten", "pig", "rabbit"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kitten"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0010", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "dog, apple, bus, table", "choices": ["dog", "apple", "bus", "table"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "apple"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0011", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "fish, sister, hen, water", "choices": ["fish", "sister", "hen", "water"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0012", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "ball, puppy, cup, mitten", "choices": ["ball", "puppy", "cup", "mitten"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "puppy"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0013", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "bed, garden, toy, yellow", "choices": ["bed", "garden", "toy", "yellow"], "answer_index": [0, 2, 1, 3], "explain_key": "one_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0014", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "moon, basket, star, happy", "choices": ["moon", "basket", "star", "happy"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "basket"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0015", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "duck, pillow, fox, tiger", "choices": ["duck", "pillow", "fox", "tiger"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "tiger"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0016", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "cow, carrot, frog, napkin", "choices": ["cow", "carrot", "frog", "napkin"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "napkin"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0017", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "cat, monkey, hat, paper", "choices": ["cat", "monkey", "hat", "paper"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "monkey"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0018", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "sun, water, tree, apple", "choices": ["sun", "water", "tree", "apple"], "answer_index": [0, 2, 1, 3], "explain_key": "one_part_bin", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "apple"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0019", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "pig, kitten, bag, sister", "choices": ["pig", "kitten", "bag", "sister"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0020", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "dog, rabbit, pen, table", "choices": ["dog", "rabbit", "pen", "table"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rabbit"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0021", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "bird, puppy, nest, kitchen", "choices": ["bird", "puppy", "nest", "kitchen"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "puppy"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0022", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "cake, muffin, sock, wagon", "choices": ["cake", "muffin", "sock", "wagon"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "muffin"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0023", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "farm, winter, milk, summer", "choices": ["farm", "winter", "milk", "summer"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0024", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "hen, yellow, pig, window", "choices": ["hen", "yellow", "pig", "window"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0025", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "fish, baby, rock, dinner", "choices": ["fish", "baby", "rock", "dinner"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "baby"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0026", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "cat, letter, dog, morning", "choices": ["cat", "letter", "dog", "morning"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0027", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "bus, tiger, jar, pillow", "choices": ["bus", "tiger", "jar", "pillow"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "tiger"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0028", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "snow, cookie, book, brother", "choices": ["snow", "cookie", "book", "brother"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0029", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "park, teacher, plate, paper", "choices": ["park", "teacher", "plate", "paper"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0030", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "cup, banana, pot, pocket", "choices": ["cup", "banana", "pot", "pocket"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "banana"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0031", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "lamp, orange, rug, happy", "choices": ["lamp", "orange", "rug", "happy"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0032", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "kite, blanket, log, money", "choices": ["kite", "blanket", "log", "money"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "blanket"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0033", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "rose, crayon, seed, picnic", "choices": ["rose", "crayon", "seed", "picnic"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "crayon"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0034", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "zoo, balloon, yard, little", "choices": ["zoo", "balloon", "yard", "little"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "balloon"}]}, {"item_id": "seed_sort_by_the_number_of_syllables_0035", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "owl, ribbon, wings, garden", "choices": ["owl", "ribbon", "wings", "garden"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0036", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "shed, elbow, brick, candles", "choices": ["shed", "elbow", "brick", "candles"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0037", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "bridge, pencil, truck, couch", "choices": ["bridge", "pencil", "truck", "couch"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0038", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "world, turtle, string, beaver", "choices": ["world", "turtle", "string", "beaver"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0039", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "horse, breakfast, flag, crown", "choices": ["horse", "breakfast", "flag", "crown"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0040", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "snake, igloo, smile, rainbow", "choices": ["snake", "igloo", "smile", "rainbow"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0041", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "queen, peanut, whale, seven", "choices": ["queen", "peanut", "whale", "seven"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0042", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "wheel, pretty, wheat, open", "choices": ["wheel", "pretty", "wheat", "open"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0043", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "stream, lemon, bridge, cereal", "choices": ["stream", "lemon", "bridge", "cereal"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0044", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "school, follow, grass, river", "choices": ["school", "follow", "grass", "river"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0045", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "street, finish, stone, sunny", "choices": ["street", "finish", "stone", "sunny"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0046", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "friend, crayons, train, honey", "choices": ["friend", "crayons", "train", "honey"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0047", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "child, playground, heart, lunch", "choices": ["child", "playground", "heart", "lunch"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0048", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "snail, button, spoon, fellow", "choices": ["snail", "button", "spoon", "fellow"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0049", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "store, eagle, stick, couch", "choices": ["store", "eagle", "stick", "couch"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0050", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "bridge, money, truck, pillow", "choices": ["bridge", "money", "truck", "pillow"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0051", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "world, mitten, string, butter", "choices": ["world", "mitten", "string", "butter"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0052", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "horse, recess, flag, crown", "choices": ["horse", "recess", "flag", "crown"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0053", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "snake, grandma, smile, teddy", "choices": ["snake", "grandma", "smile", "teddy"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0054", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "queen, carrot, whale, kitchen", "choices": ["queen", "carrot", "whale", "kitchen"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0055", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "wheel, napkin, wheat, puppy", "choices": ["wheel", "napkin", "wheat", "puppy"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0056", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "stream, wagon, bridge, happy", "choices": ["stream", "wagon", "bridge", "happy"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0057", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "school, winter, grass, summer", "choices": ["school", "winter", "grass", "summer"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0058", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "street, monkey, stone, tiger", "choices": ["street", "monkey", "stone", "tiger"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0059", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "friend, orange, train, garden", "choices": ["friend", "orange", "train", "garden"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0060", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "child, blanket, heart, picnic", "choices": ["child", "blanket", "heart", "picnic"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0061", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "snail, pocket, spoon, paper", "choices": ["snail", "pocket", "spoon", "paper"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0062", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "bridge, dinner, truck, sister", "choices": ["bridge", "dinner", "truck", "sister"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0063", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "world, beaver, string, crayon", "choices": ["world", "beaver", "string", "crayon"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0064", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "horse, birthday, flag, ribbon", "choices": ["horse", "birthday", "flag", "ribbon"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0065", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "snake, elbow, smile, candles", "choices": ["snake", "elbow", "smile", "candles"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0066", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "queen, muffin, whale, banana", "choices": ["queen", "muffin", "whale", "banana"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0067", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "wheel, teacher, wheat, window", "choices": ["wheel", "teacher", "wheat", "window"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0068", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "stream, cookie, bridge, mother", "choices": ["stream", "cookie", "bridge", "mother"], "answer_index": [0, 2, 1, 3], "explain_key": "two_part_bin", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0069", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "school, morning, grass, letter", "choices": ["school", "morning", "grass", "letter"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0070", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "street, balloon, stone, little", "choices": ["street", "balloon", "stone", "little"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0071", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "friend, hopping, train, hungry", "choices": ["friend", "hopping", "train", "hungry"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0072", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "child, sunset, heart, pretty", "choices": ["child", "sunset", "heart", "pretty"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0073", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "school, pocket, horse, kitchen", "choices": ["school", "pocket", "horse", "kitchen"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0074", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "world, teacher, string, paper", "choices": ["world", "teacher", "string", "paper"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0075", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, monkey, bridge, napkin", "choices": ["friend", "monkey", "bridge", "napkin"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0076", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "child, puppy, heart, pillow", "choices": ["child", "puppy", "heart", "pillow"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0077", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "street, basket, stone, happy", "choices": ["street", "basket", "stone", "happy"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0078", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "horse, window, bridge, sister", "choices": ["horse", "window", "bridge", "sister"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0079", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "school, carrot, train, muffin", "choices": ["school", "carrot", "train", "muffin"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0080", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "world, pocket, smile, dinner", "choices": ["world", "pocket", "smile", "dinner"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0081", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, tiger, field, kitchen", "choices": ["friend", "tiger", "field", "kitchen"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0082", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "child, wagon, light, blanket", "choices": ["child", "wagon", "light", "blanket"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0083", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "street, teacher, snail, paper", "choices": ["street", "teacher", "snail", "paper"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0084", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "horse, monkey, wheel, napkin", "choices": ["horse", "monkey", "wheel", "napkin"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0085", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "school, happy, bridge, pencil", "choices": ["school", "happy", "bridge", "pencil"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0086", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "world, kitchen, string, crayon", "choices": ["world", "kitchen", "string", "crayon"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0087", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, pocket, train, orange", "choices": ["friend", "pocket", "train", "orange"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0088", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "child, mitten, night, garden", "choices": ["child", "mitten", "night", "garden"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0089", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "street, puppy, stone, ribbon", "choices": ["street", "puppy", "stone", "ribbon"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0090", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "horse, basket, flag, picnic", "choices": ["horse", "basket", "flag", "picnic"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0091", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "school, tiger, grass, elbow", "choices": ["school", "tiger", "grass", "elbow"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0092", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "world, dinner, bridge, candles", "choices": ["world", "dinner", "bridge", "candles"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0093", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, napkin, field, beaver", "choices": ["friend", "napkin", "field", "beaver"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0094", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "child, carrot, heart, couch", "choices": ["child", "carrot", "heart", "couch"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0095", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "street, wagon, snake, little", "choices": ["street", "wagon", "snake", "little"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0096", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "horse, happy, wheel, money", "choices": ["horse", "happy", "wheel", "money"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0097", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "school, pillow, train, summer", "choices": ["school", "pillow", "train", "summer"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0098", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "world, kitchen, thread, banana", "choices": ["world", "kitchen", "thread", "banana"], "answer_index": [0, 2, 1, 3], "explain_key": "count_the_parts", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0099", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, pocket, bridge, hopping", "choices": ["friend", "pocket", "bridge", "hopping"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_sort_by_the_number_of_syllables_0100", "family_id": "fam_sort_by_the_number_of_syllables", "skill_id": "seed_sort_by_the_number_of_syllables", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "child, muffin, light, playground", "choices": ["child", "muffin", "light", "playground"], "answer_index": [0, 2, 1, 3], "explain_key": "long_but_one", "source": "composer-2.5", "spec_version": 1}]
+[
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0001",
+    "tier": 1,
+    "stem": "cat, rabbit, dog, kitten",
+    "choices": [
+      "cat",
+      "rabbit",
+      "dog",
+      "kitten"
+    ],
+    "explain_key": "count_the_parts",
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ],
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Cat]] and dog have one part. [[Rabbit]] and [[kitten]] have two.",
+    "speak_en": "Clap cat, rabbit, dog, and kitten. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0002",
+    "tier": 1,
+    "stem": "apple, pig, hen, table",
+    "choices": [
+      "apple",
+      "pig",
+      "hen",
+      "table"
+    ],
+    "explain_key": "count_the_parts",
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Pig]] and hen have one part. [[Apple]] and [[table]] have two.",
+    "speak_en": "Clap apple, pig, hen, and table. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0003",
+    "tier": 1,
+    "stem": "yellow, sun, water, tree",
+    "choices": [
+      "yellow",
+      "sun",
+      "water",
+      "tree"
+    ],
+    "explain_key": "one_part_bin",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "Some words have just [[one]] part. Put those in the one bin.",
+    "explain_item_en": "[[Sun]] and [[tree]] get one clap. Yellow has two.",
+    "speak_en": "Clap yellow, sun, water, and tree. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0004",
+    "tier": 2,
+    "stem": "sock, letter, window, book",
+    "choices": [
+      "sock",
+      "letter",
+      "window",
+      "book"
+    ],
+    "explain_key": "two_part_bin",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Letter]] and [[window]] have two parts. Sock has [[one]].",
+    "speak_en": "Clap sock, letter, window, and book. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0005",
+    "tier": 2,
+    "stem": "farm, summer, winter, milk",
+    "choices": [
+      "farm",
+      "summer",
+      "winter",
+      "milk"
+    ],
+    "explain_key": "two_part_bin",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Summer]] and [[winter]] have two parts. Farm has [[one]].",
+    "speak_en": "Clap farm, summer, winter, and milk. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0006",
+    "tier": 2,
+    "stem": "morning, cake, sister, snow",
+    "choices": [
+      "morning",
+      "cake",
+      "sister",
+      "snow"
+    ],
+    "explain_key": "count_the_parts",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Cake]] and snow have one part. [[Morning]] and [[sister]] have two.",
+    "speak_en": "Clap morning, cake, sister, and snow. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0007",
+    "tier": 3,
+    "stem": "school, teacher, paper, park",
+    "choices": [
+      "school",
+      "teacher",
+      "paper",
+      "park"
+    ],
+    "explain_key": "long_but_one",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Teacher]] and [[paper]] get two.",
+    "speak_en": "Clap school, teacher, paper, and park. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0008",
+    "tier": 3,
+    "stem": "monkey, fish, pocket, plate",
+    "choices": [
+      "monkey",
+      "fish",
+      "pocket",
+      "plate"
+    ],
+    "explain_key": "count_the_parts",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Fish]] and plate have one part. [[Monkey]] and [[pocket]] have two.",
+    "speak_en": "Clap monkey, fish, pocket, and plate. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0009",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "hen, kitten, pig, rabbit",
+    "choices": [
+      "hen",
+      "kitten",
+      "pig",
+      "rabbit"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Hen]] and pig have one part. [[Kitten]] and [[rabbit]] have two.",
+    "speak_en": "Clap hen, kitten, pig, and rabbit. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0010",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "dog, apple, bus, table",
+    "choices": [
+      "dog",
+      "apple",
+      "bus",
+      "table"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Dog]] and bus have one part. [[Apple]] and [[table]] have two.",
+    "speak_en": "Clap dog, apple, bus, and table. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0011",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "fish, sister, hen, water",
+    "choices": [
+      "fish",
+      "sister",
+      "hen",
+      "water"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Fish]] and hen have one part. [[Sister]] and [[water]] have two.",
+    "speak_en": "Clap fish, sister, hen, and water. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0012",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "ball, puppy, cup, mitten",
+    "choices": [
+      "ball",
+      "puppy",
+      "cup",
+      "mitten"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Ball]] and cup have one part. [[Puppy]] and [[mitten]] have two.",
+    "speak_en": "Clap ball, puppy, cup, and mitten. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0013",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "bed, garden, toy, yellow",
+    "choices": [
+      "bed",
+      "garden",
+      "toy",
+      "yellow"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "one_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have just [[one]] part. Put those in the one bin.",
+    "explain_item_en": "[[Bed]] and [[toy]] get one clap. Garden has two.",
+    "speak_en": "Clap bed, garden, toy, and yellow. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0014",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "moon, basket, star, happy",
+    "choices": [
+      "moon",
+      "basket",
+      "star",
+      "happy"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "basket"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Moon]] and star have one part. [[Basket]] and [[happy]] have two.",
+    "speak_en": "Clap moon, basket, star, and happy. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0015",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "duck, pillow, fox, tiger",
+    "choices": [
+      "duck",
+      "pillow",
+      "fox",
+      "tiger"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tiger"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Duck]] and fox have one part. [[Pillow]] and [[tiger]] have two.",
+    "speak_en": "Clap duck, pillow, fox, and tiger. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0016",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "cow, carrot, frog, napkin",
+    "choices": [
+      "cow",
+      "carrot",
+      "frog",
+      "napkin"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "napkin"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Cow]] and frog have one part. [[Carrot]] and [[napkin]] have two.",
+    "speak_en": "Clap cow, carrot, frog, and napkin. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0017",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "cat, monkey, hat, paper",
+    "choices": [
+      "cat",
+      "monkey",
+      "hat",
+      "paper"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monkey"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Cat]] and hat have one part. [[Monkey]] and [[paper]] have two.",
+    "speak_en": "Clap cat, monkey, hat, and paper. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0018",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "sun, water, tree, apple",
+    "choices": [
+      "sun",
+      "water",
+      "tree",
+      "apple"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "one_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "explain_skill_en": "Some words have just [[one]] part. Put those in the one bin.",
+    "explain_item_en": "[[Sun]] and [[tree]] get one clap. Water has two.",
+    "speak_en": "Clap sun, water, tree, and apple. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0019",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "pig, kitten, bag, sister",
+    "choices": [
+      "pig",
+      "kitten",
+      "bag",
+      "sister"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Pig]] and bag have one part. [[Kitten]] and [[sister]] have two.",
+    "speak_en": "Clap pig, kitten, bag, and sister. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0020",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "dog, rabbit, pen, table",
+    "choices": [
+      "dog",
+      "rabbit",
+      "pen",
+      "table"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Dog]] and pen have one part. [[Rabbit]] and [[table]] have two.",
+    "speak_en": "Clap dog, rabbit, pen, and table. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0021",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "bird, puppy, nest, kitchen",
+    "choices": [
+      "bird",
+      "puppy",
+      "nest",
+      "kitchen"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Bird]] and nest have one part. [[Puppy]] and [[kitchen]] have two.",
+    "speak_en": "Clap bird, puppy, nest, and kitchen. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0022",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "cake, muffin, sock, wagon",
+    "choices": [
+      "cake",
+      "muffin",
+      "sock",
+      "wagon"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "muffin"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Cake]] and sock have one part. [[Muffin]] and [[wagon]] have two.",
+    "speak_en": "Clap cake, muffin, sock, and wagon. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0023",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "farm, winter, milk, summer",
+    "choices": [
+      "farm",
+      "winter",
+      "milk",
+      "summer"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Winter]] and [[summer]] have two parts. Farm has [[one]].",
+    "speak_en": "Clap farm, winter, milk, and summer. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0024",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "hen, yellow, pig, window",
+    "choices": [
+      "hen",
+      "yellow",
+      "pig",
+      "window"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Hen]] and pig have one part. [[Yellow]] and [[window]] have two.",
+    "speak_en": "Clap hen, yellow, pig, and window. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0025",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "fish, baby, rock, dinner",
+    "choices": [
+      "fish",
+      "baby",
+      "rock",
+      "dinner"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Fish]] and rock have one part. [[Baby]] and [[dinner]] have two.",
+    "speak_en": "Clap fish, baby, rock, and dinner. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0026",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "cat, letter, dog, morning",
+    "choices": [
+      "cat",
+      "letter",
+      "dog",
+      "morning"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Cat]] and dog have one part. [[Letter]] and [[morning]] have two.",
+    "speak_en": "Clap cat, letter, dog, and morning. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0027",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "bus, tiger, jar, pillow",
+    "choices": [
+      "bus",
+      "tiger",
+      "jar",
+      "pillow"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tiger"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Bus]] and jar have one part. [[Tiger]] and [[pillow]] have two.",
+    "speak_en": "Clap bus, tiger, jar, and pillow. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0028",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "snow, cookie, book, brother",
+    "choices": [
+      "snow",
+      "cookie",
+      "book",
+      "brother"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Snow]] and book have one part. [[Cookie]] and [[brother]] have two.",
+    "speak_en": "Clap snow, cookie, book, and brother. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0029",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "park, teacher, plate, paper",
+    "choices": [
+      "park",
+      "teacher",
+      "plate",
+      "paper"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Park]] and plate have one part. [[Teacher]] and [[paper]] have two.",
+    "speak_en": "Clap park, teacher, plate, and paper. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0030",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "cup, banana, pot, pocket",
+    "choices": [
+      "cup",
+      "banana",
+      "pot",
+      "pocket"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "banana"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Cup]] and pot have one part. [[Banana]] has more than one.",
+    "speak_en": "Clap cup, banana, pot, and pocket. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0031",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "lamp, orange, rug, happy",
+    "choices": [
+      "lamp",
+      "orange",
+      "rug",
+      "happy"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Lamp]] and rug have one part. [[Orange]] and [[happy]] have two.",
+    "speak_en": "Clap lamp, orange, rug, and happy. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0032",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "kite, blanket, log, money",
+    "choices": [
+      "kite",
+      "blanket",
+      "log",
+      "money"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Kite]] and log have one part. [[Blanket]] and [[money]] have two.",
+    "speak_en": "Clap kite, blanket, log, and money. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0033",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "rose, crayon, seed, picnic",
+    "choices": [
+      "rose",
+      "crayon",
+      "seed",
+      "picnic"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Rose]] and seed have one part. [[Crayon]] and [[picnic]] have two.",
+    "speak_en": "Clap rose, crayon, seed, and picnic. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0034",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "zoo, balloon, yard, little",
+    "choices": [
+      "zoo",
+      "balloon",
+      "yard",
+      "little"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "balloon"
+      }
+    ],
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Zoo]] and yard have one part. [[Balloon]] and [[little]] have two.",
+    "speak_en": "Clap zoo, balloon, yard, and little. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0035",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "owl, ribbon, wings, garden",
+    "choices": [
+      "owl",
+      "ribbon",
+      "wings",
+      "garden"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Owl]] and wings have one part. [[Ribbon]] and [[garden]] have two.",
+    "speak_en": "Clap owl, ribbon, wings, and garden. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0036",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "shed, elbow, brick, candles",
+    "choices": [
+      "shed",
+      "elbow",
+      "brick",
+      "candles"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Elbow]] and [[candles]] have two parts. Shed has [[one]].",
+    "speak_en": "Clap shed, elbow, brick, and candles. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0037",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "bridge, pencil, truck, couch",
+    "choices": [
+      "bridge",
+      "pencil",
+      "truck",
+      "couch"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Bridge]] and truck have one part. [[Pencil]] has two parts.",
+    "speak_en": "Clap bridge, pencil, truck, and couch. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0038",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "world, turtle, string, beaver",
+    "choices": [
+      "world",
+      "turtle",
+      "string",
+      "beaver"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[World]] and string have one part. [[Turtle]] and [[beaver]] have two.",
+    "speak_en": "Clap world, turtle, string, and beaver. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0039",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "horse, breakfast, flag, crown",
+    "choices": [
+      "horse",
+      "breakfast",
+      "flag",
+      "crown"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Breakfast]] has two parts. [[Horse]] and [[flag]] have one.",
+    "speak_en": "Clap horse, breakfast, flag, and crown. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0040",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "snake, igloo, smile, rainbow",
+    "choices": [
+      "snake",
+      "igloo",
+      "smile",
+      "rainbow"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Snake]] and smile have one part. [[Igloo]] and [[rainbow]] have two.",
+    "speak_en": "Clap snake, igloo, smile, and rainbow. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0041",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "queen, peanut, whale, seven",
+    "choices": [
+      "queen",
+      "peanut",
+      "whale",
+      "seven"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Queen]] and whale have one part. [[Peanut]] and [[seven]] have two.",
+    "speak_en": "Clap queen, peanut, whale, and seven. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0042",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "wheel, pretty, wheat, open",
+    "choices": [
+      "wheel",
+      "pretty",
+      "wheat",
+      "open"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Wheel]] and wheat have one part. [[Pretty]] and [[open]] have two.",
+    "speak_en": "Clap wheel, pretty, wheat, and open. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0043",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "stream, lemon, bridge, cereal",
+    "choices": [
+      "stream",
+      "lemon",
+      "bridge",
+      "cereal"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Lemon]] has two parts. [[Stream]] and [[bridge]] have one.",
+    "speak_en": "Clap stream, lemon, bridge, and cereal. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0044",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "school, follow, grass, river",
+    "choices": [
+      "school",
+      "follow",
+      "grass",
+      "river"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Follow]] and [[river]] get two.",
+    "speak_en": "Clap school, follow, grass, and river. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0045",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "street, finish, stone, sunny",
+    "choices": [
+      "street",
+      "finish",
+      "stone",
+      "sunny"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Street]] and stone have one part. [[Finish]] and [[sunny]] have two.",
+    "speak_en": "Clap street, finish, stone, and sunny. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0046",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "friend, crayons, train, honey",
+    "choices": [
+      "friend",
+      "crayons",
+      "train",
+      "honey"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Friend]] and train have one part. [[Crayons]] and [[honey]] have two.",
+    "speak_en": "Clap friend, crayons, train, and honey. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0047",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "child, playground, heart, lunch",
+    "choices": [
+      "child",
+      "playground",
+      "heart",
+      "lunch"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Child]] gets one clap. [[Playground]] has two [[parts]].",
+    "speak_en": "Clap child, playground, heart, and lunch. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0048",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "snail, button, spoon, fellow",
+    "choices": [
+      "snail",
+      "button",
+      "spoon",
+      "fellow"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Button]] and [[fellow]] have two parts. Snail has [[one]].",
+    "speak_en": "Clap snail, button, spoon, and fellow. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0049",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "store, eagle, stick, couch",
+    "choices": [
+      "store",
+      "eagle",
+      "stick",
+      "couch"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Store]] and stick have one part. [[Eagle]] has two parts.",
+    "speak_en": "Clap store, eagle, stick, and couch. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0050",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "bridge, money, truck, pillow",
+    "choices": [
+      "bridge",
+      "money",
+      "truck",
+      "pillow"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Bridge]] and truck have one part. [[Money]] and [[pillow]] have two.",
+    "speak_en": "Clap bridge, money, truck, and pillow. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0051",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "world, mitten, string, butter",
+    "choices": [
+      "world",
+      "mitten",
+      "string",
+      "butter"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[World]] and string have one part. [[Mitten]] and [[butter]] have two.",
+    "speak_en": "Clap world, mitten, string, and butter. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0052",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "horse, recess, flag, crown",
+    "choices": [
+      "horse",
+      "recess",
+      "flag",
+      "crown"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Recess]] has two parts. [[Horse]] and [[flag]] have one.",
+    "speak_en": "Clap horse, recess, flag, and crown. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0053",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "snake, grandma, smile, teddy",
+    "choices": [
+      "snake",
+      "grandma",
+      "smile",
+      "teddy"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Snake]] and smile have one part. [[Grandma]] and [[teddy]] have two.",
+    "speak_en": "Clap snake, grandma, smile, and teddy. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0054",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "queen, carrot, whale, kitchen",
+    "choices": [
+      "queen",
+      "carrot",
+      "whale",
+      "kitchen"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Queen]] and whale have one part. [[Carrot]] and [[kitchen]] have two.",
+    "speak_en": "Clap queen, carrot, whale, and kitchen. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0055",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "wheel, napkin, wheat, puppy",
+    "choices": [
+      "wheel",
+      "napkin",
+      "wheat",
+      "puppy"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Wheel]] and wheat have one part. [[Napkin]] and [[puppy]] have two.",
+    "speak_en": "Clap wheel, napkin, wheat, and puppy. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0056",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "stream, wagon, bridge, happy",
+    "choices": [
+      "stream",
+      "wagon",
+      "bridge",
+      "happy"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Wagon]] and [[happy]] have two parts. Stream has [[one]].",
+    "speak_en": "Clap stream, wagon, bridge, and happy. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0057",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "school, winter, grass, summer",
+    "choices": [
+      "school",
+      "winter",
+      "grass",
+      "summer"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Winter]] and [[summer]] get two.",
+    "speak_en": "Clap school, winter, grass, and summer. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0058",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "street, monkey, stone, tiger",
+    "choices": [
+      "street",
+      "monkey",
+      "stone",
+      "tiger"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Street]] and stone have one part. [[Monkey]] and [[tiger]] have two.",
+    "speak_en": "Clap street, monkey, stone, and tiger. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0059",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "friend, orange, train, garden",
+    "choices": [
+      "friend",
+      "orange",
+      "train",
+      "garden"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Friend]] and train have one part. [[Orange]] and [[garden]] have two.",
+    "speak_en": "Clap friend, orange, train, and garden. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0060",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "child, blanket, heart, picnic",
+    "choices": [
+      "child",
+      "blanket",
+      "heart",
+      "picnic"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Child]] gets one clap. [[Blanket]] and [[picnic]] get two.",
+    "speak_en": "Clap child, blanket, heart, and picnic. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0061",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "snail, pocket, spoon, paper",
+    "choices": [
+      "snail",
+      "pocket",
+      "spoon",
+      "paper"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Pocket]] and [[paper]] have two parts. Snail has [[one]].",
+    "speak_en": "Clap snail, pocket, spoon, and paper. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0062",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "bridge, dinner, truck, sister",
+    "choices": [
+      "bridge",
+      "dinner",
+      "truck",
+      "sister"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Bridge]] and truck have one part. [[Dinner]] and [[sister]] have two.",
+    "speak_en": "Clap bridge, dinner, truck, and sister. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0063",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "world, beaver, string, crayon",
+    "choices": [
+      "world",
+      "beaver",
+      "string",
+      "crayon"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[World]] and string have one part. [[Beaver]] and [[crayon]] have two.",
+    "speak_en": "Clap world, beaver, string, and crayon. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0064",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "horse, birthday, flag, ribbon",
+    "choices": [
+      "horse",
+      "birthday",
+      "flag",
+      "ribbon"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Birthday]] and [[ribbon]] have two parts. Horse has [[one]].",
+    "speak_en": "Clap horse, birthday, flag, and ribbon. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0065",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "snake, elbow, smile, candles",
+    "choices": [
+      "snake",
+      "elbow",
+      "smile",
+      "candles"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Snake]] and smile have one part. [[Elbow]] and [[candles]] have two.",
+    "speak_en": "Clap snake, elbow, smile, and candles. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0066",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "queen, muffin, whale, banana",
+    "choices": [
+      "queen",
+      "muffin",
+      "whale",
+      "banana"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Queen]] and whale have one part. [[Muffin]] has two. Banana has more.",
+    "speak_en": "Clap queen, muffin, whale, and banana. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0067",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "wheel, teacher, wheat, window",
+    "choices": [
+      "wheel",
+      "teacher",
+      "wheat",
+      "window"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Wheel]] and wheat have one part. [[Teacher]] and [[window]] have two.",
+    "speak_en": "Clap wheel, teacher, wheat, and window. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0068",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "stream, cookie, bridge, mother",
+    "choices": [
+      "stream",
+      "cookie",
+      "bridge",
+      "mother"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "two_part_bin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Some words have [[two]] parts. Clap two times.",
+    "explain_item_en": "[[Cookie]] and [[mother]] have two parts. Stream has [[one]].",
+    "speak_en": "Clap stream, cookie, bridge, and mother. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0069",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "school, morning, grass, letter",
+    "choices": [
+      "school",
+      "morning",
+      "grass",
+      "letter"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Morning]] and [[letter]] get two.",
+    "speak_en": "Clap school, morning, grass, and letter. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0070",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "street, balloon, stone, little",
+    "choices": [
+      "street",
+      "balloon",
+      "stone",
+      "little"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Street]] and stone have one part. [[Balloon]] and [[little]] have two.",
+    "speak_en": "Clap street, balloon, stone, and little. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0071",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "friend, hopping, train, hungry",
+    "choices": [
+      "friend",
+      "hopping",
+      "train",
+      "hungry"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Friend]] and train have one part. [[Hopping]] and [[hungry]] have two.",
+    "speak_en": "Clap friend, hopping, train, and hungry. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0072",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "child, sunset, heart, pretty",
+    "choices": [
+      "child",
+      "sunset",
+      "heart",
+      "pretty"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Child]] gets one clap. [[Sunset]] and [[pretty]] get two.",
+    "speak_en": "Clap child, sunset, heart, and pretty. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0073",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "school, pocket, horse, kitchen",
+    "choices": [
+      "school",
+      "pocket",
+      "horse",
+      "kitchen"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Pocket]] and [[kitchen]] get two.",
+    "speak_en": "Clap school, pocket, horse, and kitchen. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0074",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "world, teacher, string, paper",
+    "choices": [
+      "world",
+      "teacher",
+      "string",
+      "paper"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[World]] and string have one part. [[Teacher]] and [[paper]] have two.",
+    "speak_en": "Clap world, teacher, string, and paper. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0075",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, monkey, bridge, napkin",
+    "choices": [
+      "friend",
+      "monkey",
+      "bridge",
+      "napkin"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Friend]] gets one clap. [[Monkey]] and [[napkin]] get two.",
+    "speak_en": "Clap friend, monkey, bridge, and napkin. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0076",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "child, puppy, heart, pillow",
+    "choices": [
+      "child",
+      "puppy",
+      "heart",
+      "pillow"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Child]] gets one clap. [[Puppy]] and [[pillow]] get two.",
+    "speak_en": "Clap child, puppy, heart, and pillow. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0077",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "street, basket, stone, happy",
+    "choices": [
+      "street",
+      "basket",
+      "stone",
+      "happy"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Street]] and stone have one part. [[Basket]] and [[happy]] have two.",
+    "speak_en": "Clap street, basket, stone, and happy. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0078",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "horse, window, bridge, sister",
+    "choices": [
+      "horse",
+      "window",
+      "bridge",
+      "sister"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Horse]] gets one clap. [[Window]] and [[sister]] get two.",
+    "speak_en": "Clap horse, window, bridge, and sister. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0079",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "school, carrot, train, muffin",
+    "choices": [
+      "school",
+      "carrot",
+      "train",
+      "muffin"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Carrot]] and [[muffin]] get two.",
+    "speak_en": "Clap school, carrot, train, and muffin. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0080",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "world, pocket, smile, dinner",
+    "choices": [
+      "world",
+      "pocket",
+      "smile",
+      "dinner"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[World]] and smile have one part. [[Pocket]] and [[dinner]] have two.",
+    "speak_en": "Clap world, pocket, smile, and dinner. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0081",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, tiger, field, kitchen",
+    "choices": [
+      "friend",
+      "tiger",
+      "field",
+      "kitchen"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Friend]] gets one clap. [[Tiger]] and [[kitchen]] get two.",
+    "speak_en": "Clap friend, tiger, field, and kitchen. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0082",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "child, wagon, light, blanket",
+    "choices": [
+      "child",
+      "wagon",
+      "light",
+      "blanket"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Child]] gets one clap. [[Wagon]] and [[blanket]] get two.",
+    "speak_en": "Clap child, wagon, light, and blanket. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0083",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "street, teacher, snail, paper",
+    "choices": [
+      "street",
+      "teacher",
+      "snail",
+      "paper"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Street]] and snail have one part. [[Teacher]] and [[paper]] have two.",
+    "speak_en": "Clap street, teacher, snail, and paper. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0084",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "horse, monkey, wheel, napkin",
+    "choices": [
+      "horse",
+      "monkey",
+      "wheel",
+      "napkin"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Horse]] gets one clap. [[Monkey]] and [[napkin]] get two.",
+    "speak_en": "Clap horse, monkey, wheel, and napkin. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0085",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "school, happy, bridge, pencil",
+    "choices": [
+      "school",
+      "happy",
+      "bridge",
+      "pencil"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Happy]] and [[pencil]] get two.",
+    "speak_en": "Clap school, happy, bridge, and pencil. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0086",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "world, kitchen, string, crayon",
+    "choices": [
+      "world",
+      "kitchen",
+      "string",
+      "crayon"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[World]] and string have one part. [[Kitchen]] and [[crayon]] have two.",
+    "speak_en": "Clap world, kitchen, string, and crayon. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0087",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, pocket, train, orange",
+    "choices": [
+      "friend",
+      "pocket",
+      "train",
+      "orange"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Friend]] gets one clap. [[Pocket]] and [[orange]] get two.",
+    "speak_en": "Clap friend, pocket, train, and orange. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0088",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "child, mitten, night, garden",
+    "choices": [
+      "child",
+      "mitten",
+      "night",
+      "garden"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Child]] gets one clap. [[Mitten]] and [[garden]] get two.",
+    "speak_en": "Clap child, mitten, night, and garden. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0089",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "street, puppy, stone, ribbon",
+    "choices": [
+      "street",
+      "puppy",
+      "stone",
+      "ribbon"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Street]] and stone have one part. [[Puppy]] and [[ribbon]] have two.",
+    "speak_en": "Clap street, puppy, stone, and ribbon. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0090",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "horse, basket, flag, picnic",
+    "choices": [
+      "horse",
+      "basket",
+      "flag",
+      "picnic"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Horse]] gets one clap. [[Basket]] and [[picnic]] get two.",
+    "speak_en": "Clap horse, basket, flag, and picnic. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0091",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "school, tiger, grass, elbow",
+    "choices": [
+      "school",
+      "tiger",
+      "grass",
+      "elbow"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Tiger]] and [[elbow]] get two.",
+    "speak_en": "Clap school, tiger, grass, and elbow. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0092",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "world, dinner, bridge, candles",
+    "choices": [
+      "world",
+      "dinner",
+      "bridge",
+      "candles"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[World]] and bridge have one part. [[Dinner]] and [[candles]] have two.",
+    "speak_en": "Clap world, dinner, bridge, and candles. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0093",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, napkin, field, beaver",
+    "choices": [
+      "friend",
+      "napkin",
+      "field",
+      "beaver"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Friend]] gets one clap. [[Napkin]] and [[beaver]] get two.",
+    "speak_en": "Clap friend, napkin, field, and beaver. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0094",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "child, carrot, heart, couch",
+    "choices": [
+      "child",
+      "carrot",
+      "heart",
+      "couch"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Child]] gets one clap. [[Carrot]] has two [[parts]].",
+    "speak_en": "Clap child, carrot, heart, and couch. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0095",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "street, wagon, snake, little",
+    "choices": [
+      "street",
+      "wagon",
+      "snake",
+      "little"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[Street]] and snake have one part. [[Wagon]] and [[little]] have two.",
+    "speak_en": "Clap street, wagon, snake, and little. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0096",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "horse, happy, wheel, money",
+    "choices": [
+      "horse",
+      "happy",
+      "wheel",
+      "money"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Horse]] gets one clap. [[Happy]] and [[money]] get two.",
+    "speak_en": "Clap horse, happy, wheel, and money. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0097",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "school, pillow, train, summer",
+    "choices": [
+      "school",
+      "pillow",
+      "train",
+      "summer"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[School]] gets one clap. [[Pillow]] and [[summer]] get two.",
+    "speak_en": "Clap school, pillow, train, and summer. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0098",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "world, kitchen, thread, banana",
+    "choices": [
+      "world",
+      "kitchen",
+      "thread",
+      "banana"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "count_the_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Clap each word. Count the [[parts]].",
+    "explain_item_en": "[[World]] and thread have one part. [[Kitchen]] has two. Banana has more.",
+    "speak_en": "Clap world, kitchen, thread, and banana. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0099",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, pocket, bridge, hopping",
+    "choices": [
+      "friend",
+      "pocket",
+      "bridge",
+      "hopping"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Friend]] gets one clap. [[Pocket]] and [[hopping]] get two.",
+    "speak_en": "Clap friend, pocket, bridge, and hopping. Does each word have one part or two parts?"
+  },
+  {
+    "item_id": "seed_sort_by_the_number_of_syllables_0100",
+    "family_id": "fam_sort_by_the_number_of_syllables",
+    "skill_id": "seed_sort_by_the_number_of_syllables",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "child, muffin, light, playground",
+    "choices": [
+      "child",
+      "muffin",
+      "light",
+      "playground"
+    ],
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_key": "long_but_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A long word can still have [[one]] part. Clap and listen.",
+    "explain_item_en": "[[Child]] gets one clap. [[Muffin]] and [[playground]] get two.",
+    "speak_en": "Clap child, muffin, light, and playground. Does each word have one part or two parts?"
+  }
+]

@@ -1,1 +1,2322 @@
-[{"item_id": "seed_use_words_with_prefixes_and_suffixes_0001", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "A man on a farm is a", "choices": ["farmer", "farming", "farmed", "farms"], "answer_index": 0, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0002", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "One who sings a song is a", "choices": ["singing", "singer", "sings", "song"], "answer_index": 1, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0003", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "<NAME> is not happy. She is", "choices": ["happier", "unhappy", "helpful", "happy"], "answer_index": 1, "explain_key": "use_un", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0004", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> cut her hand. It was", "choices": ["pains", "pain", "painful", "painless"], "answer_index": 2, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0005", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "A day with lots of sun is", "choices": ["sunless", "suns", "sunny", "sunning"], "answer_index": 2, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0006", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> helps a lot. She is very", "choices": ["helpless", "helper", "helping", "helpful"], "answer_index": 3, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0007", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> has no help at all. She is", "choices": ["helpful", "helper", "helpless", "helping"], "answer_index": 2, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0008", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The sky has no clouds. It is", "choices": ["cloudy", "cloudless", "clouding", "clouds"], "answer_index": 1, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0009", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "He likes to play ball. He is a", "choices": ["player", "play", "plays", "playing"], "answer_index": 0, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0010", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "She can jump high. She is a", "choices": ["jump", "jumper", "jumps", "jumping"], "answer_index": 1, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0011", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "He helps his sister. He is a", "choices": ["help", "helps", "helper", "helping"], "answer_index": 2, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0012", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "Mom sells food at work. She is a", "choices": ["sell", "sells", "selling", "seller"], "answer_index": 3, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0013", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "This game is not fair. It is", "choices": ["unfair", "fair", "fairs", "fairly"], "answer_index": 0, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0014", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "That pond is not safe. It is", "choices": ["safe", "unsafe", "safely", "safer"], "answer_index": 1, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0015", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "That act was not kind. It was", "choices": ["kind", "kindly", "unkind", "kindness"], "answer_index": 2, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0016", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The door is locked. Please", "choices": ["lock", "locks", "locked", "unlock"], "answer_index": 3, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0017", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "Look at the gray clouds. It is", "choices": ["cloudy", "cloud", "clouds", "clouding"], "answer_index": 0, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0018", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The bright sun is out. It is", "choices": ["sun", "sunny", "suns", "sunning"], "answer_index": 1, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0019", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The pup loves to play. It is", "choices": ["play", "plays", "playful", "played"], "answer_index": 2, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0020", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "Her art has many colors. It is", "choices": ["color", "colors", "coloring", "colorful"], "answer_index": 3, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0021", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "<NAME> gives lots of help. She is", "choices": ["helpful", "helping", "helps", "helper"], "answer_index": 0, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0022", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The cut did not hurt. It was", "choices": ["pain", "painless", "pains", "painful"], "answer_index": 1, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0023", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "My uncle has a farm. He is a", "choices": ["farm", "farms", "farmer", "farming"], "answer_index": 2, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0024", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "My aunt loves to sing. She is a", "choices": ["sing", "sings", "singing", "singer"], "answer_index": 3, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0025", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "<NAME> says thank you a lot. She is", "choices": ["thankful", "thank", "thanks", "thanking"], "answer_index": 0, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0026", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The team gave a big cheer. They were", "choices": ["cheer", "cheerful", "cheers", "cheering"], "answer_index": 1, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0027", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "It rained and the sky is", "choices": ["cloud", "clouds", "cloudy", "clouding"], "answer_index": 2, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0028", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "There is zero help here. We are", "choices": ["help", "helps", "helpful", "helpless"], "answer_index": 3, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0029", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "We need to open it. Please", "choices": ["unlock", "lock", "locks", "locked"], "answer_index": 0, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0030", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "This tool is good to use. It is", "choices": ["use", "useful", "uses", "using"], "answer_index": 1, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0031", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "No sun shines today at all. It is", "choices": ["sun", "suns", "sunless", "sunning"], "answer_index": 2, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0032", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "<NAME> is mad and not kind. He is", "choices": ["kind", "kindly", "kindness", "unkind"], "answer_index": 3, "explain_key": "use_un", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0033", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "Dad sells at the shop. He is a", "choices": ["seller", "sell", "sells", "selling"], "answer_index": 0, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0034", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The box has no use now. It is", "choices": ["use", "useless", "uses", "useful"], "answer_index": 1, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0035", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "One who plays on a team is a", "choices": ["play", "plays", "player", "playing"], "answer_index": 2, "explain_key": "use_er", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0036", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> plays all day. She is very", "choices": ["play", "plays", "played", "playful"], "answer_index": 3, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0037", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> made a big mess. That was", "choices": ["careless", "care", "cares", "careful"], "answer_index": 0, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0038", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> got a small bump. It was not", "choices": ["pain", "painless", "pains", "painful"], "answer_index": 1, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0039", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> will not share toys. That is", "choices": ["fair", "fairs", "unfair", "fairly"], "answer_index": 2, "explain_key": "use_un", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0040", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> left the gate open. That is", "choices": ["safe", "safely", "safer", "unsafe"], "answer_index": 3, "explain_key": "use_un", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0041", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "We saw no sun at recess. It was", "choices": ["sunless", "sun", "suns", "sunny"], "answer_index": 0, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0042", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> hopes we win the game. She is", "choices": ["hope", "hopeful", "hopes", "hoping"], "answer_index": 1, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0043", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The sick dog felt no pain. It was", "choices": ["pain", "pains", "painless", "painful"], "answer_index": 2, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0044", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "Your cup is empty now. Let us", "choices": ["fill", "fills", "filled", "refill"], "answer_index": 3, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0045", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "You stopped the story. Let us", "choices": ["retell", "tell", "tells", "told"], "answer_index": 0, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0046", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The game stopped. Let us", "choices": ["start", "restart", "starts", "started"], "answer_index": 1, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0047", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "You did it wrong. Let us", "choices": ["do", "done", "redo", "doing"], "answer_index": 2, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0048", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> is full of cheer today. She is", "choices": ["cheer", "cheers", "cheering", "cheerful"], "answer_index": 3, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0049", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The sky has no clouds now. It is", "choices": ["cloudless", "cloud", "clouds", "cloudy"], "answer_index": 0, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0050", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "This bag helps us carry books. It is", "choices": ["use", "useful", "uses", "using"], "answer_index": 1, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0051", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "This broken toy has no use. It is", "choices": ["use", "uses", "useless", "useful"], "answer_index": 2, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0052", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> treats others with no kindness. She is", "choices": ["kind", "kindly", "kindness", "unkind"], "answer_index": 3, "explain_key": "use_un", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0053", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "Wind blew and the sky turned", "choices": ["cloudy", "cloud", "clouds", "clouding"], "answer_index": 0, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0054", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> was glad to help us. She was", "choices": ["help", "helpful", "helps", "helping"], "answer_index": 1, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0055", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> had no help at all. She felt", "choices": ["help", "helps", "helpless", "helpful"], "answer_index": 2, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0056", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "Do not go in the street. It is", "choices": ["safe", "safely", "safer", "unsafe"], "answer_index": 3, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0057", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> plays on the team. She is a", "choices": ["player", "play", "plays", "playing"], "answer_index": 0, "explain_key": "use_er", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0058", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The room has many bright colors. It looks", "choices": ["color", "colorful", "colors", "coloring"], "answer_index": 1, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0059", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "We played in the warm sun. It was", "choices": ["sun", "suns", "sunny", "sunning"], "answer_index": 2, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0060", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> felt no pain after rest. It was", "choices": ["pain", "pains", "painful", "painless"], "answer_index": 3, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0061", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> loves to play with toys. He is", "choices": ["playful", "play", "plays", "played"], "answer_index": 0, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0062", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The cookie jar is locked tight. We must", "choices": ["lock", "unlock", "locks", "locked"], "answer_index": 1, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0063", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "It will rain so the sky looks", "choices": ["cloud", "clouds", "cloudy", "clouding"], "answer_index": 2, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0064", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "Grandma said a warm thank you. She was", "choices": ["thank", "thanks", "thanking", "thankful"], "answer_index": 3, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0065", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "Dark clouds mean no sun today. It is", "choices": ["sunless", "sun", "suns", "sunny"], "answer_index": 0, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0066", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> gave us lots of cheer. She was", "choices": ["cheer", "cheerful", "cheers", "cheering"], "answer_index": 1, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0067", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "That was a mean trick. It was", "choices": ["fair", "fairs", "unfair", "fairly"], "answer_index": 2, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0068", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> felt more happy than before. She felt", "choices": ["happy", "happily", "happiest", "happier"], "answer_index": 3, "explain_key": "word_ending", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0069", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> felt more sad than yesterday. She felt", "choices": ["sadder", "sad", "sadly", "saddest"], "answer_index": 0, "explain_key": "word_ending", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0070", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> sells toys at school. She is a", "choices": ["sell", "seller", "sells", "selling"], "answer_index": 1, "explain_key": "use_er", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0071", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> has hope we can win. She is", "choices": ["hope", "hopes", "hopeful", "hoping"], "answer_index": 2, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0072", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> has lost all hope today. She is", "choices": ["hope", "hopes", "hopeful", "hopeless"], "answer_index": 3, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0073", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> has no hope left now. She is", "choices": ["hopeless", "hopeful", "hope", "hoping"], "answer_index": 0, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0074", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> has lots of hope today. She is", "choices": ["hope", "hopeful", "hopes", "hopeless"], "answer_index": 1, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0075", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "This tool does nothing for us. It is", "choices": ["use", "uses", "useless", "useful"], "answer_index": 2, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0076", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "This map is good for trips. It is", "choices": ["use", "uses", "useless", "useful"], "answer_index": 3, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0077", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> had no help with lunch. She was", "choices": ["helpless", "help", "helps", "helpful"], "answer_index": 0, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0078", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> is always glad to help. She is", "choices": ["helping", "helpful", "helps", "helper"], "answer_index": 1, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0079", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The hurt did not hurt much. It was", "choices": ["pain", "pains", "painless", "painful"], "answer_index": 2, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0080", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The big cut hurt a lot. It was", "choices": ["pain", "pains", "painless", "painful"], "answer_index": 3, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0081", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "No cloud is in the sky. It is", "choices": ["cloudless", "cloud", "clouds", "cloudy"], "answer_index": 0, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0082", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "Gray clouds fill the wide sky. It is", "choices": ["cloud", "cloudy", "clouds", "cloudless"], "answer_index": 1, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0083", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "No sun came out all day. It was", "choices": ["sun", "suns", "sunless", "sunny"], "answer_index": 2, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0084", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "Bright sun warmed our picnic blanket. It was", "choices": ["sun", "suns", "sunless", "sunny"], "answer_index": 3, "explain_key": "word_ending", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0085", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> broke the vase at play. She was", "choices": ["careless", "care", "cares", "careful"], "answer_index": 0, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0086", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> held the egg with care. She was", "choices": ["care", "careful", "cares", "careless"], "answer_index": 1, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0087", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> feels she can never win. She is", "choices": ["hope", "hopes", "hopeless", "hopeful"], "answer_index": 2, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0088", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> thinks we can still win. She is", "choices": ["hope", "hopes", "hopeless", "hopeful"], "answer_index": 3, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0089", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> was mean and not kind. She was", "choices": ["unkind", "kind", "kindly", "kindness"], "answer_index": 0, "explain_key": "use_un", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0090", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "We cannot get in. We must", "choices": ["lock", "unlock", "locks", "locked"], "answer_index": 1, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0091", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "This toy part has no use. It is", "choices": ["use", "uses", "useless", "useful"], "answer_index": 2, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0092", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "This seat is good to use. It is", "choices": ["use", "uses", "useless", "useful"], "answer_index": 3, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0093", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> sings with lots of cheer. She is", "choices": ["cheerful", "cheer", "cheers", "cheering"], "answer_index": 0, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0094", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> has less hope than before. She is", "choices": ["hope", "hopes", "hopeful", "hopeless"], "answer_index": 3, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0095", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "We felt no pain after nap. It was", "choices": ["pain", "pains", "painless", "painful"], "answer_index": 2, "explain_key": "use_less", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0096", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The bee sting hurt a lot. It was", "choices": ["pain", "pains", "painless", "painful"], "answer_index": 3, "explain_key": "use_ful", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0097", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "Taking both treats is not fair. That is", "choices": ["unfair", "fair", "fairs", "fairly"], "answer_index": 0, "explain_key": "use_un", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0098", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> jumps in every game. She is a", "choices": ["jump", "jumper", "jumps", "jumped"], "answer_index": 1, "explain_key": "use_er", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0099", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> made art full of color. It is", "choices": ["color", "colors", "colorful", "coloring"], "answer_index": 2, "explain_key": "use_ful", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_words_with_prefixes_and_suffixes_0100", "family_id": "fam_use_words_with_prefixes_and_suffixes", "skill_id": "seed_use_words_with_prefixes_and_suffixes", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> has no help at school. She is", "choices": ["helpful", "helper", "helping", "helpless"], "answer_index": 3, "explain_key": "use_less", "swap_slots": {"NAME": "names.txt"}, "source": "composer-2.5", "spec_version": 1}]
+[
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0001",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "A man on a farm is a",
+    "choices": [
+      "farmer",
+      "farming",
+      "farmed",
+      "farms"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[farmer]] works on a farm.",
+    "speak_en": "Which word finishes this sentence: A man on a farm is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0002",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "One who sings a song is a",
+    "choices": [
+      "singing",
+      "singer",
+      "sings",
+      "song"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[singer]] is a person who sings.",
+    "speak_en": "Which word finishes this sentence: One who sings a song is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0003",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> is not happy. She is",
+    "choices": [
+      "happier",
+      "unhappy",
+      "helpful",
+      "happy"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_un",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unhappy]] means not happy.",
+    "speak_en": "Which word finishes this sentence: Sam is not happy, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0004",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> cut her hand. It was",
+    "choices": [
+      "pains",
+      "pain",
+      "painful",
+      "painless"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Painful]] means full of pain.",
+    "speak_en": "Which word finishes this sentence: Sam cut her hand, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0005",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "A day with lots of sun is",
+    "choices": [
+      "sunless",
+      "suns",
+      "sunny",
+      "sunning"
+    ],
+    "answer_index": 2,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how a day [[looks]].",
+    "explain_item_en": "[[Sunny]] means lots of sun.",
+    "speak_en": "Which word finishes this sentence: A day with lots of sun is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0006",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> helps a lot. She is very",
+    "choices": [
+      "helpless",
+      "helper",
+      "helping",
+      "helpful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Helpful]] means full of help.",
+    "speak_en": "Which word finishes this sentence: Sam helps a lot, she is very?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0007",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> has no help at all. She is",
+    "choices": [
+      "helpful",
+      "helper",
+      "helpless",
+      "helping"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Helpless]] means no help.",
+    "speak_en": "Which word finishes this sentence: Sam has no help at all, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0008",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The sky has no clouds. It is",
+    "choices": [
+      "cloudy",
+      "cloudless",
+      "clouding",
+      "clouds"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Cloudless]] means no clouds.",
+    "speak_en": "Which word finishes this sentence: The sky has no clouds, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0009",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "He likes to play ball. He is a",
+    "choices": [
+      "player",
+      "play",
+      "plays",
+      "playing"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[player]] is a person who plays.",
+    "speak_en": "Which word finishes this sentence: He likes to play ball, he is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0010",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "She can jump high. She is a",
+    "choices": [
+      "jump",
+      "jumper",
+      "jumps",
+      "jumping"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[jumper]] is a person who jumps.",
+    "speak_en": "Which word finishes this sentence: She can jump high, she is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0011",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "He helps his sister. He is a",
+    "choices": [
+      "help",
+      "helps",
+      "helper",
+      "helping"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[helper]] is a person who helps.",
+    "speak_en": "Which word finishes this sentence: He helps his sister, he is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0012",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "Mom sells food at work. She is a",
+    "choices": [
+      "sell",
+      "sells",
+      "selling",
+      "seller"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[seller]] is a person who sells.",
+    "speak_en": "Which word finishes this sentence: Mom sells food at work, she is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0013",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "This game is not fair. It is",
+    "choices": [
+      "unfair",
+      "fair",
+      "fairs",
+      "fairly"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unfair]] means not fair.",
+    "speak_en": "Which word finishes this sentence: This game is not fair, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0014",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "That pond is not safe. It is",
+    "choices": [
+      "safe",
+      "unsafe",
+      "safely",
+      "safer"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unsafe]] means not safe.",
+    "speak_en": "Which word finishes this sentence: That pond is not safe, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0015",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "That act was not kind. It was",
+    "choices": [
+      "kind",
+      "kindly",
+      "unkind",
+      "kindness"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unkind]] means not kind.",
+    "speak_en": "Which word finishes this sentence: That act was not kind, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0016",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The door is locked. Please",
+    "choices": [
+      "lock",
+      "locks",
+      "locked",
+      "unlock"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start can mean [[open]] it.",
+    "explain_item_en": "[[Unlock]] means open the lock.",
+    "speak_en": "Which word finishes this sentence: The door is locked, please?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0017",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "Look at the gray clouds. It is",
+    "choices": [
+      "cloudy",
+      "cloud",
+      "clouds",
+      "clouding"
+    ],
+    "answer_index": 0,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how the sky [[looks]].",
+    "explain_item_en": "[[Cloudy]] means full of clouds.",
+    "speak_en": "Which word finishes this sentence: Look at the gray clouds, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0018",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The bright sun is out. It is",
+    "choices": [
+      "sun",
+      "sunny",
+      "suns",
+      "sunning"
+    ],
+    "answer_index": 1,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how a day [[looks]].",
+    "explain_item_en": "[[Sunny]] means the sun is out.",
+    "speak_en": "Which word finishes this sentence: The bright sun is out, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0019",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The pup loves to play. It is",
+    "choices": [
+      "play",
+      "plays",
+      "playful",
+      "played"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Playful]] means full of play.",
+    "speak_en": "Which word finishes this sentence: The pup loves to play, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0020",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "Her art has many colors. It is",
+    "choices": [
+      "color",
+      "colors",
+      "coloring",
+      "colorful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Colorful]] means full of color.",
+    "speak_en": "Which word finishes this sentence: Her art has many colors, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0021",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> gives lots of help. She is",
+    "choices": [
+      "helpful",
+      "helping",
+      "helps",
+      "helper"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Helpful]] means full of help.",
+    "speak_en": "Which word finishes this sentence: Sam gives lots of help, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0022",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The cut did not hurt. It was",
+    "choices": [
+      "pain",
+      "painless",
+      "pains",
+      "painful"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Painless]] means no pain.",
+    "speak_en": "Which word finishes this sentence: The cut did not hurt, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0023",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "My uncle has a farm. He is a",
+    "choices": [
+      "farm",
+      "farms",
+      "farmer",
+      "farming"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[farmer]] works on a farm.",
+    "speak_en": "Which word finishes this sentence: My uncle has a farm, he is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0024",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "My aunt loves to sing. She is a",
+    "choices": [
+      "sing",
+      "sings",
+      "singing",
+      "singer"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[singer]] is a person who sings.",
+    "speak_en": "Which word finishes this sentence: My aunt loves to sing, she is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0025",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> says thank you a lot. She is",
+    "choices": [
+      "thankful",
+      "thank",
+      "thanks",
+      "thanking"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Thankful]] means full of thanks.",
+    "speak_en": "Which word finishes this sentence: Sam says thank you a lot, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0026",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The team gave a big cheer. They were",
+    "choices": [
+      "cheer",
+      "cheerful",
+      "cheers",
+      "cheering"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Cheerful]] means full of cheer.",
+    "speak_en": "Which word finishes this sentence: The team gave a big cheer, they were?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0027",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "It rained and the sky is",
+    "choices": [
+      "cloud",
+      "clouds",
+      "cloudy",
+      "clouding"
+    ],
+    "answer_index": 2,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how the sky [[looks]].",
+    "explain_item_en": "[[Cloudy]] means the sky has clouds.",
+    "speak_en": "Which word finishes this sentence: It rained and the sky is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0028",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "There is zero help here. We are",
+    "choices": [
+      "help",
+      "helps",
+      "helpful",
+      "helpless"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Helpless]] means no help.",
+    "speak_en": "Which word finishes this sentence: There is zero help here, we are?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0029",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "We need to open it. Please",
+    "choices": [
+      "unlock",
+      "lock",
+      "locks",
+      "locked"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start can mean [[open]] it.",
+    "explain_item_en": "[[Unlock]] means open the lock.",
+    "speak_en": "Which word finishes this sentence: We need to open it, please?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0030",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "This tool is good to use. It is",
+    "choices": [
+      "use",
+      "useful",
+      "uses",
+      "using"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Useful]] means full of use.",
+    "speak_en": "Which word finishes this sentence: This tool is good to use, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0031",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "No sun shines today at all. It is",
+    "choices": [
+      "sun",
+      "suns",
+      "sunless",
+      "sunning"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Sunless]] means no sun.",
+    "speak_en": "Which word finishes this sentence: No sun shines today at all, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0032",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> is mad and not kind. He is",
+    "choices": [
+      "kind",
+      "kindly",
+      "kindness",
+      "unkind"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_un",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unkind]] means not kind.",
+    "speak_en": "Which word finishes this sentence: Sam is mad and not kind, he is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0033",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "Dad sells at the shop. He is a",
+    "choices": [
+      "seller",
+      "sell",
+      "sells",
+      "selling"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[seller]] is a person who sells.",
+    "speak_en": "Which word finishes this sentence: Dad sells at the shop, he is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0034",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The box has no use now. It is",
+    "choices": [
+      "use",
+      "useless",
+      "uses",
+      "useful"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Useless]] means no use.",
+    "speak_en": "Which word finishes this sentence: The box has no use now, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0035",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "One who plays on a team is a",
+    "choices": [
+      "play",
+      "plays",
+      "player",
+      "playing"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[player]] is a person who plays.",
+    "speak_en": "Which word finishes this sentence: One who plays on a team is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0036",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> plays all day. She is very",
+    "choices": [
+      "play",
+      "plays",
+      "played",
+      "playful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Playful]] means full of play.",
+    "speak_en": "Which word finishes this sentence: Sam plays all day, she is very?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0037",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> made a big mess. That was",
+    "choices": [
+      "careless",
+      "care",
+      "cares",
+      "careful"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Careless]] means no care.",
+    "speak_en": "Which word finishes this sentence: Sam made a big mess, that was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0038",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> got a small bump. It was",
+    "choices": [
+      "pain",
+      "painless",
+      "pains",
+      "painful"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Painless]] means no pain.",
+    "speak_en": "Which word finishes this sentence: Sam got a small bump, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0039",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> will not share toys. That is",
+    "choices": [
+      "fair",
+      "fairs",
+      "unfair",
+      "fairly"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_un",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unfair]] means not fair.",
+    "speak_en": "Which word finishes this sentence: Sam will not share toys, that is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0040",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> left the gate open. That is",
+    "choices": [
+      "safe",
+      "safely",
+      "safer",
+      "unsafe"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_un",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unsafe]] means not safe.",
+    "speak_en": "Which word finishes this sentence: Sam left the gate open, that is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0041",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "We saw no sun at recess. It was",
+    "choices": [
+      "sunless",
+      "sun",
+      "suns",
+      "sunny"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Sunless]] means no sun.",
+    "speak_en": "Which word finishes this sentence: We saw no sun at recess, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0042",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> hopes we win the game. She is",
+    "choices": [
+      "hope",
+      "hopeful",
+      "hopes",
+      "hoping"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Hopeful]] means full of hope.",
+    "speak_en": "Which word finishes this sentence: Sam hopes we win the game, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0043",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The sick dog felt no pain. It was",
+    "choices": [
+      "pain",
+      "pains",
+      "painless",
+      "painful"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Painless]] means no pain.",
+    "speak_en": "Which word finishes this sentence: The sick dog felt no pain, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0044",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "Your cup is empty now. Let us",
+    "choices": [
+      "fill",
+      "fills",
+      "filled",
+      "refill"
+    ],
+    "answer_index": 3,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Re]] at the start means [[again]].",
+    "explain_item_en": "[[Refill]] means fill it again.",
+    "speak_en": "Which word finishes this sentence: Your cup is empty now, let us?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0045",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "You stopped the story. Let us",
+    "choices": [
+      "retell",
+      "tell",
+      "tells",
+      "told"
+    ],
+    "answer_index": 0,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Re]] at the start means [[again]].",
+    "explain_item_en": "[[Retell]] means tell it again.",
+    "speak_en": "Which word finishes this sentence: You stopped the story, let us?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0046",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The game stopped. Let us",
+    "choices": [
+      "start",
+      "restart",
+      "starts",
+      "started"
+    ],
+    "answer_index": 1,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Re]] at the start means [[again]].",
+    "explain_item_en": "[[Restart]] means start again.",
+    "speak_en": "Which word finishes this sentence: The game stopped, let us?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0047",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "You did it wrong. Let us",
+    "choices": [
+      "do",
+      "done",
+      "redo",
+      "doing"
+    ],
+    "answer_index": 2,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Re]] at the start means [[again]].",
+    "explain_item_en": "[[Redo]] means do it again.",
+    "speak_en": "Which word finishes this sentence: You did it wrong, let us?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0048",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> is full of cheer today. She is",
+    "choices": [
+      "cheer",
+      "cheers",
+      "cheering",
+      "cheerful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Cheerful]] means full of cheer.",
+    "speak_en": "Which word finishes this sentence: Sam is full of cheer today, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0049",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The sky has no clouds now. It is",
+    "choices": [
+      "cloudless",
+      "cloud",
+      "clouds",
+      "cloudy"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Cloudless]] means no clouds.",
+    "speak_en": "Which word finishes this sentence: The sky has no clouds now, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0050",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "This bag helps us carry books. It is",
+    "choices": [
+      "use",
+      "useful",
+      "uses",
+      "using"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Useful]] means full of use.",
+    "speak_en": "Which word finishes this sentence: This bag helps us carry books, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0051",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "This broken toy has no use. It is",
+    "choices": [
+      "use",
+      "uses",
+      "useless",
+      "useful"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Useless]] means no use.",
+    "speak_en": "Which word finishes this sentence: This broken toy has no use, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0052",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> treats others with no kindness. She is",
+    "choices": [
+      "kind",
+      "kindly",
+      "kindness",
+      "unkind"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_un",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unkind]] means not kind.",
+    "speak_en": "Which word finishes this sentence: Sam treats others with no kindness, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0053",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "Wind blew and the sky turned",
+    "choices": [
+      "cloudy",
+      "cloud",
+      "clouds",
+      "clouding"
+    ],
+    "answer_index": 0,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how the sky [[looks]].",
+    "explain_item_en": "[[Cloudy]] means the sky has clouds.",
+    "speak_en": "Which word finishes this sentence: Wind blew and the sky turned?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0054",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> was glad to help us. She was",
+    "choices": [
+      "help",
+      "helpful",
+      "helps",
+      "helping"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Helpful]] means full of help.",
+    "speak_en": "Which word finishes this sentence: Sam was glad to help us, she was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0055",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> had no help at all. She felt",
+    "choices": [
+      "help",
+      "helps",
+      "helpless",
+      "helpful"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Helpless]] means no help.",
+    "speak_en": "Which word finishes this sentence: Sam had no help at all, she felt?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0056",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "Do not go in the street. It is",
+    "choices": [
+      "safe",
+      "safely",
+      "safer",
+      "unsafe"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unsafe]] means not safe.",
+    "speak_en": "Which word finishes this sentence: Do not go in the street, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0057",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> plays on the team. She is a",
+    "choices": [
+      "player",
+      "play",
+      "plays",
+      "playing"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_er",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[player]] is a person who plays.",
+    "speak_en": "Which word finishes this sentence: Sam plays on the team, she is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0058",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The room has many bright colors. It looks",
+    "choices": [
+      "color",
+      "colorful",
+      "colors",
+      "coloring"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Colorful]] means full of color.",
+    "speak_en": "Which word finishes this sentence: The room has many bright colors, it looks?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0059",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "We played in the warm sun. It was",
+    "choices": [
+      "sun",
+      "suns",
+      "sunny",
+      "sunning"
+    ],
+    "answer_index": 2,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how a day [[looks]].",
+    "explain_item_en": "[[Sunny]] means lots of sun.",
+    "speak_en": "Which word finishes this sentence: We played in the warm sun, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0060",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> felt no pain after rest. It was",
+    "choices": [
+      "pain",
+      "pains",
+      "painful",
+      "painless"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Painless]] means no pain.",
+    "speak_en": "Which word finishes this sentence: Sam felt no pain after rest, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0061",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> loves to play with toys. He is",
+    "choices": [
+      "playful",
+      "play",
+      "plays",
+      "played"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Playful]] means full of play.",
+    "speak_en": "Which word finishes this sentence: Sam loves to play with toys, he is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0062",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The cookie jar is locked tight. We must",
+    "choices": [
+      "lock",
+      "unlock",
+      "locks",
+      "locked"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start can mean [[open]] it.",
+    "explain_item_en": "[[Unlock]] means open the lock.",
+    "speak_en": "Which word finishes this sentence: The cookie jar is locked tight, we must?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0063",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "It will rain so the sky looks",
+    "choices": [
+      "cloud",
+      "clouds",
+      "cloudy",
+      "clouding"
+    ],
+    "answer_index": 2,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how the sky [[looks]].",
+    "explain_item_en": "[[Cloudy]] means rain may come.",
+    "speak_en": "Which word finishes this sentence: It will rain so the sky looks?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0064",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "Grandma said a warm thank you. She was",
+    "choices": [
+      "thank",
+      "thanks",
+      "thanking",
+      "thankful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Thankful]] means full of thanks.",
+    "speak_en": "Which word finishes this sentence: Grandma said a warm thank you, she was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0065",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "Dark clouds mean no sun today. It is",
+    "choices": [
+      "sunless",
+      "sun",
+      "suns",
+      "sunny"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Sunless]] means no sun.",
+    "speak_en": "Which word finishes this sentence: Dark clouds mean no sun today, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0066",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> gave us lots of cheer. She was",
+    "choices": [
+      "cheer",
+      "cheerful",
+      "cheers",
+      "cheering"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Cheerful]] means full of cheer.",
+    "speak_en": "Which word finishes this sentence: Sam gave us lots of cheer, she was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0067",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "That was a mean trick. It was",
+    "choices": [
+      "fair",
+      "fairs",
+      "unfair",
+      "fairly"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unfair]] means not fair.",
+    "speak_en": "Which word finishes this sentence: That was a mean trick, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0068",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> felt more happy than before. She felt",
+    "choices": [
+      "happy",
+      "happily",
+      "happiest",
+      "happier"
+    ],
+    "answer_index": 3,
+    "explain_key": "word_ending",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can mean [[more]].",
+    "explain_item_en": "[[Happier]] means more happy.",
+    "speak_en": "Which word finishes this sentence: Sam felt more happy than before, she felt?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0069",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> felt more sad than yesterday. She felt",
+    "choices": [
+      "sadder",
+      "sad",
+      "sadly",
+      "saddest"
+    ],
+    "answer_index": 0,
+    "explain_key": "word_ending",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can mean [[more]].",
+    "explain_item_en": "[[Sadder]] means more sad.",
+    "speak_en": "Which word finishes this sentence: Sam felt more sad than yesterday, she felt?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0070",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> sells toys at school. She is a",
+    "choices": [
+      "sell",
+      "seller",
+      "sells",
+      "selling"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_er",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[seller]] is a person who sells.",
+    "speak_en": "Which word finishes this sentence: Sam sells toys at school, she is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0071",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> has hope we can win. She is",
+    "choices": [
+      "hope",
+      "hopes",
+      "hopeful",
+      "hoping"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Hopeful]] means full of hope.",
+    "speak_en": "Which word finishes this sentence: Sam has hope we can win, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0072",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> has lost all hope today. She is",
+    "choices": [
+      "hope",
+      "hopes",
+      "hopeful",
+      "hopeless"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Hopeless]] means no hope.",
+    "speak_en": "Which word finishes this sentence: Sam has lost all hope today, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0073",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> has no hope left now. She is",
+    "choices": [
+      "hopeless",
+      "hopeful",
+      "hope",
+      "hoping"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Hopeless]] means no hope.",
+    "speak_en": "Which word finishes this sentence: Sam has no hope left now, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0074",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> has lots of hope today. She is",
+    "choices": [
+      "hope",
+      "hopeful",
+      "hopes",
+      "hopeless"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Hopeful]] means full of hope.",
+    "speak_en": "Which word finishes this sentence: Sam has lots of hope today, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0075",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "This tool does nothing for us. It is",
+    "choices": [
+      "use",
+      "uses",
+      "useless",
+      "useful"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Useless]] means no use.",
+    "speak_en": "Which word finishes this sentence: This tool does nothing for us, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0076",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "This map is good for trips. It is",
+    "choices": [
+      "use",
+      "uses",
+      "useless",
+      "useful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Useful]] means full of use.",
+    "speak_en": "Which word finishes this sentence: This map is good for trips, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0077",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> had no help with lunch. She was",
+    "choices": [
+      "helpless",
+      "help",
+      "helps",
+      "helpful"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Helpless]] means no help.",
+    "speak_en": "Which word finishes this sentence: Sam had no help with lunch, she was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0078",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> is always glad to help. She is",
+    "choices": [
+      "helping",
+      "helpful",
+      "helps",
+      "helper"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Helpful]] means full of help.",
+    "speak_en": "Which word finishes this sentence: Sam is always glad to help, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0079",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The bump did not hurt much. It was",
+    "choices": [
+      "pain",
+      "pains",
+      "painless",
+      "painful"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Painless]] means no pain.",
+    "speak_en": "Which word finishes this sentence: The bump did not hurt much, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0080",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The big cut hurt a lot. It was",
+    "choices": [
+      "pain",
+      "pains",
+      "painless",
+      "painful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Painful]] means full of pain.",
+    "speak_en": "Which word finishes this sentence: The big cut hurt a lot, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0081",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "No cloud is in the sky. It is",
+    "choices": [
+      "cloudless",
+      "cloud",
+      "clouds",
+      "cloudy"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Cloudless]] means no clouds.",
+    "speak_en": "Which word finishes this sentence: No cloud is in the sky, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0082",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "Gray clouds fill the wide sky. It is",
+    "choices": [
+      "cloud",
+      "cloudy",
+      "clouds",
+      "cloudless"
+    ],
+    "answer_index": 1,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how the sky [[looks]].",
+    "explain_item_en": "[[Cloudy]] means the sky has clouds.",
+    "speak_en": "Which word finishes this sentence: Gray clouds fill the wide sky, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0083",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "No sun came out all day. It was",
+    "choices": [
+      "sun",
+      "suns",
+      "sunless",
+      "sunny"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Sunless]] means no sun.",
+    "speak_en": "Which word finishes this sentence: No sun came out all day, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0084",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "Bright sun warmed our picnic blanket. It was",
+    "choices": [
+      "sun",
+      "suns",
+      "sunless",
+      "sunny"
+    ],
+    "answer_index": 3,
+    "explain_key": "word_ending",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can tell how a day [[looks]].",
+    "explain_item_en": "[[Sunny]] means lots of sun.",
+    "speak_en": "Which word finishes this sentence: Bright sun warmed our picnic blanket, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0085",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> broke the vase at play. She was",
+    "choices": [
+      "careless",
+      "care",
+      "cares",
+      "careful"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Careless]] means no care.",
+    "speak_en": "Which word finishes this sentence: Sam broke the vase at play, she was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0086",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> held the egg with care. She was",
+    "choices": [
+      "care",
+      "careful",
+      "cares",
+      "careless"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Careful]] means full of care.",
+    "speak_en": "Which word finishes this sentence: Sam held the egg with care, she was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0087",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> feels she can never win. She is",
+    "choices": [
+      "hope",
+      "hopes",
+      "hopeless",
+      "hopeful"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Hopeless]] means no hope.",
+    "speak_en": "Which word finishes this sentence: Sam feels she can never win, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0088",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> thinks we can still win. She is",
+    "choices": [
+      "hope",
+      "hopes",
+      "hopeless",
+      "hopeful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Hopeful]] means full of hope.",
+    "speak_en": "Which word finishes this sentence: Sam thinks we can still win, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0089",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> was mean and not kind. She was",
+    "choices": [
+      "unkind",
+      "kind",
+      "kindly",
+      "kindness"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_un",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unkind]] means not kind.",
+    "speak_en": "Which word finishes this sentence: Sam was mean and not kind, she was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0090",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "We cannot get in. We must",
+    "choices": [
+      "lock",
+      "unlock",
+      "locks",
+      "locked"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start can mean [[open]] it.",
+    "explain_item_en": "[[Unlock]] means open the lock.",
+    "speak_en": "Which word finishes this sentence: We cannot get in, we must?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0091",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "This toy part has no use. It is",
+    "choices": [
+      "use",
+      "uses",
+      "useless",
+      "useful"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Useless]] means no use.",
+    "speak_en": "Which word finishes this sentence: This toy part has no use, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0092",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "This seat is good to use. It is",
+    "choices": [
+      "use",
+      "uses",
+      "useless",
+      "useful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Useful]] means full of use.",
+    "speak_en": "Which word finishes this sentence: This seat is good to use, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0093",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> sings with lots of cheer. She is",
+    "choices": [
+      "cheerful",
+      "cheer",
+      "cheers",
+      "cheering"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Cheerful]] means full of cheer.",
+    "speak_en": "Which word finishes this sentence: Sam sings with lots of cheer, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0094",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> has less hope than before. She is",
+    "choices": [
+      "hope",
+      "hopes",
+      "hopeful",
+      "hopeless"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Hopeless]] means no hope.",
+    "speak_en": "Which word finishes this sentence: Sam has less hope than before, she is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0095",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "We felt no pain after nap. It was",
+    "choices": [
+      "pain",
+      "pains",
+      "painless",
+      "painful"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Painless]] means no pain.",
+    "speak_en": "Which word finishes this sentence: We felt no pain after nap, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0096",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The bee sting hurt a lot. It was",
+    "choices": [
+      "pain",
+      "pains",
+      "painless",
+      "painful"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Painful]] means full of pain.",
+    "speak_en": "Which word finishes this sentence: The bee sting hurt a lot, it was?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0097",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "Taking both treats is not fair. That is",
+    "choices": [
+      "unfair",
+      "fair",
+      "fairs",
+      "fairly"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Un]] at the start means [[not]].",
+    "explain_item_en": "[[Unfair]] means not fair.",
+    "speak_en": "Which word finishes this sentence: Taking both treats is not fair, that is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0098",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> jumps in every game. She is a",
+    "choices": [
+      "jump",
+      "jumper",
+      "jumps",
+      "jumped"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_er",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A bit at the [[end]] can name a [[person]].",
+    "explain_item_en": "A [[jumper]] is a person who jumps.",
+    "speak_en": "Which word finishes this sentence: Sam jumps in every game, she is a?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0099",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> made art full of color. It is",
+    "choices": [
+      "color",
+      "colors",
+      "colorful",
+      "coloring"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_ful",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Ful]] at the end means [[full]] of.",
+    "explain_item_en": "[[Colorful]] means full of color.",
+    "speak_en": "Which word finishes this sentence: Sam made art full of color, it is?"
+  },
+  {
+    "item_id": "seed_use_words_with_prefixes_and_suffixes_0100",
+    "family_id": "fam_use_words_with_prefixes_and_suffixes",
+    "skill_id": "seed_use_words_with_prefixes_and_suffixes",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> has no help at school. She is",
+    "choices": [
+      "helpful",
+      "helper",
+      "helping",
+      "helpless"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_less",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "[[Less]] at the end means [[no]].",
+    "explain_item_en": "[[Helpless]] means no help.",
+    "speak_en": "Which word finishes this sentence: Sam has no help at school, she is?"
+  }
+]

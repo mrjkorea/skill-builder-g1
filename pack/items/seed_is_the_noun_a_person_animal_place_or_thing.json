@@ -1,1 +1,2330 @@
-[{"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0001", "tier": 1, "stem": "dog", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "media": [{"lemma": "dog"}], "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "item_type": "abcd", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0002", "tier": 1, "stem": "mom", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "media": [{"lemma": "mom"}], "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "item_type": "abcd", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0003", "tier": 2, "stem": "park", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "item_type": "abcd", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0004", "tier": 2, "stem": "ball", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "item_type": "abcd", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0005", "tier": 2, "stem": "teacher", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "job_is_a_person", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "item_type": "abcd", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0006", "tier": 3, "stem": "store", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "item_type": "abcd", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0007", "tier": 3, "stem": "spoon", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "item_type": "abcd", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0008", "tier": 3, "stem": "wolf", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "item_type": "abcd", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0009", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "cat", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0010", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "dad", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dad"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0011", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "apple", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "apple"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0012", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "farm", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "farm"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0013", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "bird", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bird"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0014", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "ada", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ada"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0015", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "bed", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bed"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0016", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "house", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "house"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0017", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "duck", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0018", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "ben", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ben"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0019", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "hat", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hat"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0020", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "yard", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "yard"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0021", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "cow", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cow"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0022", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "baby", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "baby"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0023", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "book", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "book"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0024", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "beach", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "beach"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0025", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "pig", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pig"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0026", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "maya", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "maya"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0027", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "cup", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cup"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0028", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "school", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "school"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0029", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "fish", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0030", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "sister", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sister"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0031", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "toy", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "toy"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0032", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "garden", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "garden"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0033", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "hen", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0034", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "grandma", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "grandma"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0035", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "sock", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sock"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0036", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "hill", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hill"}]}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0037", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "king", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "job_is_a_person", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0038", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "fox", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0039", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "lake", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0040", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "chair", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0041", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "queen", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "job_is_a_person", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0042", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "sheep", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0043", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "town", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0044", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "desk", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0045", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "nurse", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "job_is_a_person", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0047", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "pond", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0048", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "door", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0049", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "student", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0050", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "bear", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0051", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "city", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0052", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "egg", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0053", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "knight", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "job_is_a_person", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0054", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "frog", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0055", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "kitchen", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0056", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "pencil", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0057", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "woman", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0058", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "turtle", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0059", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "library", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0060", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "table", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0061", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "man", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0062", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "owl", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0063", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "barn", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0064", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "bread", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0065", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "kid", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0066", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "snake", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0067", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "street", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0068", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "bike", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0069", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "aunt", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0070", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "horse", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0071", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "bridge", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0072", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "car", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0073", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "grandpa", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0074", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "shop", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0075", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "plate", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0076", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "eagle", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0077", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "bank", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0078", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "stove", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0079", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "moose", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0080", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "cave", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0081", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "blanket", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0082", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "skunk", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0083", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "hotel", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0084", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "pillow", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0085", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "whale", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "wild_is_still_animal", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0086", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "tent", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_is_where", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0087", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "president", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "job_is_a_person", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0088", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "crab", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0089", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "zoo", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0090", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "bowl", "choices": ["person", "animal", "place", "thing"], "answer_index": 3, "explain_key": "thing_is_not_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0091", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "igloo", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0092", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "leader", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "job_is_a_person", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0093", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "peacock", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0094", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "market", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0095", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "hero", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0096", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "beaver", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0097", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "playground", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0098", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "teen", "choices": ["person", "animal", "place", "thing"], "answer_index": 0, "explain_key": "person_is_someone", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0099", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "goose", "choices": ["person", "animal", "place", "thing"], "answer_index": 1, "explain_key": "animal_is_alive", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0100", "family_id": "fam_is_the_noun_a_person_animal_place_or_thi", "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "hall", "choices": ["person", "animal", "place", "thing"], "answer_index": 2, "explain_key": "place_you_go_into", "source": "composer-2.5", "spec_version": 1}]
+[
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0001",
+    "tier": 1,
+    "stem": "dog",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a person, an [[animal]], a place, or a thing.",
+    "explain_item_en": "A [[dog]] is an animal. It is [[alive]] and can run.",
+    "speak_en": "Is a dog a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0002",
+    "tier": 1,
+    "stem": "mom",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ],
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "[[Mom]] is a person. She is a [[someone]] in your family.",
+    "speak_en": "Is mom a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0003",
+    "tier": 2,
+    "stem": "park",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[park]] is a place. You can [[play]] there.",
+    "speak_en": "Is a park a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0004",
+    "tier": 2,
+    "stem": "ball",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[ball]] is a thing. You can [[hold]] it and throw it.",
+    "speak_en": "Is a ball a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0005",
+    "tier": 2,
+    "stem": "teacher",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "job_is_a_person",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A job name still names a [[person]].",
+    "explain_item_en": "A [[teacher]] is a person. That job is done by a [[someone]].",
+    "speak_en": "Is a teacher a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0006",
+    "tier": 3,
+    "stem": "store",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[store]] is a place. You [[walk]] inside to buy things.",
+    "speak_en": "Is a store a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0007",
+    "tier": 3,
+    "stem": "spoon",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[spoon]] is a thing. You [[use]] it to eat.",
+    "speak_en": "Is a spoon a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0008",
+    "tier": 3,
+    "stem": "wolf",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "A [[wolf]] lives in the woods. It is still an [[animal]].",
+    "speak_en": "Is a wolf a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0009",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "cat",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[cat]] is an animal. It is [[alive]] and can meow.",
+    "speak_en": "Is a cat a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0010",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "dad",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "[[Dad]] is a person. He is a [[someone]] in your family.",
+    "speak_en": "Is dad a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0011",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "apple",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not a person or animal.",
+    "explain_item_en": "An [[apple]] is a thing. You can [[eat]] it.",
+    "speak_en": "Is an apple a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0012",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "farm",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "farm"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[farm]] is a place. You can [[visit]] the animals there.",
+    "speak_en": "Is a farm a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0013",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "bird",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ],
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[bird]] is an animal. It is [[alive]] and can fly.",
+    "speak_en": "Is a bird a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0014",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "ada",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ada"
+      }
+    ],
+    "explain_skill_en": "A name names a [[person]].",
+    "explain_item_en": "[[Ada]] is a girl's name. A name is a [[person]].",
+    "speak_en": "Is Ada a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0015",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "bed",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[bed]] is a thing. You [[sleep]] on it.",
+    "speak_en": "Is a bed a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0016",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "house",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can be.",
+    "explain_item_en": "A [[house]] is a place. You [[live]] there.",
+    "speak_en": "Is a house a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0017",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "duck",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[duck]] is an animal. It is [[alive]] and can swim.",
+    "speak_en": "Is a duck a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0018",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "ben",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ben"
+      }
+    ],
+    "explain_skill_en": "A name names a [[person]].",
+    "explain_item_en": "[[Ben]] is a boy's name. A name is a [[person]].",
+    "speak_en": "Is Ben a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0019",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "hat",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[hat]] is a thing. You [[wear]] it on your head.",
+    "speak_en": "Is a hat a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0020",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "yard",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[yard]] is a place. You can [[play]] outside there.",
+    "speak_en": "Is a yard a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0021",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "cow",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ],
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[cow]] is an animal. It is [[alive]] and can moo.",
+    "speak_en": "Is a cow a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0022",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "baby",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "A [[baby]] is a person. A baby is a little [[someone]].",
+    "speak_en": "Is a baby a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0023",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "book",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[book]] is a thing. You can [[read]] it.",
+    "speak_en": "Is a book a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0024",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "beach",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[beach]] is a place. You can [[play]] in the sand there.",
+    "speak_en": "Is a beach a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0025",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "pig",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ],
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[pig]] is an animal. It is [[alive]] and can oink.",
+    "speak_en": "Is a pig a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0026",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "maya",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "maya"
+      }
+    ],
+    "explain_skill_en": "A name names a [[person]].",
+    "explain_item_en": "[[Maya]] is a girl's name. A name is a [[person]].",
+    "speak_en": "Is Maya a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0027",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "cup",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[cup]] is a thing. You [[drink]] from it.",
+    "speak_en": "Is a cup a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0028",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "school",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[school]] is a place. You [[learn]] there.",
+    "speak_en": "Is a school a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0029",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "fish",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[fish]] is an animal. It is [[alive]] and swims.",
+    "speak_en": "Is a fish a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0030",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sister",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "A [[sister]] is a person. She is a [[someone]] in your family.",
+    "speak_en": "Is a sister a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0031",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "toy",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[toy]] is a thing. You can [[play]] with it.",
+    "speak_en": "Is a toy a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0032",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "garden",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[garden]] is a place. Flowers [[grow]] there.",
+    "speak_en": "Is a garden a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0033",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "hen",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[hen]] is an animal. It is [[alive]] and can cluck.",
+    "speak_en": "Is a hen a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0034",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "grandma",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandma"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "[[Grandma]] is a person. She is a [[someone]] in your family.",
+    "speak_en": "Is grandma a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0035",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sock",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[sock]] is a thing. You [[wear]] it on your foot.",
+    "speak_en": "Is a sock a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0036",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "hill",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ],
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[hill]] is a place. You can [[climb]] it.",
+    "speak_en": "Is a hill a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0037",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "king",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "job_is_a_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A job name still names a [[person]].",
+    "explain_item_en": "A [[king]] is a person. That job is done by a [[someone]].",
+    "speak_en": "Is a king a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0038",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "fox",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "A [[fox]] lives in the woods. It is still an [[animal]].",
+    "speak_en": "Is a fox a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0039",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "lake",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[lake]] is a place. You can [[swim]] there.",
+    "speak_en": "Is a lake a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0040",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "chair",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[chair]] is a thing. You [[sit]] on it.",
+    "speak_en": "Is a chair a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0041",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "queen",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "job_is_a_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A job name still names a [[person]].",
+    "explain_item_en": "A [[queen]] is a person. That job is done by a [[someone]].",
+    "speak_en": "Is a queen a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0042",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "sheep",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[sheep]] is an animal. It is [[alive]] and has soft wool.",
+    "speak_en": "Is a sheep a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0043",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "town",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[town]] is a place. People [[live]] there.",
+    "speak_en": "Is a town a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0044",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "desk",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[desk]] is a thing. You [[write]] on it.",
+    "speak_en": "Is a desk a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0045",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "nurse",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "job_is_a_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A job name still names a [[person]].",
+    "explain_item_en": "A [[nurse]] is a person. That job is done by a [[someone]].",
+    "speak_en": "Is a nurse a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0047",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "pond",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[pond]] is a place. Fish can [[swim]] there.",
+    "speak_en": "Is a pond a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0048",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "door",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[door]] is a thing. You [[open]] it to go in.",
+    "speak_en": "Is a door a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0049",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "student",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "A [[student]] is a person. A student is a [[someone]] who learns.",
+    "speak_en": "Is a student a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0050",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "bear",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "A [[bear]] lives in the woods. It is still an [[animal]].",
+    "speak_en": "Is a bear a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0051",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "city",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[city]] is a place. Many people [[live]] there.",
+    "speak_en": "Is a city a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0052",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "egg",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not a person or animal.",
+    "explain_item_en": "An [[egg]] is a thing. You can [[eat]] it.",
+    "speak_en": "Is an egg a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0053",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "knight",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "job_is_a_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A job name still names a [[person]].",
+    "explain_item_en": "A [[knight]] is a person. That job is done by a [[someone]].",
+    "speak_en": "Is a knight a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0054",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "frog",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[frog]] is an animal. It is [[alive]] and can hop.",
+    "speak_en": "Is a frog a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0055",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "kitchen",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[kitchen]] is a place. You [[cook]] food there.",
+    "speak_en": "Is a kitchen a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0056",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "pencil",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[pencil]] is a thing. You [[write]] with it.",
+    "speak_en": "Is a pencil a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0057",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "woman",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "A [[woman]] is a person. She is a grown [[someone]].",
+    "speak_en": "Is a woman a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0058",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "turtle",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[turtle]] is an animal. It is [[alive]] and has a shell.",
+    "speak_en": "Is a turtle a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0059",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "library",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[library]] is a place. You [[read]] books there.",
+    "speak_en": "Is a library a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0060",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "table",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[table]] is a thing. You [[eat]] at it.",
+    "speak_en": "Is a table a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0061",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "man",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "A [[man]] is a person. He is a grown [[someone]].",
+    "speak_en": "Is a man a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0062",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "owl",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "An [[owl]] lives in the trees. It is still an [[animal]].",
+    "speak_en": "Is an owl a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0063",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "barn",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[barn]] is a place. Farm animals [[stay]] inside it.",
+    "speak_en": "Is a barn a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0064",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "bread",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not a person or animal.",
+    "explain_item_en": "[[Bread]] is a thing. You can [[eat]] it.",
+    "speak_en": "Is bread a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0065",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "kid",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "A [[kid]] is a person. A kid is a young [[someone]].",
+    "speak_en": "Is a kid a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0066",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "snake",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "A [[snake]] lives in the grass. It is still an [[animal]].",
+    "speak_en": "Is a snake a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0067",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "street",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[street]] is a place. Cars [[drive]] there.",
+    "speak_en": "Is a street a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0068",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "bike",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[bike]] is a thing. You can [[ride]] it.",
+    "speak_en": "Is a bike a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0069",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "aunt",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "An [[aunt]] is a person. She is a [[someone]] in your family.",
+    "speak_en": "Is an aunt a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0070",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "horse",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[horse]] is an animal. It is [[alive]] and can run.",
+    "speak_en": "Is a horse a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0071",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "bridge",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can go.",
+    "explain_item_en": "A [[bridge]] is a place. You can [[walk]] over it.",
+    "speak_en": "Is a bridge a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0072",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "car",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[car]] is a thing. You can [[ride]] in it.",
+    "speak_en": "Is a car a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0073",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "grandpa",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "[[Grandpa]] is a person. He is a [[someone]] in your family.",
+    "speak_en": "Is grandpa a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0074",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "shop",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[shop]] is a place. You [[walk]] inside to buy things.",
+    "speak_en": "Is a shop a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0075",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "plate",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[plate]] is a thing. Food [[sits]] on it.",
+    "speak_en": "Is a plate a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0076",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "eagle",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "An [[eagle]] lives high up. It is still an [[animal]].",
+    "speak_en": "Is an eagle a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0077",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "bank",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[bank]] is a place. People [[walk]] inside to keep money.",
+    "speak_en": "Is a bank a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0078",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "stove",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[stove]] is a thing. You [[cook]] on it.",
+    "speak_en": "Is a stove a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0079",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "moose",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "A [[moose]] lives in the woods. It is still an [[animal]].",
+    "speak_en": "Is a moose a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0080",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "cave",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[cave]] is a place. You can [[walk]] inside the dark hole.",
+    "speak_en": "Is a cave a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0081",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "blanket",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[blanket]] is a thing. You [[cover]] up with it.",
+    "speak_en": "Is a blanket a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0082",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "skunk",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "A [[skunk]] lives outside. It is still an [[animal]].",
+    "speak_en": "Is a skunk a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0083",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "hotel",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[hotel]] is a place. People [[sleep]] inside when they visit.",
+    "speak_en": "Is a hotel a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0084",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "pillow",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[pillow]] is a thing. You rest your [[head]] on it.",
+    "speak_en": "Is a pillow a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0085",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "whale",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "wild_is_still_animal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A wild animal is still an [[animal]].",
+    "explain_item_en": "A [[whale]] lives in the sea. It is still an [[animal]].",
+    "speak_en": "Is a whale a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0086",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "tent",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_is_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]]. A place is where you can be.",
+    "explain_item_en": "A [[tent]] is a place. You can [[sleep]] inside it.",
+    "speak_en": "Is a tent a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0087",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "president",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "job_is_a_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A job name still names a [[person]].",
+    "explain_item_en": "A [[president]] is a person. That job is done by a [[someone]].",
+    "speak_en": "Is a president a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0088",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "crab",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[crab]] is an animal. It is [[alive]] and has a hard shell.",
+    "speak_en": "Is a crab a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0089",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "zoo",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[zoo]] is a place. You [[walk]] inside to see animals.",
+    "speak_en": "Is a zoo a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0090",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "bowl",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 3,
+    "explain_key": "thing_is_not_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[thing]]. A thing is not alive.",
+    "explain_item_en": "A [[bowl]] is a thing. You [[eat]] from it.",
+    "speak_en": "Is a bowl a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0091",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "igloo",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "An [[igloo]] is a place. People can [[live]] inside the snow house.",
+    "speak_en": "Is an igloo a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0092",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "leader",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "job_is_a_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A job name still names a [[person]].",
+    "explain_item_en": "A [[leader]] is a person. That job is done by a [[someone]].",
+    "speak_en": "Is a leader a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0093",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "peacock",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[peacock]] is an animal. It is [[alive]] and has bright feathers.",
+    "speak_en": "Is a peacock a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0094",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "market",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[market]] is a place. You [[walk]] inside to buy food.",
+    "speak_en": "Is a market a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0095",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "hero",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "A [[hero]] is a person. A hero is a brave [[someone]].",
+    "speak_en": "Is a hero a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0096",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "beaver",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[beaver]] is an animal. It is [[alive]] and builds a dam.",
+    "speak_en": "Is a beaver a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0097",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "playground",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[playground]] is a place. Kids [[run]] there to play.",
+    "speak_en": "Is a playground a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0098",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "teen",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_is_someone",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[person]]. A person is a someone.",
+    "explain_item_en": "A [[teen]] is a person. A teen is a big-kid [[someone]].",
+    "speak_en": "Is a teen a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0099",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "goose",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 1,
+    "explain_key": "animal_is_alive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name an [[animal]]. An animal is alive.",
+    "explain_item_en": "A [[goose]] is an animal. It is [[alive]] and can honk.",
+    "speak_en": "Is a goose a person, an animal, a place, or a thing?"
+  },
+  {
+    "item_id": "seed_is_the_noun_a_person_animal_place_or_thing_0100",
+    "family_id": "fam_is_the_noun_a_person_animal_place_or_thi",
+    "skill_id": "seed_is_the_noun_a_person_animal_place_or_thing",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "hall",
+    "choices": [
+      "person",
+      "animal",
+      "place",
+      "thing"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_you_go_into",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A naming word can name a [[place]] you go into.",
+    "explain_item_en": "A [[hall]] is a place. You [[walk]] through it to get to rooms.",
+    "speak_en": "Is a hall a person, an animal, a place, or a thing?"
+  }
+]

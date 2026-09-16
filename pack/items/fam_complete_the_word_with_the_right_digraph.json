@@ -1,1 +1,2792 @@
-[{"item_id": "seed_complete_the_word_with_the_right_digraph_0001", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ip", "choices": ["sh", "ck", "ng", "th"], "answer_index": 0, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ship"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0002", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The du", "choices": ["sh", "th", "ck", "wh"], "answer_index": 2, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0003", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "My fi", "choices": ["ck", "sh", "ng", "ch"], "answer_index": 1, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0004", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at my air", "choices": ["ch", "sh", "th", "wh"], "answer_index": 0, "explain_key": "begin_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chair"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0005", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at my lun", "choices": ["sh", "th", "ck", "ch"], "answer_index": 3, "explain_key": "end_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lunch"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0006", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See my tee", "choices": ["sh", "th", "ch", "ck"], "answer_index": 1, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "teeth"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0007", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can look at my big clo", "choices": ["ch", "sh", "ck", "ng"], "answer_index": 2, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "clock"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0008", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can see my big ale", "choices": ["wh", "th", "sh", "ch"], "answer_index": 0, "explain_key": "begin_wh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "whale"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0009", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The op", "choices": ["sh", "ck", "ng", "th"], "answer_index": 0, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shop"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0010", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ro", "choices": ["ck", "sh", "ng", "th"], "answer_index": 0, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rock"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0011", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "My ri", "choices": ["ng", "sh", "ck", "th"], "answer_index": 0, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ring"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0012", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The wi", "choices": ["ng", "sh", "ck", "ch"], "answer_index": 0, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wing"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0013", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ba", "choices": ["th", "sh", "ck", "ng"], "answer_index": 0, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bath"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0014", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ne", "choices": ["ck", "sh", "ng", "th"], "answer_index": 0, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "neck"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0015", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The so", "choices": ["ck", "sh", "ng", "ch"], "answer_index": 0, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sock"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0016", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The di", "choices": ["sh", "ck", "ng", "th"], "answer_index": 0, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dish"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0017", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ick", "choices": ["ch", "sh", "ck", "ng"], "answer_index": 0, "explain_key": "begin_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chick"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0018", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The eep", "choices": ["sh", "ck", "ng", "ch"], "answer_index": 0, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sheep"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0019", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ing", "choices": ["th", "sh", "ck", "ng"], "answer_index": 0, "explain_key": "begin_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "thing"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0020", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The eel", "choices": ["wh", "sh", "th", "ch"], "answer_index": 0, "explain_key": "begin_wh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wheel"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0021", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I can si", "choices": ["ng", "sh", "ck", "th"], "answer_index": 0, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sing"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0022", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The lo", "choices": ["ck", "sh", "ng", "wh"], "answer_index": 0, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lock"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0023", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ha", "choices": ["ng", "sh", "ck", "th"], "answer_index": 0, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hang"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0024", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ki", "choices": ["ck", "sh", "ng", "th"], "answer_index": 0, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kick"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0025", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ell", "choices": ["sh", "ck", "ng", "ch"], "answer_index": 0, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shell"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0026", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The in", "choices": ["ch", "sh", "th", "ck"], "answer_index": 0, "explain_key": "begin_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chin"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0027", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ut", "choices": ["sh", "ck", "ng", "th"], "answer_index": 0, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shut"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0028", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The oe", "choices": ["ck", "sh", "ng", "th"], "answer_index": 1, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shoe"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0029", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The ed", "choices": ["ng", "sh", "ck", "th"], "answer_index": 1, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shed"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0030", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The wa", "choices": ["ck", "sh", "ng", "th"], "answer_index": 1, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wash"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0031", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The bru", "choices": ["th", "sh", "ck", "ng"], "answer_index": 1, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "brush"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0032", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The de", "choices": ["ch", "ck", "sh", "ng"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "deck"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0033", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The la", "choices": ["ng", "ck", "sh", "th"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lack"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0034", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The at", "choices": ["ng", "ch", "sh", "ck"], "answer_index": 1, "explain_key": "begin_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chat"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0035", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I can sa", "choices": ["ck", "th", "ng", "sh"], "answer_index": 2, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sang"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0036", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the op", "choices": ["ch", "sh", "th", "wh"], "answer_index": 1, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shop"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0037", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See my big ro", "choices": ["ch", "ck", "sh", "ng"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rock"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0038", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at my ri", "choices": ["ck", "ng", "sh", "th"], "answer_index": 1, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ring"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0039", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the red wi", "choices": ["th", "ng", "ck", "sh"], "answer_index": 1, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wing"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0040", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the ba", "choices": ["ch", "th", "sh", "wh"], "answer_index": 1, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bath"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0041", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See my pet ne", "choices": ["ch", "ck", "sh", "th"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "neck"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0042", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at our so", "choices": ["ng", "ck", "ch", "sh"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sock"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0043", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the blue di", "choices": ["ch", "sh", "th", "wh"], "answer_index": 1, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dish"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0044", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the small ick", "choices": ["wh", "ch", "sh", "th"], "answer_index": 1, "explain_key": "begin_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chick"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0045", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the eep", "choices": ["wh", "sh", "ch", "th"], "answer_index": 1, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sheep"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0046", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at that ing", "choices": ["wh", "th", "ch", "sh"], "answer_index": 1, "explain_key": "begin_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "thing"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0047", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See my toy eel", "choices": ["th", "wh", "sh", "ch"], "answer_index": 1, "explain_key": "begin_wh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wheel"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0048", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "I see them si", "choices": ["th", "ng", "ck", "sh"], "answer_index": 1, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sing"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0049", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the gold lo", "choices": ["ng", "ck", "ch", "sh"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lock"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0050", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the gate ha", "choices": ["ck", "ng", "sh", "th"], "answer_index": 1, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hang"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0051", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See my left ki", "choices": ["ng", "ck", "ch", "sh"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kick"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0052", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the clean wa", "choices": ["th", "sh", "ch", "wh"], "answer_index": 1, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wash"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0053", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at my tea", "choices": ["sh", "th", "ch", "wh"], "answer_index": 2, "explain_key": "end_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "teach"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0054", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the long pa", "choices": ["ch", "sh", "th", "wh"], "answer_index": 2, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "path"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0055", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the ben", "choices": ["sh", "th", "ch", "wh"], "answer_index": 2, "explain_key": "end_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bench"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0056", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See my lunch pa", "choices": ["sh", "ng", "th", "ck"], "answer_index": 3, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pack"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0057", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at my ma", "choices": ["ch", "wh", "sh", "th"], "answer_index": 3, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "math"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0058", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the gray mo", "choices": ["ch", "ck", "ng", "th"], "answer_index": 3, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "moth"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0059", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the ew", "choices": ["sh", "th", "wh", "ch"], "answer_index": 3, "explain_key": "begin_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chew"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0060", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the nice are", "choices": ["ch", "th", "wh", "sh"], "answer_index": 3, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "share"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0061", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the read", "choices": ["ch", "wh", "sh", "th"], "answer_index": 3, "explain_key": "begin_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "thread"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0062", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the white ite", "choices": ["th", "sh", "ch", "wh"], "answer_index": 3, "explain_key": "begin_wh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "white"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0063", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the eat", "choices": ["th", "ch", "sh", "wh"], "answer_index": 3, "explain_key": "begin_wh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wheat"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0064", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See my secret wi", "choices": ["ch", "th", "wh", "sh"], "answer_index": 3, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wish"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0065", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the si", "choices": ["ch", "sh", "ng", "ck"], "answer_index": 3, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sick"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0066", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the loud so", "choices": ["ck", "sh", "th", "ng"], "answer_index": 3, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "song"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0067", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the lo", "choices": ["ck", "sh", "th", "ng"], "answer_index": 3, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "long"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0068", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the brave ki", "choices": ["ck", "sh", "ch", "ng"], "answer_index": 3, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "king"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0069", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the de", "choices": ["ng", "ch", "sh", "ck"], "answer_index": 3, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "deck"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0070", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the dark la", "choices": ["ng", "ch", "sh", "ck"], "answer_index": 3, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lack"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0071", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look at the ell", "choices": ["ch", "th", "wh", "sh"], "answer_index": 3, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shell"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0072", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "See the round in", "choices": ["sh", "th", "wh", "ch"], "answer_index": 3, "explain_key": "begin_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chin"}]}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0073", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can kick the small ro", "choices": ["ch", "ck", "sh", "ng"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rock"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0074", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can pick a ripe ri", "choices": ["ck", "ng", "sh", "th"], "answer_index": 1, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ring"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0075", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can flap a blue wi", "choices": ["th", "ng", "ck", "sh"], "answer_index": 1, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wing"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0076", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can play in the ba", "choices": ["ch", "th", "wh", "sh"], "answer_index": 1, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bath"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0077", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can pet my soft ne", "choices": ["ch", "ck", "ng", "sh"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "neck"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0078", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can find my lost so", "choices": ["ng", "ck", "ch", "sh"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sock"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0079", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can wash the blue di", "choices": ["ch", "sh", "th", "wh"], "answer_index": 1, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dish"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0080", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can hold the small ick", "choices": ["wh", "ch", "sh", "th"], "answer_index": 1, "explain_key": "begin_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chick"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0081", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can count the white eep", "choices": ["wh", "sh", "ch", "th"], "answer_index": 1, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sheep"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0082", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can name that odd ing", "choices": ["wh", "th", "ch", "sh"], "answer_index": 1, "explain_key": "begin_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "thing"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0083", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can roll the big eel", "choices": ["th", "wh", "sh", "ch"], "answer_index": 1, "explain_key": "begin_wh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wheel"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0084", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can help me fix the lo", "choices": ["ng", "ck", "ch", "sh"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lock"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0085", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can hang up my red ha", "choices": ["ck", "ng", "sh", "th"], "answer_index": 1, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hang"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0086", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can boot the ball with ki", "choices": ["ng", "ck", "ch", "sh"], "answer_index": 1, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kick"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0087", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can scrub the dirty wa", "choices": ["th", "sh", "ch", "wh"], "answer_index": 1, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wash"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0088", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can learn from my tea", "choices": ["sh", "th", "ch", "wh"], "answer_index": 2, "explain_key": "end_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "teach"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0089", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can walk down the pa", "choices": ["ch", "wh", "sh", "th"], "answer_index": 3, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "path"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0090", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can sit on the wood ben", "choices": ["sh", "th", "wh", "ch"], "answer_index": 3, "explain_key": "end_ch", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bench"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0091", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can wear the new ite", "choices": ["th", "wh", "sh", "ch"], "answer_index": 1, "explain_key": "begin_wh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "white"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0092", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can grow the gold eat", "choices": ["th", "ch", "wh", "sh"], "answer_index": 2, "explain_key": "begin_wh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wheat"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0093", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can make a small wi", "choices": ["ch", "th", "wh", "sh"], "answer_index": 3, "explain_key": "end_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wish"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0094", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can find a sick si", "choices": ["ch", "sh", "ng", "ck"], "answer_index": 3, "explain_key": "end_ck", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sick"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0095", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can sing a fun so", "choices": ["ck", "sh", "th", "ng"], "answer_index": 3, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "song"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0096", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can run the whole lo", "choices": ["ck", "sh", "th", "ng"], "answer_index": 3, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "long"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0097", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can tag my fast ki", "choices": ["ck", "sh", "ch", "ng"], "answer_index": 3, "explain_key": "end_ng", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "king"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0098", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can buy shoes at the op", "choices": ["ch", "sh", "th", "wh"], "answer_index": 1, "explain_key": "begin_sh", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shop"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0099", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can spot a gray mo", "choices": ["ch", "ck", "ng", "th"], "answer_index": 3, "explain_key": "end_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "moth"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_word_with_the_right_digraph_0100", "family_id": "fam_complete_the_word_with_the_right_digraph", "skill_id": "seed_complete_the_word_with_the_right_digraph", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> can read the loose read", "choices": ["ch", "wh", "sh", "th"], "answer_index": 3, "explain_key": "begin_th", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "thread"}], "swap_slots": {"NAME": "names.txt"}}]
+[
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0001",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ip",
+    "choices": [
+      "sh",
+      "ck",
+      "ng",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ship"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]]. They make one sound.",
+    "explain_item_en": "The word is [[ship]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word ship?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0002",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The du",
+    "choices": [
+      "sh",
+      "th",
+      "ck",
+      "wh"
+    ],
+    "answer_index": 2,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the end.",
+    "explain_item_en": "The word is [[duck]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word duck?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0003",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My fi",
+    "choices": [
+      "ck",
+      "sh",
+      "ng",
+      "ch"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[fish]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word fish?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0004",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at my air",
+    "choices": [
+      "ch",
+      "sh",
+      "th",
+      "wh"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chair"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[chair]]. It starts with [[ch]].",
+    "speak_en": "Which letters complete the word chair?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0005",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at my lun",
+    "choices": [
+      "sh",
+      "th",
+      "ck",
+      "ch"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ],
+    "explain_skill_en": "Listen for the [[end]] of the word. Tap the letter pair that fits.",
+    "explain_item_en": "The word is [[lunch]]. It ends with [[ch]].",
+    "speak_en": "Which letters complete the word lunch?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0006",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See my tee",
+    "choices": [
+      "sh",
+      "th",
+      "ch",
+      "ck"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teeth"
+      }
+    ],
+    "explain_skill_en": "Two letters can make one [[sound]] at the end.",
+    "explain_item_en": "The word is [[teeth]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word teeth?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0007",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can look at my big clo",
+    "choices": [
+      "ch",
+      "sh",
+      "ck",
+      "ng"
+    ],
+    "answer_index": 2,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Put the sounds [[together]]. Pick the pair that fits.",
+    "explain_item_en": "The word is [[clock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word clock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0008",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can see my big ale",
+    "choices": [
+      "wh",
+      "th",
+      "sh",
+      "ch"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_wh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "whale"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[whale]]. It starts with [[wh]].",
+    "speak_en": "Which letters complete the word whale?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0009",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The op",
+    "choices": [
+      "sh",
+      "ck",
+      "ng",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shop"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the start.",
+    "explain_item_en": "The word is [[shop]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word shop?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0010",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ro",
+    "choices": [
+      "ck",
+      "sh",
+      "ng",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[rock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word rock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0011",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My ri",
+    "choices": [
+      "ng",
+      "sh",
+      "ck",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ring"
+      }
+    ],
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[ring]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word ring?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0012",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The wi",
+    "choices": [
+      "ng",
+      "sh",
+      "ck",
+      "ch"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wing"
+      }
+    ],
+    "explain_skill_en": "Listen for the singing [[sound]] at the end.",
+    "explain_item_en": "The word is [[wing]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word wing?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0013",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ba",
+    "choices": [
+      "th",
+      "sh",
+      "ck",
+      "ng"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bath"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the end.",
+    "explain_item_en": "The word is [[bath]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word bath?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0014",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ne",
+    "choices": [
+      "ck",
+      "sh",
+      "ng",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "neck"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[neck]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word neck?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0015",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The so",
+    "choices": [
+      "ck",
+      "sh",
+      "ng",
+      "ch"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[sock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word sock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0016",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The di",
+    "choices": [
+      "sh",
+      "ck",
+      "ng",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the end.",
+    "explain_item_en": "The word is [[dish]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word dish?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0017",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ick",
+    "choices": [
+      "ch",
+      "sh",
+      "ck",
+      "ng"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[chick]]. It starts with [[ch]].",
+    "speak_en": "Which letters complete the word chick?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0018",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The eep",
+    "choices": [
+      "sh",
+      "ck",
+      "ng",
+      "ch"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the start.",
+    "explain_item_en": "The word is [[sheep]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word sheep?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0019",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ing",
+    "choices": [
+      "th",
+      "sh",
+      "ck",
+      "ng"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thing"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the start.",
+    "explain_item_en": "The word is [[thing]]. It starts with [[th]].",
+    "speak_en": "Which letters complete the word thing?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0020",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The eel",
+    "choices": [
+      "wh",
+      "sh",
+      "th",
+      "ch"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_wh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wheel"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that blow a little.",
+    "explain_item_en": "The word is [[wheel]]. It starts with [[wh]].",
+    "speak_en": "Which letters complete the word wheel?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0021",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I can si",
+    "choices": [
+      "ng",
+      "sh",
+      "ck",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sing"
+      }
+    ],
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[sing]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word sing?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0022",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The lo",
+    "choices": [
+      "ck",
+      "sh",
+      "ng",
+      "wh"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[lock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word lock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0023",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ha",
+    "choices": [
+      "ng",
+      "sh",
+      "ck",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hang"
+      }
+    ],
+    "explain_skill_en": "Listen for the singing [[sound]] at the end.",
+    "explain_item_en": "The word is [[hang]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word hang?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0024",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ki",
+    "choices": [
+      "ck",
+      "sh",
+      "ng",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kick"
+      }
+    ],
+    "explain_skill_en": "Two letters can make one [[sound]] at the end.",
+    "explain_item_en": "The word is [[kick]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word kick?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0025",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ell",
+    "choices": [
+      "sh",
+      "ck",
+      "ng",
+      "ch"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shell"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the start.",
+    "explain_item_en": "The word is [[shell]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word shell?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0026",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The in",
+    "choices": [
+      "ch",
+      "sh",
+      "th",
+      "ck"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chin"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[chin]]. It starts with [[ch]].",
+    "speak_en": "Which letters complete the word chin?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0027",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ut",
+    "choices": [
+      "sh",
+      "ck",
+      "ng",
+      "th"
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shut"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the start.",
+    "explain_item_en": "The word is [[shut]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word shut?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0028",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The oe",
+    "choices": [
+      "ck",
+      "sh",
+      "ng",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the start.",
+    "explain_item_en": "The word is [[shoe]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word shoe?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0029",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ed",
+    "choices": [
+      "ng",
+      "sh",
+      "ck",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shed"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that starts the word.",
+    "explain_item_en": "The word is [[shed]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word shed?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0030",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The wa",
+    "choices": [
+      "ck",
+      "sh",
+      "ng",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wash"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the end.",
+    "explain_item_en": "The word is [[wash]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word wash?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0031",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bru",
+    "choices": [
+      "th",
+      "sh",
+      "ck",
+      "ng"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "brush"
+      }
+    ],
+    "explain_skill_en": "Listen for the [[end]] of the word. Tap the pair that fits.",
+    "explain_item_en": "The word is [[brush]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word brush?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0032",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The de",
+    "choices": [
+      "ch",
+      "ck",
+      "sh",
+      "ng"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "deck"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the end.",
+    "explain_item_en": "The word is [[deck]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word deck?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0033",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The la",
+    "choices": [
+      "ng",
+      "ck",
+      "sh",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lack"
+      }
+    ],
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[lack]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word lack?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0034",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The at",
+    "choices": [
+      "ng",
+      "ch",
+      "sh",
+      "ck"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chat"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[chat]]. It starts with [[ch]].",
+    "speak_en": "Which letters complete the word chat?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0035",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I can sa",
+    "choices": [
+      "ck",
+      "th",
+      "ng",
+      "sh"
+    ],
+    "answer_index": 2,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sang"
+      }
+    ],
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[sang]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word sang?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0036",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the op",
+    "choices": [
+      "ch",
+      "sh",
+      "th",
+      "wh"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shop"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the start.",
+    "explain_item_en": "The word is [[shop]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word shop?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0037",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See my big ro",
+    "choices": [
+      "ch",
+      "ck",
+      "sh",
+      "ng"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[rock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word rock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0038",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at my ri",
+    "choices": [
+      "ck",
+      "ng",
+      "sh",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ring"
+      }
+    ],
+    "explain_skill_en": "Listen for the singing [[sound]] at the end.",
+    "explain_item_en": "The word is [[ring]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word ring?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0039",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the red wi",
+    "choices": [
+      "th",
+      "ng",
+      "ck",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wing"
+      }
+    ],
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[wing]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word wing?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0040",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the ba",
+    "choices": [
+      "ch",
+      "th",
+      "sh",
+      "wh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bath"
+      }
+    ],
+    "explain_skill_en": "Two letters can make one [[sound]] at the end.",
+    "explain_item_en": "The word is [[bath]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word bath?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0041",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See my pet ne",
+    "choices": [
+      "ch",
+      "ck",
+      "sh",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "neck"
+      }
+    ],
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[neck]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word neck?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0042",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at our so",
+    "choices": [
+      "ng",
+      "ck",
+      "ch",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "explain_skill_en": "Put the sounds [[together]]. Pick the pair that fits.",
+    "explain_item_en": "The word is [[sock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word sock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0043",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the blue di",
+    "choices": [
+      "ch",
+      "sh",
+      "th",
+      "wh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the end.",
+    "explain_item_en": "The word is [[dish]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word dish?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0044",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the small ick",
+    "choices": [
+      "wh",
+      "ch",
+      "sh",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[chick]]. It starts with [[ch]].",
+    "speak_en": "Which letters complete the word chick?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0045",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the eep",
+    "choices": [
+      "wh",
+      "sh",
+      "ch",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the start.",
+    "explain_item_en": "The word is [[sheep]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word sheep?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0046",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at that ing",
+    "choices": [
+      "wh",
+      "th",
+      "ch",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thing"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the start.",
+    "explain_item_en": "The word is [[thing]]. It starts with [[th]].",
+    "speak_en": "Which letters complete the word thing?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0047",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See my toy eel",
+    "choices": [
+      "th",
+      "wh",
+      "sh",
+      "ch"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_wh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wheel"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that blow a little.",
+    "explain_item_en": "The word is [[wheel]]. It starts with [[wh]].",
+    "speak_en": "Which letters complete the word wheel?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0048",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I see them si",
+    "choices": [
+      "th",
+      "ng",
+      "ck",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sing"
+      }
+    ],
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[sing]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word sing?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0049",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the gold lo",
+    "choices": [
+      "ng",
+      "ck",
+      "ch",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[lock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word lock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0050",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the gate ha",
+    "choices": [
+      "ck",
+      "ng",
+      "sh",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hang"
+      }
+    ],
+    "explain_skill_en": "Listen for the singing [[sound]] at the end.",
+    "explain_item_en": "The word is [[hang]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word hang?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0051",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See my left ki",
+    "choices": [
+      "ng",
+      "ck",
+      "ch",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kick"
+      }
+    ],
+    "explain_skill_en": "Two letters can make one [[sound]] at the end.",
+    "explain_item_en": "The word is [[kick]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word kick?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0052",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the clean wa",
+    "choices": [
+      "th",
+      "sh",
+      "ch",
+      "wh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wash"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the end.",
+    "explain_item_en": "The word is [[wash]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word wash?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0053",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at my tea",
+    "choices": [
+      "sh",
+      "th",
+      "ch",
+      "wh"
+    ],
+    "answer_index": 2,
+    "explain_key": "end_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teach"
+      }
+    ],
+    "explain_skill_en": "Listen for the [[end]] of the word. Tap the pair that fits.",
+    "explain_item_en": "The word is [[teach]]. It ends with [[ch]].",
+    "speak_en": "Which letters complete the word teach?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0054",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the long pa",
+    "choices": [
+      "ch",
+      "sh",
+      "th",
+      "wh"
+    ],
+    "answer_index": 2,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the end.",
+    "explain_item_en": "The word is [[path]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word path?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0055",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the ben",
+    "choices": [
+      "sh",
+      "th",
+      "ch",
+      "wh"
+    ],
+    "answer_index": 2,
+    "explain_key": "end_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ],
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[bench]]. It ends with [[ch]].",
+    "speak_en": "Which letters complete the word bench?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0056",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See my lunch pa",
+    "choices": [
+      "sh",
+      "ng",
+      "th",
+      "ck"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pack"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[pack]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word pack?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0057",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at my ma",
+    "choices": [
+      "ch",
+      "wh",
+      "sh",
+      "th"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "math"
+      }
+    ],
+    "explain_skill_en": "Two letters can make one [[sound]] at the end.",
+    "explain_item_en": "The word is [[math]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word math?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0058",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the gray mo",
+    "choices": [
+      "ch",
+      "ck",
+      "ng",
+      "th"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moth"
+      }
+    ],
+    "explain_skill_en": "Listen for the [[end]] of the word. Tap the pair that fits.",
+    "explain_item_en": "The word is [[moth]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word moth?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0059",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the ew",
+    "choices": [
+      "sh",
+      "th",
+      "wh",
+      "ch"
+    ],
+    "answer_index": 3,
+    "explain_key": "begin_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chew"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[chew]]. It starts with [[ch]].",
+    "speak_en": "Which letters complete the word chew?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0060",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the nice are",
+    "choices": [
+      "ch",
+      "th",
+      "wh",
+      "sh"
+    ],
+    "answer_index": 3,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "share"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the start.",
+    "explain_item_en": "The word is [[share]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word share?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0061",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the read",
+    "choices": [
+      "ch",
+      "wh",
+      "sh",
+      "th"
+    ],
+    "answer_index": 3,
+    "explain_key": "begin_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thread"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the start.",
+    "explain_item_en": "The word is [[thread]]. It starts with [[th]].",
+    "speak_en": "Which letters complete the word thread?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0062",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the white ite",
+    "choices": [
+      "th",
+      "sh",
+      "ch",
+      "wh"
+    ],
+    "answer_index": 3,
+    "explain_key": "begin_wh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "white"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that blow a little.",
+    "explain_item_en": "The word is [[white]]. It starts with [[wh]].",
+    "speak_en": "Which letters complete the word white?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0063",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the eat",
+    "choices": [
+      "th",
+      "ch",
+      "sh",
+      "wh"
+    ],
+    "answer_index": 3,
+    "explain_key": "begin_wh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wheat"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that starts the word.",
+    "explain_item_en": "The word is [[wheat]]. It starts with [[wh]].",
+    "speak_en": "Which letters complete the word wheat?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0064",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See my secret wi",
+    "choices": [
+      "ch",
+      "th",
+      "wh",
+      "sh"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wish"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the end.",
+    "explain_item_en": "The word is [[wish]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word wish?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0065",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the si",
+    "choices": [
+      "ch",
+      "sh",
+      "ng",
+      "ck"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sick"
+      }
+    ],
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[sick]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word sick?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0066",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the loud so",
+    "choices": [
+      "ck",
+      "sh",
+      "th",
+      "ng"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ],
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[song]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word song?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0067",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the lo",
+    "choices": [
+      "ck",
+      "sh",
+      "th",
+      "ng"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "long"
+      }
+    ],
+    "explain_skill_en": "Listen for the singing [[sound]] at the end.",
+    "explain_item_en": "The word is [[long]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word long?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0068",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the brave ki",
+    "choices": [
+      "ck",
+      "sh",
+      "ch",
+      "ng"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "king"
+      }
+    ],
+    "explain_skill_en": "Put the sounds [[together]]. Pick the pair that fits.",
+    "explain_item_en": "The word is [[king]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word king?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0069",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the de",
+    "choices": [
+      "ng",
+      "ch",
+      "sh",
+      "ck"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "deck"
+      }
+    ],
+    "explain_skill_en": "Two letters can work as a [[team]] at the end.",
+    "explain_item_en": "The word is [[deck]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word deck?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0070",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the dark la",
+    "choices": [
+      "ng",
+      "ch",
+      "sh",
+      "ck"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lack"
+      }
+    ],
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[lack]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word lack?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0071",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the ell",
+    "choices": [
+      "ch",
+      "th",
+      "wh",
+      "sh"
+    ],
+    "answer_index": 3,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shell"
+      }
+    ],
+    "explain_skill_en": "The quiet [[shh]] sound can come at the start.",
+    "explain_item_en": "The word is [[shell]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word shell?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0072",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the round in",
+    "choices": [
+      "sh",
+      "th",
+      "wh",
+      "ch"
+    ],
+    "answer_index": 3,
+    "explain_key": "begin_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chin"
+      }
+    ],
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[chin]]. It starts with [[ch]].",
+    "speak_en": "Which letters complete the word chin?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0073",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can kick the small ro",
+    "choices": [
+      "ch",
+      "ck",
+      "sh",
+      "ng"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[rock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word rock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0074",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can pick a ripe ri",
+    "choices": [
+      "ck",
+      "ng",
+      "sh",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ring"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[ring]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word ring?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0075",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can flap a blue wi",
+    "choices": [
+      "th",
+      "ng",
+      "ck",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wing"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Listen for the singing [[sound]] at the end.",
+    "explain_item_en": "The word is [[wing]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word wing?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0076",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can play in the ba",
+    "choices": [
+      "ch",
+      "th",
+      "wh",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bath"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Two letters can make one [[sound]] at the end.",
+    "explain_item_en": "The word is [[bath]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word bath?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0077",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can pet my soft ne",
+    "choices": [
+      "ch",
+      "ck",
+      "ng",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "neck"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[neck]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word neck?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0078",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can find my lost so",
+    "choices": [
+      "ng",
+      "ck",
+      "ch",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Put the sounds [[together]]. Pick the pair that fits.",
+    "explain_item_en": "The word is [[sock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word sock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0079",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can wash the blue di",
+    "choices": [
+      "ch",
+      "sh",
+      "th",
+      "wh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The quiet [[shh]] sound can come at the end.",
+    "explain_item_en": "The word is [[dish]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word dish?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0080",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can hold the small ick",
+    "choices": [
+      "wh",
+      "ch",
+      "sh",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[chick]]. It starts with [[ch]].",
+    "speak_en": "Which letters complete the word chick?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0081",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can count the white eep",
+    "choices": [
+      "wh",
+      "sh",
+      "ch",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The quiet [[shh]] sound can come at the start.",
+    "explain_item_en": "The word is [[sheep]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word sheep?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0082",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can name that odd ing",
+    "choices": [
+      "wh",
+      "th",
+      "ch",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thing"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Two letters can work as a [[team]] at the start.",
+    "explain_item_en": "The word is [[thing]]. It starts with [[th]].",
+    "speak_en": "Which letters complete the word thing?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0083",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can roll the big eel",
+    "choices": [
+      "th",
+      "wh",
+      "sh",
+      "ch"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_wh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wheel"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Some words [[start]] with two letters that blow a little.",
+    "explain_item_en": "The word is [[wheel]]. It starts with [[wh]].",
+    "speak_en": "Which letters complete the word wheel?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0084",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can help me fix the lo",
+    "choices": [
+      "ng",
+      "ck",
+      "ch",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[lock]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word lock?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0085",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can hang up my red ha",
+    "choices": [
+      "ck",
+      "ng",
+      "sh",
+      "th"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hang"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[hang]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word hang?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0086",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can boot the ball with ki",
+    "choices": [
+      "ng",
+      "ck",
+      "ch",
+      "sh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kick"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Two letters can make one [[sound]] at the end.",
+    "explain_item_en": "The word is [[kick]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word kick?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0087",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can scrub the dirty wa",
+    "choices": [
+      "th",
+      "sh",
+      "ch",
+      "wh"
+    ],
+    "answer_index": 1,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wash"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The quiet [[shh]] sound can come at the end.",
+    "explain_item_en": "The word is [[wash]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word wash?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0088",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can learn from my tea",
+    "choices": [
+      "sh",
+      "th",
+      "ch",
+      "wh"
+    ],
+    "answer_index": 2,
+    "explain_key": "end_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teach"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Listen for the [[end]] of the word. Tap the pair that fits.",
+    "explain_item_en": "The word is [[teach]]. It ends with [[ch]].",
+    "speak_en": "Which letters complete the word teach?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0089",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can walk down the pa",
+    "choices": [
+      "ch",
+      "wh",
+      "sh",
+      "th"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Two letters can work as a [[team]] at the end.",
+    "explain_item_en": "The word is [[path]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word path?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0090",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can sit on the wood ben",
+    "choices": [
+      "sh",
+      "th",
+      "wh",
+      "ch"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ch",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Pick the letter [[pair]] that finishes the word.",
+    "explain_item_en": "The word is [[bench]]. It ends with [[ch]].",
+    "speak_en": "Which letters complete the word bench?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0091",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can wear the new ite",
+    "choices": [
+      "th",
+      "wh",
+      "sh",
+      "ch"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_wh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "white"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Some words [[start]] with two letters that blow a little.",
+    "explain_item_en": "The word is [[white]]. It starts with [[wh]].",
+    "speak_en": "Which letters complete the word white?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0092",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can grow the gold eat",
+    "choices": [
+      "th",
+      "ch",
+      "wh",
+      "sh"
+    ],
+    "answer_index": 2,
+    "explain_key": "begin_wh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wheat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Pick the letter [[pair]] that starts the word.",
+    "explain_item_en": "The word is [[wheat]]. It starts with [[wh]].",
+    "speak_en": "Which letters complete the word wheat?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0093",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can make a small wi",
+    "choices": [
+      "ch",
+      "th",
+      "wh",
+      "sh"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wish"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The quiet [[shh]] sound can come at the end.",
+    "explain_item_en": "The word is [[wish]]. It ends with [[sh]].",
+    "speak_en": "Which letters complete the word wish?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0094",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can find a sick si",
+    "choices": [
+      "ch",
+      "sh",
+      "ng",
+      "ck"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ck",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sick"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "A word can [[end]] with two letters that make one sound.",
+    "explain_item_en": "The word is [[sick]]. It ends with [[ck]].",
+    "speak_en": "Which letters complete the word sick?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0095",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can sing a fun so",
+    "choices": [
+      "ck",
+      "sh",
+      "th",
+      "ng"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The singing sound at the [[end]] uses two letters.",
+    "explain_item_en": "The word is [[song]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word song?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0096",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can run the whole lo",
+    "choices": [
+      "ck",
+      "sh",
+      "th",
+      "ng"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "long"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Listen for the singing [[sound]] at the end.",
+    "explain_item_en": "The word is [[long]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word long?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0097",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can tag my fast ki",
+    "choices": [
+      "ck",
+      "sh",
+      "ch",
+      "ng"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_ng",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "king"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Put the sounds [[together]]. Pick the pair that fits.",
+    "explain_item_en": "The word is [[king]]. It ends with [[ng]].",
+    "speak_en": "Which letters complete the word king?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0098",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can buy shoes at the op",
+    "choices": [
+      "ch",
+      "sh",
+      "th",
+      "wh"
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_sh",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shop"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Two letters can work as a [[team]] at the start.",
+    "explain_item_en": "The word is [[shop]]. It starts with [[sh]].",
+    "speak_en": "Which letters complete the word shop?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0099",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can spot a gray mo",
+    "choices": [
+      "ch",
+      "ck",
+      "ng",
+      "th"
+    ],
+    "answer_index": 3,
+    "explain_key": "end_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moth"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Two letters can make one [[sound]] at the end.",
+    "explain_item_en": "The word is [[moth]]. It ends with [[th]].",
+    "speak_en": "Which letters complete the word moth?"
+  },
+  {
+    "item_id": "seed_complete_the_word_with_the_right_digraph_0100",
+    "family_id": "fam_complete_the_word_with_the_right_digraph",
+    "skill_id": "seed_complete_the_word_with_the_right_digraph",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can read the loose read",
+    "choices": [
+      "ch",
+      "wh",
+      "sh",
+      "th"
+    ],
+    "answer_index": 3,
+    "explain_key": "begin_th",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thread"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Some words [[start]] with two letters that work together.",
+    "explain_item_en": "The word is [[thread]]. It starts with [[th]].",
+    "speak_en": "Which letters complete the word thread?"
+  }
+]

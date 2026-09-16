@@ -1,1 +1,3223 @@
-[{"item_id": "seed_choose_the_picture_that_matches_the_setting_0001", "tier": 1, "stem": "<NAME> swims and the water is warm.", "choices": ["barn", "beach", "school"], "answer_index": 1, "explain_key": "place_clue", "swap_slots": {"NAME": "names.txt"}, "media": [{"lemma": "barn"}, {"lemma": "beach"}, {"lemma": "school"}], "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "item_type": "word_to_picture", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0002", "tier": 1, "stem": "Cows and hens live here.", "choices": ["city", "boat", "farm"], "answer_index": 2, "explain_key": "place_clue", "media": [{"lemma": "city"}, {"lemma": "boat"}, {"lemma": "farm"}], "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "item_type": "word_to_picture", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0003", "tier": 1, "stem": "<NAME> sits at a desk with a book.", "choices": ["school", "farm", "lake"], "answer_index": 0, "explain_key": "place_clue", "swap_slots": {"NAME": "names.txt"}, "media": [{"lemma": "school"}, {"lemma": "farm"}, {"lemma": "lake"}], "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "item_type": "word_to_picture", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0004", "tier": 2, "stem": "This person cooks food for us.", "choices": ["teacher", "cook", "farmer"], "answer_index": 1, "explain_key": "person_clue", "media": [{"lemma": "teacher"}, {"lemma": "cook"}, {"lemma": "farmer"}], "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "item_type": "word_to_picture", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0005", "tier": 2, "stem": "This one has a long tail and fur.", "choices": ["bird", "fish", "mouse"], "answer_index": 2, "explain_key": "person_clue", "media": [{"lemma": "bird"}, {"lemma": "fish"}, {"lemma": "mouse"}], "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "item_type": "word_to_picture", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0006", "tier": 2, "stem": "Tall trees and green grass are here.", "choices": ["park", "store", "road"], "answer_index": 0, "explain_key": "place_clue", "media": [{"lemma": "park"}, {"lemma": "store"}, {"lemma": "road"}], "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "item_type": "word_to_picture", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0007", "tier": 3, "stem": "Ducks swim on it near the grass.", "choices": ["sea", "cup", "pond"], "answer_index": 2, "explain_key": "near_miss", "media": [{"lemma": "sea"}, {"lemma": "cup"}, {"lemma": "pond"}], "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "item_type": "word_to_picture", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0008", "tier": 3, "stem": "This one is little and has no teeth.", "choices": ["baby", "child", "man"], "answer_index": 0, "explain_key": "near_miss", "media": [{"lemma": "baby"}, {"lemma": "child"}, {"lemma": "man"}], "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "item_type": "word_to_picture", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0009", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Books sit on tall shelves here.", "choices": ["library", "kitchen", "road"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "library"}, {"lemma": "kitchen"}, {"lemma": "road"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0010", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Trains stop and people get on.", "choices": ["farm", "train", "lake"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "farm"}, {"lemma": "train"}, {"lemma": "lake"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0011", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Sand and shells line the shore.", "choices": ["forest", "home", "beach"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "forest"}, {"lemma": "home"}, {"lemma": "beach"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0012", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "<NAME> naps in a soft bed.", "choices": ["home", "school", "park"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "home"}, {"lemma": "school"}, {"lemma": "park"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0013", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "We buy food and toys here.", "choices": ["lake", "store", "barn"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lake"}, {"lemma": "store"}, {"lemma": "barn"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0014", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Big waves crash on the sand.", "choices": ["pool", "hill", "sea"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pool"}, {"lemma": "hill"}, {"lemma": "sea"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0015", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "This one barks and wags its tail.", "choices": ["dog", "cat", "fish"], "answer_index": 0, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dog"}, {"lemma": "cat"}, {"lemma": "fish"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0016", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "She teaches kids to read books.", "choices": ["cook", "teacher", "farmer"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cook"}, {"lemma": "teacher"}, {"lemma": "farmer"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0017", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "It has whiskers and says meow.", "choices": ["bird", "dog", "cat"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bird"}, {"lemma": "dog"}, {"lemma": "cat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0018", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Tables and chairs are for lunch.", "choices": ["kitchen", "yard", "road"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kitchen"}, {"lemma": "yard"}, {"lemma": "road"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0019", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "<NAME> swings on a tall slide.", "choices": ["store", "playground", "bed"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "store"}, {"lemma": "playground"}, {"lemma": "bed"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0020", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "It hops in the grass and garden.", "choices": ["cow", "horse", "rabbit"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cow"}, {"lemma": "horse"}, {"lemma": "rabbit"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0021", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Cars drive down this long path.", "choices": ["road", "lake", "nest"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "road"}, {"lemma": "lake"}, {"lemma": "nest"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0022", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "It runs fast in the big field.", "choices": ["pig", "horse", "fish"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pig"}, {"lemma": "horse"}, {"lemma": "fish"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0023", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "It says moo and eats green grass.", "choices": ["hen", "duck", "cow"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}, {"lemma": "duck"}, {"lemma": "cow"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0024", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "<NAME> kicks a ball on our grass.", "choices": ["yard", "store", "boat"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "yard"}, {"lemma": "store"}, {"lemma": "boat"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0025", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Hot soup cooks on the stove.", "choices": ["bed", "kitchen", "park"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bed"}, {"lemma": "kitchen"}, {"lemma": "park"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0026", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "It has wings and flies in sky.", "choices": ["fish", "cat", "bird"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "cat"}, {"lemma": "bird"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0027", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Tall hills of green grass grow.", "choices": ["hill", "cup", "sock"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hill"}, {"lemma": "cup"}, {"lemma": "sock"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0028", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "It gives us white milk to drink.", "choices": ["cat", "cow", "hen"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}, {"lemma": "cow"}, {"lemma": "hen"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0029", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Boats float on moving blue water.", "choices": ["garden", "desk", "river"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "garden"}, {"lemma": "desk"}, {"lemma": "river"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0030", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "This little one likes soft wool.", "choices": ["lamb", "fish", "car"], "answer_index": 0, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lamb"}, {"lemma": "fish"}, {"lemma": "car"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0031", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "Trees grow tall in the dark woods.", "choices": ["store", "forest", "bed"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "store"}, {"lemma": "forest"}, {"lemma": "bed"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0032", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "It catches mice with sharp claws.", "choices": ["dog", "cow", "cat"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dog"}, {"lemma": "cow"}, {"lemma": "cat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0033", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "We eat lunch at long tables here.", "choices": ["school", "lake", "hat"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "school"}, {"lemma": "lake"}, {"lemma": "hat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0034", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "He plants corn and feeds the cows.", "choices": ["teacher", "farmer", "cook"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "teacher"}, {"lemma": "farmer"}, {"lemma": "cook"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0035", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 1, "item_type": "word_to_picture", "stem": "We sleep in tents under stars.", "choices": ["city", "room", "camp"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "city"}, {"lemma": "room"}, {"lemma": "camp"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0036", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Red apples grow on trees here.", "choices": ["garden", "school", "boat"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "garden"}, {"lemma": "school"}, {"lemma": "boat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0037", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Many animals live behind big gates.", "choices": ["home", "zoo", "desk"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "home"}, {"lemma": "zoo"}, {"lemma": "desk"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0038", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "You swim and splash in warm water.", "choices": ["road", "hill", "pool"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "road"}, {"lemma": "hill"}, {"lemma": "pool"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0039", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "She helps sick people feel better.", "choices": ["nurse", "baker", "boy"], "answer_index": 0, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "nurse"}, {"lemma": "baker"}, {"lemma": "boy"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0040", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "He sails a boat on the sea.", "choices": ["teacher", "sailor", "farmer"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "teacher"}, {"lemma": "sailor"}, {"lemma": "farmer"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0041", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "She makes hot bread in the oven.", "choices": ["farmer", "nurse", "baker"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "farmer"}, {"lemma": "nurse"}, {"lemma": "baker"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0042", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Dark and cool with rocky walls.", "choices": ["cave", "park", "bus"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cave"}, {"lemma": "park"}, {"lemma": "bus"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0043", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "<NAME> slides down into cool water.", "choices": ["farm", "pool", "bed"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "farm"}, {"lemma": "pool"}, {"lemma": "bed"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0044", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Wind blows through tall leafy trees.", "choices": ["store", "desk", "forest"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "store"}, {"lemma": "desk"}, {"lemma": "forest"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0045", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "It has a shell and moves slow.", "choices": ["turtle", "bird", "dog"], "answer_index": 0, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "turtle"}, {"lemma": "bird"}, {"lemma": "dog"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0046", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Long ears hop through the garden.", "choices": ["cow", "bunny", "fish"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cow"}, {"lemma": "bunny"}, {"lemma": "fish"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0047", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "It ribbits near the wet pond edge.", "choices": ["hen", "duck", "frog"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}, {"lemma": "duck"}, {"lemma": "frog"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0048", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Waves are big and salt is here.", "choices": ["sea", "pond", "cup"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sea"}, {"lemma": "pond"}, {"lemma": "cup"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0049", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Sheep and goats eat grass on hills.", "choices": ["city", "farm", "lake"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "city"}, {"lemma": "farm"}, {"lemma": "lake"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0050", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Big eyes hunt mice at night.", "choices": ["dog", "fish", "owl"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dog"}, {"lemma": "fish"}, {"lemma": "owl"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0051", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "We play ball on green grass outside.", "choices": ["yard", "kitchen", "boat"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "yard"}, {"lemma": "kitchen"}, {"lemma": "boat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0052", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "<NAME> climbs to the very top outside.", "choices": ["lake", "hill", "cup"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lake"}, {"lemma": "hill"}, {"lemma": "cup"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0053", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "White snow covers the quiet trees.", "choices": ["store", "bed", "park"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "store"}, {"lemma": "bed"}, {"lemma": "park"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0054", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Soft white fur and long pink ears.", "choices": ["bunny", "cow", "fish"], "answer_index": 0, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bunny"}, {"lemma": "cow"}, {"lemma": "fish"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0055", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Four legs gallop across the field.", "choices": ["fish", "horse", "hen"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "horse"}, {"lemma": "hen"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0056", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Small and woolly it says baa.", "choices": ["dog", "cat", "lamb"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dog"}, {"lemma": "cat"}, {"lemma": "lamb"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0057", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Books and desks fill every room.", "choices": ["school", "sea", "hat"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "school"}, {"lemma": "sea"}, {"lemma": "hat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0058", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Grey clouds bring wet falling drops outside.", "choices": ["bed", "yard", "cup"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bed"}, {"lemma": "yard"}, {"lemma": "cup"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0059", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Fish swim in a small still pool.", "choices": ["road", "store", "pond"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "road"}, {"lemma": "store"}, {"lemma": "pond"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0060", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "It purrs and sleeps on the couch.", "choices": ["cat", "cow", "bird"], "answer_index": 0, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}, {"lemma": "cow"}, {"lemma": "bird"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0061", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Yellow beak and feathers bright and small.", "choices": ["fish", "chick", "mouse"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "chick"}, {"lemma": "mouse"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0062", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "It honks and swims with big wings.", "choices": ["cat", "fish", "goose"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}, {"lemma": "fish"}, {"lemma": "goose"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0063", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "We float down the wide blue water.", "choices": ["river", "desk", "hat"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "river"}, {"lemma": "desk"}, {"lemma": "hat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0064", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Stars shine above our cloth roof.", "choices": ["room", "tent", "bus"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "room"}, {"lemma": "tent"}, {"lemma": "bus"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0065", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Hot sand stretches far with shells.", "choices": ["forest", "lake", "beach"], "answer_index": 2, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "forest"}, {"lemma": "lake"}, {"lemma": "beach"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0066", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "It waddles and quacks near water.", "choices": ["duck", "cat", "dog"], "answer_index": 0, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}, {"lemma": "cat"}, {"lemma": "dog"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0067", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Soft fur and a bushy red tail.", "choices": ["fish", "fox", "hen"], "answer_index": 1, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "fox"}, {"lemma": "hen"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0068", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Small beady eyes live in holes.", "choices": ["horse", "cow", "mouse"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "horse"}, {"lemma": "cow"}, {"lemma": "mouse"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0069", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Flowers and bees buzz in rows.", "choices": ["garden", "boat", "cup"], "answer_index": 0, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "garden"}, {"lemma": "boat"}, {"lemma": "cup"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0070", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "We ride bikes on the flat path.", "choices": ["bed", "road", "nest"], "answer_index": 1, "explain_key": "place_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bed"}, {"lemma": "road"}, {"lemma": "nest"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0071", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "It bleats on the rocky green hill.", "choices": ["fish", "hen", "goat"], "answer_index": 2, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "hen"}, {"lemma": "goat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0072", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 2, "item_type": "word_to_picture", "stem": "Fluffy tail hops in the green bush.", "choices": ["rabbit", "cow", "fish"], "answer_index": 0, "explain_key": "person_clue", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rabbit"}, {"lemma": "cow"}, {"lemma": "fish"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0073", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Small still water with frogs nearby.", "choices": ["sea", "pond", "pool"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sea"}, {"lemma": "pond"}, {"lemma": "pool"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0074", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Small warm water behind the house.", "choices": ["lake", "sea", "pool"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lake"}, {"lemma": "sea"}, {"lemma": "pool"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0075", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Still in a crib and needs a nap.", "choices": ["baby", "child", "teen"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "baby"}, {"lemma": "child"}, {"lemma": "teen"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0076", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Too big for crib but still small.", "choices": ["baby", "child", "dad"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "baby"}, {"lemma": "child"}, {"lemma": "dad"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0077", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Bigger than child but not old yet.", "choices": ["baby", "grandma", "teen"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "baby"}, {"lemma": "grandma"}, {"lemma": "teen"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0078", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Salty air and big rolling waves.", "choices": ["sea", "lake", "pond"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sea"}, {"lemma": "lake"}, {"lemma": "pond"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0079", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Deep fresh water with no salt.", "choices": ["sea", "lake", "pool"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sea"}, {"lemma": "lake"}, {"lemma": "pool"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0080", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Shallow water behind the wooden fence.", "choices": ["sea", "lake", "pool"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sea"}, {"lemma": "lake"}, {"lemma": "pool"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0081", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "She is old with gray hair kindly.", "choices": ["grandma", "girl", "baby"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "grandma"}, {"lemma": "girl"}, {"lemma": "baby"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0082", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "He is tall and works every day.", "choices": ["child", "man", "kitten"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "child"}, {"lemma": "man"}, {"lemma": "kitten"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0083", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "She cooks dinner when we get home.", "choices": ["teacher", "farmer", "mom"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "teacher"}, {"lemma": "farmer"}, {"lemma": "mom"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0084", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "He reads to us after we eat.", "choices": ["dad", "boy", "cat"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dad"}, {"lemma": "boy"}, {"lemma": "cat"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0085", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "She sings songs and tucks us in.", "choices": ["teacher", "mom", "hen"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "teacher"}, {"lemma": "mom"}, {"lemma": "hen"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0086", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Outside grass where we play ball.", "choices": ["park", "garden", "yard"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "park"}, {"lemma": "garden"}, {"lemma": "yard"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0087", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "It has fur and says woof loudly.", "choices": ["dog", "cat", "fox"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dog"}, {"lemma": "cat"}, {"lemma": "fox"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0088", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Orange fur and hunts in the night.", "choices": ["cat", "fox", "dog"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}, {"lemma": "fox"}, {"lemma": "dog"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0089", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Pink skin and rolls in the mud.", "choices": ["cow", "sheep", "pig"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cow"}, {"lemma": "sheep"}, {"lemma": "pig"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0090", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Green space with benches and paths.", "choices": ["park", "yard", "garden"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "park"}, {"lemma": "yard"}, {"lemma": "garden"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0091", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "It has spots and says moo loudly.", "choices": ["horse", "cow", "pig"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "horse"}, {"lemma": "cow"}, {"lemma": "pig"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0092", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "White wool and says baa on hills.", "choices": ["goat", "lamb", "sheep"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "goat"}, {"lemma": "lamb"}, {"lemma": "sheep"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0093", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Young sheep with soft curly wool.", "choices": ["lamb", "goat", "cow"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lamb"}, {"lemma": "goat"}, {"lemma": "cow"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0094", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Hoots at night from a tall tree.", "choices": ["crow", "owl", "duck"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "crow"}, {"lemma": "owl"}, {"lemma": "duck"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0095", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Many tall trees with no buildings.", "choices": ["park", "garden", "forest"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "park"}, {"lemma": "garden"}, {"lemma": "forest"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0096", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Dark hole inside a rocky hill.", "choices": ["cave", "tent", "barn"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cave"}, {"lemma": "tent"}, {"lemma": "barn"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0097", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Lives in water and has no legs.", "choices": ["frog", "fish", "duck"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "frog"}, {"lemma": "fish"}, {"lemma": "duck"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0098", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Green skin jumps from lily pads.", "choices": ["fish", "turtle", "frog"], "answer_index": 2, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "turtle"}, {"lemma": "frog"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0099", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Hard shell and moves very slowly.", "choices": ["turtle", "frog", "fish"], "answer_index": 0, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "turtle"}, {"lemma": "frog"}, {"lemma": "fish"}]}, {"item_id": "seed_choose_the_picture_that_matches_the_setting_0100", "family_id": "fam_choose_the_picture_that_matches_the_setting_", "skill_id": "seed_choose_the_picture_that_matches_the_setting", "stage": "seed", "tier": 3, "item_type": "word_to_picture", "stem": "Monkeys and lions live in cages.", "choices": ["farm", "zoo", "park"], "answer_index": 1, "explain_key": "near_miss", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "farm"}, {"lemma": "zoo"}, {"lemma": "park"}]}]
+[
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0001",
+    "tier": 1,
+    "stem": "<NAME> swims and the water is warm.",
+    "choices": [
+      "barn",
+      "beach",
+      "school"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "barn"
+      },
+      {
+        "lemma": "beach"
+      },
+      {
+        "lemma": "school"
+      }
+    ],
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "item_type": "word_to_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "You [[swim]] in warm water at the [[beach]].",
+    "speak_en": "Which picture shows the place where someone swims and the water is warm?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0002",
+    "tier": 1,
+    "stem": "Cows and hens live here.",
+    "choices": [
+      "city",
+      "boat",
+      "farm"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "media": [
+      {
+        "lemma": "city"
+      },
+      {
+        "lemma": "boat"
+      },
+      {
+        "lemma": "farm"
+      }
+    ],
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "item_type": "word_to_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Cows]] and hens live on a [[farm]].",
+    "speak_en": "Which picture shows the place where cows and hens live?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0003",
+    "tier": 1,
+    "stem": "<NAME> sits at a desk with a book.",
+    "choices": [
+      "school",
+      "farm",
+      "lake"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "school"
+      },
+      {
+        "lemma": "farm"
+      },
+      {
+        "lemma": "lake"
+      }
+    ],
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "item_type": "word_to_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "A [[desk]] and a book mean [[school]].",
+    "speak_en": "Which picture shows the place where someone sits at a desk with a book?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0004",
+    "tier": 2,
+    "stem": "This person cooks food for us.",
+    "choices": [
+      "teacher",
+      "cook",
+      "farmer"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "media": [
+      {
+        "lemma": "teacher"
+      },
+      {
+        "lemma": "cook"
+      },
+      {
+        "lemma": "farmer"
+      }
+    ],
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "item_type": "word_to_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The words tell you about a [[person]]. Look for clues.",
+    "explain_item_en": "Someone who [[cooks]] food is a [[cook]].",
+    "speak_en": "Which picture shows the person who cooks food for us?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0005",
+    "tier": 2,
+    "stem": "This one has a long tail and fur.",
+    "choices": [
+      "bird",
+      "fish",
+      "mouse"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "mouse"
+      }
+    ],
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "item_type": "word_to_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "A long [[tail]] and fur match a [[mouse]].",
+    "speak_en": "Which picture shows the one with a long tail and fur?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0006",
+    "tier": 2,
+    "stem": "Tall trees and green grass are here.",
+    "choices": [
+      "park",
+      "store",
+      "road"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "media": [
+      {
+        "lemma": "park"
+      },
+      {
+        "lemma": "store"
+      },
+      {
+        "lemma": "road"
+      }
+    ],
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "item_type": "word_to_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Trees]] and grass are in a [[park]].",
+    "speak_en": "Which picture shows the place with tall trees and green grass?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0007",
+    "tier": 3,
+    "stem": "Ducks swim on it near the grass.",
+    "choices": [
+      "sea",
+      "cup",
+      "pond"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "media": [
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "cup"
+      },
+      {
+        "lemma": "pond"
+      }
+    ],
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "item_type": "word_to_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Ducks]] swim near grass on a [[pond]], not the big sea.",
+    "speak_en": "Which picture shows the place where ducks swim near the grass?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0008",
+    "tier": 3,
+    "stem": "This one is little and has no teeth.",
+    "choices": [
+      "baby",
+      "child",
+      "man"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "media": [
+      {
+        "lemma": "baby"
+      },
+      {
+        "lemma": "child"
+      },
+      {
+        "lemma": "man"
+      }
+    ],
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "item_type": "word_to_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The words tell you about a [[person]]. Look for clues.",
+    "explain_item_en": "A [[little]] one with no teeth is a [[baby]].",
+    "speak_en": "Which picture shows the one who is little and has no teeth?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0009",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Books sit on tall shelves here.",
+    "choices": [
+      "library",
+      "kitchen",
+      "road"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      },
+      {
+        "lemma": "kitchen"
+      },
+      {
+        "lemma": "road"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Many [[books]] on shelves mean a [[library]].",
+    "speak_en": "Which picture shows the place where books sit on tall shelves?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0010",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Trains stop and people get on.",
+    "choices": [
+      "farm",
+      "train",
+      "lake"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "farm"
+      },
+      {
+        "lemma": "train"
+      },
+      {
+        "lemma": "lake"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]] or thing. Look for clues.",
+    "explain_item_en": "People get on a [[train]] when it [[stops]].",
+    "speak_en": "Which picture matches this: trains stop and people get on?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0011",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Sand and shells line the shore.",
+    "choices": [
+      "forest",
+      "home",
+      "beach"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "forest"
+      },
+      {
+        "lemma": "home"
+      },
+      {
+        "lemma": "beach"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Sand]] and shells are at the [[beach]].",
+    "speak_en": "Which picture shows the place with sand and shells along the shore?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0012",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "<NAME> naps in a soft bed.",
+    "choices": [
+      "home",
+      "school",
+      "park"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      },
+      {
+        "lemma": "school"
+      },
+      {
+        "lemma": "park"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "A [[bed]] for napping is at [[home]].",
+    "speak_en": "Which picture shows the place where someone naps in a soft bed?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0013",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "We buy food and toys here.",
+    "choices": [
+      "lake",
+      "store",
+      "barn"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "store"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "We [[buy]] food and toys at a [[store]].",
+    "speak_en": "Which picture shows the place where we buy food and toys?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0014",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Big waves crash on the sand.",
+    "choices": [
+      "pool",
+      "hill",
+      "sea"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pool"
+      },
+      {
+        "lemma": "hill"
+      },
+      {
+        "lemma": "sea"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Big [[waves]] crash at the [[sea]].",
+    "speak_en": "Which picture shows the place where big waves crash on the sand?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0015",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "This one barks and wags its tail.",
+    "choices": [
+      "dog",
+      "cat",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It [[barks]] and wags. That is a [[dog]].",
+    "speak_en": "Which picture shows the one that barks and wags its tail?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0016",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "She teaches kids to read books.",
+    "choices": [
+      "cook",
+      "teacher",
+      "farmer"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cook"
+      },
+      {
+        "lemma": "teacher"
+      },
+      {
+        "lemma": "farmer"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[person]]. Look for clues.",
+    "explain_item_en": "Someone who [[teaches]] kids is a [[teacher]].",
+    "speak_en": "Which picture shows the person who teaches kids to read books?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0017",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "It has whiskers and says meow.",
+    "choices": [
+      "bird",
+      "dog",
+      "cat"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "cat"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "[[Whiskers]] and meow mean a [[cat]].",
+    "speak_en": "Which picture shows the one with whiskers that says meow?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0018",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Tables and chairs are for lunch.",
+    "choices": [
+      "kitchen",
+      "yard",
+      "road"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitchen"
+      },
+      {
+        "lemma": "yard"
+      },
+      {
+        "lemma": "road"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Lunch]] at tables is in the [[kitchen]].",
+    "speak_en": "Which picture shows the place with tables and chairs for lunch?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0019",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "<NAME> swings on a tall slide.",
+    "choices": [
+      "store",
+      "playground",
+      "bed"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      },
+      {
+        "lemma": "playground"
+      },
+      {
+        "lemma": "bed"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "A [[slide]] and swings are at a [[playground]].",
+    "speak_en": "Which picture shows the place where someone swings on a tall slide?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0020",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "It hops in the grass and garden.",
+    "choices": [
+      "cow",
+      "horse",
+      "rabbit"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "rabbit"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It [[hops]] in the grass. That is a [[rabbit]].",
+    "speak_en": "Which picture shows the one that hops in the grass and garden?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0021",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Cars drive down this long path.",
+    "choices": [
+      "road",
+      "lake",
+      "nest"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "road"
+      },
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "nest"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Cars]] drive on a [[road]].",
+    "speak_en": "Which picture shows the long path where cars drive?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0022",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "It runs fast in the big field.",
+    "choices": [
+      "pig",
+      "horse",
+      "fish"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      },
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It [[runs]] fast in a field. That is a [[horse]].",
+    "speak_en": "Which picture shows the one that runs fast in the big field?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0023",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "It says moo and eats green grass.",
+    "choices": [
+      "hen",
+      "duck",
+      "cow"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      },
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "cow"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It says [[moo]] and eats grass. That is a [[cow]].",
+    "speak_en": "Which picture shows the one that says moo and eats green grass?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0024",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "<NAME> kicks a ball on our grass.",
+    "choices": [
+      "yard",
+      "store",
+      "boat"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      },
+      {
+        "lemma": "store"
+      },
+      {
+        "lemma": "boat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "We kick a [[ball]] on grass in the [[yard]].",
+    "speak_en": "Which picture shows the place where someone kicks a ball on our grass?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0025",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Hot soup cooks on the stove.",
+    "choices": [
+      "bed",
+      "kitchen",
+      "park"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      },
+      {
+        "lemma": "kitchen"
+      },
+      {
+        "lemma": "park"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "A [[stove]] for soup is in the [[kitchen]].",
+    "speak_en": "Which picture shows the place where hot soup cooks on the stove?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0026",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "It has wings and flies in the sky.",
+    "choices": [
+      "fish",
+      "cat",
+      "bird"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "bird"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "[[Wings]] that fly mean a [[bird]].",
+    "speak_en": "Which picture shows the one that has wings and flies in the sky?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0027",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Tall hills of green grass grow.",
+    "choices": [
+      "hill",
+      "cup",
+      "sock"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      },
+      {
+        "lemma": "cup"
+      },
+      {
+        "lemma": "sock"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Tall [[grass]] growing up is a [[hill]].",
+    "speak_en": "Which picture shows the place with tall hills of green grass?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0028",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "It gives us white milk to drink.",
+    "choices": [
+      "cat",
+      "cow",
+      "hen"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "hen"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "White [[milk]] comes from a [[cow]].",
+    "speak_en": "Which picture shows the one that gives us white milk to drink?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0029",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Boats float on moving blue water.",
+    "choices": [
+      "garden",
+      "desk",
+      "river"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      },
+      {
+        "lemma": "desk"
+      },
+      {
+        "lemma": "river"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Boats]] float on moving water in a [[river]].",
+    "speak_en": "Which picture shows the place where boats float on moving blue water?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0030",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "This little one likes soft wool.",
+    "choices": [
+      "lamb",
+      "fish",
+      "car"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lamb"
+      },
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "car"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "Soft [[wool]] belongs to a little [[lamb]].",
+    "speak_en": "Which picture shows the little one that likes soft wool?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0031",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "Trees grow tall in the dark woods.",
+    "choices": [
+      "store",
+      "forest",
+      "bed"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      },
+      {
+        "lemma": "forest"
+      },
+      {
+        "lemma": "bed"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Tall [[trees]] in the woods mean a [[forest]].",
+    "speak_en": "Which picture shows the place where trees grow tall in the dark woods?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0032",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "It catches mice with sharp claws.",
+    "choices": [
+      "dog",
+      "cow",
+      "cat"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "cat"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "Sharp [[claws]] that catch mice mean a [[cat]].",
+    "speak_en": "Which picture shows the one that catches mice with sharp claws?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0033",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "We eat lunch at long tables here.",
+    "choices": [
+      "school",
+      "lake",
+      "hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      },
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "hat"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Long [[tables]] for lunch can be at [[school]].",
+    "speak_en": "Which picture shows the place where we eat lunch at long tables?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0034",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "He plants corn and feeds the cows.",
+    "choices": [
+      "teacher",
+      "farmer",
+      "cook"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      },
+      {
+        "lemma": "farmer"
+      },
+      {
+        "lemma": "cook"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[person]]. Look for clues.",
+    "explain_item_en": "He [[plants]] corn and feeds cows. He is a [[farmer]].",
+    "speak_en": "Which picture shows the person who plants corn and feeds the cows?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0035",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "word_to_picture",
+    "stem": "We sleep in tents under stars.",
+    "choices": [
+      "city",
+      "room",
+      "camp"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "city"
+      },
+      {
+        "lemma": "room"
+      },
+      {
+        "lemma": "camp"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Tents]] under stars mean a [[camp]].",
+    "speak_en": "Which picture shows the place where we sleep in tents under the stars?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0036",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Red apples grow on trees here.",
+    "choices": [
+      "garden",
+      "school",
+      "boat"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      },
+      {
+        "lemma": "school"
+      },
+      {
+        "lemma": "boat"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Apples]] grow on trees in a [[garden]].",
+    "speak_en": "Which picture shows the place where red apples grow on trees?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0037",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Many animals live behind big gates.",
+    "choices": [
+      "home",
+      "zoo",
+      "desk"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      },
+      {
+        "lemma": "zoo"
+      },
+      {
+        "lemma": "desk"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Many [[animals]] behind gates live at a [[zoo]].",
+    "speak_en": "Which picture shows the place where many animals live behind big gates?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0038",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "You swim and splash in warm water.",
+    "choices": [
+      "road",
+      "hill",
+      "pool"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "road"
+      },
+      {
+        "lemma": "hill"
+      },
+      {
+        "lemma": "pool"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "You [[swim]] and splash in a [[pool]].",
+    "speak_en": "Which picture shows the place where you swim and splash in warm water?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0039",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "She helps sick people feel better.",
+    "choices": [
+      "nurse",
+      "baker",
+      "boy"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nurse"
+      },
+      {
+        "lemma": "baker"
+      },
+      {
+        "lemma": "boy"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[person]]. Look for clues.",
+    "explain_item_en": "She helps [[sick]] people. She is a [[nurse]].",
+    "speak_en": "Which picture shows the person who helps sick people feel better?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0040",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "He sails a boat on the sea.",
+    "choices": [
+      "teacher",
+      "sailor",
+      "farmer"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      },
+      {
+        "lemma": "sailor"
+      },
+      {
+        "lemma": "farmer"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[person]]. Look for clues.",
+    "explain_item_en": "He [[sails]] a boat. He is a [[sailor]].",
+    "speak_en": "Which picture shows the person who sails a boat on the sea?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0041",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "She makes hot bread in the oven.",
+    "choices": [
+      "farmer",
+      "nurse",
+      "baker"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "farmer"
+      },
+      {
+        "lemma": "nurse"
+      },
+      {
+        "lemma": "baker"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[person]]. Look for clues.",
+    "explain_item_en": "She makes [[bread]] in an oven. She is a [[baker]].",
+    "speak_en": "Which picture shows the person who makes hot bread in the oven?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0042",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It is dark and cool with rocky walls.",
+    "choices": [
+      "cave",
+      "park",
+      "bus"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cave"
+      },
+      {
+        "lemma": "park"
+      },
+      {
+        "lemma": "bus"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Dark [[rocky]] walls mean a [[cave]].",
+    "speak_en": "Which picture shows the place that is dark and cool with rocky walls?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0043",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "<NAME> slides down into cool water.",
+    "choices": [
+      "farm",
+      "pool",
+      "bed"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "farm"
+      },
+      {
+        "lemma": "pool"
+      },
+      {
+        "lemma": "bed"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "You [[slide]] into cool water at a [[pool]].",
+    "speak_en": "Which picture shows the place where someone slides down into cool water?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0044",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Wind blows through tall leafy trees.",
+    "choices": [
+      "store",
+      "desk",
+      "forest"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      },
+      {
+        "lemma": "desk"
+      },
+      {
+        "lemma": "forest"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Tall leafy [[trees]] mean a [[forest]].",
+    "speak_en": "Which picture shows the place where wind blows through tall leafy trees?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0045",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It has a shell and moves slowly.",
+    "choices": [
+      "turtle",
+      "bird",
+      "dog"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      },
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "dog"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "A [[shell]] and slow moves mean a [[turtle]].",
+    "speak_en": "Which picture shows the one that has a shell and moves slowly?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0046",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Long ears hop through the garden.",
+    "choices": [
+      "cow",
+      "bunny",
+      "fish"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "bunny"
+      },
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "Long [[ears]] that hop mean a [[bunny]].",
+    "speak_en": "Which picture shows the one with long ears that hops through the garden?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0047",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It ribbits near the wet pond edge.",
+    "choices": [
+      "hen",
+      "duck",
+      "frog"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      },
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "frog"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It [[ribbits]] by the pond. That is a [[frog]].",
+    "speak_en": "Which picture shows the one that ribbits near the wet pond?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0048",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Waves are big and salt is here.",
+    "choices": [
+      "sea",
+      "pond",
+      "cup"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "pond"
+      },
+      {
+        "lemma": "cup"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Big [[waves]] and salt mean the [[sea]].",
+    "speak_en": "Which picture shows the place with big waves and salt?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0049",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Sheep and goats eat grass on hills.",
+    "choices": [
+      "city",
+      "farm",
+      "lake"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "city"
+      },
+      {
+        "lemma": "farm"
+      },
+      {
+        "lemma": "lake"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Sheep]] and goats eat grass on a [[farm]].",
+    "speak_en": "Which picture shows the place where sheep and goats eat grass on hills?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0050",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Big eyes hunt mice at night.",
+    "choices": [
+      "dog",
+      "fish",
+      "owl"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "owl"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "Big eyes hunt at [[night]]. That is an [[owl]].",
+    "speak_en": "Which picture shows the one with big eyes that hunts mice at night?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0051",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "We play ball on green grass outside.",
+    "choices": [
+      "yard",
+      "kitchen",
+      "boat"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      },
+      {
+        "lemma": "kitchen"
+      },
+      {
+        "lemma": "boat"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "We play [[ball]] on grass in the [[yard]].",
+    "speak_en": "Which picture shows the place where we play ball on green grass outside?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0052",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "<NAME> climbs to the very top outside.",
+    "choices": [
+      "lake",
+      "hill",
+      "cup"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "hill"
+      },
+      {
+        "lemma": "cup"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "You [[climb]] to the top of a [[hill]].",
+    "speak_en": "Which picture shows the place where someone climbs to the very top outside?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0053",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "White snow covers the quiet trees.",
+    "choices": [
+      "store",
+      "bed",
+      "park"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      },
+      {
+        "lemma": "bed"
+      },
+      {
+        "lemma": "park"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Snow]] on trees can be in a [[park]].",
+    "speak_en": "Which picture shows the place where white snow covers the quiet trees?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0054",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It has soft white fur and long pink ears.",
+    "choices": [
+      "bunny",
+      "cow",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bunny"
+      },
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "Soft fur and long pink [[ears]] mean a [[bunny]].",
+    "speak_en": "Which picture shows the one with soft white fur and long pink ears?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0055",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Four legs gallop across the field.",
+    "choices": [
+      "fish",
+      "horse",
+      "hen"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "hen"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "Four legs [[gallop]] in a field. That is a [[horse]].",
+    "speak_en": "Which picture shows the one with four legs that gallops across the field?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0056",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It is small and woolly and says baa.",
+    "choices": [
+      "dog",
+      "cat",
+      "lamb"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "lamb"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "Small, woolly, and [[baa]] mean a [[lamb]].",
+    "speak_en": "Which picture shows the one that is small and woolly and says baa?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0057",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Books and desks fill every room.",
+    "choices": [
+      "school",
+      "sea",
+      "hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      },
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "hat"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Books]] and desks fill a [[school]].",
+    "speak_en": "Which picture shows the place where books and desks fill every room?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0058",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Grey clouds bring wet falling drops outside.",
+    "choices": [
+      "bed",
+      "yard",
+      "cup"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      },
+      {
+        "lemma": "yard"
+      },
+      {
+        "lemma": "cup"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Rain [[drops]] fall outside in the [[yard]].",
+    "speak_en": "Which picture shows the place where grey clouds bring wet falling drops outside?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0059",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Fish swim in a small still pool.",
+    "choices": [
+      "road",
+      "store",
+      "pond"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "road"
+      },
+      {
+        "lemma": "store"
+      },
+      {
+        "lemma": "pond"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Fish]] swim in still water in a [[pond]].",
+    "speak_en": "Which picture shows the place where fish swim in a small still pool?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0060",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It purrs and sleeps on the couch.",
+    "choices": [
+      "cat",
+      "cow",
+      "bird"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "bird"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It [[purrs]] on the couch. That is a [[cat]].",
+    "speak_en": "Which picture shows the one that purrs and sleeps on the couch?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0061",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It has a yellow beak and bright small feathers.",
+    "choices": [
+      "fish",
+      "chick",
+      "mouse"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "chick"
+      },
+      {
+        "lemma": "mouse"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "A yellow [[beak]] and small feathers mean a [[chick]].",
+    "speak_en": "Which picture shows the one with a yellow beak and bright small feathers?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0062",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It honks and swims with big wings.",
+    "choices": [
+      "cat",
+      "fish",
+      "goose"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "goose"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It [[honks]] and swims. That is a [[goose]].",
+    "speak_en": "Which picture shows the one that honks and swims with big wings?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0063",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "We float down the wide blue water.",
+    "choices": [
+      "river",
+      "desk",
+      "hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "river"
+      },
+      {
+        "lemma": "desk"
+      },
+      {
+        "lemma": "hat"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "We [[float]] down wide water on a [[river]].",
+    "speak_en": "Which picture shows the place where we float down the wide blue water?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0064",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Stars shine above our cloth roof.",
+    "choices": [
+      "room",
+      "tent",
+      "bus"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      },
+      {
+        "lemma": "tent"
+      },
+      {
+        "lemma": "bus"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "A cloth [[roof]] under stars is a [[tent]].",
+    "speak_en": "Which picture shows the place where stars shine above our cloth roof?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0065",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Hot sand stretches far with shells.",
+    "choices": [
+      "forest",
+      "lake",
+      "beach"
+    ],
+    "answer_index": 2,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "forest"
+      },
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "beach"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "Hot [[sand]] and shells mean the [[beach]].",
+    "speak_en": "Which picture shows the place with hot sand and shells that stretch far?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0066",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It waddles and quacks near water.",
+    "choices": [
+      "duck",
+      "cat",
+      "dog"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "dog"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It [[waddles]] and quacks. That is a [[duck]].",
+    "speak_en": "Which picture shows the one that waddles and quacks near water?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0067",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It has soft fur and a bushy red tail.",
+    "choices": [
+      "fish",
+      "fox",
+      "hen"
+    ],
+    "answer_index": 1,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "fox"
+      },
+      {
+        "lemma": "hen"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "A bushy red [[tail]] means a [[fox]].",
+    "speak_en": "Which picture shows the one with soft fur and a bushy red tail?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0068",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Small beady eyes live in holes.",
+    "choices": [
+      "horse",
+      "cow",
+      "mouse"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "mouse"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "Small eyes in [[holes]] mean a [[mouse]].",
+    "speak_en": "Which picture shows the one with small beady eyes that lives in holes?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0069",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Flowers and bees buzz in rows.",
+    "choices": [
+      "garden",
+      "boat",
+      "cup"
+    ],
+    "answer_index": 0,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      },
+      {
+        "lemma": "boat"
+      },
+      {
+        "lemma": "cup"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "[[Flowers]] and bees in rows mean a [[garden]].",
+    "speak_en": "Which picture shows the place where flowers and bees buzz in rows?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0070",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "We ride bikes on the flat path.",
+    "choices": [
+      "bed",
+      "road",
+      "nest"
+    ],
+    "answer_index": 1,
+    "explain_key": "place_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      },
+      {
+        "lemma": "road"
+      },
+      {
+        "lemma": "nest"
+      }
+    ],
+    "explain_skill_en": "The words tell you about a [[place]]. Look for clues.",
+    "explain_item_en": "We ride [[bikes]] on a flat [[road]].",
+    "speak_en": "Which picture shows the place where we ride bikes on the flat path?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0071",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "It bleats on the rocky green hill.",
+    "choices": [
+      "fish",
+      "hen",
+      "goat"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "hen"
+      },
+      {
+        "lemma": "goat"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "It [[bleats]] on a hill. That is a [[goat]].",
+    "speak_en": "Which picture shows the one that bleats on the rocky green hill?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0072",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "word_to_picture",
+    "stem": "Fluffy tail hops in the green bush.",
+    "choices": [
+      "rabbit",
+      "cow",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      },
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "The words tell you about an [[animal]]. Look for clues.",
+    "explain_item_en": "A fluffy tail that [[hops]] is a [[rabbit]].",
+    "speak_en": "Which picture shows the one with a fluffy tail that hops in the green bush?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0073",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "It is small still water with frogs nearby.",
+    "choices": [
+      "sea",
+      "pond",
+      "pool"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "pond"
+      },
+      {
+        "lemma": "pool"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Small still water with [[frogs]] is a [[pond]], not a pool.",
+    "speak_en": "Which picture shows the small still water with frogs nearby?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0074",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Small warm water behind the house.",
+    "choices": [
+      "lake",
+      "sea",
+      "pool"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "pool"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Warm water behind the [[house]] is a [[pool]], not a lake.",
+    "speak_en": "Which picture shows the small warm water behind the house?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0075",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Still in a crib and needs a nap.",
+    "choices": [
+      "baby",
+      "child",
+      "teen"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      },
+      {
+        "lemma": "child"
+      },
+      {
+        "lemma": "teen"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "A crib and a [[nap]] mean a [[baby]], not a bigger child.",
+    "speak_en": "Which picture shows the one still in a crib who needs a nap?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0076",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Too big for crib but still small.",
+    "choices": [
+      "baby",
+      "child",
+      "dad"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      },
+      {
+        "lemma": "child"
+      },
+      {
+        "lemma": "dad"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Too [[big]] for a crib but still small is a [[child]].",
+    "speak_en": "Which picture shows the one who is too big for a crib but still small?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0077",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Bigger than a child but not old yet.",
+    "choices": [
+      "baby",
+      "grandma",
+      "teen"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      },
+      {
+        "lemma": "grandma"
+      },
+      {
+        "lemma": "teen"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Bigger than a [[child]] but not old is a [[teen]].",
+    "speak_en": "Which picture shows the one who is bigger than a child but not old yet?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0078",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Salty air and big rolling waves.",
+    "choices": [
+      "sea",
+      "lake",
+      "pond"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "pond"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Salty]] air and big waves mean the [[sea]], not a lake.",
+    "speak_en": "Which picture shows the place with salty air and big rolling waves?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0079",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Deep fresh water with no salt.",
+    "choices": [
+      "sea",
+      "lake",
+      "pool"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "pool"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Deep [[fresh]] water with no salt is a [[lake]], not the sea.",
+    "speak_en": "Which picture shows the place with deep fresh water and no salt?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0080",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Shallow water behind the wooden fence.",
+    "choices": [
+      "sea",
+      "lake",
+      "pool"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "lake"
+      },
+      {
+        "lemma": "pool"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Shallow water behind a [[fence]] is a [[pool]], not a lake.",
+    "speak_en": "Which picture shows the shallow water behind the wooden fence?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0081",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "She is old and kind with gray hair.",
+    "choices": [
+      "grandma",
+      "girl",
+      "baby"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandma"
+      },
+      {
+        "lemma": "girl"
+      },
+      {
+        "lemma": "baby"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Old with [[gray]] hair means a [[grandma]], not a girl.",
+    "speak_en": "Which picture shows the person who is old and kind with gray hair?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0082",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "He is tall and works every day.",
+    "choices": [
+      "child",
+      "man",
+      "kitten"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "child"
+      },
+      {
+        "lemma": "man"
+      },
+      {
+        "lemma": "kitten"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Tall]] and works every day means a [[man]], not a child.",
+    "speak_en": "Which picture shows the person who is tall and works every day?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0083",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "She cooks dinner when we get home.",
+    "choices": [
+      "teacher",
+      "farmer",
+      "mom"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      },
+      {
+        "lemma": "farmer"
+      },
+      {
+        "lemma": "mom"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "She cooks [[dinner]] at home. That is [[mom]], not a teacher.",
+    "speak_en": "Which picture shows the person who cooks dinner when we get home?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0084",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "He reads to us after we eat.",
+    "choices": [
+      "dad",
+      "boy",
+      "cat"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      },
+      {
+        "lemma": "boy"
+      },
+      {
+        "lemma": "cat"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "He [[reads]] to us after we eat. That is [[dad]].",
+    "speak_en": "Which picture shows the person who reads to us after we eat?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0085",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "She sings songs and tucks us in.",
+    "choices": [
+      "teacher",
+      "mom",
+      "hen"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      },
+      {
+        "lemma": "mom"
+      },
+      {
+        "lemma": "hen"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "She [[sings]] and tucks us in. That is [[mom]], not a teacher.",
+    "speak_en": "Which picture shows the person who sings songs and tucks us in?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0086",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "It is outside grass where we play ball.",
+    "choices": [
+      "park",
+      "garden",
+      "yard"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      },
+      {
+        "lemma": "garden"
+      },
+      {
+        "lemma": "yard"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Grass by the house where we play [[ball]] is the [[yard]].",
+    "speak_en": "Which picture shows the outside grass where we play ball?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0087",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "It has fur and says woof loudly.",
+    "choices": [
+      "dog",
+      "cat",
+      "fox"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "fox"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Fur and [[woof]] mean a [[dog]], not a fox.",
+    "speak_en": "Which picture shows the one that has fur and says woof loudly?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0088",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Orange fur and hunts in the night.",
+    "choices": [
+      "cat",
+      "fox",
+      "dog"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "fox"
+      },
+      {
+        "lemma": "dog"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Orange]] fur that hunts at night is a [[fox]], not a cat.",
+    "speak_en": "Which picture shows the one with orange fur that hunts in the night?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0089",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Pink skin and rolls in the mud.",
+    "choices": [
+      "cow",
+      "sheep",
+      "pig"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "sheep"
+      },
+      {
+        "lemma": "pig"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Pink]] skin that rolls in mud is a [[pig]], not a cow.",
+    "speak_en": "Which picture shows the one with pink skin that rolls in the mud?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0090",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Green space with benches and paths.",
+    "choices": [
+      "park",
+      "yard",
+      "garden"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      },
+      {
+        "lemma": "yard"
+      },
+      {
+        "lemma": "garden"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Benches]] and paths mean a [[park]], not a yard.",
+    "speak_en": "Which picture shows the green space with benches and paths?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0091",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "It has spots and says moo loudly.",
+    "choices": [
+      "horse",
+      "cow",
+      "pig"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "pig"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Spots]] and moo mean a [[cow]], not a horse.",
+    "speak_en": "Which picture shows the one that has spots and says moo loudly?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0092",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "White wool and says baa on hills.",
+    "choices": [
+      "goat",
+      "lamb",
+      "sheep"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "goat"
+      },
+      {
+        "lemma": "lamb"
+      },
+      {
+        "lemma": "sheep"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "White [[wool]] and baa on hills mean a [[sheep]], not a little lamb.",
+    "speak_en": "Which picture shows the one with white wool that says baa on hills?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0093",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Young sheep with soft curly wool.",
+    "choices": [
+      "lamb",
+      "goat",
+      "cow"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lamb"
+      },
+      {
+        "lemma": "goat"
+      },
+      {
+        "lemma": "cow"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "A [[young]] sheep with soft wool is a [[lamb]].",
+    "speak_en": "Which picture shows the young sheep with soft curly wool?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0094",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Hoots at night from a tall tree.",
+    "choices": [
+      "crow",
+      "owl",
+      "duck"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crow"
+      },
+      {
+        "lemma": "owl"
+      },
+      {
+        "lemma": "duck"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "It [[hoots]] at night from a tree. That is an [[owl]], not a crow.",
+    "speak_en": "Which picture shows the one that hoots at night from a tall tree?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0095",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Many tall trees with no buildings.",
+    "choices": [
+      "park",
+      "garden",
+      "forest"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      },
+      {
+        "lemma": "garden"
+      },
+      {
+        "lemma": "forest"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Many tall [[trees]] and no buildings mean a [[forest]], not a park.",
+    "speak_en": "Which picture shows the place with many tall trees and no buildings?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0096",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Dark hole inside a rocky hill.",
+    "choices": [
+      "cave",
+      "tent",
+      "barn"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cave"
+      },
+      {
+        "lemma": "tent"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "A dark [[hole]] in a rocky hill is a [[cave]], not a tent.",
+    "speak_en": "Which picture shows the dark hole inside a rocky hill?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0097",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Lives in water and has no legs.",
+    "choices": [
+      "frog",
+      "fish",
+      "duck"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      },
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "duck"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "Lives in water with no [[legs]]. That is a [[fish]], not a frog.",
+    "speak_en": "Which picture shows the one that lives in water and has no legs?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0098",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Green skin jumps from lily pads.",
+    "choices": [
+      "fish",
+      "turtle",
+      "frog"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "turtle"
+      },
+      {
+        "lemma": "frog"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Green]] skin that jumps from pads is a [[frog]], not a turtle.",
+    "speak_en": "Which picture shows the one with green skin that jumps from lily pads?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0099",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Hard shell and moves very slowly.",
+    "choices": [
+      "turtle",
+      "frog",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      },
+      {
+        "lemma": "frog"
+      },
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "A hard [[shell]] and slow moves mean a [[turtle]], not a frog.",
+    "speak_en": "Which picture shows the one with a hard shell that moves very slowly?"
+  },
+  {
+    "item_id": "seed_choose_the_picture_that_matches_the_setting_0100",
+    "family_id": "fam_choose_the_picture_that_matches_the_setting_",
+    "skill_id": "seed_choose_the_picture_that_matches_the_setting",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "word_to_picture",
+    "stem": "Monkeys and lions live in cages.",
+    "choices": [
+      "farm",
+      "zoo",
+      "park"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_miss",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "farm"
+      },
+      {
+        "lemma": "zoo"
+      },
+      {
+        "lemma": "park"
+      }
+    ],
+    "explain_skill_en": "Look for the best [[match]]. Some choices are close.",
+    "explain_item_en": "[[Monkeys]] and lions in cages live at a [[zoo]], not a farm.",
+    "speak_en": "Which picture shows the place where monkeys and lions live in cages?"
+  }
+]

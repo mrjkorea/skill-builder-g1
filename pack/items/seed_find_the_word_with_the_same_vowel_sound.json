@@ -1,1 +1,2729 @@
-[{"item_id": "seed_find_the_word_with_the_same_vowel_sound_0001", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word cat", "choices": ["hat", "dog", "pig", "sun"], "explain_key": "short_a", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0002", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word box", "choices": ["cat", "fox", "bed", "cup"], "explain_key": "short_o", "media": [{"lemma": "box"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0003", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word pig", "choices": ["dog", "cake", "sit", "sun"], "explain_key": "short_i", "media": [{"lemma": "pig"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0004", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as cake", "choices": ["cat", "rain", "hop", "cup"], "explain_key": "long_a", "media": [{"lemma": "cake"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0005", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as tree", "choices": ["sea", "red", "dog", "sun"], "explain_key": "long_e", "media": [{"lemma": "tree"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0006", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as boat", "choices": ["hop", "cat", "pig", "coat"], "explain_key": "long_o", "media": [{"lemma": "boat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0007", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as hat", "choices": ["cake", "play", "bag", "day"], "explain_key": "short_a", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0008", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word hop.", "choices": ["home", "fox", "boat", "snow"], "explain_key": "short_o", "media": [{"lemma": "hop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1, "swap_slots": {"NAME": true}}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0009", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word bed", "choices": ["dog", "cat", "sun", "red"], "explain_key": "short_e", "media": [{"lemma": "bed"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0010", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word sun", "choices": ["pig", "dog", "cup", "cat"], "explain_key": "short_u", "media": [{"lemma": "sun"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0011", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word dog", "choices": ["cat", "sun", "pig", "hot"], "explain_key": "short_o", "media": [{"lemma": "dog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0012", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word hen", "choices": ["cat", "dog", "pen", "sun"], "explain_key": "short_e", "media": [{"lemma": "hen"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0013", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word bus", "choices": ["cat", "dog", "pig", "fun"], "explain_key": "short_u", "media": [{"lemma": "bus"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0014", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word bag", "choices": ["dog", "sun", "pig", "dad"], "explain_key": "short_a", "media": [{"lemma": "bag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0015", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word fish", "choices": ["dog", "cat", "sit", "sun"], "explain_key": "short_i", "media": [{"lemma": "fish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0016", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word sock", "choices": ["cat", "sun", "rock", "pig"], "explain_key": "short_o", "media": [{"lemma": "sock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0017", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word duck", "choices": ["cut", "dog", "cat", "pig"], "explain_key": "short_u", "media": [{"lemma": "duck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0018", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word desk", "choices": ["dog", "sun", "egg", "cat"], "explain_key": "short_e", "media": [{"lemma": "desk"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0019", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word black", "choices": ["pig", "dog", "sun", "map"], "explain_key": "short_a", "media": [{"lemma": "black"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0020", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word milk", "choices": ["sun", "dog", "cat", "six"], "explain_key": "short_i", "media": [{"lemma": "milk"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0021", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word top", "choices": ["sun", "cat", "rock", "pig"], "explain_key": "short_o", "media": [{"lemma": "top"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0022", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word lunch", "choices": ["dog", "pig", "cat", "jump"], "explain_key": "short_u", "media": [{"lemma": "lunch"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0023", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word bread", "choices": ["ten", "cat", "sun", "dog"], "explain_key": "short_e", "media": [{"lemma": "bread"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0024", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word apple", "choices": ["sun", "black", "pig", "dog"], "explain_key": "short_a", "media": [{"lemma": "apple"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0025", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word ship", "choices": ["cat", "sun", "dog", "gift"], "explain_key": "short_i", "media": [{"lemma": "ship"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0026", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word clock", "choices": ["cat", "sun", "stop", "pig"], "explain_key": "short_o", "media": [{"lemma": "clock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0027", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word cup", "choices": ["pig", "dog", "cat", "run"], "explain_key": "short_u", "media": [{"lemma": "cup"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0028", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word red", "choices": ["leg", "cat", "dog", "sun"], "explain_key": "short_e", "media": [{"lemma": "red"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0029", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word hot", "choices": ["mom", "pig", "sun", "cat"], "explain_key": "short_o", "media": [{"lemma": "hot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0030", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word sit", "choices": ["hill", "sun", "dog", "cat"], "explain_key": "short_i", "media": [{"lemma": "sit"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0031", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word dad", "choices": ["dog", "sun", "pig", "hand"], "explain_key": "short_a", "media": [{"lemma": "dad"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0032", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word run", "choices": ["dog", "pig", "bus", "cat"], "explain_key": "short_u", "media": [{"lemma": "run"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0033", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word pen", "choices": ["dog", "nest", "cat", "sun"], "explain_key": "short_e", "media": [{"lemma": "pen"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0034", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word rock", "choices": ["cat", "sun", "pond", "pig"], "explain_key": "short_o", "media": [{"lemma": "rock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0035", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "the word big", "choices": ["sun", "dog", "cat", "ship"], "explain_key": "short_i", "media": [{"lemma": "big"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0036", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as rain", "choices": ["cat", "sun", "day", "dog"], "explain_key": "long_a", "media": [{"lemma": "rain"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0037", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as sea", "choices": ["sun", "cat", "see", "dog"], "explain_key": "long_e", "media": [{"lemma": "sea"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0038", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as home", "choices": ["go", "cat", "pig", "sun"], "explain_key": "long_o", "media": [{"lemma": "home"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0039", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as bike", "choices": ["dog", "like", "sun", "cat"], "explain_key": "long_i", "media": [{"lemma": "bike"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0040", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as moon", "choices": ["room", "sun", "dog", "cat"], "explain_key": "same_oo", "media": [{"lemma": "moon"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0041", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as play", "choices": ["name", "cat", "dog", "sun"], "explain_key": "long_a", "media": [{"lemma": "play"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0042", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as green", "choices": ["cat", "sun", "feed", "dog"], "explain_key": "long_e", "media": [{"lemma": "green"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0043", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as snow", "choices": ["cat", "pig", "old", "sun"], "explain_key": "long_o", "media": [{"lemma": "snow"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0044", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as time", "choices": ["cat", "dog", "sun", "five"], "explain_key": "long_i", "media": [{"lemma": "time"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0045", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as food", "choices": ["cat", "soon", "dog", "sun"], "explain_key": "same_oo", "media": [{"lemma": "food"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0046", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as game", "choices": ["way", "dog", "cat", "sun"], "explain_key": "long_a", "media": [{"lemma": "game"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0047", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as feet", "choices": ["cat", "need", "sun", "dog"], "explain_key": "long_e", "media": [{"lemma": "feet"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0048", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as coat", "choices": ["sun", "cat", "pig", "road"], "explain_key": "long_o", "media": [{"lemma": "coat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0049", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as ride", "choices": ["sun", "cat", "nine", "dog"], "explain_key": "long_i", "media": [{"lemma": "ride"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0050", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as spoon", "choices": ["dog", "cat", "soup", "sun"], "explain_key": "same_oo", "media": [{"lemma": "spoon"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0051", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as day", "choices": ["sun", "cat", "dog", "say"], "explain_key": "long_a", "media": [{"lemma": "day"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0052", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as tea", "choices": ["sun", "me", "dog", "cat"], "explain_key": "long_e", "media": [{"lemma": "tea"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0053", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as cold", "choices": ["cat", "gold", "sun", "pig"], "explain_key": "long_o", "media": [{"lemma": "cold"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0054", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as fly", "choices": ["dog", "my", "sun", "cat"], "explain_key": "long_i", "media": [{"lemma": "fly"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0055", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as school", "choices": ["sun", "cat", "dog", "shoe"], "explain_key": "same_oo", "media": [{"lemma": "school"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0056", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as train", "choices": ["cat", "dog", "plate", "sun"], "explain_key": "long_a", "media": [{"lemma": "train"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0057", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as team", "choices": ["sun", "seed", "cat", "dog"], "explain_key": "long_e", "media": [{"lemma": "team"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0058", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as hold", "choices": ["cat", "pig", "sun", "most"], "explain_key": "long_o", "media": [{"lemma": "hold"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0059", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as light", "choices": ["sun", "cat", "dog", "night"], "explain_key": "long_i", "media": [{"lemma": "light"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0060", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as sun", "choices": ["cat", "pig", "dog", "fun"], "explain_key": "short_u", "media": [{"lemma": "sun"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0061", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as hat", "choices": ["bag", "sun", "pig", "dog"], "explain_key": "short_a", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0062", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as fox", "choices": ["dog", "pig", "sun", "cat"], "explain_key": "short_o", "media": [{"lemma": "fox"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0063", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as pig", "choices": ["sun", "fish", "dog", "cat"], "explain_key": "short_i", "media": [{"lemma": "pig"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0064", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as bed", "choices": ["red", "sea", "cat", "dog"], "explain_key": "short_e", "media": [{"lemma": "bed"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0065", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as plate", "choices": ["eight", "cat", "hop", "cup"], "explain_key": "long_a", "media": [{"lemma": "plate"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0066", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as seed", "choices": ["red", "dog", "sun", "team"], "explain_key": "long_e", "media": [{"lemma": "seed"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0067", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as road", "choices": ["cat", "pig", "hop", "gold"], "explain_key": "long_o", "media": [{"lemma": "road"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0068", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as ice", "choices": ["sun", "bike", "dog", "cat"], "explain_key": "long_i", "media": [{"lemma": "ice"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0069", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as room", "choices": ["cat", "dog", "sun", "moon"], "explain_key": "same_oo", "media": [{"lemma": "room"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0070", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as name", "choices": ["sun", "bed", "game", "cat"], "explain_key": "long_a", "media": [{"lemma": "name"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0071", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as see", "choices": ["bed", "sun", "tree", "dog"], "explain_key": "long_e", "media": [{"lemma": "see"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0072", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Same vowel as go", "choices": ["boat", "hop", "pig", "cat"], "explain_key": "long_o", "media": [{"lemma": "go"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0073", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as cat", "choices": ["day", "bag", "rain", "cake"], "explain_key": "short_a", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0074", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as bed", "choices": ["sea", "tree", "red", "feet"], "explain_key": "short_e", "media": [{"lemma": "bed"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0075", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as pig", "choices": ["bike", "ride", "sit", "time"], "explain_key": "short_i", "media": [{"lemma": "pig"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0076", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as sun", "choices": ["soon", "moon", "room", "cup"], "explain_key": "short_u", "media": [{"lemma": "sun"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0077", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as cake", "choices": ["rain", "bag", "cat", "hat"], "explain_key": "long_a", "media": [{"lemma": "cake"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0078", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as tree", "choices": ["bed", "sea", "red", "hen"], "explain_key": "long_e", "media": [{"lemma": "tree"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0079", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as boat", "choices": ["fox", "hop", "box", "coat"], "explain_key": "long_o", "media": [{"lemma": "boat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0080", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as bike", "choices": ["pig", "big", "ride", "sit"], "explain_key": "long_i", "media": [{"lemma": "bike"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0081", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as moon", "choices": ["cup", "duck", "room", "sun"], "explain_key": "same_oo", "media": [{"lemma": "moon"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0082", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as dog", "choices": ["home", "fox", "snow", "boat"], "explain_key": "short_o", "media": [{"lemma": "dog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0083", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as bag", "choices": ["name", "dad", "cake", "play"], "explain_key": "short_a", "media": [{"lemma": "bag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0084", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as hen", "choices": ["see", "tea", "tree", "pen"], "explain_key": "short_e", "media": [{"lemma": "hen"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0085", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as fish", "choices": ["bike", "ice", "like", "milk"], "explain_key": "short_i", "media": [{"lemma": "fish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0086", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as duck", "choices": ["moon", "food", "school", "bus"], "explain_key": "short_u", "media": [{"lemma": "duck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0087", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as rain", "choices": ["day", "bag", "cat", "barn"], "explain_key": "long_a", "media": [{"lemma": "rain"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0088", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as sea", "choices": ["egg", "feet", "leg", "bed"], "explain_key": "long_e", "media": [{"lemma": "sea"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0089", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as home", "choices": ["dog", "snow", "hot", "hop"], "explain_key": "long_o", "media": [{"lemma": "home"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0090", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as time", "choices": ["five", "fish", "pig", "hill"], "explain_key": "long_i", "media": [{"lemma": "time"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0091", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as food", "choices": ["soon", "jump", "sun", "run"], "explain_key": "same_oo", "media": [{"lemma": "food"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0092", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find the same vowel as map", "choices": ["day", "play", "hand", "cake"], "explain_key": "short_a", "media": [{"lemma": "map"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0093", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word dad.", "choices": ["name", "play", "hand", "cake"], "explain_key": "short_a", "media": [{"lemma": "dad"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": true}}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0094", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word pen.", "choices": ["sea", "tree", "nest", "feet"], "explain_key": "short_e", "media": [{"lemma": "pen"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": true}}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0095", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word jump.", "choices": ["moon", "food", "cup", "soon"], "explain_key": "short_u", "media": [{"lemma": "jump"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": true}}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0096", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word play.", "choices": ["hat", "bag", "cat", "day"], "explain_key": "long_a", "media": [{"lemma": "play"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3, "swap_slots": {"NAME": true}}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0097", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word feet.", "choices": ["red", "hen", "sea", "bed"], "explain_key": "long_e", "media": [{"lemma": "feet"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": true}}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0098", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word snow.", "choices": ["hop", "coat", "hot", "box"], "explain_key": "long_o", "media": [{"lemma": "snow"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1, "swap_slots": {"NAME": true}}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0099", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word ride.", "choices": ["sit", "pig", "five", "big"], "explain_key": "long_i", "media": [{"lemma": "ride"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": true}}, {"item_id": "seed_find_the_word_with_the_same_vowel_sound_0100", "family_id": "fam_find_the_word_with_the_same_vowel_sound", "skill_id": "seed_find_the_word_with_the_same_vowel_sound", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> said the word room.", "choices": ["sun", "cup", "soon", "run"], "explain_key": "same_oo", "media": [{"lemma": "room"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": true}}]
+[
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0001",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word cat",
+    "choices": [
+      "hat",
+      "dog",
+      "pig",
+      "sun"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Cat]] and [[Hat]] both sing a.",
+    "speak_en": "Which word sings like cat?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0002",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word box",
+    "choices": [
+      "cat",
+      "fox",
+      "bed",
+      "cup"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Box]] and [[Fox]] both have o in the middle.",
+    "speak_en": "Which word sings like box?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0003",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word pig",
+    "choices": [
+      "dog",
+      "cake",
+      "sit",
+      "sun"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Pig]]. Say [[Sit]]. They both [[sing]] i.",
+    "speak_en": "Which word sings like pig?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0004",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word cake",
+    "choices": [
+      "cat",
+      "rain",
+      "hop",
+      "cup"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Cake]] and [[Rain]] both sing [[ay]].",
+    "speak_en": "Which word sings like cake?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0005",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word tree",
+    "choices": [
+      "sea",
+      "red",
+      "dog",
+      "sun"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Tree]] and [[Sea]] both say ee.",
+    "speak_en": "Which word sings like tree?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0006",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word boat",
+    "choices": [
+      "hop",
+      "cat",
+      "pig",
+      "coat"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Boat]] and [[Coat]] both sing oh.",
+    "speak_en": "Which word sings like boat?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0007",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word hat",
+    "choices": [
+      "cake",
+      "play",
+      "bag",
+      "day"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Hat]]. Say [[Bag]]. They both [[sing]] a.",
+    "speak_en": "Which word sings like hat?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0008",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word hop.",
+    "choices": [
+      "home",
+      "fox",
+      "boat",
+      "snow"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "hop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Hop]] and [[Fox]] both sing [[o]].",
+    "speak_en": "Which word sings like hop?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0009",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word bed",
+    "choices": [
+      "dog",
+      "cat",
+      "sun",
+      "red"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Bed]] and [[Red]] both sing e.",
+    "speak_en": "Which word sings like bed?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0010",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word sun",
+    "choices": [
+      "pig",
+      "dog",
+      "cup",
+      "cat"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Sun]] and [[Cup]] both have u in the middle.",
+    "speak_en": "Which word sings like sun?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0011",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word dog",
+    "choices": [
+      "cat",
+      "sun",
+      "pig",
+      "hot"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Dog]]. Say [[Hot]]. They both [[sing]] o.",
+    "speak_en": "Which word sings like dog?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0012",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word hen",
+    "choices": [
+      "cat",
+      "dog",
+      "pen",
+      "sun"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Hen]] and [[Pen]] both sing [[e]].",
+    "speak_en": "Which word sings like hen?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0013",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word bus",
+    "choices": [
+      "cat",
+      "dog",
+      "pig",
+      "fun"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Bus]] and [[Fun]] both sing u.",
+    "speak_en": "Which word sings like bus?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0014",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word bag",
+    "choices": [
+      "dog",
+      "sun",
+      "pig",
+      "dad"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Bag]] and [[Dad]] both have a in the middle.",
+    "speak_en": "Which word sings like bag?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0015",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word fish",
+    "choices": [
+      "dog",
+      "cat",
+      "sit",
+      "sun"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Fish]]. Say [[Sit]]. They both [[sing]] i.",
+    "speak_en": "Which word sings like fish?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0016",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word sock",
+    "choices": [
+      "cat",
+      "sun",
+      "rock",
+      "pig"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Sock]] and [[Rock]] both sing [[o]].",
+    "speak_en": "Which word sings like sock?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0017",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word duck",
+    "choices": [
+      "cut",
+      "dog",
+      "cat",
+      "pig"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Duck]] and [[Cut]] both sing u.",
+    "speak_en": "Which word sings like duck?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0018",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word desk",
+    "choices": [
+      "dog",
+      "sun",
+      "egg",
+      "cat"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Desk]] and [[Egg]] both have e in the middle.",
+    "speak_en": "Which word sings like desk?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0019",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word black",
+    "choices": [
+      "pig",
+      "dog",
+      "sun",
+      "map"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "black"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Black]]. Say [[Map]]. They both [[sing]] a.",
+    "speak_en": "Which word sings like black?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0020",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word milk",
+    "choices": [
+      "sun",
+      "dog",
+      "cat",
+      "six"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Milk]] and [[Six]] both sing [[i]].",
+    "speak_en": "Which word sings like milk?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0021",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word top",
+    "choices": [
+      "sun",
+      "cat",
+      "rock",
+      "pig"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "top"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Top]] and [[Rock]] both sing o.",
+    "speak_en": "Which word sings like top?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0022",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word lunch",
+    "choices": [
+      "dog",
+      "pig",
+      "cat",
+      "jump"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Lunch]] and [[Jump]] both have u in the middle.",
+    "speak_en": "Which word sings like lunch?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0023",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word bread",
+    "choices": [
+      "ten",
+      "cat",
+      "sun",
+      "dog"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Bread]]. Say [[Ten]]. They both [[sing]] e.",
+    "speak_en": "Which word sings like bread?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0024",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word apple",
+    "choices": [
+      "sun",
+      "black",
+      "pig",
+      "dog"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Listen. Tap the word with the same [[singing]] letter.",
+    "explain_item_en": "[[Apple]] and [[Black]] both sing a.",
+    "speak_en": "Which word sings like apple?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0025",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word ship",
+    "choices": [
+      "cat",
+      "sun",
+      "dog",
+      "gift"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "ship"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Ship]] and [[Gift]] both sing i.",
+    "speak_en": "Which word sings like ship?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0026",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word clock",
+    "choices": [
+      "cat",
+      "sun",
+      "stop",
+      "pig"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Clock]] and [[Stop]] both have o in the middle.",
+    "speak_en": "Which word sings like clock?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0027",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word cup",
+    "choices": [
+      "pig",
+      "dog",
+      "cat",
+      "run"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Cup]]. Say [[Run]]. They both [[sing]] u.",
+    "speak_en": "Which word sings like cup?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0028",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word red",
+    "choices": [
+      "leg",
+      "cat",
+      "dog",
+      "sun"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "red"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Red]] and [[Leg]] both sing [[e]].",
+    "speak_en": "Which word sings like red?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0029",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word hot",
+    "choices": [
+      "mom",
+      "pig",
+      "sun",
+      "cat"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "hot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Hot]] and [[Mom]] both sing o.",
+    "speak_en": "Which word sings like hot?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0030",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word sit",
+    "choices": [
+      "hill",
+      "sun",
+      "dog",
+      "cat"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "sit"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Sit]] and [[Hill]] both have i in the middle.",
+    "speak_en": "Which word sings like sit?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0031",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word dad",
+    "choices": [
+      "dog",
+      "sun",
+      "pig",
+      "hand"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Dad]]. Say [[Hand]]. They both [[sing]] a.",
+    "speak_en": "Which word sings like dad?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0032",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word run",
+    "choices": [
+      "dog",
+      "pig",
+      "bus",
+      "cat"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "run"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Run]] and [[Bus]] both sing [[u]].",
+    "speak_en": "Which word sings like run?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0033",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word pen",
+    "choices": [
+      "dog",
+      "nest",
+      "cat",
+      "sun"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "pen"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Pen]] and [[Nest]] both sing e.",
+    "speak_en": "Which word sings like pen?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0034",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word rock",
+    "choices": [
+      "cat",
+      "sun",
+      "pond",
+      "pig"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Rock]] and [[Pond]] both have o in the middle.",
+    "speak_en": "Which word sings like rock?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0035",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the word big",
+    "choices": [
+      "sun",
+      "dog",
+      "cat",
+      "ship"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "big"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Big]]. Say [[Ship]]. They both [[sing]] i.",
+    "speak_en": "Which word sings like big?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0036",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word rain",
+    "choices": [
+      "cat",
+      "sun",
+      "day",
+      "dog"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Rain]] and [[Day]] both sing [[ay]].",
+    "speak_en": "Which word sings like rain?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0037",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word sea",
+    "choices": [
+      "sun",
+      "cat",
+      "see",
+      "dog"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "sea"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Sea]] and [[See]] both say ee.",
+    "speak_en": "Which word sings like sea?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0038",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word home",
+    "choices": [
+      "go",
+      "cat",
+      "pig",
+      "sun"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Home]] and [[Go]] both sing oh.",
+    "speak_en": "Which word sings like home?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0039",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word bike",
+    "choices": [
+      "dog",
+      "like",
+      "sun",
+      "cat"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Bike]]. Say [[Like]]. They both [[sing]] eye.",
+    "speak_en": "Which word sings like bike?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0040",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word moon",
+    "choices": [
+      "room",
+      "sun",
+      "dog",
+      "cat"
+    ],
+    "explain_key": "same_oo",
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Listen. Find the word that sings like this one.",
+    "explain_item_en": "[[Moon]] and [[Room]] both sing [[oo]].",
+    "speak_en": "Which word sings like moon?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0041",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word play",
+    "choices": [
+      "name",
+      "cat",
+      "dog",
+      "sun"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Play]] and [[Name]] both say ay.",
+    "speak_en": "Which word sings like play?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0042",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word green",
+    "choices": [
+      "cat",
+      "sun",
+      "feed",
+      "dog"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "green"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Green]] and [[Feed]] both sing ee.",
+    "speak_en": "Which word sings like green?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0043",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word snow",
+    "choices": [
+      "cat",
+      "pig",
+      "old",
+      "sun"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Snow]]. Say [[Old]]. They both [[sing]] oh.",
+    "speak_en": "Which word sings like snow?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0044",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word time",
+    "choices": [
+      "cat",
+      "dog",
+      "sun",
+      "five"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "time"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Time]] and [[Five]] both sing [[eye]].",
+    "speak_en": "Which word sings like time?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0045",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word food",
+    "choices": [
+      "cat",
+      "soon",
+      "dog",
+      "sun"
+    ],
+    "explain_key": "same_oo",
+    "media": [
+      {
+        "lemma": "food"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Listen for [[oo]] in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Food]] and [[Soon]] both sing oo.",
+    "speak_en": "Which word sings like food?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0046",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word game",
+    "choices": [
+      "way",
+      "dog",
+      "cat",
+      "sun"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Game]] and [[Way]] both sing ay.",
+    "speak_en": "Which word sings like game?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0047",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word feet",
+    "choices": [
+      "cat",
+      "need",
+      "sun",
+      "dog"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "feet"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Feet]]. Say [[Need]]. They both [[sing]] ee.",
+    "speak_en": "Which word sings like feet?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0048",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word coat",
+    "choices": [
+      "sun",
+      "cat",
+      "pig",
+      "road"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Coat]] and [[Road]] both sing [[oh]].",
+    "speak_en": "Which word sings like coat?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0049",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word ride",
+    "choices": [
+      "sun",
+      "cat",
+      "nine",
+      "dog"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "ride"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Ride]] and [[Nine]] both say eye.",
+    "speak_en": "Which word sings like ride?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0050",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word spoon",
+    "choices": [
+      "dog",
+      "cat",
+      "soup",
+      "sun"
+    ],
+    "explain_key": "same_oo",
+    "media": [
+      {
+        "lemma": "spoon"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Some words sing oo in the middle. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Spoon]] and [[Soup]] both say oo.",
+    "speak_en": "Which word sings like spoon?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0051",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word day",
+    "choices": [
+      "sun",
+      "cat",
+      "dog",
+      "say"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "day"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Day]]. Say [[Say]]. They both [[sing]] ay.",
+    "speak_en": "Which word sings like day?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0052",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word tea",
+    "choices": [
+      "sun",
+      "me",
+      "dog",
+      "cat"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "tea"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Tea]] and [[Me]] both sing [[ee]].",
+    "speak_en": "Which word sings like tea?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0053",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word cold",
+    "choices": [
+      "cat",
+      "gold",
+      "sun",
+      "pig"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "cold"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Cold]] and [[Gold]] both say oh.",
+    "speak_en": "Which word sings like cold?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0054",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word fly",
+    "choices": [
+      "dog",
+      "my",
+      "sun",
+      "cat"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "fly"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Fly]] and [[My]] both sing eye.",
+    "speak_en": "Which word sings like fly?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0055",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word school",
+    "choices": [
+      "sun",
+      "cat",
+      "dog",
+      "shoe"
+    ],
+    "explain_key": "same_oo",
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Hear the singing letters that say oo. Find a match.",
+    "explain_item_en": "[[School]] and [[Shoe]] both [[sing]] oo.",
+    "speak_en": "Which word sings like school?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0056",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word train",
+    "choices": [
+      "cat",
+      "dog",
+      "plate",
+      "sun"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Train]] and [[Plate]] both sing [[ay]].",
+    "speak_en": "Which word sings like train?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0057",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word team",
+    "choices": [
+      "sun",
+      "seed",
+      "cat",
+      "dog"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Team]] and [[Seed]] both say ee.",
+    "speak_en": "Which word sings like team?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0058",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word hold",
+    "choices": [
+      "cat",
+      "pig",
+      "sun",
+      "most"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "hold"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Hold]] and [[Most]] both sing oh.",
+    "speak_en": "Which word sings like hold?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0059",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word light",
+    "choices": [
+      "sun",
+      "cat",
+      "dog",
+      "night"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "light"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Light]]. Say [[Night]]. They both [[sing]] eye.",
+    "speak_en": "Which word sings like light?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0060",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word sun",
+    "choices": [
+      "cat",
+      "pig",
+      "dog",
+      "fun"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Sun]] and [[Fun]] both sing [[u]].",
+    "speak_en": "Which word sings like sun?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0061",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word hat",
+    "choices": [
+      "bag",
+      "sun",
+      "pig",
+      "dog"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Hat]] and [[Bag]] both sing a.",
+    "speak_en": "Which word sings like hat?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0062",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word fox",
+    "choices": [
+      "dog",
+      "pig",
+      "sun",
+      "cat"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Fox]] and [[Dog]] both have o in the middle.",
+    "speak_en": "Which word sings like fox?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0063",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word pig",
+    "choices": [
+      "sun",
+      "fish",
+      "dog",
+      "cat"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Pig]]. Say [[Fish]]. They both [[sing]] i.",
+    "speak_en": "Which word sings like pig?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0064",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word bed",
+    "choices": [
+      "red",
+      "sea",
+      "cat",
+      "dog"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Bed]] and [[Red]] both sing [[e]].",
+    "speak_en": "Which word sings like bed?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0065",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word plate",
+    "choices": [
+      "eight",
+      "cat",
+      "hop",
+      "cup"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "plate"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Plate]] and [[Eight]] both say ay.",
+    "speak_en": "Which word sings like plate?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0066",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word seed",
+    "choices": [
+      "red",
+      "dog",
+      "sun",
+      "team"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Seed]] and [[Team]] both sing ee.",
+    "speak_en": "Which word sings like seed?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0067",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word road",
+    "choices": [
+      "cat",
+      "pig",
+      "hop",
+      "gold"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "road"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Road]]. Say [[Gold]]. They both [[sing]] oh.",
+    "speak_en": "Which word sings like road?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0068",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word ice",
+    "choices": [
+      "sun",
+      "bike",
+      "dog",
+      "cat"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Ice]] and [[Bike]] both sing [[eye]].",
+    "speak_en": "Which word sings like ice?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0069",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word room",
+    "choices": [
+      "cat",
+      "dog",
+      "sun",
+      "moon"
+    ],
+    "explain_key": "same_oo",
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for [[oo]] in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Room]] and [[Moon]] both sing oo.",
+    "speak_en": "Which word sings like room?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0070",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word name",
+    "choices": [
+      "sun",
+      "bed",
+      "game",
+      "cat"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "name"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Name]] and [[Game]] both sing ay.",
+    "speak_en": "Which word sings like name?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0071",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word see",
+    "choices": [
+      "bed",
+      "sun",
+      "tree",
+      "dog"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "see"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[See]]. Say [[Tree]]. They both [[sing]] ee.",
+    "speak_en": "Which word sings like see?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0072",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "the word go",
+    "choices": [
+      "boat",
+      "hop",
+      "pig",
+      "cat"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "go"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Go]] and [[Boat]] both sing [[oh]].",
+    "speak_en": "Which word sings like go?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0073",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word cat",
+    "choices": [
+      "day",
+      "bag",
+      "rain",
+      "cake"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Cat]] and [[Bag]] both sing a.",
+    "speak_en": "Which word sings like cat?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0074",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word bed",
+    "choices": [
+      "sea",
+      "tree",
+      "red",
+      "feet"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Bed]] and [[Red]] both have e in the middle.",
+    "speak_en": "Which word sings like bed?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0075",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word pig",
+    "choices": [
+      "bike",
+      "ride",
+      "sit",
+      "time"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Pig]]. Say [[Sit]]. They both [[sing]] i.",
+    "speak_en": "Which word sings like pig?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0076",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word sun",
+    "choices": [
+      "soon",
+      "moon",
+      "room",
+      "cup"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Sun]] and [[Cup]] both sing [[u]].",
+    "speak_en": "Which word sings like sun?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0077",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word cake",
+    "choices": [
+      "rain",
+      "bag",
+      "cat",
+      "hat"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Cake]] and [[Rain]] both say ay.",
+    "speak_en": "Which word sings like cake?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0078",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word tree",
+    "choices": [
+      "bed",
+      "sea",
+      "red",
+      "hen"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Tree]] and [[Sea]] both sing ee.",
+    "speak_en": "Which word sings like tree?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0079",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word boat",
+    "choices": [
+      "fox",
+      "hop",
+      "box",
+      "coat"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Boat]]. Say [[Coat]]. They both [[sing]] oh.",
+    "speak_en": "Which word sings like boat?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0080",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word bike",
+    "choices": [
+      "pig",
+      "big",
+      "ride",
+      "sit"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Bike]] and [[Ride]] both sing [[eye]].",
+    "speak_en": "Which word sings like bike?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0081",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word moon",
+    "choices": [
+      "cup",
+      "duck",
+      "room",
+      "sun"
+    ],
+    "explain_key": "same_oo",
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Listen for [[oo]] in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Moon]] and [[Room]] both sing oo.",
+    "speak_en": "Which word sings like moon?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0082",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word dog",
+    "choices": [
+      "home",
+      "fox",
+      "snow",
+      "boat"
+    ],
+    "explain_key": "short_o",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Dog]] and [[Fox]] both have o in the middle.",
+    "speak_en": "Which word sings like dog?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0083",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word bag",
+    "choices": [
+      "name",
+      "dad",
+      "cake",
+      "play"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Bag]]. Say [[Dad]]. They both [[sing]] a.",
+    "speak_en": "Which word sings like bag?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0084",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word hen",
+    "choices": [
+      "see",
+      "tea",
+      "tree",
+      "pen"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen. Tap the word with the same singing letter.",
+    "explain_item_en": "[[Hen]] and [[Pen]] both sing [[e]].",
+    "speak_en": "Which word sings like hen?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0085",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word fish",
+    "choices": [
+      "bike",
+      "ice",
+      "like",
+      "milk"
+    ],
+    "explain_key": "short_i",
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Fish]] and [[Milk]] both sing i.",
+    "speak_en": "Which word sings like fish?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0086",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word duck",
+    "choices": [
+      "moon",
+      "food",
+      "school",
+      "bus"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Duck]] and [[Bus]] both have u in the middle.",
+    "speak_en": "Which word sings like duck?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0087",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word rain",
+    "choices": [
+      "day",
+      "bag",
+      "cat",
+      "barn"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Rain]]. Say [[Day]]. They both [[sing]] ay.",
+    "speak_en": "Which word sings like rain?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0088",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word sea",
+    "choices": [
+      "egg",
+      "feet",
+      "leg",
+      "bed"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "sea"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Sea]] and [[Feet]] both sing [[ee]].",
+    "speak_en": "Which word sings like sea?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0089",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word home",
+    "choices": [
+      "dog",
+      "snow",
+      "hot",
+      "hop"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Home]] and [[Snow]] both say oh.",
+    "speak_en": "Which word sings like home?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0090",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word time",
+    "choices": [
+      "five",
+      "fish",
+      "pig",
+      "hill"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "time"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Time]] and [[Five]] both sing eye.",
+    "speak_en": "Which word sings like time?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0091",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word food",
+    "choices": [
+      "soon",
+      "jump",
+      "sun",
+      "run"
+    ],
+    "explain_key": "same_oo",
+    "media": [
+      {
+        "lemma": "food"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Hear the singing letters that say oo. Find a match.",
+    "explain_item_en": "[[Food]] and [[Soon]] both [[sing]] oo.",
+    "speak_en": "Which word sings like food?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0092",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "the word map",
+    "choices": [
+      "day",
+      "play",
+      "hand",
+      "cake"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Listen. Tap the word with the same [[singing]] letter.",
+    "explain_item_en": "[[Map]] and [[Hand]] both sing a.",
+    "speak_en": "Which word sings like map?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0093",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word dad.",
+    "choices": [
+      "name",
+      "play",
+      "hand",
+      "cake"
+    ],
+    "explain_key": "short_a",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "Listen for the [[singing]] letter in the middle. Find a word that sings the same.",
+    "explain_item_en": "[[Dad]] and [[Hand]] both sing a.",
+    "speak_en": "Which word sings like dad?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0094",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word pen.",
+    "choices": [
+      "sea",
+      "tree",
+      "nest",
+      "feet"
+    ],
+    "explain_key": "short_e",
+    "media": [
+      {
+        "lemma": "pen"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "Hear the singing letter. Pick the word that [[sings]] the same.",
+    "explain_item_en": "[[Pen]] and [[Nest]] both have e in the middle.",
+    "speak_en": "Which word sings like pen?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0095",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word jump.",
+    "choices": [
+      "moon",
+      "food",
+      "cup",
+      "soon"
+    ],
+    "explain_key": "short_u",
+    "media": [
+      {
+        "lemma": "jump"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "A singing letter sits in the middle. Find a match.",
+    "explain_item_en": "Say [[Jump]]. Say [[Cup]]. They both [[sing]] u.",
+    "speak_en": "Which word sings like jump?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0096",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word play.",
+    "choices": [
+      "hat",
+      "bag",
+      "cat",
+      "day"
+    ],
+    "explain_key": "long_a",
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "Hear the singing letter. Tap the word that sings the same.",
+    "explain_item_en": "[[Play]] and [[Day]] both sing [[ay]].",
+    "speak_en": "Which word sings like play?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0097",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word feet.",
+    "choices": [
+      "red",
+      "hen",
+      "sea",
+      "bed"
+    ],
+    "explain_key": "long_e",
+    "media": [
+      {
+        "lemma": "feet"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "A singing letter can say its name. Find a word that sings the [[same]].",
+    "explain_item_en": "[[Feet]] and [[Sea]] both say ee.",
+    "speak_en": "Which word sings like feet?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0098",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word snow.",
+    "choices": [
+      "hop",
+      "coat",
+      "hot",
+      "box"
+    ],
+    "explain_key": "long_o",
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "Some singing letters say their name. Pick the word that [[sings]] like that.",
+    "explain_item_en": "[[Snow]] and [[Coat]] both sing oh.",
+    "speak_en": "Which word sings like snow?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0099",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word ride.",
+    "choices": [
+      "sit",
+      "pig",
+      "five",
+      "big"
+    ],
+    "explain_key": "long_i",
+    "media": [
+      {
+        "lemma": "ride"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "Listen for the singing letter that says its name. Find a match.",
+    "explain_item_en": "Say [[Ride]]. Say [[Five]]. They both [[sing]] eye.",
+    "speak_en": "Which word sings like ride?"
+  },
+  {
+    "item_id": "seed_find_the_word_with_the_same_vowel_sound_0100",
+    "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+    "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> said the word room.",
+    "choices": [
+      "sun",
+      "cup",
+      "soon",
+      "run"
+    ],
+    "explain_key": "same_oo",
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": true
+    },
+    "explain_skill_en": "Listen. Find the word that sings like this one.",
+    "explain_item_en": "[[Room]] and [[Soon]] both sing [[oo]].",
+    "speak_en": "Which word sings like room?"
+  }
+]

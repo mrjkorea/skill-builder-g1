@@ -1,1 +1,2672 @@
-[{"item_id": "seed_read_the_digraph_word_0001", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "What do you see?", "choices": ["ship", "sit", "sun"], "explain_key": "sh_pair", "media": [{"lemma": "ship"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0002", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Find the word.", "choices": ["duck", "dog", "cup"], "explain_key": "ck_pair", "media": [{"lemma": "duck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0003", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Pick the word.", "choices": ["chair", "car", "cat"], "explain_key": "ch_pair", "media": [{"lemma": "chair"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0004", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which word is it?", "choices": ["shop", "chop", "stop", "ship"], "explain_key": "sh_pair", "media": [{"lemma": "shop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0005", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Look at this.", "choices": ["clock", "click", "rock", "cook"], "explain_key": "ck_pair", "media": [{"lemma": "clock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0006", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "See this one.", "choices": ["king", "kind", "sing", "kin"], "explain_key": "ng_pair", "media": [{"lemma": "king"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0007", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "<NAME> can see this.", "choices": ["sheep", "sleep", "cheap", "ship"], "explain_key": "sh_pair", "media": [{"lemma": "sheep"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0008", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the right word.", "choices": ["catch", "cash", "batch", "cat"], "explain_key": "ch_pair", "media": [{"lemma": "catch"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0009", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "What is it?", "choices": ["fish", "fin", "fan"], "explain_key": "sh_pair", "media": [{"lemma": "fish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0010", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Tap the word.", "choices": ["wash", "wet", "web"], "explain_key": "sh_pair", "media": [{"lemma": "wash"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0011", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Find this word.", "choices": ["brush", "bus", "bug"], "explain_key": "sh_pair", "media": [{"lemma": "brush"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0012", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Pick one word.", "choices": ["dish", "dig", "dog"], "explain_key": "sh_pair", "media": [{"lemma": "dish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0013", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Which word fits?", "choices": ["shed", "bed", "red"], "explain_key": "sh_pair", "media": [{"lemma": "shed"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0014", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Look and pick.", "choices": ["shut", "cut", "cup"], "explain_key": "sh_pair", "media": [{"lemma": "shut"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0015", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "See the word.", "choices": ["sock", "sad", "sat"], "explain_key": "ck_pair", "media": [{"lemma": "sock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0016", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Match the word.", "choices": ["rock", "ran", "rod"], "explain_key": "ck_pair", "media": [{"lemma": "rock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0017", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Choose the word.", "choices": ["pack", "pan", "pat"], "explain_key": "ck_pair", "media": [{"lemma": "pack"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0018", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Find it here.", "choices": ["kick", "kit", "kid"], "explain_key": "ck_pair", "media": [{"lemma": "kick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0019", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Pick the match.", "choices": ["lock", "log", "lot"], "explain_key": "ck_pair", "media": [{"lemma": "lock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0020", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Tap to match.", "choices": ["back", "bag", "bat"], "explain_key": "ck_pair", "media": [{"lemma": "back"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0021", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Find the match.", "choices": ["neck", "net", "nap"], "explain_key": "ck_pair", "media": [{"lemma": "neck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0022", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Pick this one.", "choices": ["snack", "sun", "sit"], "explain_key": "ck_pair", "media": [{"lemma": "snack"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0023", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Which is right?", "choices": ["chick", "cap", "cup"], "explain_key": "ch_pair", "media": [{"lemma": "chick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0024", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "See and pick.", "choices": ["chip", "can", "cot"], "explain_key": "ch_pair", "media": [{"lemma": "chip"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0025", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Tap the match.", "choices": ["chin", "can", "cup"], "explain_key": "ch_pair", "media": [{"lemma": "chin"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0026", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Find the one.", "choices": ["chop", "cop", "cap"], "explain_key": "ch_pair", "media": [{"lemma": "chop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0027", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Pick a word.", "choices": ["bath", "bat", "bag"], "explain_key": "th_pair", "media": [{"lemma": "bath"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0028", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Which word here?", "choices": ["thin", "tin", "ten"], "explain_key": "th_pair", "media": [{"lemma": "thin"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0029", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Look and tap.", "choices": ["thick", "tick", "tip"], "explain_key": "th_pair", "media": [{"lemma": "thick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0030", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Find the right.", "choices": ["path", "pat", "pad"], "explain_key": "th_pair", "media": [{"lemma": "path"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0031", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Pick that word.", "choices": ["moth", "mob", "mop"], "explain_key": "th_pair", "media": [{"lemma": "moth"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0032", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Tap one word.", "choices": ["whale", "wall", "well"], "explain_key": "wh_pair", "media": [{"lemma": "whale"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0033", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Which fits best?", "choices": ["whip", "win", "wig"], "explain_key": "wh_pair", "media": [{"lemma": "whip"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0034", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Tap and match.", "choices": ["wing", "win", "wig"], "explain_key": "ng_pair", "media": [{"lemma": "wing"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0035", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 1, "item_type": "picture_to_word", "stem": "Find a word.", "choices": ["ring", "rig", "ran"], "explain_key": "ng_pair", "media": [{"lemma": "ring"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0036", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Can you find it?", "choices": ["truck", "track", "trick", "tuck"], "explain_key": "ck_pair", "media": [{"lemma": "truck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0037", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which word goes here?", "choices": ["pick", "peck", "pack", "pin"], "explain_key": "ck_pair", "media": [{"lemma": "pick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0038", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Tap the right word.", "choices": ["stick", "stack", "stock", "sick"], "explain_key": "ck_pair", "media": [{"lemma": "stick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0039", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "What word matches?", "choices": ["cheese", "sheep", "chase", "cheek"], "explain_key": "ch_pair", "media": [{"lemma": "cheese"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0040", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Find the right one.", "choices": ["cash", "dash", "cast", "can"], "explain_key": "sh_pair", "media": [{"lemma": "cash"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0041", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Pick the best word.", "choices": ["bench", "bunch", "beach", "bed"], "explain_key": "ch_pair", "media": [{"lemma": "bench"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0042", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which one is it?", "choices": ["trash", "flash", "track", "trap"], "explain_key": "sh_pair", "media": [{"lemma": "trash"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0043", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Find the matching word.", "choices": ["batch", "back", "catch", "bath"], "explain_key": "ch_pair", "media": [{"lemma": "batch"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0044", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which word fits here?", "choices": ["cloth", "close", "clot", "both"], "explain_key": "th_pair", "media": [{"lemma": "cloth"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0045", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "See what this is.", "choices": ["three", "tree", "free", "fee"], "explain_key": "th_pair", "media": [{"lemma": "three"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0046", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Pick the word now.", "choices": ["thumb", "thump", "them", "tub"], "explain_key": "th_pair", "media": [{"lemma": "thumb"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0047", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which is the word?", "choices": ["mouth", "moth", "math", "mount"], "explain_key": "th_pair", "media": [{"lemma": "mouth"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0048", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Look and find it.", "choices": ["wheel", "while", "well", "heal"], "explain_key": "wh_pair", "media": [{"lemma": "wheel"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0049", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "What matches this?", "choices": ["white", "write", "wite", "while"], "explain_key": "wh_pair", "media": [{"lemma": "white"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0050", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Find the word here.", "choices": ["wish", "wash", "wisp", "win"], "explain_key": "sh_pair", "media": [{"lemma": "wish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0051", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Pick the right one.", "choices": ["swing", "sting", "sing", "wing"], "explain_key": "ng_pair", "media": [{"lemma": "swing"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0052", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which word works?", "choices": ["song", "sung", "son", "sang"], "explain_key": "ng_pair", "media": [{"lemma": "song"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0053", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "See and choose one.", "choices": ["fish", "fist", "dish", "fin"], "explain_key": "sh_pair", "media": [{"lemma": "fish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0054", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Find the correct word.", "choices": ["wash", "wish", "was", "wet"], "explain_key": "sh_pair", "media": [{"lemma": "wash"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0055", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Pick a match now.", "choices": ["brush", "bush", "rush", "bus"], "explain_key": "sh_pair", "media": [{"lemma": "brush"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0056", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which word is right?", "choices": ["dish", "dash", "fish", "dig"], "explain_key": "sh_pair", "media": [{"lemma": "dish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0057", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Look closely now.", "choices": ["shed", "shad", "bed", "red"], "explain_key": "sh_pair", "media": [{"lemma": "shed"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0058", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Find this word now.", "choices": ["shut", "shot", "cut", "but"], "explain_key": "sh_pair", "media": [{"lemma": "shut"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0059", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which matches best?", "choices": ["sock", "sick", "rock", "sack"], "explain_key": "ck_pair", "media": [{"lemma": "sock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0060", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "See the one here.", "choices": ["rock", "lock", "rack", "sock"], "explain_key": "ck_pair", "media": [{"lemma": "rock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0061", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Pick the word here.", "choices": ["pack", "puck", "back", "peck"], "explain_key": "ck_pair", "media": [{"lemma": "pack"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0062", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which word is here?", "choices": ["kick", "kink", "kin", "kit"], "explain_key": "ck_pair", "media": [{"lemma": "kick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0063", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Find it right here.", "choices": ["lock", "lick", "luck", "log"], "explain_key": "ck_pair", "media": [{"lemma": "lock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0064", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Look and pick one.", "choices": ["back", "balk", "black", "bag"], "explain_key": "ck_pair", "media": [{"lemma": "back"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0065", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which word fits now?", "choices": ["neck", "deck", "nick", "net"], "explain_key": "ck_pair", "media": [{"lemma": "neck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0066", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "See and find it.", "choices": ["chick", "click", "check", "chap"], "explain_key": "ch_pair", "media": [{"lemma": "chick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0067", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Pick the match now.", "choices": ["chip", "chop", "chap", "clip"], "explain_key": "ch_pair", "media": [{"lemma": "chip"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0068", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Which is correct?", "choices": ["chin", "chain", "thin", "can"], "explain_key": "ch_pair", "media": [{"lemma": "chin"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0069", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Find the good word.", "choices": ["chop", "shop", "chap", "cop"], "explain_key": "ch_pair", "media": [{"lemma": "chop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0070", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Look at it now.", "choices": ["bath", "math", "path", "bat"], "explain_key": "th_pair", "media": [{"lemma": "bath"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0071", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "Choose the word now.", "choices": ["thin", "then", "tin", "pin"], "explain_key": "th_pair", "media": [{"lemma": "thin"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0072", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 2, "item_type": "picture_to_word", "stem": "See this word now.", "choices": ["thick", "stick", "tick", "trick"], "explain_key": "th_pair", "media": [{"lemma": "thick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0073", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the tricky word.", "choices": ["path", "pathe", "bath", "pat"], "explain_key": "th_pair", "media": [{"lemma": "path"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0074", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Pick the close one.", "choices": ["moth", "mot", "math", "mob"], "explain_key": "th_pair", "media": [{"lemma": "moth"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0075", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Which looks right?", "choices": ["whale", "wale", "while", "wall"], "explain_key": "wh_pair", "media": [{"lemma": "whale"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0076", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the real word.", "choices": ["whip", "wip", "hip", "rip"], "explain_key": "wh_pair", "media": [{"lemma": "whip"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0077", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Pick the true word.", "choices": ["wing", "wring", "win", "wig"], "explain_key": "ng_pair", "media": [{"lemma": "wing"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0078", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Which word is real?", "choices": ["cheese", "chese", "sheep", "cheek"], "explain_key": "ch_pair", "media": [{"lemma": "cheese"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0079", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the correct one.", "choices": ["cash", "cach", "dash", "cast"], "explain_key": "sh_pair", "media": [{"lemma": "cash"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0080", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Pick the best match.", "choices": ["bench", "benc", "beach", "bunch"], "explain_key": "ch_pair", "media": [{"lemma": "bench"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0081", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the tricky one.", "choices": ["trash", "trach", "flash", "track"], "explain_key": "sh_pair", "media": [{"lemma": "trash"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0082", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Pick the close match.", "choices": ["batch", "bash", "catch", "back"], "explain_key": "ch_pair", "media": [{"lemma": "batch"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0083", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Spot the real word.", "choices": ["cloth", "clot", "cloh", "both"], "explain_key": "th_pair", "media": [{"lemma": "cloth"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0084", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Get the correct one.", "choices": ["thumb", "thum", "thump", "tub"], "explain_key": "th_pair", "media": [{"lemma": "thumb"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0085", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Choose the best match.", "choices": ["mouth", "mout", "moth", "math"], "explain_key": "th_pair", "media": [{"lemma": "mouth"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0086", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the hard word.", "choices": ["wheel", "weel", "well", "heel"], "explain_key": "wh_pair", "media": [{"lemma": "wheel"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0087", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Pick the near one.", "choices": ["white", "wite", "write", "while"], "explain_key": "wh_pair", "media": [{"lemma": "white"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0088", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Which seems right?", "choices": ["wish", "wist", "wash", "wisp"], "explain_key": "sh_pair", "media": [{"lemma": "wish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0089", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the true word.", "choices": ["ring", "rin", "wrin", "rig"], "explain_key": "ng_pair", "media": [{"lemma": "ring"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0090", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Pick the real one.", "choices": ["swing", "swin", "sing", "wing"], "explain_key": "ng_pair", "media": [{"lemma": "swing"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0091", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Which one is correct?", "choices": ["snack", "snak", "stack", "sack"], "explain_key": "ck_pair", "media": [{"lemma": "snack"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0092", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the right pick.", "choices": ["stick", "stik", "stack", "sick"], "explain_key": "ck_pair", "media": [{"lemma": "stick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0093", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Choose the best fit.", "choices": ["truck", "truk", "track", "tuck"], "explain_key": "ck_pair", "media": [{"lemma": "truck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0094", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Find the tough word.", "choices": ["pick", "pik", "peck", "pack"], "explain_key": "ck_pair", "media": [{"lemma": "pick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0095", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "<NAME> picks a word.", "choices": ["thin", "tin", "then", "pin"], "explain_key": "th_pair", "media": [{"lemma": "thin"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0096", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Help <NAME> find it.", "choices": ["thick", "tick", "trick", "stick"], "explain_key": "th_pair", "media": [{"lemma": "thick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0097", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "<NAME> sees this one.", "choices": ["chick", "chik", "click", "chic"], "explain_key": "ch_pair", "media": [{"lemma": "chick"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0098", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "Which word for <NAME>?", "choices": ["chip", "chipp", "chop", "clip"], "explain_key": "ch_pair", "media": [{"lemma": "chip"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0099", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "<NAME> needs this word.", "choices": ["chin", "chen", "thin", "can"], "explain_key": "ch_pair", "media": [{"lemma": "chin"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_read_the_digraph_word_0100", "family_id": "fam_read_the_digraph_word", "skill_id": "seed_read_the_digraph_word", "stage": "seed", "tier": 3, "item_type": "picture_to_word", "stem": "<NAME> can pick one.", "choices": ["song", "son", "sung", "sang"], "explain_key": "ng_pair", "media": [{"lemma": "song"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}]
+[
+  {
+    "item_id": "seed_read_the_digraph_word_0001",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "What do you see?",
+    "choices": [
+      "ship",
+      "sit",
+      "sun"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "ship"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[s]] and [[h]] sit together and say shhh.",
+    "explain_item_en": "The picture is a [[ship]].",
+    "speak_en": "Which word matches the picture of a ship?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0002",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Find the word.",
+    "choices": [
+      "duck",
+      "dog",
+      "cup"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and [[k]] sit together and say k.",
+    "explain_item_en": "The picture is a [[duck]].",
+    "speak_en": "Which word matches the picture of a duck?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0003",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Pick the word.",
+    "choices": [
+      "chair",
+      "car",
+      "cat"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chair"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and [[h]] sit together and say ch.",
+    "explain_item_en": "You sit on a [[chair]].",
+    "speak_en": "Which word matches the picture of a chair?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0004",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which word is it?",
+    "choices": [
+      "shop",
+      "chop",
+      "stop",
+      "ship"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "shop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "A [[shop]] is a store. That word starts with sh.",
+    "speak_en": "Which word matches the picture of a shop?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0005",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Look at this.",
+    "choices": [
+      "clock",
+      "click",
+      "rock",
+      "cook"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together at the end. They say k.",
+    "explain_item_en": "A [[clock]] tells time. Hear the k at the end.",
+    "speak_en": "Which word matches the picture of a clock?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0006",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "See this one.",
+    "choices": [
+      "king",
+      "kind",
+      "sing",
+      "kin"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "king"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[n]] and [[g]] sit together. They make a singing sound.",
+    "explain_item_en": "A [[king]] wears a crown. Hear ng at the end.",
+    "speak_en": "Which word matches the picture of a king?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0007",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "<NAME> can see this.",
+    "choices": [
+      "sheep",
+      "sleep",
+      "cheap",
+      "ship"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh like be quiet.",
+    "explain_item_en": "A [[sheep]] is a fluffy animal. That word starts with sh.",
+    "speak_en": "Which word matches the picture of a sheep?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0008",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the right word.",
+    "choices": [
+      "catch",
+      "cash",
+      "batch",
+      "cat"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "catch"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "You [[catch]] a ball. Hear ch at the end.",
+    "speak_en": "Which word matches the picture of catch?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0009",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "What is it?",
+    "choices": [
+      "fish",
+      "fin",
+      "fan"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[s]] and h sit together and say shhh.",
+    "explain_item_en": "The picture is a [[fish]].",
+    "speak_en": "Which word matches the picture of a fish?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0010",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Tap the word.",
+    "choices": [
+      "wash",
+      "wet",
+      "web"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "wash"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "You [[wash]] with water and soap.",
+    "speak_en": "Which word matches the picture of wash?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0011",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Find this word.",
+    "choices": [
+      "brush",
+      "bus",
+      "bug"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "brush"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together at the end. They say shhh.",
+    "explain_item_en": "A [[brush]] helps hair look neat.",
+    "speak_en": "Which word matches the picture of a brush?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0012",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Pick one word.",
+    "choices": [
+      "dish",
+      "dig",
+      "dog"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[s]] and h sit together and say shhh.",
+    "explain_item_en": "Food sits on a [[dish]].",
+    "speak_en": "Which word matches the picture of a dish?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0013",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Which word fits?",
+    "choices": [
+      "shed",
+      "bed",
+      "red"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "shed"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "A [[shed]] is a little house for tools.",
+    "speak_en": "Which word matches the picture of a shed?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0014",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Look and pick.",
+    "choices": [
+      "shut",
+      "cut",
+      "cup"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "shut"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "You [[shut]] a door so it is closed.",
+    "speak_en": "Which word matches the picture of shut?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0015",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "See the word.",
+    "choices": [
+      "sock",
+      "sad",
+      "sat"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k at the end.",
+    "explain_item_en": "A [[sock]] goes on your foot.",
+    "speak_en": "Which word matches the picture of a sock?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0016",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Match the word.",
+    "choices": [
+      "rock",
+      "ran",
+      "rod"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and k sit together and say k.",
+    "explain_item_en": "A [[rock]] is a hard stone.",
+    "speak_en": "Which word matches the picture of a rock?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0017",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Choose the word.",
+    "choices": [
+      "pack",
+      "pan",
+      "pat"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "pack"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k.",
+    "explain_item_en": "You [[pack]] things in a bag.",
+    "speak_en": "Which word matches the picture of pack?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0018",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Find it here.",
+    "choices": [
+      "kick",
+      "kit",
+      "kid"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "kick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together at the end. They say k.",
+    "explain_item_en": "You [[kick]] a ball with your foot.",
+    "speak_en": "Which word matches the picture of kick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0019",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Pick the match.",
+    "choices": [
+      "lock",
+      "log",
+      "lot"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and k sit together and say k.",
+    "explain_item_en": "A [[lock]] keeps a door safe.",
+    "speak_en": "Which word matches the picture of a lock?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0020",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Tap to match.",
+    "choices": [
+      "back",
+      "bag",
+      "bat"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "back"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k at the end.",
+    "explain_item_en": "Your [[back]] is behind you.",
+    "speak_en": "Which word matches the picture of a back?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0021",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Find the match.",
+    "choices": [
+      "neck",
+      "net",
+      "nap"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "neck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k.",
+    "explain_item_en": "Your [[neck]] holds up your head.",
+    "speak_en": "Which word matches the picture of a neck?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0022",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Pick this one.",
+    "choices": [
+      "snack",
+      "sun",
+      "sit"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and k sit together and say k.",
+    "explain_item_en": "A [[snack]] is a little bit of food.",
+    "speak_en": "Which word matches the picture of a snack?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0023",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Which is right?",
+    "choices": [
+      "chick",
+      "cap",
+      "cup"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "A baby hen is a [[chick]].",
+    "speak_en": "Which word matches the picture of a chick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0024",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "See and pick.",
+    "choices": [
+      "chip",
+      "can",
+      "cot"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chip"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and h sit together and say ch.",
+    "explain_item_en": "A [[chip]] is a thin, crunchy snack.",
+    "speak_en": "Which word matches the picture of a chip?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0025",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Tap the match.",
+    "choices": [
+      "chin",
+      "can",
+      "cup"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chin"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "Your [[chin]] is under your mouth.",
+    "speak_en": "Which word matches the picture of a chin?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0026",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Find the one.",
+    "choices": [
+      "chop",
+      "cop",
+      "cap"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "You [[chop]] food with a tool.",
+    "speak_en": "Which word matches the picture of chop?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0027",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Pick a word.",
+    "choices": [
+      "bath",
+      "bat",
+      "bag"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "bath"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together. They make one quiet sound.",
+    "explain_item_en": "You take a [[bath]] in a tub.",
+    "speak_en": "Which word matches the picture of a bath?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0028",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Which word here?",
+    "choices": [
+      "thin",
+      "tin",
+      "ten"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "thin"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[t]] and h sit together.",
+    "explain_item_en": "[[thin]] means not fat or thick.",
+    "speak_en": "Which word matches the picture of thin?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0029",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Look and tap.",
+    "choices": [
+      "thick",
+      "tick",
+      "tip"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "thick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together. Stick out your tongue a little.",
+    "explain_item_en": "[[thick]] means big and fat.",
+    "speak_en": "Which word matches the picture of thick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0030",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Find the right word.",
+    "choices": [
+      "path",
+      "pat",
+      "pad"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together at the end. They make one sound.",
+    "explain_item_en": "A [[path]] is a little walk way.",
+    "speak_en": "Which word matches the picture of a path?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0031",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Pick that word.",
+    "choices": [
+      "moth",
+      "mob",
+      "mop"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "moth"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[t]] and h sit together.",
+    "explain_item_en": "A [[moth]] is a bug that likes lights.",
+    "speak_en": "Which word matches the picture of a moth?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0032",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Tap one word.",
+    "choices": [
+      "whale",
+      "wall",
+      "well"
+    ],
+    "explain_key": "wh_pair",
+    "media": [
+      {
+        "lemma": "whale"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[w]] and [[h]] sit together. Blow a little air.",
+    "explain_item_en": "A [[whale]] is a huge animal in the sea.",
+    "speak_en": "Which word matches the picture of a whale?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0033",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Which fits best?",
+    "choices": [
+      "whip",
+      "win",
+      "wig"
+    ],
+    "explain_key": "wh_pair",
+    "media": [
+      {
+        "lemma": "whip"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[w]] and h sit together.",
+    "explain_item_en": "A [[whip]] is a long thin strap.",
+    "speak_en": "Which word matches the picture of a whip?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0034",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Tap and match.",
+    "choices": [
+      "wing",
+      "win",
+      "wig"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "wing"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[n]] and [[g]] sit together. They make a singing sound.",
+    "explain_item_en": "A bird uses a [[wing]] to fly.",
+    "speak_en": "Which word matches the picture of a wing?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0035",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "picture_to_word",
+    "stem": "Find a word.",
+    "choices": [
+      "ring",
+      "rig",
+      "ran"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "ring"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[n]] and g sit together and sing.",
+    "explain_item_en": "A [[ring]] goes on your finger.",
+    "speak_en": "Which word matches the picture of a ring?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0036",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Can you find it?",
+    "choices": [
+      "truck",
+      "track",
+      "trick",
+      "tuck"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together at the end. They say k.",
+    "explain_item_en": "A [[truck]] is a big car that carries things.",
+    "speak_en": "Which word matches the picture of a truck?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0037",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which word goes here?",
+    "choices": [
+      "pick",
+      "peck",
+      "pack",
+      "pin"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "pick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and k sit together and say k.",
+    "explain_item_en": "You [[pick]] something up with your hand.",
+    "speak_en": "Which word matches the picture of pick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0038",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Tap the right word.",
+    "choices": [
+      "stick",
+      "stack",
+      "stock",
+      "sick"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "stick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k at the end.",
+    "explain_item_en": "A [[stick]] is a thin piece of wood.",
+    "speak_en": "Which word matches the picture of a stick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0039",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "What word matches?",
+    "choices": [
+      "cheese",
+      "sheep",
+      "chase",
+      "cheek"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "cheese"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "[[cheese]] is a yummy food from milk.",
+    "speak_en": "Which word matches the picture of cheese?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0040",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Find the right one.",
+    "choices": [
+      "cash",
+      "dash",
+      "cast",
+      "can"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "cash"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "[[cash]] is money you can hold.",
+    "speak_en": "Which word matches the picture of cash?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0041",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Pick the best word.",
+    "choices": [
+      "bench",
+      "bunch",
+      "beach",
+      "bed"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and h sit together and say ch.",
+    "explain_item_en": "You sit on a [[bench]] in the park.",
+    "speak_en": "Which word matches the picture of a bench?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0042",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which one is it?",
+    "choices": [
+      "trash",
+      "flash",
+      "track",
+      "trap"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "trash"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together at the end. They say shhh.",
+    "explain_item_en": "[[trash]] is junk you throw away.",
+    "speak_en": "Which word matches the picture of trash?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0043",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Find the matching word.",
+    "choices": [
+      "batch",
+      "back",
+      "catch",
+      "bath"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "batch"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch at the end.",
+    "explain_item_en": "A [[batch]] is a group cooked together.",
+    "speak_en": "Which word matches the picture of a batch?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0044",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which word fits here?",
+    "choices": [
+      "cloth",
+      "close",
+      "clot",
+      "both"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "cloth"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together. They make one quiet sound.",
+    "explain_item_en": "[[cloth]] is the stuff we use to make clothes.",
+    "speak_en": "Which word matches the picture of cloth?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0045",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "See what this is.",
+    "choices": [
+      "three",
+      "tree",
+      "free",
+      "fee"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "three"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[t]] and h sit together.",
+    "explain_item_en": "[[three]] is the number after two.",
+    "speak_en": "Which word matches the picture of three?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0046",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Pick the word now.",
+    "choices": [
+      "thumb",
+      "thump",
+      "them",
+      "tub"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "thumb"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together. Stick out your tongue a little.",
+    "explain_item_en": "Your [[thumb]] is the short, fat finger.",
+    "speak_en": "Which word matches the picture of a thumb?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0047",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which is the word?",
+    "choices": [
+      "mouth",
+      "moth",
+      "math",
+      "mount"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "mouth"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together at the end. They make one sound.",
+    "explain_item_en": "Your [[mouth]] is where you eat and talk.",
+    "speak_en": "Which word matches the picture of a mouth?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0048",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Look and find it.",
+    "choices": [
+      "wheel",
+      "while",
+      "well",
+      "heal"
+    ],
+    "explain_key": "wh_pair",
+    "media": [
+      {
+        "lemma": "wheel"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[w]] and [[h]] sit together. Blow a little air.",
+    "explain_item_en": "A [[wheel]] is round and helps a car go.",
+    "speak_en": "Which word matches the picture of a wheel?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0049",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "What matches this?",
+    "choices": [
+      "white",
+      "write",
+      "wite",
+      "while"
+    ],
+    "explain_key": "wh_pair",
+    "media": [
+      {
+        "lemma": "white"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[w]] and h sit together.",
+    "explain_item_en": "[[white]] is the color of snow.",
+    "speak_en": "Which word matches the picture of white?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0050",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Find the word here.",
+    "choices": [
+      "wish",
+      "wash",
+      "wisp",
+      "win"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "wish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "A [[wish]] is something you hope for.",
+    "speak_en": "Which word matches the picture of a wish?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0051",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Pick the right one.",
+    "choices": [
+      "swing",
+      "sting",
+      "sing",
+      "wing"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "swing"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[n]] and [[g]] sit together. They make a singing sound.",
+    "explain_item_en": "You [[swing]] at the park. Hear ng at the end.",
+    "speak_en": "Which word matches the picture of a swing?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0052",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which word works?",
+    "choices": [
+      "song",
+      "sung",
+      "son",
+      "sang"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[n]] and g sit together and sing.",
+    "explain_item_en": "A [[song]] is music you can sing.",
+    "speak_en": "Which word matches the picture of a song?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0053",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "See and choose one.",
+    "choices": [
+      "fish",
+      "fist",
+      "dish",
+      "fin"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "A [[fish]] swims in the water.",
+    "speak_en": "Which word matches the picture of a fish?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0054",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Find the correct word.",
+    "choices": [
+      "wash",
+      "wish",
+      "was",
+      "wet"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "wash"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[s]] and h sit together and say shhh.",
+    "explain_item_en": "You [[wash]] dirty hands with soap.",
+    "speak_en": "Which word matches the picture of wash?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0055",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Pick a match now.",
+    "choices": [
+      "brush",
+      "bush",
+      "rush",
+      "bus"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "brush"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together at the end. They say shhh.",
+    "explain_item_en": "Use a [[brush]] on your hair.",
+    "speak_en": "Which word matches the picture of a brush?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0056",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which word is right?",
+    "choices": [
+      "dish",
+      "dash",
+      "fish",
+      "dig"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "A [[dish]] holds your food.",
+    "speak_en": "Which word matches the picture of a dish?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0057",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Look closely now.",
+    "choices": [
+      "shed",
+      "shad",
+      "bed",
+      "red"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "shed"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[s]] and h sit together and say shhh.",
+    "explain_item_en": "Tools can live in a [[shed]].",
+    "speak_en": "Which word matches the picture of a shed?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0058",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Find this word now.",
+    "choices": [
+      "shut",
+      "shot",
+      "cut",
+      "but"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "shut"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "[[shut]] means close the door.",
+    "speak_en": "Which word matches the picture of shut?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0059",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which matches best?",
+    "choices": [
+      "sock",
+      "sick",
+      "rock",
+      "sack"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k at the end.",
+    "explain_item_en": "A [[sock]] keeps your foot warm.",
+    "speak_en": "Which word matches the picture of a sock?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0060",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "See the one here.",
+    "choices": [
+      "rock",
+      "lock",
+      "rack",
+      "sock"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and k sit together and say k.",
+    "explain_item_en": "You can sit on a [[rock]] outside.",
+    "speak_en": "Which word matches the picture of a rock?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0061",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Pick the word here.",
+    "choices": [
+      "pack",
+      "puck",
+      "back",
+      "peck"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "pack"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k.",
+    "explain_item_en": "A [[pack]] is a bag you carry.",
+    "speak_en": "Which word matches the picture of a pack?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0062",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which word is here?",
+    "choices": [
+      "kick",
+      "kink",
+      "kin",
+      "kit"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "kick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together at the end. They say k.",
+    "explain_item_en": "A [[kick]] sends the ball away.",
+    "speak_en": "Which word matches the picture of a kick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0063",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Find it right here.",
+    "choices": [
+      "lock",
+      "lick",
+      "luck",
+      "log"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and k sit together and say k.",
+    "explain_item_en": "Turn the [[lock]] to keep it safe.",
+    "speak_en": "Which word matches the picture of a lock?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0064",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Look and pick one.",
+    "choices": [
+      "back",
+      "balk",
+      "black",
+      "bag"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "back"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k at the end.",
+    "explain_item_en": "Pat your [[back]] with your hand.",
+    "speak_en": "Which word matches the picture of a back?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0065",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which word fits now?",
+    "choices": [
+      "neck",
+      "deck",
+      "nick",
+      "net"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "neck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k.",
+    "explain_item_en": "A scarf can go around your [[neck]].",
+    "speak_en": "Which word matches the picture of a neck?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0066",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "See and find it.",
+    "choices": [
+      "chick",
+      "click",
+      "check",
+      "chap"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "The little [[chick]] says peep peep.",
+    "speak_en": "Which word matches the picture of a chick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0067",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Pick the match now.",
+    "choices": [
+      "chip",
+      "chop",
+      "chap",
+      "clip"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chip"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and h sit together and say ch.",
+    "explain_item_en": "A [[chip]] is a small, salty bite.",
+    "speak_en": "Which word matches the picture of a chip?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0068",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Which is correct?",
+    "choices": [
+      "chin",
+      "chain",
+      "thin",
+      "can"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chin"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "Touch your [[chin]] under your lip.",
+    "speak_en": "Which word matches the picture of a chin?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0069",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Find the good word.",
+    "choices": [
+      "chop",
+      "shop",
+      "chap",
+      "cop"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "[[chop]] means cut the food.",
+    "speak_en": "Which word matches the picture of chop?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0070",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Look at it now.",
+    "choices": [
+      "bath",
+      "math",
+      "path",
+      "bat"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "bath"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together. They make one quiet sound.",
+    "explain_item_en": "Soap and water make a [[bath]].",
+    "speak_en": "Which word matches the picture of a bath?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0071",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "Choose the word now.",
+    "choices": [
+      "thin",
+      "then",
+      "tin",
+      "pin"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "thin"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[t]] and h sit together.",
+    "explain_item_en": "A [[thin]] line is not wide.",
+    "speak_en": "Which word matches the picture of thin?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0072",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "picture_to_word",
+    "stem": "See this word now.",
+    "choices": [
+      "thick",
+      "stick",
+      "tick",
+      "trick"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "thick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together. Stick out your tongue a little.",
+    "explain_item_en": "A [[thick]] book has many pages.",
+    "speak_en": "Which word matches the picture of thick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0073",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the tricky word.",
+    "choices": [
+      "path",
+      "pathe",
+      "bath",
+      "pat"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together at the end. They make one sound.",
+    "explain_item_en": "Walk on the [[path]]. Do not drop the h.",
+    "speak_en": "Which word matches the picture of a path?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0074",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Pick the close one.",
+    "choices": [
+      "moth",
+      "mot",
+      "math",
+      "mob"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "moth"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[t]] and h must both stay.",
+    "explain_item_en": "A [[moth]] has soft wings. Keep the h.",
+    "speak_en": "Which word matches the picture of a moth?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0075",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Which looks right?",
+    "choices": [
+      "whale",
+      "wale",
+      "while",
+      "wall"
+    ],
+    "explain_key": "wh_pair",
+    "media": [
+      {
+        "lemma": "whale"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[w]] and [[h]] sit together. Both letters stay in the word.",
+    "explain_item_en": "A [[whale]] swims in the deep sea.",
+    "speak_en": "Which word matches the picture of a whale?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0076",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the real word.",
+    "choices": [
+      "whip",
+      "wip",
+      "hip",
+      "rip"
+    ],
+    "explain_key": "wh_pair",
+    "media": [
+      {
+        "lemma": "whip"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. Keep [[w]] and h together.",
+    "explain_item_en": "A [[whip]] needs both of those letters.",
+    "speak_en": "Which word matches the picture of a whip?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0077",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Pick the true word.",
+    "choices": [
+      "wing",
+      "wring",
+      "win",
+      "wig"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "wing"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[n]] and [[g]] sit together. They make a singing sound.",
+    "explain_item_en": "A [[wing]] helps a bird fly. Keep the g.",
+    "speak_en": "Which word matches the picture of a wing?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0078",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Which word is real?",
+    "choices": [
+      "cheese",
+      "chese",
+      "sheep",
+      "cheek"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "cheese"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "[[cheese]] needs those two letters at the start.",
+    "speak_en": "Which word matches the picture of cheese?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0079",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the correct one.",
+    "choices": [
+      "cash",
+      "cach",
+      "dash",
+      "cast"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "cash"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "[[cash]] ends with sh, not ch.",
+    "speak_en": "Which word matches the picture of cash?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0080",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Pick the best match.",
+    "choices": [
+      "bench",
+      "benc",
+      "beach",
+      "bunch"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and h sit together and say ch.",
+    "explain_item_en": "A park [[bench]] ends with ch.",
+    "speak_en": "Which word matches the picture of a bench?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0081",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the tricky one.",
+    "choices": [
+      "trash",
+      "trach",
+      "flash",
+      "track"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "trash"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together at the end. They say shhh.",
+    "explain_item_en": "[[trash]] ends with sh, not ch.",
+    "speak_en": "Which word matches the picture of trash?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0082",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Pick the close match.",
+    "choices": [
+      "batch",
+      "bash",
+      "catch",
+      "back"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "batch"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch at the end.",
+    "explain_item_en": "A [[batch]] of cookies ends with ch.",
+    "speak_en": "Which word matches the picture of a batch?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0083",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Spot the real word.",
+    "choices": [
+      "cloth",
+      "clot",
+      "cloh",
+      "both"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "cloth"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together. They make one quiet sound.",
+    "explain_item_en": "[[cloth]] needs t and h at the end.",
+    "speak_en": "Which word matches the picture of cloth?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0084",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Get the correct one.",
+    "choices": [
+      "thumb",
+      "thum",
+      "thump",
+      "tub"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "thumb"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[t]] and h sit together.",
+    "explain_item_en": "Your [[thumb]] needs that last quiet letter.",
+    "speak_en": "Which word matches the picture of a thumb?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0085",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Choose the best match.",
+    "choices": [
+      "mouth",
+      "mout",
+      "moth",
+      "math"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "mouth"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together at the end. They make one sound.",
+    "explain_item_en": "Smile with your [[mouth]]. Keep the h.",
+    "speak_en": "Which word matches the picture of a mouth?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0086",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the hard word.",
+    "choices": [
+      "wheel",
+      "weel",
+      "well",
+      "heel"
+    ],
+    "explain_key": "wh_pair",
+    "media": [
+      {
+        "lemma": "wheel"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[w]] and [[h]] sit together. Both letters stay.",
+    "explain_item_en": "A [[wheel]] is round. Do not drop the h.",
+    "speak_en": "Which word matches the picture of a wheel?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0087",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Pick the near one.",
+    "choices": [
+      "white",
+      "wite",
+      "write",
+      "while"
+    ],
+    "explain_key": "wh_pair",
+    "media": [
+      {
+        "lemma": "white"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. Keep [[w]] and h together.",
+    "explain_item_en": "Snow looks [[white]]. That word needs both letters.",
+    "speak_en": "Which word matches the picture of white?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0088",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Which seems right?",
+    "choices": [
+      "wish",
+      "wist",
+      "wash",
+      "wisp"
+    ],
+    "explain_key": "sh_pair",
+    "media": [
+      {
+        "lemma": "wish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[s]] and [[h]] sit together. They say shhh.",
+    "explain_item_en": "Make a [[wish]] on a star.",
+    "speak_en": "Which word matches the picture of a wish?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0089",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the true word.",
+    "choices": [
+      "ring",
+      "rin",
+      "wrin",
+      "rig"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "ring"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[n]] and [[g]] sit together. They make a singing sound.",
+    "explain_item_en": "A gold [[ring]] needs n and g at the end.",
+    "speak_en": "Which word matches the picture of a ring?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0090",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Pick the real one.",
+    "choices": [
+      "swing",
+      "swin",
+      "sing",
+      "wing"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "swing"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[n]] and g sit together and sing.",
+    "explain_item_en": "A park [[swing]] goes up and down.",
+    "speak_en": "Which word matches the picture of a swing?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0091",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Which one is correct?",
+    "choices": [
+      "snack",
+      "snak",
+      "stack",
+      "sack"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together at the end. They say k.",
+    "explain_item_en": "A [[snack]] needs both letters. Do not drop the c.",
+    "speak_en": "Which word matches the picture of a snack?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0092",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the right pick.",
+    "choices": [
+      "stick",
+      "stik",
+      "stack",
+      "sick"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "stick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and k sit together and say k.",
+    "explain_item_en": "A [[stick]] needs c and k at the end.",
+    "speak_en": "Which word matches the picture of a stick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0093",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Choose the best fit.",
+    "choices": [
+      "truck",
+      "truk",
+      "track",
+      "tuck"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k at the end.",
+    "explain_item_en": "A big [[truck]] needs both of those letters.",
+    "speak_en": "Which word matches the picture of a truck?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0094",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Find the tough word.",
+    "choices": [
+      "pick",
+      "pik",
+      "peck",
+      "pack"
+    ],
+    "explain_key": "ck_pair",
+    "media": [
+      {
+        "lemma": "pick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[k]] sit together. They say k.",
+    "explain_item_en": "[[pick]] needs both letters. One letter is not enough.",
+    "speak_en": "Which word matches the picture of pick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0095",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "<NAME> picks a word.",
+    "choices": [
+      "thin",
+      "tin",
+      "then",
+      "pin"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "thin"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[t]] and [[h]] sit together. Stick out your tongue a little.",
+    "explain_item_en": "[[thin]] starts with t and h, not just t.",
+    "speak_en": "Which word matches the picture of thin?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0096",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Help <NAME> find it.",
+    "choices": [
+      "thick",
+      "tick",
+      "trick",
+      "stick"
+    ],
+    "explain_key": "th_pair",
+    "media": [
+      {
+        "lemma": "thick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[t]] and h sit together.",
+    "explain_item_en": "[[thick]] starts with that tongue sound.",
+    "speak_en": "Which word matches the picture of thick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0097",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "<NAME> sees this one.",
+    "choices": [
+      "chick",
+      "chik",
+      "click",
+      "chic"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "A baby [[chick]] needs both letters at the start.",
+    "speak_en": "Which word matches the picture of a chick?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0098",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "Which word for <NAME>?",
+    "choices": [
+      "chip",
+      "chipp",
+      "chop",
+      "clip"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chip"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Two letters can make one [[sound]]. [[c]] and h sit together and say ch.",
+    "explain_item_en": "A [[chip]] starts with ch, not cl.",
+    "speak_en": "Which word matches the picture of a chip?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0099",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "<NAME> needs this word.",
+    "choices": [
+      "chin",
+      "chen",
+      "thin",
+      "can"
+    ],
+    "explain_key": "ch_pair",
+    "media": [
+      {
+        "lemma": "chin"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[c]] and [[h]] sit together. They say ch.",
+    "explain_item_en": "Your [[chin]] starts with ch, not th.",
+    "speak_en": "Which word matches the picture of a chin?"
+  },
+  {
+    "item_id": "seed_read_the_digraph_word_0100",
+    "family_id": "fam_read_the_digraph_word",
+    "skill_id": "seed_read_the_digraph_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "picture_to_word",
+    "stem": "<NAME> can pick one.",
+    "choices": [
+      "song",
+      "son",
+      "sung",
+      "sang"
+    ],
+    "explain_key": "ng_pair",
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[n]] and [[g]] sit together. They make a singing sound.",
+    "explain_item_en": "A [[song]] is music. Hear ng at the end.",
+    "speak_en": "Which word matches the picture of a song?"
+  }
+]

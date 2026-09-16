@@ -1,1 +1,2621 @@
-[{"item_id": "seed_find_the_vowels_in_a_word_0001", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "cat", "choices": ["c", "a", "t", "b"], "explain_key": "vowel_a", "media": [{"lemma": "cat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_vowels_in_a_word_0002", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "dog", "choices": ["d", "g", "o", "p"], "explain_key": "vowel_o", "media": [{"lemma": "dog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0003", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "bed", "choices": ["e", "b", "d", "n"], "explain_key": "vowel_e", "media": [{"lemma": "bed"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_vowels_in_a_word_0004", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "fish", "choices": ["f", "s", "h", "i"], "explain_key": "vowel_i", "media": [{"lemma": "fish"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0005", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "duck", "choices": ["d", "k", "u", "c"], "explain_key": "vowel_u", "media": [{"lemma": "duck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0006", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "clock", "choices": ["c", "l", "k", "o"], "explain_key": "vowel_o", "media": [{"lemma": "clock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0007", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "baby", "choices": ["b", "y", "n", "a"], "explain_key": "vowel_a", "media": [{"lemma": "baby"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0008", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "sunny", "choices": ["u", "s", "n", "y"], "explain_key": "vowel_u", "media": [{"lemma": "sunny"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_vowels_in_a_word_0009", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "pig", "choices": ["p", "i", "g", "m"], "explain_key": "vowel_i", "media": [{"lemma": "pig"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_vowels_in_a_word_0010", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "hen", "choices": ["h", "n", "e", "r"], "explain_key": "vowel_e", "media": [{"lemma": "hen"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0011", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "fox", "choices": ["x", "f", "o", "l"], "explain_key": "vowel_o", "media": [{"lemma": "fox"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0012", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "cup", "choices": ["c", "p", "u", "k"], "explain_key": "vowel_u", "media": [{"lemma": "cup"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0013", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "hat", "choices": ["t", "h", "a", "n"], "explain_key": "vowel_a", "media": [{"lemma": "hat"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0014", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "sun", "choices": ["n", "s", "u", "d"], "explain_key": "vowel_u", "media": [{"lemma": "sun"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0015", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "pen", "choices": ["n", "p", "e", "l"], "explain_key": "vowel_e", "media": [{"lemma": "pen"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0016", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "map", "choices": ["p", "m", "a", "s"], "explain_key": "vowel_a", "media": [{"lemma": "map"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0017", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "log", "choices": ["g", "l", "o", "f"], "explain_key": "vowel_o", "media": [{"lemma": "log"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0018", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "wet", "choices": ["t", "w", "e", "h"], "explain_key": "vowel_e", "media": [{"lemma": "wet"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0019", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "hop", "choices": ["p", "h", "o", "c"], "explain_key": "vowel_o", "media": [{"lemma": "hop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0020", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "run", "choices": ["n", "r", "u", "g"], "explain_key": "vowel_u", "media": [{"lemma": "run"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0021", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "sit", "choices": ["t", "s", "i", "m"], "explain_key": "vowel_i", "media": [{"lemma": "sit"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0022", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "top", "choices": ["p", "t", "o", "l"], "explain_key": "vowel_o", "media": [{"lemma": "top"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0023", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "bus", "choices": ["s", "b", "u", "k"], "explain_key": "vowel_u", "media": [{"lemma": "bus"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0024", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "red", "choices": ["d", "r", "e", "n"], "explain_key": "vowel_e", "media": [{"lemma": "red"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0025", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "big", "choices": ["g", "b", "i", "l"], "explain_key": "vowel_i", "media": [{"lemma": "big"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0026", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "hot", "choices": ["t", "h", "o", "p"], "explain_key": "vowel_o", "media": [{"lemma": "hot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0027", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "leg", "choices": ["g", "l", "e", "n"], "explain_key": "vowel_e", "media": [{"lemma": "leg"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0028", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "car", "choices": ["r", "c", "a", "s"], "explain_key": "vowel_a", "media": [{"lemma": "car"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0029", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "fun", "choices": ["n", "f", "u", "d"], "explain_key": "vowel_u", "media": [{"lemma": "fun"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0030", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "dad", "choices": ["d", "a", "m", "p"], "explain_key": "vowel_a", "media": [{"lemma": "dad"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_vowels_in_a_word_0031", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "mom", "choices": ["m", "o", "p", "l"], "explain_key": "vowel_o", "media": [{"lemma": "mom"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_vowels_in_a_word_0032", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "box", "choices": ["x", "b", "o", "l"], "explain_key": "vowel_o", "media": [{"lemma": "box"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0033", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "cut", "choices": ["t", "c", "u", "p"], "explain_key": "vowel_u", "media": [{"lemma": "cut"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0034", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "cow", "choices": ["w", "c", "o", "l"], "explain_key": "vowel_o", "media": [{"lemma": "cow"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0035", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "six", "choices": ["x", "s", "i", "m"], "explain_key": "vowel_i", "media": [{"lemma": "six"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0036", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "milk", "choices": ["k", "m", "i", "l"], "explain_key": "vowel_i", "media": [{"lemma": "milk"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0037", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "corn", "choices": ["n", "c", "o", "r"], "explain_key": "vowel_o", "media": [{"lemma": "corn"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0038", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "bird", "choices": ["d", "b", "i", "r"], "explain_key": "vowel_i", "media": [{"lemma": "bird"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0039", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "cold", "choices": ["d", "c", "o", "l"], "explain_key": "vowel_o", "media": [{"lemma": "cold"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0040", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "desk", "choices": ["k", "d", "e", "s"], "explain_key": "vowel_e", "media": [{"lemma": "desk"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0041", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "farm", "choices": ["m", "f", "a", "r"], "explain_key": "vowel_a", "media": [{"lemma": "farm"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0042", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "hand", "choices": ["d", "h", "a", "n"], "explain_key": "vowel_a", "media": [{"lemma": "hand"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0043", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "nest", "choices": ["t", "n", "e", "s"], "explain_key": "vowel_e", "media": [{"lemma": "nest"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0044", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "park", "choices": ["k", "p", "a", "r"], "explain_key": "vowel_a", "media": [{"lemma": "park"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0045", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "snow", "choices": ["w", "s", "o", "n"], "explain_key": "vowel_o", "media": [{"lemma": "snow"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0046", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "star", "choices": ["r", "s", "a", "t"], "explain_key": "vowel_a", "media": [{"lemma": "star"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0047", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "tree", "choices": ["e", "t", "r", "n"], "explain_key": "vowel_e", "media": [{"lemma": "tree"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_vowels_in_a_word_0048", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "swim", "choices": ["m", "s", "i", "w"], "explain_key": "vowel_i", "media": [{"lemma": "swim"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0049", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "lunch", "choices": ["h", "l", "u", "n"], "explain_key": "vowel_u", "media": [{"lemma": "lunch"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0050", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "black", "choices": ["k", "b", "a", "l"], "explain_key": "vowel_a", "media": [{"lemma": "black"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0051", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "brown", "choices": ["n", "b", "o", "r"], "explain_key": "vowel_o", "media": [{"lemma": "brown"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0052", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "grass", "choices": ["s", "g", "a", "r"], "explain_key": "vowel_a", "media": [{"lemma": "grass"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0053", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "glass", "choices": ["s", "g", "a", "l"], "explain_key": "vowel_a", "media": [{"lemma": "glass"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0054", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "drink", "choices": ["k", "d", "i", "r"], "explain_key": "vowel_i", "media": [{"lemma": "drink"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0055", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "plant", "choices": ["t", "p", "a", "l"], "explain_key": "vowel_a", "media": [{"lemma": "plant"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0056", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "short", "choices": ["t", "s", "o", "h"], "explain_key": "vowel_o", "media": [{"lemma": "short"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0057", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "truck", "choices": ["t", "r", "u", "k"], "explain_key": "vowel_u", "media": [{"lemma": "truck"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0058", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "bell", "choices": ["l", "b", "e", "n"], "explain_key": "vowel_e", "media": [{"lemma": "bell"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0059", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "flag", "choices": ["f", "l", "a", "g"], "explain_key": "vowel_a", "media": [{"lemma": "flag"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0060", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "drum", "choices": ["d", "u", "r", "m"], "explain_key": "vowel_u", "media": [{"lemma": "drum"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_vowels_in_a_word_0061", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "small", "choices": ["l", "s", "a", "m"], "explain_key": "vowel_a", "media": [{"lemma": "small"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0062", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "stamp", "choices": ["s", "t", "m", "a"], "explain_key": "vowel_a", "media": [{"lemma": "stamp"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0063", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "stand", "choices": ["d", "s", "a", "t"], "explain_key": "vowel_a", "media": [{"lemma": "stand"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0064", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "throw", "choices": ["w", "t", "o", "h"], "explain_key": "vowel_o", "media": [{"lemma": "throw"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0065", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "frog", "choices": ["o", "f", "r", "g"], "explain_key": "vowel_o", "media": [{"lemma": "frog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_vowels_in_a_word_0066", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "ship", "choices": ["s", "h", "p", "i"], "explain_key": "vowel_i", "media": [{"lemma": "ship"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0067", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "list", "choices": ["t", "l", "i", "s"], "explain_key": "vowel_i", "media": [{"lemma": "list"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0068", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "print", "choices": ["t", "p", "r", "i"], "explain_key": "vowel_i", "media": [{"lemma": "print"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0069", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "room", "choices": ["m", "r", "o", "p"], "explain_key": "vowel_o", "media": [{"lemma": "room"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0070", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "seed", "choices": ["d", "s", "e", "n"], "explain_key": "vowel_e", "media": [{"lemma": "seed"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0071", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "sheep", "choices": ["p", "s", "h", "e"], "explain_key": "vowel_e", "media": [{"lemma": "sheep"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0072", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "class", "choices": ["s", "c", "l", "a"], "explain_key": "vowel_a", "media": [{"lemma": "class"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0073", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "happy", "choices": ["p", "h", "a", "y"], "explain_key": "vowel_a", "media": [{"lemma": "happy"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0074", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "funny", "choices": ["n", "f", "u", "y"], "explain_key": "vowel_u", "media": [{"lemma": "funny"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0075", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "party", "choices": ["t", "p", "a", "y"], "explain_key": "vowel_a", "media": [{"lemma": "party"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0076", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "candy", "choices": ["c", "y", "d", "a"], "explain_key": "vowel_a", "media": [{"lemma": "candy"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0077", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "jelly", "choices": ["e", "j", "l", "y"], "explain_key": "vowel_e", "media": [{"lemma": "jelly"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_vowels_in_a_word_0078", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "kitty", "choices": ["k", "t", "i", "y"], "explain_key": "vowel_i", "media": [{"lemma": "kitty"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0079", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "body", "choices": ["d", "b", "o", "y"], "explain_key": "vowel_o", "media": [{"lemma": "body"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0080", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "yard", "choices": ["d", "r", "a", "y"], "explain_key": "vowel_a", "media": [{"lemma": "yard"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0081", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "story", "choices": ["t", "s", "o", "y"], "explain_key": "vowel_o", "media": [{"lemma": "story"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0082", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "puppy", "choices": ["u", "p", "y", "b"], "explain_key": "vowel_u", "media": [{"lemma": "puppy"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_vowels_in_a_word_0083", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "pony", "choices": ["p", "n", "y", "o"], "explain_key": "vowel_o", "media": [{"lemma": "pony"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0085", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "dolly", "choices": ["d", "l", "y", "o"], "explain_key": "vowel_o", "media": [{"lemma": "dolly"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0086", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "play", "choices": ["p", "l", "a", "y"], "explain_key": "vowel_a", "media": [{"lemma": "play"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0088", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "messy", "choices": ["m", "s", "e", "y"], "explain_key": "vowel_e", "media": [{"lemma": "messy"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0089", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "windy", "choices": ["w", "n", "y", "i"], "explain_key": "vowel_i", "media": [{"lemma": "windy"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0090", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "foggy", "choices": ["f", "g", "y", "o"], "explain_key": "vowel_o", "media": [{"lemma": "foggy"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0091", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "days", "choices": ["d", "a", "y", "s"], "explain_key": "vowel_a", "media": [{"lemma": "days"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_vowels_in_a_word_0092", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "gray", "choices": ["g", "r", "a", "y"], "explain_key": "vowel_a", "media": [{"lemma": "gray"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_find_the_vowels_in_a_word_0094", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "berry", "choices": ["b", "r", "y", "e"], "explain_key": "vowel_e", "media": [{"lemma": "berry"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0095", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "sleepy", "choices": ["s", "l", "y", "e"], "explain_key": "vowel_e", "media": [{"lemma": "sleepy"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0096", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "sticky", "choices": ["i", "s", "t", "y"], "explain_key": "vowel_i", "media": [{"lemma": "sticky"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_find_the_vowels_in_a_word_0097", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "penny", "choices": ["p", "n", "y", "e"], "explain_key": "vowel_e", "media": [{"lemma": "penny"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0098", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "lady", "choices": ["l", "d", "y", "a"], "explain_key": "vowel_a", "media": [{"lemma": "lady"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_find_the_vowels_in_a_word_0099", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "pretty", "choices": ["p", "e", "t", "y"], "explain_key": "vowel_e", "media": [{"lemma": "pretty"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_find_the_vowels_in_a_word_0100", "family_id": "fam_find_the_vowels_in_a_word", "skill_id": "seed_find_the_vowels_in_a_word", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "study", "choices": ["t", "s", "u", "y"], "explain_key": "vowel_u", "media": [{"lemma": "study"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}]
+[
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0001",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "cat",
+    "choices": [
+      "c",
+      "a",
+      "t",
+      "b"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[cat]], the singing [[letter]] is a.",
+    "speak_en": "Which letter is a singing letter in the word cat?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0002",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "dog",
+    "choices": [
+      "d",
+      "g",
+      "o",
+      "p"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Dog]] has the singing letter [[o]].",
+    "speak_en": "Which letter is a singing letter in the word dog?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0003",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "bed",
+    "choices": [
+      "e",
+      "b",
+      "d",
+      "n"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Bed]] has [[e]].",
+    "speak_en": "Which letter is a singing letter in the word bed?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0004",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "fish",
+    "choices": [
+      "f",
+      "s",
+      "h",
+      "i"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[fish]] is [[i]].",
+    "speak_en": "Which letter is a singing letter in the word fish?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0005",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "duck",
+    "choices": [
+      "d",
+      "k",
+      "u",
+      "c"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Duck]] has [[u]].",
+    "speak_en": "Which letter is a singing letter in the word duck?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0006",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "clock",
+    "choices": [
+      "c",
+      "l",
+      "k",
+      "o"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[clock]], the singing letter is [[o]].",
+    "speak_en": "Which letter is a singing letter in the word clock?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0007",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "baby",
+    "choices": [
+      "b",
+      "y",
+      "n",
+      "a"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[baby]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word baby?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0008",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "sunny",
+    "choices": [
+      "u",
+      "s",
+      "n",
+      "y"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "sunny"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[sunny]], tap [[u]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word sunny?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0009",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "pig",
+    "choices": [
+      "p",
+      "i",
+      "g",
+      "m"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[pig]] is [[i]].",
+    "speak_en": "Which letter is a singing letter in the word pig?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0010",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "hen",
+    "choices": [
+      "h",
+      "n",
+      "e",
+      "r"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Hen]] has [[e]].",
+    "speak_en": "Which letter is a singing letter in the word hen?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0011",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "fox",
+    "choices": [
+      "x",
+      "f",
+      "o",
+      "l"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[fox]], the singing letter is [[o]].",
+    "speak_en": "Which letter is a singing letter in the word fox?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0012",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "cup",
+    "choices": [
+      "c",
+      "p",
+      "u",
+      "k"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Cup]] has the singing letter [[u]].",
+    "speak_en": "Which letter is a singing letter in the word cup?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0013",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "hat",
+    "choices": [
+      "t",
+      "h",
+      "a",
+      "n"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Hat]] has that [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word hat?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0014",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sun",
+    "choices": [
+      "n",
+      "s",
+      "u",
+      "d"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[sun]] is [[u]].",
+    "speak_en": "Which letter is a singing letter in the word sun?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0015",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "pen",
+    "choices": [
+      "n",
+      "p",
+      "e",
+      "l"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "pen"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Pen]] has [[e]].",
+    "speak_en": "Which letter is a singing letter in the word pen?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0016",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "map",
+    "choices": [
+      "p",
+      "m",
+      "a",
+      "s"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[map]], the singing [[letter]] is a.",
+    "speak_en": "Which letter is a singing letter in the word map?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0017",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "log",
+    "choices": [
+      "g",
+      "l",
+      "o",
+      "f"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "log"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Log]] has the singing letter [[o]].",
+    "speak_en": "Which letter is a singing letter in the word log?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0018",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "wet",
+    "choices": [
+      "t",
+      "w",
+      "e",
+      "h"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "wet"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Wet]] has [[e]].",
+    "speak_en": "Which letter is a singing letter in the word wet?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0019",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "hop",
+    "choices": [
+      "p",
+      "h",
+      "o",
+      "c"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "hop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[hop]] is [[o]].",
+    "speak_en": "Which letter is a singing letter in the word hop?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0020",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "run",
+    "choices": [
+      "n",
+      "r",
+      "u",
+      "g"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "run"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Run]] has [[u]].",
+    "speak_en": "Which letter is a singing letter in the word run?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0021",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sit",
+    "choices": [
+      "t",
+      "s",
+      "i",
+      "m"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "sit"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[sit]], the singing letter is [[i]].",
+    "speak_en": "Which letter is a singing letter in the word sit?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0022",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "top",
+    "choices": [
+      "p",
+      "t",
+      "o",
+      "l"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "top"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Top]] has the singing letter [[o]].",
+    "speak_en": "Which letter is a singing letter in the word top?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0023",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "bus",
+    "choices": [
+      "s",
+      "b",
+      "u",
+      "k"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Bus]] has [[u]].",
+    "speak_en": "Which letter is a singing letter in the word bus?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0024",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "red",
+    "choices": [
+      "d",
+      "r",
+      "e",
+      "n"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "red"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[red]] is [[e]].",
+    "speak_en": "Which letter is a singing letter in the word red?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0025",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "big",
+    "choices": [
+      "g",
+      "b",
+      "i",
+      "l"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "big"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Big]] has [[i]].",
+    "speak_en": "Which letter is a singing letter in the word big?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0026",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "hot",
+    "choices": [
+      "t",
+      "h",
+      "o",
+      "p"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "hot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[hot]], the singing letter is [[o]].",
+    "speak_en": "Which letter is a singing letter in the word hot?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0027",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "leg",
+    "choices": [
+      "g",
+      "l",
+      "e",
+      "n"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "leg"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Leg]] has the singing letter [[e]].",
+    "speak_en": "Which letter is a singing letter in the word leg?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0028",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "car",
+    "choices": [
+      "r",
+      "c",
+      "a",
+      "s"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Car]] has that [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word car?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0029",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "fun",
+    "choices": [
+      "n",
+      "f",
+      "u",
+      "d"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "fun"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[fun]] is [[u]].",
+    "speak_en": "Which letter is a singing letter in the word fun?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0030",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "dad",
+    "choices": [
+      "d",
+      "a",
+      "m",
+      "p"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Dad]] has the singing [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word dad?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0031",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "mom",
+    "choices": [
+      "m",
+      "o",
+      "p",
+      "l"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[mom]], the singing letter is [[o]].",
+    "speak_en": "Which letter is a singing letter in the word mom?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0032",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "box",
+    "choices": [
+      "x",
+      "b",
+      "o",
+      "l"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Box]] has the singing letter [[o]].",
+    "speak_en": "Which letter is a singing letter in the word box?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0033",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "cut",
+    "choices": [
+      "t",
+      "c",
+      "u",
+      "p"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "cut"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Cut]] has [[u]].",
+    "speak_en": "Which letter is a singing letter in the word cut?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0034",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "cow",
+    "choices": [
+      "w",
+      "c",
+      "o",
+      "l"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A [[singing]] letter is a, e, i, o, or u.",
+    "explain_item_en": "In [[cow]], tap [[o]]. Do not tap w.",
+    "speak_en": "Which letter is a singing letter in the word cow?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0035",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "six",
+    "choices": [
+      "x",
+      "s",
+      "i",
+      "m"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "six"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Six]] has [[i]].",
+    "speak_en": "Which letter is a singing letter in the word six?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0036",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "milk",
+    "choices": [
+      "k",
+      "m",
+      "i",
+      "l"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[milk]], the singing letter is [[i]].",
+    "speak_en": "Which letter is a singing letter in the word milk?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0037",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "corn",
+    "choices": [
+      "n",
+      "c",
+      "o",
+      "r"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Corn]] has the singing letter [[o]].",
+    "speak_en": "Which letter is a singing letter in the word corn?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0038",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "bird",
+    "choices": [
+      "d",
+      "b",
+      "i",
+      "r"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Bird]] has [[i]].",
+    "speak_en": "Which letter is a singing letter in the word bird?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0039",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "cold",
+    "choices": [
+      "d",
+      "c",
+      "o",
+      "l"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "cold"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[cold]] is [[o]].",
+    "speak_en": "Which letter is a singing letter in the word cold?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0040",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "desk",
+    "choices": [
+      "k",
+      "d",
+      "e",
+      "s"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Desk]] has [[e]].",
+    "speak_en": "Which letter is a singing letter in the word desk?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0041",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "farm",
+    "choices": [
+      "m",
+      "f",
+      "a",
+      "r"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "farm"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[farm]], the singing [[letter]] is a.",
+    "speak_en": "Which letter is a singing letter in the word farm?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0042",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "hand",
+    "choices": [
+      "d",
+      "h",
+      "a",
+      "n"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "hand"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Hand]] has the singing [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word hand?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0043",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "nest",
+    "choices": [
+      "t",
+      "n",
+      "e",
+      "s"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "nest"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Nest]] has [[e]].",
+    "speak_en": "Which letter is a singing letter in the word nest?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0044",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "park",
+    "choices": [
+      "k",
+      "p",
+      "a",
+      "r"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing [[letter]] in [[park]] is a.",
+    "speak_en": "Which letter is a singing letter in the word park?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0045",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "snow",
+    "choices": [
+      "w",
+      "s",
+      "o",
+      "n"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A [[singing]] letter is a, e, i, o, or u.",
+    "explain_item_en": "In [[snow]], tap [[o]]. Do not tap w.",
+    "speak_en": "Which letter is a singing letter in the word snow?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0046",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "star",
+    "choices": [
+      "r",
+      "s",
+      "a",
+      "t"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[star]], the singing [[letter]] is a.",
+    "speak_en": "Which letter is a singing letter in the word star?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0047",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "tree",
+    "choices": [
+      "e",
+      "t",
+      "r",
+      "n"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Find the [[singing]] letter. Use a, e, i, o, or u.",
+    "explain_item_en": "[[Tree]] has the singing letter [[e]].",
+    "speak_en": "Which letter is a singing letter in the word tree?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0048",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "swim",
+    "choices": [
+      "m",
+      "s",
+      "i",
+      "w"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Swim]] has [[i]].",
+    "speak_en": "Which letter is a singing letter in the word swim?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0049",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "lunch",
+    "choices": [
+      "h",
+      "l",
+      "u",
+      "n"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[lunch]] is [[u]].",
+    "speak_en": "Which letter is a singing letter in the word lunch?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0050",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "black",
+    "choices": [
+      "k",
+      "b",
+      "a",
+      "l"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "black"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Black]] has the singing [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word black?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0051",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "brown",
+    "choices": [
+      "n",
+      "b",
+      "o",
+      "r"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "brown"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[brown]], the singing letter is [[o]].",
+    "speak_en": "Which letter is a singing letter in the word brown?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0052",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "grass",
+    "choices": [
+      "s",
+      "g",
+      "a",
+      "r"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "grass"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Grass]] has the singing [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word grass?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0053",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "glass",
+    "choices": [
+      "s",
+      "g",
+      "a",
+      "l"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "glass"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Glass]] has that [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word glass?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0054",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "drink",
+    "choices": [
+      "k",
+      "d",
+      "i",
+      "r"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "drink"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing letter in [[drink]] is [[i]].",
+    "speak_en": "Which letter is a singing letter in the word drink?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0055",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "plant",
+    "choices": [
+      "t",
+      "p",
+      "a",
+      "l"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Plant]] has the singing [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word plant?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0056",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "short",
+    "choices": [
+      "t",
+      "s",
+      "o",
+      "h"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "short"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[short]], the singing letter is [[o]].",
+    "speak_en": "Which letter is a singing letter in the word short?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0057",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "truck",
+    "choices": [
+      "t",
+      "r",
+      "u",
+      "k"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Truck]] has the singing letter [[u]].",
+    "speak_en": "Which letter is a singing letter in the word truck?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0058",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "bell",
+    "choices": [
+      "l",
+      "b",
+      "e",
+      "n"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Bell]] has [[e]].",
+    "speak_en": "Which letter is a singing letter in the word bell?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0059",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "flag",
+    "choices": [
+      "f",
+      "l",
+      "a",
+      "g"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "flag"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Tap the [[singing]] letter. It is a, e, i, o, or u.",
+    "explain_item_en": "The singing [[letter]] in [[flag]] is a.",
+    "speak_en": "Which letter is a singing letter in the word flag?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0060",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "drum",
+    "choices": [
+      "d",
+      "u",
+      "r",
+      "m"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "drum"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Drum]] has [[u]].",
+    "speak_en": "Which letter is a singing letter in the word drum?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0061",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "small",
+    "choices": [
+      "l",
+      "s",
+      "a",
+      "m"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "small"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[small]], the singing [[letter]] is a.",
+    "speak_en": "Which letter is a singing letter in the word small?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0062",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "stamp",
+    "choices": [
+      "s",
+      "t",
+      "m",
+      "a"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "stamp"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Stamp]] has the singing [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word stamp?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0063",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "stand",
+    "choices": [
+      "d",
+      "s",
+      "a",
+      "t"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "stand"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Stand]] has that [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word stand?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0064",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "throw",
+    "choices": [
+      "w",
+      "t",
+      "o",
+      "h"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "throw"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "A [[singing]] letter is a, e, i, o, or u.",
+    "explain_item_en": "In [[throw]], tap [[o]]. Do not tap w.",
+    "speak_en": "Which letter is a singing letter in the word throw?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0065",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "frog",
+    "choices": [
+      "o",
+      "f",
+      "r",
+      "g"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look for a, e, i, o, or u. That is a [[singing]] letter.",
+    "explain_item_en": "[[Frog]] has [[o]].",
+    "speak_en": "Which letter is a singing letter in the word frog?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0066",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "ship",
+    "choices": [
+      "s",
+      "h",
+      "p",
+      "i"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "ship"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[ship]], the singing letter is [[i]].",
+    "speak_en": "Which letter is a singing letter in the word ship?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0067",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "list",
+    "choices": [
+      "t",
+      "l",
+      "i",
+      "s"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "list"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[List]] has the singing letter [[i]].",
+    "speak_en": "Which letter is a singing letter in the word list?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0068",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "print",
+    "choices": [
+      "t",
+      "p",
+      "r",
+      "i"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "print"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "A singing letter is a, e, i, o, or u. Look in the [[word]].",
+    "explain_item_en": "[[Print]] has [[i]].",
+    "speak_en": "Which letter is a singing letter in the word print?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0069",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "room",
+    "choices": [
+      "m",
+      "r",
+      "o",
+      "p"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter. Use a, e, i, o, or u.",
+    "explain_item_en": "[[Room]] has the singing letter [[o]].",
+    "speak_en": "Which letter is a singing letter in the word room?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0070",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "seed",
+    "choices": [
+      "d",
+      "s",
+      "e",
+      "n"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Find the [[singing]] letter. Use a, e, i, o, or u.",
+    "explain_item_en": "[[Seed]] has the singing letter [[e]].",
+    "speak_en": "Which letter is a singing letter in the word seed?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0071",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "sheep",
+    "choices": [
+      "p",
+      "s",
+      "h",
+      "e"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Find the [[singing]] letter. Use a, e, i, o, or u.",
+    "explain_item_en": "[[Sheep]] has the singing letter [[e]].",
+    "speak_en": "Which letter is a singing letter in the word sheep?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0072",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "class",
+    "choices": [
+      "s",
+      "c",
+      "l",
+      "a"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Find the [[singing]] letter in the word.",
+    "explain_item_en": "[[Class]] has the singing [[letter]] a.",
+    "speak_en": "Which letter is a singing letter in the word class?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0073",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "happy",
+    "choices": [
+      "p",
+      "h",
+      "a",
+      "y"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "happy"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[happy]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word happy?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0074",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "funny",
+    "choices": [
+      "n",
+      "f",
+      "u",
+      "y"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "funny"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[funny]], tap [[u]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word funny?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0075",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "party",
+    "choices": [
+      "t",
+      "p",
+      "a",
+      "y"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "party"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[party]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word party?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0076",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "candy",
+    "choices": [
+      "c",
+      "y",
+      "d",
+      "a"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "candy"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[candy]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word candy?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0077",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "jelly",
+    "choices": [
+      "e",
+      "j",
+      "l",
+      "y"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "jelly"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[jelly]], tap [[e]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word jelly?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0078",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "kitty",
+    "choices": [
+      "k",
+      "t",
+      "i",
+      "y"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "kitty"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[kitty]], tap [[i]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word kitty?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0079",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "body",
+    "choices": [
+      "d",
+      "b",
+      "o",
+      "y"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "body"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[body]], tap [[o]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word body?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0080",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "yard",
+    "choices": [
+      "d",
+      "r",
+      "a",
+      "y"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[yard]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word yard?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0081",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "story",
+    "choices": [
+      "t",
+      "s",
+      "o",
+      "y"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[story]], tap [[o]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word story?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0082",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "puppy",
+    "choices": [
+      "u",
+      "p",
+      "y",
+      "b"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[puppy]], tap [[u]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word puppy?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0083",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "pony",
+    "choices": [
+      "p",
+      "n",
+      "y",
+      "o"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "pony"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[pony]], tap [[o]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word pony?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0085",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "dolly",
+    "choices": [
+      "d",
+      "l",
+      "y",
+      "o"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "dolly"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[dolly]], tap [[o]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word dolly?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0086",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "play",
+    "choices": [
+      "p",
+      "l",
+      "a",
+      "y"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[play]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word play?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0088",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "messy",
+    "choices": [
+      "m",
+      "s",
+      "e",
+      "y"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "messy"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[messy]], tap [[e]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word messy?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0089",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "windy",
+    "choices": [
+      "w",
+      "n",
+      "y",
+      "i"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "windy"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[windy]], tap [[i]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word windy?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0090",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "foggy",
+    "choices": [
+      "f",
+      "g",
+      "y",
+      "o"
+    ],
+    "explain_key": "vowel_o",
+    "media": [
+      {
+        "lemma": "foggy"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[foggy]], tap [[o]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word foggy?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0091",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "days",
+    "choices": [
+      "d",
+      "a",
+      "y",
+      "s"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "days"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[days]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word days?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0092",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "gray",
+    "choices": [
+      "g",
+      "r",
+      "a",
+      "y"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "gray"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[gray]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word gray?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0094",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "berry",
+    "choices": [
+      "b",
+      "r",
+      "y",
+      "e"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "berry"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[berry]], tap [[e]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word berry?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0095",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "sleepy",
+    "choices": [
+      "s",
+      "l",
+      "y",
+      "e"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "sleepy"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[sleepy]], tap [[e]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word sleepy?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0096",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "sticky",
+    "choices": [
+      "i",
+      "s",
+      "t",
+      "y"
+    ],
+    "explain_key": "vowel_i",
+    "media": [
+      {
+        "lemma": "sticky"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[sticky]], tap [[i]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word sticky?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0097",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "penny",
+    "choices": [
+      "p",
+      "n",
+      "y",
+      "e"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "penny"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[penny]], tap [[e]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word penny?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0098",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "lady",
+    "choices": [
+      "l",
+      "d",
+      "y",
+      "a"
+    ],
+    "explain_key": "vowel_a",
+    "media": [
+      {
+        "lemma": "lady"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[lady]], tap a. Do not tap [[y]].",
+    "speak_en": "Which letter is a singing letter in the word lady?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0099",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "pretty",
+    "choices": [
+      "p",
+      "e",
+      "t",
+      "y"
+    ],
+    "explain_key": "vowel_e",
+    "media": [
+      {
+        "lemma": "pretty"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[pretty]], tap [[e]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word pretty?"
+  },
+  {
+    "item_id": "seed_find_the_vowels_in_a_word_0100",
+    "family_id": "fam_find_the_vowels_in_a_word",
+    "skill_id": "seed_find_the_vowels_in_a_word",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "study",
+    "choices": [
+      "t",
+      "s",
+      "u",
+      "y"
+    ],
+    "explain_key": "vowel_u",
+    "media": [
+      {
+        "lemma": "study"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "[[Singing]] letters are a, e, i, o, and u.",
+    "explain_item_en": "In [[study]], tap [[u]]. Do not tap y.",
+    "speak_en": "Which letter is a singing letter in the word study?"
+  }
+]

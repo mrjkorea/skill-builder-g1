@@ -1,1 +1,2459 @@
-[{"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0001", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick the one.", "choices": ["The dog is on a log.", "The cat is in a bag.", "The bird can fly.", "The cake is on a plate."], "explain_key": "short_o_match", "media": [{"lemma": "dog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0002", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Find the one.", "choices": ["The sun is in the sky.", "The fox is on a rock.", "The baby is in the bed.", "The girl has a big book."], "explain_key": "short_o_match", "media": [{"lemma": "fox"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0003", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Which one is it?", "choices": ["The red ball is in the grass.", "The duck is in the water.", "The box is on the desk.", "The tree is very tall."], "explain_key": "wrong_scene", "media": [{"lemma": "box"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0004", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look and pick.", "choices": ["The sock is on the bed.", "The shoe is on the floor.", "The hat is on the chair.", "The pig is in the pen."], "explain_key": "other_vowel", "media": [{"lemma": "sock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0005", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> can pick.", "choices": ["The bell is on the wall.", "The clock is on top.", "The book is on the desk.", "The plant is in the pot."], "explain_key": "short_o_match", "media": [{"lemma": "clock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0006", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick one now.", "choices": ["The dog is in the pond.", "The dog is on the hill.", "The fish is in the lake.", "The duck can swim."], "explain_key": "wrong_scene", "media": [{"lemma": "pond"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0007", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See this.", "choices": ["The frog can hop.", "The dog can hop.", "The bird can fly.", "The fish can swim."], "explain_key": "near_object", "media": [{"lemma": "frog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0008", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look at this.", "choices": ["The pot is hot.", "The cup is hot.", "The plate is big.", "The cup is on the desk."], "explain_key": "near_object", "media": [{"lemma": "pot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0009", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Tap one.", "choices": ["The mop is wet.", "The map is on the wall.", "The mat is on the floor.", "The pin is in the jar."], "explain_key": "short_o_match", "media": [{"lemma": "mop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0010", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick it.", "choices": ["The cat is on the rug.", "The frog is on a log.", "The bird is in a nest.", "The fish is in a tank."], "explain_key": "short_o_match", "media": [{"lemma": "frog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0011", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Find it.", "choices": ["The ball is on the floor.", "The kite is in the sky.", "The doll is on the bed.", "The bike is in the yard."], "explain_key": "short_o_match", "media": [{"lemma": "doll"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0012", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Which one?", "choices": ["The sun is bright.", "The rain is wet.", "The wind is cold.", "The fog is thick."], "explain_key": "short_o_match", "media": [{"lemma": "fog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0013", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick now.", "choices": ["The top can spin.", "The ball can roll.", "The kite can fly.", "The boat can float."], "explain_key": "short_o_match", "media": [{"lemma": "top"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0014", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Tap the one.", "choices": ["The cold milk is good.", "The hot soup is good.", "The sweet cake is good.", "The red apple is good."], "explain_key": "short_o_match", "media": [{"lemma": "hot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0015", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Choose one.", "choices": ["The kid can jump high.", "The kid can run fast.", "The kid can hop high.", "The kid can sit still."], "explain_key": "short_o_match", "media": [{"lemma": "hop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0016", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Get the one.", "choices": ["The bed is big.", "The rug is soft.", "The lamp is bright.", "The cot is small."], "explain_key": "short_o_match", "media": [{"lemma": "cot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0017", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick one.", "choices": ["The pop is loud.", "The song is soft.", "The drum is loud.", "The horn is loud."], "explain_key": "short_o_match", "media": [{"lemma": "pop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0018", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Find one.", "choices": ["The leaf fell down.", "The drop fell down.", "The ball fell down.", "The rain fell down."], "explain_key": "short_o_match", "media": [{"lemma": "drop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0019", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Which match?", "choices": ["The key is on the hook.", "The sign is on the post.", "The lock is on the door.", "The hat is on the rack."], "explain_key": "short_o_match", "media": [{"lemma": "lock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0020", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Tap now.", "choices": ["The rug is dry.", "The floor is clean.", "The grass is green.", "The spot is wet."], "explain_key": "short_o_match", "media": [{"lemma": "spot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0021", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick this.", "choices": ["The dock is by water.", "The bridge is over water.", "The boat is on water.", "The duck is on water."], "explain_key": "short_o_match", "media": [{"lemma": "dock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0022", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Match it.", "choices": ["The rice is in the bowl.", "The cob is on the plate.", "The bread is on the table.", "The egg is in the pan."], "explain_key": "short_o_match", "media": [{"lemma": "cob"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0023", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Find match.", "choices": ["The stick is long.", "The rope is long.", "The rod is long.", "The pole is tall."], "explain_key": "short_o_match", "media": [{"lemma": "rod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0024", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick match.", "choices": ["The leaf is on the plant.", "The bud is on the plant.", "The stem is on the plant.", "The pod is on the plant."], "explain_key": "short_o_match", "media": [{"lemma": "pod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0025", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Tap match.", "choices": ["The flop was funny.", "The jump was high.", "The fall was hard.", "The trip was bad."], "explain_key": "short_o_match", "media": [{"lemma": "flop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0026", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Choose it.", "choices": ["The ham is big.", "The chop is big.", "The sun is up.", "The kite is high."], "explain_key": "short_o_match", "media": [{"lemma": "chop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0027", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Get it.", "choices": ["The corn is in the field.", "The hay is in the barn.", "The crop is in the field.", "The grass is on the hill."], "explain_key": "short_o_match", "media": [{"lemma": "crop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0028", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick right.", "choices": ["The wave was fast.", "The bow was deep.", "The turn was sharp.", "The nod was slow."], "explain_key": "short_o_match", "media": [{"lemma": "nod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0029", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Find right.", "choices": ["The tot can walk.", "The baby can crawl.", "The kid can run.", "The boy can jump."], "explain_key": "short_o_match", "media": [{"lemma": "tot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0030", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Which fits?", "choices": ["The cow is big.", "The ox is big.", "The horse is big.", "The sheep is big."], "explain_key": "short_o_match", "media": [{"lemma": "ox"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0031", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Tap this one.", "choices": ["The chef has a hat.", "The nurse has a cap.", "The cop has a hat.", "The pilot has a cap."], "explain_key": "short_o_match", "media": [{"lemma": "cop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0032", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Pick for me.", "choices": ["The cry was loud.", "The laugh was loud.", "The yell was loud.", "The sob was soft."], "explain_key": "short_o_match", "media": [{"lemma": "sob"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0033", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Choose this.", "choices": ["The lot is full.", "The park is full.", "The yard is full.", "The room is full."], "explain_key": "short_o_match", "media": [{"lemma": "lot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0034", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Find this one.", "choices": ["The dad got a pan.", "The mom got a pot.", "The chef got a pan.", "The cook got a lid."], "explain_key": "short_o_match", "media": [{"lemma": "pot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0035", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Get this.", "choices": ["The stick is in the yard.", "The rock is in the yard.", "The log is in the yard.", "The leaf is in the yard."], "explain_key": "short_o_match", "media": [{"lemma": "log"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0036", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look and tap.", "choices": ["The broom is in the hall.", "The rug is in the hall.", "The lamp is in the hall.", "The mop is in the hall."], "explain_key": "short_o_match", "media": [{"lemma": "mop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0037", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> sees it.", "choices": ["The frog is in the pond.", "The toad is in the pond.", "The duck is in the pond.", "The fish is in the pond."], "explain_key": "short_o_match", "media": [{"lemma": "frog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0038", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick the match.", "choices": ["The toy has a hat.", "The doll has a dress.", "The bear has a bow.", "The robot has arms."], "explain_key": "short_o_match", "media": [{"lemma": "doll"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0039", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find the match.", "choices": ["The cloud hid the hill.", "The mist hid the hill.", "The fog hid the hill.", "The rain hid the hill."], "explain_key": "short_o_match", "media": [{"lemma": "fog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0040", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> picks one.", "choices": ["The ball is on the desk.", "The cube is on the desk.", "The pen is on the desk.", "The top is on the desk."], "explain_key": "short_o_match", "media": [{"lemma": "top"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0041", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Tap the match.", "choices": ["The pan is hot.", "The pan is warm.", "The cup is cold.", "The rug is soft."], "explain_key": "short_o_match", "media": [{"lemma": "hot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0042", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Choose the one.", "choices": ["The jump is fun.", "The hop is fun.", "The cake is sweet.", "The kite is high."], "explain_key": "short_o_match", "media": [{"lemma": "hop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0043", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> can look.", "choices": ["The bed is in the room.", "The rug is in the room.", "The cot is in the room.", "The lamp is in the room."], "explain_key": "short_o_match", "media": [{"lemma": "cot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0044", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick a match.", "choices": ["The snap came from corn.", "The crack came from wood.", "The bang came from the door.", "The pop came from corn."], "explain_key": "short_o_match", "media": [{"lemma": "pop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0045", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find a match.", "choices": ["The drop hit the spot.", "The drip hit the spot.", "The splash hit the spot.", "The spill hit the floor."], "explain_key": "short_o_match", "media": [{"lemma": "drop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0046", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> found it.", "choices": ["The latch is on the gate.", "The lock is on the gate.", "The chain is on the gate.", "The sign is on the gate."], "explain_key": "short_o_match", "media": [{"lemma": "lock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0047", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look and choose.", "choices": ["The stain is on the rug.", "The mark is on the rug.", "The spot is on the rug.", "The hole is on the rug."], "explain_key": "short_o_match", "media": [{"lemma": "spot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0048", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Tap a match.", "choices": ["The pier has a boat.", "The shore has a boat.", "The lake has a boat.", "The dock has a boat."], "explain_key": "short_o_match", "media": [{"lemma": "dock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0049", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> likes it.", "choices": ["The cob is sweet.", "The corn is sweet.", "The peas are sweet.", "The beans are good."], "explain_key": "short_o_match", "media": [{"lemma": "cob"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0050", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick the fit.", "choices": ["The pole is by the lake.", "The rod is by the lake.", "The stick is by the lake.", "The rope is by the lake."], "explain_key": "short_o_match", "media": [{"lemma": "rod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0051", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find the fit.", "choices": ["The leaf is green.", "The stem is green.", "The pod is green.", "The bud is green."], "explain_key": "short_o_match", "media": [{"lemma": "pod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0052", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> got it.", "choices": ["The fall made us laugh.", "The trip made us laugh.", "The jump made us laugh.", "The flop made us laugh."], "explain_key": "short_o_match", "media": [{"lemma": "flop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0053", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Choose the fit.", "choices": ["The chop was quick.", "The cut was quick.", "The slice was quick.", "The peel was quick."], "explain_key": "short_o_match", "media": [{"lemma": "chop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0054", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Tap the fit.", "choices": ["The plant grew tall.", "The crop grew tall.", "The tree grew tall.", "The grass grew tall."], "explain_key": "short_o_match", "media": [{"lemma": "crop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0055", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> saw it.", "choices": ["The wave means hi.", "The wink means yes.", "The nod means yes.", "The shrug means no."], "explain_key": "short_o_match", "media": [{"lemma": "nod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0056", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Pick it now.", "choices": ["The kid has a toy.", "The boy has a toy.", "The girl has a toy.", "The tot has a toy."], "explain_key": "short_o_match", "media": [{"lemma": "tot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0057", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Find it now.", "choices": ["The ox pulls the cart.", "The cow pulls the cart.", "The horse pulls the cart.", "The mule pulls the cart."], "explain_key": "short_o_match", "media": [{"lemma": "ox"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0058", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> knows it.", "choices": ["The guard can help.", "The cop can help.", "The nurse can help.", "The teacher can help."], "explain_key": "short_o_match", "media": [{"lemma": "cop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0059", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Look and find.", "choices": ["The park has cars.", "The street has cars.", "The lot has cars.", "The road has cars."], "explain_key": "short_o_match", "media": [{"lemma": "lot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0060", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Tap and pick.", "choices": ["The stick is by the pond.", "The rock is by the pond.", "The reed is by the pond.", "The log is by the pond."], "explain_key": "short_o_match", "media": [{"lemma": "log"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0061", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> can tap.", "choices": ["The sock is in the bag.", "The shoe is in the bag.", "The hat is in the bag.", "The coat is in the bag."], "explain_key": "other_vowel", "media": [{"lemma": "sock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0062", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Try this.", "choices": ["The wolf ran fast.", "The fox ran fast.", "The dog ran fast.", "The cat ran fast."], "explain_key": "short_o_match", "media": [{"lemma": "fox"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0063", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Your turn.", "choices": ["The bag is under the bed.", "The toy is under the bed.", "The box is under the bed.", "The shoe is under the bed."], "explain_key": "short_o_match", "media": [{"lemma": "box"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0064", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> will pick.", "choices": ["The watch ticks loud.", "The timer ticks loud.", "The bell rings loud.", "The clock ticks loud."], "explain_key": "short_o_match", "media": [{"lemma": "clock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0065", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Go ahead.", "choices": ["The pond has ducks.", "The lake has ducks.", "The pool has ducks.", "The stream has ducks."], "explain_key": "short_o_match", "media": [{"lemma": "pond"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0066", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Tap one now.", "choices": ["The stone is by the fox.", "The rock is by the fox.", "The hill is by the fox.", "The tree is by the fox."], "explain_key": "short_o_match", "media": [{"lemma": "rock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0067", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> sees one.", "choices": ["The cat can run.", "The bird can sing.", "The dog can bark.", "The goat can eat."], "explain_key": "wrong_scene", "media": [{"lemma": "dog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0068", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Scan and tap.", "choices": ["The cup is pink.", "The kite is high.", "The bed is soft.", "The pot is pink."], "explain_key": "short_o_match", "media": [{"lemma": "pot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0069", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Take a look.", "choices": ["The cob is long.", "The corn is long.", "The bike is fast.", "The drum is loud."], "explain_key": "short_o_match", "media": [{"lemma": "cob"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0070", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> picks it.", "choices": ["The broom is on the floor.", "The mop is on the floor.", "The rug is on the floor.", "The mat is on the floor."], "explain_key": "wrong_scene", "media": [{"lemma": "mop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0071", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Spot it.", "choices": ["The toad is on the dock.", "The duck is on the dock.", "The frog is on the dock.", "The fish is on the dock."], "explain_key": "wrong_scene", "media": [{"lemma": "frog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0072", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "Select one.", "choices": ["The cloud is low.", "The mist is low.", "The rain is wet.", "The fog is low."], "explain_key": "wrong_scene", "media": [{"lemma": "fog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0073", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See and pick.", "choices": ["The mop is by the sink.", "The broom is by the sink.", "The rag is by the sink.", "The soap is by the sink."], "explain_key": "near_object", "media": [{"lemma": "mop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0074", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look here.", "choices": ["The toad is on a rock.", "The frog is on a rock.", "The turtle is on a rock.", "The lizard is on a rock."], "explain_key": "near_object", "media": [{"lemma": "frog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0075", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Pick here.", "choices": ["The bear sits on top.", "The block sits on top.", "The doll sits on top.", "The book sits on top."], "explain_key": "near_object", "media": [{"lemma": "doll"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0076", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find here.", "choices": ["The mist is on the lake.", "The cloud is on the lake.", "The smoke is on the lake.", "The fog is on the lake."], "explain_key": "near_object", "media": [{"lemma": "fog"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0077", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Tap here.", "choices": ["The top is red.", "The wheel is red.", "The kite is red.", "The cup is red."], "explain_key": "near_object", "media": [{"lemma": "top"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0078", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Choose here.", "choices": ["The stove is warm.", "The stove is hot.", "The lamp is bright.", "The fan is off."], "explain_key": "near_object", "media": [{"lemma": "hot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0079", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Get this one.", "choices": ["The bunny can jump.", "The bird can sing.", "The bunny can hop.", "The cat can nap."], "explain_key": "near_object", "media": [{"lemma": "hop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0080", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Point to it.", "choices": ["The bed has a blanket.", "The rug has a blanket.", "The chair has a blanket.", "The cot has a blanket."], "explain_key": "near_object", "media": [{"lemma": "cot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0081", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Spot one.", "choices": ["The pop is in the pan.", "The corn is in the pan.", "The oil is in the pan.", "The butter is in the pan."], "explain_key": "near_object", "media": [{"lemma": "pop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0082", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Tap this.", "choices": ["The drip is on top.", "The drop is on top.", "The bead is on top.", "The dot is on top."], "explain_key": "near_object", "media": [{"lemma": "drop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0083", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See it.", "choices": ["The latch keeps it shut.", "The bolt keeps it shut.", "The lock keeps it shut.", "The bar keeps it shut."], "explain_key": "near_object", "media": [{"lemma": "lock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0084", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look now.", "choices": ["The mark is on the dog.", "The tag is on the dog.", "The collar is on the dog.", "The spot is on the dog."], "explain_key": "near_object", "media": [{"lemma": "spot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0085", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Name it.", "choices": ["The dock is wet today.", "The pier is wet today.", "The shore is wet today.", "The deck is wet today."], "explain_key": "near_object", "media": [{"lemma": "dock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0086", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Check it.", "choices": ["The corn is brown.", "The cob is brown.", "The apple is red.", "The leaf is green."], "explain_key": "near_object", "media": [{"lemma": "cob"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0087", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Choose now.", "choices": ["The stick is in my hand.", "The pole is in my hand.", "The rod is in my hand.", "The cane is in my hand."], "explain_key": "near_object", "media": [{"lemma": "rod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0088", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Get now.", "choices": ["The leaf fell off.", "The stem fell off.", "The bud fell off.", "The pod fell off."], "explain_key": "near_object", "media": [{"lemma": "pod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0089", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See now.", "choices": ["The pup can flop.", "The pup can jump.", "The hen can peck.", "The ant can lift."], "explain_key": "near_object", "media": [{"lemma": "flop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0090", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look again.", "choices": ["The cut is on the block.", "The chop is on the block.", "The slice is on the block.", "The dice is on the block."], "explain_key": "near_object", "media": [{"lemma": "chop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0091", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Pick again.", "choices": ["The plant needs sun.", "The corn needs sun.", "The crop needs sun.", "The field needs sun."], "explain_key": "near_object", "media": [{"lemma": "crop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0092", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find again.", "choices": ["The wave came from dad.", "The smile came from dad.", "The hug came from dad.", "The nod came from dad."], "explain_key": "near_object", "media": [{"lemma": "nod"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0093", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Tap again.", "choices": ["The tot likes the top.", "The kid likes the top.", "The boy likes the top.", "The girl likes the top."], "explain_key": "near_object", "media": [{"lemma": "tot"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0094", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Choose again.", "choices": ["The cow is on the farm.", "The ox is on the farm.", "The bull is on the farm.", "The calf is on the farm."], "explain_key": "near_object", "media": [{"lemma": "ox"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0095", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Get again.", "choices": ["The guard is on the block.", "The nurse is on the block.", "The cop is on the block.", "The cook is on the block."], "explain_key": "near_object", "media": [{"lemma": "cop"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0096", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "See again.", "choices": ["The stick is in the mud.", "The rock is in the mud.", "The reed is in the mud.", "The log is in the mud."], "explain_key": "near_object", "media": [{"lemma": "log"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0097", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Look close.", "choices": ["The fox is in the fog.", "The wolf is in the fog.", "The dog is in the fog.", "The cat is in the fog."], "explain_key": "near_object", "media": [{"lemma": "fox"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 0}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0098", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Pick close.", "choices": ["The bag is on the dock.", "The box is on the dock.", "The crate is on the dock.", "The bin is on the dock."], "explain_key": "near_object", "media": [{"lemma": "box"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 1}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0099", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Find close.", "choices": ["The shoe is on the cot.", "The hat is on the cot.", "The sock is on the cot.", "The coat is on the cot."], "explain_key": "near_object", "media": [{"lemma": "sock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 2}, {"item_id": "seed_choose_the_short_o_sentence_that_matches_the_0100", "family_id": "fam_choose_the_short_o_sentence_that_matches_the", "skill_id": "seed_choose_the_short_o_sentence_that_matches_the", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Read them.", "choices": ["The watch is on the dock.", "The timer is on the dock.", "The bell is on the dock.", "The clock is on the dock."], "explain_key": "near_object", "media": [{"lemma": "clock"}], "source": "composer-2.5", "spec_version": 1, "answer_index": 3}]
+[
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0001",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the one.",
+    "choices": [
+      "The dog is on a log.",
+      "The cat is in a bag.",
+      "The bird can fly.",
+      "The cake is on a plate."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0002",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the one.",
+    "choices": [
+      "The sun is in the sky.",
+      "The fox is on a rock.",
+      "The baby is in the bed.",
+      "The girl has a big book."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0003",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which one is it?",
+    "choices": [
+      "The red ball is in the grass.",
+      "The duck is in the water.",
+      "The box is on the desk.",
+      "The tree is very tall."
+    ],
+    "explain_key": "wrong_scene",
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0004",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look and pick.",
+    "choices": [
+      "The sock is on the bed.",
+      "The shoe is on the floor.",
+      "The hat is on the chair.",
+      "The pig is in the pen."
+    ],
+    "explain_key": "other_vowel",
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0005",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> can pick.",
+    "choices": [
+      "The bell is on the wall.",
+      "The clock is on top.",
+      "The book is on the desk.",
+      "The plant is in the pot."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0006",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick one now.",
+    "choices": [
+      "The dog is in the pond.",
+      "The dog is on the hill.",
+      "The fish is in the lake.",
+      "The duck can swim."
+    ],
+    "explain_key": "wrong_scene",
+    "media": [
+      {
+        "lemma": "pond"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0007",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See this.",
+    "choices": [
+      "The frog can hop.",
+      "The dog can hop.",
+      "The bird can fly.",
+      "The fish can swim."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0008",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look at this.",
+    "choices": [
+      "The pot is hot.",
+      "The cup is hot.",
+      "The plate is big.",
+      "The cup is on the desk."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "pot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0009",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap one.",
+    "choices": [
+      "The mop is wet.",
+      "The map is on the wall.",
+      "The mat is on the floor.",
+      "The pin is in the jar."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "mop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0010",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick it.",
+    "choices": [
+      "The cat is on the rug.",
+      "The frog is on a log.",
+      "The bird is in a nest.",
+      "The fish is in a tank."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0011",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find it.",
+    "choices": [
+      "The ball is on the floor.",
+      "The kite is in the sky.",
+      "The doll is on the bed.",
+      "The bike is in the yard."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "doll"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0012",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which one?",
+    "choices": [
+      "The sun is bright.",
+      "The rain is wet.",
+      "The wind is cold.",
+      "The fog is thick."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "fog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0013",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick now.",
+    "choices": [
+      "The top can spin.",
+      "The ball can roll.",
+      "The kite can fly.",
+      "The boat can float."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "top"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0014",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the one.",
+    "choices": [
+      "The cold milk is good.",
+      "The hot soup is good.",
+      "The sweet cake is good.",
+      "The red apple is good."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "hot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0015",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose one.",
+    "choices": [
+      "The kid can jump high.",
+      "The kid can run fast.",
+      "The kid can hop high.",
+      "The kid can sit still."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "hop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0016",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Get the one.",
+    "choices": [
+      "The bed is big.",
+      "The rug is soft.",
+      "The lamp is bright.",
+      "The cot is small."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "cot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0017",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick one.",
+    "choices": [
+      "The pop is loud.",
+      "The song is soft.",
+      "The drum is loud.",
+      "The horn is loud."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "pop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0018",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find one.",
+    "choices": [
+      "The leaf fell down.",
+      "The drop fell down.",
+      "The ball fell down.",
+      "The rain fell down."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "drop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0019",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which match?",
+    "choices": [
+      "The key is on the hook.",
+      "The sign is on the post.",
+      "The lock is on the door.",
+      "The hat is on the rack."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0020",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap now.",
+    "choices": [
+      "The rug is dry.",
+      "The floor is clean.",
+      "The grass is green.",
+      "The spot is wet."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "spot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0021",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick this.",
+    "choices": [
+      "The dock is by water.",
+      "The bridge is over water.",
+      "The boat is on water.",
+      "The duck is on water."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "dock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0022",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Match it.",
+    "choices": [
+      "The rice is in the bowl.",
+      "The cob is on the plate.",
+      "The bread is on the table.",
+      "The egg is in the pan."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "cob"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0023",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find match.",
+    "choices": [
+      "The stick is long.",
+      "The rope is long.",
+      "The rod is long.",
+      "The pole is tall."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "rod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0024",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick match.",
+    "choices": [
+      "The leaf is on the plant.",
+      "The bud is on the plant.",
+      "The stem is on the plant.",
+      "The pod is on the plant."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "pod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0025",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap match.",
+    "choices": [
+      "The flop was funny.",
+      "The jump was high.",
+      "The fall was hard.",
+      "The trip was bad."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "flop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0026",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose it.",
+    "choices": [
+      "The ham is big.",
+      "The chop is big.",
+      "The sun is up.",
+      "The kite is high."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "chop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0027",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Get it.",
+    "choices": [
+      "The corn is in the field.",
+      "The hay is in the barn.",
+      "The crop is in the field.",
+      "The grass is on the hill."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "crop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0028",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick right.",
+    "choices": [
+      "The wave was fast.",
+      "The bow was deep.",
+      "The turn was sharp.",
+      "The nod was slow."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "nod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0029",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find right.",
+    "choices": [
+      "The tot can walk.",
+      "The baby can crawl.",
+      "The kid can run.",
+      "The boy can jump."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "tot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0030",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which fits?",
+    "choices": [
+      "The cow is big.",
+      "The ox is big.",
+      "The horse is big.",
+      "The sheep is big."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "ox"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0031",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap this one.",
+    "choices": [
+      "The chef has a hat.",
+      "The nurse has a cap.",
+      "The cop has a hat.",
+      "The pilot has a cap."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "cop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0032",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick for me.",
+    "choices": [
+      "The cry was loud.",
+      "The laugh was loud.",
+      "The yell was loud.",
+      "The sob was soft."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "sob"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0033",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose this.",
+    "choices": [
+      "The lot is full.",
+      "The park is full.",
+      "The yard is full.",
+      "The room is full."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "lot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0034",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find this one.",
+    "choices": [
+      "The dad got a pan.",
+      "The mom got a pot.",
+      "The chef got a pan.",
+      "The cook got a lid."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "pot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0035",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Get this.",
+    "choices": [
+      "The stick is in the yard.",
+      "The rock is in the yard.",
+      "The log is in the yard.",
+      "The leaf is in the yard."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "log"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0036",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look and tap.",
+    "choices": [
+      "The broom is in the hall.",
+      "The rug is in the hall.",
+      "The lamp is in the hall.",
+      "The mop is in the hall."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "mop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0037",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> sees it.",
+    "choices": [
+      "The frog is in the pond.",
+      "The toad is in the pond.",
+      "The duck is in the pond.",
+      "The fish is in the pond."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0038",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick the match.",
+    "choices": [
+      "The toy has a hat.",
+      "The doll has a dress.",
+      "The bear has a bow.",
+      "The robot has arms."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "doll"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0039",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find the match.",
+    "choices": [
+      "The cloud hid the hill.",
+      "The mist hid the hill.",
+      "The fog hid the hill.",
+      "The rain hid the hill."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "fog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0040",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> picks one.",
+    "choices": [
+      "The ball is on the desk.",
+      "The cube is on the desk.",
+      "The pen is on the desk.",
+      "The top is on the desk."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "top"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0041",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the match.",
+    "choices": [
+      "The pan is hot.",
+      "The pan is warm.",
+      "The cup is cold.",
+      "The rug is soft."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "hot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0042",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Choose the one.",
+    "choices": [
+      "The jump is fun.",
+      "The hop is fun.",
+      "The cake is sweet.",
+      "The kite is high."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "hop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0043",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> can look.",
+    "choices": [
+      "The bed is in the room.",
+      "The rug is in the room.",
+      "The cot is in the room.",
+      "The lamp is in the room."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "cot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0044",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick a match.",
+    "choices": [
+      "The snap came from corn.",
+      "The crack came from wood.",
+      "The bang came from the door.",
+      "The pop came from corn."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "pop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0045",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find a match.",
+    "choices": [
+      "The drop hit the spot.",
+      "The drip hit the spot.",
+      "The splash hit the spot.",
+      "The spill hit the floor."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "drop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0046",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> found it.",
+    "choices": [
+      "The latch is on the gate.",
+      "The lock is on the gate.",
+      "The chain is on the gate.",
+      "The sign is on the gate."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0047",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look and choose.",
+    "choices": [
+      "The stain is on the rug.",
+      "The mark is on the rug.",
+      "The spot is on the rug.",
+      "The hole is on the rug."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "spot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0048",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap a match.",
+    "choices": [
+      "The pier has a boat.",
+      "The shore has a boat.",
+      "The lake has a boat.",
+      "The dock has a boat."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "dock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0049",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> likes it.",
+    "choices": [
+      "The cob is sweet.",
+      "The corn is sweet.",
+      "The peas are sweet.",
+      "The beans are good."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "cob"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0050",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick the fit.",
+    "choices": [
+      "The pole is by the lake.",
+      "The rod is by the lake.",
+      "The stick is by the lake.",
+      "The rope is by the lake."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "rod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0051",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find the fit.",
+    "choices": [
+      "The leaf is green.",
+      "The stem is green.",
+      "The pod is green.",
+      "The bud is green."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "pod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0052",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> got it.",
+    "choices": [
+      "The fall made us laugh.",
+      "The trip made us laugh.",
+      "The jump made us laugh.",
+      "The flop made us laugh."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "flop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0053",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Choose the fit.",
+    "choices": [
+      "The chop was quick.",
+      "The cut was quick.",
+      "The slice was quick.",
+      "The peel was quick."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "chop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0054",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the fit.",
+    "choices": [
+      "The plant grew tall.",
+      "The crop grew tall.",
+      "The tree grew tall.",
+      "The grass grew tall."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "crop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0055",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> saw it.",
+    "choices": [
+      "The wave means hi.",
+      "The wink means yes.",
+      "The nod means yes.",
+      "The shrug means no."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "nod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0056",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick it now.",
+    "choices": [
+      "The kid has a toy.",
+      "The boy has a toy.",
+      "The girl has a toy.",
+      "The tot has a toy."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "tot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0057",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find it now.",
+    "choices": [
+      "The ox pulls the cart.",
+      "The cow pulls the cart.",
+      "The horse pulls the cart.",
+      "The mule pulls the cart."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "ox"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0058",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> knows it.",
+    "choices": [
+      "The guard can help.",
+      "The cop can help.",
+      "The nurse can help.",
+      "The teacher can help."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "cop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0059",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look and find.",
+    "choices": [
+      "The park has cars.",
+      "The street has cars.",
+      "The lot has cars.",
+      "The road has cars."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "lot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0060",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap and pick.",
+    "choices": [
+      "The stick is by the pond.",
+      "The rock is by the pond.",
+      "The reed is by the pond.",
+      "The log is by the pond."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "log"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0061",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> can tap.",
+    "choices": [
+      "The sock is in the bag.",
+      "The shoe is in the bag.",
+      "The hat is in the bag.",
+      "The coat is in the bag."
+    ],
+    "explain_key": "other_vowel",
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0062",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Try this.",
+    "choices": [
+      "The wolf ran fast.",
+      "The fox ran fast.",
+      "The dog ran fast.",
+      "The cat ran fast."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0063",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Your turn.",
+    "choices": [
+      "The bag is under the bed.",
+      "The toy is under the bed.",
+      "The box is under the bed.",
+      "The shoe is under the bed."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0064",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will pick.",
+    "choices": [
+      "The watch ticks loud.",
+      "The timer ticks loud.",
+      "The bell rings loud.",
+      "The clock ticks loud."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0065",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Go ahead.",
+    "choices": [
+      "The pond has ducks.",
+      "The lake has ducks.",
+      "The pool has ducks.",
+      "The stream has ducks."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "pond"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0066",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap one now.",
+    "choices": [
+      "The stone is by the fox.",
+      "The rock is by the fox.",
+      "The hill is by the fox.",
+      "The tree is by the fox."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0067",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> sees one.",
+    "choices": [
+      "The cat can run.",
+      "The bird can sing.",
+      "The dog can bark.",
+      "The goat can eat."
+    ],
+    "explain_key": "wrong_scene",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0068",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Scan and tap.",
+    "choices": [
+      "The cup is pink.",
+      "The kite is high.",
+      "The bed is soft.",
+      "The pot is pink."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "pot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0069",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Take a look.",
+    "choices": [
+      "The cob is long.",
+      "The corn is long.",
+      "The bike is fast.",
+      "The drum is loud."
+    ],
+    "explain_key": "short_o_match",
+    "media": [
+      {
+        "lemma": "cob"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0070",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> picks it.",
+    "choices": [
+      "The broom is on the floor.",
+      "The mop is on the floor.",
+      "The rug is on the floor.",
+      "The mat is on the floor."
+    ],
+    "explain_key": "wrong_scene",
+    "media": [
+      {
+        "lemma": "mop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0071",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Spot it.",
+    "choices": [
+      "The toad is on the dock.",
+      "The duck is on the dock.",
+      "The frog is on the dock.",
+      "The fish is on the dock."
+    ],
+    "explain_key": "wrong_scene",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0072",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Select one.",
+    "choices": [
+      "The cloud is low.",
+      "The mist is low.",
+      "The rain is wet.",
+      "The fog is low."
+    ],
+    "explain_key": "wrong_scene",
+    "media": [
+      {
+        "lemma": "fog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0073",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See and pick.",
+    "choices": [
+      "The mop is by the sink.",
+      "The broom is by the sink.",
+      "The rag is by the sink.",
+      "The soap is by the sink."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "mop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0074",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look here.",
+    "choices": [
+      "The toad is on a rock.",
+      "The frog is on a rock.",
+      "The turtle is on a rock.",
+      "The lizard is on a rock."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0075",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick here.",
+    "choices": [
+      "The bear sits on top.",
+      "The block sits on top.",
+      "The doll sits on top.",
+      "The book sits on top."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "doll"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0076",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Find here.",
+    "choices": [
+      "The mist is on the lake.",
+      "The cloud is on the lake.",
+      "The smoke is on the lake.",
+      "The fog is on the lake."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "fog"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0077",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Tap here.",
+    "choices": [
+      "The top is red.",
+      "The wheel is red.",
+      "The kite is red.",
+      "The cup is red."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "top"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0078",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Choose here.",
+    "choices": [
+      "The stove is warm.",
+      "The stove is hot.",
+      "The lamp is bright.",
+      "The fan is off."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "hot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0079",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Get this one.",
+    "choices": [
+      "The bunny can jump.",
+      "The bird can sing.",
+      "The bunny can hop.",
+      "The cat can nap."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "hop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0080",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Point to it.",
+    "choices": [
+      "The bed has a blanket.",
+      "The rug has a blanket.",
+      "The chair has a blanket.",
+      "The cot has a blanket."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "cot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0081",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Spot one.",
+    "choices": [
+      "The pop is in the pan.",
+      "The corn is in the pan.",
+      "The oil is in the pan.",
+      "The butter is in the pan."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "pop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0082",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Tap this.",
+    "choices": [
+      "The drip is on top.",
+      "The drop is on top.",
+      "The bead is on top.",
+      "The dot is on top."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "drop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0083",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See it.",
+    "choices": [
+      "The latch keeps it shut.",
+      "The bolt keeps it shut.",
+      "The lock keeps it shut.",
+      "The bar keeps it shut."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0084",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look now.",
+    "choices": [
+      "The mark is on the dog.",
+      "The tag is on the dog.",
+      "The collar is on the dog.",
+      "The spot is on the dog."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "spot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0085",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Name it.",
+    "choices": [
+      "The dock is wet today.",
+      "The pier is wet today.",
+      "The shore is wet today.",
+      "The deck is wet today."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "dock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0086",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Check it.",
+    "choices": [
+      "The corn is brown.",
+      "The cob is brown.",
+      "The apple is red.",
+      "The leaf is green."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "cob"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0087",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Choose now.",
+    "choices": [
+      "The stick is in my hand.",
+      "The pole is in my hand.",
+      "The rod is in my hand.",
+      "The cane is in my hand."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "rod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0088",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Get now.",
+    "choices": [
+      "The leaf fell off.",
+      "The stem fell off.",
+      "The bud fell off.",
+      "The pod fell off."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "pod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0089",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See now.",
+    "choices": [
+      "The pup can flop.",
+      "The pup can jump.",
+      "The hen can peck.",
+      "The ant can lift."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "flop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0090",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look again.",
+    "choices": [
+      "The cut is on the block.",
+      "The chop is on the block.",
+      "The slice is on the block.",
+      "The dice is on the block."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "chop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0091",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick again.",
+    "choices": [
+      "The plant needs sun.",
+      "The corn needs sun.",
+      "The crop needs sun.",
+      "The field needs sun."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "crop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0092",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Find again.",
+    "choices": [
+      "The wave came from dad.",
+      "The smile came from dad.",
+      "The hug came from dad.",
+      "The nod came from dad."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "nod"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0093",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Tap again.",
+    "choices": [
+      "The tot likes the top.",
+      "The kid likes the top.",
+      "The boy likes the top.",
+      "The girl likes the top."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "tot"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0094",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Choose again.",
+    "choices": [
+      "The cow is on the farm.",
+      "The ox is on the farm.",
+      "The bull is on the farm.",
+      "The calf is on the farm."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "ox"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0095",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Get again.",
+    "choices": [
+      "The guard is on the block.",
+      "The nurse is on the block.",
+      "The cop is on the block.",
+      "The cook is on the block."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "cop"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look close. A guard is near. Pick the [[cop]].",
+    "explain_item_en": "The cop is on the [[block]]. Both have [[quiet]] o.",
+    "speak_en": "Which sentence matches the picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0096",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See again.",
+    "choices": [
+      "The stick is in the mud.",
+      "The rock is in the mud.",
+      "The reed is in the mud.",
+      "The log is in the mud."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "log"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Look close. A stick is near. Pick the [[log]].",
+    "explain_item_en": "The log is in the [[mud]]. Log has [[quiet]] o.",
+    "speak_en": "Which sentence matches the picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0097",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look close.",
+    "choices": [
+      "The fox is in the fog.",
+      "The wolf is in the fog.",
+      "The dog is in the fog.",
+      "The cat is in the fog."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 0,
+    "explain_skill_en": "Look close. A wolf is near. Pick the [[fox]].",
+    "explain_item_en": "The fox is in the [[fog]]. Both have [[quiet]] o.",
+    "speak_en": "Which sentence matches the picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0098",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick close.",
+    "choices": [
+      "The bag is on the dock.",
+      "The box is on the dock.",
+      "The crate is on the dock.",
+      "The bin is on the dock."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 1,
+    "explain_skill_en": "Look close. A bag is near. Pick the [[box]].",
+    "explain_item_en": "The box is on the [[dock]]. Both have [[quiet]] o.",
+    "speak_en": "Which sentence matches the picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0099",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Find close.",
+    "choices": [
+      "The shoe is on the cot.",
+      "The hat is on the cot.",
+      "The sock is on the cot.",
+      "The coat is on the cot."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 2,
+    "explain_skill_en": "Look close. A shoe is near. Pick the [[sock]].",
+    "explain_item_en": "The sock is on the [[cot]]. Both have [[quiet]] o.",
+    "speak_en": "Which sentence matches the picture?"
+  },
+  {
+    "item_id": "seed_choose_the_short_o_sentence_that_matches_the_0100",
+    "family_id": "fam_choose_the_short_o_sentence_that_matches_the",
+    "skill_id": "seed_choose_the_short_o_sentence_that_matches_the",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Read them.",
+    "choices": [
+      "The watch is on the dock.",
+      "The timer is on the dock.",
+      "The bell is on the dock.",
+      "The clock is on the dock."
+    ],
+    "explain_key": "near_object",
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": 3,
+    "explain_skill_en": "Look close. A watch is near. Pick the [[clock]].",
+    "explain_item_en": "The clock is on the [[dock]]. Both have [[quiet]] o.",
+    "speak_en": "Which sentence matches the picture?"
+  }
+]

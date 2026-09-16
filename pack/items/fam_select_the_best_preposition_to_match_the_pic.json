@@ -1,1 +1,2946 @@
-[{"item_id": "seed_select_the_best_preposition_to_match_the_pic_0001", "tier": 1, "stem": "The cat is --- the box.", "choices": ["under", "in", "over"], "answer_index": 1, "explain_key": "picture_shows_inside", "media": [{"lemma": "cat"}, {"lemma": "box"}], "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "item_type": "tap_missing_word", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0002", "tier": 1, "stem": "The ball is --- the chair.", "choices": ["on", "in", "around"], "answer_index": 0, "explain_key": "picture_shows_on_top", "media": [{"lemma": "ball"}, {"lemma": "chair"}], "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "item_type": "tap_missing_word", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0003", "tier": 2, "stem": "The bird is --- the tree.", "choices": ["above", "in", "under"], "answer_index": 1, "explain_key": "picture_shows_inside", "media": [{"lemma": "bird"}, {"lemma": "tree"}], "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "item_type": "tap_missing_word", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0004", "tier": 2, "stem": "The dog is --- the bed.", "choices": ["near", "on", "under"], "answer_index": 2, "explain_key": "picture_shows_below", "media": [{"lemma": "dog"}, {"lemma": "bed"}], "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "item_type": "tap_missing_word", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0005", "tier": 2, "stem": "The kitten is --- the two hats.", "choices": ["on", "between", "near"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "media": [{"lemma": "kitten"}, {"lemma": "hat"}], "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "item_type": "tap_missing_word", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0006", "tier": 3, "stem": "The apple is --- the cup and plate.", "choices": ["above", "under", "between"], "answer_index": 2, "explain_key": "picture_shows_two_sides", "media": [{"lemma": "apple"}, {"lemma": "cup"}, {"lemma": "plate"}], "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "item_type": "tap_missing_word", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0007", "tier": 3, "stem": "The boat is --- the water.", "choices": ["on", "under", "between"], "answer_index": 0, "explain_key": "picture_shows_on_top", "media": [{"lemma": "boat"}, {"lemma": "water"}], "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "item_type": "tap_missing_word", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0008", "tier": 3, "stem": "The moon is --- the house.", "choices": ["in", "between", "above"], "answer_index": 2, "explain_key": "picture_shows_higher_up", "media": [{"lemma": "moon"}, {"lemma": "house"}], "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "item_type": "tap_missing_word", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0009", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The frog is --- the pond.", "choices": ["in", "on", "near"], "answer_index": 0, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "frog"}, {"lemma": "pond"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0010", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "A book sits --- the desk.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "book"}, {"lemma": "desk"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0011", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The fish is --- the bowl.", "choices": ["on", "in", "under"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "bowl"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0012", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The hat is --- the hook.", "choices": ["in", "on", "near"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hat"}, {"lemma": "hook"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0013", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The egg is --- the nest.", "choices": ["on", "in", "under"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "egg"}, {"lemma": "nest"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0014", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "A toy sits --- the box.", "choices": ["on", "in", "under"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "toy"}, {"lemma": "box"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0015", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The cup is --- the table.", "choices": ["in", "on", "near"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cup"}, {"lemma": "table"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0016", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The hen is --- the barn.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}, {"lemma": "barn"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0017", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The sock is --- the bed.", "choices": ["in", "on", "under"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sock"}, {"lemma": "bed"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0018", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The bug is --- the hive.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bug"}, {"lemma": "hive"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0019", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "A pan sits --- the stove.", "choices": ["in", "on", "under"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pan"}, {"lemma": "stove"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0020", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The doll is --- the crib.", "choices": ["on", "in", "under"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "doll"}, {"lemma": "crib"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0021", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The pen is --- the desk.", "choices": ["under", "in", "on"], "answer_index": 2, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pen"}, {"lemma": "desk"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0022", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The fox is --- the cave.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fox"}, {"lemma": "cave"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0023", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "A cake sits --- the plate.", "choices": ["in", "on", "under"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cake"}, {"lemma": "plate"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0024", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The bug is --- the jar.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bug"}, {"lemma": "jar"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0025", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The kite is --- the sky.", "choices": ["in", "on", "under"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kite"}, {"lemma": "sky"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0026", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The pig is --- the pen.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pig"}, {"lemma": "pen"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0027", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "A boat sits --- the lake.", "choices": ["in", "on", "under"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "boat"}, {"lemma": "lake"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0028", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The rat is --- the hole.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rat"}, {"lemma": "hole"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0029", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The map is --- the wall.", "choices": ["in", "under", "on"], "answer_index": 2, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "map"}, {"lemma": "wall"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0030", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The owl is --- the tree.", "choices": ["on", "in", "under"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "owl"}, {"lemma": "tree"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0031", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "A ball sits --- the cart.", "choices": ["in", "on", "under"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ball"}, {"lemma": "cart"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0032", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The ant is --- the hill.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ant"}, {"lemma": "hill"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0033", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The rug is --- the floor.", "choices": ["in", "on", "under"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rug"}, {"lemma": "floor"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0034", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The cow is --- the barn.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cow"}, {"lemma": "barn"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0035", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "A hat sits --- the shelf.", "choices": ["in", "on", "under"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hat"}, {"lemma": "shelf"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0036", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The kid is --- the tent.", "choices": ["on", "in", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kid"}, {"lemma": "tent"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0037", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The duck is --- the pond.", "choices": ["in", "near", "above"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}, {"lemma": "pond"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0038", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The mouse is --- the desk.", "choices": ["on", "under", "near"], "answer_index": 1, "explain_key": "picture_shows_below", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "mouse"}, {"lemma": "desk"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0039", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The star is --- the sky.", "choices": ["below", "above", "in"], "answer_index": 1, "explain_key": "picture_shows_higher_up", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "star"}, {"lemma": "sky"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0040", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The rabbit is --- the bush.", "choices": ["in", "near", "on"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rabbit"}, {"lemma": "bush"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0041", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The horse is --- the hill.", "choices": ["under", "on", "above"], "answer_index": 2, "explain_key": "picture_shows_higher_up", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "horse"}, {"lemma": "hill"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0042", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The sheep is --- the gate.", "choices": ["on", "near", "under"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sheep"}, {"lemma": "gate"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0043", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The snake is --- the rock.", "choices": ["above", "under", "on"], "answer_index": 1, "explain_key": "picture_shows_below", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "snake"}, {"lemma": "rock"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0044", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The bear is --- the cave.", "choices": ["near", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bear"}, {"lemma": "cave"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0045", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The fox is --- the wood.", "choices": ["in", "near", "on"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fox"}, {"lemma": "wood"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0046", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The frog is --- the log.", "choices": ["above", "on", "under"], "answer_index": 2, "explain_key": "picture_shows_below", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "frog"}, {"lemma": "log"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0047", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The crab is --- the sand.", "choices": ["above", "on", "under"], "answer_index": 2, "explain_key": "picture_shows_below", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "crab"}, {"lemma": "sand"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0048", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The seal is --- the ice.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "seal"}, {"lemma": "ice"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0049", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The bird is --- the nest.", "choices": ["in", "above", "under"], "answer_index": 1, "explain_key": "picture_shows_higher_up", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bird"}, {"lemma": "nest"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0050", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The puppy is --- the step.", "choices": ["in", "near", "under"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "puppy"}, {"lemma": "step"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0051", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The kitten is --- the rug.", "choices": ["under", "on", "above"], "answer_index": 0, "explain_key": "picture_shows_below", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kitten"}, {"lemma": "rug"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0052", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The chick is --- the barn.", "choices": ["near", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chick"}, {"lemma": "barn"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0053", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The bug is --- the soil.", "choices": ["above", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bug"}, {"lemma": "soil"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0054", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The snail is --- the leaf.", "choices": ["under", "on", "above"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "snail"}, {"lemma": "leaf"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0055", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The hen is --- the flower.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}, {"lemma": "flower"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0056", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The moth is --- the lamp.", "choices": ["under", "near", "on"], "answer_index": 2, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "moth"}, {"lemma": "lamp"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0057", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The crow is --- the fence.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "crow"}, {"lemma": "fence"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0058", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The duck is --- the grass.", "choices": ["above", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}, {"lemma": "grass"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0059", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The fish is --- the sea.", "choices": ["above", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "sea"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0060", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The turtle is --- the pond.", "choices": ["above", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "turtle"}, {"lemma": "pond"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0061", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The duck is --- the boat.", "choices": ["in", "near", "under"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}, {"lemma": "boat"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0062", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The horse is --- the bridge.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "horse"}, {"lemma": "bridge"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0063", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The sheep is --- the field.", "choices": ["in", "near", "under"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sheep"}, {"lemma": "field"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0064", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The pig is --- the mud.", "choices": ["above", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pig"}, {"lemma": "mud"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0065", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The dog is --- the yard.", "choices": ["in", "near", "under"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dog"}, {"lemma": "yard"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0066", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The cat is --- the door.", "choices": ["under", "near", "in"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}, {"lemma": "door"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0067", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The bird is --- the roof.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bird"}, {"lemma": "roof"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0068", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The fox is --- the farm.", "choices": ["in", "near", "above"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fox"}, {"lemma": "farm"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0069", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The owl is --- the barn.", "choices": ["under", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "owl"}, {"lemma": "barn"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0070", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The hen is --- the yard.", "choices": ["in", "near", "under"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}, {"lemma": "yard"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0071", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The rat is --- the barn.", "choices": ["above", "near", "in"], "answer_index": 2, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rat"}, {"lemma": "barn"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0072", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The pup is --- the house.", "choices": ["above", "near", "in"], "answer_index": 1, "explain_key": "picture_shows_close_by", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pup"}, {"lemma": "house"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0073", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The bug is --- the grass.", "choices": ["above", "on", "under"], "answer_index": 2, "explain_key": "picture_shows_below", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bug"}, {"lemma": "grass"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0074", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The pencil is --- the book and cup.", "choices": ["above", "under", "between"], "answer_index": 2, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pencil"}, {"lemma": "book"}, {"lemma": "cup"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0075", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The cloud is --- the hill and barn.", "choices": ["under", "above", "between"], "answer_index": 2, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cloud"}, {"lemma": "hill"}, {"lemma": "barn"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0076", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "A big truck sits --- the road.", "choices": ["in", "on", "near"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "truck"}, {"lemma": "road"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0077", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The sun is --- the tree and lake.", "choices": ["under", "between", "above"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sun"}, {"lemma": "tree"}, {"lemma": "lake"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0078", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The kite is --- the boy and girl.", "choices": ["under", "above", "between"], "answer_index": 2, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kite"}, {"lemma": "boy"}, {"lemma": "girl"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0079", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The duck is --- the boat and ship.", "choices": ["on", "between", "near"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}, {"lemma": "boat"}, {"lemma": "ship"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0080", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The cat is --- the chair and table.", "choices": ["above", "under", "between"], "answer_index": 2, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}, {"lemma": "chair"}, {"lemma": "table"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0081", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The ball is --- the tree and hill.", "choices": ["on", "between", "under"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ball"}, {"lemma": "tree"}, {"lemma": "hill"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0082", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The bird is --- the barn and house.", "choices": ["under", "above", "between"], "answer_index": 2, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bird"}, {"lemma": "barn"}, {"lemma": "house"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0083", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The fox is --- the rock and hill.", "choices": ["on", "between", "near"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fox"}, {"lemma": "rock"}, {"lemma": "hill"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0084", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The moon is --- the star and sky.", "choices": ["under", "between", "above"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "moon"}, {"lemma": "star"}, {"lemma": "sky"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0085", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The frog is --- the log and pond.", "choices": ["above", "between", "under"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "frog"}, {"lemma": "log"}, {"lemma": "pond"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0086", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The hen is --- the rose and flower.", "choices": ["under", "above", "between"], "answer_index": 2, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}, {"lemma": "rose"}, {"lemma": "flower"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0087", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The ant is --- the brick and wall.", "choices": ["on", "between", "under"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ant"}, {"lemma": "brick"}, {"lemma": "wall"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0088", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The ship is --- the sea and beach.", "choices": ["under", "between", "above"], "answer_index": 1, "explain_key": "picture_shows_two_sides", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ship"}, {"lemma": "sea"}, {"lemma": "beach"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0089", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The kite flew --- the tall green hill.", "choices": ["under", "over", "into"], "answer_index": 1, "explain_key": "picture_shows_higher_up", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kite"}, {"lemma": "hill"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0090", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The ball rolled --- the big red barn.", "choices": ["over", "into", "under"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ball"}, {"lemma": "barn"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0091", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The cat sat --- the soft warm bed.", "choices": ["under", "into", "near"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}, {"lemma": "bed"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0092", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The dog went --- the wide open gate.", "choices": ["into", "under", "above"], "answer_index": 0, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dog"}, {"lemma": "gate"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0093", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The bird flew --- the old gray barn.", "choices": ["into", "under", "over"], "answer_index": 2, "explain_key": "picture_shows_higher_up", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bird"}, {"lemma": "barn"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0094", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The rain fell --- the small wet roof.", "choices": ["under", "on", "above"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rain"}, {"lemma": "roof"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0095", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The boy sat --- the warm sunny beach.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "boy"}, {"lemma": "beach"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0096", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The fish goes --- the clear blue pond.", "choices": ["above", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}, {"lemma": "pond"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0097", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The bus goes --- the long wet road.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bus"}, {"lemma": "road"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0098", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The horse is --- the steep green hill.", "choices": ["under", "on", "in"], "answer_index": 1, "explain_key": "picture_shows_on_top", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "horse"}, {"lemma": "hill"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0099", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The duck goes --- the calm still lake.", "choices": ["above", "in", "on"], "answer_index": 1, "explain_key": "picture_shows_inside", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}, {"lemma": "lake"}]}, {"item_id": "seed_select_the_best_preposition_to_match_the_pic_0100", "family_id": "fam_select_the_best_preposition_to_match_the_pic", "skill_id": "seed_select_the_best_preposition_to_match_the_pic", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The star is --- the dark quiet sky.", "choices": ["under", "in", "above"], "answer_index": 2, "explain_key": "picture_shows_higher_up", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "star"}, {"lemma": "sky"}]}]
+[
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0001",
+    "tier": 1,
+    "stem": "The cat is --- the box.",
+    "choices": [
+      "under",
+      "in",
+      "over"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "box"
+      }
+    ],
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "item_type": "tap_missing_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the cat sits.",
+    "explain_item_en": "The cat is [[in]] the box. In means inside.",
+    "speak_en": "Which small word matches the picture of the cat and the box?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0002",
+    "tier": 1,
+    "stem": "The ball is --- the chair.",
+    "choices": [
+      "on",
+      "in",
+      "around"
+    ],
+    "answer_index": 0,
+    "explain_key": "picture_shows_on_top",
+    "media": [
+      {
+        "lemma": "ball"
+      },
+      {
+        "lemma": "chair"
+      }
+    ],
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "item_type": "tap_missing_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the ball sits.",
+    "explain_item_en": "The ball is [[on]] the chair. On means on top.",
+    "speak_en": "Which small word matches the picture of the ball and the chair?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0003",
+    "tier": 2,
+    "stem": "The bird is --- the tree.",
+    "choices": [
+      "above",
+      "in",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "tree"
+      }
+    ],
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "item_type": "tap_missing_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bird sits.",
+    "explain_item_en": "The bird is [[in]] the tree. In means inside the leaves.",
+    "speak_en": "Which small word matches the picture of the bird and the tree?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0004",
+    "tier": 2,
+    "stem": "The dog is --- the bed.",
+    "choices": [
+      "near",
+      "on",
+      "under"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_below",
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "bed"
+      }
+    ],
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "item_type": "tap_missing_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the dog sits.",
+    "explain_item_en": "The dog is [[under]] the bed. Under means down below.",
+    "speak_en": "Which small word matches the picture of the dog and the bed?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0005",
+    "tier": 2,
+    "stem": "The kitten is --- the two hats.",
+    "choices": [
+      "on",
+      "between",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "media": [
+      {
+        "lemma": "kitten"
+      },
+      {
+        "lemma": "hat"
+      }
+    ],
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "item_type": "tap_missing_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the kitten sits.",
+    "explain_item_en": "The kitten is [[between]] the two hats. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the kitten and the two hats?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0006",
+    "tier": 3,
+    "stem": "The apple is --- the cup and plate.",
+    "choices": [
+      "above",
+      "under",
+      "between"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_two_sides",
+    "media": [
+      {
+        "lemma": "apple"
+      },
+      {
+        "lemma": "cup"
+      },
+      {
+        "lemma": "plate"
+      }
+    ],
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "item_type": "tap_missing_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the apple sits.",
+    "explain_item_en": "The apple is [[between]] the cup and the plate. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the apple, the cup, and the plate?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0007",
+    "tier": 3,
+    "stem": "The boat is --- the water.",
+    "choices": [
+      "on",
+      "under",
+      "between"
+    ],
+    "answer_index": 0,
+    "explain_key": "picture_shows_on_top",
+    "media": [
+      {
+        "lemma": "boat"
+      },
+      {
+        "lemma": "water"
+      }
+    ],
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "item_type": "tap_missing_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the boat sits.",
+    "explain_item_en": "The boat is [[on]] the water. On means on top.",
+    "speak_en": "Which small word matches the picture of the boat and the water?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0008",
+    "tier": 3,
+    "stem": "The moon is --- the house.",
+    "choices": [
+      "in",
+      "between",
+      "above"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_higher_up",
+    "media": [
+      {
+        "lemma": "moon"
+      },
+      {
+        "lemma": "house"
+      }
+    ],
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "item_type": "tap_missing_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the moon sits.",
+    "explain_item_en": "The moon is [[above]] the house. Above means up high.",
+    "speak_en": "Which small word matches the picture of the moon and the house?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0009",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The frog is --- the pond.",
+    "choices": [
+      "in",
+      "on",
+      "near"
+    ],
+    "answer_index": 0,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      },
+      {
+        "lemma": "pond"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the frog sits.",
+    "explain_item_en": "The frog is [[in]] the pond. In means inside the water.",
+    "speak_en": "Which small word matches the picture of the frog and the pond?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0010",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "A book sits --- the desk.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "desk"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the book sits.",
+    "explain_item_en": "The book is [[on]] the desk. On means on top.",
+    "speak_en": "Which small word matches the picture of the book and the desk?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0011",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The fish is --- the bowl.",
+    "choices": [
+      "on",
+      "in",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "bowl"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the fish sits.",
+    "explain_item_en": "The fish is [[in]] the bowl. In means inside.",
+    "speak_en": "Which small word matches the picture of the fish and the bowl?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0012",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The hat is --- the hook.",
+    "choices": [
+      "in",
+      "on",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      },
+      {
+        "lemma": "hook"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the hat sits.",
+    "explain_item_en": "The hat is [[on]] the hook. On means hanging on it.",
+    "speak_en": "Which small word matches the picture of the hat and the hook?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0013",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The egg is --- the nest.",
+    "choices": [
+      "on",
+      "in",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      },
+      {
+        "lemma": "nest"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the egg sits.",
+    "explain_item_en": "The egg is [[in]] the nest. In means inside.",
+    "speak_en": "Which small word matches the picture of the egg and the nest?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0014",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "A toy sits --- the box.",
+    "choices": [
+      "on",
+      "in",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      },
+      {
+        "lemma": "box"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the toy sits.",
+    "explain_item_en": "The toy is [[in]] the box. In means inside.",
+    "speak_en": "Which small word matches the picture of the toy and the box?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0015",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The cup is --- the table.",
+    "choices": [
+      "in",
+      "on",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      },
+      {
+        "lemma": "table"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the cup sits.",
+    "explain_item_en": "The cup is [[on]] the table. On means on top.",
+    "speak_en": "Which small word matches the picture of the cup and the table?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0016",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The hen is --- the barn.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the hen sits.",
+    "explain_item_en": "The hen is [[in]] the barn. In means inside.",
+    "speak_en": "Which small word matches the picture of the hen and the barn?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0017",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The sock is --- the bed.",
+    "choices": [
+      "in",
+      "on",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      },
+      {
+        "lemma": "bed"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the sock sits.",
+    "explain_item_en": "The sock is [[on]] the bed. On means on top.",
+    "speak_en": "Which small word matches the picture of the sock and the bed?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0018",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The bug is --- the hive.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      },
+      {
+        "lemma": "hive"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bug sits.",
+    "explain_item_en": "The bug is [[in]] the hive. In means inside.",
+    "speak_en": "Which small word matches the picture of the bug and the hive?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0019",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "A pan sits --- the stove.",
+    "choices": [
+      "in",
+      "on",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      },
+      {
+        "lemma": "stove"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the pan sits.",
+    "explain_item_en": "The pan is [[on]] the stove. On means on top.",
+    "speak_en": "Which small word matches the picture of the pan and the stove?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0020",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The doll is --- the crib.",
+    "choices": [
+      "on",
+      "in",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "doll"
+      },
+      {
+        "lemma": "crib"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the doll sits.",
+    "explain_item_en": "The doll is [[in]] the crib. In means inside.",
+    "speak_en": "Which small word matches the picture of the doll and the crib?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0021",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The pen is --- the desk.",
+    "choices": [
+      "under",
+      "in",
+      "on"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pen"
+      },
+      {
+        "lemma": "desk"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the pen sits.",
+    "explain_item_en": "The pen is [[on]] the desk. On means on top.",
+    "speak_en": "Which small word matches the picture of the pen and the desk?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0022",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The fox is --- the cave.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      },
+      {
+        "lemma": "cave"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the fox sits.",
+    "explain_item_en": "The fox is [[in]] the cave. In means inside.",
+    "speak_en": "Which small word matches the picture of the fox and the cave?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0023",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "A cake sits --- the plate.",
+    "choices": [
+      "in",
+      "on",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      },
+      {
+        "lemma": "plate"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the cake sits.",
+    "explain_item_en": "The cake is [[on]] the plate. On means on top.",
+    "speak_en": "Which small word matches the picture of the cake and the plate?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0024",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The bug is --- the jar.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      },
+      {
+        "lemma": "jar"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bug sits.",
+    "explain_item_en": "The bug is [[in]] the jar. In means inside.",
+    "speak_en": "Which small word matches the picture of the bug and the jar?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0025",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The kite is --- the sky.",
+    "choices": [
+      "in",
+      "on",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      },
+      {
+        "lemma": "sky"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the kite sits.",
+    "explain_item_en": "The kite is [[on]] the sky line. On means up there on top.",
+    "speak_en": "Which small word matches the picture of the kite and the sky?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0026",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The pig is --- the pen.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      },
+      {
+        "lemma": "pen"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the pig sits.",
+    "explain_item_en": "The pig is [[in]] the pen. In means inside the pen.",
+    "speak_en": "Which small word matches the picture of the pig and the pen?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0027",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "A boat sits --- the lake.",
+    "choices": [
+      "in",
+      "on",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      },
+      {
+        "lemma": "lake"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the boat sits.",
+    "explain_item_en": "The boat is [[on]] the lake. On means on top of the water.",
+    "speak_en": "Which small word matches the picture of the boat and the lake?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0028",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The rat is --- the hole.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rat"
+      },
+      {
+        "lemma": "hole"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the rat sits.",
+    "explain_item_en": "The rat is [[in]] the hole. In means inside.",
+    "speak_en": "Which small word matches the picture of the rat and the hole?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0029",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The map is --- the wall.",
+    "choices": [
+      "in",
+      "under",
+      "on"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      },
+      {
+        "lemma": "wall"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the map sits.",
+    "explain_item_en": "The map is [[on]] the wall. On means stuck on it.",
+    "speak_en": "Which small word matches the picture of the map and the wall?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0030",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The owl is --- the tree.",
+    "choices": [
+      "on",
+      "in",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      },
+      {
+        "lemma": "tree"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the owl sits.",
+    "explain_item_en": "The owl is [[in]] the tree. In means inside the tree.",
+    "speak_en": "Which small word matches the picture of the owl and the tree?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0031",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "A ball sits --- the cart.",
+    "choices": [
+      "in",
+      "on",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      },
+      {
+        "lemma": "cart"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the ball sits.",
+    "explain_item_en": "The ball is [[on]] the cart. On means on top.",
+    "speak_en": "Which small word matches the picture of the ball and the cart?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0032",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The ant is --- the hill.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      },
+      {
+        "lemma": "hill"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the ant sits.",
+    "explain_item_en": "The ant is [[in]] the hill. In means inside the hill.",
+    "speak_en": "Which small word matches the picture of the ant and the hill?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0033",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The rug is --- the floor.",
+    "choices": [
+      "in",
+      "on",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      },
+      {
+        "lemma": "floor"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the rug sits.",
+    "explain_item_en": "The rug is [[on]] the floor. On means on top.",
+    "speak_en": "Which small word matches the picture of the rug and the floor?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0034",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The cow is --- the barn.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the cow sits.",
+    "explain_item_en": "The cow is [[in]] the barn. In means inside.",
+    "speak_en": "Which small word matches the picture of the cow and the barn?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0035",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "A hat sits --- the shelf.",
+    "choices": [
+      "in",
+      "on",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      },
+      {
+        "lemma": "shelf"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the hat sits.",
+    "explain_item_en": "The hat is [[on]] the shelf. On means on top.",
+    "speak_en": "Which small word matches the picture of the hat and the shelf?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0036",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The kid is --- the tent.",
+    "choices": [
+      "on",
+      "in",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      },
+      {
+        "lemma": "tent"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the kid sits.",
+    "explain_item_en": "The kid is [[in]] the tent. In means inside.",
+    "speak_en": "Which small word matches the picture of the kid and the tent?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0037",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The duck is --- the pond.",
+    "choices": [
+      "in",
+      "near",
+      "above"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "pond"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the duck sits.",
+    "explain_item_en": "The duck is [[near]] the pond. Near means close by.",
+    "speak_en": "Which small word matches the picture of the duck and the pond?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0038",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The mouse is --- the desk.",
+    "choices": [
+      "on",
+      "under",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_below",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      },
+      {
+        "lemma": "desk"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the mouse sits.",
+    "explain_item_en": "The mouse is [[under]] the desk. Under means down below.",
+    "speak_en": "Which small word matches the picture of the mouse and the desk?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0039",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The star is --- the sky.",
+    "choices": [
+      "below",
+      "above",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_higher_up",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      },
+      {
+        "lemma": "sky"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the star sits.",
+    "explain_item_en": "The star is [[above]] the sky line. Above means up high.",
+    "speak_en": "Which small word matches the picture of the star and the sky?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0040",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The rabbit is --- the bush.",
+    "choices": [
+      "in",
+      "near",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      },
+      {
+        "lemma": "bush"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the rabbit sits.",
+    "explain_item_en": "The rabbit is [[near]] the bush. Near means close by.",
+    "speak_en": "Which small word matches the picture of the rabbit and the bush?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0041",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The horse is --- the hill.",
+    "choices": [
+      "under",
+      "on",
+      "above"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_higher_up",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "hill"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the horse sits.",
+    "explain_item_en": "The horse is [[above]] the hill. Above means up high.",
+    "speak_en": "Which small word matches the picture of the horse and the hill?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0042",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The sheep is --- the gate.",
+    "choices": [
+      "on",
+      "near",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      },
+      {
+        "lemma": "gate"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the sheep sits.",
+    "explain_item_en": "The sheep is [[near]] the gate. Near means close by.",
+    "speak_en": "Which small word matches the picture of the sheep and the gate?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0043",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The snake is --- the rock.",
+    "choices": [
+      "above",
+      "under",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_below",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snake"
+      },
+      {
+        "lemma": "rock"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the snake sits.",
+    "explain_item_en": "The snake is [[under]] the rock. Under means down below.",
+    "speak_en": "Which small word matches the picture of the snake and the rock?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0044",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The bear is --- the cave.",
+    "choices": [
+      "near",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      },
+      {
+        "lemma": "cave"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bear sits.",
+    "explain_item_en": "The bear is [[in]] the cave. In means inside.",
+    "speak_en": "Which small word matches the picture of the bear and the cave?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0045",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The fox is --- the wood.",
+    "choices": [
+      "in",
+      "near",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      },
+      {
+        "lemma": "wood"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the fox sits.",
+    "explain_item_en": "The fox is [[near]] the wood. Near means close by.",
+    "speak_en": "Which small word matches the picture of the fox and the wood?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0046",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The frog is --- the log.",
+    "choices": [
+      "above",
+      "on",
+      "under"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_below",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      },
+      {
+        "lemma": "log"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the frog sits.",
+    "explain_item_en": "The frog is [[under]] the log. Under means down below.",
+    "speak_en": "Which small word matches the picture of the frog and the log?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0047",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The crab is --- the sand.",
+    "choices": [
+      "above",
+      "on",
+      "under"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_below",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crab"
+      },
+      {
+        "lemma": "sand"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the crab sits.",
+    "explain_item_en": "The crab is [[under]] the sand. Under means down below.",
+    "speak_en": "Which small word matches the picture of the crab and the sand?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0048",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The seal is --- the ice.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seal"
+      },
+      {
+        "lemma": "ice"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the seal sits.",
+    "explain_item_en": "The seal is [[on]] the ice. On means on top.",
+    "speak_en": "Which small word matches the picture of the seal and the ice?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0049",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The bird is --- the nest.",
+    "choices": [
+      "in",
+      "above",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_higher_up",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "nest"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bird sits.",
+    "explain_item_en": "The bird is [[above]] the nest. Above means up high.",
+    "speak_en": "Which small word matches the picture of the bird and the nest?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0050",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The puppy is --- the step.",
+    "choices": [
+      "in",
+      "near",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      },
+      {
+        "lemma": "step"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the puppy sits.",
+    "explain_item_en": "The puppy is [[near]] the step. Near means close by.",
+    "speak_en": "Which small word matches the picture of the puppy and the step?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0051",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The kitten is --- the rug.",
+    "choices": [
+      "under",
+      "on",
+      "above"
+    ],
+    "answer_index": 0,
+    "explain_key": "picture_shows_below",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      },
+      {
+        "lemma": "rug"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the kitten sits.",
+    "explain_item_en": "The kitten is [[under]] the rug. Under means down below.",
+    "speak_en": "Which small word matches the picture of the kitten and the rug?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0052",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The chick is --- the barn.",
+    "choices": [
+      "near",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chick"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the chick sits.",
+    "explain_item_en": "The chick is [[in]] the barn. In means inside.",
+    "speak_en": "Which small word matches the picture of the chick and the barn?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0053",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The bug is --- the soil.",
+    "choices": [
+      "above",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      },
+      {
+        "lemma": "soil"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bug sits.",
+    "explain_item_en": "The bug is [[in]] the soil. In means inside the dirt.",
+    "speak_en": "Which small word matches the picture of the bug and the soil?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0054",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The snail is --- the leaf.",
+    "choices": [
+      "under",
+      "on",
+      "above"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snail"
+      },
+      {
+        "lemma": "leaf"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the snail sits.",
+    "explain_item_en": "The snail is [[on]] the leaf. On means on top.",
+    "speak_en": "Which small word matches the picture of the snail and the leaf?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0055",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The hen is --- the flower.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      },
+      {
+        "lemma": "flower"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the hen sits.",
+    "explain_item_en": "The hen is [[on]] the flower. On means on top.",
+    "speak_en": "Which small word matches the picture of the hen and the flower?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0056",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The moth is --- the lamp.",
+    "choices": [
+      "under",
+      "near",
+      "on"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moth"
+      },
+      {
+        "lemma": "lamp"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the moth sits.",
+    "explain_item_en": "The moth is [[on]] the lamp. On means on top.",
+    "speak_en": "Which small word matches the picture of the moth and the lamp?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0057",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The crow is --- the fence.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crow"
+      },
+      {
+        "lemma": "fence"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the crow sits.",
+    "explain_item_en": "The crow is [[on]] the fence. On means on top.",
+    "speak_en": "Which small word matches the picture of the crow and the fence?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0058",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The duck is --- the grass.",
+    "choices": [
+      "above",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "grass"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the duck sits.",
+    "explain_item_en": "The duck is [[in]] the grass. In means inside the grass.",
+    "speak_en": "Which small word matches the picture of the duck and the grass?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0059",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The fish is --- the sea.",
+    "choices": [
+      "above",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "sea"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the fish sits.",
+    "explain_item_en": "The fish is [[in]] the sea. In means inside the water.",
+    "speak_en": "Which small word matches the picture of the fish and the sea?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0060",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The turtle is --- the pond.",
+    "choices": [
+      "above",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      },
+      {
+        "lemma": "pond"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the turtle sits.",
+    "explain_item_en": "The turtle is [[in]] the pond. In means inside the water.",
+    "speak_en": "Which small word matches the picture of the turtle and the pond?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0061",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The duck is --- the boat.",
+    "choices": [
+      "in",
+      "near",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "boat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the duck sits.",
+    "explain_item_en": "The duck is [[near]] the boat. Near means close by.",
+    "speak_en": "Which small word matches the picture of the duck and the boat?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0062",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The horse is --- the bridge.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "bridge"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the horse sits.",
+    "explain_item_en": "The horse is [[on]] the bridge. On means on top.",
+    "speak_en": "Which small word matches the picture of the horse and the bridge?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0063",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The sheep is --- the field.",
+    "choices": [
+      "in",
+      "near",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      },
+      {
+        "lemma": "field"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the sheep sits.",
+    "explain_item_en": "The sheep is [[near]] the field. Near means close by.",
+    "speak_en": "Which small word matches the picture of the sheep and the field?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0064",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The pig is --- the mud.",
+    "choices": [
+      "above",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      },
+      {
+        "lemma": "mud"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the pig sits.",
+    "explain_item_en": "The pig is [[in]] the mud. In means inside the mud.",
+    "speak_en": "Which small word matches the picture of the pig and the mud?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0065",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The dog is --- the yard.",
+    "choices": [
+      "in",
+      "near",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "yard"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the dog sits.",
+    "explain_item_en": "The dog is [[near]] the yard. Near means close by.",
+    "speak_en": "Which small word matches the picture of the dog and the yard?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0066",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The cat is --- the door.",
+    "choices": [
+      "under",
+      "near",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "door"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the cat sits.",
+    "explain_item_en": "The cat is [[near]] the door. Near means close by.",
+    "speak_en": "Which small word matches the picture of the cat and the door?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0067",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The bird is --- the roof.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "roof"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bird sits.",
+    "explain_item_en": "The bird is [[on]] the roof. On means on top.",
+    "speak_en": "Which small word matches the picture of the bird and the roof?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0068",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The fox is --- the farm.",
+    "choices": [
+      "in",
+      "near",
+      "above"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      },
+      {
+        "lemma": "farm"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the fox sits.",
+    "explain_item_en": "The fox is [[near]] the farm. Near means close by.",
+    "speak_en": "Which small word matches the picture of the fox and the farm?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0069",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The owl is --- the barn.",
+    "choices": [
+      "under",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the owl sits.",
+    "explain_item_en": "The owl is [[in]] the barn. In means inside.",
+    "speak_en": "Which small word matches the picture of the owl and the barn?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0070",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The hen is --- the yard.",
+    "choices": [
+      "in",
+      "near",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      },
+      {
+        "lemma": "yard"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the hen sits.",
+    "explain_item_en": "The hen is [[near]] the yard. Near means close by.",
+    "speak_en": "Which small word matches the picture of the hen and the yard?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0071",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The rat is --- the barn.",
+    "choices": [
+      "above",
+      "near",
+      "in"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rat"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the rat sits.",
+    "explain_item_en": "The rat is [[in]] the barn. In means inside.",
+    "speak_en": "Which small word matches the picture of the rat and the barn?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0072",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The pup is --- the house.",
+    "choices": [
+      "above",
+      "near",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_close_by",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      },
+      {
+        "lemma": "house"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the pup sits.",
+    "explain_item_en": "The pup is [[near]] the house. Near means close by.",
+    "speak_en": "Which small word matches the picture of the pup and the house?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0073",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The bug is --- the grass.",
+    "choices": [
+      "above",
+      "on",
+      "under"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_below",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      },
+      {
+        "lemma": "grass"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bug sits.",
+    "explain_item_en": "The bug is [[under]] the grass. Under means down below.",
+    "speak_en": "Which small word matches the picture of the bug and the grass?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0074",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The pencil is --- the book and cup.",
+    "choices": [
+      "above",
+      "under",
+      "between"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      },
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "cup"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the pencil sits.",
+    "explain_item_en": "The pencil is [[between]] the book and the cup. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the pencil, the book, and the cup?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0075",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The cloud is --- the hill and barn.",
+    "choices": [
+      "under",
+      "above",
+      "between"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      },
+      {
+        "lemma": "hill"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the cloud sits.",
+    "explain_item_en": "The cloud is [[between]] the hill and the barn. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the cloud, the hill, and the barn?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0076",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "A big truck sits --- the road.",
+    "choices": [
+      "in",
+      "on",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      },
+      {
+        "lemma": "road"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the truck sits.",
+    "explain_item_en": "The truck is [[on]] the road. On means on top.",
+    "speak_en": "Which small word matches the picture of the truck and the road?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0077",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The sun is --- the tree and lake.",
+    "choices": [
+      "under",
+      "between",
+      "above"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "tree"
+      },
+      {
+        "lemma": "lake"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the sun sits.",
+    "explain_item_en": "The sun is [[between]] the tree and the lake. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the sun, the tree, and the lake?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0078",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The kite is --- the boy and girl.",
+    "choices": [
+      "under",
+      "above",
+      "between"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      },
+      {
+        "lemma": "boy"
+      },
+      {
+        "lemma": "girl"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the kite sits.",
+    "explain_item_en": "The kite is [[between]] the boy and the girl. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the kite, the boy, and the girl?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0079",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The duck is --- the boat and ship.",
+    "choices": [
+      "on",
+      "between",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "boat"
+      },
+      {
+        "lemma": "ship"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the duck sits.",
+    "explain_item_en": "The duck is [[between]] the boat and the ship. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the duck, the boat, and the ship?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0080",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The cat is --- the chair and table.",
+    "choices": [
+      "above",
+      "under",
+      "between"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "chair"
+      },
+      {
+        "lemma": "table"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the cat sits.",
+    "explain_item_en": "The cat is [[between]] the chair and the table. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the cat, the chair, and the table?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0081",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The ball is --- the tree and hill.",
+    "choices": [
+      "on",
+      "between",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      },
+      {
+        "lemma": "tree"
+      },
+      {
+        "lemma": "hill"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the ball sits.",
+    "explain_item_en": "The ball is [[between]] the tree and the hill. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the ball, the tree, and the hill?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0082",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The bird is --- the barn and house.",
+    "choices": [
+      "under",
+      "above",
+      "between"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "barn"
+      },
+      {
+        "lemma": "house"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bird sits.",
+    "explain_item_en": "The bird is [[between]] the barn and the house. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the bird, the barn, and the house?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0083",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The fox is --- the rock and hill.",
+    "choices": [
+      "on",
+      "between",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      },
+      {
+        "lemma": "rock"
+      },
+      {
+        "lemma": "hill"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the fox sits.",
+    "explain_item_en": "The fox is [[between]] the rock and the hill. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the fox, the rock, and the hill?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0084",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The moon is --- the star and sky.",
+    "choices": [
+      "under",
+      "between",
+      "above"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      },
+      {
+        "lemma": "star"
+      },
+      {
+        "lemma": "sky"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the moon sits.",
+    "explain_item_en": "The moon is [[between]] the star and the sky. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the moon, the star, and the sky?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0085",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The frog is --- the log and pond.",
+    "choices": [
+      "above",
+      "between",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      },
+      {
+        "lemma": "log"
+      },
+      {
+        "lemma": "pond"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the frog sits.",
+    "explain_item_en": "The frog is [[between]] the log and the pond. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the frog, the log, and the pond?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0086",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The hen is --- the rose and flower.",
+    "choices": [
+      "under",
+      "above",
+      "between"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      },
+      {
+        "lemma": "rose"
+      },
+      {
+        "lemma": "flower"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the hen sits.",
+    "explain_item_en": "The hen is [[between]] the rose and the flower. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the hen, the rose, and the flower?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0087",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The ant is --- the brick and wall.",
+    "choices": [
+      "on",
+      "between",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      },
+      {
+        "lemma": "brick"
+      },
+      {
+        "lemma": "wall"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the ant sits.",
+    "explain_item_en": "The ant is [[between]] the brick and the wall. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the ant, the brick, and the wall?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0088",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The ship is --- the sea and beach.",
+    "choices": [
+      "under",
+      "between",
+      "above"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_two_sides",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ship"
+      },
+      {
+        "lemma": "sea"
+      },
+      {
+        "lemma": "beach"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the ship sits.",
+    "explain_item_en": "The ship is [[between]] the sea and the beach. Between means in the middle.",
+    "speak_en": "Which small word matches the picture of the ship, the sea, and the beach?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0089",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The kite flew --- the tall green hill.",
+    "choices": [
+      "under",
+      "over",
+      "into"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_higher_up",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      },
+      {
+        "lemma": "hill"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the kite went.",
+    "explain_item_en": "The kite flew [[over]] the hill. Over means up and across.",
+    "speak_en": "Which small word matches the picture of the kite and the tall green hill?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0090",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The ball rolled --- the big red barn.",
+    "choices": [
+      "over",
+      "into",
+      "under"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the ball went.",
+    "explain_item_en": "The ball rolled [[into]] the barn. Into means go inside.",
+    "speak_en": "Which small word matches the picture of the ball and the big red barn?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0091",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The cat sat --- the soft warm bed.",
+    "choices": [
+      "under",
+      "into",
+      "near"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "bed"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the cat went.",
+    "explain_item_en": "The cat sat [[into]] the bed. Into means go inside.",
+    "speak_en": "Which small word matches the picture of the cat and the soft warm bed?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0092",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The dog went --- the wide open gate.",
+    "choices": [
+      "into",
+      "under",
+      "above"
+    ],
+    "answer_index": 0,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "gate"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the dog went.",
+    "explain_item_en": "The dog went [[into]] the gate. Into means go inside.",
+    "speak_en": "Which small word matches the picture of the dog and the wide open gate?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0093",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The bird flew --- the old gray barn.",
+    "choices": [
+      "into",
+      "under",
+      "over"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_higher_up",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "barn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the bird went.",
+    "explain_item_en": "The bird flew [[over]] the barn. Over means up and across.",
+    "speak_en": "Which small word matches the picture of the bird and the old gray barn?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0094",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The rain fell --- the small wet roof.",
+    "choices": [
+      "under",
+      "on",
+      "above"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      },
+      {
+        "lemma": "roof"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the rain fell.",
+    "explain_item_en": "The rain fell [[on]] the roof. On means on top.",
+    "speak_en": "Which small word matches the picture of the rain and the small wet roof?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0095",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The boy sat --- the warm sunny beach.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      },
+      {
+        "lemma": "beach"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the boy sits.",
+    "explain_item_en": "The boy sat [[on]] the beach. On means on top of the sand.",
+    "speak_en": "Which small word matches the picture of the boy and the warm sunny beach?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0096",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The fish goes --- the clear blue pond.",
+    "choices": [
+      "above",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "pond"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the fish goes.",
+    "explain_item_en": "The fish goes [[in]] the pond. In means inside the water.",
+    "speak_en": "Which small word matches the picture of the fish and the clear blue pond?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0097",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The bus goes --- the long wet road.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      },
+      {
+        "lemma": "road"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that\nroad. On means on top.",
+    "speak_en": "Which small word matches the picture of the bus and the long wet road?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0098",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The horse is --- the steep green hill.",
+    "choices": [
+      "under",
+      "on",
+      "in"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_on_top",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "hill"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the horse sits.",
+    "explain_item_en": "The horse is [[on]] the hill. On means on top.",
+    "speak_en": "Which small word matches the picture of the horse and the steep green hill?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0099",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The duck goes --- the calm still lake.",
+    "choices": [
+      "above",
+      "in",
+      "on"
+    ],
+    "answer_index": 1,
+    "explain_key": "picture_shows_inside",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "lake"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the duck goes.",
+    "explain_item_en": "The duck goes [[in]] the lake. In means inside the water.",
+    "speak_en": "Which small word matches the picture of the duck and the calm still lake?"
+  },
+  {
+    "item_id": "seed_select_the_best_preposition_to_match_the_pic_0100",
+    "family_id": "fam_select_the_best_preposition_to_match_the_pic",
+    "skill_id": "seed_select_the_best_preposition_to_match_the_pic",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The star is --- the dark quiet sky.",
+    "choices": [
+      "under",
+      "in",
+      "above"
+    ],
+    "answer_index": 2,
+    "explain_key": "picture_shows_higher_up",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      },
+      {
+        "lemma": "sky"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Pick the small word that tells [[where]] the star sits.",
+    "explain_item_en": "The star is [[above]] the sky. Above means up high.",
+    "speak_en": "Which small word matches the picture of the star and the dark quiet sky?"
+  }
+]

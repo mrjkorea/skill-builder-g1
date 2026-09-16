@@ -1,1 +1,2030 @@
-[{"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0001", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "<NAME> ate a \"huge\" cake.", "choices": ["very big", "very small", "very old"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0002", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "It is \"chilly\", so I get a coat.", "choices": ["hot", "cold", "wet"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0003", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The \"tiny\" bug is on my hand.", "choices": ["very big", "very fast", "very small"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0004", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> was \"glum\" when the dog ran away.", "choices": ["happy", "sad", "tall"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0005", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "My socks are \"damp\" from the rain.", "choices": ["wet", "dry", "warm"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0006", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> gave a big \"grin\" at the party.", "choices": ["cry", "jump", "smile"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0007", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "We had to \"scurry\" to the bus.", "choices": ["walk slow", "sit down", "run fast"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0008", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> will \"munch\" on an apple.", "choices": ["sleep", "eat", "look"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0009", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The \"soaked\" pup drips wet water.", "choices": ["very dry", "very wet", "very hot"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0010", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I am \"sleepy\" at nap time.", "choices": ["want food", "want play", "want sleep"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0011", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The \"brave\" dog saves the cat.", "choices": ["not scared", "very slow", "very small"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0012", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The soup is \"tasty\" and good.", "choices": ["bad food", "good food", "old food"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0013", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "My bread is \"soggy\" from rain.", "choices": ["very dry", "very hot", "very wet"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0014", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The room is \"dim\" with one lamp.", "choices": ["not bright", "not clean", "not warm"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0015", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "<NAME> had a \"smile\" on her face.", "choices": ["sad look", "happy look", "mad look"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0016", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "A \"bug\" crawls on the green leaf.", "choices": ["big animal", "old tree", "small animal"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0017", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I am \"glad\" it is sunny today.", "choices": ["very happy", "very sad", "very mad"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0018", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The cat is \"gentle\" with the bird.", "choices": ["very mean", "very kind", "very loud"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0019", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "It is \"calm\" on the still lake.", "choices": ["very wild", "very cold", "very still"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0020", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The dog is \"messy\" with wet mud.", "choices": ["not clean", "not big", "not fast"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0021", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "My desk is \"tidy\" and very clean.", "choices": ["very big", "very clean", "very old"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0022", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The \"swift\" bird flies very fast.", "choices": ["very slow", "very big", "very fast"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0023", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I will \"sip\" my hot tea now.", "choices": ["drink slow", "drink fast", "drink all"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0024", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The room is \"quiet\" in our class.", "choices": ["not hot", "not loud", "not dark"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0025", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The bell is \"loud\" at our school.", "choices": ["not small", "not soft", "not quiet"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0026", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I am \"weary\" after the long run.", "choices": ["very tired", "very happy", "very full"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0027", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The boy is \"upset\" and he cries.", "choices": ["very glad", "very sad", "very tall"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0028", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I will \"peek\" through the shut door.", "choices": ["look away", "look down", "look quick"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0029", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I feel \"mad\" at the big mess.", "choices": ["very angry", "very glad", "very calm"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0030", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The path to school is \"quick\".", "choices": ["very long", "very fast", "very hard"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0031", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "She will \"gaze\" at the bright stars.", "choices": ["look away", "look down", "look long"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0032", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "<NAME> will \"chomp\" on the sweet corn.", "choices": ["bite hard", "sleep long", "run fast"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0033", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "I \"shiver\" in the cold morning wind.", "choices": ["jump high", "shake cold", "laugh loud"], "answer_index": 1, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0034", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "Mom will \"whisper\" at my nap time.", "choices": ["talk loud", "talk fast", "talk soft"], "answer_index": 2, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0035", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 1, "item_type": "abcd", "stem": "The kid will \"sob\" after the fall.", "choices": ["cry hard", "laugh hard", "run fast"], "answer_index": 0, "explain_key": "context_clue", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0036", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> felt \"glad\" when Mom came home.", "choices": ["sad", "happy", "mad"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0037", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The floor got \"messy\" after we played.", "choices": ["not wet", "not dark", "not clean"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0038", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The kitten is \"gentle\" when it licks me.", "choices": ["soft and kind", "loud and mean", "big and fast"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0039", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "I stay \"calm\" when the dog barks loud.", "choices": ["not sad", "not mad", "not cold"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0040", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> looks \"sleepy\" after the long trip.", "choices": ["needs food", "needs bath", "needs rest"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0041", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The pup is \"brave\" when it guards home.", "choices": ["not afraid", "not hungry", "not tired"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0042", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "We \"stroll\" down the path to the park.", "choices": ["run fast", "walk slow", "sit still"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0043", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> had to \"dash\" to catch the bus.", "choices": ["walk slow", "sit down", "run fast"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0044", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The wet dog is \"soaked\" from the lake.", "choices": ["very wet", "very dry", "very warm"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0045", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "I \"tug\" on the rope with my dad.", "choices": ["push hard", "pull hard", "drop fast"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0046", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> will \"yell\" when the game starts.", "choices": ["whisper soft", "sleep long", "shout loud"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0047", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The baby will \"giggle\" at the funny face.", "choices": ["laugh soft", "cry hard", "sleep deep"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0048", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "I \"gulp\" down the cold milk fast.", "choices": ["drink slow", "drink fast", "drink none"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0049", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> will \"toss\" the ball to me.", "choices": ["kick it", "drop it", "throw it"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0050", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The cat will \"peek\" out from the box.", "choices": ["look out", "hide in", "sleep in"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0051", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "She will \"whisper\" so the baby sleeps.", "choices": ["talk loud", "talk soft", "talk fast"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0052", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The bird will \"shiver\" on the cold branch.", "choices": ["fly away", "sing loud", "shake cold"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0053", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> felt \"mad\" when the cup fell down.", "choices": ["angry", "happy", "sleepy"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0054", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The room looks \"dim\" when lights go out.", "choices": ["not big", "not bright", "not clean"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0055", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The dog is \"swift\" when it catches balls.", "choices": ["very slow", "very small", "very fast"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0056", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The class is \"quiet\" when the teacher reads.", "choices": ["not loud", "not hot", "not fun"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0057", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> is \"tidy\" after she cleans up.", "choices": ["very loud", "very clean", "very slow"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0058", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "I feel \"weary\" when night comes too late.", "choices": ["very hungry", "very cold", "very tired"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0059", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "My shirt is \"soggy\" from the spilled juice.", "choices": ["very wet", "very dry", "very warm"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0060", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> will \"chomp\" the big red apple.", "choices": ["sleep long", "bite hard", "look far"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0061", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The soup smells \"tasty\" on a cold day.", "choices": ["bad to eat", "hard to see", "good to eat"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0062", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "I \"sip\" the juice at lunch time today.", "choices": ["drink slow", "drink fast", "eat slow"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0063", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> will \"gaze\" at the big round moon.", "choices": ["look away", "look long", "run fast"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0064", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The hat is \"huge\" on my small head.", "choices": ["very small", "very old", "very big"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0065", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The pond is \"calm\" with no wind today.", "choices": ["very still", "very wild", "very cold"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0066", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> is \"upset\" because the ice melted.", "choices": ["very glad", "very sad", "very tall"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0067", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The bell sounds \"loud\" in the long hall.", "choices": ["not soft", "not dim", "not quiet"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0068", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The horse is \"gentle\" with the small kid.", "choices": ["very kind", "very mean", "very fast"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0069", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> will \"sob\" when the story ends sad.", "choices": ["laugh hard", "cry hard", "run fast"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0070", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "I feel \"brave\" when I try new things.", "choices": ["not hungry", "not cold", "not scared"], "answer_index": 2, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0071", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "The \"quick\" fox ran from the big dog.", "choices": ["very fast", "very slow", "very big"], "answer_index": 0, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0072", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 2, "item_type": "abcd", "stem": "<NAME> gave a \"shout\" at the game win.", "choices": ["whisper soft", "yell loud", "sleep deep"], "answer_index": 1, "explain_key": "clue_words", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0073", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "We \"dash\" to the bus stop right now.", "choices": ["walk slow", "sit still", "run fast"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0074", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "I \"stroll\" with Mom after our dinner.", "choices": ["walk slow", "run fast", "jump high"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0075", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> will \"munch\" the corn at lunch.", "choices": ["drink it", "eat it", "hide it"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0076", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "The kids \"scurry\" to the door at recess.", "choices": ["move slow", "stay still", "move fast"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0077", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "I \"tug\" the wagon up the steep hill.", "choices": ["pull it", "push it", "drop it"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0078", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> will \"peek\" at the birthday gift.", "choices": ["look away", "look quick", "look down"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0079", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "She will \"gaze\" at the fish in tank.", "choices": ["look quick", "look mad", "look long"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0080", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "I \"whisper\" the secret to my best friend.", "choices": ["talk soft", "talk loud", "talk fast"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0081", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "The dog will \"gulp\" the water after run.", "choices": ["drink slow", "drink fast", "drink none"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0082", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> will \"toss\" leaves in the yard.", "choices": ["keep them", "eat them", "throw them"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0083", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "I feel \"weary\" and yawn at bed time.", "choices": ["very tired", "very hungry", "very mad"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0084", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "The pup is \"soaked\" after the bath spill.", "choices": ["a bit wet", "very wet", "very dry"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0085", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> is \"glad\" the rain stopped today.", "choices": ["calm", "brave", "happy"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0086", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "I \"shiver\" and hug my warm red coat.", "choices": ["feel cold", "feel hot", "feel glad"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0087", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "The room is \"dim\" but I can read.", "choices": ["not warm", "not bright", "not big"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0088", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "We stay \"calm\" when the wind howls loud.", "choices": ["stay mad", "stay cold", "stay still"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0089", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "The cat is \"swift\" and catches the mouse.", "choices": ["very fast", "very slow", "very big"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0090", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> will \"chomp\" gum after lunch time.", "choices": ["chew soft", "chew hard", "chew none"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0091", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "I \"sip\" soup when my sore throat hurts.", "choices": ["drink fast", "eat fast", "drink slow"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0092", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "The baby will \"giggle\" at the peek game.", "choices": ["laugh happy", "cry sad", "sleep deep"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0093", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> felt \"mad\" but took a deep breath.", "choices": ["felt glad", "felt angry", "felt tired"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0094", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "I \"yell\" to my friend far away.", "choices": ["call soft", "call slow", "call loud"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0095", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "The bug looks \"tiny\" next to my thumb.", "choices": ["very small", "very big", "very fast"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0096", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "Bread gets \"soggy\" if left out in rain.", "choices": ["gets dry", "gets wet", "gets hot"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0097", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> is \"tidy\" before the guests come over.", "choices": ["very loud", "very fun", "very clean"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0098", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "The floor is \"messy\" with toys and books.", "choices": ["not clean", "not dark", "not cold"], "answer_index": 0, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0099", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "I am \"brave\" and climb the tall tree.", "choices": ["not tired", "not scared", "not cold"], "answer_index": 1, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0100", "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor", "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor", "stage": "seed", "tier": 3, "item_type": "abcd", "stem": "<NAME> will \"smile\" when the cake comes out.", "choices": ["look mad", "look tired", "look happy"], "answer_index": 2, "explain_key": "near_meaning", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}}]
+[
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0001",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> ate a \"huge\" cake.",
+    "choices": [
+      "very big",
+      "very small",
+      "very old"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "A [[huge]] cake is very [[big]].",
+    "speak_en": "What does the word huge mean here: someone ate a huge cake?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0002",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It is \"chilly\", so I get a coat.",
+    "choices": [
+      "hot",
+      "cold",
+      "wet"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "You get a [[coat]] when it is [[cold]].",
+    "speak_en": "What does the word chilly mean here: it is chilly, so I get a coat?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0003",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"tiny\" bug is on my hand.",
+    "choices": [
+      "very big",
+      "very fast",
+      "very small"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "A [[tiny]] bug on your hand is very [[small]].",
+    "speak_en": "What does the word tiny mean here: the tiny bug is on my hand?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0004",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> was \"glum\" when the dog ran away.",
+    "choices": [
+      "happy",
+      "sad",
+      "tall"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "The dog ran [[away]], so the kid feels [[sad]].",
+    "speak_en": "What does the word glum mean here: someone was glum when the dog ran away?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0005",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My socks are \"damp\" from the rain.",
+    "choices": [
+      "wet",
+      "dry",
+      "warm"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Nearby [[words]] can be clues. Use them to find the [[meaning]].",
+    "explain_item_en": "[[Rain]] makes socks [[wet]].",
+    "speak_en": "What does the word damp mean here: my socks are damp from the rain?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0006",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> gave a big \"grin\" at the party.",
+    "choices": [
+      "cry",
+      "jump",
+      "smile"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you know the [[meaning]].",
+    "explain_item_en": "A big [[grin]] is a [[smile]].",
+    "speak_en": "What does the word grin mean here: someone gave a big grin at the party?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0007",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We had to \"scurry\" to the bus.",
+    "choices": [
+      "walk slow",
+      "sit down",
+      "run fast"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A hard word can have the same [[meaning]] as an easy word.",
+    "explain_item_en": "You [[scurry]] to the bus when you must [[run]] [[fast]].",
+    "speak_en": "What does the word scurry mean here: we had to scurry to the bus?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0008",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"munch\" on an apple.",
+    "choices": [
+      "sleep",
+      "eat",
+      "look"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Think of a word with the same [[meaning]]. Check the other [[words]].",
+    "explain_item_en": "You [[munch]] an apple when you [[eat]] it.",
+    "speak_en": "What does the word munch mean here: someone will munch on an apple?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0009",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"soaked\" pup drips wet water.",
+    "choices": [
+      "very dry",
+      "very wet",
+      "very hot"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "The pup [[drips]], so soaked means very [[wet]].",
+    "speak_en": "What does the word soaked mean here: the soaked pup drips wet water?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0010",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am \"sleepy\" at nap time.",
+    "choices": [
+      "want food",
+      "want play",
+      "want sleep"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "[[Nap]] time means you want [[sleep]].",
+    "speak_en": "What does the word sleepy mean here: I am sleepy at nap time?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0011",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"brave\" dog saves the cat.",
+    "choices": [
+      "not scared",
+      "very slow",
+      "very small"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "A dog that [[saves]] a cat is not [[scared]].",
+    "speak_en": "What does the word brave mean here: the brave dog saves the cat?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0012",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The soup is \"tasty\" and good.",
+    "choices": [
+      "bad food",
+      "good food",
+      "old food"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "[[Tasty]] soup is [[good]] food.",
+    "speak_en": "What does the word tasty mean here: the soup is tasty and good?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0013",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My bread is \"soggy\" from rain.",
+    "choices": [
+      "very dry",
+      "very hot",
+      "very wet"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "[[Rain]] makes bread very [[wet]].",
+    "speak_en": "What does the word soggy mean here: my bread is soggy from rain?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0014",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The room is \"dim\" with one lamp.",
+    "choices": [
+      "not bright",
+      "not clean",
+      "not warm"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "One [[lamp]] makes the room not [[bright]].",
+    "speak_en": "What does the word dim mean here: the room is dim with one lamp?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0015",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> had a \"smile\" on her face.",
+    "choices": [
+      "sad look",
+      "happy look",
+      "mad look"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "A [[smile]] on a face is a [[happy]] look.",
+    "speak_en": "What does the word smile mean here: someone had a smile on her face?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0016",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "A \"bug\" crawls on the green leaf.",
+    "choices": [
+      "big animal",
+      "old tree",
+      "small animal"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "A [[bug]] that crawls on a leaf is a [[small]] animal.",
+    "speak_en": "What does the word bug mean here: a bug crawls on the green leaf?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0017",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am \"glad\" it is sunny today.",
+    "choices": [
+      "very happy",
+      "very sad",
+      "very mad"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "[[Sunny]] days can make you very [[happy]].",
+    "speak_en": "What does the word glad mean here: I am glad it is sunny today?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0018",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat is \"gentle\" with the bird.",
+    "choices": [
+      "very mean",
+      "very kind",
+      "very loud"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "A cat that is careful with a [[bird]] is very [[kind]].",
+    "speak_en": "What does the word gentle mean here: the cat is gentle with the bird?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0019",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It is \"calm\" on the still lake.",
+    "choices": [
+      "very wild",
+      "very cold",
+      "very still"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "A [[calm]] lake is very [[still]].",
+    "speak_en": "What does the word calm mean here: it is calm on the still lake?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0020",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog is \"messy\" with wet mud.",
+    "choices": [
+      "not clean",
+      "not big",
+      "not fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "[[Mud]] on a dog is not [[clean]].",
+    "speak_en": "What does the word messy mean here: the dog is messy with wet mud?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0021",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My desk is \"tidy\" and very clean.",
+    "choices": [
+      "very big",
+      "very clean",
+      "very old"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "A [[tidy]] desk is very [[clean]].",
+    "speak_en": "What does the word tidy mean here: my desk is tidy and very clean?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0022",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"swift\" bird flies very fast.",
+    "choices": [
+      "very slow",
+      "very big",
+      "very fast"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "A bird that flies [[fast]] is [[swift]].",
+    "speak_en": "What does the word swift mean here: the swift bird flies very fast?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0023",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I will \"sip\" my hot tea now.",
+    "choices": [
+      "drink slow",
+      "drink fast",
+      "drink all"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "You sip hot tea when you [[drink]] slow.",
+    "speak_en": "What does the word sip mean here: I will sip my hot tea now?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0024",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The room is \"quiet\" in our class.",
+    "choices": [
+      "not hot",
+      "not loud",
+      "not dark"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "A [[quiet]] class is not [[loud]].",
+    "speak_en": "What does the word quiet mean here: the room is quiet in our class?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0025",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bell is \"loud\" at our school.",
+    "choices": [
+      "not small",
+      "not soft",
+      "not quiet"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "A school [[bell]] is not [[quiet]].",
+    "speak_en": "What does the word loud mean here: the bell is loud at our school?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0026",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am \"weary\" after the long run.",
+    "choices": [
+      "very tired",
+      "very happy",
+      "very full"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "A long [[run]] makes you very [[tired]].",
+    "speak_en": "What does the word weary mean here: I am weary after the long run?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0027",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy is \"upset\" and he cries.",
+    "choices": [
+      "very glad",
+      "very sad",
+      "very tall"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "A boy who [[cries]] feels very [[sad]].",
+    "speak_en": "What does the word upset mean here: the boy is upset and he cries?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0028",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I will \"peek\" through the shut door.",
+    "choices": [
+      "look away",
+      "look down",
+      "look quick"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "You peek through a door when you [[look]] quick.",
+    "speak_en": "What does the word peek mean here: I will peek through the shut door?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0029",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I feel \"mad\" at the big mess.",
+    "choices": [
+      "very angry",
+      "very glad",
+      "very calm"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "A big [[mess]] can make you very [[angry]].",
+    "speak_en": "What does the word mad mean here: I feel mad at the big mess?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0030",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The path to school is \"quick\".",
+    "choices": [
+      "very long",
+      "very fast",
+      "very hard"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "A [[quick]] path to school is very [[fast]].",
+    "speak_en": "What does the word quick mean here: the path to school is quick?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0031",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She will \"gaze\" at the bright stars.",
+    "choices": [
+      "look away",
+      "look down",
+      "look long"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "You gaze at stars when you [[look]] long.",
+    "speak_en": "What does the word gaze mean here: she will gaze at the bright stars?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0032",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"chomp\" on the sweet corn.",
+    "choices": [
+      "bite hard",
+      "sleep long",
+      "run fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "You [[chomp]] sweet corn when you [[bite]] hard.",
+    "speak_en": "What does the word chomp mean here: someone will chomp on the sweet corn?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0033",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I \"shiver\" in the cold morning wind.",
+    "choices": [
+      "jump high",
+      "shake cold",
+      "laugh loud"
+    ],
+    "answer_index": 1,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you. They tell you what a word [[means]].",
+    "explain_item_en": "Cold [[wind]] makes you [[shake]].",
+    "speak_en": "What does the word shiver mean here: I shiver in the cold morning wind?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0034",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom will \"whisper\" at my nap time.",
+    "choices": [
+      "talk loud",
+      "talk fast",
+      "talk soft"
+    ],
+    "answer_index": 2,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look at the other [[words]]. They help you find the [[meaning]].",
+    "explain_item_en": "At nap time, Mom will [[talk]] soft.",
+    "speak_en": "What does the word whisper mean here: Mom will whisper at my nap time?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0035",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kid will \"sob\" after the fall.",
+    "choices": [
+      "cry hard",
+      "laugh hard",
+      "run fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "context_clue",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The other [[words]] are clues. They show what a word [[means]].",
+    "explain_item_en": "After a [[fall]], a kid may [[cry]] hard.",
+    "speak_en": "What does the word sob mean here: the kid will sob after the fall?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0036",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> felt \"glad\" when Mom came home.",
+    "choices": [
+      "sad",
+      "happy",
+      "mad"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "Mom came [[home]], so the kid feels [[happy]].",
+    "speak_en": "What does the word glad mean here: someone felt glad when Mom came home?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0037",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The floor got \"messy\" after we played.",
+    "choices": [
+      "not wet",
+      "not dark",
+      "not clean"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Nearby [[words]] can be clues. Use them to find the [[meaning]].",
+    "explain_item_en": "After you [[play]], the floor is not [[clean]].",
+    "speak_en": "What does the word messy mean here: the floor got messy after we played?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0038",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kitten is \"gentle\" when it licks me.",
+    "choices": [
+      "soft and kind",
+      "loud and mean",
+      "big and fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "A kitten that [[licks]] you is [[soft]] and [[kind]].",
+    "speak_en": "What does the word gentle mean here: the kitten is gentle when it licks me?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0039",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I stay \"calm\" when the dog barks loud.",
+    "choices": [
+      "not sad",
+      "not mad",
+      "not cold"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Nearby [[words]] can be clues. Use them to find the [[meaning]].",
+    "explain_item_en": "You stay [[calm]] and do not get [[mad]].",
+    "speak_en": "What does the word calm mean here: I stay calm when the dog barks loud?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0040",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> looks \"sleepy\" after the long trip.",
+    "choices": [
+      "needs food",
+      "needs bath",
+      "needs rest"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "After a long [[trip]], someone [[needs]] [[rest]].",
+    "speak_en": "What does the word sleepy mean here: someone looks sleepy after the long trip?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0041",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The pup is \"brave\" when it guards home.",
+    "choices": [
+      "not afraid",
+      "not hungry",
+      "not tired"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Nearby [[words]] can be clues. Use them to find the [[meaning]].",
+    "explain_item_en": "A pup that [[guards]] home is not [[afraid]].",
+    "speak_en": "What does the word brave mean here: the pup is brave when it guards home?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0042",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We \"stroll\" down the path to the park.",
+    "choices": [
+      "run fast",
+      "walk slow",
+      "sit still"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "You [[stroll]] to the park when you [[walk]] [[slow]].",
+    "speak_en": "What does the word stroll mean here: we stroll down the path to the park?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0043",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> had to \"dash\" to catch the bus.",
+    "choices": [
+      "walk slow",
+      "sit down",
+      "run fast"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Nearby [[words]] can be clues. Use them to find the [[meaning]].",
+    "explain_item_en": "You dash to catch the bus when you run [[fast]].",
+    "speak_en": "What does the word dash mean here: someone had to dash to catch the bus?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0044",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wet dog is \"soaked\" from the lake.",
+    "choices": [
+      "very wet",
+      "very dry",
+      "very warm"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "[[Soaked]] from the lake means very [[wet]].",
+    "speak_en": "What does the word soaked mean here: the wet dog is soaked from the lake?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0045",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"tug\" on the rope with my dad.",
+    "choices": [
+      "push hard",
+      "pull hard",
+      "drop fast"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Nearby [[words]] can be clues. Use them to find the [[meaning]].",
+    "explain_item_en": "You tug a rope when you [[pull]] hard.",
+    "speak_en": "What does the word tug mean here: I tug on the rope with my dad?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0046",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"yell\" when the game starts.",
+    "choices": [
+      "whisper soft",
+      "sleep long",
+      "shout loud"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "When a [[game]] starts, you may [[shout]] [[loud]].",
+    "speak_en": "What does the word yell mean here: someone will yell when the game starts?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0047",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The baby will \"giggle\" at the funny face.",
+    "choices": [
+      "laugh soft",
+      "cry hard",
+      "sleep deep"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Nearby [[words]] can be clues. Use them to find the [[meaning]].",
+    "explain_item_en": "A [[funny]] face makes a baby [[laugh]] soft.",
+    "speak_en": "What does the word giggle mean here: the baby will giggle at the funny face?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0048",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"gulp\" down the cold milk fast.",
+    "choices": [
+      "drink slow",
+      "drink fast",
+      "drink none"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "You [[gulp]] milk when you [[drink]] [[fast]].",
+    "speak_en": "What does the word gulp mean here: I gulp down the cold milk fast?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0049",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"toss\" the ball to me.",
+    "choices": [
+      "kick it",
+      "drop it",
+      "throw it"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Nearby [[words]] can be clues. Use them to find the [[meaning]].",
+    "explain_item_en": "You toss a ball when you [[throw]] it.",
+    "speak_en": "What does the word toss mean here: someone will toss the ball to me?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0050",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat will \"peek\" out from the box.",
+    "choices": [
+      "look out",
+      "hide in",
+      "sleep in"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Look for clue [[words]] near the hard word. They help you.",
+    "explain_item_en": "A cat that peeks from a [[box]] will [[look]] [[out]].",
+    "speak_en": "What does the word peek mean here: the cat will peek out from the box?"
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0051",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She will \"whisper\" so the baby sleeps.",
+    "choices": [
+      "talk loud",
+      "talk soft",
+      "talk fast"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0052",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bird will \"shiver\" on the cold branch.",
+    "choices": [
+      "fly away",
+      "sing loud",
+      "shake cold"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0053",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> felt \"mad\" when the cup fell down.",
+    "choices": [
+      "angry",
+      "happy",
+      "sleepy"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0054",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The room looks \"dim\" when lights go out.",
+    "choices": [
+      "not big",
+      "not bright",
+      "not clean"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0055",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dog is \"swift\" when it catches balls.",
+    "choices": [
+      "very slow",
+      "very small",
+      "very fast"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0056",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The class is \"quiet\" when the teacher reads.",
+    "choices": [
+      "not loud",
+      "not hot",
+      "not fun"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0057",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> is \"tidy\" after she cleans up.",
+    "choices": [
+      "very loud",
+      "very clean",
+      "very slow"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0058",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I feel \"weary\" when night comes too late.",
+    "choices": [
+      "very hungry",
+      "very cold",
+      "very tired"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0059",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My shirt is \"soggy\" from the spilled juice.",
+    "choices": [
+      "very wet",
+      "very dry",
+      "very warm"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0060",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"chomp\" the big red apple.",
+    "choices": [
+      "sleep long",
+      "bite hard",
+      "look far"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0061",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The soup smells \"tasty\" on a cold day.",
+    "choices": [
+      "bad to eat",
+      "hard to see",
+      "good to eat"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0062",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"sip\" the juice at lunch time today.",
+    "choices": [
+      "drink slow",
+      "drink fast",
+      "eat slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0063",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"gaze\" at the big round moon.",
+    "choices": [
+      "look away",
+      "look long",
+      "run fast"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0064",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hat is \"huge\" on my small head.",
+    "choices": [
+      "very small",
+      "very old",
+      "very big"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0065",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The pond is \"calm\" with no wind today.",
+    "choices": [
+      "very still",
+      "very wild",
+      "very cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0066",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> is \"upset\" because the ice melted.",
+    "choices": [
+      "very glad",
+      "very sad",
+      "very tall"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0067",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bell sounds \"loud\" in the long hall.",
+    "choices": [
+      "not soft",
+      "not dim",
+      "not quiet"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0068",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The horse is \"gentle\" with the small kid.",
+    "choices": [
+      "very kind",
+      "very mean",
+      "very fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0069",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"sob\" when the story ends sad.",
+    "choices": [
+      "laugh hard",
+      "cry hard",
+      "run fast"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0070",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I feel \"brave\" when I try new things.",
+    "choices": [
+      "not hungry",
+      "not cold",
+      "not scared"
+    ],
+    "answer_index": 2,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0071",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"quick\" fox ran from the big dog.",
+    "choices": [
+      "very fast",
+      "very slow",
+      "very big"
+    ],
+    "answer_index": 0,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0072",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> gave a \"shout\" at the game win.",
+    "choices": [
+      "whisper soft",
+      "yell loud",
+      "sleep deep"
+    ],
+    "answer_index": 1,
+    "explain_key": "clue_words",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0073",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We \"dash\" to the bus stop right now.",
+    "choices": [
+      "walk slow",
+      "sit still",
+      "run fast"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0074",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I \"stroll\" with Mom after our dinner.",
+    "choices": [
+      "walk slow",
+      "run fast",
+      "jump high"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0075",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"munch\" the corn at lunch.",
+    "choices": [
+      "drink it",
+      "eat it",
+      "hide it"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0076",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids \"scurry\" to the door at recess.",
+    "choices": [
+      "move slow",
+      "stay still",
+      "move fast"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0077",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I \"tug\" the wagon up the steep hill.",
+    "choices": [
+      "pull it",
+      "push it",
+      "drop it"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0078",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"peek\" at the birthday gift.",
+    "choices": [
+      "look away",
+      "look quick",
+      "look down"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0079",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She will \"gaze\" at the fish in tank.",
+    "choices": [
+      "look quick",
+      "look mad",
+      "look long"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0080",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I \"whisper\" the secret to my best friend.",
+    "choices": [
+      "talk soft",
+      "talk loud",
+      "talk fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0081",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The dog will \"gulp\" the water after run.",
+    "choices": [
+      "drink slow",
+      "drink fast",
+      "drink none"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0082",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"toss\" leaves in the yard.",
+    "choices": [
+      "keep them",
+      "eat them",
+      "throw them"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0083",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I feel \"weary\" and yawn at bed time.",
+    "choices": [
+      "very tired",
+      "very hungry",
+      "very mad"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0084",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The pup is \"soaked\" after the bath spill.",
+    "choices": [
+      "a bit wet",
+      "very wet",
+      "very dry"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0085",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is \"glad\" the rain stopped today.",
+    "choices": [
+      "calm",
+      "brave",
+      "happy"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0086",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I \"shiver\" and hug my warm red coat.",
+    "choices": [
+      "feel cold",
+      "feel hot",
+      "feel glad"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0087",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The room is \"dim\" but I can read.",
+    "choices": [
+      "not warm",
+      "not bright",
+      "not big"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0088",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We stay \"calm\" when the wind howls loud.",
+    "choices": [
+      "stay mad",
+      "stay cold",
+      "stay still"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0089",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cat is \"swift\" and catches the mouse.",
+    "choices": [
+      "very fast",
+      "very slow",
+      "very big"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0090",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"chomp\" gum after lunch time.",
+    "choices": [
+      "chew soft",
+      "chew hard",
+      "chew none"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0091",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I \"sip\" soup when my sore throat hurts.",
+    "choices": [
+      "drink fast",
+      "eat fast",
+      "drink slow"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0092",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The baby will \"giggle\" at the peek game.",
+    "choices": [
+      "laugh happy",
+      "cry sad",
+      "sleep deep"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0093",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> felt \"mad\" but took a deep breath.",
+    "choices": [
+      "felt glad",
+      "felt angry",
+      "felt tired"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0094",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I \"yell\" to my friend far away.",
+    "choices": [
+      "call soft",
+      "call slow",
+      "call loud"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0095",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bug looks \"tiny\" next to my thumb.",
+    "choices": [
+      "very small",
+      "very big",
+      "very fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0096",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Bread gets \"soggy\" if left out in rain.",
+    "choices": [
+      "gets dry",
+      "gets wet",
+      "gets hot"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0097",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is \"tidy\" before the guests come over.",
+    "choices": [
+      "very loud",
+      "very fun",
+      "very clean"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0098",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The floor is \"messy\" with toys and books.",
+    "choices": [
+      "not clean",
+      "not dark",
+      "not cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0099",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I am \"brave\" and climb the tall tree.",
+    "choices": [
+      "not tired",
+      "not scared",
+      "not cold"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0100",
+    "family_id": "fam_use_context_to_identify_the_meaning_of_a_wor",
+    "skill_id": "seed_use_context_to_identify_the_meaning_of_a_wor",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will \"smile\" when the cake comes out.",
+    "choices": [
+      "look mad",
+      "look tired",
+      "look happy"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]
