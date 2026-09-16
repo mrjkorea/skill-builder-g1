@@ -1,5 +1,12 @@
 (() => {
   const PACK = "./pack/";
+  const CATEGORIES = [
+    { key: "phonics", label: "Phonics" },
+    { key: "reading", label: "Reading" },
+    { key: "grammar", label: "Grammar" },
+    { key: "vocabulary", label: "Vocabulary" },
+  ];
+
   const state = {
     skills: [],
     pictures: {},
@@ -7,6 +14,7 @@
     lang: "en",
     voice: localStorage.getItem("sb_voice") || "puck",
     skill: null,
+    selectedCategory: null,
     queue: [],
     items: [],
     idx: 0,
@@ -25,6 +33,42 @@
 
   function t(en, ko) {
     return state.lang === "ko" && ko ? ko : en;
+  }
+
+  function soundEnabled() {
+    const v = localStorage.getItem("sb_sound");
+    if (v === null) return true;
+    return v === "on" || v === "1" || v === "true";
+  }
+
+  function setSound(on) {
+    localStorage.setItem("sb_sound", on ? "on" : "off");
+  }
+
+  function loadStats() {
+    try {
+      return JSON.parse(localStorage.getItem("sb_stats") || "{}");
+    } catch (_) {
+      return {};
+    }
+  }
+
+  function saveStats(all) {
+    localStorage.setItem("sb_stats", JSON.stringify(all));
+  }
+
+  function statCount(skillId, key) {
+    const st = loadStats()[skillId];
+    return st && st[key] ? st[key] : 0;
+  }
+
+  function bumpStat(skillId, correct) {
+    const all = loadStats();
+    const st = all[skillId] || { correct: 0, wrong: 0 };
+    if (correct) st.correct += 1;
+    else st.wrong += 1;
+    all[skillId] = st;
+    saveStats(all);
   }
 
   function saveScores() {
@@ -74,8 +118,8 @@
     const mix = state.scoreTable.serve[band(s)];
     const weighted = [];
     for (const it of items) {
-      const t = String(it.tier || 2);
-      const w = mix[t] || mix["2"] || 0.2;
+      const tier = String(it.tier || 2);
+      const w = mix[tier] || mix["2"] || 0.2;
       if (w > 0) weighted.push(it);
     }
     const pool = weighted.length ? weighted : items;
@@ -124,6 +168,83 @@
     return arr.map((m) => (m && m.lemma) || "").filter(Boolean);
   }
 
+  function answerWord(it) {
+    const choices = it.choices || [];
+    const idx = it.answer_index;
+    if (typeof idx === "number" && choices[idx]) return choices[idx];
+    const ls = lemmas(it);
+    return ls[0] || "";
+  }
+
+  function isBlendListen(skill) {
+    return skill && skill.present === "listen" && skill.listen_mode === "blend";
+  }
+
+  function isListenPresent(skill) {
+    return skill && skill.present === "listen";
+  }
+
+  function isSpacedLetterStem(stem) {
+    if (!stem || !/\s/.test(stem)) return false;
+    const parts = String(stem).trim().split(/\s+/);
+    if (parts.length < 2) return false;
+    return parts.every((p) => p.length <= 4);
+  }
+
+  function autoReadText(skill, it, stemVisible) {
+    if (isListenPresent(skill)) return answerWord(it);
+    if (it.stem && stemVisible) return it.stem;
+    return t(skill.prompt_en, skill.prompt_ko);
+  }
+
+  function skillsInCategory(key) {
+    return state.skills
+      .filter((s) => s.category === key)
+      .sort((a, b) => (a.number || 0) - (b.number || 0));
+  }
+
+  function categoryLabel(key) {
+    const c = CATEGORIES.find((x) => x.key === key);
+    if (c) return c.label;
+    const s = state.skills.find((sk) => sk.category === key);
+    return (s && s.category_label) || key;
+  }
+
+  function appendSoundToggle(el, rerender) {
+    const on = soundEnabled();
+    const btn = $(`<button type="button" class="btn small sound-toggle">${on ? "Sound on" : "Sound off"}</button>`);
+    btn.onclick = () => {
+      setSound(!soundEnabled());
+      rerender();
+    };
+    el.appendChild(btn);
+    return btn;
+  }
+
+  function appendScoreBar(el, skillId) {
+    const sc = skillScore(skillId);
+    const bar = $(
+      `<div class="scorebar" role="group" aria-label="Skill scores">
+        <div class="score-col score-wrong"><span class="num" id="stat-wrong">${statCount(skillId, "wrong")}</span></div>
+        <div class="score-col score-mid">
+          <span class="lbl">AI skill score</span>
+          <span class="num" id="stat-mid">${sc}%</span>
+        </div>
+        <div class="score-col score-good"><span class="num" id="stat-right">${statCount(skillId, "correct")}</span></div>
+      </div>`
+    );
+    el.appendChild(bar);
+  }
+
+  function refreshScoreBar(skillId) {
+    const w = document.getElementById("stat-wrong");
+    const m = document.getElementById("stat-mid");
+    const c = document.getElementById("stat-right");
+    if (w) w.textContent = String(statCount(skillId, "wrong"));
+    if (m) m.textContent = skillScore(skillId) + "%";
+    if (c) c.textContent = String(statCount(skillId, "correct"));
+  }
+
   async function boot() {
     app().innerHTML = "<h1>English Skill Builder</h1><p class='muted'>Loading Grade 1…</p>";
     const [skills, pictures, score] = await Promise.all([
@@ -139,46 +260,114 @@
 
   function home() {
     state.skill = null;
+    state.selectedCategory = null;
     const el = app();
     el.innerHTML = "";
-    el.appendChild($(`<h1>English Skill Builder</h1>`));
-    el.appendChild($(`<p class="muted">W.A.I.T. 4 LANGUAGES · Grade 1 · Seed · ${state.skills.length} skills</p>`));
-    const row = $('<div class="row"></div>');
-    const lang = $(`<button class="btn small">${state.lang === "ko" ? "한국어" : "English"}</button>`);
+    el.appendChild($(`<h1 class="title-main">English Skill Builder · Grade 1</h1>`));
+
+    const toolbar = $('<div class="toolbar row"></div>');
+    appendSoundToggle(toolbar, home);
+    const lang = $(`<button type="button" class="btn small">${state.lang === "ko" ? "한국어" : "English"}</button>`);
     lang.onclick = () => {
       state.lang = state.lang === "ko" ? "en" : "ko";
       home();
     };
     const voice = $(
-      `<button class="btn small">Voice: ${state.voice === "bella" ? "Bella" : "Puck"}</button>`
+      `<button type="button" class="btn small">Voice: ${state.voice === "bella" ? "Bella" : "Puck"}</button>`
     );
     voice.onclick = () => {
       state.voice = state.voice === "bella" ? "puck" : "bella";
       localStorage.setItem("sb_voice", state.voice);
       home();
     };
-    row.appendChild(lang);
-    row.appendChild(voice);
-    el.appendChild(row);
-    const search = $(`<input class="search" placeholder="Find a skill" />`);
+    toolbar.appendChild(lang);
+    toolbar.appendChild(voice);
+    el.appendChild(toolbar);
+
+    const search = $(`<input class="search" type="search" placeholder="Find a skill" autocomplete="off" />`);
     el.appendChild(search);
-    const list = document.createElement("div");
-    el.appendChild(list);
+
+    const tilesHost = document.createElement("div");
+    const resultsHost = document.createElement("div");
+    el.appendChild(tilesHost);
+    el.appendChild(resultsHost);
+
+    const drawTiles = () => {
+      tilesHost.innerHTML = "";
+      const grid = $('<div class="cat-grid"></div>');
+      for (const cat of CATEGORIES) {
+        const n = skillsInCategory(cat.key).length;
+        const tile = $(
+          `<button type="button" class="cat-tile">
+            <span class="cat-name">${escapeHtml(cat.label)}</span>
+            <span class="cat-count muted">${n} skills</span>
+          </button>`
+        );
+        tile.onclick = () => categoryList(cat.key);
+        grid.appendChild(tile);
+      }
+      tilesHost.appendChild(grid);
+    };
+
     const draw = () => {
       const q = search.value.trim().toLowerCase();
-      list.innerHTML = "";
+      resultsHost.innerHTML = "";
+      if (!q) {
+        tilesHost.style.display = "";
+        drawTiles();
+        return;
+      }
+      tilesHost.style.display = "none";
       for (const s of state.skills) {
-        if (q && !String(s.title_en || "").toLowerCase().includes(q)) continue;
+        if (!String(s.title_en || "").toLowerCase().includes(q)) continue;
+        const num = s.number != null ? s.number : "";
+        const cat = s.category_label || s.category || "";
         const sc = skillScore(s.skill_id);
         const b = $(
-          `<button class="skill"><strong>${escapeHtml(s.title_en)}</strong><div class="muted">${s.n_items} questions · score ${sc}</div></button>`
+          `<button type="button" class="skill">
+            <strong>${escapeHtml(num)}. ${escapeHtml(s.title_en)}</strong>
+            <div class="muted skill-meta">${escapeHtml(cat)} · AI ${sc}%</div>
+          </button>`
         );
-        b.onclick = () => startSkill(s);
-        list.appendChild(b);
+        b.onclick = () => startSkill(s, { fromSearch: true });
+        resultsHost.appendChild(b);
+      }
+      if (!resultsHost.children.length) {
+        resultsHost.appendChild($(`<p class="muted">No skills match.</p>`));
       }
     };
+
     search.oninput = draw;
     draw();
+  }
+
+  function categoryList(catKey) {
+    state.skill = null;
+    state.selectedCategory = catKey;
+    const el = app();
+    el.innerHTML = "";
+    const back = $(`<button type="button" class="btn small">← Categories</button>`);
+    back.onclick = home;
+    el.appendChild(back);
+    el.appendChild($(`<h1 class="title-main">${escapeHtml(categoryLabel(catKey))}</h1>`));
+
+    const toolbar = $('<div class="toolbar row"></div>');
+    appendSoundToggle(toolbar, () => categoryList(catKey));
+    el.appendChild(toolbar);
+
+    const list = document.createElement("div");
+    el.appendChild(list);
+    for (const s of skillsInCategory(catKey)) {
+      const sc = skillScore(s.skill_id);
+      const b = $(
+        `<button type="button" class="skill">
+          <strong>${escapeHtml(s.number)}. ${escapeHtml(s.title_en)}</strong>
+          <div class="muted skill-score-mini">AI ${sc}%</div>
+        </button>`
+      );
+      b.onclick = () => startSkill(s, { category: catKey });
+      list.appendChild(b);
+    }
   }
 
   async function loadItems(skill) {
@@ -195,14 +384,20 @@
     return [];
   }
 
-  async function startSkill(skill) {
+  async function startSkill(skill, opts = {}) {
     state.skill = skill;
+    state.selectedCategory = opts.category || state.selectedCategory || skill.category || null;
+    state.fromSearch = !!opts.fromSearch;
     app().innerHTML = "<p class='muted'>Loading…</p>";
     state.items = await loadItems(skill);
     if (!state.items.length) {
       app().innerHTML = "";
-      const back = $(`<button class="btn small">← Skills</button>`);
-      back.onclick = home;
+      const back = $(`<button type="button" class="btn small">← Back</button>`);
+      back.onclick = () => {
+        if (state.fromSearch) home();
+        else if (state.selectedCategory) categoryList(state.selectedCategory);
+        else home();
+      };
       app().appendChild(back);
       app().appendChild($(`<p>No questions for this skill yet.</p>`));
       return;
@@ -216,45 +411,69 @@
     return state.queue[state.idx];
   }
 
+  function playBack() {
+    if (state.fromSearch) home();
+    else if (state.selectedCategory) categoryList(state.selectedCategory);
+    else home();
+  }
+
   function showItem() {
     const skill = state.skill;
     const it = currentItem();
     if (!it) {
-      home();
+      playBack();
       return;
     }
     state.locked = false;
     state.orderPicked = [];
     const el = app();
     el.innerHTML = "";
-    const back = $(`<button class="btn small">← Skills</button>`);
-    back.onclick = home;
-    el.appendChild(back);
-    el.appendChild($(`<div class="muted">${escapeHtml(skill.title_en)}</div>`));
-    el.appendChild($(`<div class="score">${skillScore(skill.skill_id)}</div>`));
-    const prompt = t(skill.prompt_en, skill.prompt_ko);
-    const todo = t(skill.what_to_do_en, skill.what_to_do_ko);
-    el.appendChild($(`<h2>${escapeHtml(prompt)}</h2>`));
-    el.appendChild($(`<p class="muted">${escapeHtml(todo)}</p>`));
 
-    const type = it.item_type || "abcd";
-    const hideStem = type === "listen_tap";
-    if (!hideStem && it.stem) el.appendChild($(`<div class="stem">${escapeHtml(it.stem)}</div>`));
-    if (hideStem) {
-      const hear = $(`<button class="btn primary">▶ Listen</button>`);
-      const word = lemmas(it)[0] || (it.choices || [])[it.answer_index] || "";
-      hear.onclick = () => speak(word);
-      el.appendChild(hear);
-      setTimeout(() => speak(word), 300);
+    appendScoreBar(el, skill.skill_id);
+
+    const top = $('<div class="play-top row"></div>');
+    const back = $(`<button type="button" class="btn small">← Back</button>`);
+    back.onclick = playBack;
+    top.appendChild(back);
+    appendSoundToggle(top, showItem);
+    el.appendChild(top);
+
+    el.appendChild($(`<div class="muted skill-line">${escapeHtml(skill.number)}. ${escapeHtml(skill.title_en)}</div>`));
+
+    const blend = isBlendListen(skill);
+    const listen = isListenPresent(skill);
+    const hideStem = blend || (listen && isSpacedLetterStem(it.stem));
+    const stemVisible = !hideStem && !!it.stem;
+
+    let promptText;
+    let todoText;
+    if (blend) {
+      promptText = "Listen. Which word?";
+      todoText = t("Tap the picture or word.", "사진이나 낱말을 누르세요.");
+    } else {
+      promptText = t(skill.prompt_en, skill.prompt_ko);
+      todoText = t(skill.what_to_do_en, skill.what_to_do_ko);
     }
 
-    if (type === "word_to_picture") renderPicChoices(el, it);
+    el.appendChild($(`<h2 class="prompt">${escapeHtml(promptText)}</h2>`));
+    if (todoText) el.appendChild($(`<p class="muted todo">${escapeHtml(todoText)}</p>`));
+
+    if (stemVisible) el.appendChild($(`<div class="stem">${escapeHtml(it.stem)}</div>`));
+
+    const readText = autoReadText(skill, it, stemVisible);
+    const replay = $(`<button type="button" class="btn replay" aria-label="Play again">▶</button>`);
+    replay.onclick = () => speak(readText);
+    el.appendChild(replay);
+
+    const type = it.item_type || skill.item_type || "abcd";
+    if (blend) renderBlendChoices(el, it);
+    else if (type === "word_to_picture") renderPicChoices(el, it);
     else if (type === "order_words" || type === "order_sentences") renderOrder(el, it);
     else renderChoices(el, it);
 
     const fb = $(`<div class="feedback" id="fb"></div>`);
     el.appendChild(fb);
-    const next = $(`<button class="btn primary" id="next" style="display:none">Next</button>`);
+    const next = $(`<button type="button" class="btn primary" id="next" style="display:none">Next</button>`);
     next.onclick = () => {
       state.idx += 1;
       if (state.idx >= state.queue.length) {
@@ -264,6 +483,8 @@
       showItem();
     };
     el.appendChild(next);
+
+    if (soundEnabled() && readText) setTimeout(() => speak(readText), 300);
   }
 
   function escapeHtml(s) {
@@ -283,17 +504,38 @@
     el.appendChild(img);
   }
 
-  function renderChoices(el, it) {
+  function renderChoices(el, it, hideStem) {
     const type = it.item_type || "abcd";
     if (type === "picture_to_word" || type === "ab" || type === "odd_one_out") {
       addPic(el, lemmas(it)[0]);
     }
     const choices = it.choices || [];
     choices.forEach((c, i) => {
-      const b = $(`<button class="choice">${escapeHtml(c)}</button>`);
+      const b = $(`<button type="button" class="choice">${escapeHtml(c)}</button>`);
       b.onclick = () => gradeIndex(i, it, el.querySelectorAll(".choice"));
       el.appendChild(b);
     });
+  }
+
+  function renderBlendChoices(el, it) {
+    const wrap = $("<div class='pics'></div>");
+    const choices = it.choices || [];
+    choices.forEach((c, i) => {
+      const cell = $("<button type='button' class='picwrap choice'></button>");
+      const url = picUrl(c);
+      if (url) {
+        const img = document.createElement("img");
+        img.className = "pic";
+        img.src = url;
+        img.alt = c;
+        cell.appendChild(img);
+      } else {
+        cell.appendChild($(`<span class="choice-text">${escapeHtml(c)}</span>`));
+      }
+      cell.onclick = () => gradeIndex(i, it, wrap.querySelectorAll(".picwrap"));
+      wrap.appendChild(cell);
+    });
+    el.appendChild(wrap);
   }
 
   function renderPicChoices(el, it) {
@@ -302,7 +544,7 @@
     const lems = lemmas(it);
     choices.forEach((c, i) => {
       const lem = lems[i] || c;
-      const cell = $("<button class='picwrap'></button>");
+      const cell = $("<button type='button' class='picwrap'></button>");
       const url = picUrl(lem);
       if (url) {
         const img = document.createElement("img");
@@ -325,7 +567,7 @@
     const chips = $("<div class='chips' id='chips'></div>");
     const order = (it.choices || []).map((_, i) => i).sort(() => Math.random() - 0.5);
     order.forEach((i) => {
-      const ch = $(`<button class="chip" data-i="${i}">${escapeHtml(it.choices[i])}</button>`);
+      const ch = $(`<button type="button" class="chip" data-i="${i}">${escapeHtml(it.choices[i])}</button>`);
       ch.onclick = () => {
         if (state.locked) return;
         state.orderPicked.push(i);
@@ -357,13 +599,14 @@
 
   function finish(ok, it) {
     state.locked = true;
-    const s = applyScore(state.skill.skill_id, ok, it.tier || 2);
+    const skillId = state.skill.skill_id;
+    bumpStat(skillId, ok);
+    const s = applyScore(skillId, ok, it.tier || 2);
     const fb = document.getElementById("fb");
-    if (fb) fb.textContent = ok ? "Yes  ·  " + s : "Not that  ·  " + s;
+    if (fb) fb.textContent = ok ? "Yes  ·  " + s + "%" : "Not that  ·  " + s + "%";
     const n = document.getElementById("next");
     if (n) n.style.display = "block";
-    const scoreEl = document.querySelector(".score");
-    if (scoreEl) scoreEl.textContent = String(s);
+    refreshScoreBar(skillId);
   }
 
   boot().catch((e) => {
