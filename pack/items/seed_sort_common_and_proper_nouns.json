@@ -1,1 +1,2811 @@
-[{"item_id": "seed_sort_common_and_proper_nouns_0001", "tier": 1, "stem": "dog, <NAME>, cup, <NAME2>", "choices": ["dog", "<NAME>", "cup", "<NAME2>"], "explain_key": "a_name_is_special", "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0002", "tier": 1, "stem": "Monday, town, July, park", "choices": ["Monday", "town", "July", "park"], "explain_key": "days_and_months_are_special", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0003", "tier": 1, "stem": "<NAME>, bike, hat, <NAME2>", "choices": ["<NAME>", "bike", "hat", "<NAME2>"], "explain_key": "any_one_of_many", "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0004", "tier": 2, "stem": "April, teacher, <NAME>, school", "choices": ["April", "teacher", "<NAME>", "school"], "explain_key": "days_and_months_are_special", "swap_slots": {"NAME": "names.txt"}, "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0005", "tier": 2, "stem": "girl, <NAME>, Friday, boy", "choices": ["girl", "<NAME>", "Friday", "boy"], "explain_key": "any_one_of_many", "swap_slots": {"NAME": "names.txt"}, "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [3, 0, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0006", "tier": 2, "stem": "<NAME>, brother, <NAME2>, sister", "choices": ["<NAME>", "brother", "<NAME2>", "sister"], "explain_key": "a_name_is_special", "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0007", "tier": 3, "stem": "kitten, <NAME>, street, October", "choices": ["kitten", "<NAME>", "street", "October"], "explain_key": "a_pet_word_is_not_a_name", "swap_slots": {"NAME": "names.txt"}, "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0008", "tier": 3, "stem": "<NAME>, friend, November, horse", "choices": ["<NAME>", "friend", "November", "horse"], "explain_key": "a_people_word_is_not_a_name", "swap_slots": {"NAME": "names.txt"}, "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "item_type": "sort_two_bins", "source": "composer-2.5", "spec_version": 1, "answer_index": [3, 1, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0009", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "cat, <NAME>, ball, <NAME2>", "choices": ["cat", "<NAME>", "ball", "<NAME2>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0010", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "Tuesday, farm, March, lake", "choices": ["Tuesday", "farm", "March", "lake"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0011", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "book, <NAME>, toy, Saturday", "choices": ["book", "<NAME>", "toy", "Saturday"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0012", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "<NAME>, sock, <NAME2>, shoe", "choices": ["<NAME>", "sock", "<NAME2>", "shoe"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0013", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "January, bird, Sunday, nest", "choices": ["January", "bird", "Sunday", "nest"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0014", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "fish, <NAME>, duck, June", "choices": ["fish", "<NAME>", "duck", "June"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0015", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "Wednesday, cake, August, bed", "choices": ["Wednesday", "cake", "August", "bed"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0016", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "<NAME>, tree, flower, <NAME2>", "choices": ["<NAME>", "tree", "flower", "<NAME2>"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0017", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "pig, <NAME>, cow, <NAME2>", "choices": ["pig", "<NAME>", "cow", "<NAME2>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0018", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "Thursday, rain, December, cloud", "choices": ["Thursday", "rain", "December", "cloud"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0019", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "apple, <NAME>, banana, May", "choices": ["apple", "<NAME>", "banana", "May"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0020", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "<NAME>, game, <NAME2>, kite", "choices": ["<NAME>", "game", "<NAME2>", "kite"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0021", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "Saturday, egg, February, milk", "choices": ["Saturday", "egg", "February", "milk"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0022", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "bus, <NAME>, car, <NAME2>", "choices": ["bus", "<NAME>", "car", "<NAME2>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0023", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "March, bread, Friday, rice", "choices": ["March", "bread", "Friday", "rice"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0024", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "<NAME>, boat, train, <NAME2>", "choices": ["<NAME>", "boat", "train", "<NAME2>"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0025", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "dog, September, cup, <NAME>", "choices": ["dog", "September", "cup", "<NAME>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0026", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "Monday, corn, July, soup", "choices": ["Monday", "corn", "July", "soup"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0027", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "<NAME>, ant, bug, <NAME2>", "choices": ["<NAME>", "ant", "bug", "<NAME2>"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0028", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "October, fox, Tuesday, wolf", "choices": ["October", "fox", "Tuesday", "wolf"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0029", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "hen, <NAME>, frog, <NAME2>", "choices": ["hen", "<NAME>", "frog", "<NAME2>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0030", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "November, snow, Wednesday, wind", "choices": ["November", "snow", "Wednesday", "wind"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0031", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "<NAME>, star, moon, <NAME2>", "choices": ["<NAME>", "star", "moon", "<NAME2>"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0032", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "rabbit, <NAME>, mouse, January", "choices": ["rabbit", "<NAME>", "mouse", "January"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0033", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "Thursday, grass, June, hill", "choices": ["Thursday", "grass", "June", "hill"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0034", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "<NAME>, sand, rock, <NAME2>", "choices": ["<NAME>", "sand", "rock", "<NAME2>"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0035", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 1, "item_type": "sort_two_bins", "stem": "August, tea, Sunday, juice", "choices": ["August", "tea", "Sunday", "juice"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0036", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "school, <NAME>, teacher, April", "choices": ["school", "<NAME>", "teacher", "April"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0037", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "boy, <NAME>, girl, Monday", "choices": ["boy", "<NAME>", "girl", "Monday"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0038", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, town, park, <NAME2>", "choices": ["<NAME>", "town", "park", "<NAME2>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0039", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "February, student, Saturday, child", "choices": ["February", "student", "Saturday", "child"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0040", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "brother, <NAME>, sister, July", "choices": ["brother", "<NAME>", "sister", "July"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0041", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, school, teacher, Wednesday", "choices": ["<NAME>", "school", "teacher", "Wednesday"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0042", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "March, boy, Friday, girl", "choices": ["March", "boy", "Friday", "girl"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0043", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "town, <NAME>, park, <NAME2>", "choices": ["town", "<NAME>", "park", "<NAME2>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0044", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, child, student, October", "choices": ["<NAME>", "child", "student", "October"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0045", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "teacher, <NAME>, school, May", "choices": ["teacher", "<NAME>", "school", "May"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0046", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "girl, Tuesday, boy, <NAME>", "choices": ["girl", "Tuesday", "boy", "<NAME>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0047", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, sister, brother, <NAME2>", "choices": ["<NAME>", "sister", "brother", "<NAME2>"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0048", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "May, town, Sunday, park", "choices": ["May", "town", "Sunday", "park"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0049", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "student, <NAME>, child, June", "choices": ["student", "<NAME>", "child", "June"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0050", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, girl, boy, Thursday", "choices": ["<NAME>", "girl", "boy", "Thursday"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0051", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "school, September, teacher, <NAME>", "choices": ["school", "September", "teacher", "<NAME>"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0052", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "park, <NAME>, town, November", "choices": ["park", "<NAME>", "town", "November"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0053", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, student, child, December", "choices": ["<NAME>", "student", "child", "December"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0054", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "January, brother, Friday, sister", "choices": ["January", "brother", "Friday", "sister"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0055", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "teacher, <NAME>, town, <NAME2>", "choices": ["teacher", "<NAME>", "town", "<NAME2>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0056", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "boy, March, <NAME>, girl", "choices": ["boy", "March", "<NAME>", "girl"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0057", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, town, Monday, park", "choices": ["<NAME>", "town", "Monday", "park"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0058", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "child, <NAME>, student, August", "choices": ["child", "<NAME>", "student", "August"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0059", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "Tuesday, school, October, teacher", "choices": ["Tuesday", "school", "October", "teacher"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0060", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "girl, <NAME>, boy, July", "choices": ["girl", "<NAME>", "boy", "July"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0061", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "Wednesday, park, April, town", "choices": ["Wednesday", "park", "April", "town"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0062", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "student, Saturday, <NAME>, child", "choices": ["student", "Saturday", "<NAME>", "child"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0063", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, teacher, school, May", "choices": ["<NAME>", "teacher", "school", "May"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0064", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "brother, June, <NAME>, sister", "choices": ["brother", "June", "<NAME>", "sister"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0065", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "Friday, girl, February, boy", "choices": ["Friday", "girl", "February", "boy"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0066", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "town, <NAME>, child, <NAME2>", "choices": ["town", "<NAME>", "child", "<NAME2>"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt", "NAME2": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0067", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, park, student, September", "choices": ["<NAME>", "park", "student", "September"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 2, 0, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0068", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "school, Thursday, teacher, March", "choices": ["school", "Thursday", "teacher", "March"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0069", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "boy, <NAME>, girl, November", "choices": ["boy", "<NAME>", "girl", "November"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0070", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "<NAME>, brother, Sunday, sister", "choices": ["<NAME>", "brother", "Sunday", "sister"], "explain_key": "days_and_months_are_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0071", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "park, <NAME>, child, March", "choices": ["park", "<NAME>", "child", "March"], "explain_key": "any_one_of_many", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0072", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 2, "item_type": "sort_two_bins", "stem": "town, December, <NAME>, student", "choices": ["town", "December", "<NAME>", "student"], "explain_key": "a_name_is_special", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0073", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "puppy, <NAME>, street, March", "choices": ["puppy", "<NAME>", "street", "March"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0074", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, friend, April, horse", "choices": ["<NAME>", "friend", "April", "horse"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0075", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "kitten, May, <NAME>, road", "choices": ["kitten", "May", "<NAME>", "road"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0076", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, <NAME>, June, pet", "choices": ["friend", "<NAME>", "June", "pet"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0077", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, puppy, July, street", "choices": ["<NAME>", "puppy", "July", "street"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0078", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "horse, August, <NAME>, friend", "choices": ["horse", "August", "<NAME>", "friend"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0079", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "pet, <NAME>, September, kitten", "choices": ["pet", "<NAME>", "September", "kitten"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0080", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, October, horse, <NAME>", "choices": ["friend", "October", "horse", "<NAME>"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0081", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, kitten, November, pond", "choices": ["<NAME>", "kitten", "November", "pond"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0082", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "rabbit, <NAME>, December, friend", "choices": ["rabbit", "<NAME>", "December", "friend"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0083", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, January, <NAME>, puppy", "choices": ["friend", "January", "<NAME>", "puppy"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0084", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "kitten, <NAME>, February, lake", "choices": ["kitten", "<NAME>", "February", "lake"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0085", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, friend, March, duck", "choices": ["<NAME>", "friend", "March", "duck"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0086", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "pet, April, street, <NAME>", "choices": ["pet", "April", "street", "<NAME>"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0087", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, <NAME>, May, sheep", "choices": ["friend", "<NAME>", "May", "sheep"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0088", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, kitten, June, road", "choices": ["<NAME>", "kitten", "June", "road"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0089", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "horse, July, friend, <NAME>", "choices": ["horse", "July", "friend", "<NAME>"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0090", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "puppy, August, <NAME>, street", "choices": ["puppy", "August", "<NAME>", "street"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0091", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, friend, September, fox", "choices": ["<NAME>", "friend", "September", "fox"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0092", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "kitten, October, <NAME>, hill", "choices": ["kitten", "October", "<NAME>", "hill"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0093", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, November, pet, <NAME>", "choices": ["friend", "November", "pet", "<NAME>"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0094", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, puppy, December, road", "choices": ["<NAME>", "puppy", "December", "road"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0095", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "horse, <NAME>, January, friend", "choices": ["horse", "<NAME>", "January", "friend"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0096", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "kitten, February, street, <NAME>", "choices": ["kitten", "February", "street", "<NAME>"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0097", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, friend, March, rabbit", "choices": ["<NAME>", "friend", "March", "rabbit"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0098", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "pet, April, <NAME>, pond", "choices": ["pet", "April", "<NAME>", "pond"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 3, 1, 2]}, {"item_id": "seed_sort_common_and_proper_nouns_0099", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "friend, May, kitten, <NAME>", "choices": ["friend", "May", "kitten", "<NAME>"], "explain_key": "a_people_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [0, 2, 1, 3]}, {"item_id": "seed_sort_common_and_proper_nouns_0100", "family_id": "fam_sort_common_and_proper_nouns", "skill_id": "seed_sort_common_and_proper_nouns", "stage": "seed", "tier": 3, "item_type": "sort_two_bins", "stem": "<NAME>, puppy, June, lake", "choices": ["<NAME>", "puppy", "June", "lake"], "explain_key": "a_pet_word_is_not_a_name", "source": "composer-2.5", "spec_version": 1, "swap_slots": {"NAME": "names.txt"}, "answer_index": [1, 3, 0, 2]}]
+[
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0001",
+    "tier": 1,
+    "stem": "dog, <NAME>, cup, <NAME2>",
+    "choices": [
+      "dog",
+      "<NAME>",
+      "cup",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one. A [[name]] is one special person.",
+    "explain_item_en": "[[Dog]] and cup are any one. The names are special.",
+    "speak_en": "Can you sort dog, <NAME>, cup, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0002",
+    "tier": 1,
+    "stem": "Monday, town, July, park",
+    "choices": [
+      "Monday",
+      "town",
+      "July",
+      "park"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[day]] and a [[month]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[Monday]] and July are special. Town and park are any one.",
+    "speak_en": "Can you sort Monday, town, July, and park into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0003",
+    "tier": 1,
+    "stem": "<NAME>, bike, hat, <NAME2>",
+    "choices": [
+      "<NAME>",
+      "bike",
+      "hat",
+      "<NAME2>"
+    ],
+    "explain_key": "any_one_of_many",
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one of many. A [[name]] is just one person.",
+    "explain_item_en": "[[Bike]] and hat are any one.",
+    "speak_en": "Can you sort <NAME>, bike, hat, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0004",
+    "tier": 2,
+    "stem": "April, teacher, <NAME>, school",
+    "choices": [
+      "April",
+      "teacher",
+      "<NAME>",
+      "school"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] is special. A job word is [[any]] one.",
+    "explain_item_en": "[[April]] is a special month. Teacher and school are any one.",
+    "speak_en": "Can you sort April, teacher, <NAME>, and school into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0005",
+    "tier": 2,
+    "stem": "girl, <NAME>, Friday, boy",
+    "choices": [
+      "girl",
+      "<NAME>",
+      "Friday",
+      "boy"
+    ],
+    "explain_key": "any_one_of_many",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "explain_skill_en": "[[Girl]] and boy name [[any]] one kid.",
+    "explain_item_en": "The [[name]] and Friday are special.",
+    "speak_en": "Can you sort girl, <NAME>, Friday, and boy into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0006",
+    "tier": 2,
+    "stem": "<NAME>, brother, <NAME2>, sister",
+    "choices": [
+      "<NAME>",
+      "brother",
+      "<NAME2>",
+      "sister"
+    ],
+    "explain_key": "a_name_is_special",
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[name]] is one special person. Family words are [[any]] one.",
+    "explain_item_en": "[[Brother]] and sister are any one. The names are special.",
+    "speak_en": "Can you sort <NAME>, brother, <NAME2>, and sister into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0007",
+    "tier": 3,
+    "stem": "kitten, <NAME>, street, October",
+    "choices": [
+      "kitten",
+      "<NAME>",
+      "street",
+      "October"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A pet word is [[any]] one. It is not a [[name]].",
+    "explain_item_en": "[[Kitten]] means any little cat. Street is any one too.",
+    "speak_en": "Can you sort kitten, <NAME>, street, and October into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0008",
+    "tier": 3,
+    "stem": "<NAME>, friend, November, horse",
+    "choices": [
+      "<NAME>",
+      "friend",
+      "November",
+      "horse"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "explain_skill_en": "A people word is [[any]] one. It is not a [[name]].",
+    "explain_item_en": "[[Friend]] means any pal. Horse is any one too.",
+    "speak_en": "Can you sort <NAME>, friend, November, and horse into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0009",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "cat, <NAME>, ball, <NAME2>",
+    "choices": [
+      "cat",
+      "<NAME>",
+      "ball",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one. A [[name]] is one special person.",
+    "explain_item_en": "[[Cat]] and ball are any one. The names are special.",
+    "speak_en": "Can you sort cat, <NAME>, ball, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0010",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "Tuesday, farm, March, lake",
+    "choices": [
+      "Tuesday",
+      "farm",
+      "March",
+      "lake"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[day]] and a [[month]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[Tuesday]] and March are special. Farm and lake are any one.",
+    "speak_en": "Can you sort Tuesday, farm, March, and lake into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0011",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "book, <NAME>, toy, Saturday",
+    "choices": [
+      "book",
+      "<NAME>",
+      "toy",
+      "Saturday"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. A [[day]] is special too.",
+    "explain_item_en": "[[Book]] and toy are any one.",
+    "speak_en": "Can you sort book, <NAME>, toy, and Saturday into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0012",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, sock, <NAME2>, shoe",
+    "choices": [
+      "<NAME>",
+      "sock",
+      "<NAME2>",
+      "shoe"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "Some words name [[any]] one of many. A [[name]] is just one person.",
+    "explain_item_en": "[[Sock]] and shoe are any one.",
+    "speak_en": "Can you sort <NAME>, sock, <NAME2>, and shoe into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0013",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "January, bird, Sunday, nest",
+    "choices": [
+      "January",
+      "bird",
+      "Sunday",
+      "nest"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] and a [[day]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[January]] and Sunday are special. Bird and nest are any one.",
+    "speak_en": "Can you sort January, bird, Sunday, and nest into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0014",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "fish, <NAME>, duck, June",
+    "choices": [
+      "fish",
+      "<NAME>",
+      "duck",
+      "June"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. A [[month]] is special too.",
+    "explain_item_en": "[[Fish]] and duck are any one.",
+    "speak_en": "Can you sort fish, <NAME>, duck, and June into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0015",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "Wednesday, cake, August, bed",
+    "choices": [
+      "Wednesday",
+      "cake",
+      "August",
+      "bed"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[day]] and a [[month]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[Wednesday]] and August are special. Cake and bed are any one.",
+    "speak_en": "Can you sort Wednesday, cake, August, and bed into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0016",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, tree, flower, <NAME2>",
+    "choices": [
+      "<NAME>",
+      "tree",
+      "flower",
+      "<NAME2>"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one of many. A [[name]] is just one person.",
+    "explain_item_en": "[[Tree]] and flower are any one.",
+    "speak_en": "Can you sort <NAME>, tree, flower, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0017",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "pig, <NAME>, cow, <NAME2>",
+    "choices": [
+      "pig",
+      "<NAME>",
+      "cow",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one. A [[name]] is one special person.",
+    "explain_item_en": "[[Pig]] and cow are any one. The names are special.",
+    "speak_en": "Can you sort pig, <NAME>, cow, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0018",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "Thursday, rain, December, cloud",
+    "choices": [
+      "Thursday",
+      "rain",
+      "December",
+      "cloud"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[day]] and a [[month]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[Thursday]] and December are special. Rain and cloud are any one.",
+    "speak_en": "Can you sort Thursday, rain, December, and cloud into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0019",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "apple, <NAME>, banana, May",
+    "choices": [
+      "apple",
+      "<NAME>",
+      "banana",
+      "May"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. A [[month]] is special too.",
+    "explain_item_en": "[[Apple]] and banana are any one.",
+    "speak_en": "Can you sort apple, <NAME>, banana, and May into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0020",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, game, <NAME2>, kite",
+    "choices": [
+      "<NAME>",
+      "game",
+      "<NAME2>",
+      "kite"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "Some words name [[any]] one of many. A [[name]] is just one person.",
+    "explain_item_en": "[[Game]] and kite are any one.",
+    "speak_en": "Can you sort <NAME>, game, <NAME2>, and kite into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0021",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "Saturday, egg, February, milk",
+    "choices": [
+      "Saturday",
+      "egg",
+      "February",
+      "milk"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[day]] and a [[month]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[Saturday]] and February are special. Egg and milk are any one.",
+    "speak_en": "Can you sort Saturday, egg, February, and milk into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0022",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "bus, <NAME>, car, <NAME2>",
+    "choices": [
+      "bus",
+      "<NAME>",
+      "car",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one. A [[name]] is one special person.",
+    "explain_item_en": "[[Bus]] and car are any one. The names are special.",
+    "speak_en": "Can you sort bus, <NAME>, car, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0023",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "March, bread, Friday, rice",
+    "choices": [
+      "March",
+      "bread",
+      "Friday",
+      "rice"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] and a [[day]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[March]] and Friday are special. Bread and rice are any one.",
+    "speak_en": "Can you sort March, bread, Friday, and rice into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0024",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, boat, train, <NAME2>",
+    "choices": [
+      "<NAME>",
+      "boat",
+      "train",
+      "<NAME2>"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one of many. A [[name]] is just one person.",
+    "explain_item_en": "[[Boat]] and train are any one.",
+    "speak_en": "Can you sort <NAME>, boat, train, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0025",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "dog, September, cup, <NAME>",
+    "choices": [
+      "dog",
+      "September",
+      "cup",
+      "<NAME>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. A [[month]] is special too.",
+    "explain_item_en": "[[Dog]] and cup are any one.",
+    "speak_en": "Can you sort dog, September, cup, and <NAME> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0026",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "Monday, corn, July, soup",
+    "choices": [
+      "Monday",
+      "corn",
+      "July",
+      "soup"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[day]] and a [[month]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[Monday]] and July are special. Corn and soup are any one.",
+    "speak_en": "Can you sort Monday, corn, July, and soup into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0027",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, ant, bug, <NAME2>",
+    "choices": [
+      "<NAME>",
+      "ant",
+      "bug",
+      "<NAME2>"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one of many. A [[name]] is just one person.",
+    "explain_item_en": "[[Ant]] and bug are any one.",
+    "speak_en": "Can you sort <NAME>, ant, bug, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0028",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "October, fox, Tuesday, wolf",
+    "choices": [
+      "October",
+      "fox",
+      "Tuesday",
+      "wolf"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] and a [[day]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[October]] and Tuesday are special. Fox and wolf are any one.",
+    "speak_en": "Can you sort October, fox, Tuesday, and wolf into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0029",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "hen, <NAME>, frog, <NAME2>",
+    "choices": [
+      "hen",
+      "<NAME>",
+      "frog",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one. A [[name]] is one special person.",
+    "explain_item_en": "[[Hen]] and frog are any one. The names are special.",
+    "speak_en": "Can you sort hen, <NAME>, frog, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0030",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "November, snow, Wednesday, wind",
+    "choices": [
+      "November",
+      "snow",
+      "Wednesday",
+      "wind"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] and a [[day]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[November]] and Wednesday are special. Snow and wind are any one.",
+    "speak_en": "Can you sort November, snow, Wednesday, and wind into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0031",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, star, moon, <NAME2>",
+    "choices": [
+      "<NAME>",
+      "star",
+      "moon",
+      "<NAME2>"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one of many. A [[name]] is just one person.",
+    "explain_item_en": "[[Star]] and moon are any one.",
+    "speak_en": "Can you sort <NAME>, star, moon, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0032",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "rabbit, <NAME>, mouse, January",
+    "choices": [
+      "rabbit",
+      "<NAME>",
+      "mouse",
+      "January"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. A [[month]] is special too.",
+    "explain_item_en": "[[Rabbit]] and mouse are any one.",
+    "speak_en": "Can you sort rabbit, <NAME>, mouse, and January into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0033",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "Thursday, grass, June, hill",
+    "choices": [
+      "Thursday",
+      "grass",
+      "June",
+      "hill"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[day]] and a [[month]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[Thursday]] and June are special. Grass and hill are any one.",
+    "speak_en": "Can you sort Thursday, grass, June, and hill into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0034",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, sand, rock, <NAME2>",
+    "choices": [
+      "<NAME>",
+      "sand",
+      "rock",
+      "<NAME2>"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Some words name [[any]] one of many. A [[name]] is just one person.",
+    "explain_item_en": "[[Sand]] and rock are any one.",
+    "speak_en": "Can you sort <NAME>, sand, rock, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0035",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "August, tea, Sunday, juice",
+    "choices": [
+      "August",
+      "tea",
+      "Sunday",
+      "juice"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] and a [[day]] are special. They need a [[big]] letter.",
+    "explain_item_en": "[[August]] and Sunday are special. Tea and juice are any one.",
+    "speak_en": "Can you sort August, tea, Sunday, and juice into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0036",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "school, <NAME>, teacher, April",
+    "choices": [
+      "school",
+      "<NAME>",
+      "teacher",
+      "April"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[month]] is special. Place and job words are [[any]] one.",
+    "explain_item_en": "[[School]] and teacher are any one. April is special.",
+    "speak_en": "Can you sort school, <NAME>, teacher, and April into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0037",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "boy, <NAME>, girl, Monday",
+    "choices": [
+      "boy",
+      "<NAME>",
+      "girl",
+      "Monday"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "[[Boy]] and girl name [[any]] one kid.",
+    "explain_item_en": "The [[name]] and Monday are special.",
+    "speak_en": "Can you sort boy, <NAME>, girl, and Monday into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0038",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, town, park, <NAME2>",
+    "choices": [
+      "<NAME>",
+      "town",
+      "park",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. Place words are [[any]] one.",
+    "explain_item_en": "[[Town]] and park are any one. The names are special.",
+    "speak_en": "Can you sort <NAME>, town, park, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0039",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "February, student, Saturday, child",
+    "choices": [
+      "February",
+      "student",
+      "Saturday",
+      "child"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] and a [[day]] are special. People words are [[any]] one.",
+    "explain_item_en": "[[Student]] and child are any one.",
+    "speak_en": "Can you sort February, student, Saturday, and child into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0040",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "brother, <NAME>, sister, July",
+    "choices": [
+      "brother",
+      "<NAME>",
+      "sister",
+      "July"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. Family words are [[any]] one.",
+    "explain_item_en": "[[Brother]] and sister are any one. July is special too.",
+    "speak_en": "Can you sort brother, <NAME>, sister, and July into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0041",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, school, teacher, Wednesday",
+    "choices": [
+      "<NAME>",
+      "school",
+      "teacher",
+      "Wednesday"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Place and job words name [[any]] one. A [[name]] is just one person.",
+    "explain_item_en": "[[School]] and teacher are any one. Wednesday is special too.",
+    "speak_en": "Can you sort <NAME>, school, teacher, and Wednesday into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0042",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "March, boy, Friday, girl",
+    "choices": [
+      "March",
+      "boy",
+      "Friday",
+      "girl"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] and a [[day]] are special. Kid words are [[any]] one.",
+    "explain_item_en": "[[Boy]] and girl are any one.",
+    "speak_en": "Can you sort March, boy, Friday, and girl into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0043",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "town, <NAME>, park, <NAME2>",
+    "choices": [
+      "town",
+      "<NAME>",
+      "park",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. Place words are [[any]] one.",
+    "explain_item_en": "[[Town]] and park are any one. The names are special.",
+    "speak_en": "Can you sort town, <NAME>, park, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0044",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, child, student, October",
+    "choices": [
+      "<NAME>",
+      "child",
+      "student",
+      "October"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "People words name [[any]] one. A [[name]] is just one person.",
+    "explain_item_en": "[[Child]] and student are any one. October is special too.",
+    "speak_en": "Can you sort <NAME>, child, student, and October into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0045",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "teacher, <NAME>, school, May",
+    "choices": [
+      "teacher",
+      "<NAME>",
+      "school",
+      "May"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[month]] is special. Job and place words are [[any]] one.",
+    "explain_item_en": "[[Teacher]] and school are any one. May is special.",
+    "speak_en": "Can you sort teacher, <NAME>, school, and May into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0046",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "girl, Tuesday, boy, <NAME>",
+    "choices": [
+      "girl",
+      "Tuesday",
+      "boy",
+      "<NAME>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. Kid words are [[any]] one.",
+    "explain_item_en": "[[Girl]] and boy are any one. Tuesday is special too.",
+    "speak_en": "Can you sort girl, Tuesday, boy, and <NAME> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0047",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, sister, brother, <NAME2>",
+    "choices": [
+      "<NAME>",
+      "sister",
+      "brother",
+      "<NAME2>"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "Family words name [[any]] one. A [[name]] is just one person.",
+    "explain_item_en": "[[Sister]] and brother are any one.",
+    "speak_en": "Can you sort <NAME>, sister, brother, and <NAME2> into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0048",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "May, town, Sunday, park",
+    "choices": [
+      "May",
+      "town",
+      "Sunday",
+      "park"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "explain_skill_en": "A [[month]] and a [[day]] are special. Place words are [[any]] one.",
+    "explain_item_en": "[[Town]] and park are any one.",
+    "speak_en": "Can you sort May, town, Sunday, and park into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0049",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "student, <NAME>, child, June",
+    "choices": [
+      "student",
+      "<NAME>",
+      "child",
+      "June"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explain_skill_en": "A [[name]] is one special person. People words are [[any]] one.",
+    "explain_item_en": "[[Student]] and child are any one. June is special too.",
+    "speak_en": "Can you sort student, <NAME>, child, and June into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0050",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, girl, boy, Thursday",
+    "choices": [
+      "<NAME>",
+      "girl",
+      "boy",
+      "Thursday"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "explain_skill_en": "[[Girl]] and boy name [[any]] one kid.",
+    "explain_item_en": "The [[name]] and Thursday are special.",
+    "speak_en": "Can you sort <NAME>, girl, boy, and Thursday into any one or one special one?"
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0051",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "school, September, teacher, <NAME>",
+    "choices": [
+      "school",
+      "September",
+      "teacher",
+      "<NAME>"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0052",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "park, <NAME>, town, November",
+    "choices": [
+      "park",
+      "<NAME>",
+      "town",
+      "November"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0053",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, student, child, December",
+    "choices": [
+      "<NAME>",
+      "student",
+      "child",
+      "December"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0054",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "January, brother, Friday, sister",
+    "choices": [
+      "January",
+      "brother",
+      "Friday",
+      "sister"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0055",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "teacher, <NAME>, town, <NAME2>",
+    "choices": [
+      "teacher",
+      "<NAME>",
+      "town",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0056",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "boy, March, <NAME>, girl",
+    "choices": [
+      "boy",
+      "March",
+      "<NAME>",
+      "girl"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0057",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, town, Monday, park",
+    "choices": [
+      "<NAME>",
+      "town",
+      "Monday",
+      "park"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0058",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "child, <NAME>, student, August",
+    "choices": [
+      "child",
+      "<NAME>",
+      "student",
+      "August"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0059",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "Tuesday, school, October, teacher",
+    "choices": [
+      "Tuesday",
+      "school",
+      "October",
+      "teacher"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0060",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "girl, <NAME>, boy, July",
+    "choices": [
+      "girl",
+      "<NAME>",
+      "boy",
+      "July"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0061",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "Wednesday, park, April, town",
+    "choices": [
+      "Wednesday",
+      "park",
+      "April",
+      "town"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0062",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "student, Saturday, <NAME>, child",
+    "choices": [
+      "student",
+      "Saturday",
+      "<NAME>",
+      "child"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0063",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, teacher, school, May",
+    "choices": [
+      "<NAME>",
+      "teacher",
+      "school",
+      "May"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0064",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "brother, June, <NAME>, sister",
+    "choices": [
+      "brother",
+      "June",
+      "<NAME>",
+      "sister"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0065",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "Friday, girl, February, boy",
+    "choices": [
+      "Friday",
+      "girl",
+      "February",
+      "boy"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0066",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "town, <NAME>, child, <NAME2>",
+    "choices": [
+      "town",
+      "<NAME>",
+      "child",
+      "<NAME2>"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt",
+      "NAME2": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0067",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, park, student, September",
+    "choices": [
+      "<NAME>",
+      "park",
+      "student",
+      "September"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      2,
+      0,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0068",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "school, Thursday, teacher, March",
+    "choices": [
+      "school",
+      "Thursday",
+      "teacher",
+      "March"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0069",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "boy, <NAME>, girl, November",
+    "choices": [
+      "boy",
+      "<NAME>",
+      "girl",
+      "November"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0070",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, brother, Sunday, sister",
+    "choices": [
+      "<NAME>",
+      "brother",
+      "Sunday",
+      "sister"
+    ],
+    "explain_key": "days_and_months_are_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0071",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "park, <NAME>, child, March",
+    "choices": [
+      "park",
+      "<NAME>",
+      "child",
+      "March"
+    ],
+    "explain_key": "any_one_of_many",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0072",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "town, December, <NAME>, student",
+    "choices": [
+      "town",
+      "December",
+      "<NAME>",
+      "student"
+    ],
+    "explain_key": "a_name_is_special",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0073",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "puppy, <NAME>, street, March",
+    "choices": [
+      "puppy",
+      "<NAME>",
+      "street",
+      "March"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0074",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, friend, April, horse",
+    "choices": [
+      "<NAME>",
+      "friend",
+      "April",
+      "horse"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0075",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "kitten, May, <NAME>, road",
+    "choices": [
+      "kitten",
+      "May",
+      "<NAME>",
+      "road"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0076",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, <NAME>, June, pet",
+    "choices": [
+      "friend",
+      "<NAME>",
+      "June",
+      "pet"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0077",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, puppy, July, street",
+    "choices": [
+      "<NAME>",
+      "puppy",
+      "July",
+      "street"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0078",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "horse, August, <NAME>, friend",
+    "choices": [
+      "horse",
+      "August",
+      "<NAME>",
+      "friend"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0079",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "pet, <NAME>, September, kitten",
+    "choices": [
+      "pet",
+      "<NAME>",
+      "September",
+      "kitten"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0080",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, October, horse, <NAME>",
+    "choices": [
+      "friend",
+      "October",
+      "horse",
+      "<NAME>"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0081",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, kitten, November, pond",
+    "choices": [
+      "<NAME>",
+      "kitten",
+      "November",
+      "pond"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0082",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "rabbit, <NAME>, December, friend",
+    "choices": [
+      "rabbit",
+      "<NAME>",
+      "December",
+      "friend"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0083",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, January, <NAME>, puppy",
+    "choices": [
+      "friend",
+      "January",
+      "<NAME>",
+      "puppy"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0084",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "kitten, <NAME>, February, lake",
+    "choices": [
+      "kitten",
+      "<NAME>",
+      "February",
+      "lake"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0085",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, friend, March, duck",
+    "choices": [
+      "<NAME>",
+      "friend",
+      "March",
+      "duck"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0086",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "pet, April, street, <NAME>",
+    "choices": [
+      "pet",
+      "April",
+      "street",
+      "<NAME>"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0087",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, <NAME>, May, sheep",
+    "choices": [
+      "friend",
+      "<NAME>",
+      "May",
+      "sheep"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0088",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, kitten, June, road",
+    "choices": [
+      "<NAME>",
+      "kitten",
+      "June",
+      "road"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0089",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "horse, July, friend, <NAME>",
+    "choices": [
+      "horse",
+      "July",
+      "friend",
+      "<NAME>"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0090",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "puppy, August, <NAME>, street",
+    "choices": [
+      "puppy",
+      "August",
+      "<NAME>",
+      "street"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0091",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, friend, September, fox",
+    "choices": [
+      "<NAME>",
+      "friend",
+      "September",
+      "fox"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0092",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "kitten, October, <NAME>, hill",
+    "choices": [
+      "kitten",
+      "October",
+      "<NAME>",
+      "hill"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0093",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, November, pet, <NAME>",
+    "choices": [
+      "friend",
+      "November",
+      "pet",
+      "<NAME>"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0094",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, puppy, December, road",
+    "choices": [
+      "<NAME>",
+      "puppy",
+      "December",
+      "road"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0095",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "horse, <NAME>, January, friend",
+    "choices": [
+      "horse",
+      "<NAME>",
+      "January",
+      "friend"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0096",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "kitten, February, street, <NAME>",
+    "choices": [
+      "kitten",
+      "February",
+      "street",
+      "<NAME>"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0097",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, friend, March, rabbit",
+    "choices": [
+      "<NAME>",
+      "friend",
+      "March",
+      "rabbit"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0098",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "pet, April, <NAME>, pond",
+    "choices": [
+      "pet",
+      "April",
+      "<NAME>",
+      "pond"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0099",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "friend, May, kitten, <NAME>",
+    "choices": [
+      "friend",
+      "May",
+      "kitten",
+      "<NAME>"
+    ],
+    "explain_key": "a_people_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      0,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "item_id": "seed_sort_common_and_proper_nouns_0100",
+    "family_id": "fam_sort_common_and_proper_nouns",
+    "skill_id": "seed_sort_common_and_proper_nouns",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME>, puppy, June, lake",
+    "choices": [
+      "<NAME>",
+      "puppy",
+      "June",
+      "lake"
+    ],
+    "explain_key": "a_pet_word_is_not_a_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "answer_index": [
+      1,
+      3,
+      0,
+      2
+    ]
+  }
+]

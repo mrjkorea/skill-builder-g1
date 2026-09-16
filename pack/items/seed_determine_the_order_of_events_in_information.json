@@ -1,1 +1,2502 @@
-[{"item_id": "seed_determine_the_order_of_events_in_information_0001", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Growing a plant.", "choices": ["The plant grows.", "Put in a seed.", "A leaf comes out."], "answer_order": [1, 2, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0002", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Making tea.", "choices": ["Get a cup.", "Drink the tea.", "Add hot water."], "answer_order": [0, 2, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0003", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "A day at school.", "choices": ["Go home.", "Go to class.", "Eat lunch."], "answer_order": [1, 2, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0004", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Baking a cake.", "choices": ["Mix it all up.", "Get eggs and milk.", "Eat the cake."], "answer_order": [1, 0, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0005", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Getting on the bus.", "choices": ["Sit down.", "Get on the bus.", "Wait at the stop."], "answer_order": [2, 1, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0006", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Washing your hands.", "choices": ["Turn on the water.", "Dry your hands.", "Use soap."], "answer_order": [0, 2, 1], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0007", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How rain falls.", "choices": ["A cloud grows.", "Rain falls down.", "Water goes up."], "answer_order": [2, 0, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0008", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A bird nest.", "choices": ["Eggs sit in it.", "A bird makes it.", "Baby birds come."], "answer_order": [1, 0, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0009", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Brushing teeth.", "choices": ["Get your brush.", "Brush your teeth.", "Rinse your mouth."], "answer_order": [0, 1, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0010", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Eating breakfast.", "choices": ["Sit at table.", "Leave for school.", "Eat your food."], "answer_order": [0, 2, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0011", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Feeding the cat.", "choices": ["Put food down.", "Get the food.", "The cat eats."], "answer_order": [1, 0, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0012", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Morning at home.", "choices": ["Eat your breakfast.", "Wake up now.", "Get dressed up."], "answer_order": [1, 2, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0013", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Going to sleep.", "choices": ["Read a story.", "Close your eyes.", "Put on pajamas."], "answer_order": [2, 0, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0014", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Stacking blocks.", "choices": ["The tower stands.", "Stack them high.", "Get the blocks."], "answer_order": [2, 1, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0015", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Drawing a cat.", "choices": ["Get some paper.", "Draw with crayons.", "Show mom art."], "answer_order": [0, 1, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0016", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Playing catch.", "choices": ["Pick up ball.", "Catch it back.", "Throw the ball."], "answer_order": [0, 2, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0017", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Packing a bag.", "choices": ["Put books in.", "Open your bag.", "Zip it closed."], "answer_order": [1, 0, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0018", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Cleaning a room.", "choices": ["Sweep the floor.", "Pick up toys.", "Make the bed."], "answer_order": [1, 2, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0019", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Making toast.", "choices": ["Wait for toast.", "Eat the toast.", "Put bread in."], "answer_order": [2, 0, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0020", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "A trip to park.", "choices": ["Walk back home.", "Play on swings.", "Walk to park."], "answer_order": [2, 1, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0021", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Writing a note.", "choices": ["Get a pencil.", "Write your name.", "Give it away."], "answer_order": [0, 1, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0022", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Getting a snack.", "choices": ["Open the fridge.", "Eat the apple.", "Pick an apple."], "answer_order": [0, 2, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0023", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Reading a book.", "choices": ["Open the book.", "Pick a book.", "Read the story."], "answer_order": [1, 0, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0024", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Building a fort.", "choices": ["Crawl inside it.", "Get the sheets.", "Drape them over."], "answer_order": [1, 2, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0025", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Planting a seed.", "choices": ["Drop in seed.", "Pat soil down.", "Dig in soil."], "answer_order": [2, 0, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0026", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Flying a kite.", "choices": ["Watch it fly.", "Run with kite.", "Hold the string."], "answer_order": [2, 1, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0027", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Blowing bubbles.", "choices": ["Dip in soap.", "Blow through ring.", "Watch them float."], "answer_order": [0, 1, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0028", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Coloring a page.", "choices": ["Pick a crayon.", "Put crayons away.", "Color the picture."], "answer_order": [0, 2, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0029", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Setting the table.", "choices": ["Put them down.", "Get the plates.", "Add forks too."], "answer_order": [1, 0, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0030", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Walking the dog.", "choices": ["The dog sniffs.", "Clip on leash.", "Walk down street."], "answer_order": [1, 2, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0031", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Making a sandwich.", "choices": ["Put on cheese.", "Eat the sandwich.", "Get two slices."], "answer_order": [2, 0, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0032", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Going swimming.", "choices": ["Swim with friends.", "Jump in pool.", "Put on suit."], "answer_order": [2, 1, 0], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0033", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Playing hide and seek.", "choices": ["Others close eyes.", "One child hides.", "They start looking."], "answer_order": [0, 1, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0034", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Putting on shoes.", "choices": ["Find your shoes.", "Tie the laces.", "Put them on."], "answer_order": [0, 2, 1], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0035", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 1, "item_type": "order_sentences", "stem": "Watering plants.", "choices": ["Pour on plants.", "Fill the pail.", "Plants drink water."], "answer_order": [1, 0, 2], "explain_key": "order_by_time", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0036", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making cookies.", "choices": ["Eat warm cookies.", "Mix the dough.", "Bake in oven."], "answer_order": [1, 2, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0037", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Washing a cup.", "choices": ["Scrub the cup.", "Rinse it clean.", "Get soap ready."], "answer_order": [2, 0, 1], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0038", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making soup.", "choices": ["Stir the pot.", "Pour in water.", "Chop the vegetables."], "answer_order": [2, 1, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0039", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Ready for rain.", "choices": ["See dark clouds.", "Grab your coat.", "Stay dry outside."], "answer_order": [0, 1, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0040", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Painting a fence.", "choices": ["Get the paint.", "Let it dry.", "Brush it on."], "answer_order": [0, 2, 1], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0041", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making lemonade.", "choices": ["Add cold water.", "Squeeze the lemons.", "Pour in cups."], "answer_order": [1, 0, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0042", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Fixing a toy.", "choices": ["Play with toy.", "Find the broken part.", "Glue it back."], "answer_order": [1, 2, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0043", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Preparing for bed.", "choices": ["Put on pajamas.", "Turn off light.", "Brush your teeth."], "answer_order": [2, 0, 1], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0044", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making a salad.", "choices": ["Toss it all.", "Cut up tomatoes.", "Wash the lettuce."], "answer_order": [2, 1, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0045", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Building a sandcastle.", "choices": ["Fill the pail.", "Turn it over.", "Add a shell."], "answer_order": [0, 1, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0046", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Getting on a bike.", "choices": ["Check the wheels.", "Pedal down road.", "Put on helmet."], "answer_order": [0, 2, 1], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0047", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making hot cocoa.", "choices": ["Stir in cocoa.", "Heat the milk.", "Drink from mug."], "answer_order": [1, 0, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0048", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Wrapping a gift.", "choices": ["Tie a ribbon.", "Get the paper.", "Wrap the box."], "answer_order": [1, 2, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0049", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Campfire at night.", "choices": ["Stack them up.", "Flames start glowing.", "Gather dry sticks."], "answer_order": [2, 0, 1], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0050", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Cleaning up spills.", "choices": ["Dry the spot.", "Wipe the mess.", "Get a towel."], "answer_order": [2, 1, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0051", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making a card.", "choices": ["Fold the paper.", "Draw a heart.", "Write a note."], "answer_order": [0, 1, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0052", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Going on a hike.", "choices": ["Pack a snack.", "Rest on bench.", "Walk the trail."], "answer_order": [0, 2, 1], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0053", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Peeling an orange.", "choices": ["Cut the peel.", "Get a knife.", "Pull peel off."], "answer_order": [1, 0, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0054", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Setting up tent.", "choices": ["Sleep inside it.", "Lay out tent.", "Push in poles."], "answer_order": [1, 2, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0055", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making popcorn.", "choices": ["Turn on stove.", "Hear kernels pop.", "Put corn in pot."], "answer_order": [2, 0, 1], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0056", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Getting the mail.", "choices": ["Bring letters home.", "Open the lid.", "Walk to mailbox."], "answer_order": [2, 1, 0], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0057", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making a smoothie.", "choices": ["Add fruit in.", "Pour in milk.", "Blend it up."], "answer_order": [0, 1, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0058", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Raking the leaves.", "choices": ["Get the rake.", "Jump in pile.", "Pull leaves in."], "answer_order": [0, 2, 1], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0059", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Melting the butter.", "choices": ["Put in pan.", "Cut a pat.", "Butter starts melting."], "answer_order": [1, 0, 2], "explain_key": "start_first", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0060", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Washing your face.", "choices": ["Pat face dry.", "Wet your face.", "Use gentle soap."], "answer_order": [1, 2, 0], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0061", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Doing the dishes.", "choices": ["Wash with soap.", "Dry with towel.", "Scrape off food."], "answer_order": [2, 0, 1], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0062", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Bathing the dog.", "choices": ["Dry with towel.", "Lather with soap.", "Wet the fur."], "answer_order": [2, 1, 0], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0063", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Doing laundry.", "choices": ["Put clothes in.", "Add soap powder.", "Clothes come out clean."], "answer_order": [0, 1, 2], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0064", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Brushing the dog.", "choices": ["Get the brush.", "Fur looks shiny.", "Brush the fur."], "answer_order": [0, 2, 1], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0065", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Washing a pan.", "choices": ["Rinse in sink.", "Scrub with brush.", "Pan is clean."], "answer_order": [1, 0, 2], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0066", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Making your bed.", "choices": ["Bed looks neat.", "Pull up sheets.", "Fluff the pillow."], "answer_order": [1, 2, 0], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0067", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Cleaning muddy boots.", "choices": ["Scrub with brush.", "Boots look clean.", "Knock off mud."], "answer_order": [2, 0, 1], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0068", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Wiping the table.", "choices": ["Table is clean.", "Wipe with cloth.", "Clear the plates."], "answer_order": [2, 1, 0], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0069", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Taking a bath.", "choices": ["Fill the tub.", "Wash with soap.", "Drain the water."], "answer_order": [0, 1, 2], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0070", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Sweeping the porch.", "choices": ["Get the broom.", "Porch looks tidy.", "Sweep off dirt."], "answer_order": [0, 2, 1], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0071", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Polishing shoes.", "choices": ["Brush on polish.", "Wipe off dust.", "Shoes look shiny."], "answer_order": [1, 0, 2], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0072", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 2, "item_type": "order_sentences", "stem": "Tidying your desk.", "choices": ["Desk looks neat.", "Clear off papers.", "Wipe the top."], "answer_order": [1, 2, 0], "explain_key": "end_last", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0073", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How snow forms.", "choices": ["Clouds hold ice.", "Snow falls down.", "Air gets cold."], "answer_order": [2, 0, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0074", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A butterfly life.", "choices": ["Wings spread open.", "A caterpillar eats.", "An egg hatches."], "answer_order": [2, 1, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0075", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How ice melts.", "choices": ["Sun shines down.", "Ice gets warm.", "Water pools up."], "answer_order": [0, 1, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0076", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A chick hatching.", "choices": ["Egg starts cracking.", "Chick dries off.", "Chick pushes out."], "answer_order": [0, 2, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0077", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How roots grow.", "choices": ["Roots push down.", "A seed sprouts.", "Stem reaches up."], "answer_order": [1, 0, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0078", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A tree in spring.", "choices": ["Shade covers ground.", "Buds form up.", "Leaves open wide."], "answer_order": [1, 2, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0079", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How fog forms.", "choices": ["Water droplets form.", "Fog covers fields.", "Night air cools."], "answer_order": [2, 0, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0080", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A frog life.", "choices": ["Frogs hop on land.", "Tadpoles swim around.", "Eggs in pond."], "answer_order": [2, 1, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0081", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How wind blows.", "choices": ["Sun heats land.", "Warm air rises.", "Cool air rushes."], "answer_order": [0, 1, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0082", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A flower blooms.", "choices": ["Stem grows tall.", "Petals open wide.", "Bud swells up."], "answer_order": [0, 2, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0083", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How dew forms.", "choices": ["Air holds water.", "Night turns cool.", "Drops sit on grass."], "answer_order": [1, 0, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0084", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "An apple tree.", "choices": ["Apples grow big.", "Flowers bloom out.", "Bees visit flowers."], "answer_order": [1, 2, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0085", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How thunder sounds.", "choices": ["Air heats fast.", "Thunder rumbles loud.", "Lightning splits sky."], "answer_order": [2, 0, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0086", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A spider web.", "choices": ["Spider eats prey.", "Web catches bugs.", "Spider spins silk."], "answer_order": [2, 1, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0087", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How rivers flow.", "choices": ["Rain fills streams.", "Streams join together.", "River runs wide."], "answer_order": [0, 1, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0088", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A bean sprout.", "choices": ["Seed soaks up.", "Leaves push up.", "Root breaks shell."], "answer_order": [0, 2, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0089", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How shadows move.", "choices": ["Light hits objects.", "Sun moves across.", "Shadows shift shape."], "answer_order": [1, 0, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0090", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A bee hive.", "choices": ["Honey fills comb.", "Bees gather nectar.", "They make honey."], "answer_order": [1, 2, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0091", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How clouds form.", "choices": ["Vapor gathers high.", "Clouds block sun.", "Water evaporates up."], "answer_order": [2, 0, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0092", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A pumpkin grows.", "choices": ["Pumpkin turns orange.", "Vine spreads out.", "Seed goes in."], "answer_order": [2, 1, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0093", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How frost forms.", "choices": ["Temperature drops low.", "Moisture turns solid.", "Grass looks white."], "answer_order": [0, 1, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0094", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A turtle egg.", "choices": ["Turtle digs hole.", "Babies crawl out.", "Eggs go inside."], "answer_order": [0, 2, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0095", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How rainbows show.", "choices": ["Sun shines through.", "Rain falls down.", "Colors arch up."], "answer_order": [1, 0, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0096", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A moth life.", "choices": ["Moth flies away.", "Caterpillar spins.", "It forms cocoon."], "answer_order": [1, 2, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0097", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How lakes freeze.", "choices": ["Top turns to ice.", "Fish swim below.", "Cold air blows."], "answer_order": [2, 0, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0098", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A corn plant.", "choices": ["Ears form out.", "Stalk shoots up.", "Seed sits deep."], "answer_order": [2, 1, 0], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0099", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "How ants march.", "choices": ["Scout finds food.", "Ants follow trail.", "Food goes home."], "answer_order": [0, 1, 2], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}, {"item_id": "seed_determine_the_order_of_events_in_information_0100", "family_id": "fam_determine_the_order_of_events_in_information", "skill_id": "seed_determine_the_order_of_events_in_information", "stage": "seed", "tier": 3, "item_type": "order_sentences", "stem": "A moon phase.", "choices": ["Sun lights moon.", "Shape looks different.", "Moon orbits earth."], "answer_order": [0, 2, 1], "explain_key": "cause_before_result", "source": "composer-2.5", "spec_version": 1}]
+[
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0001",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Growing a plant.",
+    "choices": [
+      "The plant grows.",
+      "Put in a seed.",
+      "A leaf comes out."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Steps go in [[time]] order. First, then next, then last.",
+    "explain_item_en": "Put the [[seed]] in first. Then a [[leaf]] comes. Last the plant [[grows]].",
+    "speak_en": "What is the right order for growing a plant?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0002",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Making tea.",
+    "choices": [
+      "Get a cup.",
+      "Drink the tea.",
+      "Add hot water."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Get a [[cup]] first. Then add hot [[water]]. Last you [[drink]] the tea.",
+    "speak_en": "What is the right order for making tea?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0003",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "A day at school.",
+    "choices": [
+      "Go home.",
+      "Go to class.",
+      "Eat lunch."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A day goes in [[time]] order.",
+    "explain_item_en": "Go to [[class]] first. Then eat [[lunch]]. Last you go [[home]].",
+    "speak_en": "What is the right order for a day at school?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0004",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Baking a cake.",
+    "choices": [
+      "Mix it all up.",
+      "Get eggs and milk.",
+      "Eat the cake."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Get [[eggs]] and milk first. Then [[mix]] it. Last you eat the cake.",
+    "speak_en": "What is the right order for baking a cake?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0005",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Getting on the bus.",
+    "choices": [
+      "Sit down.",
+      "Get on the bus.",
+      "Wait at the stop."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Wait]] at the stop first. Then get on the [[bus]]. Last you sit down.",
+    "speak_en": "What is the right order for getting on the bus?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0006",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Washing your hands.",
+    "choices": [
+      "Turn on the water.",
+      "Dry your hands.",
+      "Use soap."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Turn on [[water]]. Then use [[soap]]. Last you [[dry]] your hands.",
+    "speak_en": "What is the right order for washing your hands?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0007",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How rain falls.",
+    "choices": [
+      "A cloud grows.",
+      "Rain falls down.",
+      "Water goes up."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Water]] goes up first. Then a [[cloud]] grows. Last rain falls.",
+    "speak_en": "What is the right order for how rain falls?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0008",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A bird nest.",
+    "choices": [
+      "Eggs sit in it.",
+      "A bird makes it.",
+      "Baby birds come."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "A [[bird]] makes the nest first. Then [[eggs]] sit in it. Last babies come.",
+    "speak_en": "What is the right order for a bird nest?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0009",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Brushing teeth.",
+    "choices": [
+      "Get your brush.",
+      "Brush your teeth.",
+      "Rinse your mouth."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Get your [[brush]] first. Then [[brush]] your teeth. Last you [[rinse]].",
+    "speak_en": "What is the right order for brushing your teeth?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0010",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Eating breakfast.",
+    "choices": [
+      "Sit at table.",
+      "Leave for school.",
+      "Eat your food."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Sit]] at the table first. Then [[eat]] your food. Last you [[leave]].",
+    "speak_en": "What is the right order for eating breakfast?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0011",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Feeding the cat.",
+    "choices": [
+      "Put food down.",
+      "Get the food.",
+      "The cat eats."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Get]] the food first. Then put it [[down]]. Last the cat [[eats]].",
+    "speak_en": "What is the right order for feeding the cat?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0012",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Morning at home.",
+    "choices": [
+      "Eat your breakfast.",
+      "Wake up now.",
+      "Get dressed up."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Morning steps go in [[time]] order.",
+    "explain_item_en": "[[Wake]] up first. Then get [[dressed]]. Last you eat [[breakfast]].",
+    "speak_en": "What is the right order for morning at home?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0013",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Going to sleep.",
+    "choices": [
+      "Read a story.",
+      "Close your eyes.",
+      "Put on pajamas."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Put on [[pajamas]] first. Then read a [[story]]. Last you [[close]] your eyes.",
+    "speak_en": "What is the right order for going to sleep?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0014",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Stacking blocks.",
+    "choices": [
+      "The tower stands.",
+      "Stack them high.",
+      "Get the blocks."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Get]] the blocks first. Then [[stack]] them high. Last the [[tower]] stands.",
+    "speak_en": "What is the right order for stacking blocks?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0015",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Drawing a cat.",
+    "choices": [
+      "Get some paper.",
+      "Draw with crayons.",
+      "Show mom art."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Get [[paper]] first. Then [[draw]] with crayons. Last you [[show]] mom.",
+    "speak_en": "What is the right order for drawing a cat?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0016",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Playing catch.",
+    "choices": [
+      "Pick up ball.",
+      "Catch it back.",
+      "Throw the ball."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Pick]] up the ball first. Then [[throw]] it. Last you [[catch]] it.",
+    "speak_en": "What is the right order for playing catch?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0017",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Packing a bag.",
+    "choices": [
+      "Put books in.",
+      "Open your bag.",
+      "Zip it closed."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Open]] the bag first. Then put [[books]] in. Last you [[zip]] it.",
+    "speak_en": "What is the right order for packing a bag?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0018",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Cleaning a room.",
+    "choices": [
+      "Sweep the floor.",
+      "Pick up toys.",
+      "Make the bed."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Pick up [[toys]] first. Then make the [[bed]]. Last you [[sweep]].",
+    "speak_en": "What is the right order for cleaning a room?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0019",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Making toast.",
+    "choices": [
+      "Wait for toast.",
+      "Eat the toast.",
+      "Put bread in."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Put [[bread]] in first. Then [[wait]]. Last you [[eat]] the toast.",
+    "speak_en": "What is the right order for making toast?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0020",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "A trip to the park.",
+    "choices": [
+      "Walk back home.",
+      "Play on swings.",
+      "Walk to park."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "A trip goes in [[time]] order.",
+    "explain_item_en": "Walk to the [[park]] first. Then [[play]] on swings. Last you walk [[home]].",
+    "speak_en": "What is the right order for a trip to the park?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0021",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Writing a note.",
+    "choices": [
+      "Get a pencil.",
+      "Write your name.",
+      "Give it away."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Get a [[pencil]] first. Then [[write]] your name. Last you [[give]] it away.",
+    "speak_en": "What is the right order for writing a note?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0022",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Getting a snack.",
+    "choices": [
+      "Open the fridge.",
+      "Eat the apple.",
+      "Pick an apple."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Open]] the fridge first. Then pick an [[apple]]. Last you [[eat]] it.",
+    "speak_en": "What is the right order for getting a snack?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0023",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Reading a book.",
+    "choices": [
+      "Open the book.",
+      "Pick a book.",
+      "Read the story."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Pick]] a book first. Then [[open]] it. Last you [[read]] the story.",
+    "speak_en": "What is the right order for reading a book?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0024",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Building a fort.",
+    "choices": [
+      "Crawl inside it.",
+      "Get the sheets.",
+      "Drape them over."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Get the [[sheets]] first. Then [[drape]] them over. Last you [[crawl]] inside.",
+    "speak_en": "What is the right order for building a fort?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0025",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Planting a seed.",
+    "choices": [
+      "Drop in seed.",
+      "Pat soil down.",
+      "Dig in soil."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Dig]] first. Then drop in the [[seed]]. Last you [[pat]] the soil.",
+    "speak_en": "What is the right order for planting a seed?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0026",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Flying a kite.",
+    "choices": [
+      "Watch it fly.",
+      "Run with kite.",
+      "Hold the string."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Hold]] the string first. Then [[run]]. Last you [[watch]] it fly.",
+    "speak_en": "What is the right order for flying a kite?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0027",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Blowing bubbles.",
+    "choices": [
+      "Dip in soap.",
+      "Blow through ring.",
+      "Watch them float."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Dip]] in soap first. Then [[blow]]. Last you watch them [[float]].",
+    "speak_en": "What is the right order for blowing bubbles?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0028",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Coloring a page.",
+    "choices": [
+      "Pick a crayon.",
+      "Put crayons away.",
+      "Color the picture."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Pick a [[crayon]] first. Then [[color]] the picture. Last you put crayons [[away]].",
+    "speak_en": "What is the right order for coloring a page?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0029",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Setting the table.",
+    "choices": [
+      "Put them down.",
+      "Get the plates.",
+      "Add forks too."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Get the [[plates]] first. Then put them [[down]]. Last you add [[forks]].",
+    "speak_en": "What is the right order for setting the table?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0030",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Walking the dog.",
+    "choices": [
+      "The dog sniffs.",
+      "Clip on leash.",
+      "Walk down street."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Clip on the [[leash]] first. Then [[walk]]. Last the dog [[sniffs]].",
+    "speak_en": "What is the right order for walking the dog?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0031",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Making a sandwich.",
+    "choices": [
+      "Put on cheese.",
+      "Eat the sandwich.",
+      "Get two slices."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Get two [[slices]] first. Then put on [[cheese]]. Last you [[eat]] it.",
+    "speak_en": "What is the right order for making a sandwich?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0032",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Going swimming.",
+    "choices": [
+      "Swim with friends.",
+      "Jump in pool.",
+      "Put on suit."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Put on your [[suit]] first. Then [[jump]] in. Last you [[swim]].",
+    "speak_en": "What is the right order for going swimming?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0033",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Playing hide and seek.",
+    "choices": [
+      "Others close eyes.",
+      "One child hides.",
+      "They start looking."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "Others [[close]] their eyes first. Then one child [[hides]]. Last they start [[looking]].",
+    "speak_en": "What is the right order for playing hide and seek?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0034",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Putting on shoes.",
+    "choices": [
+      "Find your shoes.",
+      "Tie the laces.",
+      "Put them on."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Find]] your shoes first. Then put the [[shoes]] on. Last you [[tie]] the laces.",
+    "speak_en": "What is the right order for putting on shoes?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0035",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "order_sentences",
+    "stem": "Watering plants.",
+    "choices": [
+      "Pour on plants.",
+      "Fill the pail.",
+      "Plants drink water."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "order_by_time",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Put steps in [[time]] order.",
+    "explain_item_en": "[[Fill]] the pail first. Then [[pour]] on plants. Last plants [[drink]].",
+    "speak_en": "What is the right order for watering plants?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0036",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making cookies.",
+    "choices": [
+      "Eat warm cookies.",
+      "Mix the dough.",
+      "Bake in oven."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Mix]] the dough first. Then [[bake]] it. Last you eat the cookies.",
+    "speak_en": "What is the right order for making cookies?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0037",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Washing a cup.",
+    "choices": [
+      "Scrub the cup.",
+      "Rinse it clean.",
+      "Get soap ready."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Get [[soap]] ready first. Then [[scrub]] the cup. Last you rinse it.",
+    "speak_en": "What is the right order for washing a cup?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0038",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making soup.",
+    "choices": [
+      "Stir the pot.",
+      "Pour in water.",
+      "Chop the vegetables."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Chop]] the vegetables first. Then pour in [[water]]. Last you [[stir]].",
+    "speak_en": "What is the right order for making soup?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0039",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Ready for rain.",
+    "choices": [
+      "See dark clouds.",
+      "Grab your coat.",
+      "Stay dry outside."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "See dark [[clouds]] first. Then grab your [[coat]]. Last you stay dry.",
+    "speak_en": "What is the right order to get ready for rain?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0040",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Painting a fence.",
+    "choices": [
+      "Get the paint.",
+      "Let it dry.",
+      "Brush it on."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Get the [[paint]] first. Then [[brush]] it on. Last you let it [[dry]].",
+    "speak_en": "What is the right order for painting a fence?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0041",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making lemonade.",
+    "choices": [
+      "Add cold water.",
+      "Squeeze the lemons.",
+      "Pour in cups."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Squeeze]] the lemons first. Then add [[water]]. Last you [[pour]] it.",
+    "speak_en": "What is the right order for making lemonade?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0042",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Fixing a toy.",
+    "choices": [
+      "Play with toy.",
+      "Find the broken part.",
+      "Glue it back."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Find]] the broken part first. Then [[glue]] it. Last you can [[play]].",
+    "speak_en": "What is the right order for fixing a toy?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0043",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Preparing for bed.",
+    "choices": [
+      "Put on pajamas.",
+      "Turn off light.",
+      "Brush your teeth."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Put on [[pajamas]] first. Then [[brush]] your teeth. Last you turn off the [[light]].",
+    "speak_en": "What is the right order for getting ready for bed?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0044",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making a salad.",
+    "choices": [
+      "Toss it all.",
+      "Cut up tomatoes.",
+      "Wash the lettuce."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Wash]] the lettuce first. Then cut the [[tomatoes]]. Last you [[toss]] it.",
+    "speak_en": "What is the right order for making a salad?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0045",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Building a sandcastle.",
+    "choices": [
+      "Fill the pail.",
+      "Turn it over.",
+      "Add a shell."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Fill]] the pail first. Then turn it [[over]]. Last you add a [[shell]].",
+    "speak_en": "What is the right order for building a sandcastle?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0046",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Getting on a bike.",
+    "choices": [
+      "Check the wheels.",
+      "Pedal down road.",
+      "Put on helmet."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Put on a [[helmet]] first. Then check the [[wheels]]. Last you [[pedal]].",
+    "speak_en": "What is the right order for getting on a bike?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0047",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making hot cocoa.",
+    "choices": [
+      "Stir in cocoa.",
+      "Heat the milk.",
+      "Drink from mug."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Heat]] the milk first. Then stir in [[cocoa]]. Last you [[drink]] it.",
+    "speak_en": "What is the right order for making hot cocoa?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0048",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Wrapping a gift.",
+    "choices": [
+      "Tie a ribbon.",
+      "Get the paper.",
+      "Wrap the box."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Get the [[paper]] first. Then [[wrap]] the box. Last you tie a [[ribbon]].",
+    "speak_en": "What is the right order for wrapping a gift?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0049",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Campfire at night.",
+    "choices": [
+      "Stack them up.",
+      "Flames start glowing.",
+      "Gather dry sticks."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Gather]] dry sticks first. Then [[stack]] them. Last [[flames]] glow.",
+    "speak_en": "What is the right order for a campfire at night?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0050",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Cleaning up spills.",
+    "choices": [
+      "Dry the spot.",
+      "Wipe the mess.",
+      "Get a towel."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Get a [[towel]] first. Then [[wipe]] the mess. Last you [[dry]] the spot.",
+    "speak_en": "What is the right order for cleaning up a spill?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0051",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making a card.",
+    "choices": [
+      "Fold the paper.",
+      "Draw a heart.",
+      "Write a note."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Fold]] the paper first. Then draw a [[heart]]. Last you [[write]] a note.",
+    "speak_en": "What is the right order for making a card?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0052",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Going on a hike.",
+    "choices": [
+      "Pack a snack.",
+      "Rest on bench.",
+      "Walk the trail."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Pack]] a snack first. Then [[walk]] the trail. Last you [[rest]].",
+    "speak_en": "What is the right order for going on a hike?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0053",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Peeling an orange.",
+    "choices": [
+      "Cut the peel.",
+      "Get a knife.",
+      "Pull peel off."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Get a [[knife]] first. Then [[cut]] the peel. Last you [[pull]] it off.",
+    "speak_en": "What is the right order for peeling an orange?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0054",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Setting up tent.",
+    "choices": [
+      "Sleep inside it.",
+      "Lay out tent.",
+      "Push in poles."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Lay]] out the tent first. Then push in [[poles]]. Last you can [[sleep]].",
+    "speak_en": "What is the right order for setting up a tent?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0055",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making popcorn.",
+    "choices": [
+      "Turn on stove.",
+      "Hear kernels pop.",
+      "Put corn in pot."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Put [[corn]] in first. Then turn on the [[stove]]. Last you hear it [[pop]].",
+    "speak_en": "What is the right order for making popcorn?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0056",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Getting the mail.",
+    "choices": [
+      "Bring letters home.",
+      "Open the lid.",
+      "Walk to mailbox."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Walk to the [[mailbox]] first. Then [[open]] the lid. Last you bring [[letters]] home.",
+    "speak_en": "What is the right order for getting the mail?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0057",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making a smoothie.",
+    "choices": [
+      "Add fruit in.",
+      "Pour in milk.",
+      "Blend it up."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Add [[fruit]] first. Then pour in [[milk]]. Last you [[blend]] it.",
+    "speak_en": "What is the right order for making a smoothie?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0058",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Raking the leaves.",
+    "choices": [
+      "Get the rake.",
+      "Jump in pile.",
+      "Pull leaves in."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "Get the [[rake]] first. Then pull [[leaves]] in. Last you [[jump]] in the pile.",
+    "speak_en": "What is the right order for raking the leaves?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0059",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Melting the butter.",
+    "choices": [
+      "Put in pan.",
+      "Cut a pat.",
+      "Butter starts melting."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "start_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "Start with the [[first]] step.",
+    "explain_item_en": "[[Cut]] a pat first. Then put it in the [[pan]]. Last the butter [[melts]].",
+    "speak_en": "What is the right order for melting the butter?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0060",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Washing your face.",
+    "choices": [
+      "Pat face dry.",
+      "Wet your face.",
+      "Use gentle soap."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "[[Wet]] your face first. Then use [[soap]]. Last you [[pat]] it dry.",
+    "speak_en": "What is the right order for washing your face?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0061",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Doing the dishes.",
+    "choices": [
+      "Wash with soap.",
+      "Dry with towel.",
+      "Scrape off food."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "[[Scrape]] food off first. Then [[wash]]. Last you [[dry]] with a towel.",
+    "speak_en": "What is the right order for doing the dishes?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0062",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Bathing the dog.",
+    "choices": [
+      "Dry with towel.",
+      "Lather with soap.",
+      "Wet the fur."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "[[Wet]] the fur first. Then use [[soap]]. Last you [[dry]] the dog.",
+    "speak_en": "What is the right order for bathing the dog?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0063",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Doing laundry.",
+    "choices": [
+      "Put clothes in.",
+      "Add soap powder.",
+      "Clothes come out clean."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Put [[clothes]] in first. Then add [[soap]]. Last they come out [[clean]].",
+    "speak_en": "What is the right order for doing laundry?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0064",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Brushing the dog.",
+    "choices": [
+      "Get the brush.",
+      "Fur looks shiny.",
+      "Brush the fur."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Get the [[brush]] first. Then brush the [[fur]]. Last the fur looks [[shiny]].",
+    "speak_en": "What is the right order for brushing the dog?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0065",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Washing a pan.",
+    "choices": [
+      "Rinse in sink.",
+      "Scrub with brush.",
+      "Pan is clean."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "[[Scrub]] the pan first. Then [[rinse]] it. Last the pan is [[clean]].",
+    "speak_en": "What is the right order for washing a pan?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0066",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Making your bed.",
+    "choices": [
+      "Bed looks neat.",
+      "Pull up sheets.",
+      "Fluff the pillow."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Pull up the [[sheets]] first. Then fluff the [[pillow]]. Last the bed looks [[neat]].",
+    "speak_en": "What is the right order for making your bed?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0067",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Cleaning muddy boots.",
+    "choices": [
+      "Scrub with brush.",
+      "Boots look clean.",
+      "Knock off mud."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Knock off [[mud]] first. Then [[scrub]]. Last the boots look [[clean]].",
+    "speak_en": "What is the right order for cleaning muddy boots?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0068",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Wiping the table.",
+    "choices": [
+      "Table is clean.",
+      "Wipe with cloth.",
+      "Clear the plates."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Clear the [[plates]] first. Then [[wipe]] the table. Last it looks [[clean]].",
+    "speak_en": "What is the right order for wiping the table?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0069",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Taking a bath.",
+    "choices": [
+      "Fill the tub.",
+      "Wash with soap.",
+      "Drain the water."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "[[Fill]] the tub first. Then [[wash]]. Last you [[drain]] the water.",
+    "speak_en": "What is the right order for taking a bath?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0070",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Sweeping the porch.",
+    "choices": [
+      "Get the broom.",
+      "Porch looks tidy.",
+      "Sweep off dirt."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Get the [[broom]] first. Then [[sweep]]. Last the porch looks [[tidy]].",
+    "speak_en": "What is the right order for sweeping the porch?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0071",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Polishing shoes.",
+    "choices": [
+      "Brush on polish.",
+      "Wipe off dust.",
+      "Shoes look shiny."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Wipe off [[dust]] first. Then brush on [[polish]]. Last shoes look [[shiny]].",
+    "speak_en": "What is the right order for polishing shoes?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0072",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "order_sentences",
+    "stem": "Tidying your desk.",
+    "choices": [
+      "Desk looks neat.",
+      "Clear off papers.",
+      "Wipe the top."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "end_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The last step comes at the [[end]].",
+    "explain_item_en": "Clear off [[papers]] first. Then [[wipe]] the top. Last the desk looks [[neat]].",
+    "speak_en": "What is the right order for tidying your desk?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0073",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How snow forms.",
+    "choices": [
+      "Clouds hold ice.",
+      "Snow falls down.",
+      "Air gets cold."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Air]] gets cold first. Then clouds hold [[ice]]. Last snow falls.",
+    "speak_en": "What is the right order for how snow forms?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0074",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A butterfly's life.",
+    "choices": [
+      "Wings spread open.",
+      "A caterpillar eats.",
+      "An egg hatches."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "An [[egg]] hatches first. Then a [[caterpillar]] eats. Last [[wings]] open.",
+    "speak_en": "What is the right order for a butterfly's life?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0075",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How ice melts.",
+    "choices": [
+      "Sun shines down.",
+      "Ice gets warm.",
+      "Water pools up."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "The [[sun]] shines first. Then ice gets [[warm]]. Last [[water]] pools up.",
+    "speak_en": "What is the right order for how ice melts?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0076",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A chick hatching.",
+    "choices": [
+      "Egg starts cracking.",
+      "Chick dries off.",
+      "Chick pushes out."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "The [[egg]] cracks first. Then the chick [[pushes]] out. Last it [[dries]].",
+    "speak_en": "What is the right order for a chick hatching?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0077",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How roots grow.",
+    "choices": [
+      "Roots push down.",
+      "A seed sprouts.",
+      "Stem reaches up."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "A [[seed]] sprouts first. Then [[roots]] push down. Last the [[stem]] goes up.",
+    "speak_en": "What is the right order for how roots grow?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0078",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A tree in spring.",
+    "choices": [
+      "Shade covers ground.",
+      "Buds form up.",
+      "Leaves open wide."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Buds]] form first. Then [[leaves]] open. Last [[shade]] covers the ground.",
+    "speak_en": "What is the right order for a tree in spring?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0079",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How fog forms.",
+    "choices": [
+      "Water droplets form.",
+      "Fog covers fields.",
+      "Night air cools."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "Night air [[cools]] first. Then water [[drops]] form. Last [[fog]] covers fields.",
+    "speak_en": "What is the right order for how fog forms?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0080",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A frog's life.",
+    "choices": [
+      "Frogs hop on land.",
+      "Tadpoles swim around.",
+      "Eggs in pond."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Eggs]] sit in the pond first. Then [[tadpoles]] swim. Last [[frogs]] hop on land.",
+    "speak_en": "What is the right order for a frog's life?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0081",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How wind blows.",
+    "choices": [
+      "Sun heats land.",
+      "Warm air rises.",
+      "Cool air rushes."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "The [[sun]] heats the land first. Then warm air [[rises]]. Last cool air [[rushes]].",
+    "speak_en": "What is the right order for how wind blows?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0082",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A flower blooms.",
+    "choices": [
+      "Stem grows tall.",
+      "Petals open wide.",
+      "Bud swells up."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "The [[stem]] grows first. Then a [[bud]] swells. Last [[petals]] open.",
+    "speak_en": "What is the right order for a flower that blooms?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0083",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How dew forms.",
+    "choices": [
+      "Air holds water.",
+      "Night turns cool.",
+      "Drops sit on grass."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Air]] holds water first. Then night turns [[cool]]. Last [[drops]] sit on grass.",
+    "speak_en": "What is the right order for how dew forms?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0084",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "An apple tree.",
+    "choices": [
+      "Apples grow big.",
+      "Flowers bloom out.",
+      "Bees visit flowers."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Flowers]] bloom first. Then [[bees]] visit. Last [[apples]] grow.",
+    "speak_en": "What is the right order for an apple tree?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0085",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How thunder sounds.",
+    "choices": [
+      "Air heats fast.",
+      "Thunder rumbles loud.",
+      "Lightning splits sky."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Lightning]] splits the sky first. Then air gets [[hot]]. Last [[thunder]] rumbles.",
+    "speak_en": "What is the right order for how thunder sounds?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0086",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A spider web.",
+    "choices": [
+      "Spider eats prey.",
+      "Web catches bugs.",
+      "Spider spins silk."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "A spider [[spins]] silk first. Then the web [[catches]] bugs. Last the spider [[eats]].",
+    "speak_en": "What is the right order for a spider web?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0087",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How rivers flow.",
+    "choices": [
+      "Rain fills streams.",
+      "Streams join together.",
+      "River runs wide."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Rain]] fills streams first. Then streams [[join]]. Last a [[river]] runs wide.",
+    "speak_en": "What is the right order for how rivers flow?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0088",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A bean sprout.",
+    "choices": [
+      "Seed soaks up.",
+      "Leaves push up.",
+      "Root breaks shell."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "The [[seed]] soaks first. Then a [[root]] breaks the shell. Last [[leaves]] push up.",
+    "speak_en": "What is the right order for a bean sprout?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0089",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How shadows move.",
+    "choices": [
+      "Light hits objects.",
+      "Sun moves across.",
+      "Shadows shift shape."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Light]] hits things first. Then the [[sun]] moves. Last [[shadows]] change.",
+    "speak_en": "What is the right order for how shadows move?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0090",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A bee hive.",
+    "choices": [
+      "Honey fills comb.",
+      "Bees gather nectar.",
+      "They make honey."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "Bees gather [[nectar]] first. Then they make [[honey]]. Last honey fills the [[comb]].",
+    "speak_en": "What is the right order for a bee hive?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0091",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How clouds form.",
+    "choices": [
+      "Vapor gathers high.",
+      "Clouds block sun.",
+      "Water evaporates up."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Water]] goes up first. Then vapor gathers [[high]]. Last [[clouds]] block the sun.",
+    "speak_en": "What is the right order for how clouds form?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0092",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A pumpkin grows.",
+    "choices": [
+      "Pumpkin turns orange.",
+      "Vine spreads out.",
+      "Seed goes in."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "A [[seed]] goes in first. Then a [[vine]] spreads. Last the pumpkin turns [[orange]].",
+    "speak_en": "What is the right order for how a pumpkin grows?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0093",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How frost forms.",
+    "choices": [
+      "Temperature drops low.",
+      "Moisture turns solid.",
+      "Grass looks white."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "It gets [[cold]] first. Then water turns [[hard]]. Last grass looks [[white]].",
+    "speak_en": "What is the right order for how frost forms?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0094",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A turtle egg.",
+    "choices": [
+      "Turtle digs hole.",
+      "Babies crawl out.",
+      "Eggs go inside."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "A turtle [[digs]] a hole first. Then [[eggs]] go in. Last [[babies]] crawl out.",
+    "speak_en": "What is the right order for a turtle egg?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0095",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How rainbows show.",
+    "choices": [
+      "Sun shines through.",
+      "Rain falls down.",
+      "Colors arch up."
+    ],
+    "answer_order": [
+      1,
+      0,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Rain]] falls first. Then the [[sun]] shines through. Last [[colors]] arch up.",
+    "speak_en": "What is the right order for how rainbows show?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0096",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A moth's life.",
+    "choices": [
+      "Moth flies away.",
+      "Caterpillar spins.",
+      "It forms cocoon."
+    ],
+    "answer_order": [
+      1,
+      2,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "A [[caterpillar]] spins first. Then it makes a [[cocoon]]. Last a [[moth]] flies away.",
+    "speak_en": "What is the right order for a moth's life?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0097",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How lakes freeze.",
+    "choices": [
+      "Top turns to ice.",
+      "Fish swim below.",
+      "Cold air blows."
+    ],
+    "answer_order": [
+      2,
+      0,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "[[Cold]] air blows first. Then the top turns to [[ice]]. Last [[fish]] swim below.",
+    "speak_en": "What is the right order for how lakes freeze?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0098",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A corn plant.",
+    "choices": [
+      "Ears form out.",
+      "Stalk shoots up.",
+      "Seed sits deep."
+    ],
+    "answer_order": [
+      2,
+      1,
+      0
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "A [[seed]] sits deep first. Then a [[stalk]] shoots up. Last [[ears]] form.",
+    "speak_en": "What is the right order for a corn plant?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0099",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "How ants march.",
+    "choices": [
+      "Scout finds food.",
+      "Ants follow trail.",
+      "Food goes home."
+    ],
+    "answer_order": [
+      0,
+      1,
+      2
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "A [[scout]] finds food first. Then ants follow the [[trail]]. Last food goes [[home]].",
+    "speak_en": "What is the right order for how ants march?"
+  },
+  {
+    "item_id": "seed_determine_the_order_of_events_in_information_0100",
+    "family_id": "fam_determine_the_order_of_events_in_information",
+    "skill_id": "seed_determine_the_order_of_events_in_information",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "order_sentences",
+    "stem": "A moon phase.",
+    "choices": [
+      "Sun lights moon.",
+      "Shape looks different.",
+      "Moon orbits earth."
+    ],
+    "answer_order": [
+      0,
+      2,
+      1
+    ],
+    "explain_key": "cause_before_result",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "explain_skill_en": "The first thing [[makes]] the next thing happen.",
+    "explain_item_en": "The [[sun]] lights the moon first. Then the moon [[moves]] around Earth. Last the [[shape]] looks different.",
+    "speak_en": "What is the right order for a moon phase?"
+  }
+]
