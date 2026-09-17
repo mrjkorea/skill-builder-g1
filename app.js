@@ -576,7 +576,7 @@
 
   function skillsInCategory(key) {
     return state.skills
-      .filter((s) => s.category === key)
+      .filter((s) => s.category === key && !s.hidden)
       .sort((a, b) => (a.number || 0) - (b.number || 0));
   }
 
@@ -728,6 +728,7 @@
       }
       tilesHost.style.display = "none";
       for (const s of state.skills) {
+        if (s.hidden) continue;
         if (!String(s.title_en || "").toLowerCase().includes(q)) continue;
         const num = s.number != null ? s.number : "";
         const cat = s.category_label || s.category || "";

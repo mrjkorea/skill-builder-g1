@@ -2148,7 +2148,10 @@
     "answer_index": 1,
     "explain_key": "near_meaning",
     "source": "composer-2.5",
-    "spec_version": 1
+    "spec_version": 1,
+    "explain_skill_en": "Other [[words]] help you know a new word.",
+    "explain_item_en": "[[brave]] means [[not scared]].",
+    "speak_en": "I am \"brave\" and climb the tall tree."
   },
   {
     "item_id": "seed_use_context_to_identify_the_meaning_of_a_wor_0100",
@@ -2169,6 +2172,9 @@
     "spec_version": 1,
     "swap_slots": {
       "NAME": "names.txt"
-    }
+    },
+    "explain_skill_en": "Other [[words]] help you know a new word.",
+    "explain_item_en": "[[smile]] means [[look happy]].",
+    "speak_en": "<NAME> will \"smile\" when the cake comes out."
   }
 ]

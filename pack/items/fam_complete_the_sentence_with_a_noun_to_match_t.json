@@ -1,1 +1,2638 @@
-[{"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0001", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- is in the pond.", "choices": ["duck", "truck", "desk"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "duck"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0002", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I see a big ---.", "choices": ["bike", "tree", "bird"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "tree"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0003", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- sits on my bed.", "choices": ["hat", "cup", "cat"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0004", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "My mom cuts the ---.", "choices": ["cake", "lake", "rock"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cake"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0005", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> rides the --- to school.", "choices": ["book", "bus", "boat"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bus"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0006", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- has three eggs.", "choices": ["desk", "box", "nest"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "nest"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0007", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- is on the plate.", "choices": ["bread", "bed", "bird"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bread"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0008", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> puts the --- on her foot.", "choices": ["rock", "sock", "clock"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sock"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0009", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- barks at the door.", "choices": ["day", "dog", "dad"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "dog"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0010", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I see a red ---.", "choices": ["add", "all", "apple"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "apple"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0011", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- sits in the barn.", "choices": ["cow", "car", "can"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cow"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0012", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "My --- jumps very high.", "choices": ["fox", "fun", "frog"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "frog"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0013", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- has soft wool.", "choices": ["sheep", "ship", "shop"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sheep"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0014", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I feed the --- corn.", "choices": ["hat", "hen", "ham"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0015", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- lives in water.", "choices": ["fish", "file", "find"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0016", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I see a cute ---.", "choices": ["pen", "pig", "pet"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pig"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0017", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- eats a carrot.", "choices": ["rain", "road", "rabbit"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rabbit"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0018", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- crawls on dirt.", "choices": ["bus", "bug", "but"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bug"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0019", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- purrs on my lap.", "choices": ["car", "can", "cat"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0020", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I draw with a ---.", "choices": ["crayon", "class", "click"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "crayon"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0021", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I read my ---.", "choices": ["box", "book", "boy"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "book"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0022", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- is very warm.", "choices": ["sun", "sit", "sad"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sun"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0023", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I drink cold ---.", "choices": ["mail", "map", "milk"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "milk"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0024", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "It is a yellow ---.", "choices": ["banana", "back", "ball"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "banana"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0025", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I kick the ---.", "choices": ["back", "bag", "ball"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ball"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0026", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- flies at night.", "choices": ["old", "owl", "off"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "owl"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0027", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I sit on a ---.", "choices": ["change", "child", "chair"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "chair"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0028", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I use my red ---.", "choices": ["people", "pencil", "pen"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pencil"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0029", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- is on my head.", "choices": ["hat", "ham", "has"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0030", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I eat hot ---.", "choices": ["soon", "some", "soup"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "soup"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0031", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I play with a ---.", "choices": ["toy", "top", "too"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "toy"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0032", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- is under me.", "choices": ["run", "rug", "rat"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rug"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0033", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I sleep in my ---.", "choices": ["bell", "best", "bed"], "answer_index": 2, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bed"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0034", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "The --- holds my milk.", "choices": ["cut", "cup", "can"], "answer_index": 1, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cup"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0035", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 1, "item_type": "tap_missing_word", "stem": "I see a white ---.", "choices": ["cloud", "close", "club"], "answer_index": 0, "explain_key": "name_what_you_see", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cloud"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0036", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> throws the ---.", "choices": ["fall", "ball", "bell"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ball"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0037", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "Mom puts food on the ---.", "choices": ["place", "plant", "plate"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "plate"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0038", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- is in the sky.", "choices": ["kite", "night", "kit"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "kite"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0039", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "Dad grills the ---.", "choices": ["beat", "meat", "mat"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "meat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0040", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "We pick a red ---.", "choices": ["floor", "flag", "flower"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "flower"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0041", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- runs on wheels.", "choices": ["train", "rain", "road"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "train"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0042", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> eats an ---.", "choices": ["beg", "egg", "ear"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "egg"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0043", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- slides on snow.", "choices": ["slid", "sleep", "sled"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sled"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0044", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I brush my ---.", "choices": ["hair", "pear", "hear"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hair"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0045", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- falls from trees.", "choices": ["left", "leaf", "leap"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "leaf"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0046", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- rings at school.", "choices": ["ball", "back", "bell"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bell"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0047", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I pour juice in a ---.", "choices": ["glass", "class", "glad"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "glass"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0048", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- shines at night.", "choices": ["moan", "moon", "moose"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "moon"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0049", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "We swim at the ---.", "choices": ["teach", "beat", "beach"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "beach"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0050", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> ties her ---.", "choices": ["shoe", "shop", "show"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "shoe"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0051", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- holds hot soup.", "choices": ["boat", "bowl", "coat"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "bowl"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0052", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I hang my --- up.", "choices": ["boat", "note", "coat"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "coat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0053", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- carries heavy logs.", "choices": ["truck", "track", "train"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "truck"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0054", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I put on my ---.", "choices": ["boat", "boot", "book"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "boot"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0055", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- eats green grass.", "choices": ["house", "hill", "horse"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "horse"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0056", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The baby sleeps in a ---.", "choices": ["crib", "crab", "club"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "crib"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0057", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I stir soup with a ---.", "choices": ["soon", "spoon", "sing"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "spoon"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0058", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- falls from clouds.", "choices": ["rail", "road", "rain"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rain"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0059", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I see stars at ---.", "choices": ["night", "nine", "nice"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "night"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0060", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- grows in the garden.", "choices": ["horn", "corn", "form"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "corn"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0061", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "<NAME> plants a small ---.", "choices": ["feed", "send", "seed"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "seed"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0062", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- hops in grass.", "choices": ["frog", "fox", "fix"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "frog"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0063", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I clean with a ---.", "choices": ["rat", "rag", "ran"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rag"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0064", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- bakes in the oven.", "choices": ["tie", "pig", "pie"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pie"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0065", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "We sail on a ---.", "choices": ["boat", "bone", "ball"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "boat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0066", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- hangs from trees.", "choices": ["line", "vine", "link"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "vine"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0067", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- gives us milk.", "choices": ["cat", "car", "cow"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cow"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0068", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- lands on flowers.", "choices": ["fly", "flag", "floor"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fly"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0069", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I catch a ---.", "choices": ["dish", "fish", "find"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0070", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- spins very fast.", "choices": ["fun", "fin", "fan"], "answer_index": 2, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fan"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0071", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "The --- blocks the light.", "choices": ["cloud", "clown", "class"], "answer_index": 0, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cloud"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0072", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 2, "item_type": "tap_missing_word", "stem": "I pick up a ---.", "choices": ["lock", "rock", "rice"], "answer_index": 1, "explain_key": "close_word_wrong_picture", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rock"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0073", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- ticks on the wall.", "choices": ["block", "lock", "clock"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "clock"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0074", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> wears a warm ---.", "choices": ["coat", "boat", "moat"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "coat"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0075", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- rides in the pond.", "choices": ["coat", "boat", "moat"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "boat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0076", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- is under the bed.", "choices": ["rat", "sat", "mat"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "mat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0077", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> feeds the ---.", "choices": ["hen", "pen", "ten"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0078", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- is on the door.", "choices": ["rock", "lock", "sock"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "lock"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0079", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "I jump right over a ---.", "choices": ["dog", "hog", "log"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "log"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0080", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- glows bright at night.", "choices": ["light", "right", "night"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "light"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0081", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> drops a ---.", "choices": ["map", "cap", "tap"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cap"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0082", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- crawls up high.", "choices": ["line", "mine", "vine"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "vine"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0083", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- is cold and sweet.", "choices": ["ice", "rice", "nice"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ice"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0084", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- rolls down the hill.", "choices": ["call", "ball", "fall"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ball"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0085", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "My --- hugs me tight.", "choices": ["ant", "want", "aunt"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "aunt"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0086", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- blows quite hard.", "choices": ["wind", "find", "kind"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "wind"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0087", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "I wear a red ---.", "choices": ["map", "cap", "gap"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cap"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0088", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- dips in the sea.", "choices": ["chip", "trip", "ship"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "ship"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0089", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> opens the ---.", "choices": ["gate", "late", "wait"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "gate"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0090", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "A --- swims in the lake.", "choices": ["dish", "fish", "wish"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "fish"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0091", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "I clip the ---.", "choices": ["nose", "pose", "rose"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rose"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0092", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- spins on a string.", "choices": ["top", "hop", "mop"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "top"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0093", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "We cook a fat ---.", "choices": ["pen", "hen", "men"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hen"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0094", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> fills the ---.", "choices": ["mail", "nail", "pail"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pail"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0095", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- lives in mud.", "choices": ["hog", "dog", "log"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "hog"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0096", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "I see a gray ---.", "choices": ["hat", "rat", "mat"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "rat"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0097", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- hangs on the wall.", "choices": ["line", "fine", "sign"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "sign"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0098", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "<NAME> pulls a ---.", "choices": ["cart", "art", "heart"], "answer_index": 0, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "cart"}], "swap_slots": {"NAME": "names.txt"}}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0099", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "The --- sits on a branch.", "choices": ["grow", "crow", "throw"], "answer_index": 1, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "crow"}]}, {"item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0100", "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t", "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t", "stage": "seed", "tier": 3, "item_type": "tap_missing_word", "stem": "I mix the ---.", "choices": ["hot", "dot", "pot"], "answer_index": 2, "explain_key": "sounds_alike_look_again", "source": "composer-2.5", "spec_version": 1, "media": [{"lemma": "pot"}]}]
+[
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0001",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is in the pond.",
+    "choices": [
+      "duck",
+      "truck",
+      "desk"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[duck]]. Tap [[duck]].",
+    "speak_en": "The blank is in the pond."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0002",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I see a big ---.",
+    "choices": [
+      "bike",
+      "tree",
+      "bird"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[tree]]. Tap [[tree]].",
+    "speak_en": "I see a big blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0003",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- sits on my bed.",
+    "choices": [
+      "hat",
+      "cup",
+      "cat"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cat]]. Tap [[cat]].",
+    "speak_en": "The blank sits on my bed."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0004",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "My mom cuts the ---.",
+    "choices": [
+      "cake",
+      "lake",
+      "rock"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cake]]. Tap [[cake]].",
+    "speak_en": "My mom cuts the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0005",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> rides the --- to school.",
+    "choices": [
+      "book",
+      "bus",
+      "boat"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[bus]]. Tap [[bus]].",
+    "speak_en": "<NAME> rides the blank to school."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0006",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- has three eggs.",
+    "choices": [
+      "desk",
+      "box",
+      "nest"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nest"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[nest]]. Tap [[nest]].",
+    "speak_en": "The blank has three eggs."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0007",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is on the plate.",
+    "choices": [
+      "bread",
+      "bed",
+      "bird"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[bread]]. Tap [[bread]].",
+    "speak_en": "The blank is on the plate."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0008",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> puts the --- on her foot.",
+    "choices": [
+      "rock",
+      "sock",
+      "clock"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[sock]]. Tap [[sock]].",
+    "speak_en": "<NAME> puts the blank on her foot."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0009",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- barks at the door.",
+    "choices": [
+      "day",
+      "dog",
+      "dad"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[dog]]. Tap [[dog]].",
+    "speak_en": "The blank barks at the door."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0010",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I see a red ---.",
+    "choices": [
+      "add",
+      "all",
+      "apple"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[apple]]. Tap [[apple]].",
+    "speak_en": "I see a red blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0011",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- sits in the barn.",
+    "choices": [
+      "cow",
+      "car",
+      "can"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cow]]. Tap [[cow]].",
+    "speak_en": "The blank sits in the barn."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0012",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "My --- jumps very high.",
+    "choices": [
+      "fox",
+      "fun",
+      "frog"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[frog]]. Tap [[frog]].",
+    "speak_en": "My blank jumps very high."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0013",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- has soft wool.",
+    "choices": [
+      "sheep",
+      "ship",
+      "shop"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[sheep]]. Tap [[sheep]].",
+    "speak_en": "The blank has soft wool."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0014",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I feed the --- corn.",
+    "choices": [
+      "hat",
+      "hen",
+      "ham"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[hen]]. Tap [[hen]].",
+    "speak_en": "I feed the blank corn."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0015",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- lives in water.",
+    "choices": [
+      "fish",
+      "file",
+      "find"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[fish]]. Tap [[fish]].",
+    "speak_en": "The blank lives in water."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0016",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I see a cute ---.",
+    "choices": [
+      "pen",
+      "pig",
+      "pet"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[pig]]. Tap [[pig]].",
+    "speak_en": "I see a cute blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0017",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- eats a carrot.",
+    "choices": [
+      "rain",
+      "road",
+      "rabbit"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[rabbit]]. Tap [[rabbit]].",
+    "speak_en": "The blank eats a carrot."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0018",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- crawls on dirt.",
+    "choices": [
+      "bus",
+      "bug",
+      "but"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[bug]]. Tap [[bug]].",
+    "speak_en": "The blank crawls on dirt."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0019",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- purrs on my lap.",
+    "choices": [
+      "car",
+      "can",
+      "cat"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cat]]. Tap [[cat]].",
+    "speak_en": "The blank purrs on my lap."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0020",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I draw with a ---.",
+    "choices": [
+      "crayon",
+      "class",
+      "click"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[crayon]]. Tap [[crayon]].",
+    "speak_en": "I draw with a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0021",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I read my ---.",
+    "choices": [
+      "box",
+      "book",
+      "boy"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[book]]. Tap [[book]].",
+    "speak_en": "I read my blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0022",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is very warm.",
+    "choices": [
+      "sun",
+      "sit",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[sun]]. Tap [[sun]].",
+    "speak_en": "The blank is very warm."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0023",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I drink cold ---.",
+    "choices": [
+      "mail",
+      "map",
+      "milk"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[milk]]. Tap [[milk]].",
+    "speak_en": "I drink cold blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0024",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "It is a yellow ---.",
+    "choices": [
+      "banana",
+      "back",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "banana"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[banana]]. Tap [[banana]].",
+    "speak_en": "It is a yellow blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0025",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I kick the ---.",
+    "choices": [
+      "back",
+      "bag",
+      "ball"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[ball]]. Tap [[ball]].",
+    "speak_en": "I kick the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0026",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- flies at night.",
+    "choices": [
+      "old",
+      "owl",
+      "off"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[owl]]. Tap [[owl]].",
+    "speak_en": "The blank flies at night."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0027",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I sit on a ---.",
+    "choices": [
+      "change",
+      "child",
+      "chair"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chair"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[chair]]. Tap [[chair]].",
+    "speak_en": "I sit on a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0028",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I use my red ---.",
+    "choices": [
+      "people",
+      "pencil",
+      "pen"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[pencil]]. Tap [[pencil]].",
+    "speak_en": "I use my red blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0029",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is on my head.",
+    "choices": [
+      "hat",
+      "ham",
+      "has"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[hat]]. Tap [[hat]].",
+    "speak_en": "The blank is on my head."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0030",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I eat hot ---.",
+    "choices": [
+      "soon",
+      "some",
+      "soup"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[soup]]. Tap [[soup]].",
+    "speak_en": "I eat hot blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0031",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I play with a ---.",
+    "choices": [
+      "toy",
+      "top",
+      "too"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[toy]]. Tap [[toy]].",
+    "speak_en": "I play with a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0032",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is under me.",
+    "choices": [
+      "run",
+      "rug",
+      "rat"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[rug]]. Tap [[rug]].",
+    "speak_en": "The blank is under me."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0033",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I sleep in my ---.",
+    "choices": [
+      "bell",
+      "best",
+      "bed"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[bed]]. Tap [[bed]].",
+    "speak_en": "I sleep in my blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0034",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "The --- holds my milk.",
+    "choices": [
+      "cut",
+      "cup",
+      "can"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cup]]. Tap [[cup]].",
+    "speak_en": "The blank holds my milk."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0035",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 1,
+    "item_type": "tap_missing_word",
+    "stem": "I see a white ---.",
+    "choices": [
+      "cloud",
+      "close",
+      "club"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_what_you_see",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cloud]]. Tap [[cloud]].",
+    "speak_en": "I see a white blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0036",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> throws the ---.",
+    "choices": [
+      "fall",
+      "ball",
+      "bell"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[ball]]. Tap [[ball]].",
+    "speak_en": "<NAME> throws the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0037",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "Mom puts food on the ---.",
+    "choices": [
+      "place",
+      "plant",
+      "plate"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plate"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[plate]]. Tap [[plate]].",
+    "speak_en": "Mom puts food on the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0038",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is in the sky.",
+    "choices": [
+      "kite",
+      "night",
+      "kit"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[kite]]. Tap [[kite]].",
+    "speak_en": "The blank is in the sky."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0039",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "Dad grills the ---.",
+    "choices": [
+      "beat",
+      "meat",
+      "mat"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "meat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[meat]]. Tap [[meat]].",
+    "speak_en": "Dad grills the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0040",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "We pick a red ---.",
+    "choices": [
+      "floor",
+      "flag",
+      "flower"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[flower]]. Tap [[flower]].",
+    "speak_en": "We pick a red blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0041",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- runs on wheels.",
+    "choices": [
+      "train",
+      "rain",
+      "road"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[train]]. Tap [[train]].",
+    "speak_en": "The blank runs on wheels."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0042",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> eats an ---.",
+    "choices": [
+      "beg",
+      "egg",
+      "ear"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[egg]]. Tap [[egg]].",
+    "speak_en": "<NAME> eats an blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0043",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- slides on snow.",
+    "choices": [
+      "slid",
+      "sleep",
+      "sled"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sled"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[sled]]. Tap [[sled]].",
+    "speak_en": "The blank slides on snow."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0044",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I brush my ---.",
+    "choices": [
+      "hair",
+      "pear",
+      "hear"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hair"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[hair]]. Tap [[hair]].",
+    "speak_en": "I brush my blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0045",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- falls from trees.",
+    "choices": [
+      "left",
+      "leaf",
+      "leap"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaf"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[leaf]]. Tap [[leaf]].",
+    "speak_en": "The blank falls from trees."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0046",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- rings at school.",
+    "choices": [
+      "ball",
+      "back",
+      "bell"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[bell]]. Tap [[bell]].",
+    "speak_en": "The blank rings at school."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0047",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I pour juice in a ---.",
+    "choices": [
+      "glass",
+      "class",
+      "glad"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "glass"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[glass]]. Tap [[glass]].",
+    "speak_en": "I pour juice in a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0048",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- shines at night.",
+    "choices": [
+      "moan",
+      "moon",
+      "moose"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[moon]]. Tap [[moon]].",
+    "speak_en": "The blank shines at night."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0049",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "We swim at the ---.",
+    "choices": [
+      "teach",
+      "beat",
+      "beach"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[beach]]. Tap [[beach]].",
+    "speak_en": "We swim at the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0050",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> ties her ---.",
+    "choices": [
+      "shoe",
+      "shop",
+      "show"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[shoe]]. Tap [[shoe]].",
+    "speak_en": "<NAME> ties her blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0051",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- holds hot soup.",
+    "choices": [
+      "boat",
+      "bowl",
+      "coat"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bowl"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[bowl]]. Tap [[bowl]].",
+    "speak_en": "The blank holds hot soup."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0052",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I hang my --- up.",
+    "choices": [
+      "boat",
+      "note",
+      "coat"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[coat]]. Tap [[coat]].",
+    "speak_en": "I hang my blank up."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0053",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- carries heavy logs.",
+    "choices": [
+      "truck",
+      "track",
+      "train"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[truck]]. Tap [[truck]].",
+    "speak_en": "The blank carries heavy logs."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0054",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I put on my ---.",
+    "choices": [
+      "boat",
+      "boot",
+      "book"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[boot]]. Tap [[boot]].",
+    "speak_en": "I put on my blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0055",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- eats green grass.",
+    "choices": [
+      "house",
+      "hill",
+      "horse"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[horse]]. Tap [[horse]].",
+    "speak_en": "The blank eats green grass."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0056",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The baby sleeps in a ---.",
+    "choices": [
+      "crib",
+      "crab",
+      "club"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crib"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[crib]]. Tap [[crib]].",
+    "speak_en": "The baby sleeps in a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0057",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I stir soup with a ---.",
+    "choices": [
+      "soon",
+      "spoon",
+      "sing"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spoon"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[spoon]]. Tap [[spoon]].",
+    "speak_en": "I stir soup with a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0058",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- falls from clouds.",
+    "choices": [
+      "rail",
+      "road",
+      "rain"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[rain]]. Tap [[rain]].",
+    "speak_en": "The blank falls from clouds."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0059",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I see stars at ---.",
+    "choices": [
+      "night",
+      "nine",
+      "nice"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[night]]. Tap [[night]].",
+    "speak_en": "I see stars at blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0060",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- grows in the garden.",
+    "choices": [
+      "horn",
+      "corn",
+      "form"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[corn]]. Tap [[corn]].",
+    "speak_en": "The blank grows in the garden."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0061",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> plants a small ---.",
+    "choices": [
+      "feed",
+      "send",
+      "seed"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[seed]]. Tap [[seed]].",
+    "speak_en": "<NAME> plants a small blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0062",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- hops in grass.",
+    "choices": [
+      "frog",
+      "fox",
+      "fix"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[frog]]. Tap [[frog]].",
+    "speak_en": "The blank hops in grass."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0063",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I clean with a ---.",
+    "choices": [
+      "rat",
+      "rag",
+      "ran"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rag"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[rag]]. Tap [[rag]].",
+    "speak_en": "I clean with a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0064",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- bakes in the oven.",
+    "choices": [
+      "tie",
+      "pig",
+      "pie"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pie"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[pie]]. Tap [[pie]].",
+    "speak_en": "The blank bakes in the oven."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0065",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "We sail on a ---.",
+    "choices": [
+      "boat",
+      "bone",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[boat]]. Tap [[boat]].",
+    "speak_en": "We sail on a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0066",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- hangs from trees.",
+    "choices": [
+      "line",
+      "vine",
+      "link"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "vine"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[vine]]. Tap [[vine]].",
+    "speak_en": "The blank hangs from trees."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0067",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- gives us milk.",
+    "choices": [
+      "cat",
+      "car",
+      "cow"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cow]]. Tap [[cow]].",
+    "speak_en": "The blank gives us milk."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0068",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- lands on flowers.",
+    "choices": [
+      "fly",
+      "flag",
+      "floor"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fly"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[fly]]. Tap [[fly]].",
+    "speak_en": "The blank lands on flowers."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0069",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I catch a ---.",
+    "choices": [
+      "dish",
+      "fish",
+      "find"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[fish]]. Tap [[fish]].",
+    "speak_en": "I catch a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0070",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- spins very fast.",
+    "choices": [
+      "fun",
+      "fin",
+      "fan"
+    ],
+    "answer_index": 2,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fan"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[fan]]. Tap [[fan]].",
+    "speak_en": "The blank spins very fast."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0071",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "The --- blocks the light.",
+    "choices": [
+      "cloud",
+      "clown",
+      "class"
+    ],
+    "answer_index": 0,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cloud]]. Tap [[cloud]].",
+    "speak_en": "The blank blocks the light."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0072",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 2,
+    "item_type": "tap_missing_word",
+    "stem": "I pick up a ---.",
+    "choices": [
+      "lock",
+      "rock",
+      "rice"
+    ],
+    "answer_index": 1,
+    "explain_key": "close_word_wrong_picture",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[rock]]. Tap [[rock]].",
+    "speak_en": "I pick up a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0073",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- ticks on the wall.",
+    "choices": [
+      "block",
+      "lock",
+      "clock"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[clock]]. Tap [[clock]].",
+    "speak_en": "The blank ticks on the wall."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0074",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> wears a warm ---.",
+    "choices": [
+      "coat",
+      "boat",
+      "moat"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[coat]]. Tap [[coat]].",
+    "speak_en": "<NAME> wears a warm blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0075",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- rides in the pond.",
+    "choices": [
+      "coat",
+      "boat",
+      "moat"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[boat]]. Tap [[boat]].",
+    "speak_en": "The blank rides in the pond."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0076",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is under the bed.",
+    "choices": [
+      "rat",
+      "sat",
+      "mat"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[mat]]. Tap [[mat]].",
+    "speak_en": "The blank is under the bed."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0077",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> feeds the ---.",
+    "choices": [
+      "hen",
+      "pen",
+      "ten"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[hen]]. Tap [[hen]].",
+    "speak_en": "<NAME> feeds the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0078",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is on the door.",
+    "choices": [
+      "rock",
+      "lock",
+      "sock"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[lock]]. Tap [[lock]].",
+    "speak_en": "The blank is on the door."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0079",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "I jump right over a ---.",
+    "choices": [
+      "dog",
+      "hog",
+      "log"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "log"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[log]]. Tap [[log]].",
+    "speak_en": "I jump right over a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0080",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- glows bright at night.",
+    "choices": [
+      "light",
+      "right",
+      "night"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "light"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[light]]. Tap [[light]].",
+    "speak_en": "The blank glows bright at night."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0081",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> drops a ---.",
+    "choices": [
+      "map",
+      "cap",
+      "tap"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cap]]. Tap [[cap]].",
+    "speak_en": "<NAME> drops a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0082",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- crawls up high.",
+    "choices": [
+      "line",
+      "mine",
+      "vine"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "vine"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[vine]]. Tap [[vine]].",
+    "speak_en": "The blank crawls up high."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0083",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- is cold and sweet.",
+    "choices": [
+      "ice",
+      "rice",
+      "nice"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[ice]]. Tap [[ice]].",
+    "speak_en": "The blank is cold and sweet."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0084",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- rolls down the hill.",
+    "choices": [
+      "call",
+      "ball",
+      "fall"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[ball]]. Tap [[ball]].",
+    "speak_en": "The blank rolls down the hill."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0085",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "My --- hugs me tight.",
+    "choices": [
+      "ant",
+      "want",
+      "aunt"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[aunt]]. Tap [[aunt]].",
+    "speak_en": "My blank hugs me tight."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0086",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- blows quite hard.",
+    "choices": [
+      "wind",
+      "find",
+      "kind"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[wind]]. Tap [[wind]].",
+    "speak_en": "The blank blows quite hard."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0087",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "I wear a red ---.",
+    "choices": [
+      "map",
+      "cap",
+      "gap"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cap]]. Tap [[cap]].",
+    "speak_en": "I wear a red blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0088",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- dips in the sea.",
+    "choices": [
+      "chip",
+      "trip",
+      "ship"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ship"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[ship]]. Tap [[ship]].",
+    "speak_en": "The blank dips in the sea."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0089",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> opens the ---.",
+    "choices": [
+      "gate",
+      "late",
+      "wait"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[gate]]. Tap [[gate]].",
+    "speak_en": "<NAME> opens the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0090",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "A --- swims in the lake.",
+    "choices": [
+      "dish",
+      "fish",
+      "wish"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[fish]]. Tap [[fish]].",
+    "speak_en": "A blank swims in the lake."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0091",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "I clip the ---.",
+    "choices": [
+      "nose",
+      "pose",
+      "rose"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rose"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[rose]]. Tap [[rose]].",
+    "speak_en": "I clip the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0092",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- spins on a string.",
+    "choices": [
+      "top",
+      "hop",
+      "mop"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "top"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[top]]. Tap [[top]].",
+    "speak_en": "The blank spins on a string."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0093",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "We cook a fat ---.",
+    "choices": [
+      "pen",
+      "hen",
+      "men"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[hen]]. Tap [[hen]].",
+    "speak_en": "We cook a fat blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0094",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> fills the ---.",
+    "choices": [
+      "mail",
+      "nail",
+      "pail"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pail"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[pail]]. Tap [[pail]].",
+    "speak_en": "<NAME> fills the blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0095",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- lives in mud.",
+    "choices": [
+      "hog",
+      "dog",
+      "log"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hog"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[hog]]. Tap [[hog]].",
+    "speak_en": "The blank lives in mud."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0096",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "I see a gray ---.",
+    "choices": [
+      "hat",
+      "rat",
+      "mat"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[rat]]. Tap [[rat]].",
+    "speak_en": "I see a gray blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0097",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- hangs on the wall.",
+    "choices": [
+      "line",
+      "fine",
+      "sign"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sign"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[sign]]. Tap [[sign]].",
+    "speak_en": "The blank hangs on the wall."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0098",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "<NAME> pulls a ---.",
+    "choices": [
+      "cart",
+      "art",
+      "heart"
+    ],
+    "answer_index": 0,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cart"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[cart]]. Tap [[cart]].",
+    "speak_en": "<NAME> pulls a blank."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0099",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "The --- sits on a branch.",
+    "choices": [
+      "grow",
+      "crow",
+      "throw"
+    ],
+    "answer_index": 1,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crow"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[crow]]. Tap [[crow]].",
+    "speak_en": "The blank sits on a branch."
+  },
+  {
+    "item_id": "seed_complete_the_sentence_with_a_noun_to_match_t_0100",
+    "family_id": "fam_complete_the_sentence_with_a_noun_to_match_t",
+    "skill_id": "seed_complete_the_sentence_with_a_noun_to_match_t",
+    "stage": "seed",
+    "tier": 3,
+    "item_type": "tap_missing_word",
+    "stem": "I mix the ---.",
+    "choices": [
+      "hot",
+      "dot",
+      "pot"
+    ],
+    "answer_index": 2,
+    "explain_key": "sounds_alike_look_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pot"
+      }
+    ],
+    "explain_skill_en": "Look at the [[picture]]. Tap the [[name]] that fits.",
+    "explain_item_en": "The picture is a [[pot]]. Tap [[pot]].",
+    "speak_en": "I mix the blank."
+  }
+]

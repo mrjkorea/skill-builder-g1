@@ -2453,7 +2453,7 @@
     "stage": "seed",
     "tier": 3,
     "item_type": "picture_to_word",
-    "stem": "Tap\nThe last reply stopped mid-item. I’ll finish the remaining objects so the array is complete.\nthe word that matches this picture.",
+    "stem": "Tap the word that matches this picture.",
     "choices": [
       "bent",
       "bend",
@@ -2467,7 +2467,10 @@
       {
         "lemma": "bent"
       }
-    ]
+    ],
+    "explain_skill_en": "A quiet letter [[e]] can say eh.",
+    "explain_item_en": "This picture is a [[bent]]. Tap [[bent]].",
+    "speak_en": "Tap the word that matches this picture."
   },
   {
     "item_id": "seed_match_the_short_e_and_long_e_words_to_pictur_0096",
