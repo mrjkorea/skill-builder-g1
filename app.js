@@ -313,28 +313,16 @@
         return;
       }
     } catch (_) {}
-    const voices = await ensureVoices();
-    const storeKey = wantFemale ? "sb_voice_uri_bella" : "sb_voice_uri_puck";
-    const stored = localStorage.getItem(storeKey);
-    let voice = pickVoice(voices, wantFemale, stored);
-    return new Promise((resolve) => {
+    const k = window.MRJ_KOKORO;
+    if (k && k.speak) {
       try {
-        const u = new SpeechSynthesisUtterance(word);
-        u.lang = "en-US";
-        if (voice) {
-          u.voice = voice;
-          if (!stored) localStorage.setItem(storeKey, voice.voiceURI);
-        } else if (!wantFemale) {
-          u.pitch = 0.85;
-        }
-        u.onend = () => resolve();
-        u.onerror = () => resolve();
-        speechSynthesis.cancel();
-        speechSynthesis.speak(u);
-      } catch (_) {
-        resolve();
+        if (k.stop) k.stop();
+        await k.speak(word, wantFemale ? "bella" : "puck");
+        return;
+      } catch (err) {
+        console.error("Kokoro speak failed", err);
       }
-    });
+    }
   }
 
   function lemmas(it) {
@@ -451,6 +439,9 @@
     } catch (_) {}
     const p = ttsPlugin();
     if (p && p.stop) p.stop().catch(() => {});
+    try {
+      if (window.MRJ_KOKORO && window.MRJ_KOKORO.stop) window.MRJ_KOKORO.stop();
+    } catch (_) {}
   }
 
   function playSkillFish(skill) {
@@ -647,9 +638,11 @@
   }
 
   function appendVoiceToggle(el, rerender) {
-    const voice = $(
-      `<button type="button" class="btn small">Voice: ${state.voice === "bella" ? "Bella" : "Puck"}</button>`
-    );
+    const k = window.MRJ_KOKORO;
+    const st = k ? k.status : "off";
+    const ready = k && k.ready;
+    const label = `Voice: ${state.voice === "bella" ? "Bella" : "Puck"}${ready ? "" : st === "loading" || st === "boot" ? " · loading" : st === "fail" ? " · fail" : " · Kokoro"}`;
+    const voice = $(`<button type="button" class="btn small">${label}</button>`);
     voice.onclick = () => {
       state.voice = state.voice === "bella" ? "puck" : "bella";
       localStorage.setItem("sb_voice", state.voice);
@@ -701,6 +694,9 @@
     state.scoreTable = score;
     ensureVoices();
     home();
+    window.addEventListener("mrj-kokoro-status", () => {
+      if (!state.skill) home();
+    });
   }
 
   function home() {
