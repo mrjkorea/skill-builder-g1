@@ -160,6 +160,27 @@
     return rel ? PACK + rel : null;
   }
 
+  function scenePicUrl(it) {
+    const media = it && it.media;
+    const first = Array.isArray(media) ? media[0] : media;
+    if (first && first.file) return PACK + first.file;
+    const id = (it && it.item_id) || "";
+    if (id.includes("real_life")) return PACK + "media/scenes/real_life/" + id + ".png";
+    if (id.includes("happen_next")) return PACK + "media/scenes/happen_next/" + id + ".png";
+    return null;
+  }
+
+  function addScenePic(el, it) {
+    const url = scenePicUrl(it) || picUrl(lemmas(it)[0]);
+    if (!url) return;
+    const img = document.createElement("img");
+    img.className = "pic scene-pic";
+    img.src = url;
+    img.alt = "";
+    img.onerror = () => img.remove();
+    el.appendChild(img);
+  }
+
   function ttsPlugin() {
     const cap = window.Capacitor;
     const plugins = cap && (cap.Plugins || (cap.getPlatform && cap.Plugins));
@@ -847,9 +868,20 @@
     appendScoreBar(el, skill.skill_id);
 
     const top = $('<div class="play-top row"></div>');
-    const back = $(`<button type="button" class="btn small">← Back</button>`);
-    back.onclick = playBack;
+    const back = $(`<button type="button" class="btn small">Index</button>`);
+    back.onclick = home;
     top.appendChild(back);
+    const skip = $(`<button type="button" class="btn small">Skip</button>`);
+    skip.onclick = () => {
+      stopAllAudio();
+      state.idx += 1;
+      if (state.idx >= state.queue.length) {
+        state.queue = servePool(state.items, skill.skill_id);
+        state.idx = 0;
+      }
+      showItem();
+    };
+    top.appendChild(skip);
     appendPlayToolbar(top, showItem);
     el.appendChild(top);
 
@@ -874,6 +906,7 @@
     if (todoText) el.appendChild($(`<p class="muted todo">${escapeHtml(todoText)}</p>`));
 
     if (stemVisible) el.appendChild($(`<div class="stem">${escapeHtml(it.stem)}</div>`));
+    addScenePic(el, it);
 
     const readText = itemReadText(skill, it, stemVisible);
     const replay = $(`<button type="button" class="btn replay" aria-label="Play again">▶</button>`);
@@ -1049,11 +1082,24 @@
     if (fb) fb.textContent = ok ? "Yes  ·  " + s + "%" : "Not that  ·  " + s + "%";
     const n = document.getElementById("next");
     const ex = document.getElementById("explain");
-    if (ex) {
+    if (ok) {
+      if (ex) {
+        ex.hidden = true;
+        ex.innerHTML = "";
+      }
+      if (n) {
+        n.style.display = "block";
+        n.disabled = false;
+        n.classList.remove("wait-taps");
+      }
+    } else if (ex) {
       ex.hidden = false;
       fillExplainPanel(ex, it, n);
+      if (n) n.style.display = "block";
+    } else if (n) {
+      n.style.display = "block";
+      n.disabled = false;
     }
-    if (n) n.style.display = "block";
     refreshScoreBar(skillId);
   }
 
