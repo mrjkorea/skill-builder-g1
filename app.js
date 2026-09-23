@@ -8,6 +8,36 @@
     { key: "vocabulary", label: "Vocabulary" },
   ];
 
+  const SECTION_COLORS = {
+    phonics: "#0ea5e9",
+    reading: "#a855f7",
+    grammar: "#f97316",
+    vocabulary: "#22c55e",
+  };
+
+  const SUBSECTIONS = {
+    phonics: [
+      { name: "Sounds, rhyme, syllables", min: 1, max: 8 },
+      { name: "Blend and change sounds", min: 9, max: 17 },
+      { name: "Starting and ending letters", min: 18, max: 21 },
+      { name: "Short vowels", min: 22, max: 49 },
+      { name: "Digraphs and blends", min: 50, max: 59 },
+      { name: "Long vowels", min: 60, max: 81 },
+      { name: "R-control, diphthongs, two syllables", min: 82, max: 91 },
+      { name: "Sight words", min: 92, max: 105 },
+    ],
+    grammar: [
+      { name: "Sentences", min: 1, max: 11 },
+      { name: "Nouns", min: 12, max: 22 },
+      { name: "Pronouns", min: 23, max: 27 },
+      { name: "Verbs", min: 28, max: 48 },
+      { name: "Articles, adjectives, prepositions", min: 49, max: 58 },
+      { name: "Order, contractions, capitals", min: 59, max: 68 },
+    ],
+    reading: [{ name: "Pictures and stories", all: true }],
+    vocabulary: [{ name: "Word meanings", all: true }],
+  };
+
   const LANGUAGES = [
     { code: "en", label: "English" },
     { code: "ko", label: "한국어" },
@@ -689,6 +719,63 @@
       .sort((a, b) => (a.number || 0) - (b.number || 0));
   }
 
+  function skillTried(skillId) {
+    return statCount(skillId, "correct") + statCount(skillId, "wrong") > 0;
+  }
+
+  function triedSkillsInCategory(key) {
+    return skillsInCategory(key).filter((s) => skillTried(s.skill_id)).length;
+  }
+
+  function scorePillTier(skillId) {
+    const sc = skillScore(skillId);
+    if (sc >= 90) return "pill-green";
+    if (sc >= 40) return "pill-blue";
+    return "pill-orange";
+  }
+
+  function skillRowButton(s, accentKey, onClick) {
+    const catKey = accentKey || s.category;
+    const color = SECTION_COLORS[catKey] || "#64748b";
+    const tried = skillTried(s.skill_id);
+    const num = s.number != null ? s.number : "";
+    let pillHtml;
+    if (tried) {
+      const sc = skillScore(s.skill_id);
+      pillHtml = `<span class="score-pill ${scorePillTier(s.skill_id)}">${sc}</span>`;
+    } else {
+      pillHtml = `<span class="score-pill pill-none" aria-label="Not started">—</span>`;
+    }
+    const b = $(
+      `<button type="button" class="skill-row">
+        <span class="skill-row-num" style="background:${escapeHtml(color)}">${escapeHtml(String(num))}</span>
+        <span class="skill-row-title">${escapeHtml(s.title_en)}</span>
+        ${pillHtml}
+      </button>`
+    );
+    b.onclick = onClick;
+    return b;
+  }
+
+  function groupSkillsBySubsection(catKey, skills) {
+    const defs = SUBSECTIONS[catKey];
+    if (!defs) return [{ name: "Skills", skills }];
+    const grouped = [];
+    const used = new Set();
+    for (const g of defs) {
+      const list = skills.filter((s) => {
+        if (g.all) return true;
+        const n = Number(s.number) || 0;
+        return n >= g.min && n <= g.max;
+      });
+      for (const s of list) used.add(s.skill_id);
+      if (list.length) grouped.push({ name: g.name, skills: list });
+    }
+    const rest = skills.filter((s) => !used.has(s.skill_id));
+    if (rest.length) grouped.push({ name: "More skills", skills: rest });
+    return grouped;
+  }
+
   function categoryLabel(key) {
     const c = CATEGORIES.find((x) => x.key === key);
     if (c) return c.label;
@@ -961,19 +1048,26 @@
 
     const drawTiles = () => {
       tilesHost.innerHTML = "";
-      const grid = $('<div class="cat-grid"></div>');
+      const stack = $('<div class="section-stack"></div>');
       for (const cat of CATEGORIES) {
         const n = skillsInCategory(cat.key).length;
-        const tile = $(
-          `<button type="button" class="cat-tile">
-            <span class="cat-name">${escapeHtml(cat.label)}</span>
-            <span class="cat-count muted">${n} skills</span>
+        const done = triedSkillsInCategory(cat.key);
+        const progress = done > 0 ? `${done} started` : "Not started";
+        const color = SECTION_COLORS[cat.key];
+        const card = $(
+          `<button type="button" class="section-card" style="--section-color:${escapeHtml(color)}">
+            <span class="section-card-bar" aria-hidden="true"></span>
+            <span class="section-card-body">
+              <span class="section-card-name">${escapeHtml(cat.label)}</span>
+              <span class="section-card-meta">${n} skills</span>
+              <span class="section-card-progress">${escapeHtml(progress)}</span>
+            </span>
           </button>`
         );
-        tile.onclick = () => categoryList(cat.key);
-        grid.appendChild(tile);
+        card.onclick = () => categoryList(cat.key);
+        stack.appendChild(card);
       }
-      tilesHost.appendChild(grid);
+      tilesHost.appendChild(stack);
     };
 
     const draw = () => {
@@ -988,17 +1082,9 @@
       for (const s of state.skills) {
         if (s.hidden) continue;
         if (!String(s.title_en || "").toLowerCase().includes(q)) continue;
-        const num = s.number != null ? s.number : "";
-        const cat = s.category_label || s.category || "";
-        const sc = skillScore(s.skill_id);
-        const b = $(
-          `<button type="button" class="skill">
-            <strong>${escapeHtml(num)}. ${escapeHtml(s.title_en)}</strong>
-            <div class="muted skill-meta">${escapeHtml(cat)} · AI ${sc}%</div>
-          </button>`
+        resultsHost.appendChild(
+          skillRowButton(s, s.category, () => startSkill(s, { fromSearch: true }))
         );
-        b.onclick = () => startSkill(s, { fromSearch: true });
-        resultsHost.appendChild(b);
       }
       if (!resultsHost.children.length) {
         resultsHost.appendChild($(`<p class="muted">No skills match.</p>`));
@@ -1014,7 +1100,7 @@
     state.selectedCategory = catKey;
     const el = app();
     el.innerHTML = "";
-    const back = $(`<button type="button" class="btn small">← Categories</button>`);
+    const back = $(`<button type="button" class="btn small">← Index</button>`);
     back.onclick = home;
     el.appendChild(back);
     el.appendChild($(`<h1 class="title-main">${escapeHtml(categoryLabel(catKey))}</h1>`));
@@ -1024,17 +1110,31 @@
     el.appendChild(toolbar);
 
     const list = document.createElement("div");
+    list.className = "skill-list";
+    list.style.setProperty("--section-color", SECTION_COLORS[catKey] || "#64748b");
     el.appendChild(list);
-    for (const s of skillsInCategory(catKey)) {
-      const sc = skillScore(s.skill_id);
-      const b = $(
-        `<button type="button" class="skill">
-          <strong>${escapeHtml(s.number)}. ${escapeHtml(s.title_en)}</strong>
-          <div class="muted skill-score-mini">AI ${sc}%</div>
-        </button>`
+
+    const skills = skillsInCategory(catKey);
+    for (const group of groupSkillsBySubsection(catKey, skills)) {
+      const block = document.createElement("section");
+      block.className = "subsection";
+      block.appendChild(
+        $(
+          `<div class="subsection-header">
+            <span class="subsection-name">${escapeHtml(group.name)}</span>
+            <span class="subsection-count">${group.skills.length} skills</span>
+          </div>`
+        )
       );
-      b.onclick = () => startSkill(s, { category: catKey });
-      list.appendChild(b);
+      const rows = document.createElement("div");
+      rows.className = "subsection-rows";
+      for (const s of group.skills) {
+        rows.appendChild(
+          skillRowButton(s, catKey, () => startSkill(s, { category: catKey }))
+        );
+      }
+      block.appendChild(rows);
+      list.appendChild(block);
     }
   }
 
