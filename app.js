@@ -1,5 +1,6 @@
 (() => {
   const PACK = "./pack/";
+  const SHEET_URL = "https://graduates-chan-journals-missing.trycloudflare.com/";
   const CATEGORIES = [
     { key: "phonics", label: "Phonics" },
     { key: "reading", label: "Reading" },
@@ -45,7 +46,101 @@
     streaks: {},
     locked: false,
     orderPicked: [],
+    packReady: false,
   };
+
+  let remoteSaveEnabled = false;
+  let remoteSaveTimer = null;
+
+  function loadAccount() {
+    try {
+      const raw = localStorage.getItem("sb_account");
+      if (!raw) return null;
+      return JSON.parse(raw);
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function saveAccount(acc) {
+    localStorage.setItem("sb_account", JSON.stringify(acc));
+  }
+
+  function buildProgressJson() {
+    return JSON.stringify({
+      v: 1,
+      scores: state.scores,
+      stats: loadStats(),
+      lang: state.lang,
+    });
+  }
+
+  async function sheetRequest(body) {
+    try {
+      const r = await fetch(SHEET_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      const data = await r.json();
+      return data;
+    } catch (_) {
+      return { ok: false, error: "network" };
+    }
+  }
+
+  function restoreProgress(payload) {
+    remoteSaveEnabled = false;
+    if (payload && payload.scores && typeof payload.scores === "object") {
+      state.scores = payload.scores;
+      localStorage.setItem("sb_scores", JSON.stringify(state.scores));
+    }
+    if (payload && payload.stats && typeof payload.stats === "object") {
+      localStorage.setItem("sb_stats", JSON.stringify(payload.stats));
+    }
+    if (payload && payload.lang && LANG_CODES.has(payload.lang)) {
+      state.lang = payload.lang;
+      localStorage.setItem("sb_lang", payload.lang);
+    }
+    remoteSaveEnabled = true;
+  }
+
+  function scheduleRemoteSave() {
+    if (!remoteSaveEnabled) return;
+    const acc = loadAccount();
+    if (!acc || !acc.sheet || !acc.name) return;
+    if (remoteSaveTimer) clearTimeout(remoteSaveTimer);
+    remoteSaveTimer = setTimeout(() => {
+      remoteSaveTimer = null;
+      sheetRequest({
+        action: "save",
+        program: "skill-builder",
+        name: acc.name,
+        pin: acc.pin,
+        pack_id: "grade1",
+        pack_title: "English Skill Builder Grade 1",
+        screen: "home",
+        locale: state.lang,
+        student_id: acc.name,
+        progress_json: buildProgressJson(),
+      }).catch(() => {});
+    }, 800);
+  }
+
+  async function saveEmptySheetRow(name, pin) {
+    await sheetRequest({
+      action: "save",
+      program: "skill-builder",
+      name,
+      pin,
+      pack_id: "grade1",
+      pack_title: "English Skill Builder Grade 1",
+      screen: "home",
+      locale: state.lang,
+      student_id: name,
+      progress_json: JSON.stringify({ v: 1, scores: {}, stats: {}, lang: state.lang }),
+    });
+  }
 
   const $ = (html) => {
     const d = document.createElement("div");
@@ -83,6 +178,7 @@
 
   function saveStats(all) {
     localStorage.setItem("sb_stats", JSON.stringify(all));
+    scheduleRemoteSave();
   }
 
   function statCount(skillId, key) {
@@ -101,6 +197,7 @@
 
   function saveScores() {
     localStorage.setItem("sb_scores", JSON.stringify(state.scores));
+    scheduleRemoteSave();
   }
 
   function skillScore(id) {
@@ -682,8 +779,7 @@
     if (c) c.textContent = String(statCount(skillId, "correct"));
   }
 
-  async function boot() {
-    app().innerHTML = "<h1>English Skill Builder</h1><p class='muted'>Loading Grade 1…</p>";
+  async function loadPackData() {
     const [skills, pictures, score] = await Promise.all([
       fetch(PACK + "skills.json").then((r) => r.json()),
       fetch(PACK + "pictures.json").then((r) => r.json()),
@@ -692,10 +788,147 @@
     state.skills = skills;
     state.pictures = pictures;
     state.scoreTable = score;
+    state.packReady = true;
+  }
+
+  async function waitForPack() {
+    while (!state.packReady) {
+      await new Promise((r) => setTimeout(r, 40));
+    }
+  }
+
+  async function enterApp() {
+    await waitForPack();
     ensureVoices();
     home();
+  }
+
+  function signOut() {
+    localStorage.removeItem("sb_account");
+    remoteSaveEnabled = false;
+    if (remoteSaveTimer) {
+      clearTimeout(remoteSaveTimer);
+      remoteSaveTimer = null;
+    }
+    renderSignInScreen();
+  }
+
+  function setSignInError(el, msg) {
+    const err = el.querySelector("#signin-err");
+    if (err) err.textContent = msg || "";
+  }
+
+  function renderSignInScreen(prefill) {
+    const el = app();
+    el.innerHTML = "";
+    const screen = $(
+      `<div class="signin-screen">
+        <h1 class="title-main">English Skill Builder</h1>
+        <p class="muted signin-intro">Type your name and a 4-digit PIN. The same name on another computer loads your scores.</p>
+        <div class="signin-field">
+          <label class="signin-label" for="signin-name">Name</label>
+          <input id="signin-name" class="signin-input" type="text" maxlength="24" autocomplete="name" />
+        </div>
+        <div class="signin-field">
+          <label class="signin-label" for="signin-pin">PIN</label>
+          <input id="signin-pin" class="signin-input" type="password" inputmode="numeric" maxlength="4" autocomplete="off" />
+        </div>
+        <p id="signin-err" class="signin-err" role="alert"></p>
+        <div class="signin-actions">
+          <button type="button" class="btn primary" id="signin-go">Sign in</button>
+          <button type="button" class="btn link" id="signin-local">Practice on this computer only</button>
+        </div>
+      </div>`
+    );
+    el.appendChild(screen);
+    const nameInput = screen.querySelector("#signin-name");
+    if (prefill && prefill.name) nameInput.value = prefill.name;
+    const pinInput = screen.querySelector("#signin-pin");
+    const goBtn = screen.querySelector("#signin-go");
+
+    pinInput.addEventListener("input", () => {
+      pinInput.value = pinInput.value.replace(/\D/g, "").slice(0, 4);
+    });
+
+    const doSignIn = async () => {
+      const name = nameInput.value.trim();
+      const pin = pinInput.value.trim();
+      if (!name) {
+        setSignInError(screen, "Type your name.");
+        return;
+      }
+      if (!/^\d{4}$/.test(pin)) {
+        setSignInError(screen, "PIN must be 4 digits.");
+        return;
+      }
+      setSignInError(screen, "");
+      goBtn.disabled = true;
+      goBtn.textContent = "Signing in…";
+      const data = await sheetRequest({
+        action: "load",
+        program: "skill-builder",
+        name,
+        pin,
+      });
+      if (data && data.error === "wrong_pin") {
+        setSignInError(screen, "That name already has a different PIN.");
+        goBtn.disabled = false;
+        goBtn.textContent = "Sign in";
+        return;
+      }
+      if (!data || data.ok === false || data.error === "network") {
+        setSignInError(screen, "Could not reach the progress sheet. Try again.");
+        goBtn.disabled = false;
+        goBtn.textContent = "Sign in";
+        return;
+      }
+      if (data.found && typeof data.progress_json === "string") {
+        try {
+          const progress = JSON.parse(data.progress_json);
+          restoreProgress(progress);
+        } catch (_) {
+          restoreProgress({});
+        }
+      } else if (data.found === false) {
+        remoteSaveEnabled = false;
+        state.scores = {};
+        localStorage.setItem("sb_scores", "{}");
+        localStorage.setItem("sb_stats", "{}");
+        await saveEmptySheetRow(name, pin);
+        remoteSaveEnabled = true;
+      } else {
+        restoreProgress({});
+      }
+      saveAccount({ name, pin, sheet: true });
+      remoteSaveEnabled = true;
+      await enterApp();
+    };
+
+    goBtn.onclick = () => doSignIn();
+    screen.querySelector("#signin-local").onclick = () => {
+      saveAccount({ name: "", pin: "", sheet: false });
+      remoteSaveEnabled = false;
+      enterApp();
+    };
+  }
+
+  async function boot() {
+    const acc = loadAccount();
+    const packPromise = loadPackData();
+    if (acc && acc.sheet === false) {
+      app().innerHTML = "<h1>English Skill Builder</h1><p class='muted'>Loading Grade 1…</p>";
+      await packPromise;
+      remoteSaveEnabled = false;
+      await enterApp();
+    } else {
+      const prefill = acc && acc.sheet && acc.name ? { name: acc.name } : null;
+      renderSignInScreen(prefill);
+      packPromise.catch((e) => {
+        console.error("Pack load failed", e);
+      });
+    }
     window.addEventListener("mrj-kokoro-status", () => {
-      if (!state.skill) home();
+      if (!state.skill && state.packReady && !app().querySelector(".signin-screen")) home();
     });
   }
 
@@ -707,6 +940,14 @@
     el.appendChild($(`<h1 class="title-main">English Skill Builder · Grade 1</h1>`));
 
     const toolbar = $('<div class="toolbar row"></div>');
+    const acc = loadAccount();
+    if (acc && acc.sheet && acc.name) {
+      const user = $(`<span class="home-user">${escapeHtml(acc.name)}</span>`);
+      const out = $(`<button type="button" class="btn small">Sign out</button>`);
+      out.onclick = signOut;
+      toolbar.appendChild(user);
+      toolbar.appendChild(out);
+    }
     appendPlayToolbar(toolbar, home);
     el.appendChild(toolbar);
 
