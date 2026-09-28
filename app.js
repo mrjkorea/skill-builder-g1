@@ -1,6 +1,9 @@
 (() => {
   const PACK = "./pack/";
-  const SHEET_URL = "https://graduates-chan-journals-missing.trycloudflare.com/";
+  // Jay 28SEP2026: ONE score book. The old trycloudflare tunnel is DEAD and was
+  // never our sheet. Everything goes to MRJ Classroom Metrics via this receiver.
+  const SHEET_URL =
+    "https://script.google.com/macros/s/AKfycbwIBPzcmJYkJP-uURVzyt8_7iF3mzGBTCp-omNA2sF3Hk5oGusHfOlPyhEnDl2XAJu82w/exec";
   const CATEGORIES = [
     { key: "phonics", label: "Phonics" },
     { key: "reading", label: "Reading" },
@@ -133,6 +136,25 @@
       localStorage.setItem("sb_lang", payload.lang);
     }
     remoteSaveEnabled = true;
+  }
+
+  // Jay 28SEP2026: finished score -> a row in the ONE book.
+  function toOneBook(skillKey, value, max) {
+    if (!window.MRJ_SCORES) return;
+    const acc = loadAccount();
+    if (!acc || !acc.name) return;
+    window.MRJ_SCORES.post({
+      student: acc.name,
+      program: "skill-builder-g1",
+      appName: "MRJ Skill Builder Grade 1",
+      source: "skill-builder-g1",
+      bookTitle: "English Skill Builder Grade 1",
+      unitTitle: skillKey || "",
+      itemId: "g1:" + (skillKey || "skill"),
+      itemType: "skill_score",
+      scoreValue: typeof value === "number" ? value : "",
+      scoreMax: typeof max === "number" ? max : "",
+    });
   }
 
   function scheduleRemoteSave() {
