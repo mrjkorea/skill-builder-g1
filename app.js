@@ -1,6 +1,6 @@
 (() => {
   const PACK = "./pack/";
-  // Name + PIN door. Saves on the MRJ Metrics book.
+  // Shared MRJ sign-in. Student id comes from mrj-auth-ready, not a typed name.
   const SHEET_URL = "https://script.google.com/macros/s/AKfycby9onOz2FRwayy2mQq5E_xG7JMxig2DWoE5kQsUYJQ3MAZ0-4OsY70sQ--DmPeUULYZ/exec";
   const CATEGORIES = [
     { key: "phonics", label: "Phonics" },
@@ -82,20 +82,7 @@
 
   let remoteSaveEnabled = false;
   let remoteSaveTimer = null;
-
-  function loadAccount() {
-    try {
-      const raw = localStorage.getItem("sb_account");
-      if (!raw) return null;
-      return JSON.parse(raw);
-    } catch (_) {
-      return null;
-    }
-  }
-
-  function saveAccount(acc) {
-    localStorage.setItem("sb_account", JSON.stringify(acc));
-  }
+  let studentId = "";
 
   function buildProgressJson() {
     return JSON.stringify({
@@ -139,10 +126,9 @@
   // Jay 28SEP2026: finished score -> a row in the ONE book.
   function toOneBook(skillKey, value, max) {
     if (!window.MRJ_SCORES) return;
-    const acc = loadAccount();
-    if (!acc || !acc.name) return;
+    if (!studentId) return;
     window.MRJ_SCORES.post({
-      student: acc.name,
+      student: studentId,
       program: "skill-builder-g1",
       appName: "MRJ Skill Builder Grade 1",
       source: "skill-builder-g1",
@@ -157,39 +143,23 @@
 
   function scheduleRemoteSave() {
     if (!remoteSaveEnabled) return;
-    const acc = loadAccount();
-    if (!acc || !acc.sheet || !acc.name) return;
+    if (!studentId) return;
     if (remoteSaveTimer) clearTimeout(remoteSaveTimer);
     remoteSaveTimer = setTimeout(() => {
       remoteSaveTimer = null;
+      if (!studentId) return;
       sheetRequest({
         action: "save",
         program: "skill-builder",
-        name: acc.name,
-        pin: acc.pin,
+        name: studentId,
         pack_id: "grade1",
         pack_title: "English Skill Builder Grade 1",
         screen: "home",
         locale: state.lang,
-        student_id: acc.name,
+        student_id: studentId,
         progress_json: buildProgressJson(),
       }).catch(() => {});
     }, 800);
-  }
-
-  async function saveEmptySheetRow(name, pin) {
-    await sheetRequest({
-      action: "save",
-      program: "skill-builder",
-      name,
-      pin,
-      pack_id: "grade1",
-      pack_title: "English Skill Builder Grade 1",
-      screen: "home",
-      locale: state.lang,
-      student_id: name,
-      progress_json: JSON.stringify({ v: 1, scores: {}, stats: {}, lang: state.lang }),
-    });
   }
 
   const $ = (html) => {
@@ -285,6 +255,7 @@
     s = Math.max(0, Math.min(99, s));
     state.scores[skillId] = s;
     saveScores();
+    toOneBook(skillId, s, 100);
     return s;
   }
 
@@ -911,131 +882,46 @@
   }
 
   function signOut() {
-    localStorage.removeItem("sb_account");
+    studentId = "";
     remoteSaveEnabled = false;
     if (remoteSaveTimer) {
       clearTimeout(remoteSaveTimer);
       remoteSaveTimer = null;
     }
-    renderSignInScreen();
-  }
-
-  function setSignInError(el, msg) {
-    const err = el.querySelector("#signin-err");
-    if (err) err.textContent = msg || "";
-  }
-
-  function renderSignInScreen(prefill) {
+    localStorage.removeItem("sb_account");
     const el = app();
-    el.innerHTML = "";
-    const screen = $(
-      `<div class="signin-screen">
-        <h1 class="title-main">English Skill Builder</h1>
-        <p class="muted signin-intro">Type your name and a 4-digit PIN. The same name on another computer loads your scores.</p>
-        <div class="signin-field">
-          <label class="signin-label" for="signin-name">Name</label>
-          <input id="signin-name" class="signin-input" type="text" maxlength="24" autocomplete="name" />
-        </div>
-        <div class="signin-field">
-          <label class="signin-label" for="signin-pin">PIN</label>
-          <input id="signin-pin" class="signin-input" type="password" inputmode="numeric" maxlength="4" autocomplete="off" />
-        </div>
-        <p id="signin-err" class="signin-err" role="alert"></p>
-        <div class="signin-actions">
-          <button type="button" class="btn primary" id="signin-go">Sign in</button>
-          <button type="button" class="btn link" id="signin-local">Practice on this computer only</button>
-        </div>
-      </div>`
-    );
-    el.appendChild(screen);
-    const nameInput = screen.querySelector("#signin-name");
-    if (prefill && prefill.name) nameInput.value = prefill.name;
-    const pinInput = screen.querySelector("#signin-pin");
-    const goBtn = screen.querySelector("#signin-go");
-
-    pinInput.addEventListener("input", () => {
-      pinInput.value = pinInput.value.replace(/\D/g, "").slice(0, 4);
-    });
-
-    const doSignIn = async () => {
-      const name = nameInput.value.trim();
-      const pin = pinInput.value.trim();
-      if (!name) {
-        setSignInError(screen, "Type your name.");
-        return;
-      }
-      if (!/^\d{4}$/.test(pin)) {
-        setSignInError(screen, "PIN must be 4 digits.");
-        return;
-      }
-      setSignInError(screen, "");
-      goBtn.disabled = true;
-      goBtn.textContent = "Signing in…";
-      const data = await sheetRequest({
-        action: "load",
-        program: "skill-builder",
-        name,
-        pin,
-      });
-      if (data && data.error === "wrong_pin") {
-        setSignInError(screen, "That name already has a different PIN.");
-        goBtn.disabled = false;
-        goBtn.textContent = "Sign in";
-        return;
-      }
-      if (!data || data.ok === false || data.error === "network") {
-        setSignInError(screen, "Could not reach the progress sheet. Try again.");
-        goBtn.disabled = false;
-        goBtn.textContent = "Sign in";
-        return;
-      }
-      if (data.found && typeof data.progress_json === "string") {
-        try {
-          const progress = JSON.parse(data.progress_json);
-          restoreProgress(progress);
-        } catch (_) {
-          restoreProgress({});
-        }
-      } else if (data.found === false) {
-        remoteSaveEnabled = false;
-        state.scores = {};
-        localStorage.setItem("sb_scores", "{}");
-        localStorage.setItem("sb_stats", "{}");
-        await saveEmptySheetRow(name, pin);
-        remoteSaveEnabled = true;
-      } else {
-        restoreProgress({});
-      }
-      saveAccount({ name, pin, sheet: true });
-      remoteSaveEnabled = true;
-      await enterApp();
-    };
-
-    goBtn.onclick = () => doSignIn();
-    screen.querySelector("#signin-local").onclick = () => {
-      saveAccount({ name: "", pin: "", sheet: false });
-      remoteSaveEnabled = false;
-      enterApp();
-    };
+    if (el) el.innerHTML = "";
+    if (window.MRJ_AUTH && typeof window.MRJ_AUTH.signOut === "function") {
+      window.MRJ_AUTH.signOut();
+    }
+    const gate = document.getElementById("mrj-auth-gate");
+    if (gate) gate.hidden = false;
+    document.documentElement.classList.add("mrj-auth-locked");
   }
 
-  async function boot() {
-    const acc = loadAccount();
+  function boot() {
     const packPromise = loadPackData();
-    if (acc && acc.sheet === false) {
-      app().innerHTML = "<h1>English Skill Builder</h1><p class='muted'>Loading Grade 1…</p>";
-      await packPromise;
-      remoteSaveEnabled = false;
-      await enterApp();
-    } else {
-      const prefill = acc && acc.sheet && acc.name ? { name: acc.name } : null;
-      renderSignInScreen(prefill);
-      packPromise.catch((e) => {
+    window.addEventListener("mrj-auth-ready", async (event) => {
+      const raw = event && event.detail ? event.detail.id : "";
+      const id = String(raw == null ? "" : raw).trim();
+      if (!id) return;
+      studentId = id;
+      try {
+        await packPromise;
+      } catch (e) {
         console.error("Pack load failed", e);
-      });
-    }
+        const root = app();
+        if (root) {
+          root.innerHTML =
+            "<h1>Could not load pack</h1><p class='muted'>" + escapeHtml(e.message || e) + "</p>";
+        }
+        return;
+      }
+      await enterApp();
+    });
     window.addEventListener("mrj-kokoro-status", () => {
-      if (!state.skill && state.packReady && !app().querySelector(".signin-screen")) home();
+      if (!studentId || state.skill || !state.packReady) return;
+      home();
     });
   }
 
@@ -1047,9 +933,8 @@
     el.appendChild($(`<h1 class="title-main">English Skill Builder · Grade 1</h1>`));
 
     const toolbar = $('<div class="toolbar row"></div>');
-    const acc = loadAccount();
-    if (acc && acc.sheet && acc.name) {
-      const user = $(`<span class="home-user">${escapeHtml(acc.name)}</span>`);
+    if (studentId) {
+      const user = $(`<span class="home-user">${escapeHtml(studentId)}</span>`);
       const out = $(`<button type="button" class="btn small">Sign out</button>`);
       out.onclick = signOut;
       toolbar.appendChild(user);
@@ -1460,8 +1345,5 @@
     refreshScoreBar(skillId);
   }
 
-  boot().catch((e) => {
-    app().innerHTML =
-      "<h1>Could not load pack</h1><p class='muted'>" + escapeHtml(e.message || e) + "</p>";
-  });
+  boot();
 })();
