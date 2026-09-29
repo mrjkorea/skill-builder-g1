@@ -1,9 +1,7 @@
 (() => {
   const PACK = "./pack/";
-  // Jay 28SEP2026: ONE score book. The old trycloudflare tunnel is DEAD and was
-  // never our sheet. Everything goes to MRJ Classroom Metrics via this receiver.
-  const SHEET_URL =
-    "https://script.google.com/macros/s/AKfycbwIBPzcmJYkJP-uURVzyt8_7iF3mzGBTCp-omNA2sF3Hk5oGusHfOlPyhEnDl2XAJu82w/exec";
+  // Name + PIN door. Classroom Metrics cannot load a login.
+  const SHEET_URL = "https://opponent-turned-typing-cingular.trycloudflare.com/";
   const CATEGORIES = [
     { key: "phonics", label: "Phonics" },
     { key: "reading", label: "Reading" },
