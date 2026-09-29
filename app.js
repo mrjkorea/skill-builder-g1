@@ -1,7 +1,7 @@
 (() => {
   const PACK = "./pack/";
   // Name + PIN door. Classroom Metrics cannot load a login.
-  const SHEET_URL = "https://opponent-turned-typing-cingular.trycloudflare.com/";
+  const SHEET_URL = "https://script.google.com/macros/s/AKfycby9onOz2FRwayy2mQq5E_xG7JMxig2DWoE5kQsUYJQ3MAZ0-4OsY70sQ--DmPeUULYZ/exec";
   const CATEGORIES = [
     { key: "phonics", label: "Phonics" },
     { key: "reading", label: "Reading" },
@@ -110,7 +110,7 @@
     try {
       const r = await fetch(SHEET_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify(body),
       });
       const data = await r.json();
