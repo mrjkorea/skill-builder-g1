@@ -1,6 +1,6 @@
 (() => {
   const PACK = "./pack/";
-  // Name + PIN door. Classroom Metrics cannot load a login.
+  // Name + PIN door. Saves on the MRJ Metrics book.
   const SHEET_URL = "https://script.google.com/macros/s/AKfycby9onOz2FRwayy2mQq5E_xG7JMxig2DWoE5kQsUYJQ3MAZ0-4OsY70sQ--DmPeUULYZ/exec";
   const CATEGORIES = [
     { key: "phonics", label: "Phonics" },
