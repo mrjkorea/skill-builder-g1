@@ -1,7 +1,8 @@
 (() => {
   const PACK = "./pack/";
+  const PROGRAM = "skill-builder-g1";
+  const PACK_SAVE_THROTTLE_MS = 17000;
   // Shared MRJ sign-in. Student id comes from mrj-auth-ready, not a typed name.
-  const SHEET_URL = "https://script.google.com/macros/s/AKfycby9onOz2FRwayy2mQq5E_xG7JMxig2DWoE5kQsUYJQ3MAZ0-4OsY70sQ--DmPeUULYZ/exec";
   const CATEGORIES = [
     { key: "phonics", label: "Phonics" },
     { key: "reading", label: "Reading" },
@@ -73,16 +74,22 @@
     queue: [],
     items: [],
     idx: 0,
-    scores: JSON.parse(localStorage.getItem("sb_scores") || "{}"),
+    scores: {},
     streaks: {},
     locked: false,
     orderPicked: [],
     packReady: false,
   };
 
-  let remoteSaveEnabled = false;
-  let remoteSaveTimer = null;
   let studentId = "";
+  let studentIdKey = "";
+  let packLoadOk = false;
+  let packSavePending = false;
+  let packSaveTimer = null;
+  let packLastSaveAt = 0;
+  let packLoadRetryTimer = null;
+
+  const packApi = () => (typeof window !== "undefined" && window.SB_PACK_SYNC) || null;
 
   function buildProgressJson() {
     return JSON.stringify({
@@ -93,34 +100,160 @@
     });
   }
 
-  async function sheetRequest(body) {
+  function scoresStorageKey() {
+    const api = packApi();
+    if (!studentIdKey || !api) return "sb_scores";
+    return api.studentStorageKey(api.SCORES_BASE, studentIdKey);
+  }
+
+  function statsStorageKey() {
+    const api = packApi();
+    if (!studentIdKey || !api) return "sb_stats";
+    return api.studentStorageKey(api.STATS_BASE, studentIdKey);
+  }
+
+  function langStorageKey() {
+    const api = packApi();
+    if (!studentIdKey || !api) return "sb_lang";
+    return api.studentStorageKey(api.LANG_BASE, studentIdKey);
+  }
+
+  function readJsonStorage(key, fallback) {
     try {
-      const r = await fetch(SHEET_URL, {
-        method: "POST",
-        headers: { "Content-Type": "text/plain;charset=utf-8" },
-        body: JSON.stringify(body),
-      });
-      const data = await r.json();
-      return data;
+      const raw = localStorage.getItem(key);
+      if (!raw) return fallback;
+      return JSON.parse(raw);
     } catch (_) {
-      return { ok: false, error: "network" };
+      return fallback;
     }
   }
 
-  function restoreProgress(payload) {
-    remoteSaveEnabled = false;
-    if (payload && payload.scores && typeof payload.scores === "object") {
-      state.scores = payload.scores;
-      localStorage.setItem("sb_scores", JSON.stringify(state.scores));
+  function applyProgressBlob(blob) {
+    const api = packApi();
+    const empty = api ? api.emptyProgress() : { v: 1, scores: {}, stats: {}, lang: null };
+    const p = blob || empty;
+    state.scores = p.scores && typeof p.scores === "object" ? p.scores : {};
+    if (p.lang && LANG_CODES.has(p.lang)) {
+      state.lang = p.lang;
+      localStorage.setItem(langStorageKey(), p.lang);
     }
-    if (payload && payload.stats && typeof payload.stats === "object") {
-      localStorage.setItem("sb_stats", JSON.stringify(payload.stats));
+    localStorage.setItem(scoresStorageKey(), JSON.stringify(state.scores));
+    localStorage.setItem(statsStorageKey(), JSON.stringify(p.stats && typeof p.stats === "object" ? p.stats : {}));
+  }
+
+  function loadKeyedLocalProgress() {
+    const api = packApi();
+    const empty = api ? api.emptyProgress() : { v: 1, scores: {}, stats: {}, lang: null };
+    const langRaw = localStorage.getItem(langStorageKey());
+    const lang = langRaw && LANG_CODES.has(langRaw) ? langRaw : null;
+    return {
+      v: 1,
+      scores: readJsonStorage(scoresStorageKey(), {}),
+      stats: readJsonStorage(statsStorageKey(), {}),
+      lang: lang || (LANG_CODES.has(state.lang) ? state.lang : null),
+    };
+  }
+
+  function authHasPackApi() {
+    const auth = window.MRJ_AUTH;
+    return !!(auth && typeof auth.loadPack === "function" && typeof auth.savePack === "function");
+  }
+
+  function canPackSave() {
+    const api = packApi();
+    if (!api) return false;
+    return api.canSaveToServer(packLoadOk, window.MRJ_AUTH, PROGRAM);
+  }
+
+  function clearPackSaveTimer() {
+    if (packSaveTimer) {
+      clearTimeout(packSaveTimer);
+      packSaveTimer = null;
     }
-    if (payload && payload.lang && LANG_CODES.has(payload.lang)) {
-      state.lang = payload.lang;
-      localStorage.setItem("sb_lang", payload.lang);
+  }
+
+  async function flushPackSave() {
+    if (!packSavePending || !studentId || !canPackSave()) return;
+    const auth = window.MRJ_AUTH;
+    if (!auth || typeof auth.savePack !== "function") return;
+    packSavePending = false;
+    clearPackSaveTimer();
+    try {
+      const res = await auth.savePack(PROGRAM, buildProgressJson());
+      if (res && res.ok) {
+        packLastSaveAt = Date.now();
+      } else {
+        packSavePending = true;
+        packLoadOk = false;
+        schedulePackLoadRetry();
+      }
+    } catch (_) {
+      packSavePending = true;
+      packLoadOk = false;
+      schedulePackLoadRetry();
     }
-    remoteSaveEnabled = true;
+  }
+
+  function schedulePackSave() {
+    if (!studentId || !canPackSave()) return;
+    packSavePending = true;
+    const elapsed = Date.now() - packLastSaveAt;
+    if (elapsed >= PACK_SAVE_THROTTLE_MS) {
+      flushPackSave();
+      return;
+    }
+    if (!packSaveTimer) {
+      packSaveTimer = setTimeout(() => {
+        packSaveTimer = null;
+        flushPackSave();
+      }, PACK_SAVE_THROTTLE_MS - elapsed);
+    }
+  }
+
+  function schedulePackLoadRetry() {
+    if (packLoadRetryTimer || !studentId) return;
+    packLoadRetryTimer = setTimeout(() => {
+      packLoadRetryTimer = null;
+      syncStudentPack(studentId).catch(() => {});
+    }, 30000);
+  }
+
+  async function syncStudentPack(id) {
+    const api = packApi();
+    if (!api) return;
+    studentIdKey = api.idKey(id);
+    packLoadOk = false;
+    clearPackSaveTimer();
+    packSavePending = false;
+
+    const localProgress = loadKeyedLocalProgress();
+    applyProgressBlob(localProgress);
+
+    if (!authHasPackApi()) return;
+
+    let loadRes;
+    try {
+      loadRes = await window.MRJ_AUTH.loadPack(PROGRAM);
+    } catch (_) {
+      loadRes = { ok: false, error: "network" };
+    }
+
+    if (!loadRes || !loadRes.ok) {
+      schedulePackLoadRetry();
+      return;
+    }
+
+    packLoadOk = true;
+    const serverParsed = api.parseProgressJson(loadRes.progress_json);
+    const merged = api.mergeProgress(localProgress, serverParsed);
+    applyProgressBlob(merged);
+
+    if (api.isRicherThan(merged, serverParsed)) {
+      try {
+        const saveRes = await window.MRJ_AUTH.savePack(PROGRAM, JSON.stringify(merged));
+        if (saveRes && saveRes.ok) packLastSaveAt = Date.now();
+      } catch (_) {}
+    }
   }
 
   // Jay 28SEP2026: finished score -> a row in the ONE book.
@@ -139,27 +272,6 @@
       scoreValue: typeof value === "number" ? value : "",
       scoreMax: typeof max === "number" ? max : "",
     });
-  }
-
-  function scheduleRemoteSave() {
-    if (!remoteSaveEnabled) return;
-    if (!studentId) return;
-    if (remoteSaveTimer) clearTimeout(remoteSaveTimer);
-    remoteSaveTimer = setTimeout(() => {
-      remoteSaveTimer = null;
-      if (!studentId) return;
-      sheetRequest({
-        action: "save",
-        program: "skill-builder",
-        name: studentId,
-        pack_id: "grade1",
-        pack_title: "English Skill Builder Grade 1",
-        screen: "home",
-        locale: state.lang,
-        student_id: studentId,
-        progress_json: buildProgressJson(),
-      }).catch(() => {});
-    }, 800);
   }
 
   const $ = (html) => {
@@ -189,16 +301,12 @@
   }
 
   function loadStats() {
-    try {
-      return JSON.parse(localStorage.getItem("sb_stats") || "{}");
-    } catch (_) {
-      return {};
-    }
+    return readJsonStorage(statsStorageKey(), {});
   }
 
   function saveStats(all) {
-    localStorage.setItem("sb_stats", JSON.stringify(all));
-    scheduleRemoteSave();
+    localStorage.setItem(statsStorageKey(), JSON.stringify(all));
+    schedulePackSave();
   }
 
   function statCount(skillId, key) {
@@ -216,8 +324,8 @@
   }
 
   function saveScores() {
-    localStorage.setItem("sb_scores", JSON.stringify(state.scores));
-    scheduleRemoteSave();
+    localStorage.setItem(scoresStorageKey(), JSON.stringify(state.scores));
+    schedulePackSave();
   }
 
   function skillScore(id) {
@@ -788,7 +896,8 @@
   function setLang(code) {
     if (!LANG_CODES.has(code)) return;
     state.lang = code;
-    localStorage.setItem("sb_lang", code);
+    localStorage.setItem(langStorageKey(), code);
+    schedulePackSave();
   }
 
   function appendLanguageControl(el, rerender) {
@@ -882,12 +991,17 @@
   }
 
   function signOut() {
+    flushPackSave();
     studentId = "";
-    remoteSaveEnabled = false;
-    if (remoteSaveTimer) {
-      clearTimeout(remoteSaveTimer);
-      remoteSaveTimer = null;
+    studentIdKey = "";
+    packLoadOk = false;
+    packSavePending = false;
+    clearPackSaveTimer();
+    if (packLoadRetryTimer) {
+      clearTimeout(packLoadRetryTimer);
+      packLoadRetryTimer = null;
     }
+    state.scores = {};
     localStorage.removeItem("sb_account");
     const el = app();
     if (el) el.innerHTML = "";
@@ -917,7 +1031,15 @@
         }
         return;
       }
+      try {
+        await syncStudentPack(id);
+      } catch (e) {
+        console.error("Progress pack sync failed", e);
+      }
       await enterApp();
+    });
+    window.addEventListener("pagehide", () => {
+      flushPackSave();
     });
     window.addEventListener("mrj-kokoro-status", () => {
       if (!studentId || state.skill || !state.packReady) return;
