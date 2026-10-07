@@ -68,3 +68,19 @@ test("studentStorageKey does not read legacy device-wide keys", () => {
 test("idKey normalizes student ids like mrj-auth", () => {
   assert.equal(sync.idKey("  Alice  "), "alice");
 });
+
+test("scores recorded while loadPack is pending survive mergeAfterPackLoad", () => {
+  const staleBeforeRequest = { v: 1, scores: {}, stats: {}, lang: null };
+  const currentAfterAnswers = {
+    v: 1,
+    scores: { skill_a: 42 },
+    stats: { skill_a: { correct: 1, wrong: 0 } },
+    lang: null,
+  };
+  const serverRaw = '{"scores":{"other":30},"stats":{}}';
+  const { merged } = sync.mergeAfterPackLoad(currentAfterAnswers, serverRaw);
+  assert.equal(merged.scores.skill_a, 42);
+  assert.equal(merged.scores.other, 30);
+  const wrong = sync.mergeProgress(staleBeforeRequest, sync.parseProgressJson(serverRaw));
+  assert.equal(wrong.scores.skill_a, undefined);
+});

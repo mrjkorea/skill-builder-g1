@@ -85,6 +85,7 @@
   let studentIdKey = "";
   let packLoadOk = false;
   let packSavePending = false;
+  let packDirty = false;
   let packSaveTimer = null;
   let packLastSaveAt = 0;
   let packLoadRetryTimer = null;
@@ -141,17 +142,44 @@
     localStorage.setItem(statsStorageKey(), JSON.stringify(p.stats && typeof p.stats === "object" ? p.stats : {}));
   }
 
-  function loadKeyedLocalProgress() {
-    const api = packApi();
-    const empty = api ? api.emptyProgress() : { v: 1, scores: {}, stats: {}, lang: null };
+  function captureProgressFromState() {
     const langRaw = localStorage.getItem(langStorageKey());
-    const lang = langRaw && LANG_CODES.has(langRaw) ? langRaw : null;
+    const lang =
+      (langRaw && LANG_CODES.has(langRaw) ? langRaw : null) ||
+      (LANG_CODES.has(state.lang) ? state.lang : null);
     return {
+      v: 1,
+      scores: Object.assign({}, state.scores),
+      stats: readJsonStorage(statsStorageKey(), {}),
+      lang,
+    };
+  }
+
+  function mergeKeyedStorageIntoState() {
+    const api = packApi();
+    if (!api) return;
+    const langRaw = localStorage.getItem(langStorageKey());
+    const stored = {
       v: 1,
       scores: readJsonStorage(scoresStorageKey(), {}),
       stats: readJsonStorage(statsStorageKey(), {}),
-      lang: lang || (LANG_CODES.has(state.lang) ? state.lang : null),
+      lang: langRaw && LANG_CODES.has(langRaw) ? langRaw : null,
     };
+    const merged = api.mergeProgress(stored, captureProgressFromState());
+    state.scores = merged.scores && typeof merged.scores === "object" ? merged.scores : {};
+    localStorage.setItem(scoresStorageKey(), JSON.stringify(state.scores));
+    localStorage.setItem(
+      statsStorageKey(),
+      JSON.stringify(merged.stats && typeof merged.stats === "object" ? merged.stats : {})
+    );
+    if (merged.lang && LANG_CODES.has(merged.lang)) {
+      state.lang = merged.lang;
+      localStorage.setItem(langStorageKey(), merged.lang);
+    }
+  }
+
+  function markPackDirty() {
+    packDirty = true;
   }
 
   function authHasPackApi() {
@@ -172,8 +200,9 @@
     }
   }
 
-  async function flushPackSave() {
-    if (!packSavePending || !studentId || !canPackSave()) return;
+  async function flushPackSave(force) {
+    if (!studentId || !canPackSave()) return;
+    if (!force && !packSavePending && !packDirty) return;
     const auth = window.MRJ_AUTH;
     if (!auth || typeof auth.savePack !== "function") return;
     packSavePending = false;
@@ -182,20 +211,25 @@
       const res = await auth.savePack(PROGRAM, buildProgressJson());
       if (res && res.ok) {
         packLastSaveAt = Date.now();
+        packDirty = false;
       } else {
         packSavePending = true;
+        packDirty = true;
         packLoadOk = false;
         schedulePackLoadRetry();
       }
     } catch (_) {
       packSavePending = true;
+      packDirty = true;
       packLoadOk = false;
       schedulePackLoadRetry();
     }
   }
 
   function schedulePackSave() {
-    if (!studentId || !canPackSave()) return;
+    if (!studentId) return;
+    markPackDirty();
+    if (!canPackSave()) return;
     packSavePending = true;
     const elapsed = Date.now() - packLastSaveAt;
     if (elapsed >= PACK_SAVE_THROTTLE_MS) {
@@ -224,10 +258,8 @@
     studentIdKey = api.idKey(id);
     packLoadOk = false;
     clearPackSaveTimer();
-    packSavePending = false;
 
-    const localProgress = loadKeyedLocalProgress();
-    applyProgressBlob(localProgress);
+    mergeKeyedStorageIntoState();
 
     if (!authHasPackApi()) return;
 
@@ -244,15 +276,24 @@
     }
 
     packLoadOk = true;
-    const serverParsed = api.parseProgressJson(loadRes.progress_json);
-    const merged = api.mergeProgress(localProgress, serverParsed);
+    const { merged, serverParsed } = api.mergeAfterPackLoad(
+      captureProgressFromState(),
+      loadRes.progress_json
+    );
     applyProgressBlob(merged);
 
     if (api.isRicherThan(merged, serverParsed)) {
       try {
         const saveRes = await window.MRJ_AUTH.savePack(PROGRAM, JSON.stringify(merged));
-        if (saveRes && saveRes.ok) packLastSaveAt = Date.now();
-      } catch (_) {}
+        if (saveRes && saveRes.ok) {
+          packLastSaveAt = Date.now();
+          packDirty = false;
+        } else {
+          markPackDirty();
+        }
+      } catch (_) {
+        markPackDirty();
+      }
     }
   }
 
@@ -306,6 +347,7 @@
 
   function saveStats(all) {
     localStorage.setItem(statsStorageKey(), JSON.stringify(all));
+    markPackDirty();
     schedulePackSave();
   }
 
@@ -325,6 +367,7 @@
 
   function saveScores() {
     localStorage.setItem(scoresStorageKey(), JSON.stringify(state.scores));
+    markPackDirty();
     schedulePackSave();
   }
 
@@ -897,6 +940,7 @@
     if (!LANG_CODES.has(code)) return;
     state.lang = code;
     localStorage.setItem(langStorageKey(), code);
+    markPackDirty();
     schedulePackSave();
   }
 
@@ -991,11 +1035,12 @@
   }
 
   function signOut() {
-    flushPackSave();
+    if (packDirty || packSavePending) flushPackSave(true);
     studentId = "";
     studentIdKey = "";
     packLoadOk = false;
     packSavePending = false;
+    packDirty = false;
     clearPackSaveTimer();
     if (packLoadRetryTimer) {
       clearTimeout(packLoadRetryTimer);
@@ -1039,7 +1084,7 @@
       await enterApp();
     });
     window.addEventListener("pagehide", () => {
-      flushPackSave();
+      if (packDirty || packSavePending) flushPackSave(true);
     });
     window.addEventListener("mrj-kokoro-status", () => {
       if (!studentId || state.skill || !state.packReady) return;

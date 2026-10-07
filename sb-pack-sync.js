@@ -119,6 +119,13 @@
     }
   }
 
+  /** Merge server pack JSON with in-memory progress after loadPack resolves (not a pre-await snapshot). */
+  function mergeAfterPackLoad(currentProgress, serverRaw) {
+    const serverParsed = parseProgressJson(serverRaw);
+    const merged = mergeProgress(currentProgress, serverParsed);
+    return { merged, serverParsed };
+  }
+
   return {
     SCORES_BASE,
     STATS_BASE,
@@ -133,5 +140,6 @@
     progressWeight,
     isRicherThan,
     canSaveToServer,
+    mergeAfterPackLoad,
   };
 });
