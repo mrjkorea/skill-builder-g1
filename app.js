@@ -297,22 +297,17 @@
     }
   }
 
-  // Jay 28SEP2026: finished score -> a row in the ONE book.
-  function toOneBook(skillKey, value, max) {
-    if (!window.MRJ_SCORES) return;
-    if (!studentId) return;
-    window.MRJ_SCORES.post({
-      student: studentId,
-      program: "skill-builder-g1",
-      appName: "MRJ Skill Builder Grade 1",
-      source: "skill-builder-g1",
-      bookTitle: "English Skill Builder Grade 1",
-      unitTitle: skillKey || "",
-      itemId: "g1:" + (skillKey || "skill"),
-      itemType: "skill_score",
-      scoreValue: typeof value === "number" ? value : "",
-      scoreMax: typeof max === "number" ? max : "",
-    });
+  function logAnswer(skillId, q, correct, smartScore, tier) {
+    const api = window.SB_SCORE_SAVE;
+    if (!api || !api.logAnswer) return;
+    api.logAnswer(
+      { studentId, MRJ_SCORES: window.MRJ_SCORES, MRJ_AUTH: window.MRJ_AUTH },
+      skillId,
+      q,
+      correct,
+      smartScore,
+      tier
+    );
   }
 
   const $ = (html) => {
@@ -382,7 +377,7 @@
     return "low";
   }
 
-  function applyScore(skillId, correct, tier) {
+  function applyScore(skillId, correct, tier, q) {
     const table = state.scoreTable;
     let s = skillScore(skillId);
     const b = band(s);
@@ -406,7 +401,7 @@
     s = Math.max(0, Math.min(99, s));
     state.scores[skillId] = s;
     saveScores();
-    toOneBook(skillId, s, 100);
+    logAnswer(skillId, q, correct, s, tier);
     return s;
   }
 
@@ -1486,7 +1481,7 @@
     state.locked = true;
     const skillId = state.skill.skill_id;
     bumpStat(skillId, ok);
-    const s = applyScore(skillId, ok, it.tier || 2);
+    const s = applyScore(skillId, ok, it.tier || 2, it);
     const fb = document.getElementById("fb");
     if (fb) fb.textContent = ok ? "Yes  ·  " + s + "%" : "Not that  ·  " + s + "%";
     const n = document.getElementById("next");
