@@ -3,30 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Skill Builder · Grade 2</title>
-  <link rel="stylesheet" href="../chooser.css?v=20261013-chooser" />
+  <meta name="mrj-build" content="20261013-g2" />
+  <title>English Skill Builder · Grade 2</title>
+  <link rel="stylesheet" href="app.css?v=20261013-g2" />
 </head>
 <body>
-  <main class="chooser">
-    <header class="chooser-head">
-      <p class="chooser-kicker"><a href="../" style="color:inherit;text-decoration:none">← All grades</a></p>
-      <h1>Grade 2</h1>
-      <p class="chooser-lead">
-        Jay’s Grade 2 Skill Builder pack is not in any public <code>mrjkorea</code> repo yet
-        (searched org repos and code for <code>skill-builder-g2</code> / Grade 2 content — none found).
-        This slot is ready when the pack lands.
-      </p>
-    </header>
-    <div class="grade-stack">
-      <div class="grade-card grade-2" style="pointer-events:none">
-        <span class="grade-bar" aria-hidden="true"></span>
-        <span class="grade-body">
-          <span class="grade-name">Coming soon</span>
-          <span class="grade-meta">Grade 2 activities will appear here after the content repo is linked.</span>
-        </span>
-      </div>
-    </div>
-    <p class="chooser-foot muted"><a href="../grade1/" style="color:var(--g1)">Practice Grade 1 now</a></p>
-  </main>
+  <div id="app"></div>
+  <script type="module" src="kokoro-boot.js?v=20261013-g2"></script>
+  <script src="sb-pack-sync.js?v=20261013-g2"></script>
+  <script src="sb-score-save.js?v=20261013-g2"></script>
+  <script src="mrj-scores.js?v=20261013-g2"></script>
+  <link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css">
+  <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js"></script>
+  <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js" data-mrj-app="skill-builder-g1"></script>
+  <script src="app.js?v=20261013-g2"></script>
 </body>
 </html>

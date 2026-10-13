@@ -1,0 +1,66 @@
+{
+  "start": 0,
+  "bands": {
+    "low": {
+      "range": [
+        0,
+        39
+      ],
+      "gain": 10,
+      "loss": 2
+    },
+    "mid": {
+      "range": [
+        40,
+        70
+      ],
+      "gain": 7,
+      "loss": 4
+    },
+    "high": {
+      "range": [
+        71,
+        89
+      ],
+      "gain": {
+        "tier2": 4,
+        "tier3": 5
+      },
+      "loss": 6
+    },
+    "star": {
+      "range": [
+        90,
+        99
+      ],
+      "gain": {
+        "base": 1,
+        "streak3": 2
+      },
+      "loss": {
+        "first": 5,
+        "repeat": 8
+      }
+    }
+  },
+  "floor_items_before_90": 12,
+  "gate": 90,
+  "recent_window": 6,
+  "serve": {
+    "low": {
+      "1": 0.8,
+      "2": 0.2
+    },
+    "mid": {
+      "2": 0.8,
+      "3": 0.2
+    },
+    "high": {
+      "2": 0.4,
+      "3": 0.6
+    },
+    "star": {
+      "3": 1.0
+    }
+  }
+}
