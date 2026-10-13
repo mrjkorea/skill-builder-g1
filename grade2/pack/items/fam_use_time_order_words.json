@@ -1,0 +1,2402 @@
+[
+  {
+    "item_id": "roots_use_time_order_words_0001",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we pack lunch. Then we go.",
+    "choices": [
+      "because",
+      "if",
+      "first",
+      "and"
+    ],
+    "answer_index": 2,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0002",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we wash. ... we eat.",
+    "choices": [
+      "because",
+      "then",
+      "if",
+      "but"
+    ],
+    "answer_index": 1,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wash"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0003",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we play. Then we eat. ... we go.",
+    "choices": [
+      "because",
+      "if",
+      "and",
+      "last"
+    ],
+    "answer_index": 3,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0004",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pack your bag ... you leave.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0005",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... lunch, we went to the park.",
+    "choices": [
+      "because",
+      "after",
+      "if",
+      "while"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0006",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we sit. ... we read books. Last we write.",
+    "choices": [
+      "because",
+      "before",
+      "next",
+      "after"
+    ],
+    "answer_index": 2,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0007",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> ate breakfast ... class.",
+    "choices": [
+      "after",
+      "because",
+      "while",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "breakfast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0008",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Lunch is now. Recess is ...",
+    "choices": [
+      "earlier",
+      "later",
+      "yesterday",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0009",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we grab bags. Then we go.",
+    "choices": [
+      "because",
+      "if",
+      "first",
+      "but"
+    ],
+    "answer_index": 2,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0010",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we read. ... we draw.",
+    "choices": [
+      "because",
+      "then",
+      "if",
+      "and"
+    ],
+    "answer_index": 1,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0011",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we mix. Then we bake. ... we eat.",
+    "choices": [
+      "because",
+      "if",
+      "and",
+      "last"
+    ],
+    "answer_index": 3,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0012",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we wash hands. Then we eat.",
+    "choices": [
+      "first",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wash"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0013",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we pack balls. ... we rest.",
+    "choices": [
+      "then",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0014",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we run. Then we rest. ... we drink.",
+    "choices": [
+      "last",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "run"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0015",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we tie boots. Then we play.",
+    "choices": [
+      "first",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0016",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we sit. ... we listen.",
+    "choices": [
+      "then",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0017",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we plant. Then we water. ... we wait.",
+    "choices": [
+      "last",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0018",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we open books. Then we read.",
+    "choices": [
+      "first",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0019",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we nap. ... we play.",
+    "choices": [
+      "then",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0020",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we feed cat. Then we pet. ... we go.",
+    "choices": [
+      "last",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0021",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we set desk. Then we eat.",
+    "choices": [
+      "first",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0022",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we jump. ... we stretch.",
+    "choices": [
+      "then",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jump"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0023",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we cut. Then we glue. ... we show.",
+    "choices": [
+      "last",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cut"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0024",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we pick hats. Then we run.",
+    "choices": [
+      "first",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0025",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we stack cups. ... we count.",
+    "choices": [
+      "then",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0026",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we rake. Then we bag. ... we rest.",
+    "choices": [
+      "last",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0027",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we pick apples. Then we wash.",
+    "choices": [
+      "first",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0028",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we fold blankets. ... we put away.",
+    "choices": [
+      "then",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0029",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we swim. Then we dry. ... we dress.",
+    "choices": [
+      "last",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0030",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we brush teeth. Then we sleep.",
+    "choices": [
+      "first",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teeth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0031",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we sing. ... we clap.",
+    "choices": [
+      "then",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sing"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0032",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we peel peas. Then we chop. ... we cook.",
+    "choices": [
+      "last",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pea"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0033",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "... we fill cups. Then we sip.",
+    "choices": [
+      "first",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0034",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we walk. ... we stop.",
+    "choices": [
+      "then",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0035",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "First we dig. Then we plant. ... we smile.",
+    "choices": [
+      "last",
+      "because",
+      "if",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "last_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0036",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Wash your face ... you eat.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wash"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0037",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... dinner, we played games.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0038",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we hop. ... we skip. Last we rest.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hop"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0039",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put on boots ... you go out.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0040",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... school, we had snack.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0041",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we paint. ... we hang art. Last we clap.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paint"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0042",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Feed the dog ... you play.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0043",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... the rain, we stayed in.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0044",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we count. ... we string beads. Last we tie.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bead"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0045",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tie your boots ... you run.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0046",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... math, we went to gym.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "math"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0047",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we talk. ... we share. Last we clap.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "talk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0048",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Clean your desk ... you write.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0049",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... recess, we read books.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "recess"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0050",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we map. ... we trace. Last we color.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0051",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Sign the note ... you go home.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0052",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... the story, we drew art.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0053",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we sort. ... we match socks. Last we fold.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0054",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Lock the gate ... you leave.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0055",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... lunch, the cat napped.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0056",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we stack. ... we knock down.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0057",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Rake leaves ... you jump in.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0058",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... art time, we ate fruit.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "art"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0059",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we warm up. ... we run. Last we stretch.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "run"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0060",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pack a snack ... you hike.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0061",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... the movie, we got treats.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "movie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0062",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we list. ... we shop. Last we pay.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "list"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0063",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Brush the cat ... you give treats.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0064",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... the games, we had cake.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0065",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we drop seeds. ... we cover. Last we water.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0066",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Splash soap ... you rinse hands.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0067",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... the show, we clapped.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "show"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0068",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we mix paint. ... we dip. Last we paint.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paint"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0069",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Wipe your feet ... you come in.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "foot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0070",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "... the bell, we lined up.",
+    "choices": [
+      "after",
+      "because",
+      "if",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0071",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "First we stretch. ... we kick ball.",
+    "choices": [
+      "next",
+      "because",
+      "before",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "then_next",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0072",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Open your book ... you read.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0073",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> ate snack ... recess started.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0074",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Snack is now. Gym class is ...",
+    "choices": [
+      "later",
+      "earlier",
+      "yesterday",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gym"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0075",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "... it rained, we played in.",
+    "choices": [
+      "after",
+      "before",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0076",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> drew map ... class ended.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0077",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Art is now. Home time is ...",
+    "choices": [
+      "later",
+      "earlier",
+      "yesterday",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "art"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0078",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> fed fish ... school began.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0079",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Game time is ... reading is next.",
+    "choices": [
+      "earlier",
+      "later",
+      "tomorrow",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0080",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday we ran. ... we swim inside.",
+    "choices": [
+      "today",
+      "tomorrow",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0081",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> took nap ... dinner was ready.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0082",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Sun is up now. Moon comes ...",
+    "choices": [
+      "later",
+      "earlier",
+      "yesterday",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0083",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We sang ... the show ended.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0084",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> lost teeth ... lunch began.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teeth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0085",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Gym is done. Art class is ...",
+    "choices": [
+      "later",
+      "earlier",
+      "tomorrow",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "art"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0086",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Play time is ... We must work.",
+    "choices": [
+      "later",
+      "earlier",
+      "yesterday",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0087",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> packed bag ... trip began.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0088",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Recess is done. Work time is ...",
+    "choices": [
+      "later",
+      "earlier",
+      "tomorrow",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "recess"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0089",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We will eat ... we wash hands.",
+    "choices": [
+      "after",
+      "before",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "eat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0090",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> found eggs ... hunt ended.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0091",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Morning snack is ... Lunch is later.",
+    "choices": [
+      "soon",
+      "yesterday",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0092",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We were sick ... We feel fine today.",
+    "choices": [
+      "yesterday",
+      "tomorrow",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "yesterday_past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0093",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> hid ... mom called us.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hide"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0094",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Story is done. Lunch is ...",
+    "choices": [
+      "later",
+      "earlier",
+      "tomorrow",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0095",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We can play ... dad gets home.",
+    "choices": [
+      "after",
+      "before",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0096",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> blew candles ... we sang.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "candles"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0097",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Winter was cold. Spring is ...",
+    "choices": [
+      "soon",
+      "yesterday",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "later_future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spring"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0098",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "... the bell rang, we ran fast.",
+    "choices": [
+      "after",
+      "before",
+      "because",
+      "while"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_later",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0099",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> built fort ... it rained.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_earlier",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_time_order_words_0100",
+    "family_id": "fam_use_time_order_words",
+    "skill_id": "roots_use_time_order_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "First we plan. Then we build. ... we test.",
+    "choices": [
+      "finally",
+      "because",
+      "if",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "finally_end",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plan"
+      }
+    ]
+  }
+]

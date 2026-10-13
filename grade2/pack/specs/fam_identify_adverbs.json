@@ -1,0 +1,285 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_adverbs",
+  "family_title_en": "Identify adverbs",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_adverbs",
+      "ix_title": "Identify adverbs",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is an adverb?",
+        "ko": "어떤 단어가 부사인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the adverb.",
+        "ko": "부사를 누르세요."
+      },
+      "choice_rule": "Four words taken from the stem. Exactly one is an adverb. Prefer one noun, one verb, and one adjective as distractors when the stem has them. Never two adverbs in the stem or the choices. Mix answer_index so the adverb is not always last.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "quickly",
+        "loudly",
+        "softly",
+        "happily",
+        "carefully",
+        "sadly",
+        "proudly",
+        "gently",
+        "kindly",
+        "bravely",
+        "tomorrow"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_adverbs_0001",
+          "tier": 1,
+          "stem": "The dog ate lunch slowly.",
+          "choices": [
+            "dog",
+            "ate",
+            "lunch",
+            "slowly"
+          ],
+          "answer_index": 3,
+          "explain_key": "ly_adverb",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_adverbs_0002",
+          "tier": 1,
+          "stem": "The kids play ball quietly.",
+          "choices": [
+            "kids",
+            "play",
+            "ball",
+            "quietly"
+          ],
+          "answer_index": 3,
+          "explain_key": "ly_adverb",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_adverbs_0003",
+          "tier": 1,
+          "stem": "The school bus came early.",
+          "choices": [
+            "school",
+            "bus",
+            "came",
+            "early"
+          ],
+          "answer_index": 3,
+          "explain_key": "time_adverb",
+          "media": [
+            {
+              "lemma": "bus"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_adverbs_0004",
+          "tier": 2,
+          "stem": "My little puppy always rests.",
+          "choices": [
+            "little",
+            "puppy",
+            "always",
+            "rests"
+          ],
+          "answer_index": 2,
+          "explain_key": "frequency_adverb",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_adverbs_0005",
+          "tier": 2,
+          "stem": "He never ate hot lunch.",
+          "choices": [
+            "never",
+            "ate",
+            "hot",
+            "lunch"
+          ],
+          "answer_index": 0,
+          "explain_key": "frequency_adverb",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_adverbs_0006",
+          "tier": 2,
+          "stem": "The cold wind blew hard.",
+          "choices": [
+            "cold",
+            "wind",
+            "blew",
+            "hard"
+          ],
+          "answer_index": 3,
+          "explain_key": "manner_adverb"
+        },
+        {
+          "item_id": "roots_identify_adverbs_0007",
+          "tier": 3,
+          "stem": "The slow turtle moves slowly.",
+          "choices": [
+            "slow",
+            "turtle",
+            "moves",
+            "slowly"
+          ],
+          "answer_index": 3,
+          "explain_key": "adj_vs_adv",
+          "media": [
+            {
+              "lemma": "turtle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_adverbs_0008",
+          "tier": 3,
+          "stem": "<NAME> is a really nice friend.",
+          "choices": [
+            "is",
+            "really",
+            "nice",
+            "friend"
+          ],
+          "answer_index": 1,
+          "explain_key": "degree_adverb",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Choices must be words copied from the stem with the same spelling. Never invent a choice that is not in the stem.",
+      "Exactly one choice is an adverb. Never write a stem that holds two adverbs, such as always plus today, or home plus slowly.",
+      "Tier 1 uses a clear -ly manner adverb or early. Distractors are concrete nouns and action verbs.",
+      "Tier 2 uses frequency adverbs (always, never, often) or manner words without -ly (hard, fast, well). Include one adjective distractor.",
+      "Tier 3 uses near misses: an adjective beside its -ly adverb (slow/slowly, quiet/quietly), or a degree adverb beside an adjective (really nice, very cold).",
+      "Keep stems in kid world: school, home, food, pets, play, family, weather. No brands. No real names; use <NAME>.",
+      "One tap and one right answer. Do not write why-text on items."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\byahoo\\b",
+    "\\bebay\\b",
+    "\\bmodifies\\b",
+    "\\badverbial\\b",
+    "\\bpart of speech\\b",
+    "\\bpunctuation\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. The adverb is a clear -ly how-word or early. Distractors are a noun and a verb. Add a lemma picture when a pet, food, or vehicle is named.",
+    "2": "Stems of five to seven words. Use frequency adverbs or manner words without -ly such as hard, fast, or well. Include one adjective distractor.",
+    "3": "Near-miss stems that also hold a look-alike adjective (slow/slowly, quiet/quietly) or a degree adverb before an adjective (really nice, very cold)."
+  },
+  "miss_explain": {
+    "ly_adverb": {
+      "en": "An adverb can tell how. Many how words end in -ly, like slowly.",
+      "ko": "부사는 어떻게인지 알려 줍니다. slowly처럼 -ly로 끝나는 말이 많아요."
+    },
+    "time_adverb": {
+      "en": "An adverb can tell when. Words like early and today tell when.",
+      "ko": "부사는 언제인지 알려 줍니다. early, today처럼 때를 말하는 말이에요."
+    },
+    "frequency_adverb": {
+      "en": "An adverb can tell how often. Always and never tell how often.",
+      "ko": "부사는 얼마나 자주인지 알려 줍니다. always와 never가 그런 말이에요."
+    },
+    "manner_adverb": {
+      "en": "An adverb can tell how something happens. Hard and fast can tell how.",
+      "ko": "부사는 어떻게 일어나는지 알려 줍니다. hard와 fast도 어떻게를 말해요."
+    },
+    "place_adverb": {
+      "en": "An adverb can tell where. Words like here and there tell where.",
+      "ko": "부사는 어디인지 알려 줍니다. here와 there가 그런 말이에요."
+    },
+    "degree_adverb": {
+      "en": "An adverb can tell how much. Really and very tell how much.",
+      "ko": "부사는 얼마나인지 알려 줍니다. really와 very가 그런 말이에요."
+    },
+    "adj_vs_adv": {
+      "en": "An adjective describes a noun. An adverb describes a verb or another word.",
+      "ko": "형용사는 명사를 꾸밉니다. 부사는 동사나 다른 말을 꾸밉니다."
+    },
+    "not_adverb": {
+      "en": "This word names or describes a thing. It is not an adverb.",
+      "ko": "이 단어는 사물을 가리키거나 꾸밉니다. 부사가 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify adverbs"
+    ],
+    "no_ixl_text": true
+  }
+}

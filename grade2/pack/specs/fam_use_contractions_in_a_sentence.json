@@ -1,0 +1,395 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_contractions_in_a_sentence",
+  "family_title_en": "Use contractions in a sentence",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_contractions_in_a_sentence",
+      "ix_title": "Use contractions in a sentence",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which contraction fits?",
+        "ko": "어떤 줄임말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the contraction that fits.",
+        "ko": "문장에 맞는 줄임말을 누르세요."
+      },
+      "choice_rule": "Four real Grade 2 contractions with apostrophes. Exactly one is the short form of the two target words in the stem. The other three are different real contractions. Prefer same-pronoun pairs (I'm/I've/I'll) or nearby n't forms (don't/doesn't/didn't; won't/wouldn't/weren't). Never offer two-word expanded forms. Never drop the apostrophe (dont, isnt, theyre). When the stem has is not, are not, or will not, the answer is isn't, aren't, or won't, not 's not or 're not.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "aren't",
+        "can't",
+        "cannot",
+        "couldn't",
+        "didn't",
+        "doesn't",
+        "don't",
+        "he'd",
+        "he'll",
+        "he's",
+        "i'd",
+        "i'll",
+        "i'm",
+        "i've",
+        "isn't",
+        "it's",
+        "let's",
+        "she'd",
+        "she'll",
+        "she's",
+        "shouldn't",
+        "that's",
+        "they'd",
+        "they'll",
+        "they're",
+        "they've",
+        "wasn't",
+        "we'd",
+        "we'll",
+        "we're",
+        "we've",
+        "weren't",
+        "won't",
+        "wouldn't",
+        "you'd",
+        "you'll",
+        "you're",
+        "you've"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_contractions_in_a_sentence_0001",
+          "tier": 1,
+          "stem": "I am at home.",
+          "choices": [
+            "I'm",
+            "I've",
+            "I'll",
+            "I'd"
+          ],
+          "answer_index": 0,
+          "explain_key": "im",
+          "media": [
+            {
+              "lemma": "home"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_contractions_in_a_sentence_0002",
+          "tier": 1,
+          "stem": "It is a big dog.",
+          "choices": [
+            "Isn't",
+            "It's",
+            "I'm",
+            "I've"
+          ],
+          "answer_index": 1,
+          "explain_key": "its",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_contractions_in_a_sentence_0003",
+          "tier": 1,
+          "stem": "She is my sister.",
+          "choices": [
+            "We're",
+            "He's",
+            "She's",
+            "I'm"
+          ],
+          "answer_index": 2,
+          "explain_key": "shes"
+        },
+        {
+          "item_id": "roots_use_contractions_in_a_sentence_0004",
+          "tier": 2,
+          "stem": "Do not run in class.",
+          "choices": [
+            "Doesn't",
+            "Don't",
+            "Didn't",
+            "Can't"
+          ],
+          "answer_index": 1,
+          "explain_key": "dont"
+        },
+        {
+          "item_id": "roots_use_contractions_in_a_sentence_0005",
+          "tier": 2,
+          "stem": "The frog is not wet.",
+          "choices": [
+            "Isn't",
+            "Aren't",
+            "Wasn't",
+            "Don't"
+          ],
+          "answer_index": 0,
+          "explain_key": "isnt",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_contractions_in_a_sentence_0006",
+          "tier": 2,
+          "stem": "We have a little puppy.",
+          "choices": [
+            "We're",
+            "We'll",
+            "I'd",
+            "We've"
+          ],
+          "answer_index": 3,
+          "explain_key": "weve",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_contractions_in_a_sentence_0007",
+          "tier": 3,
+          "stem": "They will not play outside.",
+          "choices": [
+            "Wouldn't",
+            "Weren't",
+            "Won't",
+            "Wasn't"
+          ],
+          "answer_index": 2,
+          "explain_key": "wont"
+        },
+        {
+          "item_id": "roots_use_contractions_in_a_sentence_0008",
+          "tier": 3,
+          "stem": "<NAME> does not like cold rain.",
+          "choices": [
+            "Don't",
+            "Doesn't",
+            "Didn't",
+            "Isn't"
+          ],
+          "answer_index": 1,
+          "explain_key": "doesnt",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Choices are four real contractions with apostrophes. Never change the skill into expanded two-word answers.",
+      "Exactly one choice shortens the two target words in the stem. The other three must be real contractions that do not match those words.",
+      "Never use wordlist typos that drop the apostrophe, such as dont, isnt, theyre, youre, wont, or im.",
+      "Tier 1 distractors stay on the same pronoun: I'm with I've, I'll, or I'd; she's with he's, I'm, or we're.",
+      "Tier 2 and 3 distractors are nearby n't or will/have forms: don't/doesn't/didn't; isn't/aren't/wasn't; we'll/we've/we're; won't/wouldn't/weren't.",
+      "Do not write stems where two classroom contractions both fit, such as he is not (he's vs isn't).",
+      "Keep stems in kid world: school, home, food, pets, play, family, weather. No brands and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bcontraction\\b",
+    "\\bapostrophe\\b",
+    "\\bpunctuation\\b",
+    "\\bshort form\\b",
+    "\\bdont\\b",
+    "\\bdidnt\\b",
+    "\\bdoesnt\\b",
+    "\\bisnt\\b",
+    "\\barent\\b",
+    "\\bwasnt\\b",
+    "\\bwerent\\b",
+    "\\bcant\\b",
+    "\\bcouldnt\\b",
+    "\\bwouldnt\\b",
+    "\\bshouldnt\\b",
+    "\\byoure\\b",
+    "\\btheyre\\b",
+    "\\btheyve\\b",
+    "\\byouve\\b",
+    "\\bweve\\b",
+    "\\bhes\\b",
+    "\\bshes\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Target I am, it is, or she is. Distractors are other contractions of the same pronoun, such as I'm, I've, and I'll.",
+    "2": "Grade-level stems of five to seven words. Target do not, is not, or we have. Distractors are nearby n't or have/will forms. Picture lemmas when a pet or object is named.",
+    "3": "Near-miss n't pairs. will not maps to won't, not wouldn't or weren't. does not maps to doesn't, not don't. Stems may use <NAME> and two-syllable kid words."
+  },
+  "miss_explain": {
+    "im": {
+      "en": "I'm is the short form of I am.",
+      "ko": "I'm은 I am의 줄임말입니다."
+    },
+    "ive": {
+      "en": "I've is the short form of I have.",
+      "ko": "I've는 I have의 줄임말입니다."
+    },
+    "ill": {
+      "en": "I'll is the short form of I will.",
+      "ko": "I'll은 I will의 줄임말입니다."
+    },
+    "youre": {
+      "en": "You're is the short form of you are.",
+      "ko": "You're는 you are의 줄임말입니다."
+    },
+    "hes": {
+      "en": "He's is the short form of he is.",
+      "ko": "He's는 he is의 줄임말입니다."
+    },
+    "shes": {
+      "en": "She's is the short form of she is.",
+      "ko": "She's는 she is의 줄임말입니다."
+    },
+    "its": {
+      "en": "It's is the short form of it is.",
+      "ko": "It's는 it is의 줄임말입니다."
+    },
+    "were": {
+      "en": "We're is the short form of we are.",
+      "ko": "We're는 we are의 줄임말입니다."
+    },
+    "theyre": {
+      "en": "They're is the short form of they are.",
+      "ko": "They're는 they are의 줄임말입니다."
+    },
+    "isnt": {
+      "en": "Isn't is the short form of is not.",
+      "ko": "Isn't는 is not의 줄임말입니다."
+    },
+    "arent": {
+      "en": "Aren't is the short form of are not.",
+      "ko": "Aren't는 are not의 줄임말입니다."
+    },
+    "wasnt": {
+      "en": "Wasn't is the short form of was not.",
+      "ko": "Wasn't는 was not의 줄임말입니다."
+    },
+    "werent": {
+      "en": "Weren't is the short form of were not.",
+      "ko": "Weren't는 were not의 줄임말입니다."
+    },
+    "dont": {
+      "en": "Don't is the short form of do not.",
+      "ko": "Don't는 do not의 줄임말입니다."
+    },
+    "doesnt": {
+      "en": "Doesn't is the short form of does not.",
+      "ko": "Doesn't는 does not의 줄임말입니다."
+    },
+    "didnt": {
+      "en": "Didn't is the short form of did not.",
+      "ko": "Didn't는 did not의 줄임말입니다."
+    },
+    "cant": {
+      "en": "Can't is the short form of cannot.",
+      "ko": "Can't는 cannot의 줄임말입니다."
+    },
+    "wont": {
+      "en": "Won't is the short form of will not.",
+      "ko": "Won't는 will not의 줄임말입니다."
+    },
+    "wouldnt": {
+      "en": "Wouldn't is the short form of would not.",
+      "ko": "Wouldn't는 would not의 줄임말입니다."
+    },
+    "couldnt": {
+      "en": "Couldn't is the short form of could not.",
+      "ko": "Couldn't는 could not의 줄임말입니다."
+    },
+    "shouldnt": {
+      "en": "Shouldn't is the short form of should not.",
+      "ko": "Shouldn't는 should not의 줄임말입니다."
+    },
+    "weve": {
+      "en": "We've is the short form of we have.",
+      "ko": "We've는 we have의 줄임말입니다."
+    },
+    "theyve": {
+      "en": "They've is the short form of they have.",
+      "ko": "They've는 they have의 줄임말입니다."
+    },
+    "youve": {
+      "en": "You've is the short form of you have.",
+      "ko": "You've는 you have의 줄임말입니다."
+    },
+    "lets": {
+      "en": "Let's is the short form of let us.",
+      "ko": "Let's는 let us의 줄임말입니다."
+    },
+    "thats": {
+      "en": "That's is the short form of that is.",
+      "ko": "That's는 that is의 줄임말입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use contractions in a sentence"
+    ],
+    "no_ixl_text": true
+  }
+}

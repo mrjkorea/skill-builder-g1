@@ -1,0 +1,286 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_combine_sentences_subjects",
+  "family_title_en": "Combine sentences: subjects",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_combine_sentences_subjects",
+      "ix_title": "Combine sentences: subjects",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence joins the subjects?",
+        "ko": "어떤 문장이 주어를 이은 문장인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that joins both subjects.",
+        "ko": "두 주어를 이은 문장을 누르세요."
+      },
+      "choice_rule": "Four unique choices. Exactly one joins both subjects with and and keeps one shared predicate. Wrong choices must be a dropped subject, an or-join, a leftover fragment after and, a smashed sentence with no and, or both original verbs kept.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "likes",
+        "plays",
+        "runs",
+        "walks",
+        "jumps",
+        "sleeps",
+        "looks",
+        "helps",
+        "eats",
+        "sits",
+        "reads",
+        "writes",
+        "draws",
+        "sings",
+        "cooked",
+        "played",
+        "jumped",
+        "walked",
+        "liked"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_combine_sentences_subjects_0001",
+          "tier": 1,
+          "stem": "The cat sat. The dog sat.",
+          "choices": [
+            "The cat and the dog sat.",
+            "The cat sat.",
+            "The dog sat.",
+            "The cat sat the dog."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_subjects",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_0002",
+          "tier": 1,
+          "stem": "Mom baked. Dad baked.",
+          "choices": [
+            "Mom baked.",
+            "Dad baked Mom.",
+            "Mom and Dad baked.",
+            "Mom baked Dad."
+          ],
+          "answer_index": 2,
+          "explain_key": "join_subjects",
+          "media": [
+            {
+              "lemma": "mom"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_0003",
+          "tier": 1,
+          "stem": "The hen ate. The pig ate.",
+          "choices": [
+            "The hen ate.",
+            "The hen and the pig ate.",
+            "The hen ate the pig.",
+            "The pig ate."
+          ],
+          "answer_index": 1,
+          "explain_key": "join_subjects",
+          "media": [
+            {
+              "lemma": "hen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_0004",
+          "tier": 2,
+          "stem": "<NAME> ran. The puppy ran.",
+          "choices": [
+            "<NAME> and the puppy ran.",
+            "<NAME> ran and the puppy.",
+            "<NAME> ran the puppy.",
+            "The puppy ran."
+          ],
+          "answer_index": 0,
+          "explain_key": "not_fragment",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_0005",
+          "tier": 2,
+          "stem": "The boy waved. The girl waved.",
+          "choices": [
+            "The boy waved and the girl.",
+            "The boy or the girl waved.",
+            "The boy waved the girl.",
+            "The boy and the girl waved."
+          ],
+          "answer_index": 3,
+          "explain_key": "not_or",
+          "media": [
+            {
+              "lemma": "boy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_0006",
+          "tier": 2,
+          "stem": "My sister smiled. My brother smiled.",
+          "choices": [
+            "My sister smiled.",
+            "My sister and my brother smiled.",
+            "My sister smiled my brother.",
+            "My sister smiled and my brother."
+          ],
+          "answer_index": 1,
+          "explain_key": "keep_both",
+          "media": [
+            {
+              "lemma": "sister"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_0007",
+          "tier": 3,
+          "stem": "He sat. She sat.",
+          "choices": [
+            "He sat and she sat.",
+            "He or she sat.",
+            "He and she sat.",
+            "He sat she."
+          ],
+          "answer_index": 2,
+          "explain_key": "not_two_verbs"
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_0008",
+          "tier": 3,
+          "stem": "The children clapped. The teacher clapped.",
+          "choices": [
+            "The children and the teacher clapped.",
+            "The children clapped and the teacher.",
+            "The children clapped the teacher.",
+            "The children or the teacher clapped."
+          ],
+          "answer_index": 0,
+          "explain_key": "not_or",
+          "media": [
+            {
+              "lemma": "teacher"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt",
+    "NAME2": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four unique choices and exactly one right answer. Never change that count.",
+      "The right choice joins both subjects with and and keeps one shared predicate.",
+      "Never mark a predicate join, an or-join, or a two-verb join as correct.",
+      "Tier 1 wrong choices drop one subject or smash the two sentences with no and.",
+      "Tier 2 wrong choices use or, leave a leftover fragment after and, or drop one doer.",
+      "Tier 3 wrong choices keep both original verbs or join the wrong part of the sentence."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsubject\\b",
+    "\\bsubjects\\b",
+    "\\bpredicate\\b",
+    "\\bcompound\\b",
+    "\\bcombine\\b",
+    "\\bconjunction\\b",
+    "\\bclause\\b",
+    "\\bsentence\\b"
+  ],
+  "tier_rules": {
+    "1": "Two very short parallel sentences. The right choice clearly joins both doers with and. Wrong choices drop a subject or smash the sentences.",
+    "2": "Grade 2 stems with two-syllable nouns. Wrong choices use or, leave a fragment after and, or drop one subject.",
+    "3": "Pronouns or two-syllable school words. Near-miss choices keep both verbs or join the wrong part."
+  },
+  "miss_explain": {
+    "join_subjects": {
+      "en": "Join both doers with and. Keep one shared action.",
+      "ko": "두 주어를 and로 이으세요. 같은 동작은 하나만 남기세요."
+    },
+    "keep_both": {
+      "en": "Keep both subjects. Do not drop one doer.",
+      "ko": "주어를 둘 다 남기세요. 한 쪽을 빼면 안 됩니다."
+    },
+    "not_fragment": {
+      "en": "Do not leave a leftover piece after and.",
+      "ko": "and 뒤에 조각만 남기지 마세요."
+    },
+    "not_or": {
+      "en": "Both do the same thing, so join them with and, not or.",
+      "ko": "둘 다 같은 일을 하므로 or가 아니라 and로 이으세요."
+    },
+    "not_two_verbs": {
+      "en": "Do not keep two same actions. Join the subjects and use one verb.",
+      "ko": "같은 동작을 두 번 쓰지 마세요. 주어를 잇고 동사는 하나만 쓰세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Combine sentences: subjects"
+    ],
+    "no_ixl_text": true
+  }
+}

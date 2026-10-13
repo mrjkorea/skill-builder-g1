@@ -1,0 +1,337 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+  "family_title_en": "Meaning of pre-, re-, and mis- words",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+      "ix_title": "Determine the meaning of a word with pre-, re-, or mis-",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "What does this word mean?",
+        "ko": "이 낱말은 무슨 뜻인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right meaning.",
+        "ko": "알맞은 뜻을 누르세요."
+      },
+      "choice_rule": "Four short meaning phrases of two to four words. Exactly one is the true meaning: the base word plus again for re-, before for pre-, or wrong for mis-. Never repeat the target word in a choice. Never invent a fourth prefix. Tier 1 uses three unrelated kid-world actions. Tiers 2 and 3 use the other two prefix meanings on the same base, plus one close miss.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "heat",
+        "miscount",
+        "mislabel",
+        "mismatch",
+        "misname",
+        "misplace",
+        "misprint",
+        "misread",
+        "misspell",
+        "mistell",
+        "misuse",
+        "precook",
+        "precut",
+        "pregame",
+        "preheat",
+        "prepay",
+        "preschool",
+        "pretest",
+        "preview",
+        "prewash",
+        "rebuild",
+        "recheck",
+        "recount",
+        "recook",
+        "recut",
+        "redraw",
+        "redo",
+        "refill",
+        "reheat",
+        "reload",
+        "relock",
+        "remake",
+        "rename",
+        "reopen",
+        "repack",
+        "repay",
+        "replace",
+        "replay",
+        "replant",
+        "reprint",
+        "reread",
+        "restart",
+        "retest",
+        "retell",
+        "retie",
+        "reuse",
+        "rewash",
+        "rewrite",
+        "wrongly"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0001",
+          "tier": 1,
+          "stem": "<NAME> will reread the book.",
+          "choices": [
+            "read again",
+            "eat cake",
+            "run home",
+            "blue bike"
+          ],
+          "answer_index": 0,
+          "explain_key": "re_again",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0002",
+          "tier": 1,
+          "stem": "<NAME> will preview the movie.",
+          "choices": [
+            "ride a bus",
+            "wash the dog",
+            "cold milk",
+            "view before"
+          ],
+          "answer_index": 3,
+          "explain_key": "pre_before",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "movie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0003",
+          "tier": 1,
+          "stem": "<NAME> can rewrite the note.",
+          "choices": [
+            "sleep late",
+            "write again",
+            "feed the cat",
+            "open a box"
+          ],
+          "answer_index": 1,
+          "explain_key": "re_again",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "paper"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0004",
+          "tier": 2,
+          "stem": "<NAME> will refill the cup at home.",
+          "choices": [
+            "fill again",
+            "fill before",
+            "fill wrong",
+            "not fill"
+          ],
+          "answer_index": 0,
+          "explain_key": "re_again",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0005",
+          "tier": 2,
+          "stem": "<NAME> did misspell the word in class.",
+          "choices": [
+            "spell again",
+            "spell before",
+            "spell wrong",
+            "not spell"
+          ],
+          "answer_index": 2,
+          "explain_key": "mis_wrong",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "pencil"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0006",
+          "tier": 2,
+          "stem": "We had a pretest at school.",
+          "choices": [
+            "test before",
+            "test again",
+            "test wrong",
+            "skip the test"
+          ],
+          "answer_index": 0,
+          "explain_key": "pre_before",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0007",
+          "tier": 3,
+          "stem": "<NAME> did misread the last line at school.",
+          "choices": [
+            "read again",
+            "read wrong",
+            "read before",
+            "write wrong"
+          ],
+          "answer_index": 1,
+          "explain_key": "mis_wrong",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "map"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0008",
+          "tier": 3,
+          "stem": "<NAME> will prepay for lunch at school today.",
+          "choices": [
+            "pay before",
+            "pay again",
+            "pay wrong",
+            "eat before"
+          ],
+          "answer_index": 0,
+          "explain_key": "pre_before",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four meaning phrases. Exactly one matches the prefix: re- is again, pre- is before, and mis- is wrong.",
+      "Never put the target word itself in a choice, and never use letters, IPA, or sound clips as choices.",
+      "Do not teach opaque re- words such as remember, return, report, remote, research, review, or repeat.",
+      "Keep the filled pool near one third re- targets, one third pre- targets, and one third mis- targets.",
+      "Tier 1 distractors are unrelated kid-world actions or things. Tiers 2 and 3 swap the other prefix meanings on the same base.",
+      "Tier 3 near-misses pair reread with misread, repay with prepay, or reprint with misprint.",
+      "Stems stay in kid world: school, home, food, pets, play, family, or weather. No brands. No real names; use <NAME>."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bprefix\\b",
+    "\\bsuffix\\b",
+    "\\baffix\\b",
+    "\\bmorpheme\\b",
+    "\\betymology\\b",
+    "\\broot word\\b",
+    "/[^/]+/",
+    "remember",
+    "\\breturn\\b",
+    "\\breport\\b",
+    "\\bremote\\b",
+    "\\bresearch\\b",
+    "\\breview\\b",
+    "\\brepeat\\b"
+  ],
+  "tier_rules": {
+    "1": "Stem is a short kid sentence of four to six words that holds one clear target. Distractors are unrelated actions, not other prefix meanings. Add a concrete picture lemma.",
+    "2": "Stem is five to eight words. Distractors are the other two prefix meanings on the same base word, plus one not-plus-base miss.",
+    "3": "Stem is seven to ten words. Near-miss choices mix re- and mis- or re- and pre- on the same base, plus one close wrong base."
+  },
+  "miss_explain": {
+    "re_again": {
+      "en": "The prefix re- means again. This word means do it again.",
+      "ko": "접두사 re-는 다시라는 뜻입니다. 이 말은 다시 한다는 뜻입니다."
+    },
+    "pre_before": {
+      "en": "The prefix pre- means before. This word means do it before.",
+      "ko": "접두사 pre-는 미리라는 뜻입니다. 이 말은 미리 한다는 뜻입니다."
+    },
+    "mis_wrong": {
+      "en": "The prefix mis- means wrong. This word means do it the wrong way.",
+      "ko": "접두사 mis-는 잘못이라는 뜻입니다. 이 말은 잘못한다는 뜻입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Determine the meaning of a word with pre-, re-, or mis-"
+    ],
+    "no_ixl_text": true
+  }
+}

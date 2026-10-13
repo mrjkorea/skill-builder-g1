@@ -1,0 +1,264 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_commas_review",
+  "family_title_en": "Commas review",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_commas_review",
+      "ix_title": "Commas: review",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence uses commas right?",
+        "ko": "쉼표를 올바르게 쓴 문장은 어느 것인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence with the right commas.",
+        "ko": "쉼표가 올바른 문장을 누르세요."
+      },
+      "choice_rule": "Copy the stem words in every choice. Change commas only: do not add, drop, or swap words. Exactly one choice places commas correctly for one job (three-item list, date, city and state, Yes/No/Well at the start, talking to a name, or no comma). The other three miss a needed comma, add an extra comma, or put a comma after the wrong word. Never write two legal answers. Each choice stays under 60 characters.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "dear",
+        "hello",
+        "sincerely"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_commas_review_0001",
+          "tier": 1,
+          "stem": "I see apples grapes and pears.",
+          "choices": [
+            "I see apples, grapes, and pears.",
+            "I see apples grapes, and pears.",
+            "I see, apples grapes and pears.",
+            "I see apples grapes and, pears."
+          ],
+          "answer_index": 0,
+          "explain_key": "list_comma",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_review_0002",
+          "tier": 1,
+          "stem": "Yes I want more cake.",
+          "choices": [
+            "Yes I want, more cake.",
+            "Yes I, want more cake.",
+            "Yes, I want more cake.",
+            "Yes I want more, cake."
+          ],
+          "answer_index": 2,
+          "explain_key": "yes_no_comma",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_review_0003",
+          "tier": 1,
+          "stem": "The little cat sat down.",
+          "choices": [
+            "The little, cat sat down.",
+            "The little cat sat down.",
+            "The, little cat sat down.",
+            "The little cat, sat down."
+          ],
+          "answer_index": 1,
+          "explain_key": "no_comma",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_review_0004",
+          "tier": 2,
+          "stem": "The party is on May 5 2026.",
+          "choices": [
+            "The party is on May, 5 2026.",
+            "The party is on, May 5 2026.",
+            "The party is on May 5 2026.",
+            "The party is on May 5, 2026."
+          ],
+          "answer_index": 3,
+          "explain_key": "date_comma"
+        },
+        {
+          "item_id": "roots_commas_review_0005",
+          "tier": 2,
+          "stem": "<NAME> please come in.",
+          "choices": [
+            "<NAME>, please come in.",
+            "<NAME> please, come in.",
+            "<NAME> please come, in.",
+            "<NAME> please come in."
+          ],
+          "answer_index": 0,
+          "explain_key": "name_comma",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_commas_review_0006",
+          "tier": 2,
+          "stem": "Bring a cup plate and spoon.",
+          "choices": [
+            "Bring a cup plate, and spoon.",
+            "Bring, a cup plate and spoon.",
+            "Bring a cup, plate, and spoon.",
+            "Bring a cup, plate and, spoon."
+          ],
+          "answer_index": 2,
+          "explain_key": "list_comma",
+          "media": [
+            {
+              "lemma": "cup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_review_0007",
+          "tier": 3,
+          "stem": "We live in York Texas.",
+          "choices": [
+            "We live, in York Texas.",
+            "We live in York, Texas.",
+            "We live in York Texas.",
+            "We live in, York Texas."
+          ],
+          "answer_index": 1,
+          "explain_key": "city_state_comma"
+        },
+        {
+          "item_id": "roots_commas_review_0008",
+          "tier": 3,
+          "stem": "<NAME> has a cat and a dog.",
+          "choices": [
+            "<NAME> has a cat, and a dog.",
+            "<NAME> has, a cat and a dog.",
+            "<NAME> has a, cat and a dog.",
+            "<NAME> has a cat and a dog."
+          ],
+          "answer_index": 3,
+          "explain_key": "no_comma",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Copy the stem words in all four choices. Change only comma placement. Never add, drop, or replace a word.",
+      "Exactly one choice is correctly punctuated. Never write two answers that a teacher could both mark right, such as a name at the start and the same name at the end.",
+      "Wrong choices miss a needed comma, add an extra comma, or put the comma after the wrong word.",
+      "Spread the pool across six jobs: three-item lists, dates, city and state, Yes/No/Well at the start, talking to a name, and no comma needed.",
+      "For two things joined by and, the correct choice has no comma. For three or more things, the correct choice uses list commas.",
+      "Use <NAME> for any person. Kid world only: school, home, food, pets, play, family, weather. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bpunctuation\\b",
+    "\\bcomma\\b",
+    "\\bcommas\\b",
+    "\\boxford\\b",
+    "\\bseries\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. Easy jobs: a list of three things, Yes or No at the start, or a short line that needs no comma. Wrong choices drop a list comma or stick one in a silly place.",
+    "2": "Stems of five to seven words. Grade-level jobs: dates, talking to a name, or lists. Distractors move the comma one word over.",
+    "3": "Near misses. City and state, Well or No at the start, or two things joined by and that should have no comma. Distractors look almost right."
+  },
+  "miss_explain": {
+    "list_comma": {
+      "en": "Use commas to separate three or more things in a list.",
+      "ko": "세 개 이상의 물건을 나열할 때 쉼표를 씁니다."
+    },
+    "date_comma": {
+      "en": "Put a comma between the day and the year in a date.",
+      "ko": "날짜에서 일과 연도 사이에 쉼표를 넣습니다."
+    },
+    "name_comma": {
+      "en": "Put a comma when you talk to someone by name.",
+      "ko": "이름을 부르며 말할 때 쉼표를 넣습니다."
+    },
+    "yes_no_comma": {
+      "en": "Put a comma after Yes, No, or Well at the start.",
+      "ko": "문장 맨 앞의 Yes, No, Well 뒤에 쉼표를 넣습니다."
+    },
+    "city_state_comma": {
+      "en": "Put a comma between a city and a state.",
+      "ko": "도시 이름과 주 이름 사이에 쉼표를 넣습니다."
+    },
+    "no_comma": {
+      "en": "Do not put a comma when the sentence does not need one.",
+      "ko": "쉼표가 필요 없는 문장에는 쉼표를 넣지 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Commas: review"
+    ],
+    "no_ixl_text": true
+  }
+}

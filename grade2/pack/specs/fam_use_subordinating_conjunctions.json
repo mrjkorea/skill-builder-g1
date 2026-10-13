@@ -1,0 +1,296 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_subordinating_conjunctions",
+  "family_title_en": "Use subordinating conjunctions",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_subordinating_conjunctions",
+      "ix_title": "Use subordinating conjunctions",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word links these ideas?",
+        "ko": "어떤 단어가 이 생각들을 잇나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the one right linking word.",
+        "ko": "알맞은 연결 단어 하나를 누르세요."
+      },
+      "choice_rule": "Four single lowercase linking words. The stem is two short clauses with no linking word in them. One choice is the only subordinating conjunction that fits the meaning. The other three are and, but, or, so, or a subordinator with the wrong meaning. Never repeat a choice. Shuffle so the right word is not always first.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "although",
+        "unless",
+        "though",
+        "nor",
+        "whenever"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_subordinating_conjunctions_0001",
+          "tier": 1,
+          "stem": "<NAME> is tired. The walk was long.",
+          "choices": [
+            "because",
+            "and",
+            "but",
+            "or"
+          ],
+          "answer_index": 0,
+          "explain_key": "because",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "walk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_subordinating_conjunctions_0002",
+          "tier": 1,
+          "stem": "Wash your hands. You eat.",
+          "choices": [
+            "and",
+            "but",
+            "before",
+            "or"
+          ],
+          "answer_index": 2,
+          "explain_key": "before",
+          "media": [
+            {
+              "lemma": "hands"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_subordinating_conjunctions_0003",
+          "tier": 1,
+          "stem": "The dog barks. He can hear thunder.",
+          "choices": [
+            "and",
+            "when",
+            "but",
+            "or"
+          ],
+          "answer_index": 1,
+          "explain_key": "when",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_subordinating_conjunctions_0004",
+          "tier": 2,
+          "stem": "Put on a sock. You put on boots.",
+          "choices": [
+            "after",
+            "because",
+            "until",
+            "before"
+          ],
+          "answer_index": 3,
+          "explain_key": "before",
+          "media": [
+            {
+              "lemma": "sock"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_subordinating_conjunctions_0005",
+          "tier": 2,
+          "stem": "I put the cup away. I drink.",
+          "choices": [
+            "after",
+            "before",
+            "because",
+            "until"
+          ],
+          "answer_index": 0,
+          "explain_key": "after",
+          "media": [
+            {
+              "lemma": "cup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_subordinating_conjunctions_0006",
+          "tier": 2,
+          "stem": "Take a snack. You get hungry later.",
+          "choices": [
+            "because",
+            "if",
+            "until",
+            "while"
+          ],
+          "answer_index": 1,
+          "explain_key": "if",
+          "media": [
+            {
+              "lemma": "snack"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_subordinating_conjunctions_0007",
+          "tier": 3,
+          "stem": "<NAME> can keep the door shut. They come in.",
+          "choices": [
+            "when",
+            "if",
+            "until",
+            "because"
+          ],
+          "answer_index": 2,
+          "explain_key": "until",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "door"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_subordinating_conjunctions_0008",
+          "tier": 3,
+          "stem": "I hum a song. I wash my hands.",
+          "choices": [
+            "until",
+            "after",
+            "because",
+            "while"
+          ],
+          "answer_index": 3,
+          "explain_key": "while",
+          "media": [
+            {
+              "lemma": "song"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Never put the target linking word in the stem. Write two short kid-world clauses. The child taps the one word that should join them.",
+      "Tier 1 distractors are coordinating words: and, but, or, so. Only one choice may be a subordinating conjunction.",
+      "Tier 2 and 3 distractors are other subordinators with the wrong meaning, such as before vs after, if vs because, until vs when, or while vs because.",
+      "because is only for a reason. Do not use a time pair that also works with when or after.",
+      "before and after are only for order. The reverse order must sound silly, like socks after boots.",
+      "if is only for something that might happen. A word like later or might should make because a poor fit.",
+      "when is only for the time of an event, not a reason and not a long wait.",
+      "until is only for staying or waiting up to a point, not for the moment something starts.",
+      "while is only for two things at the same time, not a reason and not a sequence.",
+      "Do not use since or as as the key. Both have more than one meaning.",
+      "although or unless may appear only in tier 3, and only when contrast or exception is the one clear meaning.",
+      "Use I, you, we, or they when a he or she verb would need an -s form that is not on the wordlist.",
+      "Keep every stem in school, home, food, pets, play, family, or weather. No brands. No real names. Use <NAME> only.",
+      "Add a lemma picture note when a concrete noun is in the stem. Never describe a picture in the stem."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "subordinat",
+    "conjunction",
+    "\\bclause\\b",
+    "dependent",
+    "independent",
+    "complex sentence",
+    "\\bgrammar\\b",
+    "\\bcomma\\b",
+    "\\bsentence\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of five to seven words. The right word is because, when, or before. Wrong choices are and, but, or, or so.",
+    "2": "Stems of six to eight words. The right word is before, after, or if. Wrong choices are other subordinators that change the meaning.",
+    "3": "Stems of seven to ten words. Near-miss pairs such as until vs when or while vs because. Two-syllable kid words are fine."
+  },
+  "miss_explain": {
+    "because": {
+      "en": "Use because to tell why something happens.",
+      "ko": "이유를 말할 때 because를 씁니다."
+    },
+    "before": {
+      "en": "Use before for the thing that happens first.",
+      "ko": "먼저 할 일에는 before를 씁니다."
+    },
+    "after": {
+      "en": "Use after for the thing that happens next.",
+      "ko": "나중에 할 일에는 after를 씁니다."
+    },
+    "if": {
+      "en": "Use if for something that might happen.",
+      "ko": "일어날 수도 있는 일에는 if를 씁니다."
+    },
+    "when": {
+      "en": "Use when to tell the time something happens.",
+      "ko": "언제 일어나는지 말할 때 when을 씁니다."
+    },
+    "until": {
+      "en": "Use until to keep going up to a point.",
+      "ko": "어떤 때까지 계속할 때 until을 씁니다."
+    },
+    "while": {
+      "en": "Use while for two things at the same time.",
+      "ko": "두 일이 같이 일어날 때 while을 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use subordinating conjunctions"
+    ],
+    "no_ixl_text": true
+  }
+}

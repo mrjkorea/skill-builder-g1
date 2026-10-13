@@ -1,0 +1,2735 @@
+[
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0001",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What word do these make?",
+    "choices": [
+      "sunflower",
+      "football",
+      "notebook",
+      "doorbell"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0002",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "pancake",
+      "doghouse",
+      "starfish",
+      "backpack"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0003",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the word they make.",
+    "choices": [
+      "sailboat",
+      "goldfish",
+      "cupcake",
+      "campfire"
+    ],
+    "answer_index": 2,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      },
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0004",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "football",
+      "baseball",
+      "snowball",
+      "softball"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "foot"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0005",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "snowball",
+      "fireman",
+      "mailman",
+      "snowman"
+    ],
+    "answer_index": 3,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0006",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "rainbow",
+      "raincoat",
+      "sunshine",
+      "firetruck"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      },
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0007",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "toothpaste",
+      "hairbrush",
+      "toothbrush",
+      "paintbrush"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      },
+      {
+        "lemma": "brush"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0008",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "birdhouse",
+      "housebird",
+      "doghouse",
+      "birdcage"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_swapped",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "house"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0009",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the compound word.",
+    "choices": [
+      "doghouse",
+      "handbag",
+      "sunhat",
+      "lunchbox"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hand"
+      },
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0010",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which word fits best?",
+    "choices": [
+      "sunlight",
+      "hotdog",
+      "sunhat",
+      "mailman"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hot"
+      },
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0011",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What word do these make?",
+    "choices": [
+      "sidewalk",
+      "sailboat",
+      "campfire",
+      "hotdog"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "side"
+      },
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0012",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the word they make.",
+    "choices": [
+      "butterfly",
+      "driveway",
+      "doorbell",
+      "birdcage"
+    ],
+    "answer_index": 2,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      },
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0013",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the word they make.",
+    "choices": [
+      "lunchtime",
+      "notebook",
+      "cupcake",
+      "pigpen"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "time"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0014",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What is the compound word?",
+    "choices": [
+      "sunlight",
+      "daytime",
+      "hairbrush",
+      "sidewalk"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "day"
+      },
+      {
+        "lemma": "time"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0015",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "nightlight",
+      "mailbox",
+      "sidewalk",
+      "firetruck"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      },
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0016",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the word they make.",
+    "choices": [
+      "firefly",
+      "pancake",
+      "mailbag",
+      "sidewalk"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      },
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0017",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What word do these make?",
+    "choices": [
+      "doghouse",
+      "football",
+      "hillside",
+      "firefly"
+    ],
+    "answer_index": 3,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      },
+      {
+        "lemma": "fly"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0018",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the word they make.",
+    "choices": [
+      "doghouse",
+      "campfire",
+      "bookbag",
+      "toothpaste"
+    ],
+    "answer_index": 2,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0019",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the word they make.",
+    "choices": [
+      "bookbag",
+      "pigpen",
+      "starfish",
+      "firetruck"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      },
+      {
+        "lemma": "pen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0020",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which word fits best?",
+    "choices": [
+      "hairbrush",
+      "sandbox",
+      "nighttime",
+      "butterfly"
+    ],
+    "answer_index": 3,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "butter"
+      },
+      {
+        "lemma": "fly"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0021",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What is the compound word?",
+    "choices": [
+      "starfish",
+      "doorbell",
+      "goldfish",
+      "treetop"
+    ],
+    "answer_index": 3,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      },
+      {
+        "lemma": "top"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0022",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the compound word.",
+    "choices": [
+      "mailbag",
+      "firefly",
+      "softball",
+      "toothpaste"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0023",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What word do these make?",
+    "choices": [
+      "goldfish",
+      "driveway",
+      "sunhat",
+      "baseball"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drive"
+      },
+      {
+        "lemma": "way"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0024",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the word they make.",
+    "choices": [
+      "sidewalk",
+      "paintbrush",
+      "catfish",
+      "sunhat"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paint"
+      },
+      {
+        "lemma": "brush"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0025",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "housebird",
+      "homework",
+      "mailman",
+      "baseball"
+    ],
+    "answer_index": 2,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0026",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the word they make.",
+    "choices": [
+      "mailbag",
+      "sidewalk",
+      "softball",
+      "campfire"
+    ],
+    "answer_index": 2,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soft"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0027",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What word do these make?",
+    "choices": [
+      "mailman",
+      "snowman",
+      "firefly",
+      "starfish"
+    ],
+    "answer_index": 3,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      },
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0028",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the word they make.",
+    "choices": [
+      "nighttime",
+      "sunlight",
+      "bookbag",
+      "driveway"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      },
+      {
+        "lemma": "time"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0029",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the word they make.",
+    "choices": [
+      "baseball",
+      "mailbox",
+      "daytime",
+      "fireman"
+    ],
+    "answer_index": 3,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0030",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which word fits best?",
+    "choices": [
+      "mailbox",
+      "moonlight",
+      "handbag",
+      "cupcake"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0031",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What is the compound word?",
+    "choices": [
+      "homework",
+      "goldfish",
+      "paintbrush",
+      "nighttime"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      },
+      {
+        "lemma": "work"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0032",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the word they make.",
+    "choices": [
+      "raincoat",
+      "lunchbox",
+      "softball",
+      "goldfish"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0033",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What word do these make?",
+    "choices": [
+      "bookbag",
+      "notebook",
+      "starfish",
+      "toothpaste"
+    ],
+    "answer_index": 1,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      },
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0034",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the compound word.",
+    "choices": [
+      "sunlight",
+      "lunchtime",
+      "sandbox",
+      "pancake"
+    ],
+    "answer_index": 0,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0035",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the word they make.",
+    "choices": [
+      "sunhat",
+      "snowman",
+      "sunlight",
+      "backpack"
+    ],
+    "answer_index": 3,
+    "explain_key": "join_parts",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "back"
+      },
+      {
+        "lemma": "pack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0036",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "sunhat",
+      "sunlight",
+      "sunflower",
+      "sunshine"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0037",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "sunlight",
+      "nightlight",
+      "moonlight",
+      "nighttime"
+    ],
+    "answer_index": 1,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      },
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0038",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "butterfly",
+      "fireman",
+      "firetruck",
+      "firefly"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      },
+      {
+        "lemma": "fly"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0039",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Join the words. Pick one.",
+    "choices": [
+      "sunhat",
+      "sunshine",
+      "sunlight",
+      "moonlight"
+    ],
+    "answer_index": 2,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0040",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Say both parts. Pick the word.",
+    "choices": [
+      "fireman",
+      "mailman",
+      "firetruck",
+      "snowman"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0041",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "mailbag",
+      "snowman",
+      "fireman",
+      "mailman"
+    ],
+    "answer_index": 3,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0042",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "mailbag",
+      "mailman",
+      "mailbox",
+      "bookbag"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0043",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "baseball",
+      "softball",
+      "football",
+      "snowball"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soft"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0044",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Join the words. Pick one.",
+    "choices": [
+      "toothbrush",
+      "toothpaste",
+      "hairbrush",
+      "paintbrush"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      },
+      {
+        "lemma": "brush"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0045",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Say both parts. Pick the word.",
+    "choices": [
+      "sandbox",
+      "lunchtime",
+      "lunchbox",
+      "mailbox"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0046",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "sunflower",
+      "sunshine",
+      "sunlight",
+      "sunhat"
+    ],
+    "answer_index": 1,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "shine"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0047",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "fireman",
+      "snowman",
+      "snowball",
+      "mailman"
+    ],
+    "answer_index": 1,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0048",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "football",
+      "softball",
+      "baseball",
+      "snowball"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "base"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0049",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Join the words. Pick one.",
+    "choices": [
+      "sunlight",
+      "sunhat",
+      "sunshine",
+      "sunflower"
+    ],
+    "answer_index": 3,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0050",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Say both parts. Pick the word.",
+    "choices": [
+      "football",
+      "baseball",
+      "softball",
+      "snowball"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "foot"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0051",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "lunchbox",
+      "nighttime",
+      "lunchtime",
+      "daytime"
+    ],
+    "answer_index": 2,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "time"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0052",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "nighttime",
+      "nightlight",
+      "daytime",
+      "lunchtime"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      },
+      {
+        "lemma": "time"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0053",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "softball",
+      "baseball",
+      "snowman",
+      "snowball"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0054",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Join the words. Pick one.",
+    "choices": [
+      "mailman",
+      "mailbox",
+      "sandbox",
+      "mailbag"
+    ],
+    "answer_index": 1,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0055",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Say both parts. Pick the word.",
+    "choices": [
+      "sunflower",
+      "sunlight",
+      "sunshine",
+      "sunhat"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0056",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "nightlight",
+      "moonlight",
+      "nighttime",
+      "sunlight"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      },
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0057",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "fireman",
+      "butterfly",
+      "firetruck",
+      "firefly"
+    ],
+    "answer_index": 3,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      },
+      {
+        "lemma": "fly"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0058",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "sunhat",
+      "sunlight",
+      "sunshine",
+      "moonlight"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0059",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Join the words. Pick one.",
+    "choices": [
+      "fireman",
+      "firefly",
+      "firetruck",
+      "snowman"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0060",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Say both parts. Pick the word.",
+    "choices": [
+      "fireman",
+      "mailman",
+      "snowman",
+      "mailbag"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0061",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "mailbag",
+      "handbag",
+      "bookbag",
+      "mailman"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0062",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "baseball",
+      "football",
+      "snowball",
+      "softball"
+    ],
+    "answer_index": 3,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soft"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0063",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "toothpaste",
+      "hairbrush",
+      "toothbrush",
+      "paintbrush"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      },
+      {
+        "lemma": "brush"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0064",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Join the words. Pick one.",
+    "choices": [
+      "lunchbox",
+      "lunchtime",
+      "sandbox",
+      "mailbox"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0065",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Say both parts. Pick the word.",
+    "choices": [
+      "sunhat",
+      "sunshine",
+      "sunflower",
+      "sunlight"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "shine"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0066",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "mailman",
+      "fireman",
+      "snowman",
+      "snowball"
+    ],
+    "answer_index": 2,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0067",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "baseball",
+      "football",
+      "snowball",
+      "softball"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "base"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0068",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which word do they make?",
+    "choices": [
+      "sunshine",
+      "sunhat",
+      "sunlight",
+      "sunflower"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0069",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Join the words. Pick one.",
+    "choices": [
+      "football",
+      "softball",
+      "snowball",
+      "baseball"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "foot"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0070",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Say both parts. Pick the word.",
+    "choices": [
+      "lunchtime",
+      "nighttime",
+      "lunchbox",
+      "daytime"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_just_one",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "time"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0071",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "nighttime",
+      "nightlight",
+      "lunchtime",
+      "daytime"
+    ],
+    "answer_index": 0,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      },
+      {
+        "lemma": "time"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0072",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "What word did they make?",
+    "choices": [
+      "softball",
+      "snowman",
+      "baseball",
+      "snowball"
+    ],
+    "answer_index": 3,
+    "explain_key": "first_then_second",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0073",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "toothpaste",
+      "hairbrush",
+      "toothbrush",
+      "paintbrush"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      },
+      {
+        "lemma": "brush"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0074",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "lunchtime",
+      "lunchbox",
+      "sandbox",
+      "mailbox"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0075",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "sunflower",
+      "sunshine",
+      "sunlight",
+      "sunhat"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0076",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "birdhouse",
+      "birdcage",
+      "housebird",
+      "doghouse"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_swapped",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "house"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0077",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "football",
+      "baseball",
+      "snowball",
+      "softball"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "base"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0078",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "mailbox",
+      "handbag",
+      "mailbag",
+      "bookbag"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0079",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "sunflower",
+      "sunshine",
+      "sunhat",
+      "sunlight"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "shine"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0080",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "sunshine",
+      "sunhat",
+      "sunflower",
+      "sunlight"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0081",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "baseball",
+      "football",
+      "softball",
+      "snowball"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "foot"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0082",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "mailman",
+      "fireman",
+      "mailbag",
+      "mailbox"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "man"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0083",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "mailman",
+      "mailbox",
+      "mailbag",
+      "lunchbox"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0084",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "softball",
+      "snowball",
+      "football",
+      "snowman"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0085",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "lunchtime",
+      "nightlight",
+      "daytime",
+      "nighttime"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      },
+      {
+        "lemma": "time"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0086",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "butterfly",
+      "firefly",
+      "fireman",
+      "firetruck"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      },
+      {
+        "lemma": "fly"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0087",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "mailman",
+      "snowball",
+      "fireman",
+      "snowman"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      },
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0088",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "moonlight",
+      "sunhat",
+      "sunshine",
+      "sunlight"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "light"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0089",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "nightlight",
+      "nighttime",
+      "sunlight",
+      "moonlight"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      },
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0090",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "softball",
+      "football",
+      "baseball",
+      "snowball"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soft"
+      },
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0091",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "firetruck",
+      "mailman",
+      "snowman",
+      "fireman"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      },
+      {
+        "lemma": "man"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0092",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "lunchbox",
+      "daytime",
+      "lunchtime",
+      "nighttime"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "time"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0093",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "hairbrush",
+      "toothpaste",
+      "toothbrush",
+      "paintbrush"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      },
+      {
+        "lemma": "brush"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0094",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "sandbox",
+      "lunchbox",
+      "lunchtime",
+      "mailbox"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      },
+      {
+        "lemma": "box"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0095",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "sunlight",
+      "sunhat",
+      "sunflower",
+      "sunshine"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0096",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "birdhouse",
+      "doghouse",
+      "birdcage",
+      "housebird"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      },
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0097",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "softball",
+      "snowball",
+      "baseball",
+      "football"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "base"
+      },
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0098",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the best compound word.",
+    "choices": [
+      "mailbag",
+      "mailbox",
+      "bookbag",
+      "handbag"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      },
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0099",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the two words together.",
+    "choices": [
+      "sunlight",
+      "sunhat",
+      "sunshine",
+      "sunflower"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "shine"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_compound_words_with_pictures_0100",
+    "family_id": "fam_form_compound_words_with_pictures",
+    "skill_id": "roots_form_compound_words_with_pictures",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right word.",
+    "choices": [
+      "sunflower",
+      "sunshine",
+      "sunlight",
+      "sunhat"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      },
+      {
+        "lemma": "flower"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

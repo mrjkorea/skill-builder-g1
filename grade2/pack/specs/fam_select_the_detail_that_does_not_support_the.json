@@ -1,0 +1,269 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_select_the_detail_that_does_not_support_the",
+  "family_title_en": "Off-topic details",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_select_the_detail_that_does_not_support_the",
+      "ix_title": "Select the detail that does not support the topic sentence",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which detail does not support this?",
+        "ko": "이 주제를 뒷받침하지 않는 내용은?"
+      },
+      "what_to_do": {
+        "en": "Tap the detail that does not fit.",
+        "ko": "주제에 맞지 않는 내용을 누르세요."
+      },
+      "choice_rule": "Write four short detail sentences of whole words. Exactly one does not support the topic in the stem. The other three must clearly back that topic. Keep choices kid-short and on the roots list plus allowed_extra_words. Mix school, home, food, pets, play, family, and weather. Vary answer_index. Use <NAME> in some stems. If a concrete noun is pictured, add media lemma for the topic, never for the miss.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "likes",
+        "loves",
+        "makes",
+        "helps",
+        "plays",
+        "reads",
+        "cooks",
+        "dogs",
+        "cats",
+        "eggs",
+        "flowers",
+        "plants",
+        "sleeps",
+        "falls"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_select_the_detail_that_does_not_support_the_0001",
+          "tier": 1,
+          "stem": "A cat can be a good pet.",
+          "choices": [
+            "The cat can play at home.",
+            "The cat can sit in the sun.",
+            "The cat can sleep on the bed.",
+            "Rain can fall on the street."
+          ],
+          "answer_index": 3,
+          "explain_key": "off_topic",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_select_the_detail_that_does_not_support_the_0002",
+          "tier": 1,
+          "stem": "Rain can help the garden grow.",
+          "choices": [
+            "The puppy can sleep on the bed.",
+            "The flower needs water.",
+            "Grass grows after rain.",
+            "The garden needs the rain."
+          ],
+          "answer_index": 0,
+          "explain_key": "off_topic",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_select_the_detail_that_does_not_support_the_0003",
+          "tier": 1,
+          "stem": "Breakfast is a good morning meal.",
+          "choices": [
+            "We eat toast and milk.",
+            "The kitten can climb the tree.",
+            "Fruit tastes sweet in the morning.",
+            "An egg can go on the plate."
+          ],
+          "answer_index": 1,
+          "explain_key": "off_topic",
+          "media": [
+            {
+              "lemma": "toast"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_select_the_detail_that_does_not_support_the_0004",
+          "tier": 2,
+          "stem": "School is a good place to learn.",
+          "choices": [
+            "Kids read books in class.",
+            "The teacher can help us.",
+            "Kids eat lunch at school.",
+            "We write at our desk."
+          ],
+          "answer_index": 2,
+          "explain_key": "same_world"
+        },
+        {
+          "item_id": "roots_select_the_detail_that_does_not_support_the_0005",
+          "tier": 2,
+          "stem": "<NAME> likes family time at home.",
+          "choices": [
+            "The dog barks at cars.",
+            "Mom can read a long story.",
+            "Dad can cook dinner for us.",
+            "Sister can play a game too."
+          ],
+          "answer_index": 0,
+          "explain_key": "same_world",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_select_the_detail_that_does_not_support_the_0006",
+          "tier": 2,
+          "stem": "<NAME> has fun at the park.",
+          "choices": [
+            "They can run on the grass.",
+            "Friends play a ball game.",
+            "The swing is very fun.",
+            "Math class can be hard."
+          ],
+          "answer_index": 3,
+          "explain_key": "same_world",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_select_the_detail_that_does_not_support_the_0007",
+          "tier": 3,
+          "stem": "A dog can make a great pet.",
+          "choices": [
+            "A dog can play with kids.",
+            "A dog barks a lot at night.",
+            "A dog can help the family.",
+            "A dog can love kids at home."
+          ],
+          "answer_index": 1,
+          "explain_key": "not_support",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_select_the_detail_that_does_not_support_the_0008",
+          "tier": 3,
+          "stem": "Winter days can feel very cold.",
+          "choices": [
+            "Ice is on the lake.",
+            "We wear a warm coat.",
+            "The sun can shine in winter.",
+            "Snow can fall from the sky."
+          ],
+          "answer_index": 2,
+          "explain_key": "not_support",
+          "media": [
+            {
+              "lemma": "snow"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one choice fails to support the topic stem. The other three must clearly back it.",
+      "Never write two misses or a choice that is only a label such as support or off topic.",
+      "Tier 1 misses jump to a different kid world, such as pets versus weather or food versus play.",
+      "Tier 2 misses stay in the same place or with the same people but do not back the idea.",
+      "Tier 3 misses stay on the same subject but do not back the claim.",
+      "Keep every stem and choice in kid worlds: school, home, food, pets, play, family, weather.",
+      "No brands and no real names. Use <NAME> when a person is named.",
+      "One right answer. Tap only. Whole words only."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\btopic\\b",
+    "\\bdetail\\b",
+    "\\bsupport\\b",
+    "\\bsentence\\b",
+    "\\bparagraph\\b",
+    "\\bmain idea\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\byahoo\\b",
+    "\\bebey\\b"
+  ],
+  "tier_rules": {
+    "1": "Short topic stems of five to eight words. The wrong detail is from a different kid world and is easy to spot.",
+    "2": "Grade-level topics with two-syllable words. The wrong detail shares the place or people but does not back the idea.",
+    "3": "Near-miss details about the same subject that do not back the claim, such as a true fact that does not help."
+  },
+  "miss_explain": {
+    "off_topic": {
+      "en": "This detail is about something else. It does not support the topic.",
+      "ko": "이 내용은 다른 이야기입니다. 주제를 뒷받침하지 않습니다."
+    },
+    "same_world": {
+      "en": "This detail is in the same place, but it does not support the topic.",
+      "ko": "같은 장소나 사람에 대한 이야기지만 주제를 뒷받침하지 않습니다."
+    },
+    "not_support": {
+      "en": "This detail is about the same thing, but it does not support the topic.",
+      "ko": "같은 대상에 대한 내용이지만 주제를 뒷받침하지 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Select the detail that does not support the topic sentence"
+    ],
+    "no_ixl_text": true
+  }
+}

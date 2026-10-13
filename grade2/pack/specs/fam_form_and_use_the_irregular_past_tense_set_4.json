@@ -1,0 +1,369 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_and_use_the_irregular_past_tense_set_4",
+  "family_title_en": "Irregular past tense: set 4",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_and_use_the_irregular_past_tense_set_4",
+      "ix_title": "Form and use the irregular past tense: set 4",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Tap the past tense.",
+        "ko": "과거형 단어를 누르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the word that already happened.",
+        "ko": "이미 일어난 동작을 나타내는 단어를 누르세요."
+      },
+      "choice_rule": "Four single words. One correct set-4 simple past. One present or present-s form of the same verb. One fake -ed form of the same verb. One past participle or a different set-4 past. Keep the correct answer in a mixed slot.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "blow",
+        "blowed",
+        "blown",
+        "blows",
+        "breaked",
+        "breaks",
+        "choosed",
+        "chooses",
+        "chosen",
+        "drawed",
+        "drawn",
+        "draws",
+        "drived",
+        "driven",
+        "drives",
+        "flied",
+        "flies",
+        "flown",
+        "growed",
+        "grown",
+        "grows",
+        "knew",
+        "knowed",
+        "known",
+        "knows",
+        "rided",
+        "ridden",
+        "rides",
+        "speak",
+        "speaked",
+        "spoken",
+        "threw",
+        "throwed",
+        "thrown",
+        "throws",
+        "waked",
+        "wakes",
+        "weared",
+        "woken",
+        "worn",
+        "writed",
+        "writes",
+        "written"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_4_0001",
+          "tier": 1,
+          "stem": "Yesterday the bird fly home.",
+          "choices": [
+            "flew",
+            "flied",
+            "flown",
+            "flies"
+          ],
+          "answer_index": 0,
+          "explain_key": "flew",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_4_0002",
+          "tier": 1,
+          "stem": "The wind blow my hat.",
+          "choices": [
+            "blowed",
+            "blew",
+            "blown",
+            "blows"
+          ],
+          "answer_index": 1,
+          "explain_key": "blew",
+          "media": [
+            {
+              "lemma": "hat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_4_0003",
+          "tier": 2,
+          "stem": "Last night <NAME> draw a picture.",
+          "choices": [
+            "drawed",
+            "drawn",
+            "drew",
+            "draws"
+          ],
+          "answer_index": 2,
+          "explain_key": "drew",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "picture"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_4_0004",
+          "tier": 2,
+          "stem": "<NAME> throw the red ball yesterday.",
+          "choices": [
+            "threw",
+            "throwed",
+            "thrown",
+            "throws"
+          ],
+          "answer_index": 0,
+          "explain_key": "threw",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_4_0005",
+          "tier": 2,
+          "stem": "The little plant grow by the window.",
+          "choices": [
+            "grows",
+            "growed",
+            "grown",
+            "grew"
+          ],
+          "answer_index": 3,
+          "explain_key": "grew",
+          "media": [
+            {
+              "lemma": "plant"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_4_0006",
+          "tier": 3,
+          "stem": "<NAME> know the new school song last night.",
+          "choices": [
+            "knowed",
+            "knew",
+            "known",
+            "knows"
+          ],
+          "answer_index": 1,
+          "explain_key": "knew",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_4_0007",
+          "tier": 3,
+          "stem": "Yesterday we write funny stories in our books.",
+          "choices": [
+            "writed",
+            "written",
+            "wrote",
+            "writes"
+          ],
+          "answer_index": 2,
+          "explain_key": "wrote",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_4_0008",
+          "tier": 3,
+          "stem": "My big brother break his little toy yesterday.",
+          "choices": [
+            "broke",
+            "breaked",
+            "broken",
+            "breaks"
+          ],
+          "answer_index": 0,
+          "explain_key": "broke",
+          "media": [
+            {
+              "lemma": "toy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use only this set-4 pool for the correct answer: blew, flew, drew, grew, threw, knew, woke, spoke, broke, wrote, rode, drove, wore, chose.",
+      "Never make went, saw, ate, came, ran, sat, took, gave, made, said, got, did, had, found, or told the correct answer.",
+      "Every stem is a kid-world past-time line that still holds the present form of the target verb.",
+      "Give four unique single-word choices: correct simple past, present or present-s, fake -ed, and either the -n/-en participle or another set-4 past.",
+      "Tier 1 fake -ed forms should look obvious, such as flied, blowed, or growed.",
+      "Tier 3 must include a near-miss participle such as flown, known, written, or broken.",
+      "Do not describe a picture in the stem. Picture help is a lemma note only.",
+      "One tap and one right answer. Never use a real name; use <NAME>."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bquestion mark\\b",
+    "\\bpunctuation\\b",
+    "\\birregular\\b",
+    "\\bpast tense\\b",
+    "\\bpresent tense\\b",
+    "\\bverb tense\\b",
+    "\\bjohn\\b",
+    "\\bdavid\\b",
+    "\\bebey\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Four to six words. A clear time or weather line. The present verb sits in the stem. Distractors are a fake -ed form and a present-s form.",
+    "2": "Six to eight words with Grade 2 two-syllable words such as picture, window, or yesterday. Mix in <NAME>. Keep fake -ed and present forms.",
+    "3": "Seven to ten words. Near-miss participles such as flown, known, written, or broken, or a same-family past such as blew for fly."
+  },
+  "miss_explain": {
+    "flew": {
+      "en": "The past tense of fly is flew. Do not add -ed.",
+      "ko": "fly의 과거형은 flew입니다. -ed를 붙이지 마세요."
+    },
+    "blew": {
+      "en": "The past tense of blow is blew. Do not add -ed.",
+      "ko": "blow의 과거형은 blew입니다. -ed를 붙이지 마세요."
+    },
+    "drew": {
+      "en": "The past tense of draw is drew. Do not add -ed.",
+      "ko": "draw의 과거형은 drew입니다. -ed를 붙이지 마세요."
+    },
+    "grew": {
+      "en": "The past tense of grow is grew. Do not add -ed.",
+      "ko": "grow의 과거형은 grew입니다. -ed를 붙이지 마세요."
+    },
+    "threw": {
+      "en": "The past tense of throw is threw. Do not add -ed.",
+      "ko": "throw의 과거형은 threw입니다. -ed를 붙이지 마세요."
+    },
+    "knew": {
+      "en": "The past tense of know is knew. Do not add -ed.",
+      "ko": "know의 과거형은 knew입니다. -ed를 붙이지 마세요."
+    },
+    "woke": {
+      "en": "The past tense of wake is woke. Do not add -ed.",
+      "ko": "wake의 과거형은 woke입니다. -ed를 붙이지 마세요."
+    },
+    "spoke": {
+      "en": "The past tense of speak is spoke. Do not add -ed.",
+      "ko": "speak의 과거형은 spoke입니다. -ed를 붙이지 마세요."
+    },
+    "broke": {
+      "en": "The past tense of break is broke, not broken.",
+      "ko": "break의 과거형은 broke입니다. broken이 아닙니다."
+    },
+    "wrote": {
+      "en": "The past tense of write is wrote, not written.",
+      "ko": "write의 과거형은 wrote입니다. written이 아닙니다."
+    },
+    "rode": {
+      "en": "The past tense of ride is rode. Do not add -ed.",
+      "ko": "ride의 과거형은 rode입니다. -ed를 붙이지 마세요."
+    },
+    "drove": {
+      "en": "The past tense of drive is drove. Do not add -ed.",
+      "ko": "drive의 과거형은 drove입니다. -ed를 붙이지 마세요."
+    },
+    "wore": {
+      "en": "The past tense of wear is wore. Do not add -ed.",
+      "ko": "wear의 과거형은 wore입니다. -ed를 붙이지 마세요."
+    },
+    "chose": {
+      "en": "The past tense of choose is chose. Do not add -ed.",
+      "ko": "choose의 과거형은 chose입니다. -ed를 붙이지 마세요."
+    },
+    "not_ed": {
+      "en": "These action words do not add -ed. They change to a new past word.",
+      "ko": "이 동작 말은 -ed를 붙이지 않습니다. 다른 과거형 단어로 바뀝니다."
+    },
+    "not_en": {
+      "en": "Pick the simple past, not a word that ends with n or en.",
+      "ko": "-n이나 -en으로 끝나는 말이 아니라 단순 과거형을 고르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form and use the irregular past tense: set 4"
+    ],
+    "no_ixl_text": true
+  }
+}

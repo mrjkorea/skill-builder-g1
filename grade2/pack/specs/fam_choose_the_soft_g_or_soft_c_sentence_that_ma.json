@@ -1,0 +1,284 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_soft_g_or_soft_c_sentence_that_ma",
+  "family_title_en": "Choose the soft g or soft c sentence that matches the picture",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma",
+      "ix_title": "Choose the soft g or soft c sentence that matches the picture",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which soft g or soft c sentence matches the picture?",
+        "ko": "그림과 맞는 부드러운 g나 c 문장은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that matches the picture.",
+        "ko": "그림과 맞는 문장을 누르세요."
+      },
+      "choice_rule": "Each item has a short stem of at most ten words that does not describe the picture, four different sentences as choices, and media with one lemma. The correct sentence is the only choice that contains that lemma, and it must use soft c (c before e, i, or y) or soft g (g before e, i, or y). Rotate answer_index across 0, 1, 2, and 3. Use only the roots word list, allowed_extra_words, and the <NAME> token.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "angel",
+        "cage",
+        "cent",
+        "cents",
+        "circus",
+        "danger",
+        "gem",
+        "gentle",
+        "germ",
+        "giant",
+        "giraffe",
+        "ginger",
+        "huge",
+        "icy",
+        "lace",
+        "magic",
+        "peace",
+        "princess",
+        "spicy",
+        "stage",
+        "voice"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma_0001",
+          "tier": 1,
+          "stem": "Which one matches?",
+          "choices": [
+            "We like the ice.",
+            "The dog can run.",
+            "The cat is big.",
+            "The bag is red."
+          ],
+          "answer_index": 0,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "ice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma_0002",
+          "tier": 1,
+          "stem": "Tap the right one.",
+          "choices": [
+            "The frog can hop.",
+            "The car is red.",
+            "The flag is blue.",
+            "The juice is sweet."
+          ],
+          "answer_index": 3,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "juice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma_0003",
+          "tier": 1,
+          "stem": "Look and tap one.",
+          "choices": [
+            "The dog is brown.",
+            "The page is white.",
+            "The cup is red.",
+            "The bag is blue."
+          ],
+          "answer_index": 1,
+          "explain_key": "soft_g",
+          "media": [
+            {
+              "lemma": "page"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma_0004",
+          "tier": 2,
+          "stem": "Which one is right?",
+          "choices": [
+            "We play ball at recess.",
+            "The cake is in the box.",
+            "We eat cereal at breakfast.",
+            "The cat is on the bed."
+          ],
+          "answer_index": 2,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "cereal"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma_0005",
+          "tier": 2,
+          "stem": "Tap the one that fits.",
+          "choices": [
+            "The orange is sweet.",
+            "The grapes are sweet.",
+            "The dog ate the bone.",
+            "The cup is full."
+          ],
+          "answer_index": 0,
+          "explain_key": "soft_g",
+          "media": [
+            {
+              "lemma": "orange"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma_0006",
+          "tier": 2,
+          "stem": "Which one fits best?",
+          "choices": [
+            "We visit the farm.",
+            "The duck is in the pond.",
+            "We play in the park.",
+            "We visit the city."
+          ],
+          "answer_index": 3,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "city"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma_0007",
+          "tier": 3,
+          "stem": "<NAME> can tap one.",
+          "choices": [
+            "We play a game at school.",
+            "The ice is in the cup.",
+            "We play in the gym.",
+            "The cat is by the gate."
+          ],
+          "answer_index": 2,
+          "explain_key": "soft_g",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "gym"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_soft_g_or_soft_c_sentence_that_ma_0008",
+          "tier": 3,
+          "stem": "Which one is it?",
+          "choices": [
+            "The hen is by the gate.",
+            "The hen is by the fence.",
+            "The cat ate the cake.",
+            "We race to the park."
+          ],
+          "answer_index": 1,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "fence"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Write four original sentences. Exactly one matches the picture, and that sentence is the only one that contains the picture lemma.",
+      "The correct sentence uses soft c, with c before e, i, or y, or soft g, with g before e, i, or y.",
+      "The other three sentences must not match the picture and must not contain the picture lemma.",
+      "Tier 1 distractors name unrelated things and use hard c or hard g, as in cat, cake, cup, car, dog, or bag.",
+      "Tier 2 distractors stay in the same kid topic, such as food, school, pets, or play. One may use a different soft c or soft g word.",
+      "Tier 3 distractors are near misses: a hard g or hard c word that looks like the target, such as game for gym or gate for fence, or another soft c or soft g word that does not match the picture.",
+      "Do not treat gift, give, girl, or get as soft g. Those are hard g.",
+      "Use whole words only. No IPA, no slash sounds, and no held sounds.",
+      "Do not describe the picture in the stem. Put the picture on the item as one media lemma.",
+      "No brand names and no real personal names. Use <NAME> in a stem only when a name is needed.",
+      "Every word in the stem and the choices must come from the roots word list or allowed_extra_words, plus the <NAME> token."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\/[a-z]{1,4}\\/"
+  ],
+  "tier_rules": {
+    "1": "Short sentences of three to five words. The picture noun is obvious. Distractors name unrelated things with hard c or hard g, such as cat, cake, dog, or bag.",
+    "2": "Grade 2 sentences of about five to seven words, with two-syllable words allowed. Distractors stay in the same kid topic. One may use a different soft c or soft g word.",
+    "3": "Near misses. Use a hard g or hard c word that looks like the target, such as game for gym or gate for fence, or a different soft c or soft g word that does not match the picture."
+  },
+  "miss_explain": {
+    "soft_c": {
+      "en": "This sentence has soft c, as in ice or city, and it matches the picture.",
+      "ko": "이 문장에는 ice나 city처럼 부드러운 c가 있고 그림과 맞습니다."
+    },
+    "soft_g": {
+      "en": "This sentence has soft g, as in page or gym, and it matches the picture.",
+      "ko": "이 문장에는 page나 gym처럼 부드러운 g가 있고 그림과 맞습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Choose the soft g or soft c sentence that matches the picture"
+    ],
+    "no_ixl_text": true
+  }
+}

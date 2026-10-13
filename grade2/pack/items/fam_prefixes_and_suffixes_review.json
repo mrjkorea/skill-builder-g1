@@ -1,0 +1,2236 @@
+[
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0001",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "not happy",
+    "choices": [
+      "unhappy",
+      "replay",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "happy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0002",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "play again",
+    "choices": [
+      "unlock",
+      "replay",
+      "careful",
+      "slowly"
+    ],
+    "answer_index": 1,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0003",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "in a slow way",
+    "choices": [
+      "unhappy",
+      "dislike",
+      "slowly",
+      "reread"
+    ],
+    "answer_index": 2,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0004",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "open the lock",
+    "choices": [
+      "replay",
+      "helpful",
+      "slowly",
+      "unlock"
+    ],
+    "answer_index": 3,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0005",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "full of help",
+    "choices": [
+      "helpful",
+      "hopeless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0006",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> does not like the soup.",
+    "choices": [
+      "replay",
+      "reread",
+      "dislike",
+      "helpful"
+    ],
+    "answer_index": 2,
+    "explain_key": "prefix_dis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0007",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The team is without hope.",
+    "choices": [
+      "hopeful",
+      "helpful",
+      "replay",
+      "hopeless"
+    ],
+    "answer_index": 3,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0008",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> must read the story again.",
+    "choices": [
+      "preview",
+      "reread",
+      "unread",
+      "slowly"
+    ],
+    "answer_index": 1,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0009",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "not kind",
+    "choices": [
+      "unkind",
+      "replay",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0010",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "not safe to play",
+    "choices": [
+      "unsafe",
+      "unlock",
+      "thankful",
+      "quickly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0011",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "take toys from bag",
+    "choices": [
+      "unpack",
+      "unlock",
+      "helpful",
+      "dislike"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0012",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "write the note again",
+    "choices": [
+      "rewrite",
+      "preview",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0013",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "in a quick way",
+    "choices": [
+      "quickly",
+      "unhappy",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0014",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "in a quiet way",
+    "choices": [
+      "quietly",
+      "dislike",
+      "thankful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0015",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "work is not done",
+    "choices": [
+      "unfinished",
+      "unlock",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "work"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0016",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "look before the show",
+    "choices": [
+      "preview",
+      "review",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_pre",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "movie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0017",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "test before the test",
+    "choices": [
+      "pretest",
+      "preview",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_pre",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "test"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0018",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "spell the word wrong",
+    "choices": [
+      "misspell",
+      "dislike",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_mis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "word"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0019",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "wrong match of socks",
+    "choices": [
+      "mismatch",
+      "unlock",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_mis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0020",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "full of thanks",
+    "choices": [
+      "thankful",
+      "hopeless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0021",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "feeling like sleep",
+    "choices": [
+      "sleepy",
+      "sleep",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_y",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0022",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "more fast than me",
+    "choices": [
+      "faster",
+      "fastest",
+      "slowly",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_er",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0023",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "most big of all",
+    "choices": [
+      "biggest",
+      "bigger",
+      "small",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_est",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0024",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "play the level again",
+    "choices": [
+      "replay",
+      "preview",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0025",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "turn the key open",
+    "choices": [
+      "unlock",
+      "unpack",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0026",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "say no to the plan",
+    "choices": [
+      "disagree",
+      "replay",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_dis",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0027",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "do not like corn",
+    "choices": [
+      "dislike",
+      "replay",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_dis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0028",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "full of care",
+    "choices": [
+      "careful",
+      "careless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0029",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "with no care at all",
+    "choices": [
+      "careless",
+      "careful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0030",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "with no home",
+    "choices": [
+      "homeless",
+      "hopeful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0031",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "with no help",
+    "choices": [
+      "helpless",
+      "helpful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0032",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "in a nice way",
+    "choices": [
+      "nicely",
+      "unhappy",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0033",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "in a safe way",
+    "choices": [
+      "safely",
+      "unsafe",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0034",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "full of hope",
+    "choices": [
+      "hopeful",
+      "hopeless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0035",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "story not read yet",
+    "choices": [
+      "unread",
+      "preview",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0036",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The chain lock is shut tight.",
+    "choices": [
+      "unlock",
+      "unpack",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0037",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The beach is full of sand.",
+    "choices": [
+      "sandy",
+      "sand",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_y",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0038",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will not eat the peas.",
+    "choices": [
+      "dislike",
+      "unhappy",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_dis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "peas"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0039",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Be full of thanks today.",
+    "choices": [
+      "thankful",
+      "hopeless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0040",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sky looks like rain.",
+    "choices": [
+      "rainy",
+      "rain",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_y",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sky"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0041",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bush has thick leaves.",
+    "choices": [
+      "bushy",
+      "bush",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_y",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bush"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0042",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The trail is more steep.",
+    "choices": [
+      "steeper",
+      "steepest",
+      "slowly",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0043",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "That hill is the most steep.",
+    "choices": [
+      "steepest",
+      "steeper",
+      "slowly",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_est",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0044",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We will test before math.",
+    "choices": [
+      "pretest",
+      "preview",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_pre",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "math"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0045",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the book before class.",
+    "choices": [
+      "preview",
+      "reread",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_pre",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0046",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I wrote the word wrong.",
+    "choices": [
+      "misspell",
+      "rewrite",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_mis",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0047",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These two socks do not match.",
+    "choices": [
+      "mismatch",
+      "unpack",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_mis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0048",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cake is not finished.",
+    "choices": [
+      "unfinished",
+      "unlock",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0049",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "That move was not kind.",
+    "choices": [
+      "unkind",
+      "unlock",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0050",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "This park is not safe.",
+    "choices": [
+      "unsafe",
+      "unlock",
+      "helpful",
+      "safely"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0051",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please read the page again.",
+    "choices": [
+      "reread",
+      "unread",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "page"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0052",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We can play the song again.",
+    "choices": [
+      "replay",
+      "preview",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0053",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Write your name on the card again.",
+    "choices": [
+      "rewrite",
+      "preview",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0054",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Take the toys out of the bag.",
+    "choices": [
+      "unpack",
+      "unlock",
+      "helpful",
+      "dislike"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0055",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The two friends do not agree.",
+    "choices": [
+      "disagree",
+      "replay",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_dis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friend"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0056",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She does not like the rain.",
+    "choices": [
+      "dislike",
+      "unhappy",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_dis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0057",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He runs in a quick way.",
+    "choices": [
+      "quickly",
+      "quick",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0058",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The baby sleeps in a quiet way.",
+    "choices": [
+      "quietly",
+      "quiet",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0059",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Walk in a slow way home.",
+    "choices": [
+      "slowly",
+      "slow",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0060",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The team was full of hope.",
+    "choices": [
+      "hopeful",
+      "hopeless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0061",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The jar is full of help.",
+    "choices": [
+      "helpful",
+      "helpless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jar"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0062",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The note was full of care.",
+    "choices": [
+      "careful",
+      "careless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0063",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bird is without a home.",
+    "choices": [
+      "homeless",
+      "hopeful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0064",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We feel without hope now.",
+    "choices": [
+      "hopeless",
+      "hopeful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0065",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The box is without help.",
+    "choices": [
+      "helpless",
+      "helpful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0066",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "That act was without care.",
+    "choices": [
+      "careless",
+      "careful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0067",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The red bus is more fast.",
+    "choices": [
+      "faster",
+      "fastest",
+      "slowly",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0068",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The blue kite is most fast.",
+    "choices": [
+      "fastest",
+      "faster",
+      "slowly",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_est",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0069",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I feel like sleep today.",
+    "choices": [
+      "sleepy",
+      "sleep",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_y",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0070",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sand feels like sun.",
+    "choices": [
+      "sunny",
+      "sun",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_y",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0071",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> is not happy today.",
+    "choices": [
+      "unhappy",
+      "replay",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0072",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will play again after lunch.",
+    "choices": [
+      "replay",
+      "preview",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0073",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The book is still not read.",
+    "choices": [
+      "unread",
+      "reread",
+      "preview",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0074",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> should read it again.",
+    "choices": [
+      "reread",
+      "unread",
+      "preview",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0075",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look at the movie before show.",
+    "choices": [
+      "preview",
+      "reread",
+      "unread",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_pre",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "movie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0076",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Take the test before the big one.",
+    "choices": [
+      "pretest",
+      "preview",
+      "reread",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_pre",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "test"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0077",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I need to write it again.",
+    "choices": [
+      "rewrite",
+      "unread",
+      "preview",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0078",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Let's play the game once more.",
+    "choices": [
+      "replay",
+      "preview",
+      "unlock",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_re",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0079",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Open the gate; do not lock.",
+    "choices": [
+      "unlock",
+      "unpack",
+      "reread",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0080",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The art is not done yet.",
+    "choices": [
+      "unfinished",
+      "unlock",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "art"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0081",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They do not agree on teams.",
+    "choices": [
+      "disagree",
+      "dislike",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_dis",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0082",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I do not like this food.",
+    "choices": [
+      "dislike",
+      "disagree",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_dis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "food"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0083",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I spelled my name wrong.",
+    "choices": [
+      "misspell",
+      "mismatch",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_mis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "name"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0084",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My mittens are a wrong match.",
+    "choices": [
+      "mismatch",
+      "misspell",
+      "helpful",
+      "replay"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_mis",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0085",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The pup is full of hope.",
+    "choices": [
+      "hopeful",
+      "hopeless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0086",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The pup is without hope.",
+    "choices": [
+      "hopeless",
+      "hopeful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0087",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Her smile is full of thanks.",
+    "choices": [
+      "thankful",
+      "hopeless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0088",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The act was full of care.",
+    "choices": [
+      "careful",
+      "careless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0089",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The act was without care.",
+    "choices": [
+      "careless",
+      "careful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0090",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The man is without a home.",
+    "choices": [
+      "homeless",
+      "helpful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0091",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We are without help here.",
+    "choices": [
+      "helpless",
+      "helpful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0092",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> feels without hope.",
+    "choices": [
+      "hopeless",
+      "hopeful",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_less",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0093",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is full of hope.",
+    "choices": [
+      "hopeful",
+      "hopeless",
+      "replay",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ful",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0094",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Run more fast than last time.",
+    "choices": [
+      "faster",
+      "fastest",
+      "slowly",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_er",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0095",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "This is the most fast run.",
+    "choices": [
+      "fastest",
+      "faster",
+      "slowly",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_est",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0096",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The day is like rain and clouds.",
+    "choices": [
+      "rainy",
+      "rain",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_y",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "day"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0097",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The mud is full of muck.",
+    "choices": [
+      "muddy",
+      "mud",
+      "helpful",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_y",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0098",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She talks in a quick way.",
+    "choices": [
+      "quickly",
+      "quick",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0099",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He eats in a slow way.",
+    "choices": [
+      "slowly",
+      "slow",
+      "helpful",
+      "unlock"
+    ],
+    "answer_index": 0,
+    "explain_key": "suffix_ly",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_prefixes_and_suffixes_review_0100",
+    "family_id": "fam_prefixes_and_suffixes_review",
+    "skill_id": "roots_prefixes_and_suffixes_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The lock will not open.",
+    "choices": [
+      "unlock",
+      "unpack",
+      "reread",
+      "slowly"
+    ],
+    "answer_index": 0,
+    "explain_key": "prefix_un",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lock"
+      }
+    ]
+  }
+]

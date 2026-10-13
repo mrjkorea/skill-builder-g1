@@ -1,0 +1,291 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_trigraph_word_dge_tch",
+  "family_title_en": "Spell the trigraph word: -dge, -tch",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_trigraph_word_dge_tch",
+      "ix_title": "Spell the trigraph word: -dge, -tch",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어느 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right spelling.",
+        "ko": "맞는 철자를 누르세요."
+      },
+      "choice_rule": "Each item has exactly four whole-word spellings of one tch or dge word, and exactly one is correct. The stem is a meaning clue of at most ten words from the roots word list, allowed extra words, and the NAME token. Do not put the correct spelling in the stem. About half the pool uses tch and half uses dge. Use explain_key tch_short or dge_short for one-syllable words and tch_two or dge_two for longer words. Put the correct spelling in a different slot from item to item. Add media as one lemma of the correct word for a later picture. Kid topics only: school, home, food, pets, play, family, and weather. No brand names and no real names.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "badge",
+        "batch",
+        "dodge",
+        "edge",
+        "fetch",
+        "fridge",
+        "fudge",
+        "hatch",
+        "hedge",
+        "itch",
+        "latch",
+        "lodge",
+        "patch",
+        "pitch",
+        "ridge",
+        "scratch",
+        "sketch",
+        "smudge",
+        "stitch",
+        "stretch",
+        "switch",
+        "wedge"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_trigraph_word_dge_tch_0001",
+          "tier": 1,
+          "stem": "You grab the ball in the air.",
+          "choices": [
+            "catch",
+            "cach",
+            "caj",
+            "cachh"
+          ],
+          "answer_index": 0,
+          "explain_key": "tch_short",
+          "media": [
+            {
+              "lemma": "catch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_trigraph_word_dge_tch_0002",
+          "tier": 1,
+          "stem": "You wear this to see the time.",
+          "choices": [
+            "wach",
+            "waj",
+            "watch",
+            "wachh"
+          ],
+          "answer_index": 2,
+          "explain_key": "tch_short",
+          "media": [
+            {
+              "lemma": "watch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_trigraph_word_dge_tch_0003",
+          "tier": 1,
+          "stem": "We cross this over the water.",
+          "choices": [
+            "brij",
+            "bridge",
+            "brige",
+            "brije"
+          ],
+          "answer_index": 1,
+          "explain_key": "dge_short",
+          "media": [
+            {
+              "lemma": "bridge"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_trigraph_word_dge_tch_0004",
+          "tier": 2,
+          "stem": "A sock can have this on a hole.",
+          "choices": [
+            "pach",
+            "pacth",
+            "patsh",
+            "patch"
+          ],
+          "answer_index": 3,
+          "explain_key": "tch_short",
+          "media": [
+            {
+              "lemma": "patch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_trigraph_word_dge_tch_0005",
+          "tier": 2,
+          "stem": "A long green bush by the yard.",
+          "choices": [
+            "hedge",
+            "hege",
+            "hedje",
+            "hegde"
+          ],
+          "answer_index": 0,
+          "explain_key": "dge_short",
+          "media": [
+            {
+              "lemma": "hedge"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_trigraph_word_dge_tch_0006",
+          "tier": 2,
+          "stem": "The bird will come out of the egg.",
+          "choices": [
+            "hach",
+            "hatsh",
+            "hatch",
+            "hacth"
+          ],
+          "answer_index": 2,
+          "explain_key": "tch_short",
+          "media": [
+            {
+              "lemma": "hatch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_trigraph_word_dge_tch_0007",
+          "tier": 3,
+          "stem": "<NAME> can cook in this room at home.",
+          "choices": [
+            "kichen",
+            "kitcen",
+            "kitchin",
+            "kitchen"
+          ],
+          "answer_index": 3,
+          "explain_key": "tch_two",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "kitchen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_trigraph_word_dge_tch_0008",
+          "tier": 3,
+          "stem": "Mom put this on the cut on my leg.",
+          "choices": [
+            "banage",
+            "bandage",
+            "bandadge",
+            "bandige"
+          ],
+          "answer_index": 1,
+          "explain_key": "dge_two",
+          "media": [
+            {
+              "lemma": "bandage"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Wrong choices are misspellings of the same target word, never a different real word.",
+      "Offer four choices with exactly one correct spelling.",
+      "Every tch item includes a wrong choice that uses ch instead of tch after the short vowel.",
+      "Every dge item includes a wrong choice that uses ge or j instead of dge after the short vowel.",
+      "Tier 1 targets a familiar one-syllable word so the correct spelling is easy to see.",
+      "Tier 3 wrong spellings differ by only one added, missing, or changed letter.",
+      "Do not use a misspelling that is itself a real word."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "phoneme",
+    "schwa",
+    "\\bipa\\b",
+    "\\.mp3\\b",
+    "\\.wav\\b",
+    "/[^\\s/]+/",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "band-?aid"
+  ],
+  "tier_rules": {
+    "1": "One-syllable words kids know, such as catch, watch, and bridge. Clues are six or seven words. Wrong spellings use ch, j, ge, or an extra letter instead of tch or dge, so the real word is easy to see.",
+    "2": "One-syllable grade-level words. Clues are about seven or eight words. At least one wrong spelling uses ch for tch or j or ge for dge, and others swap letters or use sh.",
+    "3": "Two-syllable words such as kitchen and bandage. Each wrong spelling changes only one letter, including ch for tch or ge for dge. The clue may use the NAME token."
+  },
+  "miss_explain": {
+    "tch_short": {
+      "en": "After a short vowel, the ending is tch. ch is missing the t.",
+      "ko": "짧은 모음 뒤의 끝 철자는 tch입니다. ch에는 t가 빠졌습니다."
+    },
+    "dge_short": {
+      "en": "After a short vowel, the ending is dge. ge and j are wrong.",
+      "ko": "짧은 모음 뒤의 끝 철자는 dge입니다. ge와 j는 틀립니다."
+    },
+    "tch_two": {
+      "en": "In a longer word, a short vowel still needs tch. Check every letter.",
+      "ko": "더 긴 단어에서도 짧은 모음 뒤에는 tch가 필요합니다. 글자를 모두 확인하세요."
+    },
+    "dge_two": {
+      "en": "In a longer word, a short vowel still needs dge. Check every letter.",
+      "ko": "더 긴 단어에서도 짧은 모음 뒤에는 dge가 필요합니다. 글자를 모두 확인하세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the trigraph word: -dge, -tch"
+    ],
+    "no_ixl_text": true
+  }
+}

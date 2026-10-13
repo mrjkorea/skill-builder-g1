@@ -1,0 +1,271 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_is_it_a_complete_sentence_or_a_fragment",
+  "family_title_en": "Complete sentences and fragments",
+  "item_type": "sort_two_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_is_it_a_complete_sentence_or_a_fragment",
+      "ix_title": "Is it a complete sentence or a fragment?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Complete sentence or fragment?",
+        "ko": "완전한 문장인가요, 문장 조각인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap complete sentence or fragment.",
+        "ko": "완전한 문장 또는 문장 조각을 누르세요."
+      },
+      "choices": [
+        "complete sentence",
+        "fragment"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "sentence",
+        "fragment",
+        "likes",
+        "sits",
+        "eats",
+        "plays",
+        "jumps",
+        "runs",
+        "slept",
+        "played",
+        "rainy"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_fragment_0001",
+          "tier": 1,
+          "stem": "The dog ran home.",
+          "choices": [
+            "complete sentence",
+            "fragment"
+          ],
+          "answer_index": 0,
+          "explain_key": "complete",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_fragment_0002",
+          "tier": 1,
+          "stem": "The little brown puppy.",
+          "choices": [
+            "complete sentence",
+            "fragment"
+          ],
+          "answer_index": 1,
+          "explain_key": "missing_verb",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_fragment_0003",
+          "tier": 1,
+          "stem": "My sister ate lunch.",
+          "choices": [
+            "complete sentence",
+            "fragment"
+          ],
+          "answer_index": 0,
+          "explain_key": "complete",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_fragment_0004",
+          "tier": 2,
+          "stem": "After the big rain.",
+          "choices": [
+            "complete sentence",
+            "fragment"
+          ],
+          "answer_index": 1,
+          "explain_key": "fragment",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_fragment_0005",
+          "tier": 2,
+          "stem": "Is the puppy in the garden?",
+          "choices": [
+            "complete sentence",
+            "fragment"
+          ],
+          "answer_index": 0,
+          "explain_key": "complete",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_fragment_0006",
+          "tier": 2,
+          "stem": "Running to the park after school.",
+          "choices": [
+            "complete sentence",
+            "fragment"
+          ],
+          "answer_index": 1,
+          "explain_key": "missing_subject",
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_fragment_0007",
+          "tier": 3,
+          "stem": "Because the little puppy was very hungry.",
+          "choices": [
+            "complete sentence",
+            "fragment"
+          ],
+          "answer_index": 1,
+          "explain_key": "unfinished",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_fragment_0008",
+          "tier": 3,
+          "stem": "<NAME> felt very happy after lunch today.",
+          "choices": [
+            "complete sentence",
+            "fragment"
+          ],
+          "answer_index": 0,
+          "explain_key": "complete",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The two bin labels are fixed. Never change them and never change their order.",
+      "Every stem is one kid-world line to sort. Never ask about pictures, marks, or grammar words.",
+      "Keep the pool near half complete sentences and half fragments.",
+      "Complete sentences must have a who or what and a clear action or being word. Statements, questions, and short commands all count.",
+      "Fragments are a noun group with no action, an action with no who, a time or place piece, or a because/when/if/after clause that is not finished.",
+      "No stem may be read two ways. Do not use run-ons. Do not use real names.",
+      "Tier 3 fragments still have a who and an action but start with because, when, if, or after. Tier 3 completes may use <NAME>, irregular past, or a question form."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "look at the picture",
+    "the picture shows",
+    "which of",
+    "choose the",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bpredicate\\b",
+    "\\bpunctuation\\b",
+    "\\brun-on\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words. Completes have a clear who and a clear action. Fragments are a noun group with no action.",
+    "2": "Grade-level stems of five to seven words. Mix question-form completes with after/before pieces and -ing fragments that name no who.",
+    "3": "Near misses up to ten words. Unfinished because/when/if clauses that already have a who and an action, and longer completes with <NAME> or irregular past."
+  },
+  "miss_explain": {
+    "complete": {
+      "en": "A complete sentence names who or what and tells what happens. It is a whole thought.",
+      "ko": "완전한 문장은 누가 무엇을 하는지 말합니다. 생각이 끝까지 이어집니다."
+    },
+    "missing_verb": {
+      "en": "This names someone or something but does not tell what happens. It is a fragment.",
+      "ko": "누가 있는지는 말하지만 무엇을 하는지는 없습니다. 문장 조각입니다."
+    },
+    "missing_subject": {
+      "en": "This tells an action but not who does it. It is a fragment.",
+      "ko": "동작만 있고 누가 하는지는 없습니다. 문장 조각입니다."
+    },
+    "fragment": {
+      "en": "This is only a time or place piece. It is not a whole thought.",
+      "ko": "때나 장소만 있어서 생각이 끝나지 않습니다. 문장 조각입니다."
+    },
+    "unfinished": {
+      "en": "Words like when or because leave the thought unfinished. It is a fragment.",
+      "ko": "when이나 because로 시작하면 생각이 끝나지 않습니다. 문장 조각입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Is it a complete sentence or a fragment?"
+    ],
+    "no_ixl_text": true
+  }
+}

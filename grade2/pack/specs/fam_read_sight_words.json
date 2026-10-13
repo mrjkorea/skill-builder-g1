@@ -1,0 +1,224 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_read_sight_words",
+  "family_title_en": "Read sight words",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_read_sight_words",
+      "ix_title": "Read sight words",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word completes the sentence?",
+        "ko": "어느 단어가 문장을 완성하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that fits the blank.",
+        "ko": "빈칸에 알맞은 단어를 누르세요."
+      },
+      "choice_rule": "Four different real sight words from the roots list, in standard spelling. Exactly one word replaces the lowercase token blank and makes the sentence grammatical. Put that word at answer_index. The other three are whole words that do not fit. Never use a misspelling. Tier 1 choices are obviously wrong. Tier 2 choices share a first letter or a near meaning. Tier 3 choices are near misses in spelling or tense.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "blank"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_read_sight_words_0001",
+          "tier": 1,
+          "stem": "She blank good night.",
+          "choices": [
+            "said",
+            "because",
+            "their",
+            "would"
+          ],
+          "answer_index": 0,
+          "explain_key": "fits_sentence"
+        },
+        {
+          "item_id": "roots_read_sight_words_0002",
+          "tier": 1,
+          "stem": "We play blank school.",
+          "choices": [
+            "because",
+            "after",
+            "their",
+            "would"
+          ],
+          "answer_index": 1,
+          "explain_key": "fits_sentence"
+        },
+        {
+          "item_id": "roots_read_sight_words_0003",
+          "tier": 1,
+          "stem": "I blank a red ball.",
+          "choices": [
+            "because",
+            "where",
+            "have",
+            "their"
+          ],
+          "answer_index": 2,
+          "explain_key": "fits_sentence"
+        },
+        {
+          "item_id": "roots_read_sight_words_0004",
+          "tier": 2,
+          "stem": "He got wet blank of the rain.",
+          "choices": [
+            "before",
+            "around",
+            "their",
+            "because"
+          ],
+          "answer_index": 3,
+          "explain_key": "because_why"
+        },
+        {
+          "item_id": "roots_read_sight_words_0005",
+          "tier": 2,
+          "stem": "They blank a big cake today.",
+          "choices": [
+            "made",
+            "many",
+            "must",
+            "most"
+          ],
+          "answer_index": 0,
+          "explain_key": "past_sight"
+        },
+        {
+          "item_id": "roots_read_sight_words_0006",
+          "tier": 2,
+          "stem": "The kids blank home after school.",
+          "choices": [
+            "want",
+            "went",
+            "what",
+            "when"
+          ],
+          "answer_index": 1,
+          "explain_key": "past_sight"
+        },
+        {
+          "item_id": "roots_read_sight_words_0007",
+          "tier": 3,
+          "stem": "blank new books are on the little desk.",
+          "choices": [
+            "there",
+            "where",
+            "their",
+            "they"
+          ],
+          "answer_index": 2,
+          "explain_key": "their_owner"
+        },
+        {
+          "item_id": "roots_read_sight_words_0008",
+          "tier": 3,
+          "stem": "<NAME> blank a long letter to a friend.",
+          "choices": [
+            "write",
+            "right",
+            "ride",
+            "wrote"
+          ],
+          "answer_index": 3,
+          "explain_key": "past_sight",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every wrong choice is one real whole word in standard spelling. Never use a misspelling from the word list.",
+      "A wrong choice must not complete the sentence. Do not offer a second word that also fits.",
+      "Tier 1 wrong choices are sight words that cannot fit the sentence at all.",
+      "Tier 2 wrong choices are real sight words that share a first letter or a close meaning but still do not fit.",
+      "Tier 3 wrong choices are near misses such as their and there, write and right, or the present form beside the past form.",
+      "Keep every choice inside the kid world of school, home, food, pets, play, family, and weather. No brands and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bipa\\b",
+    "phoneme",
+    "/",
+    "\\bschwa\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of four or five words. The right word is a common sight word. Wrong choices are real sight words that do not fit the sentence at all.",
+    "2": "Stems of five to seven words about home, school, play, or weather. Wrong choices are other sight words that start the same or almost fit, but only one word works.",
+    "3": "Stems of seven to ten words. Wrong choices are near misses such as their and there or write and wrote. Only one choice is grammatical."
+  },
+  "miss_explain": {
+    "fits_sentence": {
+      "en": "Read every word. Only one sight word makes the sentence make sense.",
+      "ko": "각 단어를 읽어 보세요. 문장을 자연스럽게 만드는 기본 단어는 하나뿐입니다."
+    },
+    "because_why": {
+      "en": "Because tells why, so it joins the reason to the sentence.",
+      "ko": "because는 이유를 말해 주며 두 부분을 이어 줍니다."
+    },
+    "past_sight": {
+      "en": "This already happened, so the past sight word is the one that fits.",
+      "ko": "이미 일어난 일이므로 과거 기본 단어가 알맞습니다."
+    },
+    "their_owner": {
+      "en": "Their shows who owns something, as in their books.",
+      "ko": "their는 누구의 것인지 나타냅니다. their books처럼 쓰입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Read sight words"
+    ],
+    "no_ixl_text": true
+  }
+}

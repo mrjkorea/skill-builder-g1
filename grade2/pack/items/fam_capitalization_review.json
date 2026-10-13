@@ -1,0 +1,2307 @@
+[
+  {
+    "item_id": "roots_capitalization_review_0001",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the puppy sat down.",
+    "choices": [
+      "The puppy sat down.",
+      "the puppy sat down.",
+      "The Puppy sat down.",
+      "the Puppy sat down."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0002",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i want my milk.",
+    "choices": [
+      "i want my milk.",
+      "I want my milk.",
+      "I want My milk.",
+      "i Want my milk."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0003",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> has a kite.",
+    "choices": [
+      "<NAME> has a kite.",
+      "<NAME> has A kite.",
+      "<NAME> Has a kite.",
+      "<NAME> Has A kite."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0004",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we swim on saturday.",
+    "choices": [
+      "We swim on saturday.",
+      "we swim on Saturday.",
+      "We swim on Saturday.",
+      "We Swim on saturday."
+    ],
+    "answer_index": 2,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0005",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we live in texas.",
+    "choices": [
+      "We live in Texas.",
+      "We live in texas.",
+      "we live in Texas.",
+      "We Live in texas."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0006",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i sat with <NAME>.",
+    "choices": [
+      "i sat with <NAME>.",
+      "I sat with <NAME>.",
+      "I Sat with <NAME>.",
+      "I sat With <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0007",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "my family ate lunch on monday.",
+    "choices": [
+      "My Family ate lunch on Monday.",
+      "My family ate lunch on monday.",
+      "my family Ate lunch on Monday.",
+      "My family ate lunch on Monday."
+    ],
+    "answer_index": 3,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "family"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0008",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i plant beans in april.",
+    "choices": [
+      "I plant beans in april.",
+      "i plant beans in April.",
+      "I plant beans in April.",
+      "I Plant Beans in april."
+    ],
+    "answer_index": 2,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bean"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0009",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "the cat can nap here.",
+    "choices": [
+      "The cat can nap here.",
+      "the cat can nap here.",
+      "The Cat can nap here.",
+      "the Cat can nap here."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0010",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "my dog can run fast.",
+    "choices": [
+      "My dog can run fast.",
+      "my dog can run fast.",
+      "My Dog can run fast.",
+      "my Dog can run fast."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0011",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "we eat warm soup.",
+    "choices": [
+      "We eat warm soup.",
+      "we eat warm soup.",
+      "We Eat warm soup.",
+      "we Eat warm soup."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0012",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "she has a red hat.",
+    "choices": [
+      "She has a red hat.",
+      "she has a red hat.",
+      "She Has a red hat.",
+      "she Has a red hat."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0013",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "they play in mud.",
+    "choices": [
+      "They play in mud.",
+      "they play in mud.",
+      "They Play in mud.",
+      "they Play in mud."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0014",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "he will feed the pet fish.",
+    "choices": [
+      "He will feed the pet fish.",
+      "he will feed the pet fish.",
+      "He Will feed the pet fish.",
+      "he Will feed the pet fish."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0015",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "our bird can sing loud.",
+    "choices": [
+      "Our bird can sing loud.",
+      "our bird can sing loud.",
+      "Our Bird can sing loud.",
+      "our Bird can sing loud."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0016",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "it is a sunny day.",
+    "choices": [
+      "It is a sunny day.",
+      "it is a sunny day.",
+      "It Is a sunny day.",
+      "it Is a sunny day."
+    ],
+    "answer_index": 0,
+    "explain_key": "first_word",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0017",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i love my teddy.",
+    "choices": [
+      "i love my teddy.",
+      "I love my teddy.",
+      "I love My teddy.",
+      "i Love my teddy."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teddy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0018",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i see a big moon.",
+    "choices": [
+      "i see a big moon.",
+      "I see a big moon.",
+      "I see A big moon.",
+      "i See a big moon."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0019",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i got a new sock.",
+    "choices": [
+      "i got a new sock.",
+      "I got a new sock.",
+      "I got A new sock.",
+      "i Got a new sock."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0020",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i read a fun book.",
+    "choices": [
+      "i read a fun book.",
+      "I read a fun book.",
+      "I read A fun book.",
+      "i Read a fun book."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0021",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i like warm toast.",
+    "choices": [
+      "i like warm toast.",
+      "I like warm toast.",
+      "I like Warm toast.",
+      "i Like warm toast."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0022",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i help my sister.",
+    "choices": [
+      "i help my sister.",
+      "I help my sister.",
+      "I help My sister.",
+      "i Help my sister."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0023",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i pick a ripe pear.",
+    "choices": [
+      "i pick a ripe pear.",
+      "I pick a ripe pear.",
+      "I pick A ripe pear.",
+      "i Pick a ripe pear."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0024",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "i wash my red hand.",
+    "choices": [
+      "i wash my red hand.",
+      "I wash my red hand.",
+      "I wash My red hand.",
+      "i Wash my red hand."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0025",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will feed the cat.",
+    "choices": [
+      "<NAME> will feed the cat.",
+      "<NAME> Will feed the cat.",
+      "<NAME> will Feed the cat.",
+      "<NAME> Will Feed the cat."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0026",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> can ride a bike.",
+    "choices": [
+      "<NAME> can ride a bike.",
+      "<NAME> can Ride a bike.",
+      "<NAME> Can ride a bike.",
+      "<NAME> Can Ride a bike."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0027",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> found a frog.",
+    "choices": [
+      "<NAME> found a frog.",
+      "<NAME> found A frog.",
+      "<NAME> Found a frog.",
+      "<NAME> Found A frog."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0028",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> drew a star.",
+    "choices": [
+      "<NAME> drew a star.",
+      "<NAME> drew A star.",
+      "<NAME> Drew a star.",
+      "<NAME> Drew A star."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0029",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> lost a mitten.",
+    "choices": [
+      "<NAME> lost a mitten.",
+      "<NAME> lost A mitten.",
+      "<NAME> Lost a mitten.",
+      "<NAME> Lost A mitten."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0030",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> built a fort.",
+    "choices": [
+      "<NAME> built a fort.",
+      "<NAME> built A fort.",
+      "<NAME> Built a fort.",
+      "<NAME> Built A fort."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0031",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> sang a song.",
+    "choices": [
+      "<NAME> sang a song.",
+      "<NAME> sang A song.",
+      "<NAME> Sang a song.",
+      "<NAME> Sang A song."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0032",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> ate sweet cake.",
+    "choices": [
+      "<NAME> ate sweet cake.",
+      "<NAME> ate Sweet cake.",
+      "<NAME> Ate sweet cake.",
+      "<NAME> Ate Sweet cake."
+    ],
+    "answer_index": 0,
+    "explain_key": "name_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0033",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "we run on friday.",
+    "choices": [
+      "We run on Friday.",
+      "We run on friday.",
+      "we run on Friday.",
+      "We Run on friday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0034",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "they nap on sunday.",
+    "choices": [
+      "They nap on Sunday.",
+      "They nap on sunday.",
+      "they nap on Sunday.",
+      "They Nap on sunday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0035",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "he plays on tuesday.",
+    "choices": [
+      "He plays on Tuesday.",
+      "He plays on tuesday.",
+      "he plays on Tuesday.",
+      "He Plays on tuesday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0036",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "she will nap on wednesday.",
+    "choices": [
+      "She will nap on Wednesday.",
+      "She will nap on wednesday.",
+      "she will nap on Wednesday.",
+      "She Will nap on wednesday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0037",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we bake on thursday.",
+    "choices": [
+      "We bake on Thursday.",
+      "We bake on thursday.",
+      "we bake on Thursday.",
+      "We Bake on thursday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0038",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "they jump on monday.",
+    "choices": [
+      "They jump on Monday.",
+      "They jump on monday.",
+      "they jump on Monday.",
+      "They Jump on monday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jump"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0039",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "he will read on saturday.",
+    "choices": [
+      "He will read on Saturday.",
+      "He will read on saturday.",
+      "he will read on Saturday.",
+      "He Will read on saturday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "read"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0040",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we sing on friday night.",
+    "choices": [
+      "We sing on Friday night.",
+      "We sing on friday night.",
+      "we sing on Friday night.",
+      "We Sing on friday night."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0041",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "she will walk on tuesday morning.",
+    "choices": [
+      "She will walk on Tuesday morning.",
+      "She will walk on tuesday morning.",
+      "she will walk on Tuesday morning.",
+      "She Will walk on tuesday morning."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0042",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "they win a race on sunday.",
+    "choices": [
+      "They win a race on Sunday.",
+      "They win a race on sunday.",
+      "they win a race on Sunday.",
+      "They Win a race on sunday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "race"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0043",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we camp in canada.",
+    "choices": [
+      "We camp in Canada.",
+      "We camp in canada.",
+      "we camp in Canada.",
+      "We Camp in canada."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "camp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0044",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "they visit california.",
+    "choices": [
+      "They visit California.",
+      "They visit california.",
+      "they visit California.",
+      "They Visit california."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0045",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "he went to texas once.",
+    "choices": [
+      "He went to Texas once.",
+      "He went to texas once.",
+      "he went to Texas once.",
+      "He Went to texas once."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0046",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we flew to london.",
+    "choices": [
+      "We flew to London.",
+      "We flew to london.",
+      "we flew to London.",
+      "We Flew to london."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0047",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "she will visit australia.",
+    "choices": [
+      "She will visit Australia.",
+      "She will visit australia.",
+      "she will visit Australia.",
+      "She Will visit australia."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0048",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we move to canada.",
+    "choices": [
+      "We move to Canada.",
+      "We move to canada.",
+      "we move to Canada.",
+      "We Move to canada."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0049",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "he read about china today.",
+    "choices": [
+      "He read about China today.",
+      "He read about china today.",
+      "he read about China today.",
+      "He Read about china today."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "read"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0050",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "they live near texas.",
+    "choices": [
+      "They live near Texas.",
+      "They live near texas.",
+      "they live near Texas.",
+      "They Live near texas."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0051",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we drove through california.",
+    "choices": [
+      "We drove through California.",
+      "We drove through california.",
+      "we drove through California.",
+      "We Drove through california."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0052",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we read about america today.",
+    "choices": [
+      "We read about America today.",
+      "We read about america today.",
+      "we read about America today.",
+      "We Read about america today."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "read"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0053",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "we swim in july.",
+    "choices": [
+      "We swim in July.",
+      "We swim in july.",
+      "we swim in July.",
+      "We Swim in july."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0054",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "they play in january snow.",
+    "choices": [
+      "They play in January snow.",
+      "They play in january snow.",
+      "they play in January snow.",
+      "They Play in january snow."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0055",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "he will pick corn in august.",
+    "choices": [
+      "He will pick corn in August.",
+      "He will pick corn in august.",
+      "he will pick corn in August.",
+      "He Will pick corn in august."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0056",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we rake leaves in october.",
+    "choices": [
+      "We rake leaves in October.",
+      "We rake leaves in october.",
+      "we rake leaves in October.",
+      "We Rake leaves in october."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0057",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "she will bake pie in november.",
+    "choices": [
+      "She will bake pie in November.",
+      "She will bake pie in november.",
+      "she will bake pie in November.",
+      "She Will bake pie in november."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0058",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "they sled in december.",
+    "choices": [
+      "They sled in December.",
+      "They sled in december.",
+      "they sled in December.",
+      "They Sled in december."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sled"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0059",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we plant a seed in march.",
+    "choices": [
+      "We plant a seed in March.",
+      "We plant a seed in march.",
+      "we plant a seed in March.",
+      "We Plant a seed in march."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0060",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "he will pick a flower in may.",
+    "choices": [
+      "He will pick a flower in May.",
+      "He will pick a flower in may.",
+      "he will pick a flower in May.",
+      "He Will pick a flower in may."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0061",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i walk with <NAME>.",
+    "choices": [
+      "i walk with <NAME>.",
+      "I walk with <NAME>.",
+      "I Walk with <NAME>.",
+      "I walk With <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0062",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i share lunch with <NAME>.",
+    "choices": [
+      "i share lunch with <NAME>.",
+      "I share lunch with <NAME>.",
+      "I Share lunch with <NAME>.",
+      "I share Lunch with <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0063",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i play ball with <NAME>.",
+    "choices": [
+      "i play ball with <NAME>.",
+      "I play ball with <NAME>.",
+      "I Play ball with <NAME>.",
+      "I play Ball with <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0064",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i read books with <NAME>.",
+    "choices": [
+      "i read books with <NAME>.",
+      "I read books with <NAME>.",
+      "I Read books with <NAME>.",
+      "I read Books with <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0065",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i build blocks with <NAME>.",
+    "choices": [
+      "i build blocks with <NAME>.",
+      "I build blocks with <NAME>.",
+      "I Build blocks with <NAME>.",
+      "I build Blocks with <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0066",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i feed a duck with <NAME>.",
+    "choices": [
+      "i feed a duck with <NAME>.",
+      "I feed a duck with <NAME>.",
+      "I Feed a duck with <NAME>.",
+      "I feed A duck with <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0067",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i rake leaves with <NAME>.",
+    "choices": [
+      "i rake leaves with <NAME>.",
+      "I rake leaves with <NAME>.",
+      "I Rake leaves with <NAME>.",
+      "I rake Leaves with <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0068",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i jump rope with <NAME>.",
+    "choices": [
+      "i jump rope with <NAME>.",
+      "I jump rope with <NAME>.",
+      "I Jump rope with <NAME>.",
+      "I jump Rope with <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jump"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0069",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i paint art with <NAME>.",
+    "choices": [
+      "i paint art with <NAME>.",
+      "I paint art with <NAME>.",
+      "I Paint art with <NAME>.",
+      "I paint Art with <NAME>."
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "art"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0070",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i swim on sunday with <NAME>.",
+    "choices": [
+      "I swim on Sunday with <NAME>.",
+      "i swim on Sunday with <NAME>.",
+      "I swim on sunday with <NAME>.",
+      "I Swim on Sunday with <NAME>."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0071",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i visit texas with my aunt.",
+    "choices": [
+      "I visit Texas with my aunt.",
+      "i visit Texas with my aunt.",
+      "I visit texas with my aunt.",
+      "I Visit Texas with my aunt."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0072",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "we eat soup on tuesday night.",
+    "choices": [
+      "We eat soup on Tuesday night.",
+      "We eat soup on tuesday night.",
+      "we eat soup on Tuesday night.",
+      "We Eat soup on Tuesday night."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0073",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "my brother ran on friday morning.",
+    "choices": [
+      "My brother ran on Friday morning.",
+      "my brother ran on Friday morning.",
+      "My Brother ran on Friday morning.",
+      "My brother ran on friday morning."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "brother"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0074",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i bake cookies in december.",
+    "choices": [
+      "I bake cookies in December.",
+      "i bake cookies in December.",
+      "I bake cookies in december.",
+      "I Bake cookies in December."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0075",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "we pick an apple in september.",
+    "choices": [
+      "We pick an apple in September.",
+      "We pick an apple in september.",
+      "we pick an apple in September.",
+      "We Pick an apple in September."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0076",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i fly a kite in warm march.",
+    "choices": [
+      "I fly a kite in warm March.",
+      "i fly a kite in warm March.",
+      "I fly a kite in warm march.",
+      "I Fly a kite in warm March."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0077",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "she will read on quiet wednesday.",
+    "choices": [
+      "She will read on quiet Wednesday.",
+      "she will read on quiet Wednesday.",
+      "She will read on quiet wednesday.",
+      "She Will read on quiet Wednesday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0078",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i climb a hill in sunny june.",
+    "choices": [
+      "I climb a hill in sunny June.",
+      "i climb a hill in sunny June.",
+      "I climb a hill in sunny june.",
+      "I Climb a hill in sunny June."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0079",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "we camp by a lake in july.",
+    "choices": [
+      "We camp by a lake in July.",
+      "We camp by a lake in july.",
+      "we camp by a lake in July.",
+      "We Camp by a lake in July."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0080",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i write cards in cold february.",
+    "choices": [
+      "I write cards in cold February.",
+      "i write cards in cold February.",
+      "I write cards in cold february.",
+      "I Write cards in cold February."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0081",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "they play games on rainy saturday.",
+    "choices": [
+      "They play games on rainy Saturday.",
+      "They play games on rainy saturday.",
+      "they play games on rainy Saturday.",
+      "They Play games on rainy Saturday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0082",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i rake yard on cloudy monday.",
+    "choices": [
+      "I rake yard on cloudy Monday.",
+      "i rake yard on cloudy Monday.",
+      "I rake yard on cloudy monday.",
+      "I Rake yard on cloudy Monday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0083",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "we visit canada in early spring.",
+    "choices": [
+      "We visit Canada in early spring.",
+      "We visit canada in early spring.",
+      "we visit Canada in early spring.",
+      "We Visit Canada in early spring."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spring"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0084",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i mail a letter in late october.",
+    "choices": [
+      "I mail a letter in late October.",
+      "i mail a letter in late October.",
+      "I mail a letter in late october.",
+      "I Mail a letter in late October."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "letter"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0085",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "she will walk home on warm thursday.",
+    "choices": [
+      "She will walk home on warm Thursday.",
+      "she will walk home on warm Thursday.",
+      "She will walk home on warm thursday.",
+      "She Will walk home on warm Thursday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0086",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i plant beans in wet april.",
+    "choices": [
+      "I plant beans in wet April.",
+      "i plant beans in wet April.",
+      "I plant beans in wet april.",
+      "I Plant beans in wet April."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bean"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0087",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "we drive west to california.",
+    "choices": [
+      "We drive west to California.",
+      "We drive west to california.",
+      "we drive west to California.",
+      "We Drive west to California."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0088",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i jump high on rainy friday.",
+    "choices": [
+      "I jump high on rainy Friday.",
+      "i jump high on rainy Friday.",
+      "I jump high on rainy friday.",
+      "I Jump high on rainy Friday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jump"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0089",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "my sister will nap on calm sunday.",
+    "choices": [
+      "My sister will nap on calm Sunday.",
+      "my sister will nap on calm Sunday.",
+      "My Sister will nap on calm Sunday.",
+      "My sister will nap on calm sunday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0090",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i sell juice in hot august.",
+    "choices": [
+      "I sell juice in hot August.",
+      "i sell juice in hot August.",
+      "I sell juice in hot august.",
+      "I Sell juice in hot August."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0091",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "we watch the moon on clear wednesday.",
+    "choices": [
+      "We watch the moon on clear Wednesday.",
+      "We watch the moon on clear wednesday.",
+      "we watch the moon on clear Wednesday.",
+      "We Watch the moon on clear Wednesday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0092",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i catch fish in texas creek.",
+    "choices": [
+      "I catch fish in Texas creek.",
+      "i catch fish in Texas creek.",
+      "I catch fish in texas creek.",
+      "I Catch fish in Texas creek."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0093",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "she packs a bag for monday trip.",
+    "choices": [
+      "She packs a bag for Monday trip.",
+      "she packs a bag for Monday trip.",
+      "She packs a bag for monday trip.",
+      "She Packs a bag for Monday trip."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0094",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "i draw a map of australia.",
+    "choices": [
+      "I draw a map of Australia.",
+      "i draw a map of Australia.",
+      "I draw a map of australia.",
+      "I Draw a map of Australia."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0095",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "we sing a song on happy tuesday.",
+    "choices": [
+      "We sing a song on happy Tuesday.",
+      "We sing a song on happy tuesday.",
+      "we sing a song on happy Tuesday.",
+      "We Sing a song on happy Tuesday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0096",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i feed a hen in cold november.",
+    "choices": [
+      "I feed a hen in cold November.",
+      "i feed a hen in cold November.",
+      "I feed a hen in cold november.",
+      "I Feed a hen in cold November."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0097",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "they build a fort on cold saturday.",
+    "choices": [
+      "They build a fort on cold Saturday.",
+      "They build a fort on cold saturday.",
+      "they build a fort on cold Saturday.",
+      "They Build a fort on cold Saturday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0098",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i eat lunch with <NAME> on friday.",
+    "choices": [
+      "I eat lunch with <NAME> on Friday.",
+      "i eat lunch with <NAME> on Friday.",
+      "I eat lunch with <NAME> on friday.",
+      "I Eat lunch with <NAME> on Friday."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalization_review_0099",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "we go north to canada in june.",
+    "choices": [
+      "We go north to Canada in June.",
+      "We go north to canada in June.",
+      "we go north to Canada in June.",
+      "We Go north to Canada in June."
+    ],
+    "answer_index": 0,
+    "explain_key": "month_name",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalization_review_0100",
+    "family_id": "fam_capitalization_review",
+    "skill_id": "roots_capitalization_review",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "i help <NAME> read on monday night.",
+    "choices": [
+      "I help <NAME> read on Monday night.",
+      "i help <NAME> read on Monday night.",
+      "I help <NAME> read on monday night.",
+      "I Help <NAME> read on Monday night."
+    ],
+    "answer_index": 0,
+    "explain_key": "day_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "read"
+      }
+    ]
+  }
+]

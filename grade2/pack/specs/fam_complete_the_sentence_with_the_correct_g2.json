@@ -1,0 +1,253 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_sentence_with_the_correct_g2",
+  "family_title_en": "Complete the sentence with the correct sight word",
+  "item_type": "tap_missing_word",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_sentence_with_the_correct_sight",
+      "ix_title": "Complete the sentence with the correct sight word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sight word completes the sentence?",
+        "ko": "문장을 완성하는 자주 쓰는 단어는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that fits the sentence.",
+        "ko": "문장에 알맞은 단어를 누르세요."
+      },
+      "choice_rule": "Three lowercase whole-word choices. Exactly one choice fills the hyphen blank and makes a correct Grade 2 sentence. Every stem word and every choice comes from the roots word list or allowed_extra_words, plus <NAME>. Vary answer_index. Tier 1 distractors are obvious same-letter mismatches. Tier 2 distractors are other sight words that share spelling. Tier 3 distractors are homophones or irregular near misses.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "they're",
+        "it's",
+        "let's",
+        "though",
+        "couldn't",
+        "wouldn't",
+        "shouldn't",
+        "didn't",
+        "wasn't",
+        "weren't"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_sight_0001",
+          "tier": 1,
+          "stem": "We - to school today.",
+          "choices": [
+            "good",
+            "go",
+            "gold"
+          ],
+          "answer_index": 1,
+          "explain_key": "lookalike"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_sight_0002",
+          "tier": 1,
+          "stem": "She - a big red cake.",
+          "choices": [
+            "has",
+            "hat",
+            "ham"
+          ],
+          "answer_index": 0,
+          "explain_key": "lookalike"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_sight_0003",
+          "tier": 1,
+          "stem": "We walk - the big park.",
+          "choices": [
+            "top",
+            "toy",
+            "to"
+          ],
+          "answer_index": 2,
+          "explain_key": "lookalike"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_sight_0004",
+          "tier": 2,
+          "stem": "They - at home before dark.",
+          "choices": [
+            "were",
+            "where",
+            "wear"
+          ],
+          "answer_index": 0,
+          "explain_key": "were_wear"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_sight_0005",
+          "tier": 2,
+          "stem": "<NAME> and I - the dog at home.",
+          "choices": [
+            "say",
+            "saw",
+            "was"
+          ],
+          "answer_index": 1,
+          "explain_key": "saw_past",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_sight_0006",
+          "tier": 2,
+          "stem": "We stay inside - the rain is cold.",
+          "choices": [
+            "between",
+            "because",
+            "become"
+          ],
+          "answer_index": 1,
+          "explain_key": "reason_word"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_sight_0007",
+          "tier": 3,
+          "stem": "The kids took - books home after school.",
+          "choices": [
+            "there",
+            "their",
+            "where"
+          ],
+          "answer_index": 1,
+          "explain_key": "whose_word"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_sight_0008",
+          "tier": 3,
+          "stem": "The cat has - in the box all day.",
+          "choices": [
+            "begin",
+            "bean",
+            "been"
+          ],
+          "answer_index": 2,
+          "explain_key": "been_form"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use exactly three choices: one correct sight word and two real words that do not complete the sentence.",
+      "Never allow two choices that both make a correct sentence. One right answer only.",
+      "Every choice is a whole word in classroom spelling. Do not use list typos such as becaus, thier, theyre, or wuz.",
+      "Tier 1 wrong choices share the first letter but are easy to reject, such as gold or good for go.",
+      "Tier 2 wrong choices are other sight words with shared letters, such as where or wear for were.",
+      "Tier 3 wrong choices are homophones or irregular near misses, such as there for their or bean for been.",
+      "Mark the missing word with one hyphen between spaces. Do not use underscores, slashes, or sound symbols.",
+      "Use only roots list words, allowed extra words, and <NAME>. No brands and no real child names.",
+      "Keep sentences in school, home, food, pets, play, family, or weather. Write original sentences, not copied question text.",
+      "Set explain_key to lookalike, were_wear, saw_past, reason_word, whose_word, been_form, homophone, irregular, or fits."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "/[a-z]{1,8}/",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. The sight word is common, and the two distractors share its first letter but cannot fit.",
+    "2": "Stems of five to eight words about home, pets, play, or weather. Distractors are other sight words that look close but break the grammar.",
+    "3": "Longer stems up to ten words. Use near misses such as their and there, been and bean, were and where, or to, too, and two. Only one choice may fit."
+  },
+  "miss_explain": {
+    "lookalike": {
+      "en": "These words look alike. Read the sentence and tap the one that fits.",
+      "ko": "이 단어들은 모양이 비슷합니다. 문장을 읽고 맞는 단어를 누르세요."
+    },
+    "were_wear": {
+      "en": "Were tells about the past. Where is a place. Wear means put on.",
+      "ko": "Were는 과거를 말합니다. Where는 장소이고 Wear는 입는다는 뜻입니다."
+    },
+    "saw_past": {
+      "en": "Saw means we looked. Was tells a state. Say means to speak.",
+      "ko": "Saw는 보았다는 뜻입니다. Was는 상태이고 Say는 말하다는 뜻입니다."
+    },
+    "reason_word": {
+      "en": "Because tells why. Become and between do not give a reason.",
+      "ko": "Because는 이유를 말합니다. Become과 between은 이유가 아닙니다."
+    },
+    "whose_word": {
+      "en": "Their tells whose it is. There and where are about a place.",
+      "ko": "Their는 누구의 것인지 나타냅니다. There와 where는 장소입니다."
+    },
+    "been_form": {
+      "en": "Been goes after has. Bean is a food. Begin means to start.",
+      "ko": "Been은 has 뒤에 옵니다. Bean은 음식이고 Begin은 시작입니다."
+    },
+    "homophone": {
+      "en": "These words sound almost the same. Meanings differ, so tap the one that fits.",
+      "ko": "이 단어들은 소리가 거의 같습니다. 뜻이 다르니 맞는 단어를 누르세요."
+    },
+    "irregular": {
+      "en": "This sight word breaks the usual spelling. Tap the form that fits the sentence.",
+      "ko": "이 단어는 보통 철자 규칙과 다릅니다. 문장에 맞는 형태를 누르세요."
+    },
+    "fits": {
+      "en": "Only one word completes the sentence. The other words do not fit.",
+      "ko": "한 단어만 문장을 완성합니다. 다른 단어는 맞지 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the sentence with the correct sight word"
+    ],
+    "no_ixl_text": true
+  }
+}

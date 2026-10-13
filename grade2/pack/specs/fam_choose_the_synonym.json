@@ -1,0 +1,286 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_synonym",
+  "family_title_en": "Choose the synonym",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_synonym",
+      "ix_title": "Choose the synonym",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word means the same?",
+        "ko": "같은 뜻의 단어를 고르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the word that means the same.",
+        "ko": "같은 뜻인 단어를 누르세요."
+      },
+      "choice_rule": "The target is the last word in the stem (ignore <NAME>). Write four unique single words from the roots wordlist or allowed_extra_words. Exactly one is a true synonym of that target. The other three are wrong. Keep all four the same part of speech. Never repeat the target word. Never use a phrase. Mix answer_index.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "afraid",
+        "alike",
+        "bold",
+        "damp",
+        "dirty",
+        "giant",
+        "huge",
+        "messy",
+        "noisy",
+        "present",
+        "quickly",
+        "scared",
+        "silent",
+        "simple",
+        "sleepy",
+        "unhappy"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_synonym_0001",
+          "tier": 1,
+          "stem": "The puppy is happy.",
+          "choices": [
+            "glad",
+            "sad",
+            "tired",
+            "hungry"
+          ],
+          "answer_index": 0,
+          "explain_key": "same_feeling",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_synonym_0002",
+          "tier": 1,
+          "stem": "The box is big.",
+          "choices": [
+            "small",
+            "large",
+            "tiny",
+            "little"
+          ],
+          "answer_index": 1,
+          "explain_key": "same_size",
+          "media": [
+            {
+              "lemma": "box"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_synonym_0003",
+          "tier": 1,
+          "stem": "The kitten is little.",
+          "choices": [
+            "big",
+            "tall",
+            "small",
+            "long"
+          ],
+          "answer_index": 2,
+          "explain_key": "same_size",
+          "media": [
+            {
+              "lemma": "kitten"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_synonym_0004",
+          "tier": 2,
+          "stem": "The bike is fast.",
+          "choices": [
+            "quick",
+            "slow",
+            "late",
+            "still"
+          ],
+          "answer_index": 0,
+          "explain_key": "same_speed",
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_synonym_0005",
+          "tier": 2,
+          "stem": "Now we begin.",
+          "choices": [
+            "stop",
+            "start",
+            "end",
+            "wait"
+          ],
+          "answer_index": 1,
+          "explain_key": "same_action"
+        },
+        {
+          "item_id": "roots_choose_the_synonym_0006",
+          "tier": 2,
+          "stem": "The gate will close.",
+          "choices": [
+            "open",
+            "leave",
+            "shut",
+            "wait"
+          ],
+          "answer_index": 2,
+          "explain_key": "same_action",
+          "media": [
+            {
+              "lemma": "gate"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_synonym_0007",
+          "tier": 3,
+          "stem": "<NAME> will shout.",
+          "choices": [
+            "talk",
+            "sing",
+            "tell",
+            "yell"
+          ],
+          "answer_index": 3,
+          "explain_key": "same_action",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_choose_the_synonym_0008",
+          "tier": 3,
+          "stem": "He is my pal.",
+          "choices": [
+            "family",
+            "friend",
+            "teacher",
+            "sister"
+          ],
+          "answer_index": 1,
+          "explain_key": "same_person"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer exactly four unique single words from the roots wordlist or allowed_extra_words.",
+      "Exactly one choice is a true synonym of the last word in the stem. Never reuse that target word as a choice.",
+      "Keep all four choices the same part of speech as the target.",
+      "Wrong choices are real kid words, never nonsense and never a weaker cousin sold as the answer.",
+      "Tier 1 distractors are clear antonyms or unrelated everyday words.",
+      "Tier 2 distractors are grade-level same-POS words. One antonym is fine.",
+      "Tier 3 distractors are near misses: same topic, same people group, or a cousin action that does not mean the same.",
+      "Stay in kid world: school, home, food, pets, play, family, weather. No brands, no real names, no adult jargon.",
+      "Mix answer_index so the right word is not always first."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsynonym\\b",
+    "\\bantonym\\b",
+    "\\bopposite\\b",
+    "\\bmeans the same\\b",
+    "\\bdefinition\\b",
+    "\\bvocabulary\\b",
+    "\\bthesaurus\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words that end with a common adjective such as happy, big, or little. Add a picture lemma when the stem has a concrete noun. Distractors are antonyms or unrelated.",
+    "2": "Stems of three to six words that end with a grade-level action or describing word such as fast, begin, or close. Same-POS distractors; one antonym is fine.",
+    "3": "Near-miss pairs such as shout and yell or pal and friend. Distractors are related people, places, or actions that do not mean the same. Stems may use <NAME> and two-syllable words."
+  },
+  "miss_explain": {
+    "same_feeling": {
+      "en": "Happy and glad mean the same. Both name a good feeling.",
+      "ko": "happy와 glad는 같은 뜻입니다. 둘 다 좋은 기분을 말합니다."
+    },
+    "same_size": {
+      "en": "These two words mean the same size.",
+      "ko": "이 두 단어는 같은 크기를 뜻합니다."
+    },
+    "same_speed": {
+      "en": "Fast and quick mean the same. Both tell about speed.",
+      "ko": "fast와 quick는 같은 뜻입니다. 둘 다 빠르기를 말합니다."
+    },
+    "same_action": {
+      "en": "These two words name the same action.",
+      "ko": "이 두 단어는 같은 동작을 뜻합니다."
+    },
+    "same_person": {
+      "en": "Pal and friend mean the same kind of person.",
+      "ko": "pal과 friend는 같은 뜻입니다. 둘 다 친구를 말합니다."
+    },
+    "same_place": {
+      "en": "These two words name the same kind of place.",
+      "ko": "이 두 단어는 같은 종류의 장소를 뜻합니다."
+    },
+    "same_thing": {
+      "en": "These two words name the same kind of thing.",
+      "ko": "이 두 단어는 같은 종류의 물건을 뜻합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "tts-bake",
+    "voices": [
+      "bella",
+      "puck"
+    ]
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Choose the synonym"
+    ],
+    "no_ixl_text": true
+  }
+}

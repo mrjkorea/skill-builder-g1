@@ -1,0 +1,269 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_rhyming_words_to_answer_riddles",
+  "family_title_en": "Spell rhyming words to answer riddles",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_rhyming_words_to_answer_riddles",
+      "ix_title": "Spell rhyming words to answer riddles",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling answers the riddle?",
+        "ko": "수수께끼의 답은 어떤 철자인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the rhyming word with the right spelling.",
+        "ko": "운이 맞고 철자가 바른 단어를 누르세요."
+      },
+      "choice_rule": "Four unique whole words from the roots list. Stem frame: It rhymes with [clue]. Then a short kid clue. Exactly one choice is the correct spelling of the word that rhymes with the clue and answers the riddle. The other three are a listed misspelling, a real rhyme that does not fit, or a word that does not rhyme. Higher tiers use closer spellings.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "rhyme",
+        "rhymes"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_rhyming_words_to_answer_riddles_0001",
+          "tier": 1,
+          "stem": "It rhymes with log. A pet that barks.",
+          "choices": [
+            "sun",
+            "dgo",
+            "dog",
+            "book"
+          ],
+          "answer_index": 2,
+          "explain_key": "rhyme_spell",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_rhyming_words_to_answer_riddles_0002",
+          "tier": 1,
+          "stem": "It rhymes with tall. You can kick it.",
+          "choices": [
+            "ball",
+            "pen",
+            "bll",
+            "cup"
+          ],
+          "answer_index": 0,
+          "explain_key": "rhyme_spell",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_rhyming_words_to_answer_riddles_0003",
+          "tier": 1,
+          "stem": "It rhymes with hat. This pet says meow.",
+          "choices": [
+            "dog",
+            "pig",
+            "cat",
+            "duck"
+          ],
+          "answer_index": 2,
+          "explain_key": "rhyme_spell",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_rhyming_words_to_answer_riddles_0004",
+          "tier": 2,
+          "stem": "It rhymes with lake. Food with candles on it.",
+          "choices": [
+            "cak",
+            "lake",
+            "rake",
+            "cake"
+          ],
+          "answer_index": 3,
+          "explain_key": "fits_clue",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_rhyming_words_to_answer_riddles_0005",
+          "tier": 2,
+          "stem": "It rhymes with dish. It can swim.",
+          "choices": [
+            "fish",
+            "wish",
+            "frog",
+            "dish"
+          ],
+          "answer_index": 0,
+          "explain_key": "fits_clue",
+          "media": [
+            {
+              "lemma": "fish"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_rhyming_words_to_answer_riddles_0006",
+          "tier": 2,
+          "stem": "It rhymes with mitten. A baby cat.",
+          "choices": [
+            "mitten",
+            "kitchen",
+            "kitten",
+            "kite"
+          ],
+          "answer_index": 2,
+          "explain_key": "fits_clue",
+          "media": [
+            {
+              "lemma": "kitten"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_rhyming_words_to_answer_riddles_0007",
+          "tier": 3,
+          "stem": "It rhymes with kite. Time to sleep for <NAME>.",
+          "choices": [
+            "light",
+            "nite",
+            "nigth",
+            "night"
+          ],
+          "answer_index": 3,
+          "explain_key": "near_spell",
+          "media": [
+            {
+              "lemma": "night"
+            }
+          ],
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_spell_rhyming_words_to_answer_riddles_0008",
+          "tier": 3,
+          "stem": "It rhymes with pool. Kids go there to learn.",
+          "choices": [
+            "scool",
+            "school",
+            "shcool",
+            "pool"
+          ],
+          "answer_index": 1,
+          "explain_key": "near_spell",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four whole-word choices, and exactly one is the correct spelling of the riddle answer.",
+      "The answer must rhyme with the clue and match the kid clue. Only the answer does both.",
+      "Build distractors from the roots list: a listed misspelling, a rhyme that does not fit, or a word from another family.",
+      "Tier 1 keeps distractors far apart, with at most one broken or scrambled spelling.",
+      "Tier 2 uses a real rhyme that misses the meaning, and may add one mild listed misspelling.",
+      "Tier 3 uses two near-miss spellings from the list and one rhyme that does not fit.",
+      "Stems and choices stay whole words. Do not use a lone sound, a slash, or a letter name."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "/[A-Za-zəæɑɪʊ]+/",
+    "\\.mp3\\b",
+    "\\.wav\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b"
+  ],
+  "tier_rules": {
+    "1": "Seven or eight words and a one-syllable answer from home, pets, play, or food. Wrong choices are kid words that do not rhyme, or one broken or scrambled spelling from the word list.",
+    "2": "Seven to nine words. The answer may have two syllables. Include a real rhyme that does not fit the clue. A mild listed misspelling or a look-alike word may appear too.",
+    "3": "Up to ten words. Two wrong choices are near-miss spellings from the word list, and one wrong choice rhymes but does not fit. A name token may be used."
+  },
+  "miss_explain": {
+    "rhyme_spell": {
+      "en": "This word rhymes with the clue and is spelled the right way.",
+      "ko": "이 단어는 단서와 운이 같고 철자가 바릅니다."
+    },
+    "fits_clue": {
+      "en": "The right word rhymes with the clue and matches the riddle.",
+      "ko": "맞는 단어는 단서와 운이 같고 수수께끼의 뜻에도 맞습니다."
+    },
+    "near_spell": {
+      "en": "Watch each letter. The real spelling rhymes and fits the riddle.",
+      "ko": "글자를 잘 보세요. 운이 맞고 뜻에 맞는 바른 철자입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell rhyming words to answer riddles"
+    ],
+    "no_ixl_text": true
+  }
+}

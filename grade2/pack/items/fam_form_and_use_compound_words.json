@@ -1,0 +1,2420 @@
+[
+  {
+    "item_id": "roots_form_and_use_compound_words_0001",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sun and shine.",
+    "choices": [
+      "sunshine",
+      "sun",
+      "shine",
+      "sunny"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0002",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "rain and bow.",
+    "choices": [
+      "rain",
+      "rainbow",
+      "bow",
+      "train"
+    ],
+    "answer_index": 1,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rainbow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0003",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "bed and time.",
+    "choices": [
+      "bed",
+      "time",
+      "dinner",
+      "bedtime"
+    ],
+    "answer_index": 3,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0004",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Kids run and play.",
+    "choices": [
+      "play",
+      "classroom",
+      "playground",
+      "ground"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "playground"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0005",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> ate cake from a cup.",
+    "choices": [
+      "cup",
+      "cupcake",
+      "cake",
+      "pancake"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_fit",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0006",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A man made of snow.",
+    "choices": [
+      "snow",
+      "man",
+      "snowball",
+      "snowman"
+    ],
+    "answer_index": 3,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0007",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Wear this in the rain.",
+    "choices": [
+      "rainbow",
+      "raindrop",
+      "raincoat",
+      "rain"
+    ],
+    "answer_index": 2,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0008",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> put books in a pack.",
+    "choices": [
+      "bookmark",
+      "pack",
+      "notebook",
+      "backpack"
+    ],
+    "answer_index": 3,
+    "explain_key": "wrong_compound",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0009",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "foot and ball.",
+    "choices": [
+      "football",
+      "foot",
+      "ball",
+      "fall"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "foot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0010",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "base and ball.",
+    "choices": [
+      "baseball",
+      "base",
+      "ball",
+      "bandage"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "base"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0011",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "book and mark.",
+    "choices": [
+      "bookmark",
+      "book",
+      "mark",
+      "market"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0012",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "class and room.",
+    "choices": [
+      "classroom",
+      "class",
+      "room",
+      "broom"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0013",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "cup and cake.",
+    "choices": [
+      "cupcake",
+      "cup",
+      "cake",
+      "cookie"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0014",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "door and bell.",
+    "choices": [
+      "doorbell",
+      "door",
+      "bell",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0015",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "gold and fish.",
+    "choices": [
+      "goldfish",
+      "gold",
+      "fish",
+      "dish"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gold"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0016",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "home and work.",
+    "choices": [
+      "homework",
+      "home",
+      "work",
+      "word"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0017",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "hot and dog.",
+    "choices": [
+      "hotdog",
+      "hot",
+      "dog",
+      "frog"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0018",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "mail and box.",
+    "choices": [
+      "mailbox",
+      "mail",
+      "box",
+      "fox"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0019",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "moon and light.",
+    "choices": [
+      "moonlight",
+      "moon",
+      "light",
+      "night"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0020",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "note and book.",
+    "choices": [
+      "notebook",
+      "note",
+      "book",
+      "hook"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0021",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "pan and cake.",
+    "choices": [
+      "pancake",
+      "pan",
+      "cake",
+      "lake"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0022",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "rain and coat.",
+    "choices": [
+      "raincoat",
+      "rain",
+      "coat",
+      "boat"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0023",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "rain and drop.",
+    "choices": [
+      "raindrop",
+      "rain",
+      "drop",
+      "shop"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0024",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sand and box.",
+    "choices": [
+      "sandbox",
+      "sand",
+      "box",
+      "fox"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0025",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "side and walk.",
+    "choices": [
+      "sidewalk",
+      "side",
+      "walk",
+      "talk"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "side"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0026",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "snow and ball.",
+    "choices": [
+      "snowball",
+      "snow",
+      "ball",
+      "wall"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0027",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "snow and man.",
+    "choices": [
+      "snowman",
+      "snow",
+      "man",
+      "can"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0028",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sun and flower.",
+    "choices": [
+      "sunflower",
+      "sun",
+      "flower",
+      "fluffy"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0029",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sun and light.",
+    "choices": [
+      "sunlight",
+      "sun",
+      "light",
+      "fight"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0030",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sun and rise.",
+    "choices": [
+      "sunrise",
+      "sun",
+      "rise",
+      "rice"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0031",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "sun and set.",
+    "choices": [
+      "sunset",
+      "sun",
+      "set",
+      "net"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0032",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "tooth and brush.",
+    "choices": [
+      "toothbrush",
+      "tooth",
+      "brush",
+      "crush"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0033",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "tooth and paste.",
+    "choices": [
+      "toothpaste",
+      "tooth",
+      "paste",
+      "taste"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0034",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "back and pack.",
+    "choices": [
+      "backpack",
+      "back",
+      "pack",
+      "rack"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "back"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0035",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "bed and room.",
+    "choices": [
+      "bedroom",
+      "bed",
+      "room",
+      "broom"
+    ],
+    "answer_index": 0,
+    "explain_key": "form_join",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0036",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We eat lunch at school.",
+    "choices": [
+      "lunchtime",
+      "lunch",
+      "classroom",
+      "time"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0037",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Your bed and toys stay here.",
+    "choices": [
+      "bedroom",
+      "bed",
+      "pillow",
+      "room"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0038",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> reads in the class.",
+    "choices": [
+      "classroom",
+      "class",
+      "homework",
+      "room"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0039",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Mom cooks from a book.",
+    "choices": [
+      "cookbook",
+      "cook",
+      "notebook",
+      "book"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cook"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0040",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We play ball on a field.",
+    "choices": [
+      "baseball",
+      "base",
+      "softball",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "base"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0041",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Kick the ball with your foot.",
+    "choices": [
+      "football",
+      "foot",
+      "soccer",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "foot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0042",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A fish that looks like gold.",
+    "choices": [
+      "goldfish",
+      "gold",
+      "catfish",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gold"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0043",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Ring the bell at the door.",
+    "choices": [
+      "doorbell",
+      "door",
+      "bell",
+      "well"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0044",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> got mail from the box.",
+    "choices": [
+      "mailbox",
+      "mail",
+      "backpack",
+      "box"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0045",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Draw with chalk on the side.",
+    "choices": [
+      "sidewalk",
+      "side",
+      "driveway",
+      "walk"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "side"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0046",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Park the car on the drive.",
+    "choices": [
+      "driveway",
+      "drive",
+      "sidewalk",
+      "way"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drive"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0047",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Build castles in wet sand.",
+    "choices": [
+      "sandbox",
+      "sand",
+      "snowball",
+      "box"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0048",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Throw a white ball of snow.",
+    "choices": [
+      "snowball",
+      "snow",
+      "snowman",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0049",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sun goes down at night.",
+    "choices": [
+      "sunset",
+      "sun",
+      "sunrise",
+      "set"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0050",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sun comes up in morning.",
+    "choices": [
+      "sunrise",
+      "sun",
+      "sunset",
+      "rise"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0051",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Brush your teeth every day.",
+    "choices": [
+      "toothbrush",
+      "tooth",
+      "toothpaste",
+      "brush"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0052",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Squirt paste on your brush.",
+    "choices": [
+      "toothpaste",
+      "tooth",
+      "toothbrush",
+      "paste"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0053",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did math after school.",
+    "choices": [
+      "homework",
+      "home",
+      "notebook",
+      "work"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0054",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Eat a flat cake for breakfast.",
+    "choices": [
+      "pancake",
+      "pan",
+      "cupcake",
+      "cake"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0055",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Write notes in a small book.",
+    "choices": [
+      "notebook",
+      "note",
+      "bookmark",
+      "book"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0056",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Keep your place in a book.",
+    "choices": [
+      "bookmark",
+      "book",
+      "notebook",
+      "mark"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0057",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Wear a coat when it rains.",
+    "choices": [
+      "raincoat",
+      "rain",
+      "raindrop",
+      "coat"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0058",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A drop fell from the cloud.",
+    "choices": [
+      "raindrop",
+      "rain",
+      "raincoat",
+      "drop"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0059",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The moon shines at night.",
+    "choices": [
+      "moonlight",
+      "moon",
+      "starlight",
+      "light"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0060",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A tall yellow flower loves sun.",
+    "choices": [
+      "sunflower",
+      "sun",
+      "sunshine",
+      "flower"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0061",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Light from the sun is bright.",
+    "choices": [
+      "sunlight",
+      "sun",
+      "moonlight",
+      "light"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0062",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Carry books on your back.",
+    "choices": [
+      "backpack",
+      "back",
+      "bookmark",
+      "pack"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "back"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0063",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Eat a hot on a bun.",
+    "choices": [
+      "hotdog",
+      "hot",
+      "lunch",
+      "dog"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0064",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A boat that uses a big sail.",
+    "choices": [
+      "sailboat",
+      "sail",
+      "boat",
+      "goat"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0065",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A truck helps put out fire.",
+    "choices": [
+      "firetruck",
+      "fire",
+      "truck",
+      "duck"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0066",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Play in the yard out back.",
+    "choices": [
+      "backyard",
+      "back",
+      "yard",
+      "card"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "back"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0067",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Shops are in the town center.",
+    "choices": [
+      "downtown",
+      "down",
+      "town",
+      "crown"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "down"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0068",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Day is when the sun is up.",
+    "choices": [
+      "daytime",
+      "day",
+      "nighttime",
+      "time"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "day"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0069",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Night is when the sky is dark.",
+    "choices": [
+      "nighttime",
+      "night",
+      "daytime",
+      "time"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0070",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Stars shine in the dark sky.",
+    "choices": [
+      "starlight",
+      "star",
+      "moonlight",
+      "light"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0071",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Hit a big soft ball at recess.",
+    "choices": [
+      "softball",
+      "soft",
+      "baseball",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soft"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0072",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A fish that seems like a cat.",
+    "choices": [
+      "catfish",
+      "cat",
+      "goldfish",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explain_key": "use_fit",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0073",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Stay dry when the rain falls.",
+    "choices": [
+      "rainbow",
+      "raincoat",
+      "raindrop",
+      "rain"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0074",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Bright bow shows after rain.",
+    "choices": [
+      "raincoat",
+      "rainbow",
+      "raindrop",
+      "bow"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rainbow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0075",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Catch one on your tongue.",
+    "choices": [
+      "raincoat",
+      "rainbow",
+      "raindrop",
+      "drop"
+    ],
+    "answer_index": 2,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0076",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Sleep in the room with bed.",
+    "choices": [
+      "kitchen",
+      "bedroom",
+      "classroom",
+      "bed"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0077",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Learn and sit with your class.",
+    "choices": [
+      "bedroom",
+      "classroom",
+      "playground",
+      "class"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0078",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Run and climb on bars outside.",
+    "choices": [
+      "classroom",
+      "playground",
+      "sandbox",
+      "ground"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0079",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Sweet treat in a small cup.",
+    "choices": [
+      "pancake",
+      "cupcake",
+      "hotdog",
+      "cup"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0080",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Flat round cake for breakfast.",
+    "choices": [
+      "cupcake",
+      "pancake",
+      "cookbook",
+      "pan"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0081",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mark the page you stopped on.",
+    "choices": [
+      "notebook",
+      "bookmark",
+      "backpack",
+      "book"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0082",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pack for school on your back.",
+    "choices": [
+      "bookmark",
+      "notebook",
+      "backpack",
+      "pack"
+    ],
+    "answer_index": 2,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "back"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0083",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Get mail from the street box.",
+    "choices": [
+      "notebook",
+      "mailbox",
+      "sandbox",
+      "mail"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0084",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Kick a round ball with team.",
+    "choices": [
+      "baseball",
+      "football",
+      "softball",
+      "foot"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "foot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0085",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pet that swims in a bowl.",
+    "choices": [
+      "catfish",
+      "goldfish",
+      "rainbow",
+      "fish"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gold"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0086",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Orange pet fish in a tank.",
+    "choices": [
+      "goldfish",
+      "catfish",
+      "sailboat",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gold"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0087",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Glow when the moon is out.",
+    "choices": [
+      "sunlight",
+      "moonlight",
+      "starlight",
+      "moon"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0088",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Stars glow far away at night.",
+    "choices": [
+      "moonlight",
+      "starlight",
+      "sunlight",
+      "star"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0089",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Warm light from the sky.",
+    "choices": [
+      "moonlight",
+      "sunlight",
+      "sunshine",
+      "sun"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0090",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Roll and throw in the snow.",
+    "choices": [
+      "snowman",
+      "snowball",
+      "sandbox",
+      "snow"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0091",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Three snow balls make this friend.",
+    "choices": [
+      "snowball",
+      "snowman",
+      "sandbox",
+      "man"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0092",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Sky turns red when sun goes.",
+    "choices": [
+      "sunrise",
+      "sunset",
+      "sunshine",
+      "sun"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0093",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pink sky when the day starts.",
+    "choices": [
+      "sunset",
+      "sunrise",
+      "sunflower",
+      "sun"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0094",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Clean teeth with a soft brush.",
+    "choices": [
+      "toothpaste",
+      "toothbrush",
+      "bookmark",
+      "brush"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0095",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "White paste on your brush.",
+    "choices": [
+      "toothbrush",
+      "toothpaste",
+      "cupcake",
+      "paste"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0096",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> walks on the path.",
+    "choices": [
+      "driveway",
+      "sidewalk",
+      "backyard",
+      "walk"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "side"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0097",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Play games in grass out back.",
+    "choices": [
+      "driveway",
+      "backyard",
+      "sandbox",
+      "yard"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "back"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0098",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Dig and play in wet sand.",
+    "choices": [
+      "snowball",
+      "sandbox",
+      "mailbox",
+      "sand"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0099",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pages to do after school.",
+    "choices": [
+      "cookbook",
+      "homework",
+      "notebook",
+      "work"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_compound_words_0100",
+    "family_id": "fam_form_and_use_compound_words",
+    "skill_id": "roots_form_and_use_compound_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mom uses this book to cook.",
+    "choices": [
+      "homework",
+      "cookbook",
+      "bookmark",
+      "cook"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_compound",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cook"
+      }
+    ]
+  }
+]

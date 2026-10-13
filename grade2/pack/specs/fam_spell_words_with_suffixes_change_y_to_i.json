@@ -1,0 +1,304 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_words_with_suffixes_change_y_to_i",
+  "family_title_en": "Spell words with suffixes: change y to i",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_words_with_suffixes_change_y_to_i",
+      "ix_title": "Spell words with suffixes: change y to i",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "올바른 철자는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that is spelled right.",
+        "ko": "바르게 쓴 단어를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word spellings of one target. The target is a consonant-y base plus er, est, ed, es, or ly. Exactly one choice is the correct y-to-i spelling. The other three are unique misses: keep the y (happyer, babys, cryed); drop y with no i or drop a needed letter (happer, crid, pretier, caried); or keep y and also add i (happyier, babyies, cryied, carryied). Never use a different real word as a distractor. Never use vowel-y bases (play, say, boy). Kid-world bases only.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "est",
+        "ed",
+        "es",
+        "ly",
+        "ier",
+        "iest",
+        "ies",
+        "ied",
+        "ily",
+        "happier",
+        "happiest",
+        "happily",
+        "cried",
+        "cries",
+        "dried",
+        "dries",
+        "tries",
+        "flies",
+        "babies",
+        "families",
+        "funnier",
+        "funniest",
+        "easier",
+        "easily",
+        "easiest",
+        "busier",
+        "hungrier",
+        "carried",
+        "carries",
+        "parties",
+        "cities",
+        "puppies",
+        "prettier",
+        "prettiest",
+        "sunnier",
+        "muddier",
+        "tidier",
+        "earliest",
+        "studied",
+        "replies",
+        "replied",
+        "bodies",
+        "countries",
+        "copies",
+        "copied"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_words_with_suffixes_change_y_to_i_0001",
+          "tier": 1,
+          "stem": "Add er to happy.",
+          "choices": [
+            "happier",
+            "happyer",
+            "happyier",
+            "happer"
+          ],
+          "answer_index": 0,
+          "explain_key": "y_to_i_er",
+          "media": [
+            {
+              "lemma": "happy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_change_y_to_i_0002",
+          "tier": 1,
+          "stem": "Add es to baby.",
+          "choices": [
+            "babys",
+            "babies",
+            "babyes",
+            "babyies"
+          ],
+          "answer_index": 1,
+          "explain_key": "y_to_i_es",
+          "media": [
+            {
+              "lemma": "baby"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_change_y_to_i_0003",
+          "tier": 1,
+          "stem": "Add ed to cry.",
+          "choices": [
+            "cryed",
+            "crid",
+            "cried",
+            "cryied"
+          ],
+          "answer_index": 2,
+          "explain_key": "y_to_i_ed"
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_change_y_to_i_0004",
+          "tier": 2,
+          "stem": "Add est to funny now.",
+          "choices": [
+            "funniest",
+            "funnyest",
+            "funnyiest",
+            "funnest"
+          ],
+          "answer_index": 0,
+          "explain_key": "y_to_i_est"
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_change_y_to_i_0005",
+          "tier": 2,
+          "stem": "Add ly to easy now.",
+          "choices": [
+            "easyly",
+            "easly",
+            "easily",
+            "easiley"
+          ],
+          "answer_index": 2,
+          "explain_key": "y_to_i_ly"
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_change_y_to_i_0006",
+          "tier": 2,
+          "stem": "Add es to family now.",
+          "choices": [
+            "familys",
+            "families",
+            "familyes",
+            "familyies"
+          ],
+          "answer_index": 1,
+          "explain_key": "y_to_i_es",
+          "media": [
+            {
+              "lemma": "family"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_change_y_to_i_0007",
+          "tier": 3,
+          "stem": "Please add er to pretty for <NAME>.",
+          "choices": [
+            "prettyer",
+            "prettyier",
+            "prettier",
+            "pretier"
+          ],
+          "answer_index": 2,
+          "explain_key": "y_to_i_er",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "dress"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_change_y_to_i_0008",
+          "tier": 3,
+          "stem": "Please add ed to carry for <NAME>.",
+          "choices": [
+            "carryed",
+            "caried",
+            "carryied",
+            "carried"
+          ],
+          "answer_index": 3,
+          "explain_key": "y_to_i_ed",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every target base must end in a consonant plus y. Never use a vowel-plus-y base such as play, say, or boy.",
+      "Give four unique whole-word spellings and exactly one correct y-to-i form.",
+      "Always include the keep-y miss: happyer, babys, cryed, funnyest, easyly, familys, prettyer, or carryed.",
+      "Add one drop-letter near miss and one y-plus-i extra-letter miss.",
+      "Never offer a different real English word as a distractor.",
+      "Keep bases in the kid world: home, school, pets, family, play, food. No brands and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsuffix",
+    "\\bconsonant",
+    "\\bvowel",
+    "\\bsyllable",
+    "\\bphoneme",
+    "\\bchange y to i",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short Add-er, Add-es, or Add-ed stems of four words. Picture lemma on a clear noun when you can. Distractors are obvious keep-y spellings.",
+    "2": "Grade-level two-syllable bases such as funny, easy, and family. Use est, ly, or es. Mix keep-y misses with extra-letter misses.",
+    "3": "Stems of six to ten words, often with <NAME>. Near-miss spellings that drop one letter or keep both y and i."
+  },
+  "miss_explain": {
+    "y_to_i_er": {
+      "en": "If a word ends in y, change y to i before you add er.",
+      "ko": "단어가 y로 끝나면 er를 붙이기 전에 y를 i로 바꿉니다."
+    },
+    "y_to_i_est": {
+      "en": "If a word ends in y, change y to i before you add est.",
+      "ko": "단어가 y로 끝나면 est를 붙이기 전에 y를 i로 바꿉니다."
+    },
+    "y_to_i_ed": {
+      "en": "If a word ends in y, change y to i before you add ed.",
+      "ko": "단어가 y로 끝나면 ed를 붙이기 전에 y를 i로 바꿉니다."
+    },
+    "y_to_i_es": {
+      "en": "If a word ends in y, change y to i before you add es.",
+      "ko": "단어가 y로 끝나면 es를 붙이기 전에 y를 i로 바꿉니다."
+    },
+    "y_to_i_ly": {
+      "en": "If a word ends in y, change y to i before you add ly.",
+      "ko": "단어가 y로 끝나면 ly를 붙이기 전에 y를 i로 바꿉니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Spell words with suffixes: change y to i"
+    ],
+    "no_ixl_text": true
+  }
+}

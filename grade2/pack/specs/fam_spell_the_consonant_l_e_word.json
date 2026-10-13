@@ -1,0 +1,274 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_consonant_l_e_word",
+  "family_title_en": "Spell the consonant-l-e word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_consonant_l_e_word",
+      "ix_title": "Spell the consonant-l-e word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Spell the consonant-l-e word.",
+        "ko": "자음-l-e 단어를 철자하세요."
+      },
+      "what_to_do": {
+        "en": "Tap the right spelling.",
+        "ko": "맞는 철자를 누르세요."
+      },
+      "choice_rule": "Exactly four choices, all spellings of one consonant-l-e word from the roots list or allowed_extra_words, and only one is correct. Do not put that correct spelling in the stem. For a concrete noun, add media with one lemma and do not describe the picture. Otherwise use a short meaning clue. Tier 1 misses look obviously wrong. Tier 2 drops the silent e or writes el. Tier 3 changes only doubling or the order of l and e.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bubble",
+        "candle",
+        "bottle",
+        "middle",
+        "puzzle",
+        "purple",
+        "simple",
+        "needle",
+        "beetle",
+        "maple",
+        "handle",
+        "uncle"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_consonant_l_e_word_0001",
+          "tier": 1,
+          "stem": "Spell this word.",
+          "choices": [
+            "apple",
+            "apal",
+            "apul",
+            "apl"
+          ],
+          "answer_index": 0,
+          "explain_key": "double_le",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_consonant_l_e_word_0002",
+          "tier": 1,
+          "stem": "Spell the word here.",
+          "choices": [
+            "tabo",
+            "table",
+            "tayb",
+            "tblu"
+          ],
+          "answer_index": 1,
+          "explain_key": "single_le",
+          "media": [
+            {
+              "lemma": "table"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_consonant_l_e_word_0003",
+          "tier": 1,
+          "stem": "Which spelling is right?",
+          "choices": [
+            "turtul",
+            "turtu",
+            "turtle",
+            "turtol"
+          ],
+          "answer_index": 2,
+          "explain_key": "keep_le",
+          "media": [
+            {
+              "lemma": "turtle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_consonant_l_e_word_0004",
+          "tier": 2,
+          "stem": "How do you spell this?",
+          "choices": [
+            "eagle",
+            "eagl",
+            "eagel",
+            "egle"
+          ],
+          "answer_index": 0,
+          "explain_key": "single_le",
+          "media": [
+            {
+              "lemma": "eagle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_consonant_l_e_word_0005",
+          "tier": 2,
+          "stem": "Spell the right word.",
+          "choices": [
+            "circl",
+            "circel",
+            "cirkle",
+            "circle"
+          ],
+          "answer_index": 3,
+          "explain_key": "le_order",
+          "media": [
+            {
+              "lemma": "circle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_consonant_l_e_word_0006",
+          "tier": 2,
+          "stem": "Pick the right spelling.",
+          "choices": [
+            "peopl",
+            "people",
+            "pepole",
+            "peple"
+          ],
+          "answer_index": 1,
+          "explain_key": "keep_le",
+          "media": [
+            {
+              "lemma": "people"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_consonant_l_e_word_0007",
+          "tier": 3,
+          "stem": "The baby pet is not big.",
+          "choices": [
+            "litle",
+            "little",
+            "littl",
+            "littel"
+          ],
+          "answer_index": 1,
+          "explain_key": "double_le"
+        },
+        {
+          "item_id": "roots_spell_the_consonant_l_e_word_0008",
+          "tier": 3,
+          "stem": "<NAME> wrote the name of the book.",
+          "choices": [
+            "title",
+            "tittle",
+            "titel",
+            "tittel"
+          ],
+          "answer_index": 0,
+          "explain_key": "single_le",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use exactly four choices, and make only one the real spelling of the target word.",
+      "Every wrong choice is a misspelling of that same word, not a different word that also fits the clue.",
+      "Tier 1 wrong spellings change the vowel or drop a chunk so they look clearly wrong.",
+      "Tier 2 wrong spellings drop the silent e, write el instead of le, or miss a vowel letter.",
+      "Tier 3 wrong spellings stay one or two letters off: double a consonant that should be single, or leave a short vowel with only one consonant.",
+      "A common misspelling may be a distractor, but it is never the correct choice.",
+      "Choices are whole words. Do not use isolated sounds, IPA, or held sound clips.",
+      "Do not describe a picture in the stem. For a concrete noun, set media to one lemma.",
+      "Stay with school, home, food, pets, play, family, and weather. No brand names and no real child names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "phoneme",
+    "\\bipa\\b",
+    "schwa",
+    "/",
+    "æ",
+    "ə",
+    "picture of",
+    "mp3",
+    "\\.wav",
+    "sound it out"
+  ],
+  "tier_rules": {
+    "1": "Short stems and familiar words such as apple, table, and turtle. Use a picture lemma. Wrong spellings change the vowel or drop a chunk so the miss is obvious.",
+    "2": "Grade-level words such as eagle, circle, and people. Wrong spellings drop the silent e, write el instead of le, or change one vowel letter.",
+    "3": "Near misses only. Short vowels keep a double consonant, as in little. Long vowels keep one consonant, as in title. Stems are longer clues and never show the spelling."
+  },
+  "miss_explain": {
+    "double_le": {
+      "en": "A short vowel needs two consonants before l e.",
+      "ko": "단모음이면 l e 앞 자음을 두 번 써요."
+    },
+    "single_le": {
+      "en": "A long vowel or vowel team needs one consonant before l e.",
+      "ko": "장모음이나 모음 조합이면 l e 앞 자음은 한 번만 써요."
+    },
+    "keep_le": {
+      "en": "This word ends with consonant l e. The e is silent. Do not drop it.",
+      "ko": "이 단어는 자음 l e로 끝나요. e는 소리가 없어요. 빼지 마세요."
+    },
+    "le_order": {
+      "en": "Write l then e at the end. Do not swap them.",
+      "ko": "끝에 l 다음에 e를 써요. 자리를 바꾸지 마세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the consonant-l-e word"
+    ],
+    "no_ixl_text": true
+  }
+}

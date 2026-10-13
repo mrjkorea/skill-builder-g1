@@ -1,0 +1,2402 @@
+[
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0001",
+    "tier": 1,
+    "stem": "We live in texas.",
+    "choices": [
+      "We live in Texas.",
+      "We live in texas.",
+      "We Live in texas.",
+      "we live in Texas."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ],
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0002",
+    "tier": 1,
+    "stem": "They went to london.",
+    "choices": [
+      "They went to london.",
+      "They went to London.",
+      "They Went to london.",
+      "they went to London."
+    ],
+    "answer_index": 1,
+    "explain_key": "place_name",
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ],
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0003",
+    "tier": 1,
+    "stem": "We play at the Lake.",
+    "choices": [
+      "We play at the lake.",
+      "We play at the Lake.",
+      "We Play at the lake.",
+      "we play at the Lake."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "media": [
+      {
+        "lemma": "lake"
+      }
+    ],
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0004",
+    "tier": 2,
+    "stem": "Our school is in california.",
+    "choices": [
+      "Our school is in california.",
+      "Our School is in california.",
+      "Our school is in California.",
+      "our school is in California."
+    ],
+    "answer_index": 2,
+    "explain_key": "place_name",
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0005",
+    "tier": 2,
+    "stem": "The bus stop is on main street.",
+    "choices": [
+      "The bus stop is on Main Street.",
+      "The bus stop is on main street.",
+      "The bus stop is on Main street.",
+      "The Bus stop is on main Street."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0006",
+    "tier": 2,
+    "stem": "<NAME> will visit china.",
+    "choices": [
+      "<NAME> will visit China.",
+      "<NAME> will visit china.",
+      "<NAME> Will visit china.",
+      "<NAME> will Visit China."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ],
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0007",
+    "tier": 3,
+    "stem": "My aunt is in new york.",
+    "choices": [
+      "My aunt is in New York.",
+      "My aunt is in new york.",
+      "My aunt is in New york.",
+      "My Aunt is in new York."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ],
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0008",
+    "tier": 3,
+    "stem": "The beach in florida is hot.",
+    "choices": [
+      "The beach in Florida is hot.",
+      "The Beach in florida is hot.",
+      "The beach in florida is hot.",
+      "The Beach in Florida is hot."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ],
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0009",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Dad went to canada.",
+    "choices": [
+      "Dad went to Canada.",
+      "Dad went to canada.",
+      "Dad Went to canada.",
+      "dad went to Canada."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0010",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We went to ohio.",
+    "choices": [
+      "We went to Ohio.",
+      "We went to ohio.",
+      "We Went to ohio.",
+      "we went to Ohio."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0011",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She went to mexico.",
+    "choices": [
+      "She went to Mexico.",
+      "She went to mexico.",
+      "She Went to mexico.",
+      "she went to Mexico."
+    ],
+    "answer_index": 1,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0012",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We swim in the River.",
+    "choices": [
+      "We swim in the river.",
+      "We swim in the River.",
+      "We Swim in the river.",
+      "we swim in the River."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0013",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They fly to china.",
+    "choices": [
+      "They fly to China.",
+      "They fly to china.",
+      "They Fly to china.",
+      "they fly to China."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0014",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We camp in alaska.",
+    "choices": [
+      "We camp in Alaska.",
+      "We camp in alaska.",
+      "We Camp in alaska.",
+      "we camp in Alaska."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0015",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat is in texas.",
+    "choices": [
+      "The cat is in Texas.",
+      "The cat is in texas.",
+      "The Cat is in texas.",
+      "the cat is in Texas."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0016",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We fish at the Creek.",
+    "choices": [
+      "We fish at the creek.",
+      "We fish at the Creek.",
+      "We Fish at the creek.",
+      "we fish at the Creek."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0017",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom went to london.",
+    "choices": [
+      "Mom went to London.",
+      "Mom went to london.",
+      "Mom Went to london.",
+      "mom went to London."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0018",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We live in oregon.",
+    "choices": [
+      "We live in Oregon.",
+      "We live in oregon.",
+      "We Live in oregon.",
+      "we live in Oregon."
+    ],
+    "answer_index": 2,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0019",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We run in the Park.",
+    "choices": [
+      "We run in the park.",
+      "We run in the Park.",
+      "We Run in the park.",
+      "we run in the Park."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "run"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0020",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He went to america.",
+    "choices": [
+      "He went to America.",
+      "He went to america.",
+      "He Went to america.",
+      "he went to America."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0021",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We sail on the Ocean.",
+    "choices": [
+      "We sail on the ocean.",
+      "We sail on the Ocean.",
+      "We Sail on the ocean.",
+      "we sail on the Ocean."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0022",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We went to canada.",
+    "choices": [
+      "We went to Canada.",
+      "We went to canada.",
+      "We Went to canada.",
+      "we went to Canada."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0023",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog is in florida.",
+    "choices": [
+      "The dog is in Florida.",
+      "The dog is in florida.",
+      "The Dog is in florida.",
+      "the dog is in Florida."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0024",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We walk by the Lake.",
+    "choices": [
+      "We walk by the lake.",
+      "We walk by the Lake.",
+      "We Walk by the lake.",
+      "we walk by the Lake."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0025",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They went to texas.",
+    "choices": [
+      "They went to Texas.",
+      "They went to texas.",
+      "They Went to texas.",
+      "they went to Texas."
+    ],
+    "answer_index": 1,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0026",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We play in the Park.",
+    "choices": [
+      "We play in the park.",
+      "We play in the Park.",
+      "We Play in the park.",
+      "we play in the Park."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0027",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We visit australia.",
+    "choices": [
+      "We visit Australia.",
+      "We visit australia.",
+      "We Visit australia.",
+      "we visit Australia."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0028",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We run up the Hill.",
+    "choices": [
+      "We run up the hill.",
+      "We run up the Hill.",
+      "We Run up the hill.",
+      "we run up the Hill."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0029",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bus goes to ohio.",
+    "choices": [
+      "The bus goes to Ohio.",
+      "The bus goes to ohio.",
+      "The Bus goes to ohio.",
+      "the bus goes to Ohio."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0030",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We eat in mexico.",
+    "choices": [
+      "We eat in Mexico.",
+      "We eat in mexico.",
+      "We Eat in mexico.",
+      "we eat in Mexico."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "food"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0031",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We boat on the River.",
+    "choices": [
+      "We boat on the river.",
+      "We boat on the River.",
+      "We Boat on the river.",
+      "we boat on the River."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0032",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Grandma is in texas.",
+    "choices": [
+      "Grandma is in Texas.",
+      "Grandma is in texas.",
+      "Grandma Is in texas.",
+      "grandma is in Texas."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandma"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0033",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We shop in canada.",
+    "choices": [
+      "We shop in Canada.",
+      "We shop in canada.",
+      "We Shop in canada.",
+      "we shop in Canada."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shop"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0034",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We sit at the Beach.",
+    "choices": [
+      "We sit at the beach.",
+      "We sit at the Beach.",
+      "We Sit at the beach.",
+      "we sit at the Beach."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0035",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The team went to china.",
+    "choices": [
+      "The team went to China.",
+      "The team went to china.",
+      "The Team went to china.",
+      "the team went to China."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0036",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our class trip is to california.",
+    "choices": [
+      "Our class trip is to California.",
+      "Our class trip is to california.",
+      "Our Class trip is to california.",
+      "our class trip is to California."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0037",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We eat lunch on oak avenue.",
+    "choices": [
+      "We eat lunch on Oak Avenue.",
+      "We eat lunch on oak avenue.",
+      "We eat lunch on Oak avenue.",
+      "We Eat lunch on oak Avenue."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0038",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bus is on main street.",
+    "choices": [
+      "The bus is on Main Street.",
+      "The bus is on main street.",
+      "The bus is on Main street.",
+      "The Bus is on main Street."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0039",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We drove through oregon last week.",
+    "choices": [
+      "We drove through Oregon last week.",
+      "We drove through oregon last week.",
+      "We Drove through oregon last week.",
+      "we drove through Oregon last week."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0040",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The store is on maple avenue.",
+    "choices": [
+      "The store is on Maple Avenue.",
+      "The store is on maple avenue.",
+      "The store is on Maple avenue.",
+      "The Store is on maple Avenue."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0041",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> went from texas to ohio.",
+    "choices": [
+      "<NAME> went from Texas to Ohio.",
+      "<NAME> went from texas to ohio.",
+      "<NAME> Went from texas to ohio.",
+      "<NAME> went from Texas to ohio."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0042",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We walk by the creek near school.",
+    "choices": [
+      "We walk by the creek near school.",
+      "We Walk by the creek near school.",
+      "We walk by the Creek near school.",
+      "we walk by the creek near School."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0043",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My aunt is in washington.",
+    "choices": [
+      "My aunt is in Washington.",
+      "My aunt is in washington.",
+      "My Aunt is in washington.",
+      "my aunt is in Washington."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0044",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We walk home on pine avenue.",
+    "choices": [
+      "We walk home on Pine Avenue.",
+      "We walk home on pine avenue.",
+      "We walk home on Pine avenue.",
+      "We Walk home on pine Avenue."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0045",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The river in oregon is cold.",
+    "choices": [
+      "The river in Oregon is cold.",
+      "The river in oregon is cold.",
+      "The River in oregon is cold.",
+      "the river in Oregon is cold."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "river"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0046",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We take the bus on main street.",
+    "choices": [
+      "We take the bus on Main Street.",
+      "We take the bus on main street.",
+      "We take the bus on Main street.",
+      "We Take the bus on main Street."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0047",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Grandpa went to mexico.",
+    "choices": [
+      "Grandpa went to Mexico.",
+      "Grandpa went to mexico.",
+      "Grandpa Went to mexico.",
+      "grandpa went to Mexico."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandpa"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0048",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We picnic by the lake in ohio.",
+    "choices": [
+      "We picnic by the lake in Ohio.",
+      "We picnic by the lake in ohio.",
+      "We Picnic by the lake in ohio.",
+      "we picnic by the Lake in Ohio."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "picnic"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0049",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The park in florida is big.",
+    "choices": [
+      "The park in Florida is big.",
+      "The park in florida is big.",
+      "The Park in florida is big.",
+      "the park in Florida is big."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0050",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We play on oak avenue today.",
+    "choices": [
+      "We play on Oak Avenue today.",
+      "We play on oak avenue today.",
+      "We play on Oak avenue today.",
+      "We Play on oak Avenue today."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0051",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will move to alaska.",
+    "choices": [
+      "<NAME> will move to Alaska.",
+      "<NAME> will move to alaska.",
+      "<NAME> Will move to alaska.",
+      "<NAME> will Move to Alaska."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0052",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our hotel is in california.",
+    "choices": [
+      "Our hotel is in California.",
+      "Our hotel is in california.",
+      "Our Hotel is in california.",
+      "our hotel is in California."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hotel"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0053",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We found a cat on main street.",
+    "choices": [
+      "We found a cat on Main Street.",
+      "We found a cat on main street.",
+      "We found a cat on Main street.",
+      "We Found a cat on main Street."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0054",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The lake in canada is deep.",
+    "choices": [
+      "The lake in Canada is deep.",
+      "The lake in canada is deep.",
+      "The Lake in canada is deep.",
+      "the lake in Canada is deep."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0055",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We mail cards from texas.",
+    "choices": [
+      "We mail cards from Texas.",
+      "We mail cards from texas.",
+      "We Mail cards from texas.",
+      "we mail cards from Texas."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0056",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The library is on maple avenue.",
+    "choices": [
+      "The library is on Maple Avenue.",
+      "The library is on maple avenue.",
+      "The library is on Maple avenue.",
+      "The Library is on maple Avenue."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0057",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We camp near the creek in oregon.",
+    "choices": [
+      "We camp near the creek in Oregon.",
+      "We camp near the creek in oregon.",
+      "We Camp near the creek in oregon.",
+      "we camp near the Creek in Oregon."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0058",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My aunt is in florida.",
+    "choices": [
+      "My aunt is in Florida.",
+      "My aunt is in florida.",
+      "My Aunt is in florida.",
+      "my aunt is in Florida."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0059",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We wait at the bus on pine avenue.",
+    "choices": [
+      "We wait at the bus on Pine Avenue.",
+      "We wait at the bus on pine avenue.",
+      "We wait at the bus on Pine avenue.",
+      "We Wait at the bus on pine Avenue."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0060",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The farm in ohio has a cow.",
+    "choices": [
+      "The farm in Ohio has a cow.",
+      "The farm in ohio has a cow.",
+      "The Farm in ohio has a cow.",
+      "the farm in Ohio has a cow."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "farm"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0061",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We flew over the ocean to mexico.",
+    "choices": [
+      "We flew over the ocean to Mexico.",
+      "We flew over the ocean to mexico.",
+      "We Flew over the ocean to mexico.",
+      "we flew over the Ocean to Mexico."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0062",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The school is on main street.",
+    "choices": [
+      "The school is on Main Street.",
+      "The school is on main street.",
+      "The school is on Main street.",
+      "The School is on main Street."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0063",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> went to canada.",
+    "choices": [
+      "<NAME> went to Canada.",
+      "<NAME> went to canada.",
+      "<NAME> Went to canada.",
+      "<NAME> went To canada."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0064",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We saw a bear in alaska.",
+    "choices": [
+      "We saw a bear in Alaska.",
+      "We saw a bear in alaska.",
+      "We Saw a bear in alaska.",
+      "we saw a bear in Alaska."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0065",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The path goes to oak avenue.",
+    "choices": [
+      "The path goes to Oak Avenue.",
+      "The path goes to oak avenue.",
+      "The path goes to Oak avenue.",
+      "The Path goes to oak Avenue."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0066",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We visit family in texas.",
+    "choices": [
+      "We visit family in Texas.",
+      "We visit family in texas.",
+      "We Visit family in texas.",
+      "we visit family in Texas."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "family"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0067",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The pond in florida has frogs.",
+    "choices": [
+      "The pond in Florida has frogs.",
+      "The pond in florida has frogs.",
+      "The Pond in florida has frogs.",
+      "the pond in Florida has frogs."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0068",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We shop on maple avenue today.",
+    "choices": [
+      "We shop on Maple Avenue today.",
+      "We shop on maple avenue today.",
+      "We shop on Maple avenue today.",
+      "We Shop on maple Avenue today."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shop"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0069",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boat went on the atlantic ocean.",
+    "choices": [
+      "The boat went on the Atlantic Ocean.",
+      "The boat went on the atlantic ocean.",
+      "The boat went on the Atlantic ocean.",
+      "The Boat went on the atlantic Ocean."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0070",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We study the map of australia.",
+    "choices": [
+      "We study the map of Australia.",
+      "We study the map of australia.",
+      "We Study the map of australia.",
+      "we study the map of Australia."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0071",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Rain fell in oregon all day.",
+    "choices": [
+      "Rain fell in Oregon all day.",
+      "Rain fell in oregon all day.",
+      "Rain Fell in oregon all day.",
+      "rain fell in Oregon all day."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0072",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We play soccer on pine avenue.",
+    "choices": [
+      "We play soccer on Pine Avenue.",
+      "We play soccer on pine avenue.",
+      "We play soccer on Pine avenue.",
+      "We Play soccer on pine Avenue."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soccer"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0073",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My sister is in new york city.",
+    "choices": [
+      "My sister is in New York City.",
+      "My sister is in new york city.",
+      "My sister is in New york city.",
+      "My Sister is in new York City."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0074",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The park near the lake is fun.",
+    "choices": [
+      "The park near the lake is fun.",
+      "The Park near the lake is fun.",
+      "The park near the Lake is fun.",
+      "The Park near the Lake is fun."
+    ],
+    "answer_index": 0,
+    "explain_key": "common_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0075",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We camp by the pacific ocean.",
+    "choices": [
+      "We camp by the Pacific Ocean.",
+      "We camp by the pacific ocean.",
+      "We Camp by the pacific ocean.",
+      "we camp by the Pacific ocean."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "camp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0076",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The river in new york is wide.",
+    "choices": [
+      "The river in New York is wide.",
+      "The river in new york is wide.",
+      "The River in new york is wide.",
+      "The river in New york is wide."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "river"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0077",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> flew to washington last summer.",
+    "choices": [
+      "<NAME> flew to Washington last summer.",
+      "<NAME> flew to washington last summer.",
+      "<NAME> Flew to washington last summer.",
+      "<NAME> flew to washington Last summer."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0078",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We drove from texas to florida.",
+    "choices": [
+      "We drove from Texas to Florida.",
+      "We drove from texas to florida.",
+      "We Drove from texas to florida.",
+      "We drove from Texas to florida."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0079",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The beach on the atlantic is sandy.",
+    "choices": [
+      "The beach on the Atlantic is sandy.",
+      "The beach on the atlantic is sandy.",
+      "The Beach on the atlantic is sandy.",
+      "the beach on the Atlantic is sandy."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0080",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is in new york city.",
+    "choices": [
+      "<NAME> is in New York City.",
+      "<NAME> is in new york city.",
+      "<NAME> Is in new york city.",
+      "<NAME> is in New york city."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0081",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We camp in the mountains in alaska.",
+    "choices": [
+      "We camp in the mountains in Alaska.",
+      "We camp in the mountains in alaska.",
+      "We Camp in the mountains in alaska.",
+      "we camp in the Mountains in Alaska."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mountain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0082",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The lake in salt lake city is blue.",
+    "choices": [
+      "The lake in Salt Lake City is blue.",
+      "The lake in salt lake city is blue.",
+      "The Lake in salt lake city is blue.",
+      "The lake in Salt lake city is blue."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0083",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We took a train to new york.",
+    "choices": [
+      "We took a train to New York.",
+      "We took a train to new york.",
+      "We Took a train to new york.",
+      "we took a train to New york."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0084",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The island in the pacific is warm.",
+    "choices": [
+      "The island in the Pacific is warm.",
+      "The island in the pacific is warm.",
+      "The Island in the pacific is warm.",
+      "the island in the Pacific is warm."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "island"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0085",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Grandma grew up in mexico city.",
+    "choices": [
+      "Grandma grew up in Mexico City.",
+      "Grandma grew up in mexico city.",
+      "Grandma grew up in Mexico city.",
+      "Grandma Grew up in mexico City."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandma"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0086",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We fish in the great lake in canada.",
+    "choices": [
+      "We fish in the great lake in Canada.",
+      "We fish in the great lake in canada.",
+      "We Fish in the great lake in canada.",
+      "we fish in the Great lake in Canada."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0087",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The snow in alaska is deep.",
+    "choices": [
+      "The snow in Alaska is deep.",
+      "The snow in alaska is deep.",
+      "The Snow in alaska is deep.",
+      "the snow in Alaska is deep."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0088",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We mail a box to new york.",
+    "choices": [
+      "We mail a box to New York.",
+      "We mail a box to new york.",
+      "We Mail a box to new york.",
+      "We mail a box to New york."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0089",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The creek in north texas is fast.",
+    "choices": [
+      "The creek in North Texas is fast.",
+      "The creek in north texas is fast.",
+      "The Creek in north texas is fast.",
+      "The creek in North texas is fast."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "creek"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0090",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We sail on the atlantic ocean.",
+    "choices": [
+      "We sail on the Atlantic Ocean.",
+      "We sail on the atlantic ocean.",
+      "We Sail on the atlantic ocean.",
+      "we sail on the Atlantic ocean."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0091",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will visit aunt in oregon.",
+    "choices": [
+      "<NAME> will visit aunt in Oregon.",
+      "<NAME> will visit aunt in oregon.",
+      "<NAME> Will visit aunt in oregon.",
+      "<NAME> will visit Aunt in Oregon."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0092",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The farm in ohio has corn.",
+    "choices": [
+      "The farm in Ohio has corn.",
+      "The farm in ohio has corn.",
+      "The Farm in ohio has corn.",
+      "the farm in Ohio has corn."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "farm"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0093",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We drove through california last summer.",
+    "choices": [
+      "We drove through California last summer.",
+      "We drove through california last summer.",
+      "We Drove through california last summer.",
+      "we drove through California last summer."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0094",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The path leads to oak avenue.",
+    "choices": [
+      "The path leads to Oak Avenue.",
+      "The path leads to oak avenue.",
+      "The Path leads to oak avenue.",
+      "The path leads to Oak avenue."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0095",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We swim in the lake in mexico.",
+    "choices": [
+      "We swim in the lake in Mexico.",
+      "We swim in the lake in mexico.",
+      "We Swim in the lake in mexico.",
+      "We swim in the Lake in Mexico."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0096",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wind in oregon is strong.",
+    "choices": [
+      "The wind in Oregon is strong.",
+      "The wind in oregon is strong.",
+      "The Wind in oregon is strong.",
+      "the wind in Oregon is strong."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0097",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We read about the united states.",
+    "choices": [
+      "We read about the United States.",
+      "We read about the united states.",
+      "We Read about the united states.",
+      "we read about the United states."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0098",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The zoo in florida is cool.",
+    "choices": [
+      "The zoo in Florida is cool.",
+      "The zoo in florida is cool.",
+      "The Zoo in florida is cool.",
+      "the zoo in Florida is cool."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "zoo"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0099",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We camp on the mountain in alaska.",
+    "choices": [
+      "We camp on the mountain in Alaska.",
+      "We camp on the mountain in alaska.",
+      "We Camp on the mountain in alaska.",
+      "we camp on the Mountain in Alaska."
+    ],
+    "answer_index": 0,
+    "explain_key": "place_not_common",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mountain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0100",
+    "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+    "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boat stop is on main street.",
+    "choices": [
+      "The boat stop is on Main Street.",
+      "The boat stop is on main street.",
+      "The boat stop is on Main street.",
+      "The Boat stop is on main Street."
+    ],
+    "answer_index": 0,
+    "explain_key": "geo_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  }
+]

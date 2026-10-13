@@ -1,0 +1,401 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_picture_that_matches_the_idiomati",
+  "family_title_en": "Idiom pictures",
+  "item_type": "word_to_picture",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_picture_that_matches_the_idiomati",
+      "ix_title": "Choose the picture that matches the idiomatic expression",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which picture matches?",
+        "ko": "어느 그림이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the picture that shows the meaning.",
+        "ko": "뜻을 나타내는 그림을 누르세요."
+      },
+      "choice_rule": "Four lowercase picture lemmas. Exactly one shows the figurative meaning. Follow tier_rules for distractor closeness. All lemmas must be on the roots wordlist or allowed_extra_words.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "piece",
+        "raining",
+        "cats",
+        "dogs",
+        "horses",
+        "flies",
+        "ears",
+        "bee",
+        "arm",
+        "extra",
+        "sleeping",
+        "drop",
+        "pigs",
+        "thumb",
+        "butterflies",
+        "potato",
+        "basket",
+        "towel",
+        "straw",
+        "steal",
+        "pod",
+        "cucumber"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_picture_that_matches_the_idiomati_0001",
+          "tier": 1,
+          "stem": "Under the weather",
+          "choices": [
+            "sick",
+            "cake",
+            "play",
+            "book"
+          ],
+          "answer_index": 0,
+          "explain_key": "idiom_sick",
+          "media": [
+            {
+              "lemma": "sick"
+            },
+            {
+              "lemma": "cake"
+            },
+            {
+              "lemma": "play"
+            },
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_picture_that_matches_the_idiomati_0002",
+          "tier": 1,
+          "stem": "Hit the hay",
+          "choices": [
+            "soup",
+            "sleep",
+            "bike",
+            "frog"
+          ],
+          "answer_index": 1,
+          "explain_key": "idiom_sleep",
+          "media": [
+            {
+              "lemma": "soup"
+            },
+            {
+              "lemma": "sleep"
+            },
+            {
+              "lemma": "bike"
+            },
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_picture_that_matches_the_idiomati_0003",
+          "tier": 1,
+          "stem": "Give a hand",
+          "choices": [
+            "rain",
+            "dog",
+            "help",
+            "milk"
+          ],
+          "answer_index": 2,
+          "explain_key": "idiom_help",
+          "media": [
+            {
+              "lemma": "rain"
+            },
+            {
+              "lemma": "dog"
+            },
+            {
+              "lemma": "help"
+            },
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_picture_that_matches_the_idiomati_0004",
+          "tier": 2,
+          "stem": "Spill the beans",
+          "choices": [
+            "beans",
+            "sleep",
+            "rain",
+            "talk"
+          ],
+          "answer_index": 3,
+          "explain_key": "idiom_talk",
+          "media": [
+            {
+              "lemma": "beans"
+            },
+            {
+              "lemma": "sleep"
+            },
+            {
+              "lemma": "rain"
+            },
+            {
+              "lemma": "talk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_picture_that_matches_the_idiomati_0005",
+          "tier": 2,
+          "stem": "<NAME> is over the moon",
+          "choices": [
+            "sad",
+            "happy",
+            "moon",
+            "rain"
+          ],
+          "answer_index": 1,
+          "explain_key": "idiom_happy",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "sad"
+            },
+            {
+              "lemma": "happy"
+            },
+            {
+              "lemma": "moon"
+            },
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_picture_that_matches_the_idiomati_0006",
+          "tier": 2,
+          "stem": "Have a ball",
+          "choices": [
+            "sick",
+            "sleep",
+            "play",
+            "ball"
+          ],
+          "answer_index": 2,
+          "explain_key": "idiom_play",
+          "media": [
+            {
+              "lemma": "sick"
+            },
+            {
+              "lemma": "sleep"
+            },
+            {
+              "lemma": "play"
+            },
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_picture_that_matches_the_idiomati_0007",
+          "tier": 3,
+          "stem": "Zip your lip",
+          "choices": [
+            "quiet",
+            "zip",
+            "lip",
+            "yell"
+          ],
+          "answer_index": 0,
+          "explain_key": "idiom_quiet",
+          "media": [
+            {
+              "lemma": "quiet"
+            },
+            {
+              "lemma": "zip"
+            },
+            {
+              "lemma": "lip"
+            },
+            {
+              "lemma": "yell"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_picture_that_matches_the_idiomati_0008",
+          "tier": 3,
+          "stem": "Hold your horses",
+          "choices": [
+            "run",
+            "play",
+            "horse",
+            "wait"
+          ],
+          "answer_index": 3,
+          "explain_key": "idiom_wait",
+          "media": [
+            {
+              "lemma": "run"
+            },
+            {
+              "lemma": "play"
+            },
+            {
+              "lemma": "horse"
+            },
+            {
+              "lemma": "wait"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Stem is the idiom, or a short <NAME> frame plus the idiom. Never add picture, means, idiom, or expression to the stem.",
+      "Choices are four picturable lemmas, not sentences and not picture descriptions.",
+      "Exactly one choice shows the figurative meaning. Never pick the literal scene of the words.",
+      "Tier 1 uses far-away kid-world distractors. Tier 2 adds one literal word from the stem. Tier 3 uses two literal stem words as near misses.",
+      "Keep meaning lemmas concrete: sick, sleep, rain, happy, help, play, talk, wait, quiet, read, eat, cheer, sad, smile.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands and no real names.",
+      "One tap and one right answer. Do not write audio file names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpicture shows\\b",
+    "\\bin the picture\\b",
+    "\\blook at the\\b",
+    "\\bdrawing of\\b",
+    "\\bfigurative\\b",
+    "\\bliterally\\b",
+    "\\bidiomatic\\b",
+    "\\bexpression\\b",
+    "\\bidiom\\b",
+    "/[æəθðʃʒŋɪʊɑɔ]",
+    "\\.mp3"
+  ],
+  "tier_rules": {
+    "1": "Short two-to-four-word idioms. Meaning picture is obvious. Distractors are unrelated kid-world pictures.",
+    "2": "Grade-level idioms, including a short <NAME> frame. One distractor is a literal word from the stem.",
+    "3": "Near-miss items. Two distractors are literal pictures of words inside the idiom, plus one opposite or close meaning."
+  },
+  "miss_explain": {
+    "idiom_sick": {
+      "en": "These words mean someone feels sick, not that the sky looks bad.",
+      "ko": "이 말은 날씨가 나쁘다는 뜻이 아니라 몸이 아프다는 뜻입니다."
+    },
+    "idiom_sleep": {
+      "en": "These words mean it is time to sleep, not hay on a farm.",
+      "ko": "이 말은 건초가 아니라 잘 시간이라는 뜻입니다."
+    },
+    "idiom_help": {
+      "en": "Give a hand means help someone, not a picture of a hand.",
+      "ko": "Give a hand는 손이 아니라 도와준다는 뜻입니다."
+    },
+    "idiom_talk": {
+      "en": "These words mean tell a secret, not food or a pet.",
+      "ko": "이 말은 음식이나 동물이 아니라 비밀을 말한다는 뜻입니다."
+    },
+    "idiom_happy": {
+      "en": "These words mean very happy, not the moon or a cloud.",
+      "ko": "이 말은 달이나 구름이 아니라 아주 기쁘다는 뜻입니다."
+    },
+    "idiom_play": {
+      "en": "Have a ball means have fun, not a toy ball.",
+      "ko": "Have a ball은 공이 아니라 즐겁게 논다는 뜻입니다."
+    },
+    "idiom_quiet": {
+      "en": "Zip your lip means be quiet, not a zipper or a lip.",
+      "ko": "Zip your lip은 지퍼나 입이 아니라 조용히 하라는 뜻입니다."
+    },
+    "idiom_wait": {
+      "en": "Hold your horses means wait, not a picture of a horse.",
+      "ko": "Hold your horses는 말이 아니라 기다리라는 뜻입니다."
+    },
+    "idiom_rain": {
+      "en": "These words mean heavy rain, not cats or dogs.",
+      "ko": "이 말은 고양이나 개가 아니라 비가 많이 온다는 뜻입니다."
+    },
+    "idiom_read": {
+      "en": "Hit the books means read or study, not hit something.",
+      "ko": "Hit the books는 때리라는 뜻이 아니라 읽거나 공부하라는 뜻입니다."
+    },
+    "idiom_easy": {
+      "en": "These words mean the work is easy, not a snack.",
+      "ko": "이 말은 간식이 아니라 일이 쉽다는 뜻입니다."
+    },
+    "idiom_eat": {
+      "en": "These words mean eat a lot, not an animal.",
+      "ko": "이 말은 동물이 아니라 많이 먹는다는 뜻입니다."
+    },
+    "idiom_cheer": {
+      "en": "Break a leg means good luck, not a hurt leg.",
+      "ko": "Break a leg은 다친 다리가 아니라 잘하라는 뜻입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Choose the picture that matches the idiomatic expression"
+    ],
+    "no_ixl_text": true
+  }
+}

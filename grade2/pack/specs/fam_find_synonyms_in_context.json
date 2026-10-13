@@ -1,0 +1,276 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_find_synonyms_in_context",
+  "family_title_en": "Find synonyms in context",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_find_synonyms_in_context",
+      "ix_title": "Find synonyms in context",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word means the same?",
+        "ko": "같은 뜻인 낱말은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that means the same.",
+        "ko": "같은 뜻인 낱말을 누르세요."
+      },
+      "choice_rule": "Four single words. Exactly one is a synonym of the one quoted word in the stem. The other three are wrong: an antonym, an unrelated kid-world word, or a same-topic near miss. All choices come from the roots wordlist or allowed_extra_words. Never repeat the quoted target as a choice. Never put two valid synonyms in the same choice set. Keep one right answer.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "huge",
+        "unhappy",
+        "noisy",
+        "silent",
+        "afraid",
+        "sleepy",
+        "angry",
+        "simple",
+        "beautiful",
+        "chilly",
+        "joyful",
+        "enormous",
+        "upset",
+        "mad",
+        "present",
+        "nearly"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_find_synonyms_in_context_0001",
+          "tier": 1,
+          "stem": "The \"big\" dog ran home.",
+          "choices": [
+            "large",
+            "sad",
+            "slow",
+            "wet"
+          ],
+          "answer_index": 0,
+          "explain_key": "size_same",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_synonyms_in_context_0002",
+          "tier": 1,
+          "stem": "<NAME> was \"happy\" after lunch.",
+          "choices": [
+            "sad",
+            "glad",
+            "sick",
+            "tired"
+          ],
+          "answer_index": 1,
+          "explain_key": "feeling_same",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_find_synonyms_in_context_0003",
+          "tier": 1,
+          "stem": "The \"little\" kitten sat down.",
+          "choices": [
+            "tall",
+            "loud",
+            "tiny",
+            "cold"
+          ],
+          "answer_index": 2,
+          "explain_key": "size_same",
+          "media": [
+            {
+              "lemma": "kitten"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_synonyms_in_context_0004",
+          "tier": 2,
+          "stem": "Please \"close\" the door now.",
+          "choices": [
+            "shut",
+            "open",
+            "lock",
+            "paint"
+          ],
+          "answer_index": 0,
+          "explain_key": "action_same"
+        },
+        {
+          "item_id": "roots_find_synonyms_in_context_0005",
+          "tier": 2,
+          "stem": "We will \"begin\" class soon.",
+          "choices": [
+            "stop",
+            "leave",
+            "wait",
+            "start"
+          ],
+          "answer_index": 3,
+          "explain_key": "action_same"
+        },
+        {
+          "item_id": "roots_find_synonyms_in_context_0006",
+          "tier": 2,
+          "stem": "The \"fast\" bike went down.",
+          "choices": [
+            "slow",
+            "quick",
+            "old",
+            "soft"
+          ],
+          "answer_index": 1,
+          "explain_key": "speed_same",
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_synonyms_in_context_0007",
+          "tier": 3,
+          "stem": "My \"mother\" baked a sweet cake.",
+          "choices": [
+            "sister",
+            "aunt",
+            "mom",
+            "grandma"
+          ],
+          "answer_index": 2,
+          "explain_key": "person_same",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_synonyms_in_context_0008",
+          "tier": 3,
+          "stem": "The \"picture\" hung on the wall.",
+          "choices": [
+            "photo",
+            "paper",
+            "frame",
+            "paint"
+          ],
+          "answer_index": 0,
+          "explain_key": "thing_same",
+          "media": [
+            {
+              "lemma": "picture"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four single words. Exactly one means the same as the quoted word in the stem.",
+      "Wrong choices must come from the roots wordlist or allowed_extra_words. Never invent off-list words.",
+      "Never reuse the quoted target as a choice, and never put two true synonyms in one choice set.",
+      "Tier 1 distractors are clear antonyms or unrelated kid-world words. Add a lemma picture when the stem has a concrete noun.",
+      "Tier 2 distractors share part of speech with the target and may include a clear antonym.",
+      "Tier 3 distractors are same-topic near misses such as family words, speech verbs, or classroom things that do not mean the same.",
+      "Keep stems in kid world: school, home, food, pets, play, family, weather. No brands. No real names; use <NAME>.",
+      "Quote exactly one target word in every stem. One right answer. Tap only."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsynonym\\b",
+    "\\bantonyms?\\b",
+    "\\bmeans the same\\b",
+    "\\bopposite\\b",
+    "\\bdefinition\\b",
+    "\\bcontext\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words with one quoted target. Use obvious antonyms or unrelated distractors. Add a lemma picture for a concrete noun.",
+    "2": "Grade-level stems of five to eight words. Two-syllable targets are fine. Distractors share part of speech with the quoted word.",
+    "3": "Near-miss distractors from the same topic as the target, such as family words or classroom things that do not mean the same."
+  },
+  "miss_explain": {
+    "size_same": {
+      "en": "The quoted word tells a size. Pick the other size word that means the same.",
+      "ko": "따옴표 안 낱말은 크기를 말합니다. 같은 뜻인 크기 낱말을 고르세요."
+    },
+    "feeling_same": {
+      "en": "The quoted word tells a feeling. Pick the feeling word that means the same.",
+      "ko": "따옴표 안 낱말은 느낌을 말합니다. 같은 뜻인 느낌 낱말을 고르세요."
+    },
+    "action_same": {
+      "en": "The quoted word is an action. Pick the action word that means the same.",
+      "ko": "따옴표 안 낱말은 동작입니다. 같은 뜻인 동작 낱말을 고르세요."
+    },
+    "speed_same": {
+      "en": "The quoted word tells a speed. Pick the other speed word that means the same.",
+      "ko": "따옴표 안 낱말은 빠르기를 말합니다. 같은 뜻인 빠르기 낱말을 고르세요."
+    },
+    "person_same": {
+      "en": "The quoted word names a person. Pick the other word that names the same person.",
+      "ko": "따옴표 안 낱말은 사람입니다. 같은 사람을 가리키는 낱말을 고르세요."
+    },
+    "thing_same": {
+      "en": "The quoted word names a thing. Pick the other thing word that means the same.",
+      "ko": "따옴표 안 낱말은 사물입니다. 같은 뜻인 사물 낱말을 고르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Find synonyms in context"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+  "family_title_en": "Choose the sensory details that match the picture",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+      "ix_title": "Choose the sensory details that match the picture",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which detail matches the picture?",
+        "ko": "그림에 맞는 감각 묘사를 고르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the detail that matches.",
+        "ko": "그림에 맞는 묘사를 누르세요."
+      },
+      "choice_rule": "Four short sensory-detail phrases about see, hear, smell, taste, or touch. Exactly one is a true detail about the pictured lemma. The other three name a different kid-world object or pair the pictured object with a sense or quality that cannot fit. Keep the same The [noun] [sense verb] [quality] shape when you can. One right answer. Use the roots wordlist plus allowed_extra_words only.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "detail",
+        "sense",
+        "sour",
+        "crunchy",
+        "smooth",
+        "sticky",
+        "salty",
+        "spicy",
+        "juicy",
+        "crispy",
+        "creamy",
+        "fuzzy",
+        "chilly",
+        "toasted",
+        "bumpy",
+        "stinky"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0001",
+          "tier": 1,
+          "stem": "Which detail matches?",
+          "choices": [
+            "The cake smells sweet",
+            "The dog barks",
+            "The ice feels cold",
+            "The frogs croak"
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_object",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0002",
+          "tier": 1,
+          "stem": "Tap the matching detail.",
+          "choices": [
+            "The ice feels cold",
+            "The dog barks",
+            "The soup tastes hot",
+            "The flower smells nice"
+          ],
+          "answer_index": 1,
+          "explain_key": "wrong_object",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0003",
+          "tier": 1,
+          "stem": "Which detail fits?",
+          "choices": [
+            "The rain feels wet",
+            "The cake tastes sweet",
+            "The cat purrs",
+            "The sun feels hot"
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_object",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0004",
+          "tier": 2,
+          "stem": "Which smell matches?",
+          "choices": [
+            "The cookies smell sweet",
+            "The fish smells strong",
+            "The bread smells fresh",
+            "The cookies feel soft"
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_sense",
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0005",
+          "tier": 2,
+          "stem": "Which touch matches?",
+          "choices": [
+            "The ice feels cold",
+            "The ice feels warm",
+            "The blanket feels soft",
+            "The sand feels hot"
+          ],
+          "answer_index": 0,
+          "explain_key": "opposite",
+          "media": [
+            {
+              "lemma": "ice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0006",
+          "tier": 2,
+          "stem": "<NAME> saw the picture.",
+          "choices": [
+            "The flower smells nice",
+            "The flower tastes salty",
+            "The drum is loud",
+            "The soup feels hot"
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_sense",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "flower"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0007",
+          "tier": 3,
+          "stem": "Which detail is correct?",
+          "choices": [
+            "The soup tastes hot",
+            "The juice tastes hot",
+            "The soup feels fluffy",
+            "The soup is loud"
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_object",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0008",
+          "tier": 3,
+          "stem": "<NAME> needs the right detail.",
+          "choices": [
+            "The drum is loud",
+            "The bell is loud",
+            "The drum smells sweet",
+            "The drum feels cold"
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_object",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "drum"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one choice is a true sensory detail about the pictured lemma. Never write two choices that both fit the picture.",
+      "Wrong choices must name a different kid-world object, or pair the pictured object with a sense or quality that cannot fit.",
+      "Never describe the picture in the stem. The lemma picture names the object. Stems stay short and generic.",
+      "Keep all four choices short sensory phrases, same grammar shape when possible.",
+      "For tier 3 use near-misses: same sense with the wrong object, or the same object with the opposite or impossible sense.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands and no real names.",
+      "One tap and one right answer. Do not reuse the same lemma and answer pair."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "picture shows",
+    "in the picture",
+    "you can see",
+    "this picture",
+    "\\bfive senses\\b",
+    "\\/[^/]+\\/"
+  ],
+  "tier_rules": {
+    "1": "Short generic stem of three to five words. Common picture. Correct choice names that object with an obvious sense. Distractors are other objects.",
+    "2": "Grade-level stems. Mix smell, taste, and touch. One distractor may use the same object with a poor sense, or another food.",
+    "3": "Near-miss distractors: same sense and wrong object, or same object and opposite quality. Two-syllable words are fine."
+  },
+  "miss_explain": {
+    "wrong_object": {
+      "en": "That detail is about something else. Match the thing in the picture.",
+      "ko": "그 묘사는 다른 것에 대한 말입니다. 그림 속 대상에 맞는 것을 고르세요."
+    },
+    "wrong_sense": {
+      "en": "That sense does not fit this picture. Pick a matching sense.",
+      "ko": "그 감각은 이 그림과 맞지 않습니다. 맞는 감각을 고르세요."
+    },
+    "opposite": {
+      "en": "That detail says the opposite. Choose the detail that is true.",
+      "ko": "그 묘사는 반대입니다. 그림에 맞는 묘사를 고르세요."
+    },
+    "fits_picture": {
+      "en": "Choose the detail that matches the picture.",
+      "ko": "그림에 맞는 묘사를 고르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Choose the sensory details that match the picture"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,2219 @@
+[
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0001",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am at home.",
+    "choices": [
+      "I'm",
+      "I've",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "im",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0002",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It is a big dog.",
+    "choices": [
+      "Isn't",
+      "It's",
+      "I'm",
+      "I've"
+    ],
+    "answer_index": 1,
+    "explain_key": "its",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0003",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She is my sister.",
+    "choices": [
+      "We're",
+      "He's",
+      "She's",
+      "I'm"
+    ],
+    "answer_index": 2,
+    "explain_key": "shes",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0004",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not run in class.",
+    "choices": [
+      "Doesn't",
+      "Don't",
+      "Didn't",
+      "Can't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0005",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The frog is not wet.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0006",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have a little puppy.",
+    "choices": [
+      "We're",
+      "We'll",
+      "I'd",
+      "We've"
+    ],
+    "answer_index": 3,
+    "explain_key": "weve",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0007",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They will not play outside.",
+    "choices": [
+      "Wouldn't",
+      "Weren't",
+      "Won't",
+      "Wasn't"
+    ],
+    "answer_index": 2,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0008",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> does not like cold rain.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0009",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am in class.",
+    "choices": [
+      "I'm",
+      "I've",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "im",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0010",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am very happy.",
+    "choices": [
+      "I'm",
+      "I've",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "im",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0011",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I have a red kite.",
+    "choices": [
+      "I've",
+      "I'm",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "ive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0012",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I will read books.",
+    "choices": [
+      "I'll",
+      "I'm",
+      "I've",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "ill",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0013",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It is my turn.",
+    "choices": [
+      "It's",
+      "I'm",
+      "I've",
+      "I'll"
+    ],
+    "answer_index": 0,
+    "explain_key": "its",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0014",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It is lunch time.",
+    "choices": [
+      "It's",
+      "Isn't",
+      "I'm",
+      "I've"
+    ],
+    "answer_index": 0,
+    "explain_key": "its",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0015",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It is a sunny day.",
+    "choices": [
+      "It's",
+      "Isn't",
+      "I'm",
+      "I've"
+    ],
+    "answer_index": 0,
+    "explain_key": "its",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0016",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She is at school.",
+    "choices": [
+      "She's",
+      "He's",
+      "I'm",
+      "We're"
+    ],
+    "answer_index": 0,
+    "explain_key": "shes",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0017",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She is my best friend.",
+    "choices": [
+      "She's",
+      "He's",
+      "I'm",
+      "They're"
+    ],
+    "answer_index": 0,
+    "explain_key": "shes",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0018",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He is on the team.",
+    "choices": [
+      "He's",
+      "She's",
+      "I'm",
+      "We're"
+    ],
+    "answer_index": 0,
+    "explain_key": "hes",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0019",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He is a kind boy.",
+    "choices": [
+      "He's",
+      "She's",
+      "I'm",
+      "I've"
+    ],
+    "answer_index": 0,
+    "explain_key": "hes",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0020",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "You are my good pal.",
+    "choices": [
+      "You're",
+      "You've",
+      "You'll",
+      "You'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "youre",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0021",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "You are very tall.",
+    "choices": [
+      "You're",
+      "You've",
+      "You'll",
+      "You'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "youre",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0022",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We are in line.",
+    "choices": [
+      "We're",
+      "We've",
+      "We'll",
+      "We'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "were",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0023",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We are good friends.",
+    "choices": [
+      "We're",
+      "We've",
+      "We'll",
+      "We'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "were",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0024",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They are at recess.",
+    "choices": [
+      "They're",
+      "They've",
+      "They'll",
+      "They'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "theyre",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0025",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They are my friends.",
+    "choices": [
+      "They're",
+      "They've",
+      "They'll",
+      "They'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "theyre",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0026",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "That is my desk.",
+    "choices": [
+      "That's",
+      "They're",
+      "We're",
+      "He's"
+    ],
+    "answer_index": 0,
+    "explain_key": "thats",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0027",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "That is a small cat.",
+    "choices": [
+      "That's",
+      "It's",
+      "She's",
+      "He's"
+    ],
+    "answer_index": 0,
+    "explain_key": "thats",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0028",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am on the bus.",
+    "choices": [
+      "I'm",
+      "I've",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "im",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0029",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I have two pets.",
+    "choices": [
+      "I've",
+      "I'm",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "ive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pet"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0030",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I will eat lunch.",
+    "choices": [
+      "I'll",
+      "I'm",
+      "I've",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "ill",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0031",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She is seven years old.",
+    "choices": [
+      "She's",
+      "He's",
+      "I'm",
+      "We're"
+    ],
+    "answer_index": 0,
+    "explain_key": "shes",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0032",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He is under the tree.",
+    "choices": [
+      "He's",
+      "She's",
+      "I'm",
+      "We're"
+    ],
+    "answer_index": 0,
+    "explain_key": "hes",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0033",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "You have a new hat.",
+    "choices": [
+      "You've",
+      "You're",
+      "You'll",
+      "You'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "youve",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0034",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We are by the gate.",
+    "choices": [
+      "We're",
+      "We've",
+      "We'll",
+      "We'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "were",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0035",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They have a big dog.",
+    "choices": [
+      "They've",
+      "They're",
+      "They'll",
+      "They'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "theyve",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0036",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not shout in hall.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0037",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not touch the stove.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stove"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0038",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not eat my snack.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Won't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0039",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat is not warm.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0040",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My soup is not hot.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0041",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bird is not here.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0042",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have fresh bread.",
+    "choices": [
+      "We've",
+      "We're",
+      "We'll",
+      "We'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "weve",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0043",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have math today.",
+    "choices": [
+      "We've",
+      "We're",
+      "We'll",
+      "We'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "weve",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0044",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They have a new ball.",
+    "choices": [
+      "They've",
+      "They're",
+      "They'll",
+      "They'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "theyve",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0045",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "You have my pencil.",
+    "choices": [
+      "You've",
+      "You're",
+      "You'll",
+      "You'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "youve",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0046",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I have your old book.",
+    "choices": [
+      "I've",
+      "I'm",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "ive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0047",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids are not ready.",
+    "choices": [
+      "Aren't",
+      "Isn't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0048",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My socks are not dry.",
+    "choices": [
+      "Aren't",
+      "Isn't",
+      "Wasn't",
+      "Don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0049",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We are not late today.",
+    "choices": [
+      "Aren't",
+      "Isn't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0050",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They are not inside now.",
+    "choices": [
+      "Aren't",
+      "Isn't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0051",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not jump on bed.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0052",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not leave your coat.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0053",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The fish is not dead.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0054",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "His cake is not done.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0055",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have art class.",
+    "choices": [
+      "We've",
+      "We're",
+      "We'll",
+      "We'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "weve",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0056",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I have a loose tooth.",
+    "choices": [
+      "I've",
+      "I'm",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "ive",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0057",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "You have mud on hands.",
+    "choices": [
+      "You've",
+      "You're",
+      "You'll",
+      "You'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "youve",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0058",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The eggs are not cold.",
+    "choices": [
+      "Aren't",
+      "Isn't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0059",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our toys are not lost.",
+    "choices": [
+      "Aren't",
+      "Isn't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0060",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not spill the milk.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0061",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not open the door.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Won't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0062",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bee is not calm.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bee"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0063",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "That pie is not sweet.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0064",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have gym on Friday.",
+    "choices": [
+      "We've",
+      "We're",
+      "We'll",
+      "We'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "weve",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0065",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They have a pet rabbit.",
+    "choices": [
+      "They've",
+      "They're",
+      "They'll",
+      "They'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "theyve",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0066",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I have finished my work.",
+    "choices": [
+      "I've",
+      "I'm",
+      "I'll",
+      "I'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "ive",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0067",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The books are not heavy.",
+    "choices": [
+      "Aren't",
+      "Isn't",
+      "Wasn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0068",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not chase that duck.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0069",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My room is not tidy.",
+    "choices": [
+      "Isn't",
+      "Aren't",
+      "Wasn't",
+      "Don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0070",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have seeds to plant.",
+    "choices": [
+      "We've",
+      "We're",
+      "We'll",
+      "We'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "weve",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0071",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "You have a kind heart.",
+    "choices": [
+      "You've",
+      "You're",
+      "You'll",
+      "You'd"
+    ],
+    "answer_index": 0,
+    "explain_key": "youve",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0072",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not chase the puppy.",
+    "choices": [
+      "Don't",
+      "Doesn't",
+      "Didn't",
+      "Shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0073",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I will not miss school.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0074",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We will not stay late.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0075",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They will not swim today.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0076",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will not eat peas.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pea"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0077",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> does not want nap.",
+    "choices": [
+      "Doesn't",
+      "Don't",
+      "Didn't",
+      "Isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0078",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The dog does not meow.",
+    "choices": [
+      "Doesn't",
+      "Don't",
+      "Didn't",
+      "Isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0079",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> does not like soup.",
+    "choices": [
+      "Doesn't",
+      "Don't",
+      "Didn't",
+      "Can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0080",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She did not finish lunch.",
+    "choices": [
+      "Didn't",
+      "Don't",
+      "Doesn't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0081",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We did not win the game.",
+    "choices": [
+      "Didn't",
+      "Don't",
+      "Doesn't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0082",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I did not see the owl.",
+    "choices": [
+      "Didn't",
+      "Don't",
+      "Doesn't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0083",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You will not get wet.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0084",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He will not ride alone.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0085",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> does not play rough.",
+    "choices": [
+      "Doesn't",
+      "Don't",
+      "Didn't",
+      "Shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0086",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "It will not snow tonight.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0087",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I cannot open this jar.",
+    "choices": [
+      "Can't",
+      "Couldn't",
+      "Don't",
+      "Won't"
+    ],
+    "answer_index": 0,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jar"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0088",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We could not find kitten.",
+    "choices": [
+      "Couldn't",
+      "Can't",
+      "Didn't",
+      "Wouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "couldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0089",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You should not run fast.",
+    "choices": [
+      "Shouldn't",
+      "Wouldn't",
+      "Couldn't",
+      "Don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "shouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0090",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They would not share toys.",
+    "choices": [
+      "Wouldn't",
+      "Won't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0091",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did not wash hands.",
+    "choices": [
+      "Didn't",
+      "Don't",
+      "Doesn't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0092",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bus was not early.",
+    "choices": [
+      "Wasn't",
+      "Isn't",
+      "Aren't",
+      "Weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0093",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We were not at home.",
+    "choices": [
+      "Weren't",
+      "Wasn't",
+      "Isn't",
+      "Aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "werent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0094",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will not wear boots.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0095",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mom does not like bugs.",
+    "choices": [
+      "Doesn't",
+      "Don't",
+      "Didn't",
+      "Isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0096",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I will not go outside.",
+    "choices": [
+      "Won't",
+      "Wouldn't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0097",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did not find mitten.",
+    "choices": [
+      "Didn't",
+      "Don't",
+      "Doesn't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0098",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We would not eat cake.",
+    "choices": [
+      "Wouldn't",
+      "Won't",
+      "Weren't",
+      "Wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0099",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They were not very loud.",
+    "choices": [
+      "Weren't",
+      "Wasn't",
+      "Aren't",
+      "Isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "werent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_in_a_sentence_0100",
+    "family_id": "fam_use_contractions_in_a_sentence",
+    "skill_id": "roots_use_contractions_in_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> does not like thunder.",
+    "choices": [
+      "Doesn't",
+      "Don't",
+      "Didn't",
+      "Can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

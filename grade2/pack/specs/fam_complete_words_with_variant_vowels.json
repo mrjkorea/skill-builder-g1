@@ -1,0 +1,308 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_words_with_variant_vowels",
+  "family_title_en": "Complete words with variant vowels",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_words_with_variant_vowels",
+      "ix_title": "Complete words with variant vowels",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which letters complete the word?",
+        "ko": "어떤 글자가 단어를 완성하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the letters that complete the word.",
+        "ko": "단어를 완성하는 글자를 누르세요."
+      },
+      "choice_rule": "Build four shuffled vowel teams. The stem is a kid clue that uses the word blank where the team drops into the leftover letters. Exactly one team spells a real word that fits the clue. Never put that finished word in the stem. Never offer two teams that both fit. Teams are letters only, from oo, ew, ue, ui, ou, ow, oi, oy, aw, au, al, all, and oe.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "au",
+        "aw",
+        "blank",
+        "boil",
+        "cause",
+        "claw",
+        "clue",
+        "fault",
+        "glue",
+        "hawk",
+        "jaw",
+        "joy",
+        "lawn",
+        "pause",
+        "paw",
+        "sauce",
+        "stew",
+        "straw",
+        "threw",
+        "true",
+        "ui",
+        "yawn"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_words_with_variant_vowels_0001",
+          "tier": 1,
+          "stem": "The night light is m blank n",
+          "choices": [
+            "oo",
+            "oi",
+            "oy",
+            "aw"
+          ],
+          "answer_index": 0,
+          "explain_key": "team_oo",
+          "media": [
+            {
+              "lemma": "moon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_words_with_variant_vowels_0002",
+          "tier": 1,
+          "stem": "The happy kid is a b blank",
+          "choices": [
+            "oo",
+            "oy",
+            "ew",
+            "ou"
+          ],
+          "answer_index": 1,
+          "explain_key": "team_oy",
+          "media": [
+            {
+              "lemma": "boy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_words_with_variant_vowels_0003",
+          "tier": 1,
+          "stem": "Please ch blank the food at lunch",
+          "choices": [
+            "oi",
+            "oy",
+            "ew",
+            "aw"
+          ],
+          "answer_index": 2,
+          "explain_key": "team_ew",
+          "media": [
+            {
+              "lemma": "chew"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_words_with_variant_vowels_0004",
+          "tier": 2,
+          "stem": "We live in a little h blank se",
+          "choices": [
+            "ow",
+            "oo",
+            "oi",
+            "ou"
+          ],
+          "answer_index": 3,
+          "explain_key": "team_ou",
+          "media": [
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_words_with_variant_vowels_0005",
+          "tier": 2,
+          "stem": "The gold c blank n is in my hand",
+          "choices": [
+            "oy",
+            "oi",
+            "oo",
+            "ou"
+          ],
+          "answer_index": 1,
+          "explain_key": "team_oi",
+          "media": [
+            {
+              "lemma": "coin"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_words_with_variant_vowels_0006",
+          "tier": 2,
+          "stem": "I s blank a red bird in the tree",
+          "choices": [
+            "oo",
+            "au",
+            "oi",
+            "aw"
+          ],
+          "answer_index": 3,
+          "explain_key": "team_aw",
+          "media": [
+            {
+              "lemma": "saw"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_words_with_variant_vowels_0007",
+          "tier": 3,
+          "stem": "The hot s blank p is good at lunch",
+          "choices": [
+            "ew",
+            "ue",
+            "oo",
+            "ou"
+          ],
+          "answer_index": 3,
+          "explain_key": "ou_as_oo",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_words_with_variant_vowels_0008",
+          "tier": 3,
+          "stem": "<NAME> says the sky is bl blank and clear",
+          "choices": [
+            "oo",
+            "ue",
+            "ew",
+            "ou"
+          ],
+          "answer_index": 1,
+          "explain_key": "team_ue",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "blue"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each item has exactly four vowel-team choices and exactly one correct team.",
+      "Put the word blank in the stem where the team is missing, beside the letters that stay.",
+      "The finished word must fit the clue and must not appear anywhere in the stem.",
+      "Tier 1 wrong teams come from a different vowel family. Tier 2 includes the partner spelling. Tier 3 uses other spellings of the same vowel.",
+      "A wrong team must not spell the clued word. If it spells a different real word, the clue must make that word impossible.",
+      "Choices are letter teams such as oo, ew, ue, ui, ou, ow, oi, oy, aw, au, al, all, or oe. Never use a sound symbol, a slash, or a held vowel.",
+      "Keep clues in kid life: school, home, food, pets, play, family, and weather. No brands and no real names. Use <NAME> when a child is needed.",
+      "Every stem word must come from the roots word list, allowed_extra_words, or the token <NAME>."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "\\bay\\b",
+    "\\bee\\b",
+    "\\bea\\b",
+    "\\boa\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "/[a-zəæɑɔɛɪʊʌ]+/",
+    "\\bpicture of\\b"
+  ],
+  "tier_rules": {
+    "1": "Use a short clue of about six to eight words and a common word such as moon, boy, or chew. Wrong teams come from a different vowel family, so the right team is easy to see.",
+    "2": "Use a grade 2 clue. The right team is one of a partner pair, such as ou not ow, oi not oy, or aw not au. Include that partner team as a wrong choice.",
+    "3": "Use a longer clue and only near-miss teams that spell the same vowel in other words, such as oo, ew, ue, and ou. The clue must rule out any other real word those letters would make."
+  },
+  "miss_explain": {
+    "team_oo": {
+      "en": "The letters oo fill this gap. The other teams spell a different word.",
+      "ko": "빈칸에는 글자 oo가 들어갑니다. 다른 조합은 다른 단어가 됩니다."
+    },
+    "team_oy": {
+      "en": "This word ends with oy. The other teams do not spell it.",
+      "ko": "이 단어는 oy로 끝납니다. 다른 조합은 이 단어를 만들지 않습니다."
+    },
+    "team_ew": {
+      "en": "This word uses ew. The other teams do not spell it.",
+      "ko": "이 단어는 ew를 씁니다. 다른 조합은 이 단어를 만들지 않습니다."
+    },
+    "team_ou": {
+      "en": "This word uses ou. Ow can spell the same vowel, but this word needs ou.",
+      "ko": "이 단어는 ou를 씁니다. ow도 같은 모음이지만 이 단어는 ou가 맞습니다."
+    },
+    "team_oi": {
+      "en": "This word uses oi in the middle. Oy is the team used at the end of a word.",
+      "ko": "이 단어의 가운데는 oi입니다. oy는 단어 끝에 쓰는 조합입니다."
+    },
+    "team_aw": {
+      "en": "This word uses aw. Au is a partner team, but this word needs aw.",
+      "ko": "이 단어는 aw를 씁니다. au도 짝이 되는 조합이지만 이 단어는 aw가 맞습니다."
+    },
+    "ou_as_oo": {
+      "en": "Here ou spells the vowel in moon and soup, not the vowel in cow.",
+      "ko": "여기서 ou는 cow가 아니라 moon과 soup의 모음을 적습니다."
+    },
+    "team_ue": {
+      "en": "This word uses ue. Ew, oo, and ou spell that vowel in other words.",
+      "ko": "이 단어는 ue를 씁니다. ew, oo, ou는 다른 단어에서 그 모음을 적습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete words with variant vowels"
+    ],
+    "no_ixl_text": true
+  }
+}

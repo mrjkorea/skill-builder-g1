@@ -1,0 +1,266 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_antonym",
+  "family_title_en": "Choose the antonym",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_antonym",
+      "ix_title": "Choose the antonym",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is the antonym?",
+        "ko": "반의어는 어느 단어인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that means the opposite.",
+        "ko": "반대 뜻인 단어를 누르세요."
+      },
+      "choice_rule": "Four unique whole words from the roots wordlist or allowed_extra_words. The stem cue is the only word, or the last content word after The opposite of or The antonym of. Exactly one choice is the antonym of that cue. Never two valid antonyms. Never mark a synonym as correct. Shuffle so the keyed answer is not always first.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "antonym",
+        "opposite",
+        "synonym",
+        "bad",
+        "empty",
+        "dirty"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_antonym_0001",
+          "tier": 1,
+          "stem": "hot",
+          "choices": [
+            "cold",
+            "dog",
+            "cake",
+            "rain"
+          ],
+          "answer_index": 0,
+          "explain_key": "opp_temp",
+          "media": [
+            {
+              "lemma": "hot"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_antonym_0002",
+          "tier": 1,
+          "stem": "big",
+          "choices": [
+            "cup",
+            "small",
+            "red",
+            "jump"
+          ],
+          "answer_index": 1,
+          "explain_key": "opp_size",
+          "media": [
+            {
+              "lemma": "big"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_antonym_0003",
+          "tier": 1,
+          "stem": "up",
+          "choices": [
+            "cat",
+            "milk",
+            "down",
+            "ball"
+          ],
+          "answer_index": 2,
+          "explain_key": "opp_place"
+        },
+        {
+          "item_id": "roots_choose_the_antonym_0004",
+          "tier": 2,
+          "stem": "before",
+          "choices": [
+            "after",
+            "early",
+            "again",
+            "first"
+          ],
+          "answer_index": 0,
+          "explain_key": "opp_time"
+        },
+        {
+          "item_id": "roots_choose_the_antonym_0005",
+          "tier": 2,
+          "stem": "inside",
+          "choices": [
+            "into",
+            "under",
+            "outside",
+            "around"
+          ],
+          "answer_index": 2,
+          "explain_key": "opp_in_out"
+        },
+        {
+          "item_id": "roots_choose_the_antonym_0006",
+          "tier": 2,
+          "stem": "The opposite of loud",
+          "choices": [
+            "noise",
+            "shout",
+            "quiet",
+            "song"
+          ],
+          "answer_index": 2,
+          "explain_key": "opp_sound"
+        },
+        {
+          "item_id": "roots_choose_the_antonym_0007",
+          "tier": 3,
+          "stem": "happy",
+          "choices": [
+            "glad",
+            "funny",
+            "kind",
+            "sad"
+          ],
+          "answer_index": 3,
+          "explain_key": "opp_feel",
+          "media": [
+            {
+              "lemma": "happy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_antonym_0008",
+          "tier": 3,
+          "stem": "The opposite of same",
+          "choices": [
+            "similar",
+            "both",
+            "each",
+            "different"
+          ],
+          "answer_index": 3,
+          "explain_key": "opp_same"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four unique whole words. Exactly one is the antonym of the stem cue.",
+      "Never use a synonym or near-synonym of the cue as the keyed answer.",
+      "Never put two valid antonyms in one choice set, such as left and wrong for right.",
+      "Tier 1 distractors are unrelated kid words from home, food, pets, or play.",
+      "Tier 2 uses one same-category cousin that is not the opposite, such as early for before or noise for loud.",
+      "Tier 3 must include a synonym or close cousin trap, such as glad for happy or similar for same.",
+      "Cue and answer must be a clear Grade 2 pair. Prefer two-syllable cues on some tier 2 and tier 3 items.",
+      "Keep stems to the cue word or a short The opposite of or The antonym of frame. Do not repeat the prompt in the stem.",
+      "If a stem uses <NAME>, the cue is still the last content word, not the name token.",
+      "Stay in kid world. No brands, no adult office words as cues, no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsynonym of\\b",
+    "\\bmeans the same as\\b",
+    "\\bnot an antonym\\b",
+    "\\bdefinition\\b",
+    "\\bthesaurus\\b"
+  ],
+  "tier_rules": {
+    "1": "Stem is one short cue word. The antonym is obvious. The other three choices are unrelated kid words. Add a lemma picture when the cue is concrete.",
+    "2": "Grade-level cues, including two-syllable words or a four-word The opposite of frame. One distractor shares the category but is not the opposite.",
+    "3": "Near-miss set: a synonym or close cousin sits with the true antonym. Use abstract pairs such as happy and sad or same and different."
+  },
+  "miss_explain": {
+    "opp_temp": {
+      "en": "Hot and cold are opposites. They do not mean the same.",
+      "ko": "hot과 cold는 반대말이에요. 같은 뜻이 아니에요."
+    },
+    "opp_size": {
+      "en": "Big and small are opposites. Pick the other size word.",
+      "ko": "big과 small은 반대말이에요. 반대 크기를 뜻하는 단어를 고르세요."
+    },
+    "opp_place": {
+      "en": "Up and down are opposites. They tell different places.",
+      "ko": "up과 down은 반대말이에요. 다른 위치를 말해요."
+    },
+    "opp_in_out": {
+      "en": "Inside and outside are opposites. They tell different places.",
+      "ko": "inside와 outside는 반대말이에요. 다른 장소를 말해요."
+    },
+    "opp_feel": {
+      "en": "Happy and sad are opposites. A same-feeling word is not the antonym.",
+      "ko": "happy와 sad는 반대말이에요. 비슷한 감정 단어는 반의어가 아니에요."
+    },
+    "opp_time": {
+      "en": "Before and after are opposites. They tell different times.",
+      "ko": "before와 after는 반대말이에요. 다른 때를 말해요."
+    },
+    "opp_sound": {
+      "en": "Loud and quiet are opposites. A noisy word is not the antonym.",
+      "ko": "loud와 quiet는 반대말이에요. 시끄럽다는 뜻의 말은 반의어가 아니에요."
+    },
+    "opp_same": {
+      "en": "Same and different are opposites. A synonym is not an antonym.",
+      "ko": "same과 different는 반대말이에요. 비슷한 말은 반의어가 아니에요."
+    },
+    "pick_antonym": {
+      "en": "An antonym means the opposite. Do not pick a word that means the same.",
+      "ko": "반의어는 반대 뜻이에요. 같은 뜻인 단어를 고르지 마세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Choose the antonym"
+    ],
+    "no_ixl_text": true
+  }
+}

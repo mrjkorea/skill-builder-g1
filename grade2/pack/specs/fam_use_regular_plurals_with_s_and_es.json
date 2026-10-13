@@ -1,0 +1,325 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_regular_plurals_with_s_and_es",
+  "family_title_en": "Use regular plurals with -s and -es",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_regular_plurals_with_s_and_es",
+      "ix_title": "Use regular plurals with -s and -es",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word belongs?",
+        "ko": "어떤 말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right plural.",
+        "ko": "알맞은 복수형을 누르세요."
+      },
+      "choice_rule": "Four single lowercase words. Exactly one is the correct regular plural with -s or -es. The other three are the singular, a wrong -s/-es swap, and one near-miss spelling. Never two valid plurals. Never -ies changes or irregular plurals.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "apples",
+        "bags",
+        "balloons",
+        "beaches",
+        "benches",
+        "birds",
+        "bowls",
+        "boxes",
+        "brushes",
+        "buses",
+        "bushes",
+        "cakes",
+        "catches",
+        "cats",
+        "chairs",
+        "classes",
+        "clocks",
+        "coats",
+        "cups",
+        "desks",
+        "dishes",
+        "dogs",
+        "dolls",
+        "dresses",
+        "drums",
+        "ducks",
+        "eggs",
+        "flags",
+        "flowers",
+        "foxes",
+        "gifts",
+        "glasses",
+        "hats",
+        "kites",
+        "kittens",
+        "lamps",
+        "lunches",
+        "nests",
+        "parks",
+        "pencils",
+        "pigs",
+        "plants",
+        "pools",
+        "rabbits",
+        "rocks",
+        "socks",
+        "stars",
+        "teachers",
+        "tents",
+        "trees",
+        "trucks",
+        "vans",
+        "walls",
+        "watches",
+        "wishes",
+        "yards"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_regular_plurals_with_s_and_es_0001",
+          "tier": 1,
+          "stem": "More than one cat.",
+          "choices": [
+            "cats",
+            "cat",
+            "cates",
+            "caties"
+          ],
+          "answer_index": 0,
+          "explain_key": "add_s",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_regular_plurals_with_s_and_es_0002",
+          "tier": 1,
+          "stem": "I see two of these.",
+          "choices": [
+            "book",
+            "books",
+            "bookes",
+            "bookies"
+          ],
+          "answer_index": 1,
+          "explain_key": "add_s",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_regular_plurals_with_s_and_es_0003",
+          "tier": 1,
+          "stem": "More than one box.",
+          "choices": [
+            "boxes",
+            "boxs",
+            "box",
+            "boxses"
+          ],
+          "answer_index": 0,
+          "explain_key": "add_es",
+          "media": [
+            {
+              "lemma": "box"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_regular_plurals_with_s_and_es_0004",
+          "tier": 2,
+          "stem": "<NAME> packed two of these.",
+          "choices": [
+            "lunchs",
+            "lunch",
+            "lunches",
+            "lunchies"
+          ],
+          "answer_index": 2,
+          "explain_key": "add_es",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_regular_plurals_with_s_and_es_0005",
+          "tier": 2,
+          "stem": "Please wash two of these.",
+          "choices": [
+            "dishs",
+            "dishes",
+            "dish",
+            "dishies"
+          ],
+          "answer_index": 1,
+          "explain_key": "add_es",
+          "media": [
+            {
+              "lemma": "dish"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_regular_plurals_with_s_and_es_0006",
+          "tier": 2,
+          "stem": "My sister has two of these.",
+          "choices": [
+            "friends",
+            "friendes",
+            "friend",
+            "friendies"
+          ],
+          "answer_index": 0,
+          "explain_key": "add_s",
+          "media": [
+            {
+              "lemma": "friend"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_regular_plurals_with_s_and_es_0007",
+          "tier": 3,
+          "stem": "My family needs two of these.",
+          "choices": [
+            "window",
+            "windowes",
+            "windos",
+            "windows"
+          ],
+          "answer_index": 3,
+          "explain_key": "add_s",
+          "media": [
+            {
+              "lemma": "window"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_regular_plurals_with_s_and_es_0008",
+          "tier": 3,
+          "stem": "<NAME> cleaned two of these.",
+          "choices": [
+            "glass",
+            "glasss",
+            "glases",
+            "glasses"
+          ],
+          "answer_index": 3,
+          "explain_key": "add_es",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "glass"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep about half of answers as regular -s plurals and half as regular -es plurals.",
+      "Never make the answer an irregular plural, an -ies change, or an f/fe change. Never target baby, city, family, puppy, party, story, leaf, wolf, fish, sheep, child, man, woman, person, foot, or tooth.",
+      "Never put the correct plural in the stem. Name the singular, or write a short kid sentence with two of these.",
+      "Do not describe a picture in the stem. Add media with the singular lemma only.",
+      "Choices are whole lowercase words only. No letters, no IPA, no possessives with 's.",
+      "Tier 1 distractors are the singular plus two silly wrong endings. Tier 2 swaps -s and -es. Tier 3 uses near-miss spellings, especially on words that already end in s, x, ch, or sh.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands. Use <NAME> for any person."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bplural of\\b",
+    "\\bsingular\\b",
+    "\\bsuffix\\b",
+    "\\birregular\\b",
+    "'s",
+    "\\bmice\\b",
+    "\\bgeese\\b",
+    "\\bsheep\\b",
+    "\\bchildren\\b",
+    "\\bfishes\\b",
+    "\\bbabies\\b",
+    "\\bcities\\b",
+    "\\bfamilies\\b",
+    "\\bpuppies\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of three to five words. Picture lemma of the noun. The right plural sits beside the singular and two obviously wrong endings.",
+    "2": "Stems of four to seven words. Mix -s and -es targets, including two-syllable nouns. Distractors swap the ending or keep the singular.",
+    "3": "Near-miss spellings on longer stems. Prefer words that already end in s, x, ch, or sh, and two-syllable home or school nouns."
+  },
+  "miss_explain": {
+    "add_s": {
+      "en": "Most words add -s to mean more than one. One cat, two cats.",
+      "ko": "대부분의 말은 둘 이상일 때 -s를 붙입니다. cat 하나, cats 둘."
+    },
+    "add_es": {
+      "en": "Words that end in s, x, ch, or sh add -es. One box, two boxes.",
+      "ko": "s, x, ch, sh로 끝나는 말은 -es를 붙입니다. box 하나, boxes 둘."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use regular plurals with -s and -es"
+    ],
+    "no_ixl_text": true
+  }
+}

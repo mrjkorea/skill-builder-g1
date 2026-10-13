@@ -1,0 +1,283 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_rewrite_sentences_using_introductory_element",
+  "family_title_en": "Rewrite with introductory elements",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_rewrite_sentences_using_introductory_element",
+      "ix_title": "Rewrite sentences using introductory elements",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which rewrite starts with the intro?",
+        "ko": "어떤 고친 문장이 앞말로 시작하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that moved the first part.",
+        "ko": "앞부분을 앞으로 옮긴 문장을 누르세요."
+      },
+      "choice_rule": "Write four unique full-sentence rewrites of the stem. Exactly one moves the whole introductory time or place part to the front, keeps a comma after that part, and keeps the same meaning and tense. The other three must be clearly wrong: jumbled order, only part of the phrase moved, the wrong phrase moved, or a meaning flip. Use only the roots wordlist plus allowed_extra_words. Keep every choice a whole-word kid sentence. Never use teaching words.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "tomorrow",
+        "rains",
+        "rained",
+        "snows",
+        "snowed",
+        "finally",
+        "suddenly",
+        "lastly",
+        "meanwhile",
+        "upstairs",
+        "downstairs",
+        "outdoors",
+        "indoors"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_rewrite_sentences_using_introductory_element_0001",
+          "tier": 1,
+          "stem": "We play ball after lunch.",
+          "choices": [
+            "After lunch, we play ball.",
+            "We after play ball lunch.",
+            "Lunch we play after ball.",
+            "Play after we lunch ball."
+          ],
+          "answer_index": 0,
+          "explain_key": "intro_first",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_rewrite_sentences_using_introductory_element_0002",
+          "tier": 1,
+          "stem": "I read a book before bed.",
+          "choices": [
+            "I before read a book bed.",
+            "Before bed, I read a book.",
+            "Bed I read before a book.",
+            "Read a book I before bed."
+          ],
+          "answer_index": 1,
+          "explain_key": "intro_first",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_rewrite_sentences_using_introductory_element_0003",
+          "tier": 1,
+          "stem": "The kids run in the park.",
+          "choices": [
+            "The in park kids run.",
+            "Kids the run park in.",
+            "In the park, the kids run.",
+            "Run the kids in park."
+          ],
+          "answer_index": 2,
+          "explain_key": "intro_first",
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_rewrite_sentences_using_introductory_element_0004",
+          "tier": 2,
+          "stem": "<NAME> rode a bike after school.",
+          "choices": [
+            "After school, <NAME> rode a bike.",
+            "<NAME> after rode a bike school.",
+            "After <NAME> rode, a bike school.",
+            "School after, <NAME> rode a bike."
+          ],
+          "answer_index": 0,
+          "explain_key": "intro_first",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_rewrite_sentences_using_introductory_element_0005",
+          "tier": 2,
+          "stem": "We watch the moon at night.",
+          "choices": [
+            "We at watch the moon night.",
+            "Night we watch at the moon.",
+            "At we night, watch the moon.",
+            "At night, we watch the moon."
+          ],
+          "answer_index": 3,
+          "explain_key": "intro_first",
+          "media": [
+            {
+              "lemma": "moon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_rewrite_sentences_using_introductory_element_0006",
+          "tier": 2,
+          "stem": "She cleaned her desk before dinner.",
+          "choices": [
+            "She before cleaned her desk dinner.",
+            "Before dinner, she cleaned her desk.",
+            "Dinner she cleaned before her desk.",
+            "Before she dinner, cleaned her desk."
+          ],
+          "answer_index": 1,
+          "explain_key": "intro_first",
+          "media": [
+            {
+              "lemma": "desk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_rewrite_sentences_using_introductory_element_0007",
+          "tier": 3,
+          "stem": "The puppy hid under the table.",
+          "choices": [
+            "Under the table, the puppy hid.",
+            "The table, the puppy hid under.",
+            "Under the puppy, hid the table.",
+            "The puppy, hid under the table."
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_phrase",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_rewrite_sentences_using_introductory_element_0008",
+          "tier": 3,
+          "stem": "We put on boots when it is cold.",
+          "choices": [
+            "When we put on boots, it is cold.",
+            "Inside, we put on boots when cold.",
+            "When it is cold, we put on boots.",
+            "When it, we put on boots is cold."
+          ],
+          "answer_index": 2,
+          "explain_key": "meaning_change",
+          "media": [
+            {
+              "lemma": "boot"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four unique rewrites. Exactly one moves the whole intro time or place part to the front, adds a comma, and keeps the same meaning.",
+      "Never change the actor, tense, or what happened. Wrong choices may jumble words, move only part of the phrase, move the wrong phrase, or flip the meaning.",
+      "Do not put the original stem in the choices. Do not make two choices differ only by a comma.",
+      "Keep stems and choices in the kid world: school, home, food, pets, play, family, weather. No brands and no real names.",
+      "Never use teaching words such as sentence, comma, introductory, rewrite, phrase, or clause in the stem or choices.",
+      "Tier 3 distractors must be near misses: a moved wrong phrase or a when or while clause that flips the meaning."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bsentences\\b",
+    "\\bquestion mark\\b",
+    "\\bpunctuation\\b",
+    "\\bintroductory\\b",
+    "\\brewrite\\b",
+    "\\belement\\b",
+    "\\belements\\b",
+    "\\bcomma\\b",
+    "\\bclause\\b",
+    "\\bphrase\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Use a clear after, before, or in phrase at the end. Wrong choices are obvious word jumbles.",
+    "2": "Stems of six to eight words. Mix time and place phrases and irregular past. One distractor parks the intro in the middle or splits it.",
+    "3": "Near misses with under, when, while, or during. Distractors move the wrong phrase or flip the meaning of a when or while clause."
+  },
+  "miss_explain": {
+    "intro_first": {
+      "en": "Move the time or place part to the front. Then write the rest.",
+      "ko": "시간이나 장소 말을 앞으로 옮긴 뒤 나머지를 쓰세요."
+    },
+    "wrong_phrase": {
+      "en": "Move the time or place part, not the other words.",
+      "ko": "다른 말이 아니라 시간이나 장소 말을 앞으로 옮기세요."
+    },
+    "meaning_change": {
+      "en": "Keep the same meaning. Only move the intro part to the front.",
+      "ko": "뜻은 그대로 두고 앞말만 문장 앞으로 옮기세요."
+    },
+    "jumble": {
+      "en": "Keep the same words. Just move the first part to the start.",
+      "ko": "같은 단어를 쓰고 앞부분만 맨 앞으로 옮기세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Rewrite sentences using introductory elements"
+    ],
+    "no_ixl_text": true
+  }
+}

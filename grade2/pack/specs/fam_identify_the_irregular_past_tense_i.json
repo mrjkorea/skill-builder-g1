@@ -1,0 +1,294 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_the_irregular_past_tense_i",
+  "family_title_en": "Identify the irregular past tense I",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_the_irregular_past_tense_i",
+      "ix_title": "Identify the irregular past tense I",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Find the irregular past word.",
+        "ko": "불규칙 과거형 단어를 찾으세요."
+      },
+      "what_to_do": {
+        "en": "Tap the irregular past word.",
+        "ko": "불규칙 과거형 단어를 누르세요."
+      },
+      "choice_rule": "Four whole-word choices. Exactly one choice is the irregular past tense verb named in the stem. The other three are present forms, regular -ed past verbs, lookalike words, or other stem words. Never two irregular past forms. Never IPA, letter sounds, or invented audio files.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "swam",
+        "caught",
+        "bought",
+        "brought",
+        "slept",
+        "taught",
+        "knew",
+        "threw",
+        "swept",
+        "fed",
+        "held",
+        "met",
+        "paid",
+        "sold",
+        "spent",
+        "eats",
+        "runs",
+        "sees",
+        "gives",
+        "takes",
+        "comes",
+        "makes"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_i_0001",
+          "tier": 1,
+          "stem": "The dog ran to the park.",
+          "choices": [
+            "ran",
+            "run",
+            "dog",
+            "park"
+          ],
+          "answer_index": 0,
+          "explain_key": "present_form",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_i_0002",
+          "tier": 1,
+          "stem": "My cat ate the fish.",
+          "choices": [
+            "eat",
+            "ate",
+            "cat",
+            "fish"
+          ],
+          "answer_index": 1,
+          "explain_key": "present_form",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_i_0003",
+          "tier": 1,
+          "stem": "<NAME> saw a big bird.",
+          "choices": [
+            "saw",
+            "see",
+            "bird",
+            "big"
+          ],
+          "answer_index": 0,
+          "explain_key": "present_form",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_i_0004",
+          "tier": 2,
+          "stem": "The kids went home after school today.",
+          "choices": [
+            "home",
+            "called",
+            "went",
+            "go"
+          ],
+          "answer_index": 2,
+          "explain_key": "regular_ed",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_i_0005",
+          "tier": 2,
+          "stem": "Dad took the little puppy outside today.",
+          "choices": [
+            "took",
+            "take",
+            "packed",
+            "puppy"
+          ],
+          "answer_index": 0,
+          "explain_key": "regular_ed",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_i_0006",
+          "tier": 2,
+          "stem": "She gave her sister a cookie after lunch.",
+          "choices": [
+            "sister",
+            "gave",
+            "give",
+            "baked"
+          ],
+          "answer_index": 1,
+          "explain_key": "regular_ed",
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_i_0007",
+          "tier": 3,
+          "stem": "<NAME> said the lunch is ready at home.",
+          "choices": [
+            "said",
+            "sad",
+            "say",
+            "says"
+          ],
+          "answer_index": 0,
+          "explain_key": "lookalike",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_i_0008",
+          "tier": 3,
+          "stem": "Our team won the big game at school.",
+          "choices": [
+            "one",
+            "win",
+            "won",
+            "own"
+          ],
+          "answer_index": 2,
+          "explain_key": "lookalike",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one choice is an irregular past tense verb. Never put two irregular past forms in the same set.",
+      "Tier 1 distractors are the present form plus easy stem nouns.",
+      "Tier 2 distractors mix the present form with a regular -ed past from the word list.",
+      "Tier 3 distractors are near-miss lookalikes such as said/sad, won/one, or blew/blue.",
+      "Choices are whole words only. No IPA, no letter names as sounds, no held clips.",
+      "Stems are kid sentences about school, home, food, pets, play, family, or weather.",
+      "Use <NAME> for any person. Never use a real name.",
+      "Keep one clear irregular past in the stem. Do not add a second irregular past such as was, had, or did unless that word is the target."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\birregular\\b",
+    "\\btense\\b",
+    "\\bverb\\b",
+    "\\bsentence\\b",
+    "\\bpunctuation\\b",
+    "\\bwhich of the following\\b",
+    "\\bchoose the\\b",
+    "\\bselect the\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. The irregular past is a high-frequency change such as ran, ate, or saw. Distractors are the present form and easy nouns from the stem. Add a picture lemma for a concrete noun.",
+    "2": "Stems of six to eight words with a two-syllable kid word. Distractors mix the present form and a regular -ed past. Still one irregular past in the stem.",
+    "3": "Stems of seven to ten words. Near-miss choices that look or sound close but are not irregular past, such as said/sad or won/one. No second irregular past in the choices."
+  },
+  "miss_explain": {
+    "irregular_past": {
+      "en": "The irregular past changes the word. It does not add -ed.",
+      "ko": "불규칙 과거형은 단어 모양이 바뀝니다. ed를 붙이지 않습니다."
+    },
+    "present_form": {
+      "en": "That word is for now. Tap the past form that changes.",
+      "ko": "그 단어는 지금을 나타냅니다. 모양이 바뀐 과거형을 누르세요."
+    },
+    "regular_ed": {
+      "en": "That past word adds -ed. Tap the past word that changes.",
+      "ko": "그 과거형은 ed가 붙습니다. 모양이 바뀌는 과거형을 누르세요."
+    },
+    "lookalike": {
+      "en": "That word looks close, but it is not the past verb.",
+      "ko": "그 단어는 비슷해 보이지만 과거 동사가 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify the irregular past tense I"
+    ],
+    "no_ixl_text": true
+  }
+}

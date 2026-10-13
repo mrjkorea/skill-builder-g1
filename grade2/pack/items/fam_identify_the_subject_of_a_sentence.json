@@ -1,0 +1,2402 @@
+[
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0001",
+    "tier": 1,
+    "stem": "The cat sat down.",
+    "choices": [
+      "cat",
+      "sat",
+      "down",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0002",
+    "tier": 1,
+    "stem": "My dog ran home.",
+    "choices": [
+      "ran",
+      "home",
+      "dog",
+      "My"
+    ],
+    "answer_index": 2,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0003",
+    "tier": 1,
+    "stem": "A frog can jump.",
+    "choices": [
+      "can",
+      "jump",
+      "A",
+      "frog"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0004",
+    "tier": 2,
+    "stem": "The little puppy drank milk.",
+    "choices": [
+      "little",
+      "puppy",
+      "drank",
+      "milk"
+    ],
+    "answer_index": 1,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0005",
+    "tier": 2,
+    "stem": "My sister went to school.",
+    "choices": [
+      "school",
+      "went",
+      "sister",
+      "My"
+    ],
+    "answer_index": 2,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0006",
+    "tier": 2,
+    "stem": "They baked cookies today.",
+    "choices": [
+      "cookies",
+      "today",
+      "baked",
+      "They"
+    ],
+    "answer_index": 3,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "cookies"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0007",
+    "tier": 3,
+    "stem": "<NAME> gave the dog a bone.",
+    "choices": [
+      "dog",
+      "bone",
+      "<NAME>",
+      "gave"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0008",
+    "tier": 3,
+    "stem": "The bird in the nest sang.",
+    "choices": [
+      "nest",
+      "sang",
+      "in",
+      "bird"
+    ],
+    "answer_index": 3,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0009",
+    "tier": 1,
+    "stem": "The pig ate corn.",
+    "choices": [
+      "pig",
+      "ate",
+      "corn",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0010",
+    "tier": 1,
+    "stem": "A duck swam fast.",
+    "choices": [
+      "swam",
+      "duck",
+      "fast",
+      "A"
+    ],
+    "answer_index": 1,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0011",
+    "tier": 1,
+    "stem": "The sun is warm.",
+    "choices": [
+      "is",
+      "warm",
+      "sun",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0012",
+    "tier": 1,
+    "stem": "My mom makes soup.",
+    "choices": [
+      "makes",
+      "soup",
+      "My",
+      "mom"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0013",
+    "tier": 1,
+    "stem": "The boy had fun.",
+    "choices": [
+      "boy",
+      "had",
+      "fun",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0014",
+    "tier": 1,
+    "stem": "A bee sings loud.",
+    "choices": [
+      "sings",
+      "bee",
+      "loud",
+      "A"
+    ],
+    "answer_index": 1,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "bee"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0015",
+    "tier": 1,
+    "stem": "The fox ran away.",
+    "choices": [
+      "ran",
+      "away",
+      "fox",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0016",
+    "tier": 1,
+    "stem": "A fish can swim.",
+    "choices": [
+      "can",
+      "swim",
+      "A",
+      "fish"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0017",
+    "tier": 1,
+    "stem": "The cow eats grass.",
+    "choices": [
+      "cow",
+      "eats",
+      "grass",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0018",
+    "tier": 1,
+    "stem": "Dad made lunch today.",
+    "choices": [
+      "made",
+      "lunch",
+      "Dad",
+      "today"
+    ],
+    "answer_index": 2,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0019",
+    "tier": 1,
+    "stem": "The ant hid fast.",
+    "choices": [
+      "hid",
+      "ant",
+      "fast",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0020",
+    "tier": 1,
+    "stem": "A rat ran fast.",
+    "choices": [
+      "ran",
+      "fast",
+      "A",
+      "rat"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0021",
+    "tier": 1,
+    "stem": "The owl sings now.",
+    "choices": [
+      "owl",
+      "sings",
+      "now",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0022",
+    "tier": 1,
+    "stem": "The kite flew high.",
+    "choices": [
+      "flew",
+      "kite",
+      "high",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0023",
+    "tier": 1,
+    "stem": "My cat sleeps now.",
+    "choices": [
+      "sleeps",
+      "now",
+      "cat",
+      "My"
+    ],
+    "answer_index": 2,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0024",
+    "tier": 1,
+    "stem": "A hen laid eggs.",
+    "choices": [
+      "laid",
+      "eggs",
+      "A",
+      "hen"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0025",
+    "tier": 1,
+    "stem": "The bus came late.",
+    "choices": [
+      "bus",
+      "came",
+      "late",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0026",
+    "tier": 1,
+    "stem": "Grandma makes bread today.",
+    "choices": [
+      "makes",
+      "bread",
+      "Grandma",
+      "today"
+    ],
+    "answer_index": 2,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "grandma"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0027",
+    "tier": 1,
+    "stem": "The kid plays ball.",
+    "choices": [
+      "plays",
+      "kid",
+      "ball",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0028",
+    "tier": 1,
+    "stem": "A bug moves slow.",
+    "choices": [
+      "moves",
+      "slow",
+      "A",
+      "bug"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0029",
+    "tier": 1,
+    "stem": "The rain fell hard.",
+    "choices": [
+      "rain",
+      "fell",
+      "hard",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0030",
+    "tier": 1,
+    "stem": "My dad reads books.",
+    "choices": [
+      "reads",
+      "dad",
+      "books",
+      "My"
+    ],
+    "answer_index": 1,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0031",
+    "tier": 1,
+    "stem": "The hen eats corn.",
+    "choices": [
+      "eats",
+      "corn",
+      "hen",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0032",
+    "tier": 1,
+    "stem": "A cub sleeps now.",
+    "choices": [
+      "sleeps",
+      "now",
+      "A",
+      "cub"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "cub"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0033",
+    "tier": 1,
+    "stem": "The moon looks bright.",
+    "choices": [
+      "moon",
+      "looks",
+      "bright",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0034",
+    "tier": 1,
+    "stem": "Grandpa feeds the duck today.",
+    "choices": [
+      "feeds",
+      "Grandpa",
+      "duck",
+      "today"
+    ],
+    "answer_index": 1,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "grandpa"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0035",
+    "tier": 1,
+    "stem": "The toy moves far.",
+    "choices": [
+      "moves",
+      "far",
+      "toy",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0036",
+    "tier": 2,
+    "stem": "The big horse runs.",
+    "choices": [
+      "runs",
+      "horse",
+      "big",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0037",
+    "tier": 2,
+    "stem": "She likes her book.",
+    "choices": [
+      "likes",
+      "book",
+      "She",
+      "her"
+    ],
+    "answer_index": 2,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0038",
+    "tier": 2,
+    "stem": "We play at park.",
+    "choices": [
+      "play",
+      "park",
+      "at",
+      "We"
+    ],
+    "answer_index": 3,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0039",
+    "tier": 2,
+    "stem": "He gave the duck corn.",
+    "choices": [
+      "He",
+      "gave",
+      "duck",
+      "corn"
+    ],
+    "answer_index": 0,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0040",
+    "tier": 2,
+    "stem": "The red ball rolled.",
+    "choices": [
+      "rolled",
+      "red",
+      "ball",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0041",
+    "tier": 2,
+    "stem": "I see a bug.",
+    "choices": [
+      "see",
+      "I",
+      "bug",
+      "a"
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0042",
+    "tier": 2,
+    "stem": "They found a nest.",
+    "choices": [
+      "found",
+      "nest",
+      "a",
+      "They"
+    ],
+    "answer_index": 3,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "nest"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0043",
+    "tier": 2,
+    "stem": "The soft pillow fell.",
+    "choices": [
+      "pillow",
+      "fell",
+      "soft",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0044",
+    "tier": 2,
+    "stem": "My brother eats beans.",
+    "choices": [
+      "eats",
+      "brother",
+      "beans",
+      "My"
+    ],
+    "answer_index": 1,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "brother"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0045",
+    "tier": 2,
+    "stem": "The big tree grew.",
+    "choices": [
+      "grew",
+      "big",
+      "tree",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0046",
+    "tier": 2,
+    "stem": "She sings a song.",
+    "choices": [
+      "sings",
+      "song",
+      "a",
+      "She"
+    ],
+    "answer_index": 3,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0047",
+    "tier": 2,
+    "stem": "We ate sweet cake.",
+    "choices": [
+      "We",
+      "ate",
+      "cake",
+      "sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0048",
+    "tier": 2,
+    "stem": "He walks to school.",
+    "choices": [
+      "walks",
+      "school",
+      "He",
+      "to"
+    ],
+    "answer_index": 2,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0049",
+    "tier": 2,
+    "stem": "The small mouse hid.",
+    "choices": [
+      "hid",
+      "mouse",
+      "small",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0050",
+    "tier": 2,
+    "stem": "My aunt made pie.",
+    "choices": [
+      "made",
+      "pie",
+      "My",
+      "aunt"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0051",
+    "tier": 2,
+    "stem": "They jump on bed.",
+    "choices": [
+      "They",
+      "jump",
+      "bed",
+      "on"
+    ],
+    "answer_index": 0,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0052",
+    "tier": 2,
+    "stem": "The old barn stood.",
+    "choices": [
+      "stood",
+      "barn",
+      "old",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0053",
+    "tier": 2,
+    "stem": "I like warm soup.",
+    "choices": [
+      "like",
+      "soup",
+      "I",
+      "warm"
+    ],
+    "answer_index": 2,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0054",
+    "tier": 2,
+    "stem": "She reads a book.",
+    "choices": [
+      "reads",
+      "book",
+      "a",
+      "She"
+    ],
+    "answer_index": 3,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0055",
+    "tier": 2,
+    "stem": "We went to zoo.",
+    "choices": [
+      "We",
+      "went",
+      "zoo",
+      "to"
+    ],
+    "answer_index": 0,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "zoo"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0056",
+    "tier": 2,
+    "stem": "The happy child smiled.",
+    "choices": [
+      "smiled",
+      "child",
+      "happy",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "child"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0057",
+    "tier": 2,
+    "stem": "He picks one apple.",
+    "choices": [
+      "picks",
+      "apple",
+      "He",
+      "one"
+    ],
+    "answer_index": 2,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0058",
+    "tier": 2,
+    "stem": "My teacher smiled today.",
+    "choices": [
+      "smiled",
+      "today",
+      "My",
+      "teacher"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0059",
+    "tier": 2,
+    "stem": "They wash the dish.",
+    "choices": [
+      "They",
+      "wash",
+      "dish",
+      "the"
+    ],
+    "answer_index": 0,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0060",
+    "tier": 2,
+    "stem": "The big bear sleeps.",
+    "choices": [
+      "sleeps",
+      "big",
+      "bear",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0061",
+    "tier": 2,
+    "stem": "I drink cold juice.",
+    "choices": [
+      "drink",
+      "I",
+      "juice",
+      "cold"
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0062",
+    "tier": 2,
+    "stem": "She likes her mom.",
+    "choices": [
+      "likes",
+      "mom",
+      "her",
+      "She"
+    ],
+    "answer_index": 3,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0063",
+    "tier": 2,
+    "stem": "We build a fort.",
+    "choices": [
+      "We",
+      "build",
+      "fort",
+      "a"
+    ],
+    "answer_index": 0,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0064",
+    "tier": 2,
+    "stem": "The tiny ant hid.",
+    "choices": [
+      "hid",
+      "ant",
+      "tiny",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0065",
+    "tier": 2,
+    "stem": "He kicks the ball.",
+    "choices": [
+      "kicks",
+      "ball",
+      "He",
+      "the"
+    ],
+    "answer_index": 2,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0066",
+    "tier": 2,
+    "stem": "My friend came today.",
+    "choices": [
+      "came",
+      "today",
+      "My",
+      "friend"
+    ],
+    "answer_index": 3,
+    "explain_key": "simple_noun",
+    "media": [
+      {
+        "lemma": "friend"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0067",
+    "tier": 2,
+    "stem": "The wet dog ran.",
+    "choices": [
+      "dog",
+      "ran",
+      "wet",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0068",
+    "tier": 2,
+    "stem": "I pack my lunch.",
+    "choices": [
+      "pack",
+      "lunch",
+      "I",
+      "my"
+    ],
+    "answer_index": 2,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0069",
+    "tier": 2,
+    "stem": "She feeds the hen.",
+    "choices": [
+      "feeds",
+      "She",
+      "hen",
+      "the"
+    ],
+    "answer_index": 1,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0070",
+    "tier": 2,
+    "stem": "We see a movie.",
+    "choices": [
+      "see",
+      "movie",
+      "a",
+      "We"
+    ],
+    "answer_index": 3,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "movie"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0071",
+    "tier": 2,
+    "stem": "The loud bell rang.",
+    "choices": [
+      "bell",
+      "rang",
+      "loud",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "adjective_not_subject",
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0072",
+    "tier": 2,
+    "stem": "He cleaned his room.",
+    "choices": [
+      "cleaned",
+      "room",
+      "He",
+      "his"
+    ],
+    "answer_index": 2,
+    "explain_key": "pronoun_subject",
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0073",
+    "tier": 3,
+    "stem": "The frog on the log jumps.",
+    "choices": [
+      "log",
+      "jumps",
+      "on",
+      "frog"
+    ],
+    "answer_index": 3,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0074",
+    "tier": 3,
+    "stem": "<NAME> threw the ball.",
+    "choices": [
+      "<NAME>",
+      "threw",
+      "ball",
+      "the"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0075",
+    "tier": 3,
+    "stem": "The rabbit ate the bean.",
+    "choices": [
+      "bean",
+      "rabbit",
+      "ate",
+      "the"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0076",
+    "tier": 3,
+    "stem": "The dog at home barked.",
+    "choices": [
+      "home",
+      "barked",
+      "at",
+      "dog"
+    ],
+    "answer_index": 3,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0077",
+    "tier": 3,
+    "stem": "The bird ate the bug.",
+    "choices": [
+      "bird",
+      "bug",
+      "ate",
+      "the"
+    ],
+    "answer_index": 0,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0078",
+    "tier": 3,
+    "stem": "<NAME> feeds the cat.",
+    "choices": [
+      "feeds",
+      "cat",
+      "<NAME>",
+      "the"
+    ],
+    "answer_index": 2,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0079",
+    "tier": 3,
+    "stem": "The cat by the door purrs.",
+    "choices": [
+      "door",
+      "cat",
+      "purrs",
+      "by"
+    ],
+    "answer_index": 1,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0080",
+    "tier": 3,
+    "stem": "The girl gave the pup a bone.",
+    "choices": [
+      "girl",
+      "pup",
+      "bone",
+      "gave"
+    ],
+    "answer_index": 0,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0081",
+    "tier": 3,
+    "stem": "<NAME> reads a long book.",
+    "choices": [
+      "reads",
+      "book",
+      "long",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0082",
+    "tier": 3,
+    "stem": "The hen in the barn sang.",
+    "choices": [
+      "barn",
+      "sang",
+      "hen",
+      "in"
+    ],
+    "answer_index": 2,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0083",
+    "tier": 3,
+    "stem": "The boy kicks the ball.",
+    "choices": [
+      "ball",
+      "boy",
+      "kicks",
+      "the"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0084",
+    "tier": 3,
+    "stem": "<NAME> walks to school.",
+    "choices": [
+      "<NAME>",
+      "walks",
+      "school",
+      "to"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0085",
+    "tier": 3,
+    "stem": "The fish in the pond hide.",
+    "choices": [
+      "pond",
+      "hide",
+      "fish",
+      "in"
+    ],
+    "answer_index": 2,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0086",
+    "tier": 3,
+    "stem": "The mom gave the kid a toy.",
+    "choices": [
+      "kid",
+      "toy",
+      "gave",
+      "mom"
+    ],
+    "answer_index": 3,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0087",
+    "tier": 3,
+    "stem": "<NAME> baked warm cookies.",
+    "choices": [
+      "baked",
+      "<NAME>",
+      "cookies",
+      "warm"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "cookies"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0088",
+    "tier": 3,
+    "stem": "The owl on the bench sang.",
+    "choices": [
+      "owl",
+      "bench",
+      "sang",
+      "on"
+    ],
+    "answer_index": 0,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0089",
+    "tier": 3,
+    "stem": "The duck found a bug.",
+    "choices": [
+      "bug",
+      "found",
+      "duck",
+      "a"
+    ],
+    "answer_index": 2,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0090",
+    "tier": 3,
+    "stem": "<NAME> plants a red flower.",
+    "choices": [
+      "plants",
+      "<NAME>",
+      "flower",
+      "red"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0091",
+    "tier": 3,
+    "stem": "The bee near the hive buzz.",
+    "choices": [
+      "hive",
+      "buzz",
+      "near",
+      "bee"
+    ],
+    "answer_index": 3,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "bee"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0092",
+    "tier": 3,
+    "stem": "The horse ate the grass.",
+    "choices": [
+      "horse",
+      "grass",
+      "ate",
+      "the"
+    ],
+    "answer_index": 0,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0093",
+    "tier": 3,
+    "stem": "<NAME> rode a blue bike.",
+    "choices": [
+      "rode",
+      "<NAME>",
+      "bike",
+      "blue"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0094",
+    "tier": 3,
+    "stem": "The mouse under the bed hid.",
+    "choices": [
+      "bed",
+      "hid",
+      "mouse",
+      "under"
+    ],
+    "answer_index": 2,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0095",
+    "tier": 3,
+    "stem": "The fox runs after hen.",
+    "choices": [
+      "hen",
+      "runs",
+      "after",
+      "fox"
+    ],
+    "answer_index": 3,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0096",
+    "tier": 3,
+    "stem": "<NAME> draws a big star.",
+    "choices": [
+      "<NAME>",
+      "draws",
+      "star",
+      "big"
+    ],
+    "answer_index": 0,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0097",
+    "tier": 3,
+    "stem": "The pup with a pin wags.",
+    "choices": [
+      "pin",
+      "wags",
+      "pup",
+      "with"
+    ],
+    "answer_index": 2,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0098",
+    "tier": 3,
+    "stem": "The kid shared the toy.",
+    "choices": [
+      "toy",
+      "kid",
+      "shared",
+      "the"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_not_subject",
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0099",
+    "tier": 3,
+    "stem": "<NAME> pours the water.",
+    "choices": [
+      "pours",
+      "water",
+      "the",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "name_subject",
+    "media": [
+      {
+        "lemma": "water"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_subject_of_a_sentence_0100",
+    "tier": 3,
+    "stem": "The ant on the leaf moved.",
+    "choices": [
+      "ant",
+      "leaf",
+      "moved",
+      "on"
+    ],
+    "answer_index": 0,
+    "explain_key": "location_not_subject",
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ],
+    "family_id": "fam_identify_the_subject_of_a_sentence",
+    "skill_id": "roots_identify_the_subject_of_a_sentence",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

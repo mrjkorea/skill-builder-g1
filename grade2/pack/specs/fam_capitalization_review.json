@@ -1,0 +1,275 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_capitalization_review",
+  "family_title_en": "Capitalization review",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_capitalization_review",
+      "ix_title": "Capitalization: review",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which one is correct?",
+        "ko": "어느 것이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the line with the right capitals.",
+        "ko": "대문자가 바른 줄을 누르세요."
+      },
+      "choice_rule": "Write four short kid lines that use the same words. Exactly one line uses every needed capital: first word, I, a name via <NAME>, a day, a month, or a place. The other three miss a needed capital or add a capital to a common noun. Never write two acceptable lines. Keep every stem word on the roots list, allowed_extra_words, or <NAME>.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "plays",
+        "lives",
+        "rainy",
+        "cloudy"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_capitalization_review_0001",
+          "tier": 1,
+          "stem": "the puppy sat down.",
+          "choices": [
+            "The puppy sat down.",
+            "the puppy sat down.",
+            "The Puppy sat down.",
+            "the Puppy sat down."
+          ],
+          "answer_index": 0,
+          "explain_key": "first_word",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalization_review_0002",
+          "tier": 1,
+          "stem": "i want my milk.",
+          "choices": [
+            "i want my milk.",
+            "I want my milk.",
+            "I want My milk.",
+            "i Want my milk."
+          ],
+          "answer_index": 1,
+          "explain_key": "pronoun_i",
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalization_review_0003",
+          "tier": 1,
+          "stem": "<NAME> has a kite.",
+          "choices": [
+            "<NAME> has a kite.",
+            "<NAME> has A kite.",
+            "<NAME> Has a kite.",
+            "<NAME> Has A kite."
+          ],
+          "answer_index": 0,
+          "explain_key": "name_word",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "kite"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalization_review_0004",
+          "tier": 2,
+          "stem": "we swim on saturday.",
+          "choices": [
+            "We swim on saturday.",
+            "we swim on Saturday.",
+            "We swim on Saturday.",
+            "We Swim on saturday."
+          ],
+          "answer_index": 2,
+          "explain_key": "day_name",
+          "media": [
+            {
+              "lemma": "swim"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalization_review_0005",
+          "tier": 2,
+          "stem": "we live in texas.",
+          "choices": [
+            "We live in Texas.",
+            "We live in texas.",
+            "we live in Texas.",
+            "We Live in texas."
+          ],
+          "answer_index": 0,
+          "explain_key": "place_name"
+        },
+        {
+          "item_id": "roots_capitalization_review_0006",
+          "tier": 2,
+          "stem": "i sat with <NAME>.",
+          "choices": [
+            "i sat with <NAME>.",
+            "I sat with <NAME>.",
+            "I Sat with <NAME>.",
+            "I sat With <NAME>."
+          ],
+          "answer_index": 1,
+          "explain_key": "pronoun_i",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_capitalization_review_0007",
+          "tier": 3,
+          "stem": "my family ate lunch on monday.",
+          "choices": [
+            "My Family ate lunch on Monday.",
+            "My family ate lunch on monday.",
+            "my family Ate lunch on Monday.",
+            "My family ate lunch on Monday."
+          ],
+          "answer_index": 3,
+          "explain_key": "day_name",
+          "media": [
+            {
+              "lemma": "family"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalization_review_0008",
+          "tier": 3,
+          "stem": "i plant beans in april.",
+          "choices": [
+            "I plant beans in april.",
+            "i plant beans in April.",
+            "I plant beans in April.",
+            "I Plant Beans in april."
+          ],
+          "answer_index": 2,
+          "explain_key": "month_name",
+          "media": [
+            {
+              "lemma": "bean"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep four choices and exactly one fully correct line.",
+      "Wrong lines either drop a needed capital or add a capital to a common noun.",
+      "Never treat mom, dad, grandma, grandpa, school, park, or teacher as names.",
+      "Days, months, place names, I, first words, and <NAME> need capitals in the correct line.",
+      "Do not write a second line that a teacher could also mark right.",
+      "Use <NAME> for every person name. Never use a real name.",
+      "Keep stems in the kid world: school, home, food, pets, play, family, weather."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bcapitalize\\b",
+    "\\bcapital letter\\b",
+    "\\bpunctuation\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bmr\\b",
+    "\\bmrs\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. One clear miss: first word or I. Distractors add a loud extra capital on a noun.",
+    "2": "Grade-level stems. Test a day, a month, a place, or I with <NAME>. Distractors miss that proper noun or add one extra capital.",
+    "3": "Two rules at once, such as I plus a month or first word plus a day. Near-miss extra capitals on two-syllable common nouns."
+  },
+  "miss_explain": {
+    "first_word": {
+      "en": "The first word of a line needs a capital letter.",
+      "ko": "줄의 첫 단어는 대문자로 씁니다."
+    },
+    "pronoun_i": {
+      "en": "The word I is always written with a capital letter.",
+      "ko": "I는 항상 대문자로 씁니다."
+    },
+    "name_word": {
+      "en": "A person's name needs a capital. Other words do not.",
+      "ko": "사람 이름은 대문자로 씁니다. 다른 말은 대문자가 필요 없습니다."
+    },
+    "day_name": {
+      "en": "A day name like Monday needs a capital letter.",
+      "ko": "Monday 같은 요일은 대문자로 씁니다."
+    },
+    "month_name": {
+      "en": "A month name like April needs a capital letter.",
+      "ko": "April 같은 달은 대문자로 씁니다."
+    },
+    "place_name": {
+      "en": "A place name needs a capital letter.",
+      "ko": "장소 이름은 대문자로 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Capitalization: review"
+    ],
+    "no_ixl_text": true
+  }
+}

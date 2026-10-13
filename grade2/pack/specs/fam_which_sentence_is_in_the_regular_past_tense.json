@@ -1,0 +1,307 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_which_sentence_is_in_the_regular_past_tense",
+  "family_title_en": "Regular past tense",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_which_sentence_is_in_the_regular_past_tense",
+      "ix_title": "Which sentence is in the regular past tense?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence is regular past?",
+        "ko": "어떤 문장이 규칙 과거시제인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the regular past sentence.",
+        "ko": "규칙 과거시제 문장을 누르세요."
+      },
+      "choice_rule": "Write four short kid sentences about one home, school, food, pet, play, family, or weather idea. Exactly one sentence uses a simple regular past verb that ends with -ed. The other three are present, will-future, irregular past, or was/were. In tier 3 only, one wrong choice may use is/are plus an -ed word as a description, not an action. Never put a regular -ed action in a wrong choice. One correct tap.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "regular",
+        "sentence",
+        "walked",
+        "jumped",
+        "played",
+        "kicked",
+        "helped",
+        "looked",
+        "wanted",
+        "cooked",
+        "asked",
+        "opened",
+        "started",
+        "stopped",
+        "washed",
+        "painted",
+        "hopped",
+        "climbed",
+        "picked",
+        "liked",
+        "lived",
+        "needed",
+        "rained",
+        "snowed",
+        "walks",
+        "plays",
+        "jumps",
+        "bakes",
+        "cleans",
+        "tomorrow",
+        "bark"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_which_sentence_is_in_the_regular_past_tense_0001",
+          "tier": 1,
+          "stem": "Which one is regular past?",
+          "choices": [
+            "Mom baked a cake.",
+            "Mom will bake a cake.",
+            "Mom can bake a cake.",
+            "The cake is very sweet."
+          ],
+          "answer_index": 0,
+          "explain_key": "regular_ed",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_is_in_the_regular_past_tense_0002",
+          "tier": 1,
+          "stem": "Which one is regular past?",
+          "choices": [
+            "We clean the kitchen.",
+            "We cleaned the kitchen.",
+            "We will clean later.",
+            "The kitchen is clean."
+          ],
+          "answer_index": 1,
+          "explain_key": "present_now",
+          "media": [
+            {
+              "lemma": "kitchen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_is_in_the_regular_past_tense_0003",
+          "tier": 1,
+          "stem": "Which one is regular past?",
+          "choices": [
+            "She packs my lunch.",
+            "She will pack lunch.",
+            "She packed my lunch.",
+            "My lunch is ready."
+          ],
+          "answer_index": 2,
+          "explain_key": "future_will",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_is_in_the_regular_past_tense_0004",
+          "tier": 2,
+          "stem": "Which one is regular past?",
+          "choices": [
+            "The kids clapped for her.",
+            "The kids sang for her.",
+            "The kids will clap soon.",
+            "The kids clap at school."
+          ],
+          "answer_index": 0,
+          "explain_key": "irregular_past",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_is_in_the_regular_past_tense_0005",
+          "tier": 2,
+          "stem": "Which one is regular past?",
+          "choices": [
+            "<NAME> saw the teacher.",
+            "<NAME> smiled at the teacher.",
+            "<NAME> will smile later.",
+            "<NAME> can smile now."
+          ],
+          "answer_index": 1,
+          "explain_key": "irregular_past",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "teacher"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_is_in_the_regular_past_tense_0006",
+          "tier": 2,
+          "stem": "Which one is regular past?",
+          "choices": [
+            "They drank the milk.",
+            "They spill the milk.",
+            "They will drink milk.",
+            "They spilled the milk."
+          ],
+          "answer_index": 3,
+          "explain_key": "irregular_past",
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_is_in_the_regular_past_tense_0007",
+          "tier": 3,
+          "stem": "Which one is regular past?",
+          "choices": [
+            "The book is finished.",
+            "Dad was in the room.",
+            "Dad finished the book.",
+            "Dad took the book."
+          ],
+          "answer_index": 2,
+          "explain_key": "adjective_ed",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_is_in_the_regular_past_tense_0008",
+          "tier": 3,
+          "stem": "Which one is regular past?",
+          "choices": [
+            "The puppy hugged the boy.",
+            "The puppy was happy.",
+            "The puppy bit the boy.",
+            "The puppy has a bone."
+          ],
+          "answer_index": 0,
+          "explain_key": "was_were",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly four kid sentences. Exactly one simple regular past action with -ed. One right tap.",
+      "Wrong choices must be present, will-future, irregular past, or was/were. Same topic in all four.",
+      "Never put a regular -ed action in a wrong choice. Never write two readable right answers.",
+      "Tier 1 uses clear -ed versus present and will-future only. Keep sentences short.",
+      "Tier 2 adds one irregular past distractor such as sang, saw, drank, took, or went.",
+      "Tier 3 uses near misses: was/were and is/are plus an -ed describing word, not an action.",
+      "Use only the roots word list, allowed_extra_words, and <NAME>. Kid world only. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\btense\\b",
+    "\\bverb\\b",
+    "\\bsuffix\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\/[^/]+\\/"
+  ],
+  "tier_rules": {
+    "1": "Short four to six word sentences. The right sentence has a clear -ed action. Wrong sentences are present or will-future only. Add a picture lemma when a noun is easy to show.",
+    "2": "Grade 2 sentences with two-syllable words. Include one irregular past distractor plus present or future. Keep all four sentences on the same kid topic.",
+    "3": "Near misses. Mix was/were and is/are plus an -ed describing word with irregular past that already names a finished action."
+  },
+  "miss_explain": {
+    "regular_ed": {
+      "en": "Regular past tense adds -ed. Baked, cleaned, and packed are regular past.",
+      "ko": "규칙 과거시제는 동사에 -ed를 붙입니다. baked, cleaned, packed가 규칙 과거입니다."
+    },
+    "irregular_past": {
+      "en": "Some past verbs change, like sang or saw. They are past, but not regular -ed.",
+      "ko": "어떤 과거 동사는 형태가 바뀝니다. sang, saw처럼 -ed가 없는 불규칙 과거입니다."
+    },
+    "present_now": {
+      "en": "That sentence is happening now. Regular past names a finished action with -ed.",
+      "ko": "그 문장은 지금 일어나는 일입니다. 규칙 과거는 -ed로 끝난 일을 나타냅니다."
+    },
+    "future_will": {
+      "en": "Will plus a verb is future. Regular past already happened and ends with -ed.",
+      "ko": "will과 동사는 미래입니다. 규칙 과거는 이미 일어난 일이며 -ed로 끝납니다."
+    },
+    "was_were": {
+      "en": "Was and were are past, but they do not add -ed. They are not regular past.",
+      "ko": "was와 were는 과거이지만 -ed를 붙이지 않습니다. 규칙 과거가 아닙니다."
+    },
+    "adjective_ed": {
+      "en": "Is plus an -ed word can describe something. That is not a regular past action.",
+      "ko": "is 다음 -ed 단어는 상태를 말하기도 합니다. 규칙 과거 동작이 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Which sentence is in the regular past tense?"
+    ],
+    "no_ixl_text": true
+  }
+}

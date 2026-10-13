@@ -1,0 +1,2453 @@
+[
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0001",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail matches?",
+    "choices": [
+      "The cake smells sweet",
+      "The dog barks",
+      "The ice feels cold",
+      "The frogs croak"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0002",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the matching detail.",
+    "choices": [
+      "The ice feels cold",
+      "The dog barks",
+      "The soup tastes hot",
+      "The flower smells nice"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0003",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail fits?",
+    "choices": [
+      "The rain feels wet",
+      "The cake tastes sweet",
+      "The cat purrs",
+      "The sun feels hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0004",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The cookies smell sweet",
+      "The fish smells strong",
+      "The bread smells fresh",
+      "The cookies feel soft"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0005",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The ice feels cold",
+      "The ice feels warm",
+      "The blanket feels soft",
+      "The sand feels hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0006",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> saw the picture.",
+    "choices": [
+      "The flower smells nice",
+      "The flower tastes salty",
+      "The drum is loud",
+      "The soup feels hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0007",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The soup tastes hot",
+      "The juice tastes hot",
+      "The soup feels fluffy",
+      "The soup is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0008",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The drum is loud",
+      "The bell is loud",
+      "The drum smells sweet",
+      "The drum feels cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drum"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0009",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail matches?",
+    "choices": [
+      "The apple tastes sweet",
+      "The bus is loud",
+      "The cat purrs",
+      "The bell is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0010",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the matching detail.",
+    "choices": [
+      "The bread smells fresh",
+      "The dog barks",
+      "The sun feels hot",
+      "The frog croaks"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0011",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail fits?",
+    "choices": [
+      "The cat purrs",
+      "The cake smells sweet",
+      "The rain feels wet",
+      "The drum is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0012",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the right detail.",
+    "choices": [
+      "The milk tastes cold",
+      "The bird sings",
+      "The sand feels hot",
+      "The bee buzzes"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0013",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail matches?",
+    "choices": [
+      "The sun feels hot",
+      "The soup tastes hot",
+      "The owl is loud",
+      "The sock smells nice"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0014",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the matching detail.",
+    "choices": [
+      "The bird sings",
+      "The fish swims",
+      "The ice feels cold",
+      "The bread smells fresh"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0015",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail fits?",
+    "choices": [
+      "The frog croaks",
+      "The flower smells nice",
+      "The pillow feels soft",
+      "The juice tastes sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0016",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the right detail.",
+    "choices": [
+      "The truck is loud",
+      "The cat purrs",
+      "The snow feels cold",
+      "The honey tastes sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0017",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail matches?",
+    "choices": [
+      "The snow feels cold",
+      "The dog barks",
+      "The toast smells nice",
+      "The wind is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0018",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the matching detail.",
+    "choices": [
+      "The puppy barks",
+      "The apple tastes sweet",
+      "The blanket feels soft",
+      "The rain feels wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0019",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail fits?",
+    "choices": [
+      "The juice tastes sweet",
+      "The drum is loud",
+      "The bee buzzes",
+      "The soup tastes hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0020",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the right detail.",
+    "choices": [
+      "The bee buzzes",
+      "The milk tastes cold",
+      "The kite flies high",
+      "The cheese smells strong"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bee"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0021",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail matches?",
+    "choices": [
+      "The pillow feels soft",
+      "The frog croaks",
+      "The corn tastes sweet",
+      "The truck is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0022",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the matching detail.",
+    "choices": [
+      "The owl is loud",
+      "The sun feels hot",
+      "The sock feels fuzzy",
+      "The cake smells sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0023",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail fits?",
+    "choices": [
+      "The wind is loud",
+      "The cat purrs",
+      "The grape tastes juicy",
+      "The sand feels hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0024",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the right detail.",
+    "choices": [
+      "The fish smells strong",
+      "The bird sings",
+      "The ice feels cold",
+      "The horse is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0025",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail matches?",
+    "choices": [
+      "The horse is loud",
+      "The bread smells fresh",
+      "The rain feels wet",
+      "The lamp is bright"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0026",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the matching detail.",
+    "choices": [
+      "The banana tastes sweet",
+      "The drum is loud",
+      "The mouse squeaks",
+      "The soup tastes hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "banana"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0027",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail fits?",
+    "choices": [
+      "The mouse squeaks",
+      "The flower smells nice",
+      "The rock feels hard",
+      "The juice tastes sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0028",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the right detail.",
+    "choices": [
+      "The corn tastes sweet",
+      "The dog barks",
+      "The thunder is loud",
+      "The blanket feels soft"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0029",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail matches?",
+    "choices": [
+      "The thunder is loud",
+      "The cat purrs",
+      "The juice tastes sour",
+      "The kite flies high"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thunder"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0030",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the matching detail.",
+    "choices": [
+      "The sock feels fuzzy",
+      "The bell is loud",
+      "The pig is loud",
+      "The sun feels hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0031",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail fits?",
+    "choices": [
+      "The pig is loud",
+      "The milk tastes cold",
+      "The cloud looks gray",
+      "The bee buzzes"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0032",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the right detail.",
+    "choices": [
+      "The kite flies high",
+      "The frog croaks",
+      "The butter feels smooth",
+      "The owl is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0033",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail matches?",
+    "choices": [
+      "The cheese smells strong",
+      "The wind is loud",
+      "The duck swims",
+      "The snow feels cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cheese"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0034",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the matching detail.",
+    "choices": [
+      "The duck swims",
+      "The apple tastes sweet",
+      "The rug feels soft",
+      "The fish smells strong"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0035",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which detail fits?",
+    "choices": [
+      "The toast smells nice",
+      "The horse is loud",
+      "The rain feels wet",
+      "The drum is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0036",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The bread smells toasty",
+      "The bread tastes salty",
+      "The soup smells fresh",
+      "The bread feels bumpy"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0037",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The blanket feels soft",
+      "The blanket feels hard",
+      "The pillow feels soft",
+      "The blanket smells sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0038",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which taste matches?",
+    "choices": [
+      "The pear tastes sweet",
+      "The pear tastes salty",
+      "The grape tastes sweet",
+      "The pear smells nice"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0039",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> saw the picture.",
+    "choices": [
+      "The sand feels hot",
+      "The sand tastes sweet",
+      "The beach is fun",
+      "The sand smells fresh"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0040",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The rose smells nice",
+      "The rose feels soft",
+      "The flower smells nice",
+      "The rose tastes sour"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rose"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0041",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The snow feels chilly",
+      "The snow feels warm",
+      "The ice feels cold",
+      "The snow tastes sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0042",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which sound matches?",
+    "choices": [
+      "The horn is loud",
+      "The horn smells sweet",
+      "The bell is loud",
+      "The horn feels cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0043",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which taste matches?",
+    "choices": [
+      "The soup tastes salty",
+      "The soup tastes cold",
+      "The tea tastes hot",
+      "The soup smells fresh"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0044",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> picks a detail.",
+    "choices": [
+      "The cookie smells sweet",
+      "The cookie feels crunchy",
+      "The cake smells sweet",
+      "The cookie tastes salty"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0045",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The pillow feels fuzzy",
+      "The pillow feels bumpy",
+      "The bed feels soft",
+      "The pillow smells nice"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0046",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which taste matches?",
+    "choices": [
+      "The toast tastes crispy",
+      "The toast tastes sweet",
+      "The bread smells nice",
+      "The toast feels hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0047",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The milk smells fresh",
+      "The milk tastes hot",
+      "The juice tastes cold",
+      "The milk feels cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0048",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The rock feels hard",
+      "The rock feels soft",
+      "The brick feels hard",
+      "The rock tastes salty"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0049",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> saw the picture.",
+    "choices": [
+      "The drops feel wet",
+      "The drops feel dry",
+      "The snow feels wet",
+      "The drops smell sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drops"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0050",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The meat smells strong",
+      "The meat tastes salty",
+      "The soup smells strong",
+      "The meat feels sticky"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "meat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0051",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The wool feels fuzzy",
+      "The wool feels smooth",
+      "The sock feels fuzzy",
+      "The wool smells strong"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wool"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0052",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which taste matches?",
+    "choices": [
+      "The grape tastes juicy",
+      "The grape tastes salty",
+      "The apple tastes juicy",
+      "The grape feels smooth"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0053",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which sound matches?",
+    "choices": [
+      "The radio is loud",
+      "The radio smells sweet",
+      "The drum is loud",
+      "The radio feels cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "radio"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0054",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> needs one detail.",
+    "choices": [
+      "The butter feels smooth",
+      "The butter tastes spicy",
+      "The cream feels smooth",
+      "The butter smells strong"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "butter"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0055",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The honey smells sweet",
+      "The jam smells sweet",
+      "The honey tastes sweet",
+      "The honey feels sticky"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "honey"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0056",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The mud feels sticky",
+      "The mud feels smooth",
+      "The sand feels sticky",
+      "The mud tastes salty"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0057",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which taste matches?",
+    "choices": [
+      "The juice tastes sour",
+      "The juice tastes salty",
+      "The milk tastes sour",
+      "The juice smells sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0058",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> saw the picture.",
+    "choices": [
+      "The candles smell nice",
+      "The candles taste sweet",
+      "The lamp smells nice",
+      "The candles feel cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "candles"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0059",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The grass feels soft",
+      "The grass feels bumpy",
+      "The leaf feels soft",
+      "The grass smells fresh"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grass"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0060",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The soup smells fresh",
+      "The soup tastes hot",
+      "The bread smells fresh",
+      "The soup feels hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0061",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which sound matches?",
+    "choices": [
+      "The cat meows",
+      "The cat barks",
+      "The dog purrs",
+      "The cat smells nice"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0062",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which taste matches?",
+    "choices": [
+      "The cheese tastes salty",
+      "The cheese tastes sweet",
+      "The bread tastes salty",
+      "The cheese smells strong"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cheese"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0063",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> picks a detail.",
+    "choices": [
+      "The ice feels chilly",
+      "The ice feels warm",
+      "The snow feels cold",
+      "The ice tastes sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0064",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The sand feels warm",
+      "The sand feels cold",
+      "The rock feels hot",
+      "The sand tastes salty"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0065",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The corn smells nice",
+      "The corn tastes sweet",
+      "The bread smells nice",
+      "The corn feels bumpy"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0066",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which taste matches?",
+    "choices": [
+      "The egg tastes salty",
+      "The egg tastes sweet",
+      "The bean tastes salty",
+      "The egg smells strong"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0067",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The rug feels soft",
+      "The rug feels bumpy",
+      "The mat feels soft",
+      "The rug smells strong"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0068",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> saw the picture.",
+    "choices": [
+      "The beach feels hot",
+      "The beach feels cold",
+      "The sand feels hot",
+      "The beach smells strong"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0069",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which smell matches?",
+    "choices": [
+      "The barn smells strong",
+      "The barn tastes sweet",
+      "The shed smells strong",
+      "The barn feels bumpy"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0070",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which touch matches?",
+    "choices": [
+      "The mitten feels soft",
+      "The mitten feels rough",
+      "The sock feels soft",
+      "The mitten smells nice"
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0071",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which taste matches?",
+    "choices": [
+      "The pea tastes sweet",
+      "The pea tastes sour",
+      "The bean tastes sweet",
+      "The pea feels smooth"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pea"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0072",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which sound matches?",
+    "choices": [
+      "The train is loud",
+      "The train smells strong",
+      "The wind is loud",
+      "The train feels wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_sense",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0073",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The stove feels hot",
+      "The oven feels hot",
+      "The stove feels cold",
+      "The stove is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stove"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0074",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The fan is loud",
+      "The wind is loud",
+      "The fan smells sweet",
+      "The fan feels cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fan"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0075",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The pond feels wet",
+      "The lake feels wet",
+      "The pond feels dry",
+      "The pond is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pond"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0076",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The orange tastes juicy",
+      "The grape tastes juicy",
+      "The orange tastes salty",
+      "The orange is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "orange"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0077",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The phone is loud",
+      "The bell is loud",
+      "The phone smells sweet",
+      "The phone feels cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "phone"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0078",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The pie tastes sweet",
+      "The cake tastes sweet",
+      "The pie feels fluffy",
+      "The pie is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0079",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The bench feels hard",
+      "The chair feels hard",
+      "The bench feels soft",
+      "The bench smells sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0080",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The skunk smells stinky",
+      "The shed smells stinky",
+      "The skunk tastes sweet",
+      "The skunk is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "skunk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0081",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The clock is loud",
+      "The watch is loud",
+      "The clock smells nice",
+      "The clock feels hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0082",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The crayon feels smooth",
+      "The pencil feels smooth",
+      "The crayon tastes salty",
+      "The crayon is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0083",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The butter tastes creamy",
+      "The milk tastes creamy",
+      "The butter tastes sour",
+      "The butter is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "butter"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0084",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The rainbow looks bright",
+      "The sun looks bright",
+      "The rainbow tastes sweet",
+      "The rainbow is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rainbow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0085",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The bubbles feel smooth",
+      "The soap feels smooth",
+      "The bubbles taste sweet",
+      "The bubbles are loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bubbles"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0086",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The garden smells fresh",
+      "The yard smells fresh",
+      "The garden tastes sour",
+      "The garden is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0087",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The fire feels hot",
+      "The stove feels hot",
+      "The fire feels cold",
+      "The fire smells sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0088",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The rope feels rough",
+      "The string feels rough",
+      "The rope tastes salty",
+      "The rope is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0089",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The salt tastes salty",
+      "The honey tastes salty",
+      "The salt feels fluffy",
+      "The salt is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "salt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0090",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The leaf feels smooth",
+      "The rose feels smooth",
+      "The leaf tastes sour",
+      "The leaf is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0091",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The mitten feels warm",
+      "The sock feels warm",
+      "The mitten feels rough",
+      "The mitten smells sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0092",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The pea feels smooth",
+      "The bean feels smooth",
+      "The pea feels bumpy",
+      "The pea is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pea"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0093",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The barn feels old",
+      "The shed feels old",
+      "The barn tastes sweet",
+      "The barn is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0094",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The beach smells salty",
+      "The sand smells salty",
+      "The beach feels cold",
+      "The beach is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0095",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The rug smells strong",
+      "The mat smells strong",
+      "The rug feels bumpy",
+      "The rug is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0096",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The egg smells strong",
+      "The bean smells strong",
+      "The egg tastes sweet",
+      "The egg is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0097",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The wool smells strong",
+      "The sock smells strong",
+      "The wool feels smooth",
+      "The wool tastes sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wool"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0098",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The mud smells strong",
+      "The sand smells strong",
+      "The mud feels smooth",
+      "The mud is loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0099",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which detail is correct?",
+    "choices": [
+      "The candles feel hot",
+      "The flowers feel hot",
+      "The candles taste sweet",
+      "The candles are loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "candles"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_the_sensory_details_that_match_the_pi_0100",
+    "family_id": "fam_choose_the_sensory_details_that_match_the_pi",
+    "skill_id": "roots_choose_the_sensory_details_that_match_the_pi",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the right detail.",
+    "choices": [
+      "The stone feels hard",
+      "The brick feels hard",
+      "The stone feels soft",
+      "The stone smells sweet"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_object",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stone"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

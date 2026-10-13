@@ -1,0 +1,2417 @@
+[
+  {
+    "item_id": "roots_identify_homophones_0001",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boat floats on this.",
+    "choices": [
+      "sea",
+      "see",
+      "sit",
+      "set"
+    ],
+    "answer_index": 0,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sea"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0002",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I finished my lunch.",
+    "choices": [
+      "eight",
+      "eat",
+      "ate",
+      "late"
+    ],
+    "answer_index": 2,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0003",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look at the bird.",
+    "choices": [
+      "sea",
+      "see",
+      "say",
+      "sad"
+    ],
+    "answer_index": 1,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0004",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wind did this to my hat.",
+    "choices": [
+      "blue",
+      "flew",
+      "grow",
+      "blew"
+    ],
+    "answer_index": 3,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0005",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We can ride in this.",
+    "choices": [
+      "plain",
+      "plant",
+      "plane",
+      "play"
+    ],
+    "answer_index": 2,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0006",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> goes to bed at this time.",
+    "choices": [
+      "knight",
+      "night",
+      "light",
+      "right"
+    ],
+    "answer_index": 1,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_homophones_0007",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday the brown horse went down this.",
+    "choices": [
+      "rode",
+      "road",
+      "read",
+      "ride"
+    ],
+    "answer_index": 1,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0008",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "This is the little dog they own.",
+    "choices": [
+      "there",
+      "theyre",
+      "here",
+      "their"
+    ],
+    "answer_index": 3,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0009",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fish live in salty water.",
+    "choices": [
+      "sea",
+      "see",
+      "seed",
+      "set"
+    ],
+    "answer_index": 0,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0010",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Can we talk at the park?",
+    "choices": [
+      "meet",
+      "meat",
+      "met",
+      "mat"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0011",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "A yellow bug makes honey.",
+    "choices": [
+      "bee",
+      "be",
+      "bed",
+      "bean"
+    ],
+    "answer_index": 0,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "honey"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0012",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It hangs on the orchard tree.",
+    "choices": [
+      "pear",
+      "pair",
+      "pal",
+      "park"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0013",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pony's neck hair is long.",
+    "choices": [
+      "mane",
+      "main",
+      "man",
+      "men"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pony"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0014",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She brushed her brown locks.",
+    "choices": [
+      "hair",
+      "hare",
+      "hard",
+      "hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "brush"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0015",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I want one part of pie.",
+    "choices": [
+      "piece",
+      "peace",
+      "peas",
+      "pen"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0016",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog wags its back part.",
+    "choices": [
+      "tail",
+      "tale",
+      "tall",
+      "tap"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0017",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My dad's sister came over.",
+    "choices": [
+      "aunt",
+      "ant",
+      "and",
+      "at"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "visit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0018",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "A letter came today.",
+    "choices": [
+      "mail",
+      "male",
+      "meal",
+      "milk"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "letter"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0019",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I had six apples at lunch.",
+    "choices": [
+      "ate",
+      "eight",
+      "eat",
+      "late"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0020",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bright star heats Earth.",
+    "choices": [
+      "sun",
+      "son",
+      "fun",
+      "sand"
+    ],
+    "answer_index": 0,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0021",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Do not poke the big animal.",
+    "choices": [
+      "bear",
+      "bare",
+      "beat",
+      "bed"
+    ],
+    "answer_index": 0,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0022",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I can listen to the bell.",
+    "choices": [
+      "hear",
+      "here",
+      "dear",
+      "deer"
+    ],
+    "answer_index": 0,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0023",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We walk up each step.",
+    "choices": [
+      "stair",
+      "stare",
+      "star",
+      "stay"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stair"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0024",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "School starts in seven days.",
+    "choices": [
+      "week",
+      "weak",
+      "wake",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0025",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick up the water bucket.",
+    "choices": [
+      "pail",
+      "pale",
+      "pal",
+      "pan"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0026",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The small forest animal ran.",
+    "choices": [
+      "deer",
+      "dear",
+      "desk",
+      "deep"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "deer"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0027",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I had the answer before.",
+    "choices": [
+      "knew",
+      "new",
+      "nest",
+      "net"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "answer"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0028",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The helper cleaned our room.",
+    "choices": [
+      "maid",
+      "made",
+      "mad",
+      "map"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0029",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The park had many game booths.",
+    "choices": [
+      "fair",
+      "fare",
+      "far",
+      "farm"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "booth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0030",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I can look at the bird.",
+    "choices": [
+      "see",
+      "sea",
+      "say",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0031",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom baked a cake we enjoyed.",
+    "choices": [
+      "ate",
+      "eight",
+      "eat",
+      "late"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0032",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The brave fighter wore armor.",
+    "choices": [
+      "knight",
+      "night",
+      "kite",
+      "knit"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "armor"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0033",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My child helps at dinner.",
+    "choices": [
+      "son",
+      "sun",
+      "fun",
+      "sand"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0034",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The store sign said half off.",
+    "choices": [
+      "sale",
+      "sail",
+      "salt",
+      "sand"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0035",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I like calm and quiet.",
+    "choices": [
+      "peace",
+      "piece",
+      "peas",
+      "pen"
+    ],
+    "answer_index": 0,
+    "explain_key": "fit_meaning",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "quiet"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0036",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sky looks gray today.",
+    "choices": [
+      "weather",
+      "whether",
+      "wetter",
+      "winter"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0037",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Add white powder to batter.",
+    "choices": [
+      "flour",
+      "flower",
+      "floor",
+      "flow"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "batter"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0038",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The car needs a pedal stop.",
+    "choices": [
+      "brake",
+      "break",
+      "bread",
+      "brick"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0039",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tie a loop in the rope.",
+    "choices": [
+      "knot",
+      "not",
+      "note",
+      "net"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0040",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The story had a long ending.",
+    "choices": [
+      "tale",
+      "tail",
+      "tall",
+      "take"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0041",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We bought a matching set.",
+    "choices": [
+      "pair",
+      "pear",
+      "pal",
+      "park"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoes"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0042",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cut will get better soon.",
+    "choices": [
+      "heal",
+      "heel",
+      "hear",
+      "heat"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bandage"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0043",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The branch had no leaves left.",
+    "choices": [
+      "bare",
+      "bear",
+      "barn",
+      "bark"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "branch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0044",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not take my cookies.",
+    "choices": [
+      "steal",
+      "steel",
+      "still",
+      "stem"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0045",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The box feels very heavy.",
+    "choices": [
+      "weight",
+      "wait",
+      "wet",
+      "west"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0046",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tie the rope around your middle.",
+    "choices": [
+      "waist",
+      "waste",
+      "wake",
+      "walk"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0047",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not throw your snack away.",
+    "choices": [
+      "waste",
+      "waist",
+      "wake",
+      "wash"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0048",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have sixty minutes to play.",
+    "choices": [
+      "hour",
+      "our",
+      "or",
+      "over"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0049",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We stayed at a small hotel.",
+    "choices": [
+      "inn",
+      "in",
+      "ink",
+      "it"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hotel"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0050",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Thick fog hid the hill.",
+    "choices": [
+      "mist",
+      "missed",
+      "milk",
+      "mix"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0051",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I have watched that movie.",
+    "choices": [
+      "seen",
+      "scene",
+      "seed",
+      "seem"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "movie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0052",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The play had a loud fight part.",
+    "choices": [
+      "scene",
+      "seen",
+      "sand",
+      "sat"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "play"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0053",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "One plus one makes this.",
+    "choices": [
+      "sum",
+      "some",
+      "sun",
+      "son"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "math"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0054",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick the red coat not blue.",
+    "choices": [
+      "which",
+      "witch",
+      "while",
+      "white"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0055",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rabbit hopped in grass.",
+    "choices": [
+      "hare",
+      "hair",
+      "hard",
+      "hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grass"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0056",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy is very loved.",
+    "choices": [
+      "dear",
+      "deer",
+      "deep",
+      "desk"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0057",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A group of cows grazed.",
+    "choices": [
+      "herd",
+      "heard",
+      "help",
+      "hen"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0058",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> tossed the ball hard.",
+    "choices": [
+      "threw",
+      "through",
+      "throw",
+      "thread"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_homophones_0059",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The field was flat and open.",
+    "choices": [
+      "plain",
+      "plane",
+      "plant",
+      "plan"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "field"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0060",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wind pushed off my cap.",
+    "choices": [
+      "blew",
+      "blue",
+      "blow",
+      "block"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0061",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now it is time to roll dice.",
+    "choices": [
+      "your",
+      "youre",
+      "yarn",
+      "yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0062",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat cleaned the muddy paw.",
+    "choices": [
+      "its",
+      "it's",
+      "is",
+      "in"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0063",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "You are going to the zoo.",
+    "choices": [
+      "youre",
+      "your",
+      "year",
+      "yell"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "zoo"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0064",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The gate is made of metal.",
+    "choices": [
+      "steel",
+      "steal",
+      "still",
+      "stem"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0065",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not look hard at the sun.",
+    "choices": [
+      "stare",
+      "stair",
+      "star",
+      "stay"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0066",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boat has one bottom fin.",
+    "choices": [
+      "sole",
+      "soul",
+      "sold",
+      "some"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0067",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I will stand by the door.",
+    "choices": [
+      "wait",
+      "weight",
+      "wet",
+      "west"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0068",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The woman wore a black hat.",
+    "choices": [
+      "witch",
+      "which",
+      "while",
+      "white"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0069",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Use the scale on the apples.",
+    "choices": [
+      "weigh",
+      "way",
+      "wet",
+      "west"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0070",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I did not catch the bus.",
+    "choices": [
+      "missed",
+      "mist",
+      "milk",
+      "mix"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0071",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> sent a red kite up.",
+    "choices": [
+      "flew",
+      "blue",
+      "flow",
+      "flag"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_homophones_0072",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We biked home after school.",
+    "choices": [
+      "rode",
+      "road",
+      "read",
+      "red"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0073",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They are going home now.",
+    "choices": [
+      "theyre",
+      "there",
+      "their",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0074",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Set the tray in that spot.",
+    "choices": [
+      "there",
+      "their",
+      "theyre",
+      "these"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tray"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0075",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The house with the red door belongs to them.",
+    "choices": [
+      "their",
+      "there",
+      "theyre",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0076",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I do not know if it rains.",
+    "choices": [
+      "whether",
+      "weather",
+      "wheat",
+      "when"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0077",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bike by the fence belongs to you.",
+    "choices": [
+      "your",
+      "youre",
+      "yarn",
+      "year"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0078",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You are late for class.",
+    "choices": [
+      "youre",
+      "your",
+      "year",
+      "yell"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0079",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "That muddy paw belongs to the pup.",
+    "choices": [
+      "its",
+      "it's",
+      "is",
+      "in"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0080",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "It is time for lunch.",
+    "choices": [
+      "it's",
+      "its",
+      "is",
+      "it"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0081",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "What place did you put my hat?",
+    "choices": [
+      "where",
+      "were",
+      "wear",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0082",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They put on coats in rain.",
+    "choices": [
+      "wear",
+      "where",
+      "were",
+      "west"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0083",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "At the start of class we all quiet.",
+    "choices": [
+      "were",
+      "where",
+      "wear",
+      "west"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0084",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday I biked to the store.",
+    "choices": [
+      "rode",
+      "road",
+      "read",
+      "ride"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0085",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We crossed the busy street path.",
+    "choices": [
+      "road",
+      "rode",
+      "read",
+      "ride"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "road"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0086",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I like to look at story books.",
+    "choices": [
+      "read",
+      "red",
+      "rode",
+      "road"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0087",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "This is the kick turn for <NAME> and you.",
+    "choices": [
+      "your",
+      "youre",
+      "yarn",
+      "you"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kick"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_homophones_0088",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "It is my birthday today.",
+    "choices": [
+      "it's",
+      "its",
+      "is",
+      "in"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "birthday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0089",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids packed the lunch they own.",
+    "choices": [
+      "their",
+      "there",
+      "theyre",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0090",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Please stand in that spot.",
+    "choices": [
+      "there",
+      "their",
+      "theyre",
+      "these"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0091",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They are all on the team.",
+    "choices": [
+      "theyre",
+      "there",
+      "their",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "own_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0092",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Eat the entire apple please.",
+    "choices": [
+      "whole",
+      "hole",
+      "hold",
+      "home"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0093",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Dig a deep spot in sand.",
+    "choices": [
+      "hole",
+      "whole",
+      "hold",
+      "home"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0094",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I will put words on paper.",
+    "choices": [
+      "write",
+      "right",
+      "white",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paper"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0095",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Turn this way at the corner.",
+    "choices": [
+      "right",
+      "write",
+      "ride",
+      "ripe"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corner"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0096",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We beat the other team today.",
+    "choices": [
+      "won",
+      "one",
+      "when",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0097",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I ate this many big cookies.",
+    "choices": [
+      "four",
+      "for",
+      "fox",
+      "fun"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0098",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We brought treats to share with class.",
+    "choices": [
+      "for",
+      "four",
+      "fox",
+      "fun"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "treat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_homophones_0099",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "From the barn <NAME> caught cows mooing.",
+    "choices": [
+      "heard",
+      "herd",
+      "help",
+      "hen"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_homophones_0100",
+    "family_id": "fam_identify_homophones",
+    "skill_id": "roots_identify_homophones",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday we looked at books by the path.",
+    "choices": [
+      "read",
+      "red",
+      "rode",
+      "road"
+    ],
+    "answer_index": 0,
+    "explain_key": "sound_twin",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ]
+  }
+]

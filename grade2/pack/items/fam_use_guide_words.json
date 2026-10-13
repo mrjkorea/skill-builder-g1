@@ -1,0 +1,2000 @@
+[
+  {
+    "item_id": "roots_use_guide_words_0001",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are cat and dog.",
+    "choices": [
+      "desk",
+      "ball",
+      "egg",
+      "fish"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0002",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are apple and bear.",
+    "choices": [
+      "ant",
+      "baby",
+      "bird",
+      "cake"
+    ],
+    "answer_index": 1,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      },
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0003",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are frog and hat.",
+    "choices": [
+      "game",
+      "fish",
+      "home",
+      "jump"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      },
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0004",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are cat and cow.",
+    "choices": [
+      "cake",
+      "chair",
+      "cup",
+      "cut"
+    ],
+    "answer_index": 1,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0005",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are hand and hill.",
+    "choices": [
+      "hair",
+      "home",
+      "happy",
+      "hop"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0006",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are plant and pot.",
+    "choices": [
+      "pink",
+      "plan",
+      "pup",
+      "play"
+    ],
+    "answer_index": 3,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0007",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are bring and brown.",
+    "choices": [
+      "bright",
+      "bread",
+      "broke",
+      "brush"
+    ],
+    "answer_index": 2,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0008",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> has stone and street.",
+    "choices": [
+      "stick",
+      "store",
+      "strong",
+      "study"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_guide_words_0009",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are crayon and school.",
+    "choices": [
+      "pen",
+      "seed",
+      "ant",
+      "seat"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      },
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0010",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "These guide words are horse and jam.",
+    "choices": [
+      "jar",
+      "jump",
+      "ant",
+      "ice"
+    ],
+    "answer_index": 3,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0011",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are bring and winter.",
+    "choices": [
+      "crayons",
+      "ant",
+      "zip",
+      "yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0012",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Guide words: butter and pond.",
+    "choices": [
+      "grandma",
+      "pup",
+      "pot",
+      "ant"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0013",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are broke and nap.",
+    "choices": [
+      "ant",
+      "nest",
+      "meat",
+      "net"
+    ],
+    "answer_index": 2,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "broke"
+      },
+      {
+        "lemma": "nap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0014",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are hat and street.",
+    "choices": [
+      "string",
+      "strike",
+      "rice",
+      "ant"
+    ],
+    "answer_index": 2,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0015",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "These guide words are brown and home.",
+    "choices": [
+      "ant",
+      "hook",
+      "dog",
+      "honey"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0016",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are banana and hair.",
+    "choices": [
+      "happy",
+      "hand",
+      "ant",
+      "fan"
+    ],
+    "answer_index": 3,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0017",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Guide words: bright and soil.",
+    "choices": [
+      "song",
+      "soon",
+      "ant",
+      "map"
+    ],
+    "answer_index": 3,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bright"
+      },
+      {
+        "lemma": "soil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0018",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are mom and tree.",
+    "choices": [
+      "van",
+      "web",
+      "net",
+      "ant"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0019",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are box and red.",
+    "choices": [
+      "lamp",
+      "rug",
+      "rice",
+      "ant"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0020",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "These guide words are bread and jam.",
+    "choices": [
+      "jump",
+      "ant",
+      "food",
+      "jar"
+    ],
+    "answer_index": 2,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0021",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are milk and seat.",
+    "choices": [
+      "ship",
+      "ant",
+      "seed",
+      "pink"
+    ],
+    "answer_index": 3,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      },
+      {
+        "lemma": "seat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0022",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Guide words: box and snake.",
+    "choices": [
+      "ant",
+      "snow",
+      "sock",
+      "coat"
+    ],
+    "answer_index": 3,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0023",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are doll and spoon.",
+    "choices": [
+      "spot",
+      "ant",
+      "milk",
+      "spring"
+    ],
+    "answer_index": 2,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0024",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are pen and web.",
+    "choices": [
+      "wind",
+      "wet",
+      "salt",
+      "ant"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0025",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "These guide words are bell and street.",
+    "choices": [
+      "ant",
+      "strike",
+      "string",
+      "mud"
+    ],
+    "answer_index": 3,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      },
+      {
+        "lemma": "street"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0026",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are desk and pillow.",
+    "choices": [
+      "pink",
+      "plan",
+      "hungry",
+      "ant"
+    ],
+    "answer_index": 2,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0027",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Guide words: gift and string.",
+    "choices": [
+      "strong",
+      "ant",
+      "lake",
+      "stripe"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0028",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are mom and peanut.",
+    "choices": [
+      "pen",
+      "nest",
+      "pencil",
+      "ant"
+    ],
+    "answer_index": 1,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0029",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are duck and stop.",
+    "choices": [
+      "story",
+      "store",
+      "horn",
+      "ant"
+    ],
+    "answer_index": 2,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "stop"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0030",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "These guide words are cup and pig.",
+    "choices": [
+      "pillow",
+      "hoop",
+      "pink",
+      "ant"
+    ],
+    "answer_index": 1,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0031",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are pond and sock.",
+    "choices": [
+      "ant",
+      "run",
+      "soil",
+      "soft"
+    ],
+    "answer_index": 1,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0032",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Guide words: brown and moon.",
+    "choices": [
+      "nap",
+      "mud",
+      "corn",
+      "ant"
+    ],
+    "answer_index": 2,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0033",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are nest and spell.",
+    "choices": [
+      "pig",
+      "ant",
+      "spot",
+      "spoon"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nest"
+      },
+      {
+        "lemma": "spell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_guide_words_0034",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The guide words are cookie and winter.",
+    "choices": [
+      "ant",
+      "peanut",
+      "yard",
+      "zip"
+    ],
+    "answer_index": 1,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0035",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "These guide words are bus and egg.",
+    "choices": [
+      "cookie",
+      "family",
+      "fan",
+      "ant"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0036",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are sign and sock.",
+    "choices": [
+      "soil",
+      "sad",
+      "sink",
+      "soft"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0037",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are sink and street.",
+    "choices": [
+      "stop",
+      "sad",
+      "strike",
+      "string"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0038",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are snack and street.",
+    "choices": [
+      "stream",
+      "string",
+      "strike",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0039",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Guide words: smile and summer.",
+    "choices": [
+      "sun",
+      "sunny",
+      "soon",
+      "sad"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0040",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are store and stream.",
+    "choices": [
+      "stove",
+      "sad",
+      "strike",
+      "street"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0041",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are sleep and sock.",
+    "choices": [
+      "soft",
+      "sad",
+      "snack",
+      "soil"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0042",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are sick and stick.",
+    "choices": [
+      "sister",
+      "sad",
+      "store",
+      "stop"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0043",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are home and hoop.",
+    "choices": [
+      "hop",
+      "horn",
+      "hair",
+      "hook"
+    ],
+    "answer_index": 3,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0044",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Guide words: side and sink.",
+    "choices": [
+      "sister",
+      "sing",
+      "sad",
+      "sit"
+    ],
+    "answer_index": 1,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0045",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are hand and hoop.",
+    "choices": [
+      "hop",
+      "horn",
+      "hair",
+      "happy"
+    ],
+    "answer_index": 3,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0046",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are shoe and spot.",
+    "choices": [
+      "spring",
+      "stand",
+      "sink",
+      "sad"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0047",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are south and spot.",
+    "choices": [
+      "sad",
+      "spring",
+      "stand",
+      "space"
+    ],
+    "answer_index": 3,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0048",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are slow and spot.",
+    "choices": [
+      "sad",
+      "stand",
+      "spring",
+      "soup"
+    ],
+    "answer_index": 3,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0049",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Guide words: school and stop.",
+    "choices": [
+      "shoe",
+      "sad",
+      "store",
+      "story"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0050",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are shut and space.",
+    "choices": [
+      "skip",
+      "spell",
+      "spoon",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0051",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are shut and spoon.",
+    "choices": [
+      "spot",
+      "small",
+      "spring",
+      "sad"
+    ],
+    "answer_index": 1,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0052",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are sick and smell.",
+    "choices": [
+      "sad",
+      "sled",
+      "snack",
+      "smile"
+    ],
+    "answer_index": 1,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0053",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are song and stick.",
+    "choices": [
+      "soup",
+      "store",
+      "stop",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0054",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Guide words: ship and string.",
+    "choices": [
+      "story",
+      "stripe",
+      "strong",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0055",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are shoe and snake.",
+    "choices": [
+      "sign",
+      "snow",
+      "sock",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0056",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are shop and soil.",
+    "choices": [
+      "sad",
+      "soon",
+      "smile",
+      "song"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0057",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are slow and song.",
+    "choices": [
+      "soon",
+      "snow",
+      "soup",
+      "sad"
+    ],
+    "answer_index": 1,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0058",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are sleep and snack.",
+    "choices": [
+      "sad",
+      "snake",
+      "smell",
+      "snow"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0059",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Guide words: show and spring.",
+    "choices": [
+      "star",
+      "spot",
+      "sad",
+      "stand"
+    ],
+    "answer_index": 1,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0060",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are sign and stop.",
+    "choices": [
+      "store",
+      "spoon",
+      "story",
+      "sad"
+    ],
+    "answer_index": 1,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0061",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are ship and sister.",
+    "choices": [
+      "sing",
+      "sit",
+      "skip",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0062",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are sign and sit.",
+    "choices": [
+      "sad",
+      "skip",
+      "sink",
+      "sled"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0063",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are sand and spot.",
+    "choices": [
+      "stand",
+      "spring",
+      "sad",
+      "show"
+    ],
+    "answer_index": 3,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0064",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Guide words: seed and string.",
+    "choices": [
+      "stripe",
+      "sad",
+      "store",
+      "strong"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0065",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are song and spoon.",
+    "choices": [
+      "spring",
+      "sad",
+      "soup",
+      "spot"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0066",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are shop and shut.",
+    "choices": [
+      "short",
+      "side",
+      "sick",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0067",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are shop and sit.",
+    "choices": [
+      "sled",
+      "sing",
+      "skip",
+      "sad"
+    ],
+    "answer_index": 1,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0068",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are shut and story.",
+    "choices": [
+      "sad",
+      "stream",
+      "soup",
+      "stove"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0069",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Guide words: shout and spell.",
+    "choices": [
+      "sad",
+      "spot",
+      "sing",
+      "spoon"
+    ],
+    "answer_index": 2,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0070",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are snow and soft.",
+    "choices": [
+      "soil",
+      "song",
+      "sock",
+      "sad"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0071",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The guide words are ball and brother.",
+    "choices": [
+      "brown",
+      "bright",
+      "brush",
+      "baby"
+    ],
+    "answer_index": 1,
+    "explain_key": "between",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0072",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These guide words are school and stream.",
+    "choices": [
+      "story",
+      "street",
+      "strike",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0073",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are skip and sunny.",
+    "choices": [
+      "teacher",
+      "ant",
+      "strike",
+      "tent"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0074",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "These guide words are sister and spoon.",
+    "choices": [
+      "ant",
+      "snake",
+      "spot",
+      "spring"
+    ],
+    "answer_index": 1,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0075",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> has snake and soil.",
+    "choices": [
+      "snow",
+      "soon",
+      "song",
+      "ant"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_guide_words_0076",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Guide words: baby and brush.",
+    "choices": [
+      "bus",
+      "butter",
+      "ant",
+      "brother"
+    ],
+    "answer_index": 3,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0077",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are hoop and hungry.",
+    "choices": [
+      "ice",
+      "horn",
+      "ant",
+      "jam"
+    ],
+    "answer_index": 1,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0078",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are small and star.",
+    "choices": [
+      "stick",
+      "ant",
+      "stop",
+      "snow"
+    ],
+    "answer_index": 3,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0079",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "These guide words are sing and snake.",
+    "choices": [
+      "ant",
+      "skip",
+      "snow",
+      "sock"
+    ],
+    "answer_index": 1,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0080",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are stick and street.",
+    "choices": [
+      "strike",
+      "ant",
+      "stop",
+      "string"
+    ],
+    "answer_index": 2,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0081",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> has shoe and strong.",
+    "choices": [
+      "sun",
+      "ant",
+      "short",
+      "summer"
+    ],
+    "answer_index": 2,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_guide_words_0082",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are smile and spring.",
+    "choices": [
+      "soil",
+      "stand",
+      "star",
+      "ant"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0083",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are bright and butter.",
+    "choices": [
+      "ant",
+      "bus",
+      "cake",
+      "cat"
+    ],
+    "answer_index": 1,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0084",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "These guide words are baby and brown.",
+    "choices": [
+      "ant",
+      "bus",
+      "boat",
+      "brush"
+    ],
+    "answer_index": 2,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0085",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are game and grandpa.",
+    "choices": [
+      "garden",
+      "grass",
+      "grape",
+      "ant"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0086",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Guide words: show and soon.",
+    "choices": [
+      "soup",
+      "sleep",
+      "south",
+      "ant"
+    ],
+    "answer_index": 1,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0087",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> has space and store.",
+    "choices": [
+      "story",
+      "stop",
+      "ant",
+      "stove"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_guide_words_0088",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are spring and street.",
+    "choices": [
+      "string",
+      "strike",
+      "stop",
+      "ant"
+    ],
+    "answer_index": 2,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0089",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "These guide words are sand and snake.",
+    "choices": [
+      "snow",
+      "ant",
+      "sock",
+      "sign"
+    ],
+    "answer_index": 3,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0090",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are snow and sunny.",
+    "choices": [
+      "tent",
+      "teacher",
+      "ant",
+      "song"
+    ],
+    "answer_index": 3,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0091",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Guide words: ship and show.",
+    "choices": [
+      "shout",
+      "sick",
+      "shut",
+      "ant"
+    ],
+    "answer_index": 0,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0092",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are skip and star.",
+    "choices": [
+      "sleep",
+      "stop",
+      "stick",
+      "ant"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0093",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> has sail and sleep.",
+    "choices": [
+      "school",
+      "slow",
+      "ant",
+      "small"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_guide_words_0094",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "These guide words are stop and summer.",
+    "choices": [
+      "sun",
+      "sunny",
+      "ant",
+      "street"
+    ],
+    "answer_index": 3,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0095",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are safe and south.",
+    "choices": [
+      "school",
+      "ant",
+      "space",
+      "spell"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0096",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Guide words: baby and brother.",
+    "choices": [
+      "barn",
+      "brown",
+      "ant",
+      "brush"
+    ],
+    "answer_index": 0,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0097",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are skip and snack.",
+    "choices": [
+      "snow",
+      "snake",
+      "ant",
+      "sled"
+    ],
+    "answer_index": 3,
+    "explain_key": "look_next",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0098",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are school and sleep.",
+    "choices": [
+      "ship",
+      "small",
+      "ant",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_first",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_guide_words_0099",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> has sing and strong.",
+    "choices": [
+      "ant",
+      "sun",
+      "summer",
+      "stripe"
+    ],
+    "answer_index": 3,
+    "explain_key": "after_last",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_guide_words_0100",
+    "family_id": "fam_use_guide_words",
+    "skill_id": "roots_use_guide_words",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The guide words are apple and april.",
+    "choices": [
+      "baby",
+      "ant",
+      "ball",
+      "apple"
+    ],
+    "answer_index": 3,
+    "explain_key": "inclusive",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

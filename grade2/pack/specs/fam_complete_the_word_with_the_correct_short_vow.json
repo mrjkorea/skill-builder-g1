@@ -1,0 +1,389 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_the_correct_short_vow",
+  "family_title_en": "Complete the word with the correct short vowel",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_the_correct_short_vow",
+      "ix_title": "Complete the word with the correct short vowel",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which letter completes the word?",
+        "ko": "단어를 완성하는 글자는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the short vowel letter.",
+        "ko": "짧은 모음 글자를 누르세요."
+      },
+      "choice_rule": "Offer exactly four lowercase letters from a, e, i, o, and u. One letter fills the hyphen gap so the short-vowel word fits the sentence. Tier 1 wrong letters spell no roots-list word. Tier 2 has one roots-list trap, or a two-syllable target with none. Tier 3 has two roots-list traps.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "b-ck",
+        "b-d",
+        "b-g",
+        "b-n",
+        "b-nk",
+        "b-s",
+        "b-st",
+        "b-t",
+        "b-tter",
+        "b-x",
+        "bl-ck",
+        "br-ck",
+        "br-sh",
+        "c-mp",
+        "c-n",
+        "c-p",
+        "c-t",
+        "ch-ck",
+        "ch-ldren",
+        "ch-n",
+        "ch-p",
+        "cl-b",
+        "cl-ck",
+        "cl-p",
+        "cr-b",
+        "cr-ss",
+        "d-ck",
+        "d-d",
+        "d-g",
+        "d-m",
+        "d-sh",
+        "d-sk",
+        "dr-m",
+        "dr-nk",
+        "dr-ss",
+        "f-mily",
+        "f-n",
+        "f-nny",
+        "f-sh",
+        "f-st",
+        "f-t",
+        "f-x",
+        "fl-g",
+        "fl-p",
+        "fr-g",
+        "g-ft",
+        "g-rden",
+        "g-t",
+        "gr-b",
+        "gr-ss",
+        "h-d",
+        "h-g",
+        "h-lp",
+        "h-n",
+        "h-nd",
+        "h-p",
+        "h-ppy",
+        "h-t",
+        "j-b",
+        "j-m",
+        "j-mp",
+        "j-st",
+        "k-ck",
+        "k-d",
+        "k-tchen",
+        "k-tten",
+        "l-ck",
+        "l-ft",
+        "l-g",
+        "l-nch",
+        "l-p",
+        "l-st",
+        "l-t",
+        "l-tter",
+        "l-ttle",
+        "m-d",
+        "m-lk",
+        "m-n",
+        "m-p",
+        "m-st",
+        "n-ck",
+        "n-mber",
+        "n-p",
+        "n-pkin",
+        "n-st",
+        "n-t",
+        "n-ver",
+        "p-ck",
+        "p-cket",
+        "p-cnic",
+        "p-g",
+        "p-n",
+        "p-ncil",
+        "p-nk",
+        "p-p",
+        "p-ppy",
+        "p-t",
+        "pl-n",
+        "pr-blem",
+        "pr-nt",
+        "r-bbit",
+        "r-ck",
+        "r-d",
+        "r-g",
+        "r-n",
+        "r-p",
+        "s-ck",
+        "s-d",
+        "s-ft",
+        "s-mmer",
+        "s-n",
+        "s-nd",
+        "s-nk",
+        "s-nny",
+        "s-ster",
+        "s-t",
+        "s-ven",
+        "s-x",
+        "sh-d",
+        "sh-p",
+        "sk-nk",
+        "sk-p",
+        "sl-d",
+        "sn-ck",
+        "sp-t",
+        "st-ck",
+        "st-p",
+        "sw-m",
+        "sw-ng",
+        "t-b",
+        "t-g",
+        "t-nt",
+        "t-p",
+        "th-ng",
+        "th-nk",
+        "tr-ck",
+        "tr-p",
+        "w-g",
+        "w-sh",
+        "y-llow",
+        "z-p"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_short_vow_0001",
+          "tier": 1,
+          "stem": "The j-m is sweet.",
+          "choices": [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          "answer_index": 0,
+          "explain_key": "short_a"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_short_vow_0002",
+          "tier": 1,
+          "stem": "A red h-n sat down.",
+          "choices": [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          "answer_index": 1,
+          "explain_key": "short_e"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_short_vow_0003",
+          "tier": 1,
+          "stem": "The kids go on a b-s.",
+          "choices": [
+            "a",
+            "e",
+            "i",
+            "u"
+          ],
+          "answer_index": 3,
+          "explain_key": "short_u"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_short_vow_0004",
+          "tier": 2,
+          "stem": "The little pet is a p-g.",
+          "choices": [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          "answer_index": 2,
+          "explain_key": "short_i"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_short_vow_0005",
+          "tier": 2,
+          "stem": "The frog is on a l-g.",
+          "choices": [
+            "e",
+            "i",
+            "u",
+            "o"
+          ],
+          "answer_index": 3,
+          "explain_key": "short_o"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_short_vow_0006",
+          "tier": 2,
+          "stem": "Mom put b-tter on the hot bread.",
+          "choices": [
+            "u",
+            "e",
+            "a",
+            "i"
+          ],
+          "answer_index": 0,
+          "explain_key": "short_u"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_short_vow_0007",
+          "tier": 3,
+          "stem": "The dog will s-t on the mat today.",
+          "choices": [
+            "a",
+            "e",
+            "i",
+            "o"
+          ],
+          "answer_index": 2,
+          "explain_key": "short_i"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_short_vow_0008",
+          "tier": 3,
+          "stem": "<NAME> l-st a red hat at school today.",
+          "choices": [
+            "a",
+            "i",
+            "o",
+            "e"
+          ],
+          "answer_index": 2,
+          "explain_key": "short_o",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Choices are four lowercase vowel letters from a, e, i, o, and u, never consonants or whole words.",
+      "The stem has one hyphen gap from allowed_extra_words. That gap stands for one short vowel letter.",
+      "Every other stem word is on the roots list, or the token <NAME>. Ignore capitals and end punctuation.",
+      "Exactly one letter makes the short-vowel word that fits the sentence. Two answers is a failed item.",
+      "Tier 1 wrong letters must not spell any word on the roots list.",
+      "Tier 2 uses one roots-list trap that does not fit, such as peg for pig or better for butter, or a two-syllable target with no trap.",
+      "Tier 3 uses two roots-list traps. Meaning or grammar, such as will or lost, leaves one word that fits.",
+      "Do not gap a long vowel. Do not make put, ball, tall, fall, most, or want the gapped target.",
+      "List junk such as jum, dag, ron, or halp is not a target and is not a good trap. Use real kid words.",
+      "Kid topics only: school, home, food, pets, play, family, and weather. No brands and no real names.",
+      "Do not copy a gold stem. The same target word may appear at most three times, each time in a new sentence.",
+      "Set explain_key from the correct letter: short_a, short_e, short_i, short_o, or short_u.",
+      "If the stem contains <NAME>, set that item swap_slots NAME to names.txt."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "\\bee\\b",
+    "\\boa\\b",
+    "\\boo\\b",
+    "\\bay\\b",
+    "\\bea\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "\\bipa\\b",
+    "\\baaa+\\b",
+    "\\beee+\\b",
+    "\\biii+\\b",
+    "\\booo+\\b",
+    "\\buuu+\\b",
+    "\\bdisney\\b",
+    "\\bnike\\b",
+    "\\blego\\b",
+    "\\bpokemon\\b",
+    "\\bminecraft\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words with one CVC gap. Among the four letter choices, only the correct letter spells a word on the roots list.",
+    "2": "Stems of five to eight words. Use one roots-list trap that does not fit, or a two-syllable target whose other vowels spell no list word. Do not use two traps.",
+    "3": "Stems of seven to ten words. Exactly two wrong letters spell roots-list words, and only one word fits the meaning or the grammar."
+  },
+  "miss_explain": {
+    "short_a": {
+      "en": "Use a for the short a in words like jam, hat, and cat.",
+      "ko": "jam, hat, cat처럼 짧은 a가 있는 단어는 글자 a입니다."
+    },
+    "short_e": {
+      "en": "Use e for the short e in words like hen, red, and bed.",
+      "ko": "hen, red, bed처럼 짧은 e가 있는 단어는 글자 e입니다."
+    },
+    "short_i": {
+      "en": "Use i for the short i in words like pig, sit, and fish.",
+      "ko": "pig, sit, fish처럼 짧은 i가 있는 단어는 글자 i입니다."
+    },
+    "short_o": {
+      "en": "Use o for the short o in words like log, hot, and lost.",
+      "ko": "log, hot, lost처럼 짧은 o가 있는 단어는 글자 o입니다."
+    },
+    "short_u": {
+      "en": "Use u for the short u in words like bus, cup, and butter.",
+      "ko": "bus, cup, butter처럼 짧은 u가 있는 단어는 글자 u입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with the correct short vowel"
+    ],
+    "no_ixl_text": true
+  }
+}

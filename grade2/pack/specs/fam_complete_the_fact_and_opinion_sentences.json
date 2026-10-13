@@ -1,0 +1,262 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_fact_and_opinion_sentences",
+  "family_title_en": "Complete the fact and opinion sentences",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+      "ix_title": "Complete the fact and opinion sentences",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which ending fits?",
+        "ko": "어떤 말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the fact or opinion ending.",
+        "ko": "사실이나 의견에 맞는 말을 누르세요."
+      },
+      "choice_rule": "Write four short endings of one to four words. The stem begins with Fact. or Opinion. Exactly one ending finishes that kind of sentence. Fact endings are checkable. Opinion endings are feelings or judgments. The other three are the other kind and must stay grammatical. Never two right answers. Use only roots.txt and allowed_extra_words. Mix answer_index. Kid world only.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "fact",
+        "opinion",
+        "thinks",
+        "yummy",
+        "cute",
+        "worst"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_fact_and_opinion_sentences_0001",
+          "tier": 1,
+          "stem": "Fact. A frog can live in",
+          "choices": [
+            "a pretty place",
+            "a pond",
+            "the best home",
+            "a fun spot"
+          ],
+          "answer_index": 1,
+          "explain_key": "fact_check",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_fact_and_opinion_sentences_0002",
+          "tier": 1,
+          "stem": "Opinion. This cake is",
+          "choices": [
+            "on a plate",
+            "from the store",
+            "the best",
+            "in a box"
+          ],
+          "answer_index": 2,
+          "explain_key": "opinion_feel",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_fact_and_opinion_sentences_0003",
+          "tier": 1,
+          "stem": "Fact. Ice is very",
+          "choices": [
+            "pretty",
+            "tasty",
+            "cold",
+            "fun"
+          ],
+          "answer_index": 2,
+          "explain_key": "fact_check",
+          "media": [
+            {
+              "lemma": "ice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_fact_and_opinion_sentences_0004",
+          "tier": 2,
+          "stem": "Opinion. The little puppy is",
+          "choices": [
+            "brown",
+            "young",
+            "funny",
+            "wet"
+          ],
+          "answer_index": 2,
+          "explain_key": "opinion_feel",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_fact_and_opinion_sentences_0005",
+          "tier": 2,
+          "stem": "Fact. My little dog ate a",
+          "choices": [
+            "tasty treat",
+            "fun snack",
+            "bone",
+            "pretty meal"
+          ],
+          "answer_index": 2,
+          "explain_key": "fact_check",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_fact_and_opinion_sentences_0006",
+          "tier": 2,
+          "stem": "Opinion. Recess at school is",
+          "choices": [
+            "after lunch",
+            "before class",
+            "at noon",
+            "fun"
+          ],
+          "answer_index": 3,
+          "explain_key": "opinion_feel",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_fact_and_opinion_sentences_0007",
+          "tier": 3,
+          "stem": "Fact. My brother rode the bus to",
+          "choices": [
+            "the best school",
+            "a fun town",
+            "school",
+            "a pretty park"
+          ],
+          "answer_index": 2,
+          "explain_key": "fact_check",
+          "media": [
+            {
+              "lemma": "bus"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_fact_and_opinion_sentences_0008",
+          "tier": 3,
+          "stem": "Opinion. My friend <NAME> is",
+          "choices": [
+            "at home",
+            "in bed",
+            "funny",
+            "at school"
+          ],
+          "answer_index": 2,
+          "explain_key": "opinion_feel",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "kid"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each stem starts with Fact. or Opinion. Never drop that label and never hide the kind in the prompt only.",
+      "Four endings. Exactly one finishes the labeled kind. The other three are the other kind and still make a real sentence.",
+      "Fact endings can be seen, counted, or checked. Opinion endings judge or feel: best, fun, funny, pretty, tasty, great, yummy, cute.",
+      "Never write two endings that both fit the label. Never use nonsense words just to be wrong.",
+      "Tier 3 near misses: a fact stem with pretty, best, or fun stuck on a real place, or an opinion stem whose wrong endings are checkable times or places.",
+      "Kid world only. No brands. Use <NAME>, never a real name. Every stem and choice word comes from roots.txt or allowed_extra_words."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bblank\\b",
+    "\\bmissing\\b",
+    "\\bpunctuation\\b",
+    "which of the following"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. Fact. or Opinion. plus a short kid frame. Right endings are obvious: pond, cold, the best, fun. Wrong endings are clearly the other kind.",
+    "2": "Stems of five to eight words. Two-syllable words and Grade 2 grammar such as irregular past. Opinion frames may use feels or think. Distractors are checkable or judgment words, not junk.",
+    "3": "Stems up to ten words. Near-miss endings that would be right for the other label. One NAME item. Fact stems that look like feelings, or opinion stems that tempt a place or time."
+  },
+  "miss_explain": {
+    "fact_check": {
+      "en": "A fact can be checked. Tap the ending you can see, count, or prove.",
+      "ko": "사실은 확인할 수 있어요. 보거나 세거나 증명할 수 있는 말을 누르세요."
+    },
+    "opinion_feel": {
+      "en": "An opinion is a thought or feeling. Tap the ending that judges or feels.",
+      "ko": "의견은 생각이나 느낌이에요. 느낌이나 생각을 나타내는 말을 누르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Complete the fact and opinion sentences"
+    ],
+    "no_ixl_text": true
+  }
+}

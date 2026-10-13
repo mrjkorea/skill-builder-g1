@@ -1,0 +1,2492 @@
+[
+  {
+    "item_id": "roots_spell_the_short_i_word_0001",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the short i word.",
+    "choices": [
+      "pig",
+      "pag",
+      "peg",
+      "pog"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0002",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the short i word.",
+    "choices": [
+      "fash",
+      "fish",
+      "fesh",
+      "fosh"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0003",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which short i word is it?",
+    "choices": [
+      "pan",
+      "pen",
+      "pin",
+      "pon"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0004",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick the short i spelling.",
+    "choices": [
+      "melk",
+      "malk",
+      "milke",
+      "milk"
+    ],
+    "answer_index": 3,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0005",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the right short i word.",
+    "choices": [
+      "shep",
+      "ship",
+      "shap",
+      "shipe"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ship"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0006",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which spelling is the short i word?",
+    "choices": [
+      "ribbon",
+      "ribon",
+      "rabbon",
+      "ribbone"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ribbon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0007",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can spell this short i word.",
+    "choices": [
+      "miten",
+      "mittin",
+      "mitten",
+      "mittenn"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0008",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Spell this short i word for <NAME>.",
+    "choices": [
+      "childern",
+      "chidren",
+      "childen",
+      "children"
+    ],
+    "answer_index": 3,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "children"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0009",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the short i spelling.",
+    "choices": [
+      "dag",
+      "deg",
+      "dig",
+      "dog"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0010",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which spelling has short i?",
+    "choices": [
+      "lad",
+      "lid",
+      "led",
+      "lod"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0011",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose the short i word.",
+    "choices": [
+      "pit",
+      "pat",
+      "pet",
+      "pot"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0012",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick this short i word.",
+    "choices": [
+      "rab",
+      "reb",
+      "rob",
+      "rib"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rib"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0013",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "What is the short i word?",
+    "choices": [
+      "sap",
+      "sep",
+      "sip",
+      "sop"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0014",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look at the short i word.",
+    "choices": [
+      "tap",
+      "tip",
+      "tep",
+      "top"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0015",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Get the short i spelling.",
+    "choices": [
+      "bit",
+      "bat",
+      "bet",
+      "bot"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0016",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Show the short i spelling.",
+    "choices": [
+      "fan",
+      "fen",
+      "fon",
+      "fin"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0017",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spot the short i spelling.",
+    "choices": [
+      "fat",
+      "fet",
+      "fit",
+      "fot"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0018",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Name the short i spelling.",
+    "choices": [
+      "hat",
+      "hit",
+      "het",
+      "hot"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0019",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "See the short i word.",
+    "choices": [
+      "kid",
+      "kad",
+      "ked",
+      "kod"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0020",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find this short i word.",
+    "choices": [
+      "kat",
+      "ket",
+      "kot",
+      "kit"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0021",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the short i spelling.",
+    "choices": [
+      "lap",
+      "lep",
+      "lip",
+      "lop"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0022",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Get this short i word.",
+    "choices": [
+      "sat",
+      "sit",
+      "set",
+      "sot"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0023",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spot this short i word.",
+    "choices": [
+      "win",
+      "wan",
+      "wen",
+      "won"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "win"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0024",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Show this short i word.",
+    "choices": [
+      "wag",
+      "weg",
+      "wog",
+      "wig"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0025",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Name this short i word.",
+    "choices": [
+      "zap",
+      "zep",
+      "zip",
+      "zop"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "zip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0026",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look for the short i word.",
+    "choices": [
+      "bab",
+      "bib",
+      "beb",
+      "bob"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bib"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0027",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "See this short i spelling.",
+    "choices": [
+      "fig",
+      "fag",
+      "feg",
+      "fog"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0028",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the right short i word.",
+    "choices": [
+      "grap",
+      "grep",
+      "grop",
+      "grip"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0029",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick a short i spelling.",
+    "choices": [
+      "gran",
+      "gren",
+      "grin",
+      "gron"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0030",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap one short i word.",
+    "choices": [
+      "kass",
+      "kiss",
+      "kess",
+      "koss"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kiss"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0031",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which short i spelling fits?",
+    "choices": [
+      "clip",
+      "clap",
+      "clep",
+      "clop"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0032",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Which word has short i?",
+    "choices": [
+      "drap",
+      "drep",
+      "drop",
+      "drip"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0033",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the correct short i word.",
+    "choices": [
+      "span",
+      "spen",
+      "spin",
+      "spon"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0034",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose this short i spelling.",
+    "choices": [
+      "than",
+      "thin",
+      "then",
+      "thon"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0035",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick the correct short i word.",
+    "choices": [
+      "twin",
+      "twan",
+      "twen",
+      "twon"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "twin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0036",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find the right short i spelling.",
+    "choices": [
+      "slap",
+      "slep",
+      "slip",
+      "slop"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "slip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0037",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the correct short i spelling.",
+    "choices": [
+      "hall",
+      "hill",
+      "hell",
+      "holl"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0038",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Get the short i spelling right.",
+    "choices": [
+      "chip",
+      "chap",
+      "chep",
+      "chop"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0039",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Spot the short i word spelling.",
+    "choices": [
+      "chack",
+      "check",
+      "chock",
+      "chick"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0040",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Show the short i word spelling.",
+    "choices": [
+      "crab",
+      "creb",
+      "crib",
+      "crob"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crib"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0041",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Name the short i word spelling.",
+    "choices": [
+      "fast",
+      "fist",
+      "fest",
+      "fost"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fist"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0042",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the short i spelling here.",
+    "choices": [
+      "gift",
+      "geft",
+      "gft",
+      "gifte"
+    ],
+    "answer_index": 0,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0043",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at the short i spelling.",
+    "choices": [
+      "sack",
+      "seck",
+      "sock",
+      "sick"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0044",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find this short i word spelling.",
+    "choices": [
+      "stck",
+      "stik",
+      "stick",
+      "sticke"
+    ],
+    "answer_index": 2,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0045",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick this short i word spelling.",
+    "choices": [
+      "swam",
+      "swim",
+      "swem",
+      "swom"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0046",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Choose this short i word spelling.",
+    "choices": [
+      "skin",
+      "skan",
+      "sken",
+      "skon"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "skin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0047",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap this short i word spelling.",
+    "choices": [
+      "skap",
+      "skep",
+      "skop",
+      "skip"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "skip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0048",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which short i spelling is right?",
+    "choices": [
+      "sank",
+      "senk",
+      "sink",
+      "sonk"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sink"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0049",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which spelling fits the short i?",
+    "choices": [
+      "rang",
+      "ring",
+      "reng",
+      "rong"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ring"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0050",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick the best short i spelling.",
+    "choices": [
+      "thick",
+      "thack",
+      "theck",
+      "thock"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0051",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the best short i spelling.",
+    "choices": [
+      "mast",
+      "mest",
+      "most",
+      "mist"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mist"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0052",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find the best short i spelling.",
+    "choices": [
+      "max",
+      "mex",
+      "mix",
+      "mox"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mix"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0053",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Choose the best short i spelling.",
+    "choices": [
+      "track",
+      "trick",
+      "treck",
+      "trock"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "trick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0054",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Spot the best short i spelling.",
+    "choices": [
+      "pick",
+      "pack",
+      "peck",
+      "pock"
+    ],
+    "answer_index": 0,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0055",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Show the best short i spelling.",
+    "choices": [
+      "pank",
+      "penk",
+      "ponk",
+      "pink"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pink"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0056",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Name the best short i spelling.",
+    "choices": [
+      "wand",
+      "wend",
+      "wind",
+      "wond"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0057",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See the best short i spelling.",
+    "choices": [
+      "wang",
+      "wing",
+      "weng",
+      "wong"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wing"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0058",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look for the short i spelling.",
+    "choices": [
+      "igloo",
+      "agloo",
+      "egloo",
+      "iglo"
+    ],
+    "answer_index": 0,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "igloo"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0059",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Get this short i spelling right.",
+    "choices": [
+      "ank",
+      "enk",
+      "onk",
+      "ink"
+    ],
+    "answer_index": 3,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ink"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0060",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Spot this short i spelling now.",
+    "choices": [
+      "atch",
+      "etch",
+      "itch",
+      "otch"
+    ],
+    "answer_index": 2,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "itch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0061",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Show this short i spelling now.",
+    "choices": [
+      "kack",
+      "kick",
+      "keck",
+      "kock"
+    ],
+    "answer_index": 1,
+    "explain_key": "cvc_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0062",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Name this short i spelling now.",
+    "choices": [
+      "kitten",
+      "kiten",
+      "kittin",
+      "kittenn"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0063",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See this short i word spelling.",
+    "choices": [
+      "siter",
+      "sistre",
+      "sistter",
+      "sister"
+    ],
+    "answer_index": 3,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0064",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look for this short i spelling.",
+    "choices": [
+      "kichen",
+      "kitchn",
+      "kitchen",
+      "kittchen"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitchen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0065",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find the short i word spelling.",
+    "choices": [
+      "picnick",
+      "picnic",
+      "picnc",
+      "picnik"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "picnic"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0066",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick the short i word spelling.",
+    "choices": [
+      "pillow",
+      "pilow",
+      "pilloe",
+      "pilllow"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0067",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the short i word spelling.",
+    "choices": [
+      "wintr",
+      "wintter",
+      "wintere",
+      "winter"
+    ],
+    "answer_index": 3,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "winter"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0068",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Which short i word spelling fits?",
+    "choices": [
+      "diner",
+      "dinnr",
+      "dinner",
+      "dinnere"
+    ],
+    "answer_index": 2,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0069",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Choose the right short i spelling.",
+    "choices": [
+      "rabitt",
+      "rabbit",
+      "rabit",
+      "rabbon"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0070",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the right short i spelling.",
+    "choices": [
+      "minnow",
+      "minow",
+      "minno",
+      "minnoww"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "minnow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0071",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick the right short i spelling.",
+    "choices": [
+      "cety",
+      "citi",
+      "citye",
+      "city"
+    ],
+    "answer_index": 3,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "city"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0072",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Find the correct short i spelling.",
+    "choices": [
+      "vist",
+      "visitt",
+      "visit",
+      "visite"
+    ],
+    "answer_index": 2,
+    "explain_key": "no_silent_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "visit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0073",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pick the short i word for <NAME>.",
+    "choices": [
+      "kitten",
+      "kiten",
+      "kittin",
+      "kittenn"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0074",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs the short i spelling.",
+    "choices": [
+      "sistr",
+      "sistre",
+      "sistter",
+      "sister"
+    ],
+    "answer_index": 3,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0075",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Help <NAME> spell this short i word.",
+    "choices": [
+      "kichen",
+      "kitchn",
+      "kitchen",
+      "kittchen"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitchen"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0076",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which spelling helps <NAME> today?",
+    "choices": [
+      "picnick",
+      "picnic",
+      "picnc",
+      "picnik"
+    ],
+    "answer_index": 1,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "picnic"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0077",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Tap the short i word for <NAME>.",
+    "choices": [
+      "pillow",
+      "pilow",
+      "pilloe",
+      "pilllow"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0078",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> picks the short i spelling.",
+    "choices": [
+      "wintr",
+      "wintter",
+      "wintere",
+      "winter"
+    ],
+    "answer_index": 3,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "winter"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0079",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Show <NAME> the short i spelling.",
+    "choices": [
+      "diner",
+      "dinnr",
+      "dinner",
+      "dinnere"
+    ],
+    "answer_index": 2,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0080",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Find the short i word for <NAME>.",
+    "choices": [
+      "rabitt",
+      "rabbit",
+      "rabit",
+      "rabbon"
+    ],
+    "answer_index": 1,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0081",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Choose the short i word for <NAME>.",
+    "choices": [
+      "visit",
+      "vist",
+      "visitt",
+      "visite"
+    ],
+    "answer_index": 0,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "visit"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0082",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Get the short i spelling for <NAME>.",
+    "choices": [
+      "littel",
+      "littl",
+      "litle",
+      "little"
+    ],
+    "answer_index": 3,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "little"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0083",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Spot the short i word for <NAME>.",
+    "choices": [
+      "minow",
+      "minno",
+      "minnow",
+      "minnoww"
+    ],
+    "answer_index": 2,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "minnow"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0084",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Name the short i word for <NAME>.",
+    "choices": [
+      "cety",
+      "city",
+      "citi",
+      "citye"
+    ],
+    "answer_index": 1,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "city"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0085",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "See the short i word for <NAME>.",
+    "choices": [
+      "family",
+      "famly",
+      "familey",
+      "familly"
+    ],
+    "answer_index": 0,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "family"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0086",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Look at the short i word for <NAME>.",
+    "choices": [
+      "prety",
+      "pretti",
+      "prettey",
+      "pretty"
+    ],
+    "answer_index": 3,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pretty"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0087",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Help <NAME> pick the short i word.",
+    "choices": [
+      "picure",
+      "pictur",
+      "picture",
+      "picturee"
+    ],
+    "answer_index": 2,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "picture"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0088",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Help <NAME> tap the short i word.",
+    "choices": [
+      "windo",
+      "window",
+      "windwo",
+      "winndow"
+    ],
+    "answer_index": 1,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "window"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0089",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Let <NAME> see the short i spelling.",
+    "choices": [
+      "animal",
+      "anemal",
+      "animle",
+      "animall"
+    ],
+    "answer_index": 0,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "animal"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0090",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Let <NAME> pick the short i spelling.",
+    "choices": [
+      "wilow",
+      "willoe",
+      "willlow",
+      "willow"
+    ],
+    "answer_index": 3,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "willow"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0091",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> taps the short i spelling.",
+    "choices": [
+      "siting",
+      "sittin",
+      "sitting",
+      "sittning"
+    ],
+    "answer_index": 2,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sitting"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0092",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> finds the short i spelling.",
+    "choices": [
+      "finsh",
+      "finished",
+      "finnishe",
+      "finnished"
+    ],
+    "answer_index": 1,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "finished"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0093",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> shows the short i spelling.",
+    "choices": [
+      "history",
+      "histery",
+      "histroy",
+      "histry"
+    ],
+    "answer_index": 0,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "history"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0094",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> spots the short i spelling.",
+    "choices": [
+      "intrest",
+      "interst",
+      "intrestt",
+      "interest"
+    ],
+    "answer_index": 3,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "interest"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0095",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> names the short i spelling.",
+    "choices": [
+      "imige",
+      "immage",
+      "image",
+      "imagge"
+    ],
+    "answer_index": 2,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "image"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0096",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> gets the short i spelling.",
+    "choices": [
+      "diferent",
+      "different",
+      "diffrent",
+      "differant"
+    ],
+    "answer_index": 1,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "different"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0097",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> chooses the short i spelling.",
+    "choices": [
+      "limited",
+      "limitted",
+      "limeted",
+      "limitid"
+    ],
+    "answer_index": 0,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "limited"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0098",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> looks for the short i word.",
+    "choices": [
+      "ribon",
+      "ribbone",
+      "rabbon",
+      "ribbon"
+    ],
+    "answer_index": 3,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ribbon"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0099",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Can <NAME> spell this short i word?",
+    "choices": [
+      "kiten",
+      "kittn",
+      "kitten",
+      "kittenn"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_letter",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_the_short_i_word_0100",
+    "family_id": "fam_spell_the_short_i_word",
+    "skill_id": "roots_spell_the_short_i_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which word should <NAME> spell today?",
+    "choices": [
+      "siter",
+      "sister",
+      "sistter",
+      "sistre"
+    ],
+    "answer_index": 1,
+    "explain_key": "two_part_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

@@ -1,0 +1,371 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_compound_words",
+  "family_title_en": "Form compound words",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_compound_words",
+      "ix_title": "Form compound words",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word do these two make?",
+        "ko": "이 두 단어가 만드는 말은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the compound word.",
+        "ko": "합성어를 누르세요."
+      },
+      "choice_rule": "Four single-word choices. Exactly one is the closed compound made by joining the two source words in the stem, in that order, with no space or hyphen. Distractors follow the tier rules. Use only the roots wordlist plus allowed_extra_words.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "afternoon",
+        "anyone",
+        "anytime",
+        "anyway",
+        "anywhere",
+        "backpack",
+        "baseball",
+        "bedroom",
+        "birdhouse",
+        "blackbird",
+        "bluebird",
+        "bookbag",
+        "bookmark",
+        "butterfly",
+        "catfish",
+        "cookbook",
+        "cowboy",
+        "cupcake",
+        "daytime",
+        "doghouse",
+        "doorbell",
+        "downhill",
+        "downtown",
+        "driveway",
+        "everyday",
+        "everyone",
+        "everything",
+        "everywhere",
+        "eyeball",
+        "firefly",
+        "fireman",
+        "fireplace",
+        "firewood",
+        "fishbowl",
+        "flowerpot",
+        "football",
+        "goldfish",
+        "haircut",
+        "hairbrush",
+        "handmade",
+        "heartbeat",
+        "hillside",
+        "homework",
+        "hotdog",
+        "houseboat",
+        "lighthouse",
+        "lunchbox",
+        "mailbox",
+        "makes",
+        "moonlight",
+        "myself",
+        "nearby",
+        "newspaper",
+        "nightlight",
+        "nighttime",
+        "nobody",
+        "notebook",
+        "pancake",
+        "pigpen",
+        "pigtail",
+        "playhouse",
+        "playpen",
+        "railroad",
+        "rainbow",
+        "raincoat",
+        "sailboat",
+        "sandbox",
+        "schoolbag",
+        "schoolbus",
+        "seafood",
+        "seesaw",
+        "sidewalk",
+        "snowball",
+        "snowman",
+        "softball",
+        "sometime",
+        "somewhere",
+        "spaceship",
+        "starfish",
+        "sunflower",
+        "sunlight",
+        "sunshine",
+        "sunset",
+        "teacup",
+        "teapot",
+        "textbook",
+        "timeout",
+        "toenail",
+        "toothbrush",
+        "toothpaste",
+        "treetop",
+        "tugboat",
+        "underground",
+        "wallpaper",
+        "washroom",
+        "waterfall",
+        "wheelchair",
+        "workshop",
+        "yardstick"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_compound_words_0001",
+          "tier": 1,
+          "stem": "cup and cake",
+          "choices": [
+            "cupcake",
+            "milk",
+            "bird",
+            "shoe"
+          ],
+          "answer_index": 0,
+          "explain_key": "join_two",
+          "media": [
+            {
+              "lemma": "cupcake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_0002",
+          "tier": 1,
+          "stem": "snow and man",
+          "choices": [
+            "tree",
+            "book",
+            "snowman",
+            "fish"
+          ],
+          "answer_index": 2,
+          "explain_key": "join_two",
+          "media": [
+            {
+              "lemma": "snowman"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_0003",
+          "tier": 1,
+          "stem": "bed and time",
+          "choices": [
+            "apple",
+            "bedtime",
+            "chair",
+            "water"
+          ],
+          "answer_index": 1,
+          "explain_key": "join_two",
+          "media": [
+            {
+              "lemma": "bed"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_0004",
+          "tier": 2,
+          "stem": "rain and coat",
+          "choices": [
+            "raincoat",
+            "rain",
+            "coat",
+            "rainbow"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_part",
+          "media": [
+            {
+              "lemma": "raincoat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_0005",
+          "tier": 2,
+          "stem": "play and ground",
+          "choices": [
+            "play",
+            "ground",
+            "classroom",
+            "playground"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_part",
+          "media": [
+            {
+              "lemma": "playground"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_0006",
+          "tier": 2,
+          "stem": "<NAME> saw a foot and a ball.",
+          "choices": [
+            "baseball",
+            "football",
+            "foot",
+            "ball"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_part",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "football"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_0007",
+          "tier": 3,
+          "stem": "<NAME> drew sun and flower.",
+          "choices": [
+            "sunlight",
+            "sunshine",
+            "sunflower",
+            "flowerpot"
+          ],
+          "answer_index": 2,
+          "explain_key": "other_compound",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "sunflower"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_0008",
+          "tier": 3,
+          "stem": "<NAME> needs a tooth and a brush.",
+          "choices": [
+            "toothbrush",
+            "toothpaste",
+            "hairbrush",
+            "toenail"
+          ],
+          "answer_index": 0,
+          "explain_key": "other_compound",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "toothbrush"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four unique one-word choices. Exactly one is the closed compound formed by joining the two source words in the stem, in that order.",
+      "Never use a plus sign, a hyphenated form, a spaced open compound, IPA, or a picture described in prose.",
+      "Both source words in the stem must come from the roots wordlist. The target compound may be on that list or in allowed_extra_words.",
+      "Tier 1 distractors are unrelated kid-world words. They are not compounds and they are not either source word.",
+      "Tier 2 distractors include each source word alone plus one other real compound.",
+      "Tier 3 distractors are three other real compounds that reuse one source word or a close pair.",
+      "Keep stems at or under ten words. Use <NAME> only, never a real name. Stay in school, home, food, pets, play, family, or weather. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bcompound\\b",
+    "\\bhyphen\\b",
+    "\\bplus\\b",
+    "\\/[^/]+\\/",
+    "yahoo",
+    "ebay"
+  ],
+  "tier_rules": {
+    "1": "Stem is the two source words joined by and, four words or fewer. Add a picture lemma of the target. Distractors are distant unrelated words, not parts and not compounds.",
+    "2": "Short stem or a NAME frame up to eight words. Distractors are the two source words alone plus one other real compound.",
+    "3": "NAME frame or a slightly longer stem. All three distractors are real compounds that share a part or a close pair with the target."
+  },
+  "miss_explain": {
+    "join_two": {
+      "en": "Put the two words together to make one new word.",
+      "ko": "두 단어를 붙여 하나의 새 단어를 만드세요."
+    },
+    "not_part": {
+      "en": "That is only one of the words, not the new word they make.",
+      "ko": "그것은 한 단어뿐입니다. 정답은 두 단어를 붙인 새 말입니다."
+    },
+    "other_compound": {
+      "en": "That compound uses different words, not these two.",
+      "ko": "그 합성어는 이 두 단어로 만든 것이 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "tts-bake",
+    "voices": [
+      "bella",
+      "puck"
+    ]
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form compound words"
+    ],
+    "no_ixl_text": true
+  }
+}

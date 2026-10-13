@@ -1,0 +1,337 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_order_alphabetically_based_on_the_first_lett",
+  "family_title_en": "Alphabetical order by first letter",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_order_alphabetically_based_on_the_first_lett",
+      "ix_title": "Order alphabetically based on the first letter",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word comes first?",
+        "ko": "알파벳 순으로 어떤 단어가 먼저인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that comes first.",
+        "ko": "알파벳 순으로 맨 앞 단어를 누르세요."
+      },
+      "choice_rule": "Offer four kid-world nouns from the wordlist. Each word starts with a different letter. The correct choice is the word whose first letter is earliest in the alphabet. Never use the same first letter twice. Never require the second letter. Shuffle the answer slot. Attach a picture lemma for each noun.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "alphabet",
+        "earlier",
+        "later",
+        "begins"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_lett_0001",
+          "tier": 1,
+          "stem": "ant ball sun zoo",
+          "choices": [
+            "ant",
+            "ball",
+            "sun",
+            "zoo"
+          ],
+          "answer_index": 0,
+          "explain_key": "first_letter",
+          "media": [
+            {
+              "lemma": "ant"
+            },
+            {
+              "lemma": "ball"
+            },
+            {
+              "lemma": "sun"
+            },
+            {
+              "lemma": "zoo"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_lett_0002",
+          "tier": 1,
+          "stem": "milk dog tree whale",
+          "choices": [
+            "milk",
+            "dog",
+            "tree",
+            "whale"
+          ],
+          "answer_index": 1,
+          "explain_key": "first_letter",
+          "media": [
+            {
+              "lemma": "milk"
+            },
+            {
+              "lemma": "dog"
+            },
+            {
+              "lemma": "tree"
+            },
+            {
+              "lemma": "whale"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_lett_0003",
+          "tier": 1,
+          "stem": "rain nest van cake",
+          "choices": [
+            "rain",
+            "nest",
+            "van",
+            "cake"
+          ],
+          "answer_index": 3,
+          "explain_key": "first_letter",
+          "media": [
+            {
+              "lemma": "rain"
+            },
+            {
+              "lemma": "nest"
+            },
+            {
+              "lemma": "van"
+            },
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_lett_0004",
+          "tier": 2,
+          "stem": "kitten horse garden flower",
+          "choices": [
+            "kitten",
+            "horse",
+            "garden",
+            "flower"
+          ],
+          "answer_index": 3,
+          "explain_key": "first_letter",
+          "media": [
+            {
+              "lemma": "kitten"
+            },
+            {
+              "lemma": "horse"
+            },
+            {
+              "lemma": "garden"
+            },
+            {
+              "lemma": "flower"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_lett_0005",
+          "tier": 2,
+          "stem": "<NAME> packed apple cookie juice milk",
+          "choices": [
+            "apple",
+            "cookie",
+            "juice",
+            "milk"
+          ],
+          "answer_index": 0,
+          "explain_key": "first_letter",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "apple"
+            },
+            {
+              "lemma": "cookie"
+            },
+            {
+              "lemma": "juice"
+            },
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_lett_0006",
+          "tier": 2,
+          "stem": "yard drum kite boat",
+          "choices": [
+            "yard",
+            "drum",
+            "kite",
+            "boat"
+          ],
+          "answer_index": 3,
+          "explain_key": "first_letter",
+          "media": [
+            {
+              "lemma": "yard"
+            },
+            {
+              "lemma": "drum"
+            },
+            {
+              "lemma": "kite"
+            },
+            {
+              "lemma": "boat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_lett_0007",
+          "tier": 3,
+          "stem": "oven nest park queen",
+          "choices": [
+            "oven",
+            "nest",
+            "park",
+            "queen"
+          ],
+          "answer_index": 1,
+          "explain_key": "first_letter",
+          "media": [
+            {
+              "lemma": "oven"
+            },
+            {
+              "lemma": "nest"
+            },
+            {
+              "lemma": "park"
+            },
+            {
+              "lemma": "queen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_lett_0008",
+          "tier": 3,
+          "stem": "ice hill grape frog",
+          "choices": [
+            "ice",
+            "hill",
+            "grape",
+            "frog"
+          ],
+          "answer_index": 3,
+          "explain_key": "first_letter",
+          "media": [
+            {
+              "lemma": "ice"
+            },
+            {
+              "lemma": "hill"
+            },
+            {
+              "lemma": "grape"
+            },
+            {
+              "lemma": "frog"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four whole words from the roots wordlist, each with a different first letter.",
+      "Never pair two words that start with the same letter.",
+      "Never make the kid use the second letter to decide.",
+      "Wrong choices always start with a later letter than the answer.",
+      "Keep every noun in school, home, food, pets, play, family, or weather.",
+      "Shuffle which slot holds the answer.",
+      "No brands and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\balphabetically\\b",
+    "\\bsecond letter\\b",
+    "\\bsecond-letter\\b",
+    "\\bdictionary\\b",
+    "\\bglossary\\b"
+  ],
+  "tier_rules": {
+    "1": "Four picture nouns whose first letters sit far apart, like A versus M versus S versus Z. The earliest letter is the obvious answer.",
+    "2": "Grade 2 two-syllable kid nouns with first letters a few steps apart. Mix pets, food, home, and play words.",
+    "3": "Near-miss first letters that sit next to each other, such as F G H I or N O P Q. Still one clear earliest letter."
+  },
+  "miss_explain": {
+    "first_letter": {
+      "en": "Look at the first letter. The word that starts closest to A comes first.",
+      "ko": "첫 글자를 보세요. A에 가장 가까운 글자로 시작하는 단어가 먼저입니다."
+    },
+    "later_letter": {
+      "en": "That word starts with a later letter, so it comes after.",
+      "ko": "그 단어는 더 뒤 글자로 시작하므로 나중에 옵니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "tts-bake",
+    "voices": [
+      "bella",
+      "puck"
+    ]
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Order alphabetically based on the first letter"
+    ],
+    "no_ixl_text": true
+  }
+}

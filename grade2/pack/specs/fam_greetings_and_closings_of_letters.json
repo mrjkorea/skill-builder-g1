@@ -1,0 +1,282 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_greetings_and_closings_of_letters",
+  "family_title_en": "Greetings and closings of letters",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_greetings_and_closings_of_letters",
+      "ix_title": "Greetings and closings of letters",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which one is written right?",
+        "ko": "알맞게 쓴 것을 고르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the greeting or closing that is written right.",
+        "ko": "알맞게 쓴 인사말이나 맺음말을 누르세요."
+      },
+      "choice_rule": "Four variants of one greeting or one closing. Exactly one is correct: first word capital, names capital, other words lowercase, comma at the end. The other three miss a capital, add a wrong capital, or drop the comma. Never mix a greeting with a closing in the same item. Use <NAME> or Mom, Dad, Grandma, Grandpa. Never use a real given name.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "dear",
+        "hello",
+        "greeting",
+        "greetings",
+        "closing",
+        "closings",
+        "sincerely",
+        "yours",
+        "truly",
+        "wishes"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_greetings_and_closings_of_letters_0001",
+          "tier": 1,
+          "stem": "A letter to Mom.",
+          "choices": [
+            "Dear Mom,",
+            "dear Mom,",
+            "dear mom,",
+            "dear mom"
+          ],
+          "answer_index": 0,
+          "explain_key": "greeting_cap",
+          "media": [
+            {
+              "lemma": "letter"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_greetings_and_closings_of_letters_0002",
+          "tier": 1,
+          "stem": "A letter to Dad.",
+          "choices": [
+            "Love,",
+            "love,",
+            "Love",
+            "love"
+          ],
+          "answer_index": 0,
+          "explain_key": "closing_cap",
+          "media": [
+            {
+              "lemma": "mail"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_greetings_and_closings_of_letters_0003",
+          "tier": 1,
+          "stem": "A note to Grandma.",
+          "choices": [
+            "Hi Grandma,",
+            "hi Grandma,",
+            "hi grandma,",
+            "hi grandma"
+          ],
+          "answer_index": 0,
+          "explain_key": "greeting_cap",
+          "media": [
+            {
+              "lemma": "card"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_greetings_and_closings_of_letters_0004",
+          "tier": 2,
+          "stem": "A note to my friend.",
+          "choices": [
+            "Your friend,",
+            "your friend,",
+            "Your Friend,",
+            "your friend"
+          ],
+          "answer_index": 0,
+          "explain_key": "second_word",
+          "media": [
+            {
+              "lemma": "note"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_greetings_and_closings_of_letters_0005",
+          "tier": 2,
+          "stem": "A note to <NAME>.",
+          "choices": [
+            "Dear <NAME>,",
+            "dear <NAME>,",
+            "Dear <NAME>",
+            "dear <NAME>"
+          ],
+          "answer_index": 0,
+          "explain_key": "greeting_cap",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "letter"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_greetings_and_closings_of_letters_0006",
+          "tier": 2,
+          "stem": "A letter home.",
+          "choices": [
+            "From Grandma,",
+            "from Grandma,",
+            "From grandma,",
+            "From Grandma"
+          ],
+          "answer_index": 0,
+          "explain_key": "name_cap",
+          "media": [
+            {
+              "lemma": "mail"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_greetings_and_closings_of_letters_0007",
+          "tier": 3,
+          "stem": "A letter to my sister.",
+          "choices": [
+            "Best wishes,",
+            "Best Wishes,",
+            "best wishes,",
+            "Best wishes"
+          ],
+          "answer_index": 0,
+          "explain_key": "second_word",
+          "media": [
+            {
+              "lemma": "card"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_greetings_and_closings_of_letters_0008",
+          "tier": 3,
+          "stem": "A letter to Grandpa.",
+          "choices": [
+            "Dear Grandpa,",
+            "Dear grandpa,",
+            "dear Grandpa,",
+            "Dear Grandpa"
+          ],
+          "answer_index": 0,
+          "explain_key": "name_cap",
+          "media": [
+            {
+              "lemma": "letter"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep all four choices as variants of the same greeting or the same closing. Never mix the two letter parts in one item.",
+      "The correct choice has a capital first word, a capital name when a name is used, lowercase on any other word, and a comma at the end.",
+      "Wrong choices change only capitals or the comma. Do not add extra words or change Mom, Dad, Grandma, Grandpa, or <NAME>.",
+      "Tier 1: make three choices fully lowercase or missing the comma in an obvious way.",
+      "Tier 2: drop the first-word capital or the comma, or lowercase the name.",
+      "Tier 3: add a wrong capital on the second word of a two-word closing, or lowercase the family name after Dear, Hi, or From.",
+      "Never use a real given name. Use <NAME> or Mom, Dad, Grandma, Grandpa."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpunctuation\\b",
+    "\\bcapitaliz",
+    "\\buppercase\\b",
+    "\\blowercase\\b",
+    "\\bsentence\\b",
+    "\\bcomma\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words. The right greeting or closing has a clear capital and a comma. Distractors are all lowercase or drop the comma.",
+    "2": "Grade-level stems of four to six words. Distractors miss the first-word capital, lowercase a name, or drop the comma. Mix Dear, Hi, Love, From, and Your friend.",
+    "3": "Near misses. Wrong capital on the second word of Best wishes, Yours truly, or Your friend, or a lowercase family name after Dear, Hi, or From."
+  },
+  "miss_explain": {
+    "greeting_cap": {
+      "en": "A greeting starts with a capital. Names need a capital too. Put a comma at the end.",
+      "ko": "인사말은 대문자로 시작합니다. 이름도 대문자입니다. 끝에 쉼표를 씁니다."
+    },
+    "closing_cap": {
+      "en": "A closing starts with a capital. Put a comma at the end.",
+      "ko": "맺음말은 대문자로 시작합니다. 끝에 쉼표를 씁니다."
+    },
+    "name_cap": {
+      "en": "The name after Dear, Hi, or From needs a capital.",
+      "ko": "Dear, Hi, From 뒤에 오는 이름은 대문자로 씁니다."
+    },
+    "second_word": {
+      "en": "Only the first word of a closing needs a capital, unless the next word is a name.",
+      "ko": "맺음말은 첫 낱말만 대문자입니다. 다음 낱말이 이름이 아니면 소문자입니다."
+    },
+    "comma_end": {
+      "en": "A greeting or a closing needs a comma at the end.",
+      "ko": "인사말과 맺음말 끝에는 쉼표가 필요합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Greetings and closings of letters"
+    ],
+    "no_ixl_text": true
+  }
+}

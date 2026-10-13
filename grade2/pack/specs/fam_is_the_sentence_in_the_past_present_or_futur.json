@@ -1,0 +1,283 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+  "family_title_en": "Past, present, or future tense",
+  "item_type": "sort_three_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+      "ix_title": "Is the sentence in the past, present, or future tense?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Past, present, or future?",
+        "ko": "과거, 현재, 미래 중 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap past, present, or future.",
+        "ko": "과거, 현재, 미래를 누르세요."
+      },
+      "choices": [
+        "past",
+        "present",
+        "future"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "tomorrow",
+        "eats",
+        "plays",
+        "likes",
+        "wants",
+        "walks",
+        "talks",
+        "jumps",
+        "looks",
+        "reads",
+        "sleeps",
+        "helps",
+        "works",
+        "cooks",
+        "washes",
+        "played",
+        "walked",
+        "jumped",
+        "talked",
+        "liked",
+        "wanted",
+        "helped",
+        "worked",
+        "cooked",
+        "washed",
+        "slept",
+        "watched",
+        "kicked"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0001",
+          "tier": 1,
+          "stem": "The dog ate the food.",
+          "choices": [
+            "past",
+            "present",
+            "future"
+          ],
+          "answer_index": 0,
+          "explain_key": "past",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0002",
+          "tier": 1,
+          "stem": "The cat purrs at home.",
+          "choices": [
+            "past",
+            "present",
+            "future"
+          ],
+          "answer_index": 1,
+          "explain_key": "present",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0003",
+          "tier": 1,
+          "stem": "We will play at school.",
+          "choices": [
+            "past",
+            "present",
+            "future"
+          ],
+          "answer_index": 2,
+          "explain_key": "future",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0004",
+          "tier": 2,
+          "stem": "<NAME> went to the park.",
+          "choices": [
+            "past",
+            "present",
+            "future"
+          ],
+          "answer_index": 0,
+          "explain_key": "past",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0005",
+          "tier": 2,
+          "stem": "The kids are running outside.",
+          "choices": [
+            "past",
+            "present",
+            "future"
+          ],
+          "answer_index": 1,
+          "explain_key": "present"
+        },
+        {
+          "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0006",
+          "tier": 2,
+          "stem": "Mom will bake a cake today.",
+          "choices": [
+            "past",
+            "present",
+            "future"
+          ],
+          "answer_index": 2,
+          "explain_key": "future",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0007",
+          "tier": 3,
+          "stem": "Yesterday the little bird flew away.",
+          "choices": [
+            "past",
+            "present",
+            "future"
+          ],
+          "answer_index": 0,
+          "explain_key": "past",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0008",
+          "tier": 3,
+          "stem": "<NAME> will visit grandma later.",
+          "choices": [
+            "past",
+            "present",
+            "future"
+          ],
+          "answer_index": 2,
+          "explain_key": "future",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The three labels are fixed as past, present, future. Never change them or their order.",
+      "Every stem must be clearly one tense. No stem may be read two ways.",
+      "Keep the pool near equal past, present, and future.",
+      "Past uses irregular or -ed verbs and may use yesterday, last, or earlier.",
+      "Present uses am, is, or are plus -ing, or simple present forms such as goes, purrs, or smiles.",
+      "Future uses will plus a base verb and may use later, soon, tonight, or tomorrow.",
+      "Never use going to for future, because it can look like present progressive.",
+      "Never use real names. Use <NAME> only.",
+      "Stems stay in kid world: school, home, food, pets, play, family, weather. No brands.",
+      "For tier 3, use near misses: will plus a base verb that looks present, or yesterday plus an irregular past."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\btense\\b",
+    "\\bverb\\b",
+    "\\birregular\\b",
+    "\\bpunctuation\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words with a clear verb form. Add a picture lemma when the stem has a concrete noun.",
+    "2": "Grade-level stems of five to seven words. Mix irregular past, present progressive, and will plus a base verb.",
+    "3": "Near misses and longer stems. Past with yesterday plus an irregular verb. Future with will plus a base verb that looks present."
+  },
+  "miss_explain": {
+    "past": {
+      "en": "This already happened. Words like ate, went, or yesterday show the past.",
+      "ko": "이미 일어난 일이에요. ate, went, yesterday 같은 말이 과거를 보여 줍니다."
+    },
+    "present": {
+      "en": "This is happening now. Words like is, are, or purrs show the present.",
+      "ko": "지금 일어나고 있어요. is, are, purrs 같은 말이 현재를 보여 줍니다."
+    },
+    "future": {
+      "en": "This will happen later. The word will shows the future.",
+      "ko": "나중에 일어날 일이에요. will이 미래를 보여 줍니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Is the sentence in the past, present, or future tense?"
+    ],
+    "no_ixl_text": true
+  }
+}

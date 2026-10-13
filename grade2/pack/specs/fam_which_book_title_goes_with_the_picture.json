@@ -1,0 +1,280 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_which_book_title_goes_with_the_picture",
+  "family_title_en": "Book title for a picture",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_which_book_title_goes_with_the_picture",
+      "ix_title": "Which book title goes with the picture?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which title fits this picture?",
+        "ko": "이 그림에 맞는 제목은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the title that fits.",
+        "ko": "그림에 맞는 제목을 누르세요."
+      },
+      "choice_rule": "Write four title-case book titles of two to six kid words. Exactly one title fits the picture lemma. Only the correct title may use the lemma word. The other three are other kid-world titles. No brands. No real names.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "tale",
+        "tales",
+        "adventure",
+        "adventures",
+        "sleepy"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_which_book_title_goes_with_the_picture_0001",
+          "tier": 1,
+          "stem": "Tap the title.",
+          "choices": [
+            "The Little Cat",
+            "The Big Truck",
+            "Rain at School",
+            "My Red Ball"
+          ],
+          "answer_index": 0,
+          "explain_key": "match_theme",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_book_title_goes_with_the_picture_0002",
+          "tier": 1,
+          "stem": "Choose the title.",
+          "choices": [
+            "The Lost Frog",
+            "Cold Winter Wind",
+            "The Birthday Cake",
+            "A Fast Train"
+          ],
+          "answer_index": 2,
+          "explain_key": "match_theme",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_book_title_goes_with_the_picture_0003",
+          "tier": 1,
+          "stem": "Find the title.",
+          "choices": [
+            "The Green Plant",
+            "My Happy Dog",
+            "Soup for Dinner",
+            "A Bright Star"
+          ],
+          "answer_index": 1,
+          "explain_key": "match_theme",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_book_title_goes_with_the_picture_0004",
+          "tier": 2,
+          "stem": "See this picture.",
+          "choices": [
+            "A Day at the Beach",
+            "A Day at the Park",
+            "The Deep Lake",
+            "The Blue Pool"
+          ],
+          "answer_index": 0,
+          "explain_key": "match_place",
+          "media": [
+            {
+              "lemma": "beach"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_book_title_goes_with_the_picture_0005",
+          "tier": 2,
+          "stem": "Look at this.",
+          "choices": [
+            "The Sun Comes Out",
+            "Snow on the Hill",
+            "A Warm Breeze",
+            "The Rain Comes Down"
+          ],
+          "answer_index": 3,
+          "explain_key": "match_theme",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_book_title_goes_with_the_picture_0006",
+          "tier": 2,
+          "stem": "Tap a good title.",
+          "choices": [
+            "The Fast Car",
+            "The Fast Bike",
+            "The Red Truck",
+            "The New Train"
+          ],
+          "answer_index": 1,
+          "explain_key": "same_kind",
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_book_title_goes_with_the_picture_0007",
+          "tier": 3,
+          "stem": "<NAME> needs a title.",
+          "choices": [
+            "Lunch in the Kitchen",
+            "The Park Bench",
+            "The Picnic Lunch",
+            "Ants on the Grass"
+          ],
+          "answer_index": 2,
+          "explain_key": "near_setting",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "picnic"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_book_title_goes_with_the_picture_0008",
+          "tier": 3,
+          "stem": "Which title fits?",
+          "choices": [
+            "The Frog in the Pond",
+            "The Fish in the Pond",
+            "The Green Turtle",
+            "Bugs Near the Water"
+          ],
+          "answer_index": 0,
+          "explain_key": "same_kind",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four title-case book titles. Never change the count. One title is right.",
+      "Only the correct title may use the picture lemma word.",
+      "Never name or describe the picture in the stem. The lemma is the picture.",
+      "Tier 1 distractors come from a far kid world: pets, food, school, play, weather.",
+      "Tier 2 distractors share a broad group such as places, weather, or rides.",
+      "Tier 3 distractors share a setting or kind but not the pictured thing.",
+      "Keep titles in the kid world. No brands. No real names. Whole words only."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "picture shows",
+    "you see",
+    "in the picture",
+    "looks like",
+    "this is a picture",
+    "the image",
+    "\\bshown\\b",
+    "\\bdepict",
+    "\\billustrat",
+    "\\/[aeiou]",
+    "what do you see"
+  ],
+  "tier_rules": {
+    "1": "Short stem of two to four words. The picture is one clear thing. Wrong titles are from a far kid world.",
+    "2": "Grade-level titles of three to six words. Wrong titles share a broad group such as weather, places, or rides.",
+    "3": "Near-miss titles that share a setting or kind. Only the correct title uses the lemma word."
+  },
+  "miss_explain": {
+    "match_theme": {
+      "en": "The title names what the picture is about.",
+      "ko": "제목은 그림이 무엇에 관한 것인지 말해 줍니다."
+    },
+    "wrong_theme": {
+      "en": "That title is about something else.",
+      "ko": "그 제목은 다른 이야기에 관한 것입니다."
+    },
+    "match_place": {
+      "en": "The title names the place in the picture.",
+      "ko": "제목은 그림 속 장소를 말해 줍니다."
+    },
+    "same_kind": {
+      "en": "Pick the title that names this thing, not another like it.",
+      "ko": "비슷한 다른 것이 아니라 이것의 이름을 쓴 제목을 고르세요."
+    },
+    "near_setting": {
+      "en": "Same place or group is not enough. The title must fit this picture.",
+      "ko": "같은 장소나 종류만으로는 안 됩니다. 제목은 이 그림에 맞아야 합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Which book title goes with the picture?"
+    ],
+    "no_ixl_text": true
+  }
+}

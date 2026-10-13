@@ -1,0 +1,291 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+  "family_title_en": "Compound subjects and objects with I and me",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+      "ix_title": "Compound subjects and objects with \"I\" and \"me\"",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word fits?",
+        "ko": "어떤 단어가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right word.",
+        "ko": "알맞은 말을 누르세요."
+      },
+      "choices": [
+        "I",
+        "me",
+        "my",
+        "we"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "cousin",
+        "uncle",
+        "neighbor"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0001",
+          "tier": 1,
+          "stem": "<NAME> and walk home.",
+          "choices": [
+            "I",
+            "me",
+            "my",
+            "we"
+          ],
+          "answer_index": 0,
+          "explain_key": "subject_i",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "home"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0002",
+          "tier": 1,
+          "stem": "Mom hugged <NAME> and.",
+          "choices": [
+            "I",
+            "me",
+            "my",
+            "we"
+          ],
+          "answer_index": 1,
+          "explain_key": "object_me",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "mom"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0003",
+          "tier": 1,
+          "stem": "<NAME> and bake a cake.",
+          "choices": [
+            "I",
+            "me",
+            "my",
+            "we"
+          ],
+          "answer_index": 0,
+          "explain_key": "subject_i",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0004",
+          "tier": 2,
+          "stem": "Dad gave milk to <NAME> and.",
+          "choices": [
+            "I",
+            "me",
+            "my",
+            "we"
+          ],
+          "answer_index": 1,
+          "explain_key": "after_prep",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0005",
+          "tier": 2,
+          "stem": "My sister and ride the bus.",
+          "choices": [
+            "I",
+            "me",
+            "my",
+            "we"
+          ],
+          "answer_index": 0,
+          "explain_key": "subject_i",
+          "media": [
+            {
+              "lemma": "bus"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0006",
+          "tier": 2,
+          "stem": "Come play ball with <NAME> and.",
+          "choices": [
+            "I",
+            "me",
+            "my",
+            "we"
+          ],
+          "answer_index": 1,
+          "explain_key": "after_prep",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0007",
+          "tier": 3,
+          "stem": "The puppy sat between you and.",
+          "choices": [
+            "I",
+            "me",
+            "my",
+            "we"
+          ],
+          "answer_index": 1,
+          "explain_key": "after_prep",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0008",
+          "tier": 3,
+          "stem": "In the morning, <NAME> and walk to school.",
+          "choices": [
+            "I",
+            "me",
+            "my",
+            "we"
+          ],
+          "answer_index": 0,
+          "explain_key": "subject_i",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The four labels I, me, my, and we are fixed. Never change them or their order.",
+      "Never put I, me, my, or we in the stem.",
+      "Every stem has and plus <NAME> or a family word so the missing word is the second half of a compound.",
+      "The gap is always the word after and. End object stems after and.",
+      "Exactly one of I or me is correct. Drop the other person and read the stem again to check.",
+      "Keep the pool near half subject I and half object me.",
+      "my and we are never correct in this family. Do not write a stem that could take we.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands.",
+      "For tier 3, use between, for, asked, or a time opener. No stem may work with both I and me."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsubject\\b",
+    "\\bobject\\b",
+    "\\bpronoun\\b",
+    "\\bcompound\\b",
+    "\\bpredicate\\b",
+    "\\bnominative\\b",
+    "\\bobjective\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bmyself\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. The gap is I or me after and. Subjects do an action; objects get one. Add a picture lemma on a concrete noun.",
+    "2": "Grade-level stems of five to seven words. Mix action verbs with to, with, and for. A family word like sister may replace a name.",
+    "3": "Near-miss stems up to ten words. Use between, time openers, or verbs like asked. Only one of I or me can pass the alone test."
+  },
+  "miss_explain": {
+    "subject_i": {
+      "en": "Use I when you do the action with someone. Try it alone: I walk.",
+      "ko": "누군가와 같이 할 때는 I를 씁니다. 혼자 말하면 I walk입니다."
+    },
+    "object_me": {
+      "en": "Use me when the action happens to you. Try it alone: hugged me.",
+      "ko": "행동이 나에게 일어나면 me를 씁니다. 혼자 말하면 hugged me입니다."
+    },
+    "after_prep": {
+      "en": "After to, with, for, or between, use me.",
+      "ko": "to, with, for, between 뒤에는 me를 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Compound subjects and objects with \"I\" and \"me\""
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_is_the_sentence_a_statement_question_command",
+  "family_title_en": "Statement, question, command, or exclamation",
+  "item_type": "sort_four_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_is_the_sentence_a_statement_question_command",
+      "ix_title": "Is the sentence a statement, question, command, or exclamation?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "What kind of sentence is this?",
+        "ko": "이 문장은 어떤 종류의 문장인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap statement, question, command, or exclamation.",
+        "ko": "평서문, 의문문, 명령문, 감탄문 중 하나를 누르세요."
+      },
+      "choices": [
+        "statement",
+        "question",
+        "command",
+        "exclamation"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "statement",
+        "command",
+        "exclamation",
+        "yummy",
+        "messy",
+        "careful",
+        "quickly"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_is_the_sentence_a_statement_question_command_0001",
+          "tier": 1,
+          "stem": "The cat is on the bed.",
+          "choices": [
+            "statement",
+            "question",
+            "command",
+            "exclamation"
+          ],
+          "answer_index": 0,
+          "explain_key": "statement",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_a_statement_question_command_0002",
+          "tier": 1,
+          "stem": "Who took my red ball?",
+          "choices": [
+            "statement",
+            "question",
+            "command",
+            "exclamation"
+          ],
+          "answer_index": 1,
+          "explain_key": "question",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_a_statement_question_command_0003",
+          "tier": 1,
+          "stem": "Sit on the green chair.",
+          "choices": [
+            "statement",
+            "question",
+            "command",
+            "exclamation"
+          ],
+          "answer_index": 2,
+          "explain_key": "command",
+          "media": [
+            {
+              "lemma": "chair"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_a_statement_question_command_0004",
+          "tier": 2,
+          "stem": "What a pretty rainbow we saw!",
+          "choices": [
+            "statement",
+            "question",
+            "command",
+            "exclamation"
+          ],
+          "answer_index": 3,
+          "explain_key": "exclamation",
+          "media": [
+            {
+              "lemma": "rainbow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_a_statement_question_command_0005",
+          "tier": 2,
+          "stem": "Can we visit grandma after school?",
+          "choices": [
+            "statement",
+            "question",
+            "command",
+            "exclamation"
+          ],
+          "answer_index": 1,
+          "explain_key": "question",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_a_statement_question_command_0006",
+          "tier": 2,
+          "stem": "Please close the kitchen door quietly.",
+          "choices": [
+            "statement",
+            "question",
+            "command",
+            "exclamation"
+          ],
+          "answer_index": 2,
+          "explain_key": "command",
+          "media": [
+            {
+              "lemma": "door"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_a_statement_question_command_0007",
+          "tier": 3,
+          "stem": "<NAME> said where the picnic is.",
+          "choices": [
+            "statement",
+            "question",
+            "command",
+            "exclamation"
+          ],
+          "answer_index": 0,
+          "explain_key": "statement",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "picnic"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_sentence_a_statement_question_command_0008",
+          "tier": 3,
+          "stem": "How fast that little brown dog ran!",
+          "choices": [
+            "statement",
+            "question",
+            "command",
+            "exclamation"
+          ],
+          "answer_index": 3,
+          "explain_key": "exclamation",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The four labels stay statement, question, command, exclamation in that order. Never rename or reorder them.",
+      "Every stem is one complete sentence with only one reading. Do not write a stem that could be two kinds.",
+      "Keep the pool near even across the four kinds.",
+      "Statements end with a period and tell. Questions end with a question mark and ask. Commands tell someone to act and start with a verb. Exclamations show strong feeling and end with an exclamation mark.",
+      "Never write a command that ends with an exclamation mark. Never write an exclamation that asks.",
+      "For tier 3, use statements that hold what, where, or how inside them, and exclamations that begin with what or how."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bquestion mark\\b",
+    "\\bpunctuation\\b",
+    "\\bperiod\\b",
+    "\\bexclamation mark\\b",
+    "\\bexclamation point\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Clear end marks. Statements tell. Questions start with who, what, where, when, or why. Commands start with a verb. Exclamations are short and end with an exclamation mark.",
+    "2": "Grade-level stems of five to eight words. Use two-syllable kid words. Questions may start with can, did, does, or will. Commands may start with please.",
+    "3": "Near misses. Statements that hold what, where, or how. Exclamations that start with what or how. Longer yes or no questions. Never two readings."
+  },
+  "miss_explain": {
+    "statement": {
+      "en": "A statement tells something. It ends with a period.",
+      "ko": "평서문은 무언가를 알려 줍니다. 마침표로 끝납니다."
+    },
+    "question": {
+      "en": "A question asks something. It ends with a question mark.",
+      "ko": "의문문은 무언가를 묻습니다. 물음표로 끝납니다."
+    },
+    "command": {
+      "en": "A command tells someone to do something. It often starts with a verb.",
+      "ko": "명령문은 누군가에게 무엇을 하라고 시킵니다. 보통 동사로 시작합니다."
+    },
+    "exclamation": {
+      "en": "An exclamation shows strong feeling. It ends with an exclamation mark.",
+      "ko": "감탄문은 강한 느낌을 나타냅니다. 느낌표로 끝납니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Is the sentence a statement, question, command, or exclamation?"
+    ],
+    "no_ixl_text": true
+  }
+}

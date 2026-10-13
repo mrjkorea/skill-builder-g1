@@ -1,0 +1,278 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_dictionary_entries",
+  "family_title_en": "Use dictionary entries",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_dictionary_entries",
+      "ix_title": "Use dictionary entries",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence matches this entry?",
+        "ko": "이 뜻풀이에 맞는 문장은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that matches.",
+        "ko": "맞는 문장을 누르세요."
+      },
+      "choice_rule": "Four unique kid sentences of four to ten words. Exactly one uses the headword with the meaning in the stem entry. For a homograph, one distractor uses the other common meaning. Remaining distractors are unrelated kid-world sentences, plus one lookalike word at tier 3. Words from the roots wordlist and allowed_extra_words only. No brands, no real names, no picture talk. Do not copy the stem gloss into a choice.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "adjective",
+        "adverb",
+        "definition",
+        "definitions",
+        "dictionary",
+        "entries",
+        "entry",
+        "meaning",
+        "meanings",
+        "noun",
+        "speech",
+        "verb"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_dictionary_entries_0001",
+          "tier": 1,
+          "stem": "puppy: a young dog",
+          "choices": [
+            "The puppy sat on the bed.",
+            "The plant grew in the sun.",
+            "We ate lunch at noon.",
+            "The bike is red."
+          ],
+          "answer_index": 0,
+          "explain_key": "match_entry",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_dictionary_entries_0002",
+          "tier": 1,
+          "stem": "kite: a toy in the sky",
+          "choices": [
+            "She drank cold milk.",
+            "The kids flew a kite.",
+            "The frog sat on a log.",
+            "We need a new broom."
+          ],
+          "answer_index": 1,
+          "explain_key": "match_entry",
+          "media": [
+            {
+              "lemma": "kite"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_dictionary_entries_0003",
+          "tier": 1,
+          "stem": "cookie: a sweet snack",
+          "choices": [
+            "The rain fell on the roof.",
+            "A fox hid in a hole.",
+            "<NAME> ate a cookie.",
+            "We swim in the pool."
+          ],
+          "answer_index": 2,
+          "explain_key": "match_entry",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_dictionary_entries_0004",
+          "tier": 2,
+          "stem": "bark: the loud noise dogs make",
+          "choices": [
+            "The tree bark felt rough.",
+            "We bake bread at home.",
+            "A boat is on the lake.",
+            "The dog barked at the cat."
+          ],
+          "answer_index": 3,
+          "explain_key": "other_sense",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_dictionary_entries_0005",
+          "tier": 2,
+          "stem": "bat: a small night animal",
+          "choices": [
+            "The bat flew by the cave.",
+            "He hit the ball hard.",
+            "The cup is on the desk.",
+            "We plant a seed in spring."
+          ],
+          "answer_index": 0,
+          "explain_key": "other_sense",
+          "media": [
+            {
+              "lemma": "bat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_dictionary_entries_0006",
+          "tier": 2,
+          "stem": "wave: water that rolls in",
+          "choices": [
+            "<NAME> waved at mom.",
+            "A big wave hit the beach.",
+            "The book is on the shelf.",
+            "Ants walk in a line."
+          ],
+          "answer_index": 1,
+          "explain_key": "other_sense",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "wave"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_dictionary_entries_0007",
+          "tier": 3,
+          "stem": "watch verb to look at something",
+          "choices": [
+            "We watch the soccer game.",
+            "The watch on her hand is gold.",
+            "They wash the muddy dish.",
+            "He wants a new hat."
+          ],
+          "answer_index": 0,
+          "explain_key": "other_sense"
+        },
+        {
+          "item_id": "roots_use_dictionary_entries_0008",
+          "tier": 3,
+          "stem": "light adjective not heavy to carry",
+          "choices": [
+            "Turn on the light please.",
+            "The night is very dark.",
+            "This bag is light to carry.",
+            "<NAME> will like the pink dress."
+          ],
+          "answer_index": 2,
+          "explain_key": "other_sense",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep the stem as a short dictionary entry: headword, then a gloss. At tier 3 add a part-of-speech label before the gloss.",
+      "Exactly one choice sentence uses the headword with that gloss. Never write two sentences that both fit.",
+      "When the headword has two common kid meanings, one distractor must use the other meaning.",
+      "Other distractors must not reuse the gloss words as a giveaway and must stay in school, home, food, pets, play, family, or weather.",
+      "At tier 3 add one near-miss lookalike word in a distractor, such as watch and wash or light and night.",
+      "Never name a brand, a real person, or a picture. Use <NAME> for people."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "look at the picture",
+    "in the picture",
+    "which of the following",
+    "best answer",
+    "merriam",
+    "webster",
+    "oxford",
+    "wiktionary",
+    "dictionary\\.com",
+    "\\/[^/]{1,8}\\/"
+  ],
+  "tier_rules": {
+    "1": "Short entry of three to five words and one clear kid meaning. Distractor sentences are about other things, not a second meaning. Add a lemma picture for a concrete noun.",
+    "2": "Homograph entries of five to seven words. One distractor uses the other common meaning. Two-syllable kid words are fine.",
+    "3": "Near-miss entries that include a part-of-speech label. Distractors include the other meaning and a lookalike word. Still one tap and one right sentence."
+  },
+  "miss_explain": {
+    "match_entry": {
+      "en": "Pick the sentence that uses the word the same way as the entry.",
+      "ko": "뜻풀이와 같은 뜻으로 단어를 쓴 문장을 고르세요."
+    },
+    "other_sense": {
+      "en": "This word has more than one meaning. Match this entry.",
+      "ko": "이 단어는 뜻이 여러 개입니다. 이 뜻풀이에 맞는 문장을 고르세요."
+    },
+    "wrong_word": {
+      "en": "That sentence does not use the meaning in the entry.",
+      "ko": "그 문장은 이 뜻풀이의 뜻을 쓰지 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use dictionary entries"
+    ],
+    "no_ixl_text": true
+  }
+}

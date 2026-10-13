@@ -1,0 +1,2105 @@
+[
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0001",
+    "tier": 1,
+    "stem": "The dog ran home.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0002",
+    "tier": 1,
+    "stem": "The little brown dog.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0003",
+    "tier": 1,
+    "stem": "The cat sat the dog ran.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0004",
+    "tier": 2,
+    "stem": "My sister baked a cake.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0005",
+    "tier": 2,
+    "stem": "After the big lunch.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0006",
+    "tier": 2,
+    "stem": "We ate lunch we went outside.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0007",
+    "tier": 3,
+    "stem": "<NAME> was hungry after dinner.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0008",
+    "tier": 3,
+    "stem": "Because the rain was cold.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ],
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0009",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The cat sat down.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0010",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "My mom made soup.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0011",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "We play at recess.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0012",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The bird flew away.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0013",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "Dad fixed the bike.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0014",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "I like my pet.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pet"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0015",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The sun is hot.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0016",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "She gave the fish corn.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0017",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The frog can hop.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0018",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The big red ball.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0019",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "On the soft rug.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0020",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "A cold wet day.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0021",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The happy little pup.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0022",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "In the warm kitchen.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitchen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0023",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "My new blue coat.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0024",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The tall green tree.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0025",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "At school today.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0026",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "Under my warm bed.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0027",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "I ran he hop.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0028",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "She sang we clapped.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0029",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The dog barked it ran.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0030",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "We ate they play.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0031",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "He fell she help.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0032",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The cat hid it sat.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0033",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "Mom ate dad went out.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0034",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "I read she drew.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0035",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "We won they cheer.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0036",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Grandma read a story.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0037",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The small pup bit a bone.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0038",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We built a tall block wall.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0039",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "My brother lost his hat.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0040",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The class sang a song.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0041",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "A bug buzz by the flower.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0042",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The baby was tired at nap.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0043",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We ate our lunch before nap.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0044",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The rabbit hid in the bush.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0045",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "I packed my bag for school.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0046",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The wind blew the kite high.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0047",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Our team won the soccer game.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0048",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Before we ate breakfast.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0049",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "During the long bus ride.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0050",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "At the busy playground.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "playground"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0051",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "After my nap tonight.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0052",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "On the front step.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0053",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The old wood bench.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0054",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Near the quiet pond.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pond"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0055",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Inside the small red barn.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0056",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Without my warm mitten.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0057",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Over the gray stone wall.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0058",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "After the loud thunder clap.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0059",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "At the end of recess.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "recess"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0060",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The bell rang we line up.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0061",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "I drew a cat she drew a dog.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0062",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We ran home it began to rain.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0063",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The cake fell mom baked another.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0064",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "He gave the dog he went outside.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0065",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "She tied her shoe she grab her lunch.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0066",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The kids hid we found them fast.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0067",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We made cookies we ate them fast.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0068",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The duck float the goose flew away.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0069",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "My dad cut the grass I rake leaves.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0070",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The fire truck came the noise was loud.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0071",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "She put seed the rain help them grow.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0072",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The owl called the mouse ran away.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0073",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> smiled when the sun came out.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0074",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "When the bus came <NAME> got off.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0075",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> ate soup after the cold walk home.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0076",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "After we ate dinner <NAME> wash the dish.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0077",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> read a book when the light went out.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0078",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "When the snow fell <NAME> built a fort.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0079",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> was tired after the long walk.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0080",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Because the dog was wet <NAME> dry it off.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0081",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "When <NAME> wake up the bird sang.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0082",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> felt happy after the big school play.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 0,
+    "explain_key": "sentence",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0083",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Because the cat was hungry.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0084",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "When the little bird fell.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0085",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Because my brother was sick.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0086",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "When the rain got loud.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0087",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Because the cake was still hot.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0088",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "When the puppy bit my shoe.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0089",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Because the water in the pool was cold.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pool"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0090",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "When the teacher called our group.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0091",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Because the wind blew the tent down.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 1,
+    "explain_key": "fragment",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0092",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The rat ran the cat watch it.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0093",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "We ate snack we watch a movie.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0094",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The boy throw the ball the girl catch it.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0095",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "I woke up early I still felt tired.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0096",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The hen has an egg the dog barked loud.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0097",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "She brush her teeth she put on her coat.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0098",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The mouse hid the owl look for it.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0099",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "We pick apple we make a pie.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0100",
+    "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The cow jump the fence the dog barked.",
+    "choices": [
+      "sentence",
+      "fragment",
+      "run-on"
+    ],
+    "answer_index": 2,
+    "explain_key": "run_on",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

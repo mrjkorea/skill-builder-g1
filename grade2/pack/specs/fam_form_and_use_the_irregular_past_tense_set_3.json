@@ -1,0 +1,343 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_and_use_the_irregular_past_tense_set_3",
+  "family_title_en": "Irregular past tense set 3",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_and_use_the_irregular_past_tense_set_3",
+      "ix_title": "Form and use the irregular past tense: set 3",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word already happened?",
+        "ko": "어떤 말이 이미 일어난 일인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the past word.",
+        "ko": "과거인 말을 누르세요."
+      },
+      "choice_rule": "Four single words for one set-3 verb only. Include the irregular simple past as the key, a fake -ed form, a present or -s form, and one more same-verb foil. Tier 1 foil is the bare present. Tier 2 foil is the -ing form. Tier 3 foil is the past participle. Never use a past from a different verb. Never target went, saw, ate, came, ran, sat, got, took, gave, made, said, found, told, left, or felt. Set-3 keys only: blew, broke, built, chose, drank, drew, drove, fell, flew, froze, grew, heard, kept, rode, sang, spoke, stood, woke, wore, wrote.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "blow",
+        "blowed",
+        "blowing",
+        "blown",
+        "blows",
+        "breaked",
+        "breaking",
+        "breaks",
+        "broken",
+        "builded",
+        "builds",
+        "choosed",
+        "chooses",
+        "choosing",
+        "chosen",
+        "drawed",
+        "drawing",
+        "drawn",
+        "draws",
+        "drinked",
+        "drinking",
+        "drinks",
+        "drunk",
+        "drived",
+        "driven",
+        "drives",
+        "driving",
+        "falled",
+        "fallen",
+        "falling",
+        "falls",
+        "flied",
+        "flies",
+        "flying",
+        "flown",
+        "freezed",
+        "freezes",
+        "freezing",
+        "frozen",
+        "growed",
+        "growing",
+        "grown",
+        "grows",
+        "heared",
+        "hearing",
+        "hears",
+        "keeped",
+        "keeping",
+        "keeps",
+        "rided",
+        "ridden",
+        "rides",
+        "riding",
+        "singed",
+        "singing",
+        "sings",
+        "speak",
+        "speaked",
+        "speaking",
+        "spoken",
+        "standed",
+        "standing",
+        "stands",
+        "sung",
+        "waked",
+        "wakes",
+        "waking",
+        "weared",
+        "wearing",
+        "wears",
+        "woken",
+        "worn",
+        "writed",
+        "writes",
+        "writing",
+        "written"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_3_0001",
+          "tier": 1,
+          "stem": "Yesterday the bird fly home.",
+          "choices": [
+            "flew",
+            "flied",
+            "flies",
+            "fly"
+          ],
+          "answer_index": 0,
+          "explain_key": "no_ed",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_3_0002",
+          "tier": 1,
+          "stem": "Yesterday the tree grow tall.",
+          "choices": [
+            "growed",
+            "grows",
+            "grew",
+            "grow"
+          ],
+          "answer_index": 2,
+          "explain_key": "no_ed",
+          "media": [
+            {
+              "lemma": "tree"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_3_0003",
+          "tier": 1,
+          "stem": "Yesterday the ice freeze.",
+          "choices": [
+            "freeze",
+            "froze",
+            "freezed",
+            "freezes"
+          ],
+          "answer_index": 1,
+          "explain_key": "no_ed",
+          "media": [
+            {
+              "lemma": "ice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_3_0004",
+          "tier": 2,
+          "stem": "Last night <NAME> write a note.",
+          "choices": [
+            "writed",
+            "writes",
+            "writing",
+            "wrote"
+          ],
+          "answer_index": 3,
+          "explain_key": "no_ed",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "note"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_3_0005",
+          "tier": 2,
+          "stem": "This morning the puppy drink milk.",
+          "choices": [
+            "drank",
+            "drinked",
+            "drinks",
+            "drinking"
+          ],
+          "answer_index": 0,
+          "explain_key": "no_ed",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_3_0006",
+          "tier": 2,
+          "stem": "Yesterday my brother draw a funny cat.",
+          "choices": [
+            "drawed",
+            "drawing",
+            "drew",
+            "draws"
+          ],
+          "answer_index": 2,
+          "explain_key": "no_ed",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_3_0007",
+          "tier": 3,
+          "stem": "<NAME> choose a red apple yesterday.",
+          "choices": [
+            "chosen",
+            "chose",
+            "choosed",
+            "chooses"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_have_form",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_3_0008",
+          "tier": 3,
+          "stem": "After lunch <NAME> drive to the lake.",
+          "choices": [
+            "driven",
+            "drived",
+            "drives",
+            "drove"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_have_form",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lake"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use only set-3 irregulars as the key: blew, broke, built, chose, drank, drew, drove, fell, flew, froze, grew, heard, kept, rode, sang, spoke, stood, woke, wore, wrote.",
+      "Every wrong choice must be the same verb in a fake -ed form, a present or -s form, an -ing form, or a past participle.",
+      "Never put a real past from another verb in the choice row. That makes two past answers.",
+      "Tier 1 wrong choices should look obviously regular, like flied or growed.",
+      "Tier 3 must use the past participle as the near miss, like chosen or driven, plus one fake -ed form.",
+      "Keep stems in kid places: school, home, food, pets, play, family, or weather. No brands and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\birregular\\b",
+    "\\bpast tense\\b",
+    "\\bpresent tense\\b",
+    "\\bverb tense\\b",
+    "\\bpicture\\b",
+    "\\blisten\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words with yesterday. Wrong choices are a fake -ed form and the present. Add a noun lemma for a later picture.",
+    "2": "Five to seven word stems with last night or this morning. Same-verb foils are the -ing form and a present or -s form.",
+    "3": "Stems up to ten words with a time clue. Near-miss foils are the past participle and a fake -ed form of the same verb."
+  },
+  "miss_explain": {
+    "no_ed": {
+      "en": "Do not add -ed. This past word changes inside.",
+      "ko": "ed를 붙이지 마세요. 이 과거형은 말 속이 바뀝니다."
+    },
+    "not_have_form": {
+      "en": "Use the simple past, not the word that follows have.",
+      "ko": "have 다음에 오는 말이 아니라 단순 과거를 쓰세요."
+    },
+    "still_now": {
+      "en": "That word is for now. Tap the word for already.",
+      "ko": "그 말은 지금을 뜻합니다. 이미 일어난 말을 누르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form and use the irregular past tense: set 3"
+    ],
+    "no_ixl_text": true
+  }
+}

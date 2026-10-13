@@ -1,0 +1,277 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_possessive_pronouns",
+  "family_title_en": "Use possessive pronouns",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_possessive_pronouns",
+      "ix_title": "Use possessive pronouns",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word belongs here?",
+        "ko": "여기에 어떤 말이 들어가나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that shows who owns it.",
+        "ko": "주인이 누구인지 나타내는 말을 누르세요."
+      },
+      "choice_rule": "Four one-word choices each item. One right possessive pronoun from mine, yours, his, hers, ours, theirs. Three wrong words from my, your, her, our, their, I, me, you, he, him, she, we, us, they, them. Never offer a second possessive pronoun that could also fit. The key must stand alone after is or are.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "yours",
+        "hers",
+        "ours",
+        "theirs"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_possessive_pronouns_0001",
+          "tier": 1,
+          "stem": "This bag is",
+          "choices": [
+            "mine",
+            "my",
+            "me",
+            "I"
+          ],
+          "answer_index": 0,
+          "explain_key": "mine",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_possessive_pronouns_0002",
+          "tier": 1,
+          "stem": "The red hat is",
+          "choices": [
+            "your",
+            "yours",
+            "you",
+            "she"
+          ],
+          "answer_index": 1,
+          "explain_key": "yours",
+          "media": [
+            {
+              "lemma": "hat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_possessive_pronouns_0003",
+          "tier": 1,
+          "stem": "That ball is",
+          "choices": [
+            "he",
+            "him",
+            "his",
+            "they"
+          ],
+          "answer_index": 2,
+          "explain_key": "his",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_possessive_pronouns_0004",
+          "tier": 2,
+          "stem": "The little puppy is",
+          "choices": [
+            "ours",
+            "our",
+            "us",
+            "we"
+          ],
+          "answer_index": 0,
+          "explain_key": "ours",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_possessive_pronouns_0005",
+          "tier": 2,
+          "stem": "Those books on the desk are",
+          "choices": [
+            "their",
+            "them",
+            "they",
+            "theirs"
+          ],
+          "answer_index": 3,
+          "explain_key": "theirs",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_possessive_pronouns_0006",
+          "tier": 2,
+          "stem": "The yellow kite is",
+          "choices": [
+            "her",
+            "hers",
+            "she",
+            "him"
+          ],
+          "answer_index": 1,
+          "explain_key": "hers",
+          "media": [
+            {
+              "lemma": "kite"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_possessive_pronouns_0007",
+          "tier": 3,
+          "stem": "After the party <NAME> said the cake is",
+          "choices": [
+            "my",
+            "me",
+            "mine",
+            "I"
+          ],
+          "answer_index": 2,
+          "explain_key": "mine",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_possessive_pronouns_0008",
+          "tier": 3,
+          "stem": "She has a fluffy kitten. It is",
+          "choices": [
+            "hers",
+            "her",
+            "his",
+            "she"
+          ],
+          "answer_index": 0,
+          "explain_key": "hers",
+          "media": [
+            {
+              "lemma": "kitten"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Wrong choices are possessive adjectives (my, your, her, our, their) or personal pronouns (I, me, you, he, him, she, we, us, they, them).",
+      "Never put a second possessive pronoun in the choice set if it could also finish the stem.",
+      "Use his as the key only when the stem needs a standalone owner word after is or are. Do not offer hers, ours, or theirs on that same item.",
+      "Give a clear owner cue before hers or his so only one gender reading works.",
+      "Keep exactly one right answer. Mix the key position across the four slots.",
+      "Tier 3 near misses must include the matching adjective (mine/my, yours/your, hers/her, ours/our, theirs/their)."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpronoun\\b",
+    "\\bpossessive\\b",
+    "\\badjective\\b",
+    "\\bgrammar\\b",
+    "\\bdeterminer\\b",
+    "\\bsentence\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of three to five words ending with is or are. Far distractors such as I, me, he, they. Picture lemma on the owned thing.",
+    "2": "Stems of four to seven words with two-syllable kid nouns such as puppy, yellow, or desk. Main distractor is the matching adjective (our/ours, their/theirs, her/hers).",
+    "3": "Stems of seven to ten words with a name swap or a she/girl owner cue. Near-miss adjective plus one extra person-pronoun trap. Still one clear key."
+  },
+  "miss_explain": {
+    "mine": {
+      "en": "Mine stands alone. Say this bag is mine, not this bag is my.",
+      "ko": "Mine은 혼자 씁니다. this bag is mine이지 this bag is my가 아닙니다."
+    },
+    "yours": {
+      "en": "Yours stands alone. Say the hat is yours, not the hat is your.",
+      "ko": "Yours는 혼자 씁니다. the hat is yours이지 the hat is your가 아닙니다."
+    },
+    "his": {
+      "en": "His can stand alone. Say the ball is his, not the ball is him.",
+      "ko": "His는 혼자 쓸 수 있습니다. the ball is his이지 the ball is him이 아닙니다."
+    },
+    "hers": {
+      "en": "Hers stands alone. Say the kite is hers, not the kite is her.",
+      "ko": "Hers는 혼자 씁니다. the kite is hers이지 the kite is her가 아닙니다."
+    },
+    "ours": {
+      "en": "Ours stands alone. Say the puppy is ours, not the puppy is our.",
+      "ko": "Ours는 혼자 씁니다. the puppy is ours이지 the puppy is our가 아닙니다."
+    },
+    "theirs": {
+      "en": "Theirs stands alone. Say the books are theirs, not the books are their.",
+      "ko": "Theirs는 혼자 씁니다. the books are theirs이지 the books are their가 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use possessive pronouns"
+    ],
+    "no_ixl_text": true
+  }
+}

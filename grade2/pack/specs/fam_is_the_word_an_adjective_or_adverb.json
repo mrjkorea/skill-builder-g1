@@ -1,0 +1,263 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_is_the_word_an_adjective_or_adverb",
+  "family_title_en": "Is the word an adjective or adverb?",
+  "item_type": "sort_two_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+      "ix_title": "Is the word an adjective or adverb?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Is the word in quotes an adjective or an adverb?",
+        "ko": "따옴표 안의 단어는 형용사일까요, 부사일까요?"
+      },
+      "what_to_do": {
+        "en": "Tap adjective or adverb.",
+        "ko": "형용사 또는 부사를 누르세요."
+      },
+      "choices": [
+        "adjective",
+        "adverb"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "quickly",
+        "loudly",
+        "happily",
+        "softly",
+        "kindly"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_is_the_word_an_adjective_or_adverb_0001",
+          "tier": 1,
+          "stem": "The \"big\" dog ran.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 0,
+          "explain_key": "adj_before_noun",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_word_an_adjective_or_adverb_0002",
+          "tier": 1,
+          "stem": "The dog ran \"slowly\".",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 1,
+          "explain_key": "adv_how",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_word_an_adjective_or_adverb_0003",
+          "tier": 1,
+          "stem": "The \"happy\" baby smiled.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 0,
+          "explain_key": "adjective",
+          "media": [
+            {
+              "lemma": "baby"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_word_an_adjective_or_adverb_0004",
+          "tier": 2,
+          "stem": "<NAME> sat \"quietly\".",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 1,
+          "explain_key": "adv_how",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_is_the_word_an_adjective_or_adverb_0005",
+          "tier": 2,
+          "stem": "We ate a \"sweet\" snack.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 0,
+          "explain_key": "adj_before_noun",
+          "media": [
+            {
+              "lemma": "snack"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_word_an_adjective_or_adverb_0006",
+          "tier": 2,
+          "stem": "The kids play \"outside\".",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 1,
+          "explain_key": "adv_where",
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_word_an_adjective_or_adverb_0007",
+          "tier": 3,
+          "stem": "The \"fast\" bike won.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 0,
+          "explain_key": "adj_before_noun",
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_word_an_adjective_or_adverb_0008",
+          "tier": 3,
+          "stem": "<NAME> can ride \"fast\".",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 1,
+          "explain_key": "adv_how",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep the two bin labels fixed as adjective then adverb. Never change the words or the order.",
+      "Quote exactly one target word in every stem. The quoted word is the only word to sort.",
+      "Never quote a noun or a verb. Quote only the adjective or the adverb.",
+      "Write one clear job for the quoted word. If a stem can be read two ways, rewrite it.",
+      "Keep the pool near half adjectives and half adverbs.",
+      "Tier 1 adjectives are common size, color, or feeling words next to a noun. Tier 1 adverbs are clear -ly how words.",
+      "Tier 2 may use two-syllable words and when or where adverbs such as today, outside, or quietly.",
+      "Tier 3 must use a word that can be both, such as fast, hard, early, late, or well, in a sentence that locks one job.",
+      "Do not use pretty, very, or really as a fake adverb of degree next to another target. One quoted word only.",
+      "Stem words come only from the roots wordlist, allowed_extra_words, or <NAME>. Kid world only: school, home, food, pets, play, family, weather."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bunderline",
+    "\\bmodifies\\b",
+    "\\bdescribes\\b",
+    "\\bpart of speech\\b",
+    "\\bending\\b",
+    "\\b-ly\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words. Quote a clear size, color, or feeling adjective by a noun, or a clear -ly how adverb after a verb. Add a lemma picture of the noun when the target is an adjective.",
+    "2": "Grade 2 stems of four to seven words. Use two-syllable words. Mix -ly how adverbs with when or where adverbs such as outside or today, and adjectives about food, pets, play, or weather.",
+    "3": "Near misses of five to eight words. Quote fast, hard, early, late, or well in a sentence that allows only one job. Pair the same spelling across items when you can: before a noun is adjective; after a verb is adverb."
+  },
+  "miss_explain": {
+    "adjective": {
+      "en": "An adjective describes a person, place, or thing.",
+      "ko": "형용사는 사람, 장소, 사물을 설명합니다."
+    },
+    "adverb": {
+      "en": "An adverb tells how, when, or where.",
+      "ko": "부사는 어떻게, 언제, 어디서인지를 말합니다."
+    },
+    "adj_before_noun": {
+      "en": "This word tells about the thing next to it.",
+      "ko": "이 단어는 바로 옆의 사물을 설명합니다."
+    },
+    "adv_how": {
+      "en": "This word tells how an action happens.",
+      "ko": "이 단어는 행동이 어떻게 일어나는지 말합니다."
+    },
+    "adv_where": {
+      "en": "This word tells where. That makes it an adverb.",
+      "ko": "이 단어는 장소를 말합니다. 그래서 부사입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Is the word an adjective or adverb?"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,2593 @@
+[
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0001",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and walk home.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0002",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom hugged <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0003",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and bake a cake.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0004",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Dad gave milk to <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0005",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My sister and ride the bus.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0006",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Come play ball with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0007",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The puppy sat between you and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0008",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the morning, <NAME> and walk to school.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0009",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and play games.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "games"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0010",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and feed the cat.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0011",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My cousin and jump rope.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0012",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and draw pictures.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "pictures"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0013",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and wash hands.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "hands"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0014",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and sing songs.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "songs"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0015",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My uncle and plant beans.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beans"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0016",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and eat apples.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "apples"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0017",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and kick ball.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0018",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and climb trees.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "trees"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0019",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and make cookies.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cookies"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0020",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and watch birds.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "birds"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0021",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and pick flowers.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "flowers"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0022",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> and clean room.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0023",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Dad saw <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0024",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom fed <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0025",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog followed <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0026",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Aunt called <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0027",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The teacher helped <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0028",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Grandpa told <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "grandpa"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0029",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl watched <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0030",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The nurse checked <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "nurse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0031",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Dad loved <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0032",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom missed <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0033",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fox chased <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0034",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hen followed <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0035",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The baby hugged <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0036",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My brother and fly a kite.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0037",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and rake leaves.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "leaves"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0038",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My neighbor and walk dogs.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dogs"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0039",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and pack lunch.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0040",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and build a tent.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0041",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My cousin and feed geese.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "geese"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0042",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and share cookies.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cookies"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0043",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and water flowers.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "flowers"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0044",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and ride a bike.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0045",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My sister and fold blankets.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blankets"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0046",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and chase bugs.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bugs"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0047",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and pick apples.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "apples"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0048",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and read stories.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "stories"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0049",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My uncle and fix a bike.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0050",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and throw ball.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0051",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and catch frogs.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "frogs"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0052",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and blow bubbles.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bubbles"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0053",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and dig holes.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "holes"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0054",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and sweep floor.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "floor"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0055",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Dad gave juice to <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0056",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Come run with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0057",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She made soup for <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0058",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Play tag with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0059",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Mom baked pie for <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "pie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0060",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Talk to <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0061",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Wait for <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0062",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Dance with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0063",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Grandma sent cards to <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cards"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0064",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Sing with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0065",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Roll ball to <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0066",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Eat lunch with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0067",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Run home with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0068",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The snacks are for <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "snacks"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0069",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Swim with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0070",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Jump rope with <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0071",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Sit by <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0072",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cake is for <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0073",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cat sat between you and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0074",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "At recess, <NAME> and play soccer.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "soccer"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0075",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Before bed, <NAME> and brush teeth.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "teeth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0076",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "After lunch, my cousin and nap quietly.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0077",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the park, <NAME> and fly kites.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "kites"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0078",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "On rainy days, <NAME> and read books.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "books"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0079",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "When snow falls, <NAME> and play inside.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0080",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The teacher asked <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0081",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The nurse chose <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "nurse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0082",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "For fun, <NAME> and race home.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0083",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "At home, <NAME> and feed fish.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0084",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The note is for you and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0085",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She stood between Dad and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0086",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Early today, <NAME> and pack lunch.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0087",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The duck swam between you and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0088",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My uncle asked <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0089",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Before school, <NAME> and water flowers.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "flowers"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0090",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bench is for you and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0091",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The prize went to <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "prize"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0092",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The rabbit hid between you and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0093",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mom asked <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0094",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the yard, <NAME> and dig holes.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0095",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mom made soup for <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0096",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "At noon, <NAME> and eat soup.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0097",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The path runs between you and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0098",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Dad asked <NAME> and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "object_me",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0099",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "On Sunday, <NAME> and bake bread.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 0,
+    "explain_key": "subject_i",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_compound_subjects_and_objects_with_i_and_me_0100",
+    "family_id": "fam_compound_subjects_and_objects_with_i_and_me",
+    "skill_id": "roots_compound_subjects_and_objects_with_i_and_me",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The seat between you and.",
+    "choices": [
+      "I",
+      "me",
+      "my",
+      "we"
+    ],
+    "answer_index": 1,
+    "explain_key": "after_prep",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seat"
+      }
+    ]
+  }
+]

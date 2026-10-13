@@ -1,0 +1,268 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_short_a_word",
+  "family_title_en": "Spell the short a word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_short_a_word",
+      "ix_title": "Spell the short a word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Spell the short a word.",
+        "ko": "단모음 a 단어를 철자하세요."
+      },
+      "what_to_do": {
+        "en": "Tap the right spelling.",
+        "ko": "맞는 철자를 누르세요."
+      },
+      "choice_rule": "Four choices. Exactly one is the correct spelling of the short a word the stem clues. The other three misspell that same word only: a wrong vowel, an extra a, a silent e, ay or ai, a dropped letter, or an extra consonant. Never a different real word. Choices are whole words, never a phoneme, a slash sound, or one letter. Spread answer_index from 0 to 3. Media is one lemma, the correct word. Keep the target word and every choice out of the stem.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_short_a_word_0001",
+          "tier": 1,
+          "stem": "My pet will meow.",
+          "choices": [
+            "cet",
+            "cat",
+            "caat",
+            "cate"
+          ],
+          "answer_index": 1,
+          "explain_key": "short_a_cvc",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_a_word_0002",
+          "tier": 1,
+          "stem": "A little sleep in the day.",
+          "choices": [
+            "naep",
+            "naap",
+            "nap",
+            "napp"
+          ],
+          "answer_index": 2,
+          "explain_key": "short_a_cvc",
+          "media": [
+            {
+              "lemma": "nap"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_a_word_0003",
+          "tier": 2,
+          "stem": "This can wave on a tall pole.",
+          "choices": [
+            "fleg",
+            "flage",
+            "flaag",
+            "flag"
+          ],
+          "answer_index": 3,
+          "explain_key": "short_a_blend",
+          "media": [
+            {
+              "lemma": "flag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_a_word_0004",
+          "tier": 2,
+          "stem": "It will light the dark room.",
+          "choices": [
+            "lamp",
+            "lemp",
+            "lampe",
+            "laamp"
+          ],
+          "answer_index": 0,
+          "explain_key": "short_a_blend",
+          "media": [
+            {
+              "lemma": "lamp"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_a_word_0005",
+          "tier": 2,
+          "stem": "We eat this little food at school.",
+          "choices": [
+            "snak",
+            "snaak",
+            "snack",
+            "snacke"
+          ],
+          "answer_index": 2,
+          "explain_key": "short_a_ck",
+          "media": [
+            {
+              "lemma": "snack"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_a_word_0006",
+          "tier": 3,
+          "stem": "<NAME> has a pet with a long ear.",
+          "choices": [
+            "rabbit",
+            "rabit",
+            "raibbit",
+            "rabbitt"
+          ],
+          "answer_index": 0,
+          "explain_key": "short_a_two",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "rabbit"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_a_word_0007",
+          "tier": 3,
+          "stem": "We wipe our mouth with this at lunch.",
+          "choices": [
+            "napin",
+            "naipkin",
+            "nappkin",
+            "napkin"
+          ],
+          "answer_index": 3,
+          "explain_key": "short_a_two",
+          "media": [
+            {
+              "lemma": "napkin"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_a_word_0008",
+          "tier": 3,
+          "stem": "We pick this round red fruit from a tree.",
+          "choices": [
+            "aple",
+            "apple",
+            "appel",
+            "aipple"
+          ],
+          "answer_index": 1,
+          "explain_key": "short_a_two",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four choices only. Exactly one is the real spelling of the short a word the stem clues.",
+      "The other three misspell that same word. Never offer a different real word as a wrong choice.",
+      "A misspelling may change the vowel, add a silent e, double the a, use ay or ai, drop a letter, or add a consonant.",
+      "Every choice is a whole word. Never a single letter, a slash sound, a phoneme, or a held vowel.",
+      "Tier 1 targets are three-letter words, and the wrong choices are easy to spot.",
+      "Tier 2 targets have a blend or ck. Wrong choices are one edit away, such as snak or lampe.",
+      "Tier 3 targets have two syllables. Wrong choices are near misses, such as rabit, aple, or naipkin.",
+      "The stem is a kid clue about home, school, food, pets, play, family, or weather, and it never contains the target word."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\bdigraph\\b",
+    "/[^/\\s]+/",
+    "\\.mp3\\b",
+    "\\.wav\\b",
+    "\\b[aA]{3,}\\b"
+  ],
+  "tier_rules": {
+    "1": "Three-letter short a words such as cat and nap. Clues are about four to six words. Wrong choices are obvious: a wrong vowel, an extra a, or a silent e.",
+    "2": "One-syllable short a words with a blend or ck, such as flag, lamp, and snack. Clues are grade level. Wrong choices change one piece, such as a missing c, an extra a, or a silent e.",
+    "3": "Two-syllable short a words such as rabbit, napkin, and apple. Clues may use <NAME> and run longer. Wrong choices are near misses: a dropped consonant, ai for a, or an extra letter."
+  },
+  "miss_explain": {
+    "short_a_cvc": {
+      "en": "Short a is the vowel in cat. Spell it with one a.",
+      "ko": "단모음 a는 cat의 모음입니다. a 한 글자로 쓰세요."
+    },
+    "short_a_blend": {
+      "en": "Keep the blend, and spell the vowel with one a.",
+      "ko": "자음군은 그대로 두고 모음은 a 한 글자로 쓰세요."
+    },
+    "short_a_ck": {
+      "en": "After a short a, spell k with ck, as in snack.",
+      "ko": "단모음 a 다음의 k는 ck로 씁니다. snack처럼요."
+    },
+    "short_a_two": {
+      "en": "In a two-syllable word, short a is still one a, not ai.",
+      "ko": "두 음절 단어에서도 단모음 a는 a 한 글자이며 ai가 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the short a word"
+    ],
+    "no_ixl_text": true
+  }
+}

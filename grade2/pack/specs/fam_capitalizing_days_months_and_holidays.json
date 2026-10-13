@@ -1,0 +1,290 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_capitalizing_days_months_and_holidays",
+  "family_title_en": "Capitalizing days, months, and holidays",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_capitalizing_days_months_and_holidays",
+      "ix_title": "Capitalizing days, months, and holidays",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is written right?",
+        "ko": "바르게 쓴 낱말은 어느 것인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word with the right capital.",
+        "ko": "대문자가 바르게 쓰인 낱말을 누르세요."
+      },
+      "choice_rule": "Four unique writings of one target word. Exactly one follows the rule: first-letter capital only for a day, month, or holiday name; all lowercase for a season or a common time word (today, morning, weekend, night, birthday, or the words day, month, holiday). The other three are all-lowercase when the target needs a capital, all-caps, first-letter capital when the target must stay lowercase, and mixed inner capitals. Never use four different words. Never use may, march, or fall as the target.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "christmas",
+        "easter",
+        "halloween",
+        "holiday",
+        "holidays",
+        "thanksgiving",
+        "valentine",
+        "valentines"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_capitalizing_days_months_and_holidays_0001",
+          "tier": 1,
+          "stem": "We play on that day.",
+          "choices": [
+            "Monday",
+            "monday",
+            "MONDAY",
+            "MoNday"
+          ],
+          "answer_index": 0,
+          "explain_key": "day_capital",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_days_months_and_holidays_0002",
+          "tier": 1,
+          "stem": "We plant in that month.",
+          "choices": [
+            "april",
+            "April",
+            "APRIL",
+            "ApRil"
+          ],
+          "answer_index": 1,
+          "explain_key": "month_capital",
+          "media": [
+            {
+              "lemma": "flower"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_days_months_and_holidays_0003",
+          "tier": 1,
+          "stem": "We go home at this time.",
+          "choices": [
+            "Today",
+            "TODAY",
+            "today",
+            "ToDay"
+          ],
+          "answer_index": 2,
+          "explain_key": "no_capital_time",
+          "media": [
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_days_months_and_holidays_0004",
+          "tier": 2,
+          "stem": "<NAME> can play that day.",
+          "choices": [
+            "Saturday",
+            "saturday",
+            "SATURDAY",
+            "SaTurday"
+          ],
+          "answer_index": 0,
+          "explain_key": "day_capital",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_days_months_and_holidays_0005",
+          "tier": 2,
+          "stem": "We bake in that month.",
+          "choices": [
+            "december",
+            "DECEMBER",
+            "DeCember",
+            "December"
+          ],
+          "answer_index": 3,
+          "explain_key": "month_capital",
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_days_months_and_holidays_0006",
+          "tier": 2,
+          "stem": "The kids visit after that holiday.",
+          "choices": [
+            "halloween",
+            "Halloween",
+            "HALLOWEEN",
+            "HaLloween"
+          ],
+          "answer_index": 1,
+          "explain_key": "holiday_capital",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_days_months_and_holidays_0007",
+          "tier": 3,
+          "stem": "We swim in that season.",
+          "choices": [
+            "summer",
+            "Summer",
+            "SUMMER",
+            "SuMmer"
+          ],
+          "answer_index": 0,
+          "explain_key": "no_capital_season",
+          "media": [
+            {
+              "lemma": "pool"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_days_months_and_holidays_0008",
+          "tier": 3,
+          "stem": "We eat pie after that holiday.",
+          "choices": [
+            "THANKSGIVING",
+            "thanksgiving",
+            "Thanksgiving",
+            "ThAnksgiving"
+          ],
+          "answer_index": 2,
+          "explain_key": "holiday_capital",
+          "media": [
+            {
+              "lemma": "pie"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Always four unique forms of one target word, never four different words.",
+      "Exactly one choice is correctly capitalized.",
+      "Days, months, and holiday names take a first-letter capital only, never all-caps or mixed inner caps.",
+      "Seasons and common time words stay all lowercase: today, morning, weekend, night, birthday, and the words day, month, holiday.",
+      "Never use may, march, or fall as the target; those words are ambiguous.",
+      "Holiday targets may come only from allowed_extra_words.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands and no real names.",
+      "Mix answer_index so the right form is not always first.",
+      "Do not describe a picture in the stem."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bcapitalize\\b",
+    "\\bcapital letter\\b",
+    "\\buppercase\\b",
+    "\\blowercase\\b",
+    "\\bproper noun\\b",
+    "\\bpunctuation\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Target is a clear weekday, a clear month, or a common time word like today. Distractors are lowercase, ALL CAPS, and mixed caps of that same word. Add a picture lemma when the scene is concrete.",
+    "2": "Grade-level stems of five to seven words. Mix weekdays, months, and holiday names from allowed extras. Keep the four-form choice pattern. One gold-style item may use <NAME>.",
+    "3": "Near-miss time words. Seasons stay lowercase. Birthday and the word holiday stay lowercase. Holiday names still take a first-letter capital only. Avoid may, march, and fall."
+  },
+  "miss_explain": {
+    "day_capital": {
+      "en": "Day names need a capital. Write Monday, not monday.",
+      "ko": "요일 이름에는 대문자가 필요합니다. monday가 아니라 Monday입니다."
+    },
+    "month_capital": {
+      "en": "Month names need a capital. Write April, not april.",
+      "ko": "월 이름에는 대문자가 필요합니다. april이 아니라 April입니다."
+    },
+    "holiday_capital": {
+      "en": "Holiday names need a capital. Write Halloween, not halloween.",
+      "ko": "공휴일 이름에는 대문자가 필요합니다. halloween이 아니라 Halloween입니다."
+    },
+    "no_capital_time": {
+      "en": "Words like today and morning do not need a capital.",
+      "ko": "today나 morning 같은 낱말에는 대문자가 필요하지 않습니다."
+    },
+    "no_capital_season": {
+      "en": "Season names do not need a capital. Write summer, not Summer.",
+      "ko": "계절 이름에는 대문자가 필요하지 않습니다. Summer가 아니라 summer입니다."
+    },
+    "no_capital_common": {
+      "en": "The words day, month, and holiday do not need a capital.",
+      "ko": "day, month, holiday라는 낱말에는 대문자가 필요하지 않습니다."
+    },
+    "no_capital_birthday": {
+      "en": "The word birthday is not a holiday name, so it needs no capital.",
+      "ko": "birthday는 공휴일 이름이 아니므로 대문자가 필요하지 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Capitalizing days, months, and holidays"
+    ],
+    "no_ixl_text": true
+  }
+}

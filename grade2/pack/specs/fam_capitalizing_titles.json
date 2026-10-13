@@ -1,0 +1,278 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_capitalizing_titles",
+  "family_title_en": "Capitalizing titles",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_capitalizing_titles",
+      "ix_title": "Capitalizing titles",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which title is written correctly?",
+        "ko": "어느 제목이 바르게 쓰였나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the title that uses the right capitals.",
+        "ko": "대문자가 바르게 쓰인 제목을 누르세요."
+      },
+      "choice_rule": "Write four unique strings that keep the same title words in the same order. Exactly one uses Grade 2 title case: capitalize the first word, the last word, and every noun, verb, adjective, adverb, and pronoun; keep a, an, the, and, or, but, of, in, on, to, for, at, by, from lowercase when they are not first or last. The other three change only capitalization. Use wordlist or allowed_extra_words only.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "poem",
+        "poems",
+        "chapter",
+        "tale",
+        "rhyme",
+        "titled"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_capitalizing_titles_0001",
+          "tier": 1,
+          "stem": "This book is about a lost puppy.",
+          "choices": [
+            "The Lost Puppy",
+            "the Lost Puppy",
+            "The lost Puppy",
+            "The Lost puppy"
+          ],
+          "answer_index": 0,
+          "explain_key": "first_word",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_titles_0002",
+          "tier": 1,
+          "stem": "This song is about a red bird.",
+          "choices": [
+            "the Red Bird",
+            "The red Bird",
+            "The Red Bird",
+            "The Red bird"
+          ],
+          "answer_index": 2,
+          "explain_key": "important_word",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_titles_0003",
+          "tier": 1,
+          "stem": "This story is about my big sister.",
+          "choices": [
+            "my Big Sister",
+            "My Big Sister",
+            "My big Sister",
+            "My Big sister"
+          ],
+          "answer_index": 1,
+          "explain_key": "important_word",
+          "media": [
+            {
+              "lemma": "sister"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_titles_0004",
+          "tier": 2,
+          "stem": "This book is about a day at school.",
+          "choices": [
+            "A Day at School",
+            "A Day At School",
+            "a Day at School",
+            "A day at School"
+          ],
+          "answer_index": 0,
+          "explain_key": "little_word",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_titles_0005",
+          "tier": 2,
+          "stem": "This story is about the cat and the dog.",
+          "choices": [
+            "The Cat And the Dog",
+            "The Cat and The Dog",
+            "The cat and the Dog",
+            "The Cat and the Dog"
+          ],
+          "answer_index": 3,
+          "explain_key": "little_word",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_titles_0006",
+          "tier": 2,
+          "stem": "This song is about snow on the hill.",
+          "choices": [
+            "Snow On the Hill",
+            "Snow on the Hill",
+            "snow on the Hill",
+            "Snow on The Hill"
+          ],
+          "answer_index": 1,
+          "explain_key": "little_word",
+          "media": [
+            {
+              "lemma": "snow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_titles_0007",
+          "tier": 3,
+          "stem": "This book is called over the moon.",
+          "choices": [
+            "over the Moon",
+            "Over The Moon",
+            "Over the Moon",
+            "Over the moon"
+          ],
+          "answer_index": 2,
+          "explain_key": "first_word",
+          "media": [
+            {
+              "lemma": "moon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_titles_0008",
+          "tier": 3,
+          "stem": "This story is about <NAME> and me.",
+          "choices": [
+            "<NAME> and Me",
+            "<NAME> And Me",
+            "<NAME> and me",
+            "<NAME> And me"
+          ],
+          "answer_index": 0,
+          "explain_key": "last_word",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four unique title strings. Only one uses Grade 2 title case.",
+      "Never change the words or their order across choices. Only capitalization may change.",
+      "Wrong choices miss a needed capital on the first word, last word, or an important word, or they add a capital to a short middle word.",
+      "Short words a, an, the, and, or, but, of, in, on, to, for, at, by, from stay lowercase only in the middle. First and last words are always capitalized.",
+      "Keep titles in kid world: school, home, food, pets, play, family, weather. No brands and no real book names.",
+      "For tier 3, make the near miss a short first or last word that still needs a capital, or one extra capital on a short middle word."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bcapitalize\\b",
+    "\\bcapital letter",
+    "\\buppercase\\b",
+    "\\blowercase\\b",
+    "\\btitle case\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\byahoo\\b",
+    "\\bebay\\b"
+  ],
+  "tier_rules": {
+    "1": "Short two- or three-word titles. Every word is important. Distractors drop the capital on the first word, a noun, or an adjective.",
+    "2": "Titles of four or five words with a short word in the middle. One distractor wrongly capitalizes a, the, and, at, on, or of.",
+    "3": "Near-miss titles. The first or last word is a short word that still needs a capital, or two short words sit in the middle."
+  },
+  "miss_explain": {
+    "first_word": {
+      "en": "The first word of a title always starts with a capital letter.",
+      "ko": "제목의 첫 단어는 항상 대문자로 시작합니다."
+    },
+    "last_word": {
+      "en": "The last word of a title always starts with a capital letter.",
+      "ko": "제목의 마지막 단어는 항상 대문자로 시작합니다."
+    },
+    "important_word": {
+      "en": "Name words, action words, and describing words in a title need a capital.",
+      "ko": "제목 속의 이름, 동작, 꾸미는 말은 대문자로 씁니다."
+    },
+    "little_word": {
+      "en": "Short words like a, the, and, of stay small in the middle of a title.",
+      "ko": "제목 가운데의 a, the, and, of 같은 짧은 말은 소문자로 둡니다."
+    },
+    "title_case": {
+      "en": "A title capitalizes the first word, the last word, and the important words.",
+      "ko": "제목은 첫 단어, 마지막 단어, 그리고 중요한 말을 대문자로 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Capitalizing titles"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,2297 @@
+[
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0001",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0002",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I made a snack for",
+    "choices": [
+      "me",
+      "myself",
+      "him",
+      "us"
+    ],
+    "answer_index": 1,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0003",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "At home <NAME> hugged",
+    "choices": [
+      "myself",
+      "I",
+      "me",
+      "we"
+    ],
+    "answer_index": 2,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0004",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the water the puppy saw",
+    "choices": [
+      "it",
+      "him",
+      "itself",
+      "them"
+    ],
+    "answer_index": 2,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0005",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At school I saw",
+    "choices": [
+      "herself",
+      "she",
+      "I",
+      "her"
+    ],
+    "answer_index": 3,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0006",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We made breakfast for",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "I"
+    ],
+    "answer_index": 1,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "breakfast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0007",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the window my sister saw",
+    "choices": [
+      "her",
+      "she",
+      "herself",
+      "itself"
+    ],
+    "answer_index": 2,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "window"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0008",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "After school <NAME> can help",
+    "choices": [
+      "ourselves",
+      "we",
+      "I",
+      "us"
+    ],
+    "answer_index": 3,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0009",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog washed",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0010",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She fixed her hat for",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "them"
+    ],
+    "answer_index": 1,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0011",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My dad baked cake for",
+    "choices": [
+      "himself",
+      "he",
+      "him",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0012",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bird fed",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0013",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I cut an apple for",
+    "choices": [
+      "myself",
+      "I",
+      "me",
+      "he"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0014",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We built a fort for",
+    "choices": [
+      "ourselves",
+      "we",
+      "us",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0015",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fox hid",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0016",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He tied his shoe for",
+    "choices": [
+      "himself",
+      "he",
+      "him",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0017",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "At lunch I saw",
+    "choices": [
+      "her",
+      "herself",
+      "I",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0018",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom gave soup to",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0019",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kids helped",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kids"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0020",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Dad sent a note to",
+    "choices": [
+      "him",
+      "himself",
+      "he",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0021",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We gave the cat to",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0022",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I passed the ball to",
+    "choices": [
+      "him",
+      "himself",
+      "he",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0023",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She read a book to",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0024",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "At home <NAME> fed",
+    "choices": [
+      "me",
+      "myself",
+      "I",
+      "he"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0025",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hen pecked",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0026",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I showed the map to",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0027",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They sang a song to",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "him"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0028",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pig cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0029",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He gave juice to",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0030",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We washed our hands for",
+    "choices": [
+      "ourselves",
+      "us",
+      "we",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0031",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I packed a lunch for",
+    "choices": [
+      "myself",
+      "me",
+      "I",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0032",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl hid",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0033",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Grandma gave cookies to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookies"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0034",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "At play I saw",
+    "choices": [
+      "him",
+      "himself",
+      "I",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0035",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fish cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0036",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the rain the duck washed",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0037",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "On the farm the horse fed",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0038",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At gym I smiled at",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0039",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In class the teacher helped",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "him"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0040",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At recess I threw the ball to",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0041",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the kitchen Mom cooked soup for",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0042",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "On the couch the kitten washed",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0043",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Before bed I read a story to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0044",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the yard the rabbit hid",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0045",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At the table we gave rice to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0046",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "On the bus I waved to",
+    "choices": [
+      "him",
+      "himself",
+      "he",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0047",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the park we saw",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0048",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "After rain the worm dug for",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "worm"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0049",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the barn the hen fed",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0050",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At snack time I shared a chip with",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0051",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "On Sunday we gave cake to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0052",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the snow the bear cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0053",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At the store Dad bought toys for",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toys"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0054",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the garden the bug hid",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0055",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At the beach we waved to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0056",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At music class I gave blocks to",
+    "choices": [
+      "him",
+      "himself",
+      "he",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blocks"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0057",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the box the frog washed",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0058",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Before school I tied shoes for",
+    "choices": [
+      "him",
+      "himself",
+      "he",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0059",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "On the path we saw",
+    "choices": [
+      "her",
+      "herself",
+      "I",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0060",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the bowl the mouse cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0061",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At dinner we passed bread to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0062",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the wind the kite tangled",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0063",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "By the door the dog dried",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0064",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At art class I showed crayons to",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayons"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0065",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the nest the chick fed",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0066",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "On a walk we gave water to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "water"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0067",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At the game I cheered for",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0068",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the pond the frog washed",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "him"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0069",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "On the rug the puppy scratched",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0070",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "At bedtime Mom read to",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0071",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "In the field the cow cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0072",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "On the slide I waited for",
+    "choices": [
+      "him",
+      "himself",
+      "he",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "slide"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0073",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the glass the bird saw",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0074",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Before the test my brother helped",
+    "choices": [
+      "himself",
+      "he",
+      "him",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "brother"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0075",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "After the rain we called to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0076",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the photo my sister saw",
+    "choices": [
+      "herself",
+      "she",
+      "her",
+      "itself"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "photo"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0077",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "On the trip <NAME> can join",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0078",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the mud the pig washed",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0079",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "At the party we gave cake to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0080",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the hall I waved at",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0081",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the tree the bird cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0082",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Before lunch the class helped",
+    "choices": [
+      "themselves",
+      "they",
+      "them",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0083",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the dark my brother scared",
+    "choices": [
+      "himself",
+      "he",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "brother"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0084",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "At the lake we called to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0085",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the box the mouse washed",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0086",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "On the way home I read to",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0087",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the grass the turtle hid",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0088",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "After the play we waved to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0089",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the shop my aunt bought toys for",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toys"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0090",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "On the hill the sheep cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "her",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0091",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Before nap <NAME> will meet",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0092",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the tub the duck cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0093",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "At the park I gave toys to",
+    "choices": [
+      "them",
+      "themselves",
+      "us",
+      "me"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toys"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0094",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the park we looked for",
+    "choices": [
+      "him",
+      "himself",
+      "he",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0095",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "On the boat my dad helped",
+    "choices": [
+      "himself",
+      "he",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0096",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "After the game the team washed",
+    "choices": [
+      "themselves",
+      "they",
+      "them",
+      "us"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0097",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the room my sister dressed",
+    "choices": [
+      "herself",
+      "she",
+      "her",
+      "itself"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0098",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "On the field I passed to",
+    "choices": [
+      "her",
+      "herself",
+      "him",
+      "I"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0099",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "In the hive the ant cleaned",
+    "choices": [
+      "itself",
+      "it",
+      "him",
+      "her"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_reflexive",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_choose_between_personal_and_reflexive_pronou_0100",
+    "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+    "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "When it rained we kept dry near",
+    "choices": [
+      "us",
+      "ourselves",
+      "we",
+      "them"
+    ],
+    "answer_index": 0,
+    "explain_key": "need_personal",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

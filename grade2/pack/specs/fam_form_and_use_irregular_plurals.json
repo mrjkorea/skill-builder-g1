@@ -1,0 +1,339 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_and_use_irregular_plurals",
+  "family_title_en": "Form and use irregular plurals",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_and_use_irregular_plurals",
+      "ix_title": "Form and use irregular plurals",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word means more than one?",
+        "ko": "어느 단어가 둘 이상을 뜻하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right plural word.",
+        "ko": "알맞은 복수형 단어를 누르세요."
+      },
+      "choice_rule": "Four lowercase words. Exactly one correct irregular plural of the noun named in the stem. Always include that singular and a regular -s or -es trap. The fourth choice is a close misspelling or a wrong form from this skill. Shuffle answer_index across the pool. Never use another valid plural of the same noun. Never use fishes when the target is fish.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "calfs",
+        "calves",
+        "childes",
+        "childs",
+        "feets",
+        "fishes",
+        "fishs",
+        "foots",
+        "geeses",
+        "gooses",
+        "leafs",
+        "leavs",
+        "mans",
+        "mens",
+        "mices",
+        "mouses",
+        "peoples",
+        "persons",
+        "sheepe",
+        "sheepes",
+        "sheeps",
+        "toothes",
+        "tooths",
+        "wimen",
+        "wolfs",
+        "wolves",
+        "womans",
+        "womens"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_and_use_irregular_plurals_0001",
+          "tier": 1,
+          "stem": "What is more than one child?",
+          "choices": [
+            "children",
+            "childs",
+            "child",
+            "childes"
+          ],
+          "answer_index": 0,
+          "explain_key": "children",
+          "media": [
+            {
+              "lemma": "child"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_irregular_plurals_0002",
+          "tier": 1,
+          "stem": "What is more than one foot?",
+          "choices": [
+            "foots",
+            "feet",
+            "foot",
+            "feets"
+          ],
+          "answer_index": 1,
+          "explain_key": "feet",
+          "media": [
+            {
+              "lemma": "foot"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_irregular_plurals_0003",
+          "tier": 1,
+          "stem": "What is more than one tooth?",
+          "choices": [
+            "tooth",
+            "tooths",
+            "toothes",
+            "teeth"
+          ],
+          "answer_index": 3,
+          "explain_key": "teeth",
+          "media": [
+            {
+              "lemma": "tooth"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_irregular_plurals_0004",
+          "tier": 2,
+          "stem": "Pick the word for many little mouse.",
+          "choices": [
+            "mouses",
+            "mouse",
+            "mice",
+            "mices"
+          ],
+          "answer_index": 2,
+          "explain_key": "mice",
+          "media": [
+            {
+              "lemma": "mouse"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_irregular_plurals_0005",
+          "tier": 2,
+          "stem": "Pick the word for many brown goose.",
+          "choices": [
+            "geese",
+            "gooses",
+            "goose",
+            "geeses"
+          ],
+          "answer_index": 0,
+          "explain_key": "geese",
+          "media": [
+            {
+              "lemma": "goose"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_irregular_plurals_0006",
+          "tier": 2,
+          "stem": "<NAME> saw more than one man.",
+          "choices": [
+            "mans",
+            "men",
+            "man",
+            "mens"
+          ],
+          "answer_index": 1,
+          "explain_key": "men",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "man"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_irregular_plurals_0007",
+          "tier": 3,
+          "stem": "What is more than one sheep?",
+          "choices": [
+            "sheeps",
+            "sheepes",
+            "sheep",
+            "sheepe"
+          ],
+          "answer_index": 2,
+          "explain_key": "sheep",
+          "media": [
+            {
+              "lemma": "sheep"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_irregular_plurals_0008",
+          "tier": 3,
+          "stem": "<NAME> saw more than one woman.",
+          "choices": [
+            "womans",
+            "woman",
+            "womens",
+            "women"
+          ],
+          "answer_index": 3,
+          "explain_key": "women",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "woman"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four whole-word choices. One correct irregular plural. Never two valid answers.",
+      "Always include the singular and the regular -s or -es form as traps.",
+      "The fourth choice is a close misspelling or a wrong irregular from this skill, not a random noun.",
+      "Never put the correct plural in the stem except same-form nouns such as sheep or fish.",
+      "Do not use kids, people, or friends as a distractor next to children.",
+      "Do not use fishes when the target is fish. Use fishs or fishe-like misses instead.",
+      "Tier 1: name the singular in a short what-is-more-than-one stem and attach that noun lemma.",
+      "Tier 2: use pick-the-word or a NAME saw stem. The main trap is the regular -s form.",
+      "Tier 3: same-form plurals or two-syllable vowel changes such as woman to women and leaf to leaves.",
+      "Cover child, foot, tooth, mouse, goose, man, woman, leaf, sheep, fish, person, and wolf across the pool.",
+      "Stems use only the roots word list, allowed_extra_words, and <NAME>. No real names.",
+      "Never describe a picture in the stem. Pictures are lemma notes only. No audio files."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\birregular\\b",
+    "\\bsingular\\b",
+    "\\bgrammar\\b",
+    "\\bnouns?\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebey\\b",
+    "\\byahoo\\b",
+    "\\bchidren\\b",
+    "\\bchilden\\b",
+    "\\bchildern\\b"
+  ],
+  "tier_rules": {
+    "1": "Short six-word stems that name one kid-world noun. Picture lemma of that noun. Distractors are the singular and a clear fake -s form.",
+    "2": "Grade-level stems of six to eight words. Main trap is the regular -s or -es form. Mix animals, body words, and people words.",
+    "3": "Near-miss items: sheep and fish stay the same, or woman to women and leaf to leaves. Close misspellings sit next to the regular trap."
+  },
+  "miss_explain": {
+    "children": {
+      "en": "One is child. More than one is children, not childs.",
+      "ko": "하나는 child입니다. 둘 이상은 childs가 아니라 children입니다."
+    },
+    "feet": {
+      "en": "One is foot. More than one is feet, not foots.",
+      "ko": "하나는 foot입니다. 둘 이상은 foots가 아니라 feet입니다."
+    },
+    "teeth": {
+      "en": "One is tooth. More than one is teeth, not tooths.",
+      "ko": "하나는 tooth입니다. 둘 이상은 tooths가 아니라 teeth입니다."
+    },
+    "mice": {
+      "en": "One is mouse. More than one is mice, not mouses.",
+      "ko": "하나는 mouse입니다. 둘 이상은 mouses가 아니라 mice입니다."
+    },
+    "geese": {
+      "en": "One is goose. More than one is geese, not gooses.",
+      "ko": "하나는 goose입니다. 둘 이상은 gooses가 아니라 geese입니다."
+    },
+    "men": {
+      "en": "One is man. More than one is men, not mans.",
+      "ko": "하나는 man입니다. 둘 이상은 mans가 아니라 men입니다."
+    },
+    "women": {
+      "en": "One is woman. More than one is women, not womans.",
+      "ko": "하나는 woman입니다. 둘 이상은 womans가 아니라 women입니다."
+    },
+    "sheep": {
+      "en": "Sheep stays the same. One sheep and many sheep.",
+      "ko": "sheep은 그대로입니다. 하나여도 여럿이어도 sheep입니다."
+    },
+    "leaves": {
+      "en": "Leaf becomes leaves. Change f to v and add es.",
+      "ko": "leaf는 leaves가 됩니다. f를 v로 바꾸고 es를 붙입니다."
+    },
+    "people": {
+      "en": "One is person. More than one is people, not persons.",
+      "ko": "하나는 person입니다. 둘 이상은 persons가 아니라 people입니다."
+    },
+    "fish": {
+      "en": "Fish stays the same. One fish and many fish.",
+      "ko": "fish는 그대로입니다. 하나여도 여럿이어도 fish입니다."
+    },
+    "wolves": {
+      "en": "Wolf becomes wolves. Change f to v and add es.",
+      "ko": "wolf는 wolves가 됩니다. f를 v로 바꾸고 es를 붙입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form and use irregular plurals"
+    ],
+    "no_ixl_text": true
+  }
+}

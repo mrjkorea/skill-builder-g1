@@ -1,0 +1,337 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_shades_of_meaning_with_pictures",
+  "family_title_en": "Shades of meaning with pictures",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_shades_of_meaning_with_pictures",
+      "ix_title": "Shades of meaning with pictures",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word fits the picture?",
+        "ko": "그림에 맞는 낱말은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that fits best.",
+        "ko": "가장 잘 맞는 낱말을 누르세요."
+      },
+      "choice_rule": "Four one-word shade-family choices from the wordlist or allowed_extra_words. Exactly one matches the picture intensity; the other three are weaker, stronger, or nearby shades. Vary answer_index. Never antonym-only sets except tier 1 when the picture makes the fit obvious.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "chilly",
+        "damp",
+        "dash",
+        "drizzle",
+        "freezing",
+        "gale",
+        "giggle",
+        "glance",
+        "gulp",
+        "gust",
+        "huge",
+        "jog",
+        "nibble",
+        "peek",
+        "sip",
+        "soak",
+        "soaked",
+        "stare",
+        "stroll",
+        "whisper"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_shades_of_meaning_with_pictures_0001",
+          "tier": 1,
+          "stem": "The kitten on the blanket.",
+          "choices": [
+            "big",
+            "large",
+            "huge",
+            "tiny"
+          ],
+          "answer_index": 3,
+          "explain_key": "small_shade",
+          "media": [
+            {
+              "lemma": "kitten"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_shades_of_meaning_with_pictures_0002",
+          "tier": 1,
+          "stem": "The snail on the path.",
+          "choices": [
+            "fast",
+            "slow",
+            "quick",
+            "zooming"
+          ],
+          "answer_index": 1,
+          "explain_key": "weak_move",
+          "media": [
+            {
+              "lemma": "snail"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_shades_of_meaning_with_pictures_0003",
+          "tier": 2,
+          "stem": "The soup on the stove.",
+          "choices": [
+            "warm",
+            "hotter",
+            "chilly",
+            "hot"
+          ],
+          "answer_index": 3,
+          "explain_key": "heat_hot",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_shades_of_meaning_with_pictures_0004",
+          "tier": 2,
+          "stem": "The flag by the lake.",
+          "choices": [
+            "wind",
+            "gale",
+            "breeze",
+            "gust"
+          ],
+          "answer_index": 2,
+          "explain_key": "weak_wind",
+          "media": [
+            {
+              "lemma": "breeze"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_shades_of_meaning_with_pictures_0005",
+          "tier": 2,
+          "stem": "<NAME> had some juice.",
+          "choices": [
+            "gulp",
+            "drink",
+            "sip",
+            "swallow"
+          ],
+          "answer_index": 2,
+          "explain_key": "weak_eat",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "sip"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_shades_of_meaning_with_pictures_0006",
+          "tier": 3,
+          "stem": "<NAME> went to the playground.",
+          "choices": [
+            "stroll",
+            "walk",
+            "jog",
+            "dash"
+          ],
+          "answer_index": 3,
+          "explain_key": "strong_move",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "race"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_shades_of_meaning_with_pictures_0007",
+          "tier": 3,
+          "stem": "<NAME> saw the bird.",
+          "choices": [
+            "glance",
+            "peek",
+            "look",
+            "stare"
+          ],
+          "answer_index": 3,
+          "explain_key": "strong_look",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "owl"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_shades_of_meaning_with_pictures_0008",
+          "tier": 3,
+          "stem": "The grass after the rain.",
+          "choices": [
+            "wet",
+            "damp",
+            "wetter",
+            "soaked"
+          ],
+          "answer_index": 3,
+          "explain_key": "strong_wet",
+          "media": [
+            {
+              "lemma": "mud"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four one-word choices from the wordlist or allowed_extra_words. Never repeat a choice.",
+      "Keep all four words in one meaning family such as size, speed, heat, wind, drinking, moving, looking, wetness, or talking.",
+      "Exactly one word matches the picture intensity. The others are weaker, stronger, or nearby shades in that family.",
+      "Do not use antonym-only sets except in tier 1 when the picture makes the fit obvious.",
+      "Never name the target shade in the stem and never describe the picture.",
+      "Tier 1 uses distant shades. Tier 2 mixes close and far shades. Tier 3 uses three near-miss shades plus the fit.",
+      "Stay in kid world: school, home, food, pets, play, family, weather. No brands. No real names; use <NAME>.",
+      "One tap and one right answer. Vary answer_index across the pool.",
+      "Every item needs media with one picturable lemma. Do not invent audio files."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsynonym",
+    "\\bantonym",
+    "\\bintensity",
+    "shades of meaning",
+    "\\bdefinition\\b",
+    "stronger word",
+    "weaker word",
+    "in the picture",
+    "the picture",
+    "this picture",
+    "look at the picture",
+    "\\bipa\\b",
+    "\\bshade of\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Picture plus a far shade such as tiny versus huge or slow versus fast. Wrong choices are much stronger, much weaker, or a different scale word.",
+    "2": "Grade 2 stems; two-syllable words are fine. Choices are related shades with one clear fit, such as breeze versus wind versus gale. The picture supports the intensity.",
+    "3": "Near-miss shades in one family, such as glance, peek, look, and stare. The stem does not hint. The child must use the picture to pick the intensity."
+  },
+  "miss_explain": {
+    "small_shade": {
+      "en": "Tiny and little are weaker size words. Big, large, and huge are stronger.",
+      "ko": "tiny와 little은 약한 크기 말이에요. big, large, huge는 더 강한 말이에요."
+    },
+    "weak_move": {
+      "en": "Slow is a weaker move word. Fast, quick, and zooming are stronger.",
+      "ko": "slow는 약한 움직임 말이에요. fast, quick, zooming은 더 강해요."
+    },
+    "heat_hot": {
+      "en": "Hot is a strong heat word. Warm is milder. Chilly is a cool shade.",
+      "ko": "hot은 강한 더위 말이에요. warm은 더 약하고 chilly는 서늘한 말이에요."
+    },
+    "weak_wind": {
+      "en": "A breeze is a light wind. Gust and gale are much stronger.",
+      "ko": "breeze는 약한 바람이에요. gust와 gale은 훨씬 강한 바람이에요."
+    },
+    "weak_eat": {
+      "en": "Sip is a small drink. Drink is in the middle. Gulp is a big drink.",
+      "ko": "sip은 조금 마시는 말이에요. drink는 중간이고 gulp은 많이 마셔요."
+    },
+    "strong_move": {
+      "en": "Dash is a very fast move. Jog is fast too. Walk and stroll are slower.",
+      "ko": "dash는 아주 빠른 움직임이에요. jog도 빠르고 walk와 stroll은 더 느려요."
+    },
+    "strong_look": {
+      "en": "Stare is a long, strong look. Glance and peek are quick, weaker looks.",
+      "ko": "stare는 오래 보는 강한 말이에요. glance와 peek은 잠깐 보는 약한 말이에요."
+    },
+    "strong_wet": {
+      "en": "Soaked means very wet. Damp and wet are weaker. Wetter is in the middle.",
+      "ko": "soaked는 아주 젖은 말이에요. damp와 wet은 더 약하고 wetter는 중간이에요."
+    },
+    "strong_shade": {
+      "en": "This word is the strongest in its family. The others are milder shades.",
+      "ko": "이 낱말은 같은 뜻 무리에서 가장 강해요. 다른 말들은 더 약해요."
+    },
+    "weak_shade": {
+      "en": "This word is the mildest in its family. The others are stronger shades.",
+      "ko": "이 낱말은 같은 뜻 무리에서 가장 약해요. 다른 말들은 더 강해요."
+    },
+    "loud_talk": {
+      "en": "Yell, shout, and scream are loud talk. Whisper is a very quiet shade.",
+      "ko": "yell, shout, scream은 큰 소리예요. whisper는 아주 작은 소리예요."
+    },
+    "soft_talk": {
+      "en": "Whisper is quiet talk. Yell and shout are much louder shades.",
+      "ko": "whisper는 작은 소리로 말하는 말이에요. yell과 shout는 훨씬 커요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "tts-bake",
+    "voices": [
+      "bella",
+      "puck"
+    ]
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Shades of meaning with pictures"
+    ],
+    "no_ixl_text": true
+  }
+}

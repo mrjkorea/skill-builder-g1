@@ -1,0 +1,246 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_words_with_qu_and_x",
+  "family_title_en": "Spell words with qu and x",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_words_with_qu_and_x",
+      "ix_title": "Spell words with qu and x",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어떤 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right spelling.",
+        "ko": "맞는 철자를 누르세요."
+      },
+      "choice_rule": "Four whole-word spellings of one roots-list word that uses qu or x. Exactly one choice is spelled correctly. The other three are wrong spellings of that same word. Do not use a different real word, except quiet versus quite on tier 3. No IPA, no sound slashes, and no lone sounds.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_words_with_qu_and_x_0001",
+          "tier": 1,
+          "stem": "A woman with a gold crown.",
+          "choices": [
+            "qween",
+            "queen",
+            "kwen",
+            "qen"
+          ],
+          "answer_index": 1,
+          "explain_key": "qu_together",
+          "media": [
+            {
+              "lemma": "queen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_qu_and_x_0002",
+          "tier": 1,
+          "stem": "An animal with a bushy tail.",
+          "choices": [
+            "fox",
+            "foks",
+            "phox",
+            "fxo"
+          ],
+          "answer_index": 0,
+          "explain_key": "x_at_end",
+          "media": [
+            {
+              "lemma": "fox"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_qu_and_x_0003",
+          "tier": 1,
+          "stem": "The number after five.",
+          "choices": [
+            "siks",
+            "sics",
+            "six",
+            "sx"
+          ],
+          "answer_index": 2,
+          "explain_key": "x_at_end"
+        },
+        {
+          "item_id": "roots_spell_words_with_qu_and_x_0004",
+          "tier": 2,
+          "stem": "She can run and jump fast.",
+          "choices": [
+            "kwick",
+            "quik",
+            "quick",
+            "qwick"
+          ],
+          "answer_index": 2,
+          "explain_key": "qu_not_kw"
+        },
+        {
+          "item_id": "roots_spell_words_with_qu_and_x_0005",
+          "tier": 2,
+          "stem": "A home for a small toy.",
+          "choices": [
+            "boks",
+            "bocx",
+            "bocks",
+            "box"
+          ],
+          "answer_index": 3,
+          "explain_key": "x_not_ks",
+          "media": [
+            {
+              "lemma": "box"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_qu_and_x_0006",
+          "tier": 2,
+          "stem": "The one after this one.",
+          "choices": [
+            "next",
+            "nekst",
+            "nex",
+            "neks"
+          ],
+          "answer_index": 0,
+          "explain_key": "x_not_ks"
+        },
+        {
+          "item_id": "roots_spell_words_with_qu_and_x_0007",
+          "tier": 3,
+          "stem": "The little house is soft and still.",
+          "choices": [
+            "queit",
+            "quite",
+            "quiett",
+            "quiet"
+          ],
+          "answer_index": 3,
+          "explain_key": "quiet_not_quite"
+        },
+        {
+          "item_id": "roots_spell_words_with_qu_and_x_0008",
+          "tier": 3,
+          "stem": "Something you ask the teacher in class.",
+          "choices": [
+            "queston",
+            "question",
+            "quesion",
+            "questoin"
+          ],
+          "answer_index": 1,
+          "explain_key": "question_spell"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use a short kid clue about school, home, food, pets, play, family, or weather. Do not put the correct word in the stem.",
+      "Qu words: queen, quick, quiet, quietly, quilt, question, quite, quote, squeeze, squeak. X words: box, fox, six, fix, next, text.",
+      "Tier 1 wrong spellings drop a letter or use a plainly wrong letter, such as qen for queen or foks for fox.",
+      "Tier 2 wrong spellings write qu as kw or qw, and write x as ks or cks.",
+      "Tier 3 wrong spellings change one letter, swap two letters, or set quiet against quite.",
+      "Choices are whole words. No IPA, no sound slashes, and no lone sounds such as kw or ks.",
+      "No brand names and no real names. If a stem needs a person, use <NAME> and set swap_slots NAME to names.txt."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/[a-z]+/",
+    "\\bipa\\b",
+    "\\bphoneme\\b",
+    "\\bkuh\\b",
+    "\\bkwuh\\b",
+    "\\bkw\\b",
+    "\\bks\\b"
+  ],
+  "tier_rules": {
+    "1": "Easy clue of four to six words and a common word such as queen, fox, or six. Wrong spellings are obvious at a glance.",
+    "2": "Normal Grade 2 clue of five to seven words. Distractors are close: qu versus kw, or x versus ks.",
+    "3": "Hard near misses on words such as question, or quiet versus quite. Only one letter is wrong, or two letters trade places."
+  },
+  "miss_explain": {
+    "qu_together": {
+      "en": "Q and u stay side by side. This word uses qu.",
+      "ko": "q와 u는 붙어 있습니다. 이 단어는 qu를 씁니다."
+    },
+    "x_at_end": {
+      "en": "This word ends with the letter x, not with k and s.",
+      "ko": "이 단어는 k와 s가 아니라 글자 x로 끝납니다."
+    },
+    "qu_not_kw": {
+      "en": "Do not start this word with kw. Start it with qu.",
+      "ko": "이 단어는 kw로 시작하지 않습니다. qu로 시작합니다."
+    },
+    "x_not_ks": {
+      "en": "Do not write k and s in this word. Use the letter x.",
+      "ko": "이 단어에 k와 s를 쓰지 마세요. 글자 x를 씁니다."
+    },
+    "quiet_not_quite": {
+      "en": "Quiet means soft and still. Quite is a different word.",
+      "ko": "Quiet는 조용하다는 뜻입니다. Quite는 다른 단어입니다."
+    },
+    "question_spell": {
+      "en": "Question starts with qu. Keep every letter in its place.",
+      "ko": "Question은 qu로 시작합니다. 글자 순서와 수를 지키세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell words with qu and x"
+    ],
+    "no_ixl_text": true
+  }
+}

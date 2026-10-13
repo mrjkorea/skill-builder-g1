@@ -1,0 +1,271 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_long_a_word_silent_e_ai_ay",
+  "family_title_en": "Spell the long a word: silent e, ai, ay",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_long_a_word_silent_e_ai_ay",
+      "ix_title": "Spell the long a word: silent e, ai, ay",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어느 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right spelling.",
+        "ko": "맞는 철자를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word spellings. Exactly one is the correct spelling of the long a word clued by the stem. The stem must not contain that correct spelling. Stems use only the roots word list, allowed extra words, and <NAME>. Tier 1 wrong choices drop a letter or scramble letters. Tier 2 wrong choices try a different long a pattern. Tier 3 wrong choices are near misses that use silent e, a and i, or a and y for the same word. Set explain_key to silent_e, ai_spell, or ay_spell to match the correct pattern. Add media with the target lemma.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "chain",
+        "clay",
+        "tray",
+        "skate",
+        "cape",
+        "cage"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_long_a_word_silent_e_ai_ay_0001",
+          "tier": 1,
+          "stem": "A sweet treat on your birthday.",
+          "choices": [
+            "cak",
+            "cake",
+            "kace",
+            "acek"
+          ],
+          "answer_index": 1,
+          "explain_key": "silent_e",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_a_word_silent_e_ai_ay_0002",
+          "tier": 1,
+          "stem": "Water from the sky.",
+          "choices": [
+            "rani",
+            "rainn",
+            "rain",
+            "raen"
+          ],
+          "answer_index": 2,
+          "explain_key": "ai_spell",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_a_word_silent_e_ai_ay_0003",
+          "tier": 1,
+          "stem": "Fun with a ball.",
+          "choices": [
+            "pla",
+            "paly",
+            "pyal",
+            "play"
+          ],
+          "answer_index": 3,
+          "explain_key": "ay_spell",
+          "media": [
+            {
+              "lemma": "play"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_a_word_silent_e_ai_ay_0004",
+          "tier": 2,
+          "stem": "A long animal that can bite.",
+          "choices": [
+            "snaik",
+            "snake",
+            "snayk",
+            "snayke"
+          ],
+          "answer_index": 1,
+          "explain_key": "silent_e",
+          "media": [
+            {
+              "lemma": "snake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_a_word_silent_e_ai_ay_0005",
+          "tier": 2,
+          "stem": "A stick of color for art class.",
+          "choices": [
+            "craion",
+            "crayen",
+            "crayon",
+            "crayn"
+          ],
+          "answer_index": 2,
+          "explain_key": "ay_spell",
+          "media": [
+            {
+              "lemma": "crayon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_a_word_silent_e_ai_ay_0006",
+          "tier": 2,
+          "stem": "Red and yellow and blue in the sky.",
+          "choices": [
+            "rainbow",
+            "raynbow",
+            "ranebow",
+            "rainboe"
+          ],
+          "answer_index": 0,
+          "explain_key": "ai_spell",
+          "media": [
+            {
+              "lemma": "rainbow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_a_word_silent_e_ai_ay_0007",
+          "tier": 3,
+          "stem": "<NAME> will eat a small green fruit.",
+          "choices": [
+            "graip",
+            "grayp",
+            "graep",
+            "grape"
+          ],
+          "answer_index": 3,
+          "explain_key": "silent_e",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "grape"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_a_word_silent_e_ai_ay_0008",
+          "tier": 3,
+          "stem": "<NAME> can run and jump by the swing.",
+          "choices": [
+            "plaiground",
+            "playground",
+            "plaeground",
+            "playgrounde"
+          ],
+          "answer_index": 1,
+          "explain_key": "ay_spell",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "playground"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each item has exactly four spellings, and exactly one of them is correct.",
+      "Wrong choices misspell the same target word. Do not offer a different real word.",
+      "Tier 1 misses drop a letter or scramble letter order so the error is easy to see.",
+      "Tier 2 misses try another long a pattern or add one extra letter.",
+      "Tier 3 misses are near misses that try silent e, a plus i, or a plus y on that same word.",
+      "Stay in the kid world of school, home, food, pets, play, family, and weather. No brand names and no real child names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b"
+  ],
+  "tier_rules": {
+    "1": "Short clues of three to six words about food, play, or weather. The correct word is a common one-syllable long a word. The clue must not show the correct spelling. Wrong choices miss a letter or scramble letters.",
+    "2": "Clues of five to eight words, including two-syllable words such as crayon or rainbow. Wrong choices try a different long a pattern or add one extra letter. The clue must not show the correct spelling.",
+    "3": "Clues of seven to ten words, often with <NAME>. Every wrong choice is a near miss that tries silent e, a and i, or a and y for the same word. The clue must not show the correct spelling."
+  },
+  "miss_explain": {
+    "silent_e": {
+      "en": "A silent e at the end makes the a say its name.",
+      "ko": "끝의 묵음 e 때문에 a는 자기 이름을 말합니다."
+    },
+    "ai_spell": {
+      "en": "The letters a and i together spell this long a.",
+      "ko": "글자 a와 i가 함께 이 긴 a를 나타냅니다."
+    },
+    "ay_spell": {
+      "en": "The letters a and y together spell this long a.",
+      "ko": "글자 a와 y가 함께 이 긴 a를 나타냅니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the long a word: silent e, ai, ay"
+    ],
+    "no_ixl_text": true
+  }
+}

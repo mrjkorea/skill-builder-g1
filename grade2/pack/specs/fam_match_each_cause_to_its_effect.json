@@ -1,0 +1,290 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_match_each_cause_to_its_effect",
+  "family_title_en": "Cause and effect",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_match_each_cause_to_its_effect",
+      "ix_title": "Match each cause to its effect",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "What is the effect?",
+        "ko": "결과는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the effect that matches the cause.",
+        "ko": "원인에 맞는 결과를 누르세요."
+      },
+      "choice_rule": "Four unique kid-short sentences. Exactly one is the true effect of the stem cause. Wrong choices are an unrelated event, a restated cause, an opposite event, or a later fact that the cause did not make happen. Never two right effects. Never label a choice cause or effect.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "dropped",
+        "forgot",
+        "cried",
+        "scared",
+        "dirty",
+        "empty",
+        "burned",
+        "tripped",
+        "missed",
+        "melted",
+        "sleepy",
+        "cloudy",
+        "cracked",
+        "leaked",
+        "soaked",
+        "knocked",
+        "puddle",
+        "splash"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_match_each_cause_to_its_effect_0001",
+          "tier": 1,
+          "stem": "The rain fell on the grass.",
+          "choices": [
+            "The grass got wet.",
+            "The grass was dry.",
+            "The sun came out.",
+            "The bird sang a song."
+          ],
+          "answer_index": 0,
+          "explain_key": "match_effect",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_match_each_cause_to_its_effect_0002",
+          "tier": 1,
+          "stem": "The baby was very hungry.",
+          "choices": [
+            "The baby went to sleep.",
+            "The baby ate lunch.",
+            "The baby sang a song.",
+            "The baby put on a coat."
+          ],
+          "answer_index": 1,
+          "explain_key": "match_effect",
+          "media": [
+            {
+              "lemma": "baby"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_match_each_cause_to_its_effect_0003",
+          "tier": 1,
+          "stem": "<NAME> spilled the milk.",
+          "choices": [
+            "The milk was cold.",
+            "The cup was full.",
+            "The floor got wet.",
+            "The cow ate grass."
+          ],
+          "answer_index": 2,
+          "explain_key": "match_effect",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_match_each_cause_to_its_effect_0004",
+          "tier": 2,
+          "stem": "The loud wind blew the hat.",
+          "choices": [
+            "The hat flew away.",
+            "The hat was new.",
+            "The wind was cold.",
+            "The boy put on a hat."
+          ],
+          "answer_index": 0,
+          "explain_key": "restated_cause",
+          "media": [
+            {
+              "lemma": "hat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_match_each_cause_to_its_effect_0005",
+          "tier": 2,
+          "stem": "<NAME> left the cookies in the oven.",
+          "choices": [
+            "The cookies were very sweet.",
+            "The kids ate the cookies after dinner.",
+            "The oven was in the kitchen.",
+            "The cookies got too hot."
+          ],
+          "answer_index": 3,
+          "explain_key": "not_related",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_match_each_cause_to_its_effect_0006",
+          "tier": 2,
+          "stem": "The puppy barked at night.",
+          "choices": [
+            "The puppy was brown.",
+            "The baby woke up.",
+            "The baby went to sleep.",
+            "The dog ran in the yard."
+          ],
+          "answer_index": 1,
+          "explain_key": "opposite_event",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_match_each_cause_to_its_effect_0007",
+          "tier": 3,
+          "stem": "The plant did not get water.",
+          "choices": [
+            "The plant did not grow.",
+            "The plant was in the sun.",
+            "Water fell on the plant.",
+            "The flower was pretty and pink."
+          ],
+          "answer_index": 0,
+          "explain_key": "restated_cause",
+          "media": [
+            {
+              "lemma": "plant"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_match_each_cause_to_its_effect_0008",
+          "tier": 3,
+          "stem": "<NAME> left her lunch at home.",
+          "choices": [
+            "She packed a big lunch.",
+            "Her lunch was on the table.",
+            "She was hungry at school.",
+            "She found her lunch at home."
+          ],
+          "answer_index": 2,
+          "explain_key": "not_related",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Write four short event sentences. Keep one true effect of the stem cause and three wrong events.",
+      "Never use the words cause or effect in a stem or choice.",
+      "Tier 1 wrong choices must be far events from home, school, food, pets, play, family, or weather.",
+      "Tier 2 wrong choices may share a noun with the stem but must not be what the cause made happen.",
+      "Tier 3 wrong choices must be near misses: a restated cause, a reversed pair, an opposite outcome, or a later fact.",
+      "Never write two choices that both work as the effect.",
+      "Never use a real name. Use <NAME> when a person is named."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bcause and effect\\b",
+    "\\bthe cause\\b",
+    "\\bthe effect\\b",
+    "\\bwhich is the cause\\b",
+    "\\bwhich is the effect\\b",
+    "\\bwhat happened first\\b"
+  ],
+  "tier_rules": {
+    "1": "Short cause stems of four to six words. The effect is obvious. Wrong choices are unrelated kid-world events.",
+    "2": "Grade 2 stems of five to eight words, often two-syllable. Wrong choices share a noun with the stem but are not the effect.",
+    "3": "Near-miss pairs. Wrong choices restate the cause, reverse cause and effect, or give the opposite outcome."
+  },
+  "miss_explain": {
+    "match_effect": {
+      "en": "The effect is what happens because of the cause. Tap that.",
+      "ko": "결과는 원인 때문에 일어나는 일입니다. 그것을 누르세요."
+    },
+    "not_related": {
+      "en": "That may be true, but it does not happen because of this cause.",
+      "ko": "그럴 수도 있지만, 이 원인 때문에 일어난 일이 아닙니다."
+    },
+    "restated_cause": {
+      "en": "That tells why it started. It is a cause, not the effect.",
+      "ko": "그것은 왜 시작되었는지를 말합니다. 원인이고 결과가 아닙니다."
+    },
+    "opposite_event": {
+      "en": "That is the opposite of what this cause would make happen.",
+      "ko": "그것은 이 원인이 일어나게 할 일과 반대입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Match each cause to its effect"
+    ],
+    "no_ixl_text": true
+  }
+}

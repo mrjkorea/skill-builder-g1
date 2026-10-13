@@ -1,0 +1,271 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_short_o_word",
+  "family_title_en": "Spell the short o word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_short_o_word",
+      "ix_title": "Spell the short o word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which short o spelling is right?",
+        "ko": "어떤 짧은 o 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the short o word.",
+        "ko": "짧은 o 단어를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word spellings. Exactly one is the correct spelling of the short o word the stem means, and that spelling does not appear in the stem. The other three misspell that same word. Stems use only roots word list words and the NAME token, stay within ten words, and never describe a picture. A picture, when used, is one media lemma of the correct word. Kid topics only: school, home, food, pets, play, family, and weather. No brands and no real names.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_short_o_word_0001",
+          "tier": 1,
+          "stem": "The pet barks.",
+          "choices": [
+            "dog",
+            "doog",
+            "daag",
+            "dgo"
+          ],
+          "answer_index": 0,
+          "explain_key": "short_o",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_o_word_0002",
+          "tier": 1,
+          "stem": "It has a bushy tail.",
+          "choices": [
+            "foox",
+            "fox",
+            "fexx",
+            "fxo"
+          ],
+          "answer_index": 1,
+          "explain_key": "short_o",
+          "media": [
+            {
+              "lemma": "fox"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_o_word_0003",
+          "tier": 1,
+          "stem": "A gift goes in this.",
+          "choices": [
+            "boox",
+            "bixx",
+            "box",
+            "bxo"
+          ],
+          "answer_index": 2,
+          "explain_key": "short_o",
+          "media": [
+            {
+              "lemma": "box"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_o_word_0004",
+          "tier": 2,
+          "stem": "This animal can croak in a pond.",
+          "choices": [
+            "forg",
+            "frogg",
+            "frawg",
+            "frog"
+          ],
+          "answer_index": 3,
+          "explain_key": "letter_mix",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_o_word_0005",
+          "tier": 2,
+          "stem": "You wear it inside a shoe.",
+          "choices": [
+            "sock",
+            "sok",
+            "soack",
+            "scok"
+          ],
+          "answer_index": 0,
+          "explain_key": "letter_mix",
+          "media": [
+            {
+              "lemma": "sock"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_o_word_0006",
+          "tier": 2,
+          "stem": "It hangs on a wall and can tell time.",
+          "choices": [
+            "clok",
+            "cloack",
+            "clock",
+            "clcok"
+          ],
+          "answer_index": 2,
+          "explain_key": "letter_mix",
+          "media": [
+            {
+              "lemma": "clock"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_o_word_0007",
+          "tier": 3,
+          "stem": "Mom can wipe the wet floor with this.",
+          "choices": [
+            "mope",
+            "mop",
+            "moap",
+            "mopp"
+          ],
+          "answer_index": 1,
+          "explain_key": "silent_e",
+          "media": [
+            {
+              "lemma": "mop"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_o_word_0008",
+          "tier": 3,
+          "stem": "<NAME> has a place on a coat for coins.",
+          "choices": [
+            "poket",
+            "pockit",
+            "pokcet",
+            "pocket"
+          ],
+          "answer_index": 3,
+          "explain_key": "two_syllable",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "pocket"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each item has four choices and exactly one correct spelling of a short o word.",
+      "Wrong choices misspell that same word. A long o lookalike such as mope may be a trap only when the stem does not mean that word.",
+      "Never offer a different real word that also fits the stem.",
+      "Tier 1 traps are obvious: a wrong vowel, a doubled vowel, or letters in the wrong order.",
+      "Tier 2 traps change a blend or ck word by one step: drop a letter, add a letter, or swap two letters.",
+      "Tier 3 traps are near misses: a silent e, a vowel team such as oa, or one wrong letter in a two-syllable word.",
+      "The correct choice is always a real short o word, never a long o word such as hope, bone, or coat.",
+      "Choices are whole words. Never use IPA, slash sounds, held sounds, or a single phoneme.",
+      "Vary the correct words, and do not use one correct spelling on more than four items."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bschwa\\b",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "[æɑɒəɛɪʊʌɔθðʃʒŋˈˌ]",
+    "\\/[^\\s/]+\\/",
+    "\\b(?:mmm+|sss+|ah+|oh+)\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Three to five words. A CVC short o word such as dog, fox, or box. Obvious distractors only: a wrong vowel, a doubled vowel, or mixed-up letters.",
+    "2": "Five to nine words. A short o word with a blend or ck, such as frog, sock, or clock. Distractors drop, add, or swap one letter.",
+    "3": "Seven to ten words. Near misses only: silent e as in mop not mope, a vowel team, or one wrong letter in a two-syllable word such as pocket. The NAME token may be used."
+  },
+  "miss_explain": {
+    "short_o": {
+      "en": "Short o is the vowel in dog and hot. This spelling matches that sound.",
+      "ko": "짧은 o는 dog와 hot의 모음입니다. 이 철자가 그 소리와 맞습니다."
+    },
+    "letter_mix": {
+      "en": "A letter is missing, extra, or out of order. Tap the real short o spelling.",
+      "ko": "글자가 빠졌거나 더 들어갔거나 순서가 바뀌었습니다. 맞는 짧은 o 철자를 누르세요."
+    },
+    "silent_e": {
+      "en": "A final e makes o say its name. This short o word does not add that e.",
+      "ko": "끝의 e가 있으면 o는 이름을 말합니다. 짧은 o 단어에는 그 e가 없습니다."
+    },
+    "two_syllable": {
+      "en": "This word has two beats. The first o is short, and every letter must be right.",
+      "ko": "이 단어는 박자가 두 개입니다. 앞의 o는 짧은 o이고 나머지 글자도 맞아야 합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the short o word"
+    ],
+    "no_ixl_text": true
+  }
+}

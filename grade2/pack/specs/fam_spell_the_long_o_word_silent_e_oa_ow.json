@@ -1,0 +1,242 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_long_o_word_silent_e_oa_ow",
+  "family_title_en": "Spell the long o word: silent e, oa, ow",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_long_o_word_silent_e_oa_ow",
+      "ix_title": "Spell the long o word: silent e, oa, ow",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "How do you spell the long o word?",
+        "ko": "긴 o 단어는 어떻게 쓰나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the correct spelling.",
+        "ko": "바른 철자를 누르세요."
+      },
+      "choice_rule": "Four lowercase whole-word choices try to spell the one long o word the stem clues. Exactly one choice is the real spelling. The other three are misspellings of that same word and are not different real words. Vary which position is correct. Tier 1 uses two easy letter errors and one wrong pattern from silent e, oa, or ow. Tier 2 uses the other long o patterns or a scramble of those vowel letters. Tier 3 keeps the consonants and changes only the long o spelling, and may add an extra e.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "coach",
+        "cone",
+        "foam",
+        "globe",
+        "glow",
+        "goat",
+        "hope",
+        "joke",
+        "loaf",
+        "oak",
+        "shadow",
+        "soak",
+        "soap",
+        "toad"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_long_o_word_silent_e_oa_ow_0001",
+          "tier": 1,
+          "stem": "A frog will make this noise.",
+          "choices": [
+            "croak",
+            "crok",
+            "croke",
+            "craok"
+          ],
+          "answer_index": 0,
+          "explain_key": "oa_long"
+        },
+        {
+          "item_id": "roots_spell_the_long_o_word_silent_e_oa_ow_0002",
+          "tier": 1,
+          "stem": "You smell with this on your face.",
+          "choices": [
+            "nos",
+            "nose",
+            "noas",
+            "noze"
+          ],
+          "answer_index": 1,
+          "explain_key": "silent_e"
+        },
+        {
+          "item_id": "roots_spell_the_long_o_word_silent_e_oa_ow_0003",
+          "tier": 1,
+          "stem": "We eat soup from this.",
+          "choices": [
+            "bol",
+            "boal",
+            "bowl",
+            "bwol"
+          ],
+          "answer_index": 2,
+          "explain_key": "ow_long"
+        },
+        {
+          "item_id": "roots_spell_the_long_o_word_silent_e_oa_ow_0004",
+          "tier": 2,
+          "stem": "We eat this hot bread in the morning.",
+          "choices": [
+            "toste",
+            "towst",
+            "toest",
+            "toast"
+          ],
+          "answer_index": 3,
+          "explain_key": "oa_long"
+        },
+        {
+          "item_id": "roots_spell_the_long_o_word_silent_e_oa_ow_0005",
+          "tier": 2,
+          "stem": "A dog will chew the hard part of meat.",
+          "choices": [
+            "boan",
+            "bone",
+            "bown",
+            "boen"
+          ],
+          "answer_index": 1,
+          "explain_key": "silent_e"
+        },
+        {
+          "item_id": "roots_spell_the_long_o_word_silent_e_oa_ow_0006",
+          "tier": 2,
+          "stem": "A plant can do this in the sun.",
+          "choices": [
+            "grow",
+            "groe",
+            "groa",
+            "growe"
+          ],
+          "answer_index": 0,
+          "explain_key": "ow_long"
+        },
+        {
+          "item_id": "roots_spell_the_long_o_word_silent_e_oa_ow_0007",
+          "tier": 3,
+          "stem": "<NAME> can point this at the tv tonight.",
+          "choices": [
+            "remoat",
+            "remoate",
+            "remote",
+            "remowt"
+          ],
+          "answer_index": 2,
+          "explain_key": "silent_e",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_spell_the_long_o_word_silent_e_oa_ow_0008",
+          "tier": 3,
+          "stem": "A ripe banana is this bright color.",
+          "choices": [
+            "yelloe",
+            "yelowe",
+            "yelloa",
+            "yellow"
+          ],
+          "answer_index": 3,
+          "explain_key": "ow_long"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The stem clues one long o word and never shows its correct spelling or any other long o word.",
+      "Stem words come only from the roots word list, allowed extra words, and the NAME token.",
+      "Use school, home, food, pets, play, family, and weather. No brands and no real personal names.",
+      "Give four lowercase spellings of that same word. Exactly one is correct, and wrong choices are not other real words.",
+      "Wrong choices use another long o pattern, drop or swap a letter, or add an extra e. Tier 3 changes only the vowel letters.",
+      "Use silent e, oa, and ow only. Ow must say long o, as in bowl, snow, grow, and yellow, not the vowel in cow, down, owl, town, clown, flower, or brown.",
+      "Do not target come, some, love, done, move, gone, or one. The final e does not make a long o in those words.",
+      "Do not target gold, cold, old, hold, both, or most. That vowel is long, but the spelling is not silent e, oa, or ow.",
+      "No IPA, no slash sounds, no held phoneme clips, and no single-letter or letter-name choices.",
+      "Cover silent e, oa, and ow across the pool. Tier 1 is a common one-syllable word. Tier 3 prefers two-syllable words such as remote, yellow, window, and pillow.",
+      "Sample silent e words: nose, bone, home, rope, stone, stove, phone, and remote. Sample oa words: boat, coat, road, toast, croak, float, and goal. Sample ow words: snow, bowl, grow, show, slow, yellow, window, and pillow."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "phoneme",
+    "schwa",
+    "\\bipa\\b",
+    "\\bdisney\\b",
+    "\\bnike\\b",
+    "\\blego\\b",
+    "\\bpokemon\\b",
+    "\\bbarbie\\b"
+  ],
+  "tier_rules": {
+    "1": "Common one-syllable words such as nose, bowl, and croak. Stems stay within about seven words. Two distractors drop, swap, or change a letter, and one uses another long o pattern.",
+    "2": "Grade-level one-syllable words in a clue of about six to nine words. Distractors use the other spellings silent e, oa, and ow, or scramble those vowel letters.",
+    "3": "Near misses that change only the long o letters, sometimes with an extra e. Prefer two-syllable words such as remote, yellow, window, and pillow."
+  },
+  "miss_explain": {
+    "silent_e": {
+      "en": "Spell this long o with o, one consonant, and a silent e.",
+      "ko": "이 긴 o는 o, 자음 하나, 소리 없는 e로 써요."
+    },
+    "oa_long": {
+      "en": "Spell this long o with the letters o and a together.",
+      "ko": "이 긴 o는 글자 o와 a를 붙여 써요."
+    },
+    "ow_long": {
+      "en": "Spell this long o with the letters o and w together.",
+      "ko": "이 긴 o는 글자 o와 w를 붙여 써요."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the long o word: silent e, oa, ow"
+    ],
+    "no_ixl_text": true
+  }
+}

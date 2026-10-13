@@ -1,0 +1,267 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_word_with_a_consonant_blend",
+  "family_title_en": "Spell the word with a consonant blend",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_word_with_a_consonant_blend",
+      "ix_title": "Spell the word with a consonant blend",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어느 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the spelling that keeps the blend.",
+        "ko": "자음군이 맞는 철자를 누르세요."
+      },
+      "choice_rule": "Four unique lowercase whole words. Exactly one is the correct spelling of the single thing the stem describes, and that word starts with an initial consonant blend. Both blend letters keep their own sound. Allowed pairs are bl br cl cr dr fl fr gl gr pl pr sc sk sl sm sn sp st sw tr tw. Tier 3 may also use scr spr str. Use sc only when both sounds are heard, as in scab, not science. Do not test sh ch th wh ck ng or qu, and do not test a final blend. Set answer_index to the correct choice and vary it across items. Tier 1 uses a one-syllable target: one wrong choice deletes one blend consonant, and the other two are different short real words that do not fit the stem. Tier 2 uses a one-syllable target: every wrong choice is that same word with one letter dropped or one blend letter changed, and at least two wrong choices attack the blend. Tier 3 uses a two-syllable target: every wrong choice is a one-letter near miss, a moved blend letter, or a common misspelling, using roots-list misspellings when they exist. The stem must not contain the target word. Tag explain_key as keep_blend, dropped_letter, wrong_blend, or near_miss. Optional media is one lemma of the target word. Do not describe a picture, and do not name an audio file.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_word_with_a_consonant_blend_0001",
+          "tier": 1,
+          "stem": "The green pet can jump high.",
+          "choices": [
+            "frog",
+            "fog",
+            "log",
+            "fig"
+          ],
+          "answer_index": 0,
+          "explain_key": "keep_blend",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_word_with_a_consonant_blend_0002",
+          "tier": 1,
+          "stem": "Cold white water can fall.",
+          "choices": [
+            "sow",
+            "low",
+            "snow",
+            "wet"
+          ],
+          "answer_index": 2,
+          "explain_key": "keep_blend",
+          "media": [
+            {
+              "lemma": "snow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_word_with_a_consonant_blend_0003",
+          "tier": 1,
+          "stem": "A big plant made of wood.",
+          "choices": [
+            "tee",
+            "tree",
+            "bee",
+            "tea"
+          ],
+          "answer_index": 1,
+          "explain_key": "keep_blend",
+          "media": [
+            {
+              "lemma": "tree"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_word_with_a_consonant_blend_0004",
+          "tier": 2,
+          "stem": "We wave it at the big game.",
+          "choices": [
+            "blag",
+            "frag",
+            "flag",
+            "clag"
+          ],
+          "answer_index": 2,
+          "explain_key": "wrong_blend",
+          "media": [
+            {
+              "lemma": "flag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_word_with_a_consonant_blend_0005",
+          "tier": 2,
+          "stem": "Use this on your teeth every day.",
+          "choices": [
+            "bush",
+            "rush",
+            "brus",
+            "brush"
+          ],
+          "answer_index": 3,
+          "explain_key": "dropped_letter",
+          "media": [
+            {
+              "lemma": "brush"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_word_with_a_consonant_blend_0006",
+          "tier": 2,
+          "stem": "A tool you use to eat soup.",
+          "choices": [
+            "spoon",
+            "soon",
+            "poon",
+            "spon"
+          ],
+          "answer_index": 0,
+          "explain_key": "dropped_letter",
+          "media": [
+            {
+              "lemma": "spoon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_word_with_a_consonant_blend_0007",
+          "tier": 3,
+          "stem": "<NAME> is a boy with the same mother as me.",
+          "choices": [
+            "borther",
+            "broter",
+            "brother",
+            "brothr"
+          ],
+          "answer_index": 2,
+          "explain_key": "near_miss",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "brother"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_word_with_a_consonant_blend_0008",
+          "tier": 3,
+          "stem": "The outside place at school where kids play.",
+          "choices": [
+            "payground",
+            "palyground",
+            "playgound",
+            "playground"
+          ],
+          "answer_index": 3,
+          "explain_key": "near_miss",
+          "media": [
+            {
+              "lemma": "playground"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer exactly four whole-word choices and one answer_index. The child taps one spelling.",
+      "The target starts with a consonant blend, and both letters keep their own sound.",
+      "Do not test digraphs sh, ch, th, wh, ck, or ng, and do not test qu or a final blend.",
+      "The stem is a school, home, food, pet, play, family, or weather clue and must not contain the target word.",
+      "Tier 1: one wrong choice deletes one blend consonant. The other two are different short real words that do not fit the stem.",
+      "Tier 2: every wrong choice is the same word with one letter dropped or one blend letter changed, and at least two attack the blend.",
+      "Tier 3: every wrong choice is a missing letter, a moved blend letter, or a common misspelling of that two-syllable word.",
+      "A real word may be wrong only when the stem does not describe it. Prefer roots-list misspellings when they exist.",
+      "Choices are whole words. No IPA, no slash sounds, no phoneme labels, and no audio file names.",
+      "Use only the roots word list, allowed extra words, and <NAME> in stems. Vary answer_index. No brand names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bdigraph\\b",
+    "\\bschwa\\b",
+    "\\bipa\\b",
+    "/[a-z]{1,3}/"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. The target is a one-syllable word with a common initial blend. One wrong choice deletes one blend consonant. The other two are different short real words that cannot fit the stem.",
+    "2": "Stems of six to eight words. The target is a one-syllable word with an initial two-letter blend. Every wrong choice drops one letter or changes one blend letter, and at least two wrong choices attack the blend.",
+    "3": "Stems of eight to ten words. The target is a two-syllable word, and <NAME> may be used. Wrong choices are one-letter near misses: a missing letter, a blend letter moved, or a common misspelling from the word list."
+  },
+  "miss_explain": {
+    "keep_blend": {
+      "en": "A blend keeps two consonants together. Keep both letters in the word.",
+      "ko": "자음군은 자음 두 글자가 함께 있습니다. 두 글자를 모두 적으세요."
+    },
+    "dropped_letter": {
+      "en": "A letter is missing. The blend needs both consonants at the start.",
+      "ko": "글자가 하나 빠졌습니다. 자음군은 앞의 자음 둘이 필요합니다."
+    },
+    "wrong_blend": {
+      "en": "That letter pair is a different blend. Use the pair this word starts with.",
+      "ko": "그 글자 짝은 다른 자음군입니다. 이 단어의 짝을 쓰세요."
+    },
+    "near_miss": {
+      "en": "The blend is almost right. One letter is missing or out of order.",
+      "ko": "자음군이 거의 맞습니다. 빠진 글자나 순서를 고치세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the word with a consonant blend"
+    ],
+    "no_ixl_text": true
+  }
+}

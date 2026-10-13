@@ -1,0 +1,294 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_verbs_in_the_regular_past_tense",
+  "family_title_en": "Identify verbs in the regular past tense",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_verbs_in_the_regular_past_tense",
+      "ix_title": "Identify verbs in the regular past tense",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is in the regular past tense?",
+        "ko": "어떤 낱말이 규칙 과거형인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the regular past tense verb.",
+        "ko": "규칙 과거형 동사를 누르세요."
+      },
+      "choice_rule": "Offer four single words. Exactly one is a regular past-tense verb that ends with ed. The other three are nouns, little words, present-tense verbs, or irregular past verbs. Never use two ed verbs. Never use a real name.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "asked",
+        "brushed",
+        "climbed",
+        "cooked",
+        "helped",
+        "jumped",
+        "kicked",
+        "liked",
+        "lived",
+        "looked",
+        "needed",
+        "opened",
+        "picked",
+        "played",
+        "pulled",
+        "rained",
+        "started",
+        "stopped",
+        "talked",
+        "waited",
+        "walked",
+        "wanted",
+        "washed",
+        "watched",
+        "worked",
+        "yelled"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_verbs_in_the_regular_past_tense_0001",
+          "tier": 1,
+          "stem": "The dog barked at us.",
+          "choices": [
+            "barked",
+            "dog",
+            "us",
+            "at"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_a_verb",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_verbs_in_the_regular_past_tense_0002",
+          "tier": 1,
+          "stem": "Mom baked a cake.",
+          "choices": [
+            "mom",
+            "cake",
+            "baked",
+            "oven"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_a_verb",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_verbs_in_the_regular_past_tense_0003",
+          "tier": 1,
+          "stem": "The kids clapped at school.",
+          "choices": [
+            "kids",
+            "clapped",
+            "school",
+            "class"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_a_verb",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_verbs_in_the_regular_past_tense_0004",
+          "tier": 2,
+          "stem": "<NAME> packed a lunch today.",
+          "choices": [
+            "packed",
+            "pack",
+            "lunch",
+            "today"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_present",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_verbs_in_the_regular_past_tense_0005",
+          "tier": 2,
+          "stem": "The puppy hugged my sister.",
+          "choices": [
+            "hug",
+            "puppy",
+            "sister",
+            "hugged"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_present",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_verbs_in_the_regular_past_tense_0006",
+          "tier": 2,
+          "stem": "We cleaned the kitchen after dinner.",
+          "choices": [
+            "clean",
+            "cleaned",
+            "kitchen",
+            "dinner"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_present",
+          "media": [
+            {
+              "lemma": "kitchen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_verbs_in_the_regular_past_tense_0007",
+          "tier": 3,
+          "stem": "Grandma made soup and smiled.",
+          "choices": [
+            "made",
+            "soup",
+            "smiled",
+            "make"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_irregular",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_verbs_in_the_regular_past_tense_0008",
+          "tier": 3,
+          "stem": "<NAME> went home and finished.",
+          "choices": [
+            "finished",
+            "went",
+            "home",
+            "go"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_irregular",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "home"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one choice is a regular past-tense verb that ends with ed. Never put two ed verbs in the same item.",
+      "Tier 1 distractors are nouns or little words from the stem, not other verbs.",
+      "Tier 2 distractors include the present form of the same verb plus a noun from kid life.",
+      "Tier 3 distractors include an irregular past verb that is also past, plus its present form or a noun.",
+      "Keep stems in school, home, food, pets, play, family, or weather. No brands and no real names.",
+      "Use only the roots wordlist, allowed_extra_words, and <NAME> in stems."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bregular past\\b",
+    "\\bpast tense\\b",
+    "\\birregular\\b",
+    "\\bsuffix\\b",
+    "\\bendings?\\b",
+    "\\bverb tense\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. The ed verb is clear. Distractors are nouns or little words, not other verbs.",
+    "2": "Stems of five to seven words. One distractor is the present form of the same verb. Another is a noun from the stem.",
+    "3": "Near misses. The stem also holds an irregular past verb. Choices include that irregular past and a present form."
+  },
+  "miss_explain": {
+    "regular_ed": {
+      "en": "A regular past verb tells about the past and ends with ed.",
+      "ko": "규칙 과거 동사는 과거에 일어난 일을 말하고 ed로 끝납니다."
+    },
+    "not_a_verb": {
+      "en": "That word names a person or thing. It is not a verb.",
+      "ko": "그 낱말은 사람이나 사물을 가리킵니다. 동사가 아닙니다."
+    },
+    "not_present": {
+      "en": "That verb tells about now. A regular past verb ends with ed.",
+      "ko": "그 동사는 지금을 말합니다. 규칙 과거 동사는 ed로 끝납니다."
+    },
+    "not_irregular": {
+      "en": "That verb is past, but it does not end with ed. Regular past verbs add ed.",
+      "ko": "그 동사는 과거이지만 ed로 끝나지 않습니다. 규칙 과거만 ed를 붙입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify verbs in the regular past tense"
+    ],
+    "no_ixl_text": true
+  }
+}

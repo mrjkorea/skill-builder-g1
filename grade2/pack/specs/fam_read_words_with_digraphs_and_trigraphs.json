@@ -1,0 +1,296 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_read_words_with_digraphs_and_trigraphs",
+  "family_title_en": "Read words with digraphs and trigraphs",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_read_words_with_digraphs_and_trigraphs",
+      "ix_title": "Read words with digraphs and trigraphs",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word has the same letter team?",
+        "ko": "어떤 단어에 같은 글자 묶음이 있나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word with the same letter team.",
+        "ko": "같은 글자 묶음이 있는 단어를 누르세요."
+      },
+      "choice_rule": "Four whole words. Exactly one choice has the same closed-list team as the stem, and the stem word is not repeated. tch is not ch, dge is not ge, kn is not n, and wr is not wh. Tier 1 wrong words have no closed-list team. Tier 2 wrong words have a different real team. Tier 3 wrong words are near misses. Spread the right choice across all four spots. Across the pool use every team: sh, ch, th, wh, ph, ck, ng, kn, wr, tch, and dge.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "alphabet",
+        "badge",
+        "bang",
+        "batch",
+        "bath",
+        "cherry",
+        "clutch",
+        "crutch",
+        "ditch",
+        "dodge",
+        "dolphin",
+        "edge",
+        "elephant",
+        "fetch",
+        "fridge",
+        "fudge",
+        "graph",
+        "hatch",
+        "hedge",
+        "itch",
+        "judge",
+        "knee",
+        "knew",
+        "knife",
+        "knob",
+        "knot",
+        "latch",
+        "lodge",
+        "patch",
+        "pitch",
+        "ridge",
+        "ring",
+        "rung",
+        "shark",
+        "sketch",
+        "smudge",
+        "stitch",
+        "switch",
+        "wedge",
+        "whip",
+        "whisk",
+        "wing",
+        "wrist"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_read_words_with_digraphs_and_trigraphs_0001",
+          "tier": 1,
+          "stem": "fish",
+          "choices": [
+            "shop",
+            "cat",
+            "dog",
+            "cup"
+          ],
+          "answer_index": 0,
+          "explain_key": "sh_team"
+        },
+        {
+          "item_id": "roots_read_words_with_digraphs_and_trigraphs_0002",
+          "tier": 1,
+          "stem": "chip",
+          "choices": [
+            "map",
+            "chair",
+            "sun",
+            "dog"
+          ],
+          "answer_index": 1,
+          "explain_key": "ch_team"
+        },
+        {
+          "item_id": "roots_read_words_with_digraphs_and_trigraphs_0003",
+          "tier": 1,
+          "stem": "duck",
+          "choices": [
+            "sun",
+            "map",
+            "sock",
+            "hat"
+          ],
+          "answer_index": 2,
+          "explain_key": "ck_team"
+        },
+        {
+          "item_id": "roots_read_words_with_digraphs_and_trigraphs_0004",
+          "tier": 2,
+          "stem": "whale",
+          "choices": [
+            "wish",
+            "chip",
+            "duck",
+            "wheel"
+          ],
+          "answer_index": 3,
+          "explain_key": "wh_team"
+        },
+        {
+          "item_id": "roots_read_words_with_digraphs_and_trigraphs_0005",
+          "tier": 2,
+          "stem": "thunder",
+          "choices": [
+            "teeth",
+            "chair",
+            "sheep",
+            "clock"
+          ],
+          "answer_index": 0,
+          "explain_key": "th_team"
+        },
+        {
+          "item_id": "roots_read_words_with_digraphs_and_trigraphs_0006",
+          "tier": 2,
+          "stem": "photo",
+          "choices": [
+            "chair",
+            "dolphin",
+            "sheep",
+            "clock"
+          ],
+          "answer_index": 1,
+          "explain_key": "ph_team"
+        },
+        {
+          "item_id": "roots_read_words_with_digraphs_and_trigraphs_0007",
+          "tier": 3,
+          "stem": "kitchen",
+          "choices": [
+            "chin",
+            "kick",
+            "watch",
+            "cheese"
+          ],
+          "answer_index": 2,
+          "explain_key": "tch_team"
+        },
+        {
+          "item_id": "roots_read_words_with_digraphs_and_trigraphs_0008",
+          "tier": 3,
+          "stem": "bridge",
+          "choices": [
+            "page",
+            "large",
+            "age",
+            "fudge"
+          ],
+          "answer_index": 3,
+          "explain_key": "dge_team"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {},
+  "distractor_rules": {
+    "roots": [
+      "The stem is exactly one word with exactly one team from sh, ch, th, wh, ph, ck, ng, kn, wr, tch, and dge.",
+      "qu, mb, and igh are not teams here, so skip queen, light, night, right, and high.",
+      "Use kid words about home, school, food, pets, play, family, or weather. No names, brands, or places.",
+      "Skip two-team words such as chick, check, thing, knight, school, knock, wreck, and wreath.",
+      "Four whole-word choices, and none copies the stem. Exactly one choice has the stem team.",
+      "tch is not the same as ch. dge is not the same as ge. wr is not the same as wh. kn is not the same as n.",
+      "Tier 1 wrong words have no closed-list team, such as cat, sun, or map.",
+      "Tier 2 wrong words have a different real team. Do not use a clipped look-alike on tier 2.",
+      "Tier 3 wrong words look almost right, such as chin beside watch, or page beside fudge.",
+      "Blends and vowel pairs are not teams. Do not treat br, st, thr, ee, or ea as the match.",
+      "Put the right choice in different positions. Do not leave it first every time."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bdigraphs?\\b",
+    "\\btrigraphs?\\b",
+    "\\bphonemes?\\b",
+    "\\bipa\\b",
+    "[ʃθðŋæɑəɪʊ]",
+    "/[a-z]{1,6}/"
+  ],
+  "tier_rules": {
+    "1": "One short easy word such as fish, chip, or duck. The match shares sh, ch, or ck. The other three words have no closed-list team, like cat, sun, or map.",
+    "2": "A grade 2 word, often two syllables, with th, wh, ph, or ng. Wrong choices have a different team, like wish beside whale or sheep beside thunder. For ng, pair sing with song.",
+    "3": "Near misses for tch, dge, kn, or wr. A ch word is wrong for a tch stem, a ge word is wrong for a dge stem, a wh word is wrong for a wr stem, and kite is wrong for knit. Exactly one choice matches."
+  },
+  "miss_explain": {
+    "sh_team": {
+      "en": "The matching word has s and h together. That letter team is sh.",
+      "ko": "맞는 단어에 s, h가 함께 있습니다. 글자 묶음은 sh입니다."
+    },
+    "ch_team": {
+      "en": "The matching word has c and h together. That letter team is ch.",
+      "ko": "맞는 단어에 c, h가 함께 있습니다. 글자 묶음은 ch입니다."
+    },
+    "th_team": {
+      "en": "The matching word has t and h together. That letter team is th.",
+      "ko": "맞는 단어에 t, h가 함께 있습니다. 글자 묶음은 th입니다."
+    },
+    "wh_team": {
+      "en": "The matching word has w and h together. That letter team is wh.",
+      "ko": "맞는 단어에 w, h가 함께 있습니다. 글자 묶음은 wh입니다."
+    },
+    "ph_team": {
+      "en": "The matching word has p and h together. That letter team is ph.",
+      "ko": "맞는 단어에 p, h가 함께 있습니다. 글자 묶음은 ph입니다."
+    },
+    "ck_team": {
+      "en": "The matching word has c and k together. That letter team is ck.",
+      "ko": "맞는 단어에 c, k가 함께 있습니다. 글자 묶음은 ck입니다."
+    },
+    "ng_team": {
+      "en": "The matching word has n and g together. That letter team is ng.",
+      "ko": "맞는 단어에 n, g가 함께 있습니다. 글자 묶음은 ng입니다."
+    },
+    "kn_team": {
+      "en": "The matching word has k and n together. That letter team is kn, and the k is silent.",
+      "ko": "맞는 단어에 k, n이 함께 있습니다. 글자 묶음은 kn이고 k는 읽지 않습니다."
+    },
+    "wr_team": {
+      "en": "The matching word has w and r together. That letter team is wr, and the w is silent.",
+      "ko": "맞는 단어에 w, r이 함께 있습니다. 글자 묶음은 wr이고 w는 읽지 않습니다."
+    },
+    "tch_team": {
+      "en": "The matching word has t, c, and h together. That letter team is tch, not just ch.",
+      "ko": "맞는 단어에 t, c, h가 함께 있습니다. 글자 묶음은 ch가 아니라 tch입니다."
+    },
+    "dge_team": {
+      "en": "The matching word has d, g, and e together. That letter team is dge, not just ge.",
+      "ko": "맞는 단어에 d, g, e가 함께 있습니다. 글자 묶음은 ge가 아니라 dge입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Read words with digraphs and trigraphs"
+    ],
+    "no_ixl_text": true
+  }
+}

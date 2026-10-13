@@ -1,0 +1,306 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_digraph_word_ch_sh_th_ph_wh",
+  "family_title_en": "Spell the digraph word: ch, sh, th, ph, wh",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh",
+      "ix_title": "Spell the digraph word: ch, sh, th, ph, wh",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어떤 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word spelled the right way.",
+        "ko": "바르게 쓴 단어를 누르세요."
+      },
+      "choice_rule": "Build four unique whole-word spellings of one target that uses ch, sh, th, ph, or wh. Exactly one spelling is correct, and it may sit in any slot. The other three are misspellings of that same word. Do not offer another real word that also fits the stem. Never print the correct spelling in the stem. Stem tokens must be roots-list words, allowed_extra_words, or <NAME>, with at most ten words. Attach media as one lemma of the target. Do not describe a picture and do not invent audio.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bath",
+        "biggest",
+        "chain",
+        "chalk",
+        "chicken",
+        "church",
+        "cloth",
+        "dolphin",
+        "elephant",
+        "flash",
+        "graph",
+        "helps",
+        "likes",
+        "lives",
+        "meet",
+        "older",
+        "peach",
+        "push",
+        "rains",
+        "shell",
+        "shirt",
+        "shoes",
+        "sits",
+        "sound",
+        "spells",
+        "splash",
+        "storm",
+        "thick",
+        "thin",
+        "thumb",
+        "uses",
+        "whistle"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh_0001",
+          "tier": 1,
+          "stem": "A little pet in a bowl.",
+          "choices": [
+            "fich",
+            "fish",
+            "fesh",
+            "fush"
+          ],
+          "answer_index": 1,
+          "explain_key": "digraph_sh",
+          "media": [
+            {
+              "lemma": "fish"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh_0002",
+          "tier": 1,
+          "stem": "One seat with a back.",
+          "choices": [
+            "chare",
+            "chayr",
+            "chair",
+            "shair"
+          ],
+          "answer_index": 2,
+          "explain_key": "digraph_ch",
+          "media": [
+            {
+              "lemma": "chair"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh_0003",
+          "tier": 2,
+          "stem": "A farm animal with soft wool.",
+          "choices": [
+            "sheep",
+            "sheap",
+            "skeep",
+            "shepe"
+          ],
+          "answer_index": 0,
+          "explain_key": "digraph_sh",
+          "media": [
+            {
+              "lemma": "sheep"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh_0004",
+          "tier": 2,
+          "stem": "Dad will call us on this.",
+          "choices": [
+            "fone",
+            "phown",
+            "foan",
+            "phone"
+          ],
+          "answer_index": 3,
+          "explain_key": "digraph_ph",
+          "media": [
+            {
+              "lemma": "phone"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh_0005",
+          "tier": 2,
+          "stem": "A round part on a bike.",
+          "choices": [
+            "weel",
+            "wheel",
+            "wheal",
+            "whel"
+          ],
+          "answer_index": 1,
+          "explain_key": "digraph_wh",
+          "media": [
+            {
+              "lemma": "wheel"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh_0006",
+          "tier": 2,
+          "stem": "Brush them in your mouth.",
+          "choices": [
+            "teet",
+            "teth",
+            "teeth",
+            "teath"
+          ],
+          "answer_index": 2,
+          "explain_key": "digraph_th",
+          "media": [
+            {
+              "lemma": "teeth"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh_0007",
+          "tier": 3,
+          "stem": "<NAME> can see who will help us read at school.",
+          "choices": [
+            "teacher",
+            "techer",
+            "teatcher",
+            "teecher"
+          ],
+          "answer_index": 0,
+          "explain_key": "digraph_ch",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "teacher"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_digraph_word_ch_sh_th_ph_wh_0008",
+          "tier": 3,
+          "stem": "Mom took this of our family at home.",
+          "choices": [
+            "foto",
+            "phote",
+            "photto",
+            "photo"
+          ],
+          "answer_index": 3,
+          "explain_key": "digraph_ph",
+          "media": [
+            {
+              "lemma": "photo"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each item has four spellings of one word. Only one spelling is correct, and it may sit in any slot.",
+      "Distractors are misspellings of that same word, not a different real word that also fits the stem.",
+      "Tier 1 distractors are easy to spot: the wrong letter pair or clearly mixed-up letters.",
+      "Tier 2 distractors swap ch and sh, drop h from th or wh, or write f where the word uses ph.",
+      "Tier 3 distractors are one letter off, including tch for ch and a wrong vowel beside the letter pair.",
+      "Use ch, sh, th, ph, and wh words across the pool. Stay in school, home, food, pets, play, family, and weather.",
+      "Never put the correct spelling in the stem. Never use a real child name. Use the NAME token.",
+      "Choices are whole words. No sound symbols, no brand names, and no single-letter choices."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "æ",
+    "/[a-z]+/"
+  ],
+  "tier_rules": {
+    "1": "Three to six words. A one-syllable word such as fish or chair. Wrong spellings are easy to spot, such as a missing h or mixed-up letters.",
+    "2": "Five to eight words about home, school, food, pets, play, family, or weather. Targets such as sheep, phone, wheel, or teeth. Distractors are usual mix-ups: ch or sh, ph or f, wh or w, th or t.",
+    "3": "Eight to ten words. A two-syllable target such as teacher, brother, or photo. Distractors are one letter off. A NAME token may appear in the stem."
+  },
+  "miss_explain": {
+    "digraph_ch": {
+      "en": "This word uses ch. Keep the letters c and h together.",
+      "ko": "이 단어는 ch를 씁니다. 글자 c와 h를 붙여 쓰세요."
+    },
+    "digraph_sh": {
+      "en": "This word uses sh. Keep the letters s and h together.",
+      "ko": "이 단어는 sh를 씁니다. 글자 s와 h를 붙여 쓰세요."
+    },
+    "digraph_th": {
+      "en": "This word uses th. Keep the letters t and h together.",
+      "ko": "이 단어는 th를 씁니다. 글자 t와 h를 붙여 쓰세요."
+    },
+    "digraph_ph": {
+      "en": "This word uses ph. Keep the letters p and h together.",
+      "ko": "이 단어는 ph를 씁니다. 글자 p와 h를 붙여 쓰세요."
+    },
+    "digraph_wh": {
+      "en": "This word uses wh. Keep the letters w and h together.",
+      "ko": "이 단어는 wh를 씁니다. 글자 w와 h를 붙여 쓰세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the digraph word: ch, sh, th, ph, wh"
+    ],
+    "no_ixl_text": true
+  }
+}

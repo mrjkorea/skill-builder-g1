@@ -1,0 +1,280 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_does_the_adverb_tell_you_how_when_or_where",
+  "family_title_en": "Does the adverb tell you how, when, or where?",
+  "item_type": "sort_three_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_does_the_adverb_tell_you_how_when_or_where",
+      "ix_title": "Does the adverb tell you how, when, or where?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "How, when, or where?",
+        "ko": "어떻게, 언제, 어디인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap how, when, or where.",
+        "ko": "어떻게, 언제, 어디를 누르세요."
+      },
+      "choices": [
+        "how",
+        "when",
+        "where"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "quickly",
+        "loudly",
+        "happily",
+        "carefully",
+        "softly",
+        "gently",
+        "bravely",
+        "kindly",
+        "tomorrow",
+        "everywhere",
+        "nearby",
+        "upstairs",
+        "downstairs"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_does_the_adverb_tell_you_how_when_or_where_0001",
+          "tier": 1,
+          "stem": "The cat sat quietly.",
+          "choices": [
+            "how",
+            "when",
+            "where"
+          ],
+          "answer_index": 0,
+          "explain_key": "how",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_does_the_adverb_tell_you_how_when_or_where_0002",
+          "tier": 1,
+          "stem": "We eat lunch now.",
+          "choices": [
+            "how",
+            "when",
+            "where"
+          ],
+          "answer_index": 1,
+          "explain_key": "when",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_does_the_adverb_tell_you_how_when_or_where_0003",
+          "tier": 1,
+          "stem": "The dog ran outside.",
+          "choices": [
+            "how",
+            "when",
+            "where"
+          ],
+          "answer_index": 2,
+          "explain_key": "where",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_does_the_adverb_tell_you_how_when_or_where_0004",
+          "tier": 2,
+          "stem": "<NAME> sang the song nicely.",
+          "choices": [
+            "how",
+            "when",
+            "where"
+          ],
+          "answer_index": 0,
+          "explain_key": "how",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "song"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_does_the_adverb_tell_you_how_when_or_where_0005",
+          "tier": 2,
+          "stem": "<NAME> came to school yesterday.",
+          "choices": [
+            "how",
+            "when",
+            "where"
+          ],
+          "answer_index": 1,
+          "explain_key": "when",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_does_the_adverb_tell_you_how_when_or_where_0006",
+          "tier": 2,
+          "stem": "The frog ran away.",
+          "choices": [
+            "how",
+            "when",
+            "where"
+          ],
+          "answer_index": 2,
+          "explain_key": "where",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_does_the_adverb_tell_you_how_when_or_where_0007",
+          "tier": 3,
+          "stem": "<NAME> hit the ball hard.",
+          "choices": [
+            "how",
+            "when",
+            "where"
+          ],
+          "answer_index": 0,
+          "explain_key": "how",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_does_the_adverb_tell_you_how_when_or_where_0008",
+          "tier": 3,
+          "stem": "The little bird flew above.",
+          "choices": [
+            "how",
+            "when",
+            "where"
+          ],
+          "answer_index": 2,
+          "explain_key": "where",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The three bin labels are fixed as how, when, where. Never change the words or their order.",
+      "Every stem is one kid-world sentence with exactly one target adverb. Never write two adverbs in one stem.",
+      "The target adverb must be manner (how), time (when), or place (where). Never use degree words such as very, too, really, almost, or only as the target.",
+      "Do not use together, also, still, or already as the target adverb.",
+      "Keep the filled pool near one third how, one third when, and one third where.",
+      "Wrong-bin taps are the other two labels only. Never add a fourth choice.",
+      "Tier 1: short stem, obvious adverb at the end, picture lemma on a concrete noun.",
+      "Tier 3: near-miss adverbs such as hard, well, home, first, always, down, or above."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\badverb",
+    "\\badjective",
+    "\\bmanner\\b",
+    "\\bmodify",
+    "\\bpunctuation\\b",
+    "\\/",
+    "\\["
+  ],
+  "tier_rules": {
+    "1": "Stems of three to five words. One clear adverb at the end. Use quietly, now, outside, here, today, or slowly. Add a picture lemma when the stem has a concrete noun.",
+    "2": "Stems of four to six words. Mix in <NAME>. Use nicely, yesterday, away, later, soon, inside, or fast. Still only one adverb.",
+    "3": "Near-miss adverbs kids may sort wrong: hard and well as how, always and first as when, home, down, and above as where. Do not add a second adverb."
+  },
+  "miss_explain": {
+    "how": {
+      "en": "How tells the way something happens.",
+      "ko": "어떻게는 어떤 일이 일어나는 방법을 말합니다."
+    },
+    "when": {
+      "en": "When tells the time something happens.",
+      "ko": "언제는 어떤 일이 일어나는 때를 말합니다."
+    },
+    "where": {
+      "en": "Where tells the place something happens.",
+      "ko": "어디는 어떤 일이 일어나는 장소를 말합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Does the adverb tell you how, when, or where?"
+    ],
+    "no_ixl_text": true
+  }
+}

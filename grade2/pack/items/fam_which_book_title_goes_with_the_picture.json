@@ -1,0 +1,2402 @@
+[
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0001",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the title.",
+    "choices": [
+      "The Little Cat",
+      "The Big Truck",
+      "Rain at School",
+      "My Red Ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0002",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose the title.",
+    "choices": [
+      "The Lost Frog",
+      "Cold Winter Wind",
+      "The Birthday Cake",
+      "A Fast Train"
+    ],
+    "answer_index": 2,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0003",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the title.",
+    "choices": [
+      "The Green Plant",
+      "My Happy Dog",
+      "Soup for Dinner",
+      "A Bright Star"
+    ],
+    "answer_index": 1,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0004",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "See this picture.",
+    "choices": [
+      "A Day at the Beach",
+      "A Day at the Park",
+      "The Deep Lake",
+      "The Blue Pool"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0005",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Look at this.",
+    "choices": [
+      "The Sun Comes Out",
+      "Snow on the Hill",
+      "A Warm Breeze",
+      "The Rain Comes Down"
+    ],
+    "answer_index": 3,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0006",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap a good title.",
+    "choices": [
+      "The Fast Car",
+      "The Fast Bike",
+      "The Red Truck",
+      "The New Train"
+    ],
+    "answer_index": 1,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0007",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> needs a title.",
+    "choices": [
+      "Lunch in the Kitchen",
+      "The Park Bench",
+      "The Picnic Lunch",
+      "Ants on the Grass"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "picnic"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0008",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Which title fits?",
+    "choices": [
+      "The Frog in the Pond",
+      "The Fish in the Pond",
+      "The Green Turtle",
+      "Bugs Near the Water"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0009",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick one now.",
+    "choices": [
+      "The Red Apple",
+      "My Blue Kite",
+      "Snow on Monday",
+      "The Old Desk"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0010",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap one now.",
+    "choices": [
+      "The Bouncy Ball",
+      "Hot Soup Today",
+      "A Gray Cloud",
+      "Jump at Recess"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0011",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Get one now.",
+    "choices": [
+      "The Little Bird",
+      "Fresh Bread Loaf",
+      "Rainy Day Fun",
+      "The Big Store"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0012",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Book title.",
+    "choices": [
+      "My First Book",
+      "The Wet Mud",
+      "A Cold Drink",
+      "A Quiet Nap"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0013",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose now.",
+    "choices": [
+      "The Yellow Bus",
+      "Sweet Grape Juice",
+      "A Soft Pillow",
+      "Fish in a Bowl"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0014",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find one now.",
+    "choices": [
+      "The Little Red Car",
+      "Soup and Crackers",
+      "A Happy Smile",
+      "The Green Field"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0015",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap best one.",
+    "choices": [
+      "The Friendly Cow",
+      "My New Pencil",
+      "Windy Afternoon",
+      "A Hot Meal"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0016",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Duck title.",
+    "choices": [
+      "The Quacking Duck",
+      "Crunchy Cereal Bowl",
+      "A Dark Night",
+      "The Long Road"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0017",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick title.",
+    "choices": [
+      "The Golden Egg",
+      "A Fast Bike Ride",
+      "Rain on Tuesday",
+      "The Old Barn"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0018",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose one.",
+    "choices": [
+      "The Tiny Fish",
+      "Warm Milk Tonight",
+      "A Big Hill",
+      "The Red Hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0019",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find title.",
+    "choices": [
+      "The Clever Fox",
+      "My Lunch Box",
+      "A Sunny Window",
+      "The Wet Paint"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0020",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap title.",
+    "choices": [
+      "The Red Winter Hat",
+      "Fresh Orange Juice",
+      "A Loud Drum",
+      "The Blue Couch"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0021",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Get title.",
+    "choices": [
+      "The Busy Hen",
+      "A Cold Ice Pop",
+      "My Math Homework",
+      "The Big Gate"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0022",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "One title.",
+    "choices": [
+      "The Icy Pond",
+      "My Brown Shoes",
+      "A Warm Blanket",
+      "The Green Grass"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0023",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Select one.",
+    "choices": [
+      "The Flying Kite",
+      "Hot Cocoa Mug",
+      "A Quiet Library",
+      "The Old Clock"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0024",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Title hunt.",
+    "choices": [
+      "The Full Moon",
+      "A Tasty Sandwich",
+      "My Clean Room",
+      "The Fast Bus"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0025",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Owl title.",
+    "choices": [
+      "The Wise Owl",
+      "A Sweet Cookie",
+      "My Hard Test",
+      "The Wet Sidewalk"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0026",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick it.",
+    "choices": [
+      "The Pink Pig",
+      "A Cold Winter Day",
+      "My Soft Sweater",
+      "The Long Fence"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0027",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find it.",
+    "choices": [
+      "The White Rabbit",
+      "A Hot Summer Day",
+      "My Neat Desk",
+      "The Old Bridge"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0028",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Sheep pick.",
+    "choices": [
+      "The Fluffy Sheep",
+      "A Crisp Apple Slice",
+      "My Shiny Coin",
+      "The Wet Boots"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0029",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Title pick.",
+    "choices": [
+      "The Green Snake",
+      "A Warm Fire",
+      "My Big Backpack",
+      "The Red Door"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0030",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Star title.",
+    "choices": [
+      "The Bright Star",
+      "A Tasty Cookie",
+      "My Small Notebook",
+      "The Gray Rock"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0031",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Get it.",
+    "choices": [
+      "The Hot Sun",
+      "A Cold Milk Carton",
+      "My New Eraser",
+      "The Brown Table"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0032",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pick one.",
+    "choices": [
+      "The Tall Tree",
+      "A Sweet Banana",
+      "My Clean Socks",
+      "The Blue Pen"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0033",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Title tap.",
+    "choices": [
+      "The Wiggly Worm",
+      "A Hot Pancake Stack",
+      "My Quiet Nap",
+      "The Red Brick"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "worm"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0034",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose it.",
+    "choices": [
+      "The Tiny Red Ant",
+      "A Warm Bowl of Soup",
+      "My Big Window",
+      "The Old Rug"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0035",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last one.",
+    "choices": [
+      "The Brown Bear",
+      "A Cold Glass of Juice",
+      "My Soft Chair",
+      "The Green Fence"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0036",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Park day.",
+    "choices": [
+      "A Day at the Park",
+      "A Day at the Zoo",
+      "The Deep Lake",
+      "The Tall Hill"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0037",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Farm trip.",
+    "choices": [
+      "A Trip to the Farm",
+      "A Trip to the City",
+      "The Wide River",
+      "The Dark Woods"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "farm"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0038",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "School day.",
+    "choices": [
+      "My First Day of School",
+      "My First Day at Camp",
+      "The Big Beach Party",
+      "The Quiet Library Trip"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0039",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Zoo fun.",
+    "choices": [
+      "A Fun Day at the Zoo",
+      "A Fun Day at the Pool",
+      "The Small Garden Plot",
+      "The Empty Lot"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "zoo"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0040",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Snow time.",
+    "choices": [
+      "Snow on the Roof",
+      "Rain on the Roof",
+      "The Warm Summer Sun",
+      "The Dry Hot Sand"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0041",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Windy day.",
+    "choices": [
+      "The Wind Blows Hard",
+      "The Rain Falls Hard",
+      "The Sun Shines Bright",
+      "The Snow Melts Fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0042",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Cloudy sky.",
+    "choices": [
+      "Clouds in the Sky",
+      "Birds in the Sky",
+      "Fish in the Water",
+      "Ants on the Ground"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0043",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Train ride.",
+    "choices": [
+      "The Fast Morning Train",
+      "The Fast Morning Plane",
+      "The Slow Old Truck",
+      "The Big Yellow Bus"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0044",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Truck ride.",
+    "choices": [
+      "The Big Red Truck",
+      "The Big Red Boat",
+      "The Small Blue Car",
+      "The Long Green Train"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0045",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Boat ride.",
+    "choices": [
+      "The Little Blue Boat",
+      "The Little Blue Bike",
+      "The Tall Red Barn",
+      "The Wide Green Field"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0046",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Plane ride.",
+    "choices": [
+      "The Silver Fast Plane",
+      "The Silver Fast Train",
+      "The Brown Old Boat",
+      "The Black Small Car"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0047",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Lake day.",
+    "choices": [
+      "The Deep Blue Lake",
+      "The Deep Blue Pool",
+      "The Wide Green Park",
+      "The Tall Gray House"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0048",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "River trip.",
+    "choices": [
+      "The Wide Slow River",
+      "The Wide Slow Road",
+      "The Narrow Fast Creek",
+      "The Small Still Pool"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "river"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0049",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Hill walk.",
+    "choices": [
+      "Rolling Hills at Dawn",
+      "Rolling Waves at Dawn",
+      "Flat Fields at Noon",
+      "Deep Holes at Dusk"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0050",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Garden day.",
+    "choices": [
+      "Flowers in the Garden",
+      "Flowers in the Kitchen",
+      "Toys in the Bedroom",
+      "Books in the Class"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0051",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Kitchen fun.",
+    "choices": [
+      "Cookies in the Kitchen",
+      "Cookies in the Class",
+      "Toys in the Yard",
+      "Shoes in the Hall"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitchen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0052",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Play time.",
+    "choices": [
+      "Fun at the Playground",
+      "Fun at the Store",
+      "Quiet in the Library",
+      "Sleep in the Bedroom"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "playground"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0053",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Library day.",
+    "choices": [
+      "Books in the Library",
+      "Books in the Kitchen",
+      "Toys in the Shed",
+      "Food in the Hall"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0054",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Barn visit.",
+    "choices": [
+      "Animals in the Barn",
+      "Animals in the House",
+      "Toys in the Room",
+      "Food in the Box"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0055",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Storm book.",
+    "choices": [
+      "The Big Thunder Storm",
+      "The Big Thunder Parade",
+      "The Small Gentle Breeze",
+      "The Warm Sunny Picnic"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "storm"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0056",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Rainbow book.",
+    "choices": [
+      "The Colorful Rainbow",
+      "The Colorful Kite String",
+      "The Gray Rain Cloud",
+      "The White Snow Flake"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rainbow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0057",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Soccer book.",
+    "choices": [
+      "The Big Soccer Game",
+      "The Big Jump Rope Game",
+      "The Small Reading Hour",
+      "The Long Nap Time"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soccer"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0058",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Swim day.",
+    "choices": [
+      "A Day to Go Swimming",
+      "A Day to Go Shopping",
+      "A Night to Stay Inside",
+      "A Week to Read Books"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swim"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0059",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Camp book.",
+    "choices": [
+      "Summer Camp by the Lake",
+      "Summer Trip to the Mall",
+      "Winter Home by the Fire",
+      "Spring School in Town"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "camp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0060",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Breakfast book.",
+    "choices": [
+      "Pancakes for Breakfast",
+      "Pancakes for Dinner",
+      "Soup for Lunch Time",
+      "Candy for Bed Time"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "breakfast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0061",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Dinner book.",
+    "choices": [
+      "Soup for Dinner Time",
+      "Soup for Lunch Time",
+      "Cereal for Breakfast",
+      "Snacks at Recess"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0062",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Lunch book.",
+    "choices": [
+      "Lunch in the Lunch Room",
+      "Snacks in the Bedroom",
+      "Breakfast on the Porch",
+      "Dinner at the Table"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0063",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Recess book.",
+    "choices": [
+      "Recess on the Playground",
+      "Games in the Office",
+      "Reading in the Hallway",
+      "Napping in the Closet"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "recess"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0064",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Snow yard.",
+    "choices": [
+      "Snowflakes in the Yard",
+      "Raindrops in the Yard",
+      "Leaves in the Yard",
+      "Sunbeams in the Yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0065",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Spring book.",
+    "choices": [
+      "Flowers in the Spring",
+      "Flowers in the Winter",
+      "Snow in the Fall",
+      "Ice in the Summer"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spring"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0066",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Summer book.",
+    "choices": [
+      "Hot Days in Summer",
+      "Hot Days in Winter",
+      "Cold Nights in Fall",
+      "Rainy Weeks in Spring"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "summer"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0067",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Winter book.",
+    "choices": [
+      "Cold Days in Winter",
+      "Cold Days in Summer",
+      "Warm Nights in Spring",
+      "Dry Weeks in Fall"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "winter"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0068",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fall book.",
+    "choices": [
+      "Leaves in the Fall",
+      "Leaves in the Spring",
+      "Snow in the Winter",
+      "Flowers in the Summer"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fall"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0069",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Cookie book.",
+    "choices": [
+      "The Chocolate Chip Cookie",
+      "The Plain White Bread",
+      "The Salty Cracker Stack",
+      "The Cold Fruit Cup"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0070",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Corn book.",
+    "choices": [
+      "The Hot Corn on the Cob",
+      "The Cheesy Bread Stick",
+      "The Plain Rice Bowl",
+      "The Cold Fruit Cup"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0071",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Soup book.",
+    "choices": [
+      "The Warm Tomato Soup",
+      "The Cold Apple Juice",
+      "The Dry Cracker Stack",
+      "The Hot Tea Cup"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0072",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Sand book.",
+    "choices": [
+      "Sand at the Shore",
+      "Mud in the Garden",
+      "Snow on the Hill",
+      "Leaves in the Yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0073",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Horse story.",
+    "choices": [
+      "The Horse in the Field",
+      "The Cow in the Field",
+      "The Truck on the Road",
+      "The Boat on the Lake"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0074",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Chick story.",
+    "choices": [
+      "The Chick in the Nest",
+      "The Owl in the Tree",
+      "The Fish in the Bowl",
+      "The Bug on the Leaf"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0075",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Turtle tale.",
+    "choices": [
+      "The Turtle on the Log",
+      "The Frog on the Log",
+      "The Duck on the Lake",
+      "The Ant on the Hill"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0076",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mouse tale.",
+    "choices": [
+      "The Mouse in the House",
+      "The Cat in the House",
+      "The Bird in the Tree",
+      "The Dog in the Yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0077",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Moth tale.",
+    "choices": [
+      "The Moth at the Lamp",
+      "The Ant at the Lamp",
+      "The Frog in the Grass",
+      "The Fish in the Bowl"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0078",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Kitten tale.",
+    "choices": [
+      "The Kitten on the Couch",
+      "The Puppy on the Couch",
+      "The Horse in the Field",
+      "The Cow in the Field"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0079",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Puppy tale.",
+    "choices": [
+      "The Puppy in the Yard",
+      "The Kitten in the Yard",
+      "The Duck on the Lake",
+      "The Hen in the Barn"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0080",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Nest tale.",
+    "choices": [
+      "Eggs in the Small Nest",
+      "Leaves in the Tall Tree",
+      "Fish in the Blue Net",
+      "Ants in the Small Hill"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nest"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0081",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pond tale.",
+    "choices": [
+      "The Duck at the Pond",
+      "The Frog at the Lake",
+      "The Car on the Road",
+      "The Book on the Shelf"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pond"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0082",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Barn tale.",
+    "choices": [
+      "The Horse in the Barn",
+      "The Cow in the Field",
+      "The Bed in the Bedroom",
+      "The Desk in the School"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0083",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Beach tale.",
+    "choices": [
+      "Sandcastles at the Beach",
+      "Fun at the Park",
+      "Snow on the Hill",
+      "Leaves in the Yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0084",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Picnic tale.",
+    "choices": [
+      "The Family Picnic Day",
+      "The Family Park Day",
+      "The School Test Day",
+      "The Rainy Stay Inside"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "picnic"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0085",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Birthday tale.",
+    "choices": [
+      "The Birthday Party Cake",
+      "The Fancy Red Hat",
+      "The Regular School Lunch",
+      "The Quiet Bedtime Story"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "birthday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0086",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Cave tale.",
+    "choices": [
+      "The Bear in the Cave",
+      "The Wolf in the Woods",
+      "The Dog in the Yard",
+      "The Cat on the Roof"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cave"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0087",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fox tale.",
+    "choices": [
+      "The Fox Near the Hill",
+      "The Rabbit Near the Hill",
+      "The Fish in the River",
+      "The Ant on the Path"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0088",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Bridge tale.",
+    "choices": [
+      "The Duck on the Bridge",
+      "The Frog on the Path",
+      "The Horse in the Field",
+      "The Hen in the Barn"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bridge"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0089",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Stream tale.",
+    "choices": [
+      "The Frog by the Stream",
+      "The Fish by the River",
+      "The Car on the Street",
+      "The Bus at the Stop"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stream"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0090",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Hive tale.",
+    "choices": [
+      "Ants at the Busy Hive",
+      "Birds at the Tall Tree",
+      "Moths at the Lamp",
+      "Fish in the Deep Pool"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hive"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0091",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Blanket tale.",
+    "choices": [
+      "The Cat Under the Blanket",
+      "The Dog on the Couch",
+      "The Bird in the Tree",
+      "The Fish in the Bowl"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0092",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pillow tale.",
+    "choices": [
+      "The Teddy on the Pillow",
+      "The Block on the Floor",
+      "The Ball in the Yard",
+      "The Book on the Desk"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0093",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Bedtime tale.",
+    "choices": [
+      "The Sleepy Bedtime Story",
+      "The Sleepy Lunch Story",
+      "The Loud Recess Game",
+      "The Hot Summer Day"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bedtime"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0094",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Teddy tale.",
+    "choices": [
+      "My Old Teddy Bear Friend",
+      "My Old Toy Truck Friend",
+      "My New School Lunch Box",
+      "My Big Winter Coat"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teddy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0095",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Doll tale.",
+    "choices": [
+      "The Doll in the Bedroom",
+      "The Block in the Bedroom",
+      "The Ball in the Shed",
+      "The Bike in the Yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "doll"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0096",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Block tale.",
+    "choices": [
+      "The Tower of Blocks",
+      "The Pile of Books",
+      "The Stack of Plates",
+      "The Row of Chairs"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0097",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Crayon tale.",
+    "choices": [
+      "The Box of Crayons",
+      "The Box of Pencils",
+      "The Bag of Chips",
+      "The Jar of Coins"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0098",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pencil tale.",
+    "choices": [
+      "The Sharpened Yellow Pencil",
+      "The Round Orange Ball",
+      "The Soft Blue Blanket",
+      "The Small Red Block"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_kind",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0099",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Backpack tale.",
+    "choices": [
+      "The Heavy School Backpack",
+      "The Light Bedroom Pillow",
+      "The Small Kitchen Bowl",
+      "The Old Toy Box"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_setting",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "backpack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_book_title_goes_with_the_picture_0100",
+    "family_id": "fam_which_book_title_goes_with_the_picture",
+    "skill_id": "roots_which_book_title_goes_with_the_picture",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> wrote one.",
+    "choices": [
+      "<NAME> Wrote a Story",
+      "<NAME> Ate a Snack",
+      "<NAME> Lost a Shoe",
+      "<NAME> Found a Coin"
+    ],
+    "answer_index": 0,
+    "explain_key": "match_theme",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  }
+]

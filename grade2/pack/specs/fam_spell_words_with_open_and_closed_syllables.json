@@ -1,0 +1,322 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_words_with_open_and_closed_syllables",
+  "family_title_en": "Spell words with open and closed syllables",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_words_with_open_and_closed_syllables",
+      "ix_title": "Spell words with open and closed syllables",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling fits the first part?",
+        "ko": "첫 부분에 맞는 철자는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the spelling that fits open or closed.",
+        "ko": "열린 음절이나 닫힌 음절에 맞는 철자를 누르세요."
+      },
+      "choice_rule": "Four different whole-word spellings of one target. Exactly one is correct. Open first part: one consonant between the vowels. Closed first part: double that consonant. Tier 1 wrong spellings drop or scramble letters. Tier 2 has one single-versus-double flip and two one-vowel changes. Tier 3 wrong spellings are all one-letter near misses, including one single-versus-double flip. Never use a different real word. Set explain_key to open_first or closed_first. Do not put the correct spelling in the stem.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "af",
+        "bas",
+        "bet",
+        "bot",
+        "cab",
+        "cer",
+        "cof",
+        "dent",
+        "der",
+        "din",
+        "dy",
+        "fee",
+        "fol",
+        "ger",
+        "gin",
+        "hab",
+        "hap",
+        "hu",
+        "ket",
+        "kin",
+        "lem",
+        "lent",
+        "mag",
+        "mel",
+        "ment",
+        "mer",
+        "mit",
+        "mo",
+        "mu",
+        "muff",
+        "ner",
+        "nev",
+        "nic",
+        "nut",
+        "ny",
+        "penn",
+        "pho",
+        "pic",
+        "pret",
+        "py",
+        "rab",
+        "rib",
+        "ry",
+        "si",
+        "sic",
+        "spi",
+        "stu",
+        "sum",
+        "tel",
+        "tem",
+        "ter",
+        "ti",
+        "ton",
+        "tu",
+        "ty",
+        "un",
+        "ven",
+        "yel"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_words_with_open_and_closed_syllables_0001",
+          "tier": 1,
+          "stem": "The first part is open ba con.",
+          "choices": [
+            "bcon",
+            "bacon",
+            "bacn",
+            "baoc"
+          ],
+          "answer_index": 1,
+          "explain_key": "open_first",
+          "media": [
+            {
+              "lemma": "bacon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_and_closed_syllables_0002",
+          "tier": 1,
+          "stem": "The first part is closed kit ten.",
+          "choices": [
+            "kten",
+            "kitt",
+            "kitten",
+            "kttn"
+          ],
+          "answer_index": 2,
+          "explain_key": "closed_first",
+          "media": [
+            {
+              "lemma": "kitten"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_and_closed_syllables_0003",
+          "tier": 1,
+          "stem": "The first part is open ba by.",
+          "choices": [
+            "baby",
+            "bab",
+            "bby",
+            "byba"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_first",
+          "media": [
+            {
+              "lemma": "baby"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_and_closed_syllables_0004",
+          "tier": 2,
+          "stem": "At school the first part is open pa per.",
+          "choices": [
+            "papper",
+            "paper",
+            "papar",
+            "peper"
+          ],
+          "answer_index": 1,
+          "explain_key": "open_first",
+          "media": [
+            {
+              "lemma": "paper"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_and_closed_syllables_0005",
+          "tier": 2,
+          "stem": "My pet can hop with closed first part rab bit.",
+          "choices": [
+            "rabit",
+            "rabbet",
+            "rabbot",
+            "rabbit"
+          ],
+          "answer_index": 3,
+          "explain_key": "closed_first",
+          "media": [
+            {
+              "lemma": "rabbit"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_and_closed_syllables_0006",
+          "tier": 2,
+          "stem": "She feels glad with closed first part hap py.",
+          "choices": [
+            "hapy",
+            "heppy",
+            "happy",
+            "happi"
+          ],
+          "answer_index": 2,
+          "explain_key": "closed_first",
+          "media": [
+            {
+              "lemma": "happy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_and_closed_syllables_0007",
+          "tier": 3,
+          "stem": "At school today the open first part is mu sic.",
+          "choices": [
+            "mussic",
+            "musec",
+            "muusic",
+            "music"
+          ],
+          "answer_index": 3,
+          "explain_key": "open_first",
+          "media": [
+            {
+              "lemma": "music"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_and_closed_syllables_0008",
+          "tier": 3,
+          "stem": "<NAME> has a pet and closed first part pup py.",
+          "choices": [
+            "puppy",
+            "pupy",
+            "puppi",
+            "puppey"
+          ],
+          "answer_index": 0,
+          "explain_key": "closed_first",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every wrong choice spells the same target word wrong. A different real word is not allowed.",
+      "Show the two parts in the stem as separate words, and say whether the first part is open or closed. Never print the correct full spelling in the stem.",
+      "Open first part means one middle consonant and a long vowel. Closed first part means a double middle consonant and a short vowel.",
+      "Use only open and closed syllables. Skip consonant-le words and skip vowel-team words as the pattern being tested.",
+      "Whole words only. No IPA, no letter-sound spellings, and no held sounds.",
+      "Scenes stay in school, home, food, pets, play, family, or weather. No brands and no real child names. Use <NAME> from names.txt."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "tap ?tap",
+    "@",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "\\bipa\\b",
+    "\\b[bcdfghjklmnpqrstvwxyz]uh\\b",
+    "æ",
+    "ə",
+    "ɪ",
+    "ʊ",
+    "ʃ",
+    "θ",
+    "ð",
+    "ŋ",
+    "/[a-z]{1,4}/"
+  ],
+  "tier_rules": {
+    "1": "Stems of about seven words on familiar words such as bacon, kitten, and baby. Say if the first part is open or closed, then show the two parts. Distractors drop or scramble letters so the right spelling is obvious.",
+    "2": "Stems of about eight to ten words in a school, home, or pet scene. One distractor flips a single consonant to a double or a double to a single. The other distractors change one vowel.",
+    "3": "Stems of nine or ten words. A school or pet scene may include <NAME>. Every distractor is a one-letter near miss, and one of them flips single versus double so open and closed are easy to mix up."
+  },
+  "miss_explain": {
+    "open_first": {
+      "en": "The first part ends in a vowel. That vowel is long, so use one middle letter.",
+      "ko": "첫 부분은 모음으로 끝납니다. 모음이 기니 가운데 글자는 한 번만 쓰세요."
+    },
+    "closed_first": {
+      "en": "The first part ends in a consonant. That vowel is short, so double the middle letter.",
+      "ko": "첫 부분은 자음으로 끝납니다. 모음이 짧으니 가운데 글자를 겹쳐 쓰세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell words with open and closed syllables"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_delete_the_sound_in_a_word",
+  "family_title_en": "Delete the sound in a word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_delete_the_sound_in_a_word",
+      "ix_title": "Delete the sound in a word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is left?",
+        "ko": "어떤 단어가 남나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that is left.",
+        "ko": "남은 단어를 누르세요."
+      },
+      "choice_rule": "Four different whole words from the roots list or allowed_extra_words. Exactly one is the word left after the named sound is taken off. Move the answer slot from item to item. Tier 1 wrong words are unrelated. Tier 2 wrong words share most sounds with the answer. Tier 3 wrong words are the starting word or the word left when a different sound is taken off.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "sound"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_delete_the_sound_in_a_word_0001",
+          "tier": 1,
+          "stem": "Take the first sound off cat.",
+          "choices": [
+            "at",
+            "dog",
+            "sun",
+            "box"
+          ],
+          "answer_index": 0,
+          "explain_key": "drop_first",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_delete_the_sound_in_a_word_0002",
+          "tier": 1,
+          "stem": "Take the first sound off pan.",
+          "choices": [
+            "hat",
+            "an",
+            "bus",
+            "book"
+          ],
+          "answer_index": 1,
+          "explain_key": "drop_first",
+          "media": [
+            {
+              "lemma": "pan"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_delete_the_sound_in_a_word_0003",
+          "tier": 1,
+          "stem": "Take the first sound off cup.",
+          "choices": [
+            "cat",
+            "bed",
+            "up",
+            "map"
+          ],
+          "answer_index": 2,
+          "explain_key": "drop_first",
+          "media": [
+            {
+              "lemma": "cup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_delete_the_sound_in_a_word_0004",
+          "tier": 2,
+          "stem": "Take the first sound off stop.",
+          "choices": [
+            "spot",
+            "step",
+            "pot",
+            "top"
+          ],
+          "answer_index": 3,
+          "explain_key": "drop_first",
+          "media": [
+            {
+              "lemma": "stop"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_delete_the_sound_in_a_word_0005",
+          "tier": 2,
+          "stem": "Take the last sound off farm.",
+          "choices": [
+            "far",
+            "fast",
+            "fan",
+            "for"
+          ],
+          "answer_index": 0,
+          "explain_key": "drop_last",
+          "media": [
+            {
+              "lemma": "farm"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_delete_the_sound_in_a_word_0006",
+          "tier": 2,
+          "stem": "Take the first sound off away.",
+          "choices": [
+            "wait",
+            "way",
+            "day",
+            "say"
+          ],
+          "answer_index": 1,
+          "explain_key": "drop_first",
+          "media": [
+            {
+              "lemma": "away"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_delete_the_sound_in_a_word_0007",
+          "tier": 3,
+          "stem": "Take the second sound off the word black.",
+          "choices": [
+            "lack",
+            "block",
+            "black",
+            "back"
+          ],
+          "answer_index": 3,
+          "explain_key": "drop_second",
+          "media": [
+            {
+              "lemma": "black"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_delete_the_sound_in_a_word_0008",
+          "tier": 3,
+          "stem": "Take the last sound off the word plant.",
+          "choices": [
+            "paint",
+            "plate",
+            "plan",
+            "plant"
+          ],
+          "answer_index": 2,
+          "explain_key": "drop_last",
+          "media": [
+            {
+              "lemma": "plant"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four real whole words. Never a bare sound, a single letter, IPA, or a made-up spelling.",
+      "Exactly one choice is correct. If two choices could both be left, write a new item.",
+      "Tier 1 wrong choices are easy kid words that do not sound like the answer.",
+      "Tier 2 wrong choices keep a chunk of the answer, such as the same first sound or a rhyme.",
+      "Tier 3 wrong choices are near misses: the starting word, or the leftover from taking off the wrong sound.",
+      "No brand names. If a stem needs a child, use <NAME> and never a real name."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "[æɑəɪʊɔɛʌʃθðŋ]",
+    "/[a-z]{1,6}/",
+    "\\b[bcdfgkpt]uh\\b"
+  ],
+  "tier_rules": {
+    "1": "Stem is Take the first sound off plus a three-sound word. Six words. Wrong choices are unrelated kid words.",
+    "2": "Take the first sound off a blend or a two-syllable word, or the last sound off a short word. Wrong choices share most sounds with the answer.",
+    "3": "Longer stem, eight to ten words, naming the word. Take off the second sound or the last sound. Wrong choices are the starting word or a one-sound miss."
+  },
+  "miss_explain": {
+    "drop_first": {
+      "en": "Take off the first sound. Keep the other sounds in the same order.",
+      "ko": "첫 소리를 빼세요. 다른 소리는 같은 순서로 두세요."
+    },
+    "drop_last": {
+      "en": "Take off the last sound. Keep every sound that comes before it.",
+      "ko": "마지막 소리를 빼세요. 그 앞의 소리는 모두 두세요."
+    },
+    "drop_second": {
+      "en": "Take off the second sound only. Keep the first sound and the rest.",
+      "ko": "두 번째 소리만 빼세요. 첫 소리와 나머지는 두세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Delete the sound in a word"
+    ],
+    "no_ixl_text": true
+  }
+}

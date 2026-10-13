@@ -1,0 +1,2167 @@
+[
+  {
+    "item_id": "roots_find_synonyms_in_context_0001",
+    "tier": 1,
+    "stem": "The \"big\" dog ran home.",
+    "choices": [
+      "large",
+      "sad",
+      "slow",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0002",
+    "tier": 1,
+    "stem": "<NAME> was \"happy\" after lunch.",
+    "choices": [
+      "sad",
+      "glad",
+      "sick",
+      "tired"
+    ],
+    "answer_index": 1,
+    "explain_key": "feeling_same",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0003",
+    "tier": 1,
+    "stem": "The \"little\" kitten sat down.",
+    "choices": [
+      "tall",
+      "loud",
+      "tiny",
+      "cold"
+    ],
+    "answer_index": 2,
+    "explain_key": "size_same",
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ],
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0004",
+    "tier": 2,
+    "stem": "Please \"close\" the door now.",
+    "choices": [
+      "shut",
+      "open",
+      "lock",
+      "paint"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0005",
+    "tier": 2,
+    "stem": "We will \"begin\" class soon.",
+    "choices": [
+      "stop",
+      "leave",
+      "wait",
+      "start"
+    ],
+    "answer_index": 3,
+    "explain_key": "action_same",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0006",
+    "tier": 2,
+    "stem": "The \"fast\" bike went down.",
+    "choices": [
+      "slow",
+      "quick",
+      "old",
+      "soft"
+    ],
+    "answer_index": 1,
+    "explain_key": "speed_same",
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ],
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0007",
+    "tier": 3,
+    "stem": "My \"mother\" baked a sweet cake.",
+    "choices": [
+      "sister",
+      "aunt",
+      "mom",
+      "grandma"
+    ],
+    "answer_index": 2,
+    "explain_key": "person_same",
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0008",
+    "tier": 3,
+    "stem": "The \"picture\" hung on the wall.",
+    "choices": [
+      "photo",
+      "paper",
+      "frame",
+      "paint"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "media": [
+      {
+        "lemma": "picture"
+      }
+    ],
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0009",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"small\" cup is mine.",
+    "choices": [
+      "tiny",
+      "large",
+      "hot",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0010",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "That \"sad\" pup whined softly.",
+    "choices": [
+      "unhappy",
+      "glad",
+      "big",
+      "fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0011",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"hot\" soup steams up.",
+    "choices": [
+      "warm",
+      "cold",
+      "blue",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0012",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We saw a \"large\" bear today.",
+    "choices": [
+      "huge",
+      "tiny",
+      "sad",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0013",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"glad\" kid waved hi.",
+    "choices": [
+      "joyful",
+      "mad",
+      "cold",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0014",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My \"tired\" cat naps now.",
+    "choices": [
+      "sleepy",
+      "glad",
+      "loud",
+      "big"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0015",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"cold\" wind blew hard.",
+    "choices": [
+      "chilly",
+      "hot",
+      "fast",
+      "glad"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0016",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "That \"loud\" bell rings again.",
+    "choices": [
+      "noisy",
+      "silent",
+      "tiny",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0017",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The room stays \"quiet\" now.",
+    "choices": [
+      "silent",
+      "noisy",
+      "big",
+      "hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0018",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"scared\" dog hid behind.",
+    "choices": [
+      "afraid",
+      "brave",
+      "glad",
+      "tiny"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0019",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> felt \"mad\" at noon.",
+    "choices": [
+      "angry",
+      "glad",
+      "cold",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0020",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"big\" truck rolled by.",
+    "choices": [
+      "enormous",
+      "tiny",
+      "sad",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0021",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "A \"tiny\" ant crawled fast.",
+    "choices": [
+      "little",
+      "huge",
+      "loud",
+      "hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0022",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am \"glad\" we won today.",
+    "choices": [
+      "happy",
+      "sad",
+      "cold",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0023",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"sick\" bird stayed still.",
+    "choices": [
+      "ill",
+      "well",
+      "fast",
+      "loud"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0024",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"pretty\" bow looks nice.",
+    "choices": [
+      "beautiful",
+      "plain",
+      "cold",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0025",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"easy\" quiz was fun.",
+    "choices": [
+      "simple",
+      "hard",
+      "cold",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0026",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"neat\" desk had books.",
+    "choices": [
+      "clean",
+      "muddy",
+      "hot",
+      "sad"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0027",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> looks \"happy\" today.",
+    "choices": [
+      "glad",
+      "sad",
+      "cold",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0028",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"little\" mouse ran fast.",
+    "choices": [
+      "small",
+      "huge",
+      "loud",
+      "hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0029",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We feel \"cold\" at recess.",
+    "choices": [
+      "chilly",
+      "hot",
+      "fast",
+      "glad"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0030",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"big\" box fell down.",
+    "choices": [
+      "large",
+      "tiny",
+      "sad",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0031",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My \"sad\" friend needed help.",
+    "choices": [
+      "unhappy",
+      "glad",
+      "big",
+      "fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0032",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"fast\" mouse ran away.",
+    "choices": [
+      "quick",
+      "slow",
+      "old",
+      "soft"
+    ],
+    "answer_index": 0,
+    "explain_key": "speed_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0033",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Please stay \"quiet\" in class.",
+    "choices": [
+      "silent",
+      "noisy",
+      "big",
+      "hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0034",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> was \"upset\" after rain.",
+    "choices": [
+      "unhappy",
+      "glad",
+      "big",
+      "fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0035",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The \"huge\" tree shades us.",
+    "choices": [
+      "enormous",
+      "tiny",
+      "sad",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0036",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"shut\" the gate now.",
+    "choices": [
+      "close",
+      "open",
+      "lock",
+      "paint"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0037",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We will \"start\" art soon.",
+    "choices": [
+      "begin",
+      "stop",
+      "leave",
+      "wait"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0038",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I can \"see\" a red bird.",
+    "choices": [
+      "look",
+      "hear",
+      "eat",
+      "sit"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0039",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not \"yell\" in hall.",
+    "choices": [
+      "shout",
+      "sing",
+      "sleep",
+      "draw"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0040",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My \"father\" fixed the lamp.",
+    "choices": [
+      "dad",
+      "aunt",
+      "friend",
+      "teacher"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0041",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She got a \"gift\" at party.",
+    "choices": [
+      "present",
+      "card",
+      "cake",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0042",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"quick\" rabbit hopped off.",
+    "choices": [
+      "fast",
+      "slow",
+      "old",
+      "soft"
+    ],
+    "answer_index": 0,
+    "explain_key": "speed_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0043",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We \"jump\" over the puddle.",
+    "choices": [
+      "leap",
+      "sit",
+      "sleep",
+      "read"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0044",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The work is \"done\" now.",
+    "choices": [
+      "finished",
+      "begin",
+      "lost",
+      "cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0045",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I will \"pull\" the wagon.",
+    "choices": [
+      "tug",
+      "fold",
+      "hide",
+      "run"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0046",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"kid\" played on swings.",
+    "choices": [
+      "child",
+      "aunt",
+      "teacher",
+      "queen"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0047",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We \"run\" to the bus stop.",
+    "choices": [
+      "race",
+      "sit",
+      "nap",
+      "read"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0048",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"stop\" the loud game.",
+    "choices": [
+      "end",
+      "start",
+      "win",
+      "draw"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0049",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"watch\" the kite fly.",
+    "choices": [
+      "look",
+      "hear",
+      "eat",
+      "sleep"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0050",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I take a \"nap\" after play.",
+    "choices": [
+      "sleep",
+      "run",
+      "jump",
+      "sing"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0051",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"wash\" your dirty hands.",
+    "choices": [
+      "clean",
+      "muddy",
+      "cold",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0052",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"kind\" teacher smiled back.",
+    "choices": [
+      "nice",
+      "hard",
+      "loud",
+      "cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0053",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"read\" a book tonight.",
+    "choices": [
+      "study",
+      "sleep",
+      "run",
+      "jump"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0054",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We \"build\" a tall tower.",
+    "choices": [
+      "make",
+      "break",
+      "hide",
+      "fold"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0055",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"angry\" bug crawls fast.",
+    "choices": [
+      "mad",
+      "glad",
+      "tiny",
+      "cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0056",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"happy\" baby laughed loud.",
+    "choices": [
+      "glad",
+      "sad",
+      "cold",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0057",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"want\" a warm cookie.",
+    "choices": [
+      "wish",
+      "hide",
+      "run",
+      "jump"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0058",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"take\" your red coat.",
+    "choices": [
+      "grab",
+      "hide",
+      "fold",
+      "run"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0059",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I will \"tell\" a funny jok.",
+    "choices": [
+      "say",
+      "hide",
+      "run",
+      "jump"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0060",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We \"sing\" after lunch today.",
+    "choices": [
+      "hum",
+      "sleep",
+      "run",
+      "draw"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0061",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"like\" my soft teddy.",
+    "choices": [
+      "love",
+      "sad",
+      "run",
+      "jump"
+    ],
+    "answer_index": 0,
+    "explain_key": "feeling_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teddy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0062",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"keep\" my toy safe.",
+    "choices": [
+      "save",
+      "lost",
+      "hide",
+      "run"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0063",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"pick\" a ripe pear.",
+    "choices": [
+      "choose",
+      "hide",
+      "fold",
+      "run"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0064",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We \"pack\" our lunch box.",
+    "choices": [
+      "fill",
+      "hide",
+      "fold",
+      "run"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0065",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"fold\" the warm blanket.",
+    "choices": [
+      "bend",
+      "hide",
+      "run",
+      "sit"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0066",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"clean\" the table now.",
+    "choices": [
+      "wash",
+      "muddy",
+      "cold",
+      "slow"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0067",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We \"leave\" school at three.",
+    "choices": [
+      "go",
+      "stay",
+      "sleep",
+      "read"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0068",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"hold\" the kite string.",
+    "choices": [
+      "keep",
+      "hide",
+      "run",
+      "jump"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0069",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"heavy\" box tipped over.",
+    "choices": [
+      "heavier",
+      "tiny",
+      "glad",
+      "cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "size_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0070",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> is \"nearly\" done eating.",
+    "choices": [
+      "almost",
+      "never",
+      "always",
+      "often"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0071",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We share \"each\" big cookie.",
+    "choices": [
+      "every",
+      "some",
+      "many",
+      "few"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0072",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat hid \"below\" the mat.",
+    "choices": [
+      "under",
+      "over",
+      "near",
+      "far"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0073",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My \"dad\" drives us home.",
+    "choices": [
+      "father",
+      "brother",
+      "aunt",
+      "teacher"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0074",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"movie\" was very funny.",
+    "choices": [
+      "film",
+      "book",
+      "game",
+      "song"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0075",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Her \"cap\" blew off today.",
+    "choices": [
+      "hat",
+      "sock",
+      "shoe",
+      "coat"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0076",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"pup\" licked my hand.",
+    "choices": [
+      "puppy",
+      "kitten",
+      "mouse",
+      "duck"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0077",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We crossed the busy \"road\".",
+    "choices": [
+      "street",
+      "river",
+      "hill",
+      "field"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0078",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"ship\" sailed far away.",
+    "choices": [
+      "boat",
+      "plane",
+      "train",
+      "bike"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ship"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0079",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I ate a sweet \"treat\".",
+    "choices": [
+      "snack",
+      "meal",
+      "drink",
+      "fruit"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0080",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My \"granma\" told a story.",
+    "choices": [
+      "grandma",
+      "grandpa",
+      "aunt",
+      "brother"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0081",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"fathr\" read us stories.",
+    "choices": [
+      "father",
+      "brother",
+      "aunt",
+      "friend"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0082",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Each \"child\" got a sticker.",
+    "choices": [
+      "kid",
+      "teacher",
+      "queen",
+      "king"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0083",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"photo\" is on desk.",
+    "choices": [
+      "picture",
+      "paper",
+      "pencil",
+      "frame"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "photo"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0084",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Our \"puppy\" chewed my shoe.",
+    "choices": [
+      "pup",
+      "kitten",
+      "mouse",
+      "duck"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0085",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"gradma\" waved from porch.",
+    "choices": [
+      "grandma",
+      "grandpa",
+      "aunt",
+      "brother"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0086",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We watched a short \"video\".",
+    "choices": [
+      "movie",
+      "book",
+      "game",
+      "song"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0087",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"present\" sat under tree.",
+    "choices": [
+      "gift",
+      "card",
+      "ball",
+      "book"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0088",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My \"sist\" wants my book.",
+    "choices": [
+      "sister",
+      "brother",
+      "aunt",
+      "friend"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0089",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"boat\" rocked on waves.",
+    "choices": [
+      "ship",
+      "train",
+      "bike",
+      "bus"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0090",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We ate a crunchy \"snack\".",
+    "choices": [
+      "treat",
+      "soup",
+      "juice",
+      "water"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0091",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"street\" was wet today.",
+    "choices": [
+      "road",
+      "river",
+      "field",
+      "beach"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0092",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Her \"mom\" packed my lunch.",
+    "choices": [
+      "mother",
+      "sister",
+      "aunt",
+      "teacher"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0093",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I wore my red \"hat\".",
+    "choices": [
+      "cap",
+      "sock",
+      "shoe",
+      "coat"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0094",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The little \"kid\" built blocks.",
+    "choices": [
+      "child",
+      "teacher",
+      "queen",
+      "king"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0095",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"grndma\" sent a card.",
+    "choices": [
+      "grandma",
+      "grandpa",
+      "aunt",
+      "brother"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0096",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We go \"home\" after school.",
+    "choices": [
+      "house",
+      "room",
+      "roof",
+      "desk"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0097",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"brothr\" fixed my bike.",
+    "choices": [
+      "brother",
+      "sister",
+      "aunt",
+      "friend"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0098",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My \"mam\" gave me juice.",
+    "choices": [
+      "mom",
+      "sister",
+      "aunt",
+      "teacher"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0099",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"mohter\" called our name.",
+    "choices": [
+      "mother",
+      "sister",
+      "aunt",
+      "friend"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_same",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_synonyms_in_context_0100",
+    "family_id": "fam_find_synonyms_in_context",
+    "skill_id": "roots_find_synonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"box\" holds my toys.",
+    "choices": [
+      "crate",
+      "bag",
+      "ball",
+      "book"
+    ],
+    "answer_index": 0,
+    "explain_key": "thing_same",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  }
+]

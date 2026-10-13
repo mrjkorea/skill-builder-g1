@@ -1,0 +1,310 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+  "family_title_en": "Complete the word with a three-letter consonant blend",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+      "ix_title": "Complete the word with a three-letter consonant blend",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which three letters start the word?",
+        "ko": "그 단어는 어떤 세 글자로 시작하나요?"
+      },
+      "what_to_do": {
+        "en": "Find the word that starts with three consonants and tap them.",
+        "ko": "자음 세 개로 시작하는 단어를 찾아 그 글자를 누르세요."
+      },
+      "choice_rule": "Build four lowercase three-letter blends from str, spr, spl, scr, squ, shr, and thr. Exactly one choice is the first three letters of the single blend word in the stem. Tier 1 distractors look unlike the answer. Tier 2 distractors share letters with it. Tier 3 adds the nearest one-letter miss. Do not offer two-letter blends as choices.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "scrap",
+        "scrape",
+        "scratch",
+        "screw",
+        "scrub",
+        "shred",
+        "shrimp",
+        "shrink",
+        "shrub",
+        "splash",
+        "split",
+        "sprain",
+        "sprout",
+        "square",
+        "squash",
+        "squid",
+        "squint",
+        "strap",
+        "straw",
+        "stretch"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_a_three_letter_conson_0001",
+          "tier": 1,
+          "stem": "My sock has a stripe.",
+          "choices": [
+            "str",
+            "squ",
+            "spl",
+            "shr"
+          ],
+          "answer_index": 0,
+          "explain_key": "str_onset",
+          "media": [
+            {
+              "lemma": "stripe"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_a_three_letter_conson_0002",
+          "tier": 1,
+          "stem": "We saw three fish.",
+          "choices": [
+            "squ",
+            "spl",
+            "thr",
+            "shr"
+          ],
+          "answer_index": 2,
+          "explain_key": "thr_onset",
+          "media": [
+            {
+              "lemma": "three"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_a_three_letter_conson_0003",
+          "tier": 1,
+          "stem": "We squeeze the wet rag.",
+          "choices": [
+            "str",
+            "squ",
+            "spl",
+            "shr"
+          ],
+          "answer_index": 1,
+          "explain_key": "squ_onset",
+          "media": [
+            {
+              "lemma": "squeeze"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_a_three_letter_conson_0004",
+          "tier": 2,
+          "stem": "The screen is too bright.",
+          "choices": [
+            "str",
+            "spr",
+            "scr",
+            "shr"
+          ],
+          "answer_index": 2,
+          "explain_key": "scr_onset",
+          "media": [
+            {
+              "lemma": "screen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_a_three_letter_conson_0005",
+          "tier": 2,
+          "stem": "We splash in the little pool.",
+          "choices": [
+            "spr",
+            "str",
+            "scr",
+            "spl"
+          ],
+          "answer_index": 3,
+          "explain_key": "spl_onset",
+          "media": [
+            {
+              "lemma": "splash"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_a_three_letter_conson_0006",
+          "tier": 2,
+          "stem": "The spring days are very sunny.",
+          "choices": [
+            "str",
+            "spr",
+            "spl",
+            "scr"
+          ],
+          "answer_index": 1,
+          "explain_key": "spr_onset",
+          "media": [
+            {
+              "lemma": "spring"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_a_three_letter_conson_0007",
+          "tier": 3,
+          "stem": "<NAME> saw a strong horse by the tree.",
+          "choices": [
+            "spr",
+            "str",
+            "scr",
+            "thr"
+          ],
+          "answer_index": 1,
+          "explain_key": "blend_near",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "strong"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_a_three_letter_conson_0008",
+          "tier": 3,
+          "stem": "Please spray water on the green grass.",
+          "choices": [
+            "str",
+            "spl",
+            "thr",
+            "spr"
+          ],
+          "answer_index": 3,
+          "explain_key": "blend_near",
+          "media": [
+            {
+              "lemma": "spray"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use whole words only. The stem has exactly one word that starts with a three-letter consonant blend.",
+      "Other words may start with one consonant, with th, sh, or ch, or with a two-letter blend such as tr, gr, or pl.",
+      "Never put two three-letter blend words in the same stem.",
+      "Offer four lowercase choices from str, spr, spl, scr, squ, shr, and thr, and make exactly one correct.",
+      "Tier 1 distractors must not share the first two letters with the answer.",
+      "Tier 2 distractors stay close in spelling but are still the wrong first three letters.",
+      "Tier 3 stems are longer and include a two-letter blend decoy plus a one-letter-miss choice.",
+      "Vary which choice index is correct so the answer is not always first.",
+      "Keep sentences in a kid world of home, school, food, pets, play, family, or weather, with no brands.",
+      "Do not use real names. If a person is needed, write <NAME> and set swap_slots.NAME to names.txt.",
+      "Add one media lemma, the blend word itself. Do not describe a picture in the stem.",
+      "No IPA, no slashes, and no held clips. Choices are the blend's letters.",
+      "Off-list blend words must come from allowed_extra_words. Do not invent word fragments."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bdigraph\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Four or five words with one common blend word such as three, stripe, or squeeze. Distractors do not share the answer's first two letters.",
+    "2": "Five to seven grade-level words. Distractors are close spellings, such as str beside spr or spl beside spr.",
+    "3": "Seven to ten words with a two-letter blend decoy in the sentence and one distractor that misses the answer by a single letter."
+  },
+  "miss_explain": {
+    "str_onset": {
+      "en": "This word starts with the letters str, as in street and strong.",
+      "ko": "이 단어는 street, strong처럼 str로 시작합니다."
+    },
+    "spr_onset": {
+      "en": "This word starts with the letters spr, as in spring and spray.",
+      "ko": "이 단어는 spring, spray처럼 spr로 시작합니다."
+    },
+    "spl_onset": {
+      "en": "This word starts with the letters spl, as in splash and split.",
+      "ko": "이 단어는 splash, split처럼 spl로 시작합니다."
+    },
+    "scr_onset": {
+      "en": "This word starts with the letters scr, as in scream and screen.",
+      "ko": "이 단어는 scream, screen처럼 scr로 시작합니다."
+    },
+    "squ_onset": {
+      "en": "This word starts with the letters squ, as in squeak and squeeze.",
+      "ko": "이 단어는 squeak, squeeze처럼 squ로 시작합니다."
+    },
+    "thr_onset": {
+      "en": "This word starts with the letters thr, as in three and throw.",
+      "ko": "이 단어는 three, throw처럼 thr로 시작합니다."
+    },
+    "shr_onset": {
+      "en": "This word starts with the letters shr, as in shrub and shrink.",
+      "ko": "이 단어는 shrub, shrink처럼 shr로 시작합니다."
+    },
+    "blend_near": {
+      "en": "Only one word starts with three consonants. Read that word's first three letters.",
+      "ko": "자음 세 개로 시작하는 단어는 하나뿐입니다. 그 단어의 앞 세 글자를 읽으세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with a three-letter consonant blend"
+    ],
+    "no_ixl_text": true
+  }
+}

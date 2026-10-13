@@ -1,0 +1,289 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_which_word_is_a_noun",
+  "family_title_en": "Which word is a noun?",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_which_word_is_a_noun",
+      "ix_title": "Which word is a noun?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is a noun?",
+        "ko": "어느 단어가 명사인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the noun.",
+        "ko": "명사를 누르세요."
+      },
+      "choice_rule": "Offer four unique wordlist or extra words. Exactly one choice is a noun naming a person, place, thing, or animal. The other three are a verb, an adjective or adverb, and a pronoun or article. Never put a second noun in the choices. Never use a noun-verb word such as play, run, walk, cook, water, drink, or fish as the answer. Never use a real name as a choice. Keep <NAME> in the stem only.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "yummy",
+        "messy",
+        "sleepy",
+        "kindly",
+        "gently",
+        "softly",
+        "proudly"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_which_word_is_a_noun_0001",
+          "tier": 1,
+          "stem": "The big dog ran.",
+          "choices": [
+            "dog",
+            "ran",
+            "big",
+            "the"
+          ],
+          "answer_index": 0,
+          "explain_key": "noun_animal",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_word_is_a_noun_0002",
+          "tier": 1,
+          "stem": "My cat is happy.",
+          "choices": [
+            "happy",
+            "cat",
+            "is",
+            "my"
+          ],
+          "answer_index": 1,
+          "explain_key": "noun_animal",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_word_is_a_noun_0003",
+          "tier": 1,
+          "stem": "We eat the apple.",
+          "choices": [
+            "eat",
+            "we",
+            "apple",
+            "the"
+          ],
+          "answer_index": 2,
+          "explain_key": "noun_thing",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_word_is_a_noun_0004",
+          "tier": 2,
+          "stem": "The happy children ran fast.",
+          "choices": [
+            "children",
+            "happy",
+            "ran",
+            "fast"
+          ],
+          "answer_index": 0,
+          "explain_key": "noun_person",
+          "media": [
+            {
+              "lemma": "children"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_word_is_a_noun_0005",
+          "tier": 2,
+          "stem": "<NAME> ate a sweet cookie.",
+          "choices": [
+            "ate",
+            "cookie",
+            "a",
+            "sweet"
+          ],
+          "answer_index": 1,
+          "explain_key": "noun_thing",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_word_is_a_noun_0006",
+          "tier": 2,
+          "stem": "The garden is very green.",
+          "choices": [
+            "is",
+            "very",
+            "green",
+            "garden"
+          ],
+          "answer_index": 3,
+          "explain_key": "noun_place",
+          "media": [
+            {
+              "lemma": "garden"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_word_is_a_noun_0007",
+          "tier": 3,
+          "stem": "They gave him the pretty gift.",
+          "choices": [
+            "they",
+            "him",
+            "gift",
+            "gave"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_pronoun",
+          "media": [
+            {
+              "lemma": "gift"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_word_is_a_noun_0008",
+          "tier": 3,
+          "stem": "The little sister sang very nicely.",
+          "choices": [
+            "sang",
+            "sister",
+            "little",
+            "nicely"
+          ],
+          "answer_index": 1,
+          "explain_key": "noun_person",
+          "media": [
+            {
+              "lemma": "sister"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one of the four choices is a noun. Never add a second noun.",
+      "Wrong choices must be a verb, an adjective or adverb, and a pronoun or article from the wordlist or extras.",
+      "Never use play, run, walk, cook, water, drink, or fish as the correct noun.",
+      "Never use a real name as a choice. <NAME> may appear in the stem only.",
+      "Tier 1 uses a clear animal or thing noun plus a picture lemma.",
+      "Tier 2 uses a person or place noun, often two syllables, with a pronoun or adverb distractor.",
+      "Tier 3 uses near-miss pronouns such as he, she, they, him, or them, and -ly adverbs."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bnouns?\\b",
+    "\\bverbs?\\b",
+    "\\badjectives?\\b",
+    "\\badverbs?\\b",
+    "\\bpronouns?\\b",
+    "person, place",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebey\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four words. Concrete animal or thing nouns with a picture lemma. Distractors are a clear verb, a clear adjective, and an article or pronoun.",
+    "2": "Stems of five words. Person or place nouns, often two syllables. Mix in a pronoun or adverb distractor. One stem may use <NAME>, but <NAME> is never a choice.",
+    "3": "Longer stems of six words. Near-miss pronouns kids may think name a person, -ly adverbs, and adjectives beside a two-syllable noun."
+  },
+  "miss_explain": {
+    "noun_animal": {
+      "en": "A noun can name an animal.",
+      "ko": "명사는 동물을 가리킬 수 있습니다."
+    },
+    "noun_thing": {
+      "en": "A noun names a thing.",
+      "ko": "명사는 사물의 이름입니다."
+    },
+    "noun_person": {
+      "en": "A noun can name a person.",
+      "ko": "명사는 사람을 가리킬 수 있습니다."
+    },
+    "noun_place": {
+      "en": "A noun can name a place.",
+      "ko": "명사는 장소를 가리킬 수 있습니다."
+    },
+    "not_action": {
+      "en": "An action word is not a noun.",
+      "ko": "동작 단어는 명사가 아닙니다."
+    },
+    "not_describe": {
+      "en": "A describing word is not a noun.",
+      "ko": "설명하는 단어는 명사가 아닙니다."
+    },
+    "not_pronoun": {
+      "en": "He, she, they, and him are not nouns.",
+      "ko": "he, she, they, him은 명사가 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Which word is a noun?"
+    ],
+    "no_ixl_text": true
+  }
+}

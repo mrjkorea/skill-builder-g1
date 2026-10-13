@@ -1,0 +1,2329 @@
+[
+  {
+    "item_id": "roots_find_antonyms_in_context_0001",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The soup is \"hot\" today.",
+    "choices": [
+      "cold",
+      "warm",
+      "red",
+      "wet"
+    ],
+    "answer_index": 0,
+    "explain_key": "temp_hot",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0002",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The little dog is \"happy\".",
+    "choices": [
+      "glad",
+      "sad",
+      "funny",
+      "kind"
+    ],
+    "answer_index": 1,
+    "explain_key": "feeling_happy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0003",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My bag is very \"big\".",
+    "choices": [
+      "large",
+      "full",
+      "small",
+      "soft"
+    ],
+    "answer_index": 2,
+    "explain_key": "size_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0004",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"heavy\" box is not easy.",
+    "choices": [
+      "dark",
+      "light",
+      "big",
+      "full"
+    ],
+    "answer_index": 1,
+    "explain_key": "weight_heavy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0005",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> ran \"fast\" at recess.",
+    "choices": [
+      "quick",
+      "late",
+      "slow",
+      "loud"
+    ],
+    "answer_index": 2,
+    "explain_key": "speed_fast",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0006",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"close\" the kitchen door.",
+    "choices": [
+      "open",
+      "shut",
+      "lock",
+      "leave"
+    ],
+    "answer_index": 0,
+    "explain_key": "open_close",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0007",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"light\" bag was easy to carry.",
+    "choices": [
+      "dark",
+      "bright",
+      "soft",
+      "heavy"
+    ],
+    "answer_index": 3,
+    "explain_key": "weight_light",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0008",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The room looks \"light\" this morning.",
+    "choices": [
+      "dark",
+      "heavy",
+      "sunny",
+      "white"
+    ],
+    "answer_index": 0,
+    "explain_key": "light_dark",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0009",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The milk feels \"cold\" now.",
+    "choices": [
+      "hot",
+      "blue",
+      "sweet",
+      "tall"
+    ],
+    "answer_index": 0,
+    "explain_key": "temp_cold",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0010",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I feel \"sad\" today.",
+    "choices": [
+      "red",
+      "happy",
+      "fast",
+      "big"
+    ],
+    "answer_index": 1,
+    "explain_key": "feeling_sad",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0011",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ant is very \"small\".",
+    "choices": [
+      "green",
+      "wet",
+      "big",
+      "loud"
+    ],
+    "answer_index": 2,
+    "explain_key": "size_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0012",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My coat is \"wet\" outside.",
+    "choices": [
+      "soft",
+      "new",
+      "kind",
+      "dry"
+    ],
+    "answer_index": 3,
+    "explain_key": "wet_dry",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0013",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bell is very \"loud\".",
+    "choices": [
+      "quiet",
+      "round",
+      "old",
+      "full"
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0014",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "This shoe is \"old\" now.",
+    "choices": [
+      "brown",
+      "new",
+      "soft",
+      "long"
+    ],
+    "answer_index": 1,
+    "explain_key": "old_new",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0015",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat is \"in\" the box.",
+    "choices": [
+      "gray",
+      "kind",
+      "out",
+      "fast"
+    ],
+    "answer_index": 2,
+    "explain_key": "in_out",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0016",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bird flies \"up\" high.",
+    "choices": [
+      "blue",
+      "small",
+      "wet",
+      "down"
+    ],
+    "answer_index": 3,
+    "explain_key": "up_down",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0017",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We came \"early\" to school.",
+    "choices": [
+      "late",
+      "tired",
+      "hungry",
+      "glad"
+    ],
+    "answer_index": 0,
+    "explain_key": "early_late",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0018",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Our cups look the \"same\".",
+    "choices": [
+      "full",
+      "different",
+      "clean",
+      "round"
+    ],
+    "answer_index": 1,
+    "explain_key": "same_different",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0019",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I \"always\" brush my teeth.",
+    "choices": [
+      "slow",
+      "soft",
+      "never",
+      "dark"
+    ],
+    "answer_index": 2,
+    "explain_key": "always_never",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0020",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pillow feels \"soft\".",
+    "choices": [
+      "white",
+      "big",
+      "new",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "hard_soft",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0021",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The jar is \"full\" of beans.",
+    "choices": [
+      "empty",
+      "brown",
+      "small",
+      "old"
+    ],
+    "answer_index": 0,
+    "explain_key": "full_empty",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jar"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0022",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The nest is \"near\" the tree.",
+    "choices": [
+      "green",
+      "far",
+      "warm",
+      "tidy"
+    ],
+    "answer_index": 1,
+    "explain_key": "near_far",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nest"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0023",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pup is still \"young\".",
+    "choices": [
+      "soft",
+      "brown",
+      "old",
+      "fast"
+    ],
+    "answer_index": 2,
+    "explain_key": "young_old",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0024",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It is \"day\" at the park.",
+    "choices": [
+      "fun",
+      "warm",
+      "long",
+      "night"
+    ],
+    "answer_index": 3,
+    "explain_key": "day_night",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0025",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Lunch comes \"before\" art class.",
+    "choices": [
+      "after",
+      "hot",
+      "good",
+      "fun"
+    ],
+    "answer_index": 0,
+    "explain_key": "before_after",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0026",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I will \"give\" you a cookie.",
+    "choices": [
+      "eat",
+      "take",
+      "bake",
+      "share"
+    ],
+    "answer_index": 1,
+    "explain_key": "give_take",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0027",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bus will \"start\" soon.",
+    "choices": [
+      "late",
+      "full",
+      "stop",
+      "loud"
+    ],
+    "answer_index": 2,
+    "explain_key": "start_stop",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0028",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "That math answer is \"right\".",
+    "choices": [
+      "hard",
+      "long",
+      "new",
+      "wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "right_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0029",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Turn to the \"right\" at the hall.",
+    "choices": [
+      "left",
+      "long",
+      "wide",
+      "clean"
+    ],
+    "answer_index": 0,
+    "explain_key": "left_right",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hall"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0030",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The tea is \"hot\" for me.",
+    "choices": [
+      "sweet",
+      "cold",
+      "brown",
+      "full"
+    ],
+    "answer_index": 1,
+    "explain_key": "temp_hot",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tea"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0031",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bunny looks \"happy\".",
+    "choices": [
+      "soft",
+      "white",
+      "sad",
+      "small"
+    ],
+    "answer_index": 2,
+    "explain_key": "feeling_happy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0032",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Dad has a \"big\" hat.",
+    "choices": [
+      "blue",
+      "old",
+      "warm",
+      "small"
+    ],
+    "answer_index": 3,
+    "explain_key": "size_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0033",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rock is \"hard\" to break.",
+    "choices": [
+      "soft",
+      "gray",
+      "round",
+      "cold"
+    ],
+    "answer_index": 0,
+    "explain_key": "hard_soft",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0034",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My hands feel \"dry\" now.",
+    "choices": [
+      "warm",
+      "wet",
+      "clean",
+      "small"
+    ],
+    "answer_index": 1,
+    "explain_key": "wet_dry",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0035",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hall is very \"quiet\".",
+    "choices": [
+      "long",
+      "clean",
+      "loud",
+      "bright"
+    ],
+    "answer_index": 2,
+    "explain_key": "loud_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hall"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0036",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"slow\" turtle crossed the path.",
+    "choices": [
+      "green",
+      "small",
+      "wet",
+      "fast"
+    ],
+    "answer_index": 3,
+    "explain_key": "speed_slow",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0037",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Can you \"open\" the window?",
+    "choices": [
+      "close",
+      "glass",
+      "wide",
+      "clean"
+    ],
+    "answer_index": 0,
+    "explain_key": "open_close",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "window"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0038",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> was \"late\" for lunch.",
+    "choices": [
+      "hungry",
+      "early",
+      "tired",
+      "glad"
+    ],
+    "answer_index": 1,
+    "explain_key": "early_late",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0039",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"take\" your coat off.",
+    "choices": [
+      "hang",
+      "fold",
+      "give",
+      "wear"
+    ],
+    "answer_index": 2,
+    "explain_key": "give_take",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0040",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The red light means \"stop\".",
+    "choices": [
+      "bright",
+      "round",
+      "hot",
+      "start"
+    ],
+    "answer_index": 3,
+    "explain_key": "start_stop",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0041",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My answer on the test was \"wrong\".",
+    "choices": [
+      "right",
+      "long",
+      "hard",
+      "neat"
+    ],
+    "answer_index": 0,
+    "explain_key": "right_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0042",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Walk on the \"left\" side now.",
+    "choices": [
+      "safe",
+      "right",
+      "slow",
+      "wide"
+    ],
+    "answer_index": 1,
+    "explain_key": "left_right",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0043",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puddle is still \"wet\".",
+    "choices": [
+      "deep",
+      "brown",
+      "dry",
+      "cold"
+    ],
+    "answer_index": 2,
+    "explain_key": "wet_dry",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0044",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The drum sounds very \"loud\".",
+    "choices": [
+      "big",
+      "round",
+      "red",
+      "quiet"
+    ],
+    "answer_index": 3,
+    "explain_key": "loud_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drum"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0045",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I got a \"new\" pencil today.",
+    "choices": [
+      "old",
+      "long",
+      "sharp",
+      "blue"
+    ],
+    "answer_index": 0,
+    "explain_key": "old_new",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0046",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The frog jumped \"out\" of the pond.",
+    "choices": [
+      "green",
+      "in",
+      "small",
+      "wet"
+    ],
+    "answer_index": 1,
+    "explain_key": "in_out",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0047",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kite fell \"down\" from the sky.",
+    "choices": [
+      "bright",
+      "long",
+      "up",
+      "red"
+    ],
+    "answer_index": 2,
+    "explain_key": "up_down",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0048",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We sat \"after\" the bell rang.",
+    "choices": [
+      "quiet",
+      "still",
+      "tired",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before_after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0049",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "These two socks are the \"same\".",
+    "choices": [
+      "different",
+      "soft",
+      "warm",
+      "clean"
+    ],
+    "answer_index": 0,
+    "explain_key": "same_different",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0050",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I \"never\" miss my reading.",
+    "choices": [
+      "late",
+      "always",
+      "tired",
+      "glad"
+    ],
+    "answer_index": 1,
+    "explain_key": "always_never",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0051",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bread is not \"soft\" today.",
+    "choices": [
+      "fresh",
+      "brown",
+      "hard",
+      "warm"
+    ],
+    "answer_index": 2,
+    "explain_key": "hard_soft",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0052",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tub is \"empty\" after bath time.",
+    "choices": [
+      "clean",
+      "white",
+      "big",
+      "full"
+    ],
+    "answer_index": 3,
+    "explain_key": "full_empty",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0053",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The barn looks \"far\" from here.",
+    "choices": [
+      "near",
+      "red",
+      "big",
+      "old"
+    ],
+    "answer_index": 0,
+    "explain_key": "near_far",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0054",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Grandma told an \"old\" story.",
+    "choices": [
+      "long",
+      "new",
+      "fun",
+      "kind"
+    ],
+    "answer_index": 1,
+    "explain_key": "old_new",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0055",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Stars shine at \"night\" outside.",
+    "choices": [
+      "cold",
+      "bright",
+      "day",
+      "still"
+    ],
+    "answer_index": 2,
+    "explain_key": "day_night",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0056",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cub looks \"young\" and small.",
+    "choices": [
+      "soft",
+      "brown",
+      "fast",
+      "old"
+    ],
+    "answer_index": 3,
+    "explain_key": "young_old",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0057",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The soup got \"cold\" at lunch.",
+    "choices": [
+      "hot",
+      "good",
+      "warm",
+      "red"
+    ],
+    "answer_index": 0,
+    "explain_key": "temp_cold",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0058",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> felt \"sad\" after the game.",
+    "choices": [
+      "tired",
+      "happy",
+      "hungry",
+      "sick"
+    ],
+    "answer_index": 1,
+    "explain_key": "feeling_sad",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0059",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "That crate is too \"big\" for me.",
+    "choices": [
+      "wood",
+      "brown",
+      "small",
+      "heavy"
+    ],
+    "answer_index": 2,
+    "explain_key": "size_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0060",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The \"heavy\" backpack hurt my back.",
+    "choices": [
+      "blue",
+      "full",
+      "new",
+      "light"
+    ],
+    "answer_index": 3,
+    "explain_key": "weight_heavy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "back"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0061",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Mom said to \"shut\" the gate.",
+    "choices": [
+      "open",
+      "lock",
+      "paint",
+      "fix"
+    ],
+    "answer_index": 0,
+    "explain_key": "open_close",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0062",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> runs \"fast\" on the track.",
+    "choices": [
+      "long",
+      "slow",
+      "hard",
+      "fun"
+    ],
+    "answer_index": 1,
+    "explain_key": "speed_fast",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "track"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0063",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The room felt \"dark\" at bedtime.",
+    "choices": [
+      "quiet",
+      "warm",
+      "light",
+      "still"
+    ],
+    "answer_index": 2,
+    "explain_key": "light_dark",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0064",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Keep the cat \"in\" the box please.",
+    "choices": [
+      "safe",
+      "calm",
+      "warm",
+      "out"
+    ],
+    "answer_index": 3,
+    "explain_key": "in_out",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0065",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Hold the balloon \"up\" high.",
+    "choices": [
+      "down",
+      "round",
+      "red",
+      "big"
+    ],
+    "answer_index": 0,
+    "explain_key": "up_down",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "balloon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0066",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We woke up \"early\" on Monday.",
+    "choices": [
+      "cold",
+      "late",
+      "tired",
+      "hungry"
+    ],
+    "answer_index": 1,
+    "explain_key": "early_late",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0067",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please \"give\" the book to me.",
+    "choices": [
+      "read",
+      "find",
+      "take",
+      "hold"
+    ],
+    "answer_index": 2,
+    "explain_key": "give_take",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0068",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The train will \"stop\" at noon.",
+    "choices": [
+      "long",
+      "loud",
+      "fast",
+      "start"
+    ],
+    "answer_index": 3,
+    "explain_key": "start_stop",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0069",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The towel is \"dry\" after the swim.",
+    "choices": [
+      "wet",
+      "soft",
+      "blue",
+      "clean"
+    ],
+    "answer_index": 0,
+    "explain_key": "wet_dry",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "towel"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0070",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mouse is \"small\" in the hole.",
+    "choices": [
+      "gray",
+      "big",
+      "quick",
+      "kind"
+    ],
+    "answer_index": 1,
+    "explain_key": "size_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0071",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The lake water feels \"cold\".",
+    "choices": [
+      "deep",
+      "blue",
+      "hot",
+      "still"
+    ],
+    "answer_index": 2,
+    "explain_key": "temp_cold",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0072",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The library stays very \"quiet\".",
+    "choices": [
+      "cool",
+      "big",
+      "calm",
+      "loud"
+    ],
+    "answer_index": 3,
+    "explain_key": "loud_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0073",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"dark\" cave was hard to see.",
+    "choices": [
+      "light",
+      "deep",
+      "cold",
+      "wide"
+    ],
+    "answer_index": 0,
+    "explain_key": "light_dark",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cave"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0074",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "This \"light\" feather floats up.",
+    "choices": [
+      "soft",
+      "heavy",
+      "white",
+      "small"
+    ],
+    "answer_index": 1,
+    "explain_key": "weight_light",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0075",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"bright\" lamp hurt my eyes.",
+    "choices": [
+      "round",
+      "hot",
+      "dark",
+      "tall"
+    ],
+    "answer_index": 2,
+    "explain_key": "light_dark",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0076",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"heavy\" coat feels hard to lift.",
+    "choices": [
+      "wet",
+      "long",
+      "blue",
+      "light"
+    ],
+    "answer_index": 3,
+    "explain_key": "weight_heavy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0077",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Sunlight makes the room \"bright\".",
+    "choices": [
+      "dark",
+      "warm",
+      "clean",
+      "wide"
+    ],
+    "answer_index": 0,
+    "explain_key": "light_dark",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0078",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"light\" snack was quick to eat.",
+    "choices": [
+      "good",
+      "heavy",
+      "hot",
+      "fast"
+    ],
+    "answer_index": 1,
+    "explain_key": "weight_light",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0079",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "A \"fast\" rabbit ran past us.",
+    "choices": [
+      "brown",
+      "small",
+      "slow",
+      "soft"
+    ],
+    "answer_index": 2,
+    "explain_key": "speed_fast",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0080",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"slow\" snail left a trail.",
+    "choices": [
+      "green",
+      "tiny",
+      "wet",
+      "fast"
+    ],
+    "answer_index": 3,
+    "explain_key": "speed_slow",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0081",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"open\" gate let the dog out.",
+    "choices": [
+      "close",
+      "wide",
+      "old",
+      "brown"
+    ],
+    "answer_index": 0,
+    "explain_key": "open_close",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0082",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Please do not \"close\" the book yet.",
+    "choices": [
+      "read",
+      "open",
+      "mark",
+      "fold"
+    ],
+    "answer_index": 1,
+    "explain_key": "open_close",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0083",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"wet\" dog shook off water.",
+    "choices": [
+      "brown",
+      "happy",
+      "dry",
+      "loud"
+    ],
+    "answer_index": 2,
+    "explain_key": "wet_dry",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0084",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My shirt is \"dry\" on the line.",
+    "choices": [
+      "clean",
+      "blue",
+      "soft",
+      "wet"
+    ],
+    "answer_index": 3,
+    "explain_key": "wet_dry",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shirt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0085",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"loud\" thunder scared the cat.",
+    "choices": [
+      "quiet",
+      "long",
+      "deep",
+      "dark"
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thunder"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0086",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We read in a \"quiet\" corner.",
+    "choices": [
+      "cozy",
+      "loud",
+      "small",
+      "warm"
+    ],
+    "answer_index": 1,
+    "explain_key": "loud_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0087",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "That \"new\" bike shines in the sun.",
+    "choices": [
+      "red",
+      "fast",
+      "old",
+      "cool"
+    ],
+    "answer_index": 2,
+    "explain_key": "old_new",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0088",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The \"old\" rope broke on the swing.",
+    "choices": [
+      "long",
+      "brown",
+      "rough",
+      "new"
+    ],
+    "answer_index": 3,
+    "explain_key": "old_new",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0089",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Put the toys \"in\" the bin please.",
+    "choices": [
+      "out",
+      "away",
+      "down",
+      "back"
+    ],
+    "answer_index": 0,
+    "explain_key": "in_out",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0090",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids ran \"out\" to the yard.",
+    "choices": [
+      "fast",
+      "in",
+      "loud",
+      "happy"
+    ],
+    "answer_index": 1,
+    "explain_key": "in_out",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0091",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Climb \"up\" the ladder carefully.",
+    "choices": [
+      "slow",
+      "high",
+      "down",
+      "safe"
+    ],
+    "answer_index": 2,
+    "explain_key": "up_down",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ladder"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0092",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The leaf floated \"down\" the stream.",
+    "choices": [
+      "green",
+      "small",
+      "wet",
+      "up"
+    ],
+    "answer_index": 3,
+    "explain_key": "up_down",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0093",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We arrived \"early\" for the show.",
+    "choices": [
+      "late",
+      "glad",
+      "tired",
+      "hungry"
+    ],
+    "answer_index": 0,
+    "explain_key": "early_late",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0094",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bus was \"late\" after the storm.",
+    "choices": [
+      "full",
+      "early",
+      "loud",
+      "slow"
+    ],
+    "answer_index": 1,
+    "explain_key": "early_late",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0095",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "These blocks are not the \"same\".",
+    "choices": [
+      "color",
+      "wood",
+      "different",
+      "big"
+    ],
+    "answer_index": 2,
+    "explain_key": "same_different",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0096",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I \"always\" feed my fish.",
+    "choices": [
+      "kind",
+      "glad",
+      "calm",
+      "never"
+    ],
+    "answer_index": 3,
+    "explain_key": "always_never",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0097",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The couch cushion is \"soft\".",
+    "choices": [
+      "hard",
+      "big",
+      "brown",
+      "clean"
+    ],
+    "answer_index": 0,
+    "explain_key": "hard_soft",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "couch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0098",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bucket is \"full\" of sand.",
+    "choices": [
+      "heavy",
+      "empty",
+      "round",
+      "blue"
+    ],
+    "answer_index": 1,
+    "explain_key": "full_empty",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bucket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0099",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The slide is \"near\" the swings.",
+    "choices": [
+      "red",
+      "fun",
+      "far",
+      "tall"
+    ],
+    "answer_index": 2,
+    "explain_key": "near_far",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "slide"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_find_antonyms_in_context_0100",
+    "family_id": "fam_find_antonyms_in_context",
+    "skill_id": "roots_find_antonyms_in_context",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The tree looks \"far\" on the hill.",
+    "choices": [
+      "green",
+      "tall",
+      "old",
+      "near"
+    ],
+    "answer_index": 3,
+    "explain_key": "near_far",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  }
+]

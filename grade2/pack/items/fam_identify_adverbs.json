@@ -1,0 +1,2235 @@
+[
+  {
+    "item_id": "roots_identify_adverbs_0001",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog ate lunch slowly.",
+    "choices": [
+      "dog",
+      "ate",
+      "lunch",
+      "slowly"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0002",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kids play ball quietly.",
+    "choices": [
+      "kids",
+      "play",
+      "ball",
+      "quietly"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0003",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The school bus came early.",
+    "choices": [
+      "school",
+      "bus",
+      "came",
+      "early"
+    ],
+    "answer_index": 3,
+    "explain_key": "time_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0004",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My little puppy always rests.",
+    "choices": [
+      "little",
+      "puppy",
+      "always",
+      "rests"
+    ],
+    "answer_index": 2,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0005",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He never ate hot lunch.",
+    "choices": [
+      "never",
+      "ate",
+      "hot",
+      "lunch"
+    ],
+    "answer_index": 0,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0006",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cold wind blew hard.",
+    "choices": [
+      "cold",
+      "wind",
+      "blew",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0007",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The slow turtle moves slowly.",
+    "choices": [
+      "slow",
+      "turtle",
+      "moves",
+      "slowly"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0008",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is a really nice friend.",
+    "choices": [
+      "is",
+      "really",
+      "nice",
+      "friend"
+    ],
+    "answer_index": 1,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_adverbs_0009",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat runs quickly.",
+    "choices": [
+      "quickly",
+      "cat",
+      "runs",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0010",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We eat breakfast early.",
+    "choices": [
+      "We",
+      "eat",
+      "breakfast",
+      "early"
+    ],
+    "answer_index": 3,
+    "explain_key": "time_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "breakfast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0011",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bird sings softly.",
+    "choices": [
+      "bird",
+      "softly",
+      "sings",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0012",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The frog jumps quickly.",
+    "choices": [
+      "quickly",
+      "frog",
+      "jumps",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0013",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My kitten purrs softly.",
+    "choices": [
+      "kitten",
+      "purrs",
+      "softly",
+      "My"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0014",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bus left early.",
+    "choices": [
+      "bus",
+      "left",
+      "early",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "time_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0015",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kite flew quickly.",
+    "choices": [
+      "kite",
+      "flew",
+      "quickly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0016",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bee buzzes loudly.",
+    "choices": [
+      "bee",
+      "buzzes",
+      "loudly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bee"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0017",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Rain drops fall softly.",
+    "choices": [
+      "Rain",
+      "drops",
+      "fall",
+      "softly"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0018",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We pack lunch quickly.",
+    "choices": [
+      "We",
+      "pack",
+      "lunch",
+      "quickly"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0019",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The train came early.",
+    "choices": [
+      "train",
+      "came",
+      "early",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "time_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0020",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My rabbit hops quickly.",
+    "choices": [
+      "hops",
+      "quickly",
+      "rabbit",
+      "My"
+    ],
+    "answer_index": 1,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0021",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kids laugh loudly.",
+    "choices": [
+      "kids",
+      "laugh",
+      "loudly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0022",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We play games quietly.",
+    "choices": [
+      "We",
+      "play",
+      "games",
+      "quietly"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "games"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0023",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She walks the path slowly.",
+    "choices": [
+      "She",
+      "walks",
+      "path",
+      "slowly"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0024",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rain fell softly.",
+    "choices": [
+      "rain",
+      "fell",
+      "softly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0025",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I brush teeth carefully.",
+    "choices": [
+      "I",
+      "brush",
+      "teeth",
+      "carefully"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0026",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The sun rose early.",
+    "choices": [
+      "sun",
+      "rose",
+      "early",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "time_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0027",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy reads quietly.",
+    "choices": [
+      "boy",
+      "reads",
+      "quietly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0028",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My gradma bakes cookies happily.",
+    "choices": [
+      "My",
+      "gradma",
+      "cookies",
+      "happily"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookies"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0029",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We left school early.",
+    "choices": [
+      "We",
+      "left",
+      "school",
+      "early"
+    ],
+    "answer_index": 3,
+    "explain_key": "time_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0030",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cow eats slowly.",
+    "choices": [
+      "cow",
+      "eats",
+      "slowly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0031",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bell rang loudly.",
+    "choices": [
+      "bell",
+      "rang",
+      "loudly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0032",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Dad drives the van carefully.",
+    "choices": [
+      "Dad",
+      "drives",
+      "van",
+      "carefully"
+    ],
+    "answer_index": 3,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "van"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0033",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl calls softly.",
+    "choices": [
+      "owl",
+      "calls",
+      "softly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0034",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The clock rang early.",
+    "choices": [
+      "clock",
+      "rang",
+      "early",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "time_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0035",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pig eats loudly.",
+    "choices": [
+      "pig",
+      "eats",
+      "loudly",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "ly_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0036",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We often walk to school.",
+    "choices": [
+      "often",
+      "We",
+      "walk",
+      "school"
+    ],
+    "answer_index": 0,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0037",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She always feeds her cat.",
+    "choices": [
+      "She",
+      "always",
+      "feeds",
+      "cat"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0038",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They never skip recess.",
+    "choices": [
+      "They",
+      "never",
+      "skip",
+      "recess"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0039",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I often help my mom.",
+    "choices": [
+      "I",
+      "often",
+      "help",
+      "mom"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0040",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He always picks his toys.",
+    "choices": [
+      "He",
+      "always",
+      "picks",
+      "toys"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toys"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0041",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We sometimes eat soup.",
+    "choices": [
+      "We",
+      "sometimes",
+      "eat",
+      "soup"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0042",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hot sun shines hard.",
+    "choices": [
+      "hot",
+      "sun",
+      "hard",
+      "shines"
+    ],
+    "answer_index": 2,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0043",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The big rock fell hard.",
+    "choices": [
+      "big",
+      "rock",
+      "fell",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0044",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She can swim well.",
+    "choices": [
+      "She",
+      "can",
+      "swim",
+      "well"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0045",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy runs fast.",
+    "choices": [
+      "The",
+      "boy",
+      "runs",
+      "fast"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0046",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kind nurse helps well.",
+    "choices": [
+      "kind",
+      "nurse",
+      "helps",
+      "well"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nurse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0047",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We never miss story time.",
+    "choices": [
+      "We",
+      "never",
+      "miss",
+      "story"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0048",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Mom always makes warm soup.",
+    "choices": [
+      "Mom",
+      "always",
+      "makes",
+      "warm"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0049",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I often read at night.",
+    "choices": [
+      "I",
+      "often",
+      "read",
+      "night"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0050",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wet dog shakes hard.",
+    "choices": [
+      "wet",
+      "dog",
+      "shakes",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0051",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She never lost her mitten.",
+    "choices": [
+      "She",
+      "never",
+      "lost",
+      "mitten"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0052",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We often play in snow.",
+    "choices": [
+      "We",
+      "often",
+      "play",
+      "snow"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0053",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The strong wind blew hard.",
+    "choices": [
+      "strong",
+      "wind",
+      "blew",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0054",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He always ties his shoes.",
+    "choices": [
+      "He",
+      "always",
+      "ties",
+      "shoes"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoes"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0055",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They sometimes share a snack.",
+    "choices": [
+      "They",
+      "sometimes",
+      "share",
+      "snack"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0056",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The red kite flies well.",
+    "choices": [
+      "red",
+      "kite",
+      "flies",
+      "well"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0057",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I never lose my lunch.",
+    "choices": [
+      "I",
+      "never",
+      "lose",
+      "lunch"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0058",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We often sit on bench.",
+    "choices": [
+      "We",
+      "often",
+      "sit",
+      "bench"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0059",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tall boy jumps well.",
+    "choices": [
+      "tall",
+      "boy",
+      "jumps",
+      "well"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0060",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She always sings in class.",
+    "choices": [
+      "She",
+      "always",
+      "sings",
+      "class"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0061",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The old gate shuts hard.",
+    "choices": [
+      "old",
+      "gate",
+      "shuts",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0062",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We sometimes walk our dog.",
+    "choices": [
+      "We",
+      "sometimes",
+      "walk",
+      "dog"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0063",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He often fixed his bike.",
+    "choices": [
+      "He",
+      "often",
+      "fixed",
+      "bike"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0064",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The thin ice broke hard.",
+    "choices": [
+      "thin",
+      "ice",
+      "broke",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0065",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I always wash my hands.",
+    "choices": [
+      "I",
+      "always",
+      "wash",
+      "hands"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0066",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They never run in hall.",
+    "choices": [
+      "They",
+      "never",
+      "run",
+      "hall"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0067",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The small boat sails well.",
+    "choices": [
+      "small",
+      "boat",
+      "sails",
+      "well"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0068",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We often rake the leaves.",
+    "choices": [
+      "We",
+      "often",
+      "rake",
+      "leaves"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0069",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She never spills her milk.",
+    "choices": [
+      "She",
+      "never",
+      "spills",
+      "milk"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0070",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The loud drum beats hard.",
+    "choices": [
+      "loud",
+      "drum",
+      "beats",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drum"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0071",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He sometimes helps his dad.",
+    "choices": [
+      "He",
+      "sometimes",
+      "helps",
+      "dad"
+    ],
+    "answer_index": 1,
+    "explain_key": "frequency_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0072",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The soft snow fell fast.",
+    "choices": [
+      "soft",
+      "snow",
+      "fell",
+      "fast"
+    ],
+    "answer_index": 3,
+    "explain_key": "manner_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0073",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The quiet mouse moves quietly.",
+    "choices": [
+      "quietly",
+      "quiet",
+      "mouse",
+      "moves"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0074",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "It is a very cold day.",
+    "choices": [
+      "It",
+      "is",
+      "very",
+      "cold"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0075",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The loud kids talk loudly.",
+    "choices": [
+      "loud",
+      "kids",
+      "talk",
+      "loudly"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0076",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> has a very neat desk.",
+    "choices": [
+      "has",
+      "very",
+      "neat",
+      "desk"
+    ],
+    "answer_index": 1,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_adverbs_0077",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The sad pup cried sadly.",
+    "choices": [
+      "sad",
+      "pup",
+      "cried",
+      "sadly"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0078",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "This is a really fun game.",
+    "choices": [
+      "This",
+      "is",
+      "really",
+      "fun"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0079",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The brave kid swam bravely.",
+    "choices": [
+      "brave",
+      "kid",
+      "swam",
+      "bravely"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0080",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The room feels very warm.",
+    "choices": [
+      "room",
+      "feels",
+      "very",
+      "warm"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0081",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kind girl smiled kindly.",
+    "choices": [
+      "kind",
+      "girl",
+      "smiled",
+      "kindly"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0082",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> ate a very big apple.",
+    "choices": [
+      "ate",
+      "very",
+      "big",
+      "apple"
+    ],
+    "answer_index": 1,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_adverbs_0083",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The proud team sang proudly.",
+    "choices": [
+      "proud",
+      "team",
+      "sang",
+      "proudly"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0084",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "It was a really wet morning.",
+    "choices": [
+      "It",
+      "was",
+      "really",
+      "wet"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0085",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The soft breeze blew gently.",
+    "choices": [
+      "soft",
+      "breeze",
+      "blew",
+      "gently"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0086",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We had a very long nap.",
+    "choices": [
+      "We",
+      "had",
+      "very",
+      "long"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0087",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The safe path leads safely.",
+    "choices": [
+      "safe",
+      "path",
+      "leads",
+      "safely"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0088",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is a very kind kid.",
+    "choices": [
+      "is",
+      "very",
+      "kind",
+      "kid"
+    ],
+    "answer_index": 1,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_adverbs_0089",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The happy baby laughed happily.",
+    "choices": [
+      "happy",
+      "baby",
+      "laughed",
+      "happily"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0090",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "That was a really hot oven.",
+    "choices": [
+      "That",
+      "was",
+      "really",
+      "hot"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "oven"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0091",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The nice teacher spoke nicely.",
+    "choices": [
+      "nice",
+      "teacher",
+      "spoke",
+      "nicely"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0092",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The soup is very tasty.",
+    "choices": [
+      "soup",
+      "is",
+      "very",
+      "tasty"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0093",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The quick fox ran quickly.",
+    "choices": [
+      "quick",
+      "fox",
+      "ran",
+      "quickly"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0094",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> wore a very red hat.",
+    "choices": [
+      "wore",
+      "very",
+      "red",
+      "hat"
+    ],
+    "answer_index": 1,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_adverbs_0095",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The soft pillow rests softly.",
+    "choices": [
+      "soft",
+      "pillow",
+      "rests",
+      "softly"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0096",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "It is really cold at recess.",
+    "choices": [
+      "It",
+      "is",
+      "really",
+      "cold"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0097",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The happy kid drew carefully.",
+    "choices": [
+      "happy",
+      "kid",
+      "drew",
+      "carefully"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_adverbs_0098",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We saw a very bright rainbow.",
+    "choices": [
+      "We",
+      "saw",
+      "very",
+      "bright"
+    ],
+    "answer_index": 2,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rainbow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0099",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The slow snail crawled slowly.",
+    "choices": [
+      "slow",
+      "snail",
+      "crawled",
+      "slowly"
+    ],
+    "answer_index": 3,
+    "explain_key": "adj_vs_adv",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_adverbs_0100",
+    "family_id": "fam_identify_adverbs",
+    "skill_id": "roots_identify_adverbs",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> made a really cool fort.",
+    "choices": [
+      "made",
+      "really",
+      "cool",
+      "fort"
+    ],
+    "answer_index": 1,
+    "explain_key": "degree_adverb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

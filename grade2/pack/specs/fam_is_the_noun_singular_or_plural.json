@@ -1,0 +1,300 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_is_the_noun_singular_or_plural",
+  "family_title_en": "Is the noun singular or plural?",
+  "item_type": "sort_two_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_is_the_noun_singular_or_plural",
+      "ix_title": "Is the noun singular or plural?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Is the noun singular or plural?",
+        "ko": "이 명사는 단수인가요, 복수인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap singular or plural.",
+        "ko": "단수 또는 복수를 누르세요."
+      },
+      "choices": [
+        "singular",
+        "plural"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "singular",
+        "plural",
+        "apples",
+        "babies",
+        "bags",
+        "balls",
+        "bikes",
+        "birds",
+        "boats",
+        "boxes",
+        "buses",
+        "cakes",
+        "cats",
+        "chairs",
+        "classes",
+        "coats",
+        "cows",
+        "cups",
+        "desks",
+        "dishes",
+        "dogs",
+        "dolls",
+        "doors",
+        "ducks",
+        "eggs",
+        "farms",
+        "flowers",
+        "hands",
+        "hats",
+        "hills",
+        "homes",
+        "horses",
+        "houses",
+        "jars",
+        "kites",
+        "lakes",
+        "lamps",
+        "lunches",
+        "nests",
+        "parks",
+        "pens",
+        "pigs",
+        "rocks",
+        "rooms",
+        "rugs",
+        "socks",
+        "stars",
+        "toys",
+        "trees",
+        "trucks"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_is_the_noun_singular_or_plural_0001",
+          "tier": 1,
+          "stem": "Cat",
+          "choices": [
+            "singular",
+            "plural"
+          ],
+          "answer_index": 0,
+          "explain_key": "singular",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_noun_singular_or_plural_0002",
+          "tier": 1,
+          "stem": "Books",
+          "choices": [
+            "singular",
+            "plural"
+          ],
+          "answer_index": 1,
+          "explain_key": "plural",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_noun_singular_or_plural_0003",
+          "tier": 1,
+          "stem": "One apple",
+          "choices": [
+            "singular",
+            "plural"
+          ],
+          "answer_index": 0,
+          "explain_key": "singular",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_noun_singular_or_plural_0004",
+          "tier": 2,
+          "stem": "Three cookies",
+          "choices": [
+            "singular",
+            "plural"
+          ],
+          "answer_index": 1,
+          "explain_key": "plural",
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_noun_singular_or_plural_0005",
+          "tier": 2,
+          "stem": "My little puppy",
+          "choices": [
+            "singular",
+            "plural"
+          ],
+          "answer_index": 0,
+          "explain_key": "singular",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_noun_singular_or_plural_0006",
+          "tier": 2,
+          "stem": "Two yellow frogs",
+          "choices": [
+            "singular",
+            "plural"
+          ],
+          "answer_index": 1,
+          "explain_key": "plural",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_noun_singular_or_plural_0007",
+          "tier": 3,
+          "stem": "Those little mice",
+          "choices": [
+            "singular",
+            "plural"
+          ],
+          "answer_index": 1,
+          "explain_key": "irregular_plural",
+          "media": [
+            {
+              "lemma": "mouse"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_the_noun_singular_or_plural_0008",
+          "tier": 3,
+          "stem": "One goose",
+          "choices": [
+            "singular",
+            "plural"
+          ],
+          "answer_index": 0,
+          "explain_key": "singular",
+          "media": [
+            {
+              "lemma": "goose"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep the two labels singular and plural. Never change them or their order.",
+      "Every stem is one noun or one short noun phrase with exactly one target noun.",
+      "Keep the finished pool near half singular and half plural.",
+      "The wrong tap is always the other bin. Never add a third label.",
+      "Tier 1 uses short regular nouns. Tier 2 uses two-syllable nouns or a number word. Tier 3 uses irregular plurals or same-form nouns with a number word.",
+      "Same-form nouns such as sheep need a number word. Never leave sheep or fish bare.",
+      "If <NAME> appears, it is not the noun to sort. The other word is the noun.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bquestion mark\\b",
+    "\\bpunctuation\\b",
+    "\\bnoun\\b",
+    "\\bmore than one\\b",
+    "\\byahoo\\b",
+    "\\bebay\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of one or two words. Regular nouns with a clear one-thing meaning or a regular s plural. Add a picture lemma for the noun.",
+    "2": "Grade-level stems of two to four words. Use two-syllable nouns, number words, or a short noun phrase from kid world.",
+    "3": "Near misses. Irregular plurals such as mice, feet, children, geese, teeth, or people, and same-form nouns such as sheep with a number word."
+  },
+  "miss_explain": {
+    "singular": {
+      "en": "A singular noun names one person, place, or thing.",
+      "ko": "단수 명사는 사람, 장소, 물건이 하나임을 나타냅니다."
+    },
+    "plural": {
+      "en": "A plural noun names more than one person, place, or thing.",
+      "ko": "복수 명사는 사람, 장소, 물건이 둘 이상임을 나타냅니다."
+    },
+    "irregular_plural": {
+      "en": "Some plural nouns do not add s. This word already names more than one.",
+      "ko": "어떤 복수 명사는 s를 붙이지 않습니다. 이 말은 이미 둘 이상을 뜻합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Is the noun singular or plural?"
+    ],
+    "no_ixl_text": true
+  }
+}

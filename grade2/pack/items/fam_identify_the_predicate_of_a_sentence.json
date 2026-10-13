@@ -1,0 +1,2322 @@
+[
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0001",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The big dog barks.",
+    "choices": [
+      "The big dog",
+      "barks",
+      "The",
+      "dog"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_subject",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0002",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat sat down.",
+    "choices": [
+      "sat down",
+      "The cat",
+      "down",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0003",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cake is sweet.",
+    "choices": [
+      "The cake",
+      "cake",
+      "is sweet",
+      "The"
+    ],
+    "answer_index": 2,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0004",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The little puppy ran home fast.",
+    "choices": [
+      "The little",
+      "ran home fast",
+      "home",
+      "The little puppy"
+    ],
+    "answer_index": 1,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0005",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> ate cookies after school today.",
+    "choices": [
+      "ate cookies after school today",
+      "<NAME>",
+      "after school today",
+      "cookies"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookies"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0006",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The happy kids play in the yard.",
+    "choices": [
+      "The happy kids",
+      "in the yard",
+      "yard",
+      "play in the yard"
+    ],
+    "answer_index": 3,
+    "explain_key": "leftover_phrase",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kids"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0007",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My hungry sister drank cold milk at dinner.",
+    "choices": [
+      "drank cold milk",
+      "My hungry sister",
+      "drank cold milk at dinner",
+      "at dinner"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0008",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> put the red book on the desk today.",
+    "choices": [
+      "the red book",
+      "put the red book on the desk today",
+      "on the desk today",
+      "<NAME>"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0009",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The warm sun shines.",
+    "choices": [
+      "shines",
+      "The warm sun",
+      "sun",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0010",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My pet cat purrs.",
+    "choices": [
+      "purrs",
+      "My pet cat",
+      "cat",
+      "My"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0011",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The milk is cold.",
+    "choices": [
+      "The milk",
+      "is cold",
+      "milk",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0012",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The wet duck swims.",
+    "choices": [
+      "swims",
+      "The wet duck",
+      "duck",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0013",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The soft rug is cozy.",
+    "choices": [
+      "The soft rug",
+      "is cozy",
+      "rug",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0014",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The gray frog jumped.",
+    "choices": [
+      "jumped",
+      "The gray frog",
+      "frog",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0015",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My grandma baked bread.",
+    "choices": [
+      "baked bread",
+      "My grandma",
+      "bread",
+      "My"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0016",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kite is red.",
+    "choices": [
+      "The kite",
+      "is red",
+      "kite",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0017",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy kicks ball.",
+    "choices": [
+      "kicks ball",
+      "The boy",
+      "ball",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0018",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The moon is bright.",
+    "choices": [
+      "The moon",
+      "is bright",
+      "moon",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0019",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My sister ate lunch.",
+    "choices": [
+      "ate lunch",
+      "My sister",
+      "lunch",
+      "My"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0020",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The snow is white.",
+    "choices": [
+      "The snow",
+      "is white",
+      "snow",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0021",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The tall tree grew.",
+    "choices": [
+      "grew",
+      "The tall tree",
+      "tree",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0022",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The red bus ran fast.",
+    "choices": [
+      "ran fast",
+      "The red bus",
+      "bus",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0023",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The soup feels hot.",
+    "choices": [
+      "feels hot",
+      "The soup",
+      "hot",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0024",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The small baby rests.",
+    "choices": [
+      "rests",
+      "The small baby",
+      "baby",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0025",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The red hen ran fast.",
+    "choices": [
+      "ran fast",
+      "The red hen",
+      "hen",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0026",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ice melts fast.",
+    "choices": [
+      "melts fast",
+      "The ice",
+      "ice",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0027",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The room is tidy.",
+    "choices": [
+      "The room",
+      "is tidy",
+      "room",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0028",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boat floats by.",
+    "choices": [
+      "floats by",
+      "The boat",
+      "boat",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0029",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My brother read books.",
+    "choices": [
+      "read books",
+      "My brother",
+      "books",
+      "My"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "books"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0030",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cold hail fell hard.",
+    "choices": [
+      "fell hard",
+      "The cold hail",
+      "hail",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0031",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The sky is gray.",
+    "choices": [
+      "The sky",
+      "is gray",
+      "sky",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0032",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The brown horse ran fast.",
+    "choices": [
+      "ran fast",
+      "The brown horse",
+      "horse",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0033",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pig rolls mud.",
+    "choices": [
+      "rolls mud",
+      "The pig",
+      "mud",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0034",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The corn is sweet.",
+    "choices": [
+      "The corn",
+      "is sweet",
+      "corn",
+      "The"
+    ],
+    "answer_index": 1,
+    "explain_key": "linking_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0035",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The man speaks loud.",
+    "choices": [
+      "speaks loud",
+      "The man",
+      "man",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0036",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat climbs up.",
+    "choices": [
+      "climbs up",
+      "The cat",
+      "cat",
+      "The"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0037",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The small kitten climbs the tree.",
+    "choices": [
+      "climbs the tree",
+      "The small kitten",
+      "the tree",
+      "tree"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0038",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The yellow bus rolled down hill.",
+    "choices": [
+      "rolled down hill",
+      "The yellow bus",
+      "down hill",
+      "hill"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0039",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tired children sat on bench.",
+    "choices": [
+      "sat on bench",
+      "The tired children",
+      "on bench",
+      "bench"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "children"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0040",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The old turtle moves very slowly.",
+    "choices": [
+      "moves very slowly",
+      "The old turtle",
+      "very slowly",
+      "turtle"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0041",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our happy family ate at home.",
+    "choices": [
+      "ate at home",
+      "Our happy family",
+      "at home",
+      "home"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "family"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0042",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The loud thunder scares my puppy.",
+    "choices": [
+      "scares my puppy",
+      "The loud thunder",
+      "my puppy",
+      "puppy"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0043",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The green frog jumped in water.",
+    "choices": [
+      "jumped in water",
+      "The green frog",
+      "in water",
+      "water"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0044",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The fresh bread smells so good.",
+    "choices": [
+      "smells so good",
+      "The fresh bread",
+      "so good",
+      "bread"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0045",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The little mouse hid under bed.",
+    "choices": [
+      "hid under bed",
+      "The little mouse",
+      "under bed",
+      "bed"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0046",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The big truck drove down road.",
+    "choices": [
+      "drove down road",
+      "The big truck",
+      "down road",
+      "road"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0047",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The white sheep rests in shade.",
+    "choices": [
+      "rests in shade",
+      "The white sheep",
+      "in shade",
+      "shade"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0048",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wet dog rolled in mud.",
+    "choices": [
+      "rolled in mud",
+      "The wet dog",
+      "in mud",
+      "mud"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0049",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bright star shines at night.",
+    "choices": [
+      "shines at night",
+      "The bright star",
+      "at night",
+      "night"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0050",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The clean sock sat on bed.",
+    "choices": [
+      "sat on bed",
+      "The clean sock",
+      "on bed",
+      "bed"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0051",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The slow snail hid in shells.",
+    "choices": [
+      "hid in shells",
+      "The slow snail",
+      "in shells",
+      "shells"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0052",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The pink flower grew by fence.",
+    "choices": [
+      "grew by fence",
+      "The pink flower",
+      "by fence",
+      "fence"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0053",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wet rain fell on roof.",
+    "choices": [
+      "fell on roof",
+      "The wet rain",
+      "on roof",
+      "roof"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0054",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The young students sat in line.",
+    "choices": [
+      "sat in line",
+      "The young students",
+      "in line",
+      "line"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "students"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0055",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The soft blanket covers my bed.",
+    "choices": [
+      "covers my bed",
+      "The soft blanket",
+      "my bed",
+      "blanket"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0056",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The gray cloud blocks the sun.",
+    "choices": [
+      "blocks the sun",
+      "The gray cloud",
+      "the sun",
+      "cloud"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0057",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kind nurse will help the kid.",
+    "choices": [
+      "will help the kid",
+      "The kind nurse",
+      "the kid",
+      "kid"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nurse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0058",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The red bird sang on fence.",
+    "choices": [
+      "sang on fence",
+      "The red bird",
+      "on fence",
+      "fence"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0059",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The brown bear rests in cave.",
+    "choices": [
+      "rests in cave",
+      "The brown bear",
+      "in cave",
+      "cave"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0060",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The quick fox ran through field.",
+    "choices": [
+      "ran through field",
+      "The quick fox",
+      "through field",
+      "field"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0061",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sweet grape tastes very good.",
+    "choices": [
+      "tastes very good",
+      "The sweet grape",
+      "very good",
+      "grape"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0062",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The heavy snow covers the yard.",
+    "choices": [
+      "covers the yard",
+      "The heavy snow",
+      "the yard",
+      "yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0063",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> likes cookies after school today.",
+    "choices": [
+      "likes cookies after school today",
+      "<NAME>",
+      "after school today",
+      "cookies"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0064",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> plays ball in the yard.",
+    "choices": [
+      "plays ball in the yard",
+      "<NAME>",
+      "in the yard",
+      "yard"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0065",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The muddy boots sat by door.",
+    "choices": [
+      "sat by door",
+      "The muddy boots",
+      "by door",
+      "door"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boots"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0066",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tall corn grew in field.",
+    "choices": [
+      "grew in field",
+      "The tall corn",
+      "in field",
+      "field"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0067",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My little sister kicks ball outside today.",
+    "choices": [
+      "kicks ball outside today",
+      "My little sister",
+      "outside today",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0068",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The black ant took food to nest.",
+    "choices": [
+      "took food to nest",
+      "The black ant",
+      "to nest",
+      "nest"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0069",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The happy kids sang in the hall.",
+    "choices": [
+      "The happy kids",
+      "in the hall",
+      "hall",
+      "sang in the hall"
+    ],
+    "answer_index": 3,
+    "explain_key": "leftover_phrase",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0070",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The old cat licks milk from bowl.",
+    "choices": [
+      "licks milk from bowl",
+      "The old cat",
+      "from bowl",
+      "bowl"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0071",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The old van drove past our house.",
+    "choices": [
+      "drove past our house",
+      "The old van",
+      "past our house",
+      "house"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "van"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0072",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tiny bug spins round the flower.",
+    "choices": [
+      "spins round the flower",
+      "The tiny bug",
+      "the flower",
+      "flower"
+    ],
+    "answer_index": 0,
+    "explain_key": "action_all",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0073",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The small brown hen ate corn at breakfast.",
+    "choices": [
+      "ate corn",
+      "The small brown hen",
+      "ate corn at breakfast",
+      "at breakfast"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0074",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My best friend shared lunch at school today.",
+    "choices": [
+      "shared lunch at school today",
+      "My best friend",
+      "at school today",
+      "lunch"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0075",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The tired puppy rolled on the soft couch.",
+    "choices": [
+      "rolled on the soft couch",
+      "The tired puppy",
+      "on the soft couch",
+      "couch"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0076",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kind teacher read books to the class.",
+    "choices": [
+      "read books to the class",
+      "The kind teacher",
+      "to the class",
+      "books"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0077",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cold winter wind blew leaves off road.",
+    "choices": [
+      "blew leaves off road",
+      "The cold winter wind",
+      "leaves off road",
+      "road"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0078",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The hungry baby drank warm milk at bedtime.",
+    "choices": [
+      "drank warm milk at bedtime",
+      "The hungry baby",
+      "at bedtime",
+      "milk"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0079",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The blue bird sat on the fence post.",
+    "choices": [
+      "sat on the fence post",
+      "The blue bird",
+      "on the fence post",
+      "fence"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0080",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The old bench sat near the pond today.",
+    "choices": [
+      "sat near the pond today",
+      "The old bench",
+      "near the pond today",
+      "pond"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0081",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bright orange cat hid mice in barn.",
+    "choices": [
+      "hid mice in barn",
+      "The bright orange cat",
+      "mice in barn",
+      "barn"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0082",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wet dog rolled water on the floor.",
+    "choices": [
+      "rolled water on the floor",
+      "The wet dog",
+      "water on the floor",
+      "floor"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0083",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The happy class sang a song after lunch today.",
+    "choices": [
+      "sang a song after lunch today",
+      "The happy class",
+      "after lunch today",
+      "song"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0084",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The little girl drew flower by the path.",
+    "choices": [
+      "drew flower by the path",
+      "The little girl",
+      "by the path",
+      "flower"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0085",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The strong wind blew hat off our head.",
+    "choices": [
+      "blew hat off our head",
+      "The strong wind",
+      "hat off our head",
+      "hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0086",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The brown horse ate hay in the barn.",
+    "choices": [
+      "ate hay",
+      "The brown horse",
+      "ate hay in the barn",
+      "in the barn"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0087",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The quiet mouse hid cheese on the shelf.",
+    "choices": [
+      "hid cheese on the shelf",
+      "The quiet mouse",
+      "cheese on the shelf",
+      "cheese"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0088",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The red truck rolled down our street today.",
+    "choices": [
+      "rolled down our street today",
+      "The red truck",
+      "down our street today",
+      "street"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0089",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fluffy chick ate seed in the yard.",
+    "choices": [
+      "ate seed in the yard",
+      "The fluffy chick",
+      "seed in the yard",
+      "chick"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0090",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The big snow fell on our school today.",
+    "choices": [
+      "fell on our school today",
+      "The big snow",
+      "on our school today",
+      "school"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0091",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The warm rain fell on the garden today.",
+    "choices": [
+      "fell on the garden today",
+      "The warm rain",
+      "on the garden today",
+      "garden"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0092",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The lost mitten turned up under the bed.",
+    "choices": [
+      "turned up under the bed",
+      "The lost mitten",
+      "up under the bed",
+      "mitten"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0093",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> ate hot soup before nap time today.",
+    "choices": [
+      "ate hot soup before nap time today",
+      "<NAME>",
+      "before nap time today",
+      "soup"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0094",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> built a tall block fort after school.",
+    "choices": [
+      "built a tall block fort after school",
+      "<NAME>",
+      "a tall block fort",
+      "fort"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0095",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The orange cat rests under a big tree.",
+    "choices": [
+      "rests under a big tree",
+      "The orange cat",
+      "under a big tree",
+      "tree"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0096",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fresh bread smells sweet in the kitchen.",
+    "choices": [
+      "smells sweet in the kitchen",
+      "The fresh bread",
+      "sweet in the kitchen",
+      "bread"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0097",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The young bird tried to fly above lake.",
+    "choices": [
+      "tried to fly above lake",
+      "The young bird",
+      "to fly above lake",
+      "lake"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0098",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The broken toy truck rolled under the table.",
+    "choices": [
+      "rolled under the table",
+      "The broken toy truck",
+      "under the table",
+      "toy"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0099",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The ripe grape hung heavy on the vine.",
+    "choices": [
+      "hung heavy on the vine",
+      "The ripe grape",
+      "heavy on the vine",
+      "grape"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_the_predicate_of_a_sentence_0100",
+    "family_id": "fam_identify_the_predicate_of_a_sentence",
+    "skill_id": "roots_identify_the_predicate_of_a_sentence",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The tired kids sat in tent by creek.",
+    "choices": [
+      "sat in tent by creek",
+      "The tired kids",
+      "in tent by creek",
+      "creek"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_partial",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

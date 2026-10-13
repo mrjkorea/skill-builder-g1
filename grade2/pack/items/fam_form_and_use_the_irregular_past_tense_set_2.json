@@ -1,0 +1,2495 @@
+[
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0001",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they draw pictures.",
+    "choices": [
+      "drew",
+      "draw",
+      "drawed",
+      "drawn"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "picture"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0002",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they fly home.",
+    "choices": [
+      "fly",
+      "flied",
+      "flew",
+      "flown"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0003",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they write a letter.",
+    "choices": [
+      "write",
+      "wrote",
+      "writed",
+      "written"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "letter"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0004",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they blow bubbles.",
+    "choices": [
+      "blow",
+      "blowed",
+      "blown",
+      "blew"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bubbles"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0005",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can drink cold milk.",
+    "choices": [
+      "drink",
+      "drank",
+      "drinked",
+      "drunk"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0006",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now the cup can break on the floor.",
+    "choices": [
+      "broke",
+      "break",
+      "breaked",
+      "broken"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0007",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can give a gift at home.",
+    "choices": [
+      "given",
+      "give",
+      "gave",
+      "gived"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0008",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can begin the game after lunch.",
+    "choices": [
+      "begin",
+      "begun",
+      "beginned",
+      "began"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0009",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they take the bus.",
+    "choices": [
+      "took",
+      "take",
+      "taked",
+      "taken"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0010",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they speak at school.",
+    "choices": [
+      "speak",
+      "spoke",
+      "speaked",
+      "spoken"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0011",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now plants grow in sun.",
+    "choices": [
+      "grow",
+      "growed",
+      "grew",
+      "grown"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0012",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they drive the car.",
+    "choices": [
+      "drive",
+      "drived",
+      "driven",
+      "drove"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0013",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they ride bikes.",
+    "choices": [
+      "rode",
+      "ride",
+      "rided",
+      "ridden"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0014",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they sing a song.",
+    "choices": [
+      "sing",
+      "sang",
+      "sanged",
+      "sung"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0015",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now leaves fall down.",
+    "choices": [
+      "fall",
+      "falled",
+      "fell",
+      "fallen"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0016",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they find a toy.",
+    "choices": [
+      "found",
+      "find",
+      "finded",
+      "fell"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0017",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they hear a bell.",
+    "choices": [
+      "hear",
+      "heard",
+      "heared",
+      "hid"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0018",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they tell a story.",
+    "choices": [
+      "tell",
+      "telled",
+      "told",
+      "took"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0019",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they wear warm hats.",
+    "choices": [
+      "wear",
+      "weared",
+      "worn",
+      "wore"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0020",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they wake at dawn.",
+    "choices": [
+      "woke",
+      "wake",
+      "waked",
+      "woken"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dawn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0021",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they win the race.",
+    "choices": [
+      "win",
+      "won",
+      "winned",
+      "woke"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "race"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0022",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now cats hide under beds.",
+    "choices": [
+      "hide",
+      "hided",
+      "hid",
+      "hidden"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0023",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they leave for school.",
+    "choices": [
+      "leave",
+      "leaved",
+      "kept",
+      "left"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0024",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they keep the pet.",
+    "choices": [
+      "kept",
+      "keep",
+      "keeped",
+      "left"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pet"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0025",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they feel the rain.",
+    "choices": [
+      "feel",
+      "felt",
+      "feeled",
+      "fell"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0026",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they build a fort.",
+    "choices": [
+      "build",
+      "builded",
+      "built",
+      "broke"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0027",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they choose red apples.",
+    "choices": [
+      "choose",
+      "choosed",
+      "chosen",
+      "chose"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0028",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now puddles freeze at night.",
+    "choices": [
+      "froze",
+      "freeze",
+      "freezed",
+      "frozen"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puddle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0029",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they stand in line.",
+    "choices": [
+      "stand",
+      "stood",
+      "standed",
+      "sat"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "line"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0030",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now dogs dig in dirt.",
+    "choices": [
+      "dig",
+      "digged",
+      "dug",
+      "hid"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0031",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now coats hang on hooks.",
+    "choices": [
+      "hang",
+      "hunged",
+      "hid",
+      "hung"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0032",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they know the answer.",
+    "choices": [
+      "knew",
+      "know",
+      "knowed",
+      "known"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "answer"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0033",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they throw the ball.",
+    "choices": [
+      "throw",
+      "threw",
+      "throwed",
+      "thrown"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0034",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they fly a kite.",
+    "choices": [
+      "fly",
+      "flied",
+      "flew",
+      "flown"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0035",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Now they write on paper.",
+    "choices": [
+      "write",
+      "writed",
+      "written",
+      "wrote"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paper"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0036",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can take a snack from home.",
+    "choices": [
+      "take",
+      "took",
+      "taked",
+      "taken"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0037",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now the class speaks after recess ends.",
+    "choices": [
+      "spoken",
+      "speak",
+      "spoke",
+      "speaked"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0038",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now flowers grow in the garden bed.",
+    "choices": [
+      "grew",
+      "grow",
+      "growed",
+      "grown"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0039",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can drive a toy truck outside.",
+    "choices": [
+      "drived",
+      "drive",
+      "drove",
+      "driven"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0040",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now kids ride horses at the farm.",
+    "choices": [
+      "ride",
+      "rode",
+      "rided",
+      "ridden"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0041",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now birds sing in the morning trees.",
+    "choices": [
+      "sang",
+      "sing",
+      "sanged",
+      "sung"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0042",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now soft snow falls on the quiet yard.",
+    "choices": [
+      "fall",
+      "falled",
+      "fallen",
+      "fell"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0043",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can find a lost mitten at school.",
+    "choices": [
+      "find",
+      "found",
+      "finded",
+      "fell"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0044",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they hear thunder on a rainy day.",
+    "choices": [
+      "heard",
+      "hear",
+      "heared",
+      "hidden"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thunder"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0045",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can tell a joke at dinner.",
+    "choices": [
+      "told",
+      "tell",
+      "telled",
+      "took"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "joke"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0046",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they wear boots in muddy puddles.",
+    "choices": [
+      "worn",
+      "wear",
+      "wore",
+      "weared"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0047",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can wake up before the school bus.",
+    "choices": [
+      "wake",
+      "woke",
+      "waked",
+      "woken"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0048",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now the team wins games on sunny days.",
+    "choices": [
+      "win",
+      "won",
+      "winned",
+      "wore"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0049",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now the puppy hides behind the big couch.",
+    "choices": [
+      "hidden",
+      "hide",
+      "hid",
+      "hided"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0050",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can leave books on the desk.",
+    "choices": [
+      "left",
+      "leave",
+      "leaved",
+      "kept"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0051",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they keep toys in a blue box.",
+    "choices": [
+      "keep",
+      "kept",
+      "keeped",
+      "built"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0052",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can feel soft fur on the cat.",
+    "choices": [
+      "felt",
+      "feel",
+      "feeled",
+      "fell"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0053",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they build a tower with blocks.",
+    "choices": [
+      "built",
+      "build",
+      "builded",
+      "broke"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0054",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can choose a cookie after lunch.",
+    "choices": [
+      "chosen",
+      "choose",
+      "chose",
+      "choosed"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0055",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now ice cubes freeze in the cold freezer.",
+    "choices": [
+      "freeze",
+      "froze",
+      "freezed",
+      "frozen"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0056",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now kids stand near the door at school.",
+    "choices": [
+      "stood",
+      "stand",
+      "standed",
+      "sat"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0057",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can dig a hole in the sand.",
+    "choices": [
+      "dug",
+      "dig",
+      "digged",
+      "hid"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0058",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now wet towels hang on the bathroom rack.",
+    "choices": [
+      "hung",
+      "hang",
+      "hunged",
+      "hided"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "towel"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0059",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can know the way to the library.",
+    "choices": [
+      "know",
+      "knew",
+      "knowed",
+      "known"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0060",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they throw rocks in the park.",
+    "choices": [
+      "threw",
+      "throw",
+      "throwed",
+      "thrown"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0061",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they blow out candles on the cake.",
+    "choices": [
+      "blew",
+      "blow",
+      "blowed",
+      "blown"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0062",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can drink juice at the picnic.",
+    "choices": [
+      "drank",
+      "drink",
+      "drinked",
+      "drunk"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0063",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now the plate can break if it drops.",
+    "choices": [
+      "break",
+      "broke",
+      "breaked",
+      "broken"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0064",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they draw stars on the chalkboard.",
+    "choices": [
+      "draw",
+      "drew",
+      "drawed",
+      "drawn"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0065",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can write a name on the card.",
+    "choices": [
+      "written",
+      "write",
+      "wrote",
+      "writed"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0066",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now they give food to the hungry dog.",
+    "choices": [
+      "give",
+      "gave",
+      "gived",
+      "given"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0067",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can begin art class after math.",
+    "choices": [
+      "began",
+      "begin",
+      "beginned",
+      "begun"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "art"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0068",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now bees fly from flower to flower.",
+    "choices": [
+      "flown",
+      "fly",
+      "flew",
+      "flied"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bee"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0069",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can grow tall plants on the porch.",
+    "choices": [
+      "grown",
+      "grow",
+      "grew",
+      "growed"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0070",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now dad drives us home after the game.",
+    "choices": [
+      "drove",
+      "drive",
+      "drived",
+      "driven"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0071",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can sing loud at the school show.",
+    "choices": [
+      "sing",
+      "sang",
+      "sanged",
+      "sung"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "show"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0072",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Now apples fall from the old backyard tree.",
+    "choices": [
+      "fell",
+      "fall",
+      "falled",
+      "fallen"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0073",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can take the ball from home.",
+    "choices": [
+      "taken",
+      "take",
+      "took",
+      "taked"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0074",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now kids speak kind words at lunch.",
+    "choices": [
+      "speak",
+      "spoken",
+      "spoke",
+      "speaked"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0075",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now seeds grow tall by the fence at home.",
+    "choices": [
+      "grow",
+      "growed",
+      "grown",
+      "grew"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0076",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can drive down the quiet street.",
+    "choices": [
+      "driven",
+      "drive",
+      "drove",
+      "drived"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "street"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0077",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now we ride bikes on the warm path.",
+    "choices": [
+      "ridden",
+      "ride",
+      "rode",
+      "rided"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0078",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now kids sing a happy song at school.",
+    "choices": [
+      "sung",
+      "sing",
+      "sanged",
+      "sang"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0079",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can fall asleep on the couch.",
+    "choices": [
+      "fallen",
+      "fall",
+      "falled",
+      "fell"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "couch"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0080",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now they find coins under the sofa at home.",
+    "choices": [
+      "find",
+      "found",
+      "finded",
+      "fell"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0081",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can hear rain on the roof at night.",
+    "choices": [
+      "heared",
+      "hear",
+      "heard",
+      "hidden"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "roof"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0082",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now gradma tells a funny story at bedtime.",
+    "choices": [
+      "telled",
+      "tell",
+      "told",
+      "took"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0083",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can wear a coat on a rainy day.",
+    "choices": [
+      "worn",
+      "wear",
+      "weared",
+      "wore"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0084",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now the hen wakes the farm early at dawn.",
+    "choices": [
+      "woken",
+      "wake",
+      "woke",
+      "waked"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0085",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can win the race at school.",
+    "choices": [
+      "winned",
+      "win",
+      "won",
+      "woke"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "race"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0086",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now the cat hides in the closet at home.",
+    "choices": [
+      "hidden",
+      "hide",
+      "hided",
+      "hid"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0087",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can leave a note on the table.",
+    "choices": [
+      "leaved",
+      "leave",
+      "left",
+      "kept"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0088",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now they keep quiet in the library at school.",
+    "choices": [
+      "keeped",
+      "keep",
+      "kept",
+      "left"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0089",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can feel happy after the long test.",
+    "choices": [
+      "feeled",
+      "feel",
+      "felt",
+      "fell"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "test"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0090",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now kids build a snow fort in the cold yard.",
+    "choices": [
+      "builded",
+      "build",
+      "built",
+      "broke"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0091",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can choose a blue cup for milk.",
+    "choices": [
+      "chosen",
+      "choose",
+      "choosed",
+      "chose"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0092",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now puddles freeze hard on the path in wind.",
+    "choices": [
+      "frozen",
+      "freeze",
+      "freezed",
+      "froze"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puddle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0093",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now students stand still for a photo at school.",
+    "choices": [
+      "standed",
+      "stand",
+      "stood",
+      "sat"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_other",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "photo"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0094",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can dig for worms in the garden.",
+    "choices": [
+      "digged",
+      "dig",
+      "dug",
+      "hid"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "worm"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0095",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now wet mittens hang on the line after snow.",
+    "choices": [
+      "hunged",
+      "hang",
+      "hung",
+      "hided"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0096",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can know the rules before the game.",
+    "choices": [
+      "known",
+      "know",
+      "knowed",
+      "knew"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0097",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now they throw rocks into the pond at the park.",
+    "choices": [
+      "throwed",
+      "throw",
+      "threw",
+      "thrown"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pond"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0098",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can blow seeds in the sunny yard.",
+    "choices": [
+      "blown",
+      "blow",
+      "blew",
+      "blowed"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0099",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now the baby can drink warm milk before nap.",
+    "choices": [
+      "drunk",
+      "drink",
+      "drank",
+      "drinked"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0100",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Now <NAME> can break thin ice on the puddle.",
+    "choices": [
+      "broken",
+      "break",
+      "broke",
+      "breaked"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

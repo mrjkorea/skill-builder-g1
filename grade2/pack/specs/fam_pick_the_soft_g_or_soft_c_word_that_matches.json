@@ -1,0 +1,288 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_pick_the_soft_g_or_soft_c_word_that_matches",
+  "family_title_en": "Pick the soft g or soft c word that matches the picture",
+  "item_type": "picture_to_word",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches",
+      "ix_title": "Pick the soft g or soft c word that matches the picture",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word matches the picture?",
+        "ko": "어느 단어가 그림과 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the soft g or soft c word.",
+        "ko": "부드러운 g 또는 부드러운 c 단어를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word choices. Exactly one is correct: the soft c or soft g word that names the media lemma. Soft c is c before e, i, or y. Soft g is g before e, i, or y, including ge and dge. Never count get, getting, give, given, girl, girls, gift, geese, begin, or together as soft g. Tier 1 has one soft word and unrelated distractors. Tier 2 has one soft word and same-topic distractors. Tier 3 has a second soft word for a different picture plus hard c or hard g lookalikes. No isolated sounds and no fake spellings. The media lemma equals the correct choice.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "badge",
+        "bicycle",
+        "cabbage",
+        "cage",
+        "ceiling",
+        "celery",
+        "cent",
+        "circus",
+        "dice",
+        "engine",
+        "gem",
+        "giant",
+        "ginger",
+        "giraffe",
+        "grocery",
+        "lace",
+        "lettuce",
+        "magic",
+        "package",
+        "piece",
+        "police",
+        "prince",
+        "princess",
+        "sauce",
+        "sponge",
+        "stage"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches_0001",
+          "tier": 1,
+          "stem": "Pick one word.",
+          "choices": [
+            "ice",
+            "dog",
+            "sun",
+            "hat"
+          ],
+          "answer_index": 0,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "ice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches_0002",
+          "tier": 1,
+          "stem": "Pick one word.",
+          "choices": [
+            "hat",
+            "orange",
+            "book",
+            "cup"
+          ],
+          "answer_index": 1,
+          "explain_key": "soft_g",
+          "media": [
+            {
+              "lemma": "orange"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches_0003",
+          "tier": 1,
+          "stem": "Pick one word.",
+          "choices": [
+            "sun",
+            "map",
+            "mice",
+            "hill"
+          ],
+          "answer_index": 2,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "mice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches_0004",
+          "tier": 2,
+          "stem": "Pick the soft c word at school.",
+          "choices": [
+            "book",
+            "paper",
+            "crayon",
+            "pencil"
+          ],
+          "answer_index": 3,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "pencil"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches_0005",
+          "tier": 2,
+          "stem": "Pick the soft g word.",
+          "choices": [
+            "bridge",
+            "road",
+            "brick",
+            "truck"
+          ],
+          "answer_index": 0,
+          "explain_key": "soft_g",
+          "media": [
+            {
+              "lemma": "bridge"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches_0006",
+          "tier": 2,
+          "stem": "Pick the soft g word at school.",
+          "choices": [
+            "book",
+            "page",
+            "desk",
+            "paper"
+          ],
+          "answer_index": 1,
+          "explain_key": "soft_g",
+          "media": [
+            {
+              "lemma": "page"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches_0007",
+          "tier": 3,
+          "stem": "Look for soft c, then pick one word.",
+          "choices": [
+            "cereal",
+            "cat",
+            "city",
+            "cup"
+          ],
+          "answer_index": 2,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "city"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pick_the_soft_g_or_soft_c_word_that_matches_0008",
+          "tier": 3,
+          "stem": "<NAME> can see it. Pick the soft g word.",
+          "choices": [
+            "page",
+            "gum",
+            "gate",
+            "gym"
+          ],
+          "answer_index": 3,
+          "explain_key": "soft_g",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "gym"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use four unique whole-word choices and exactly one correct tap.",
+      "The correct word is soft c or soft g and names the picture lemma.",
+      "Soft c is the letter c before e, i, or y. Soft g is the letter g before e, i, or y, including ge and dge.",
+      "Never count get, getting, give, given, girl, girls, gift, geese, begin, or together as soft g.",
+      "Distractors are real words and do not name the picture. No fake spellings and no isolated sounds.",
+      "Tier 1 distractors are unrelated. Tier 2 distractors share a school, home, food, pet, or play topic. Tier 3 adds one wrong-picture soft word and hard c or hard g lookalikes.",
+      "Do not write the answer in the stem or describe the picture. The picture is only a media lemma.",
+      "Stems may use only the roots word list, allowed extra words, and <NAME>. Never use a real name."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "sound it out",
+    "\\bsss\\b",
+    "\\bjuh\\b",
+    "\\bdisney\\b",
+    "\\bnike\\b",
+    "\\bpokemon\\b",
+    "\\byoutube\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of three or four words, such as Pick one word. Use a familiar soft c or soft g picture. Distractors are unrelated and easy to reject.",
+    "2": "Stems of five to seven words that name soft c or soft g. Only one choice uses that soft spelling. Distractors share a school, home, food, pet, or play topic.",
+    "3": "Stems of eight to ten words. Add one soft c or soft g word for a different picture, plus hard c or hard g lookalikes, such as cereal beside city or gum beside gym."
+  },
+  "miss_explain": {
+    "soft_c": {
+      "en": "The letter c before e, i, or y is soft c. Tap the soft c word that matches the picture.",
+      "ko": "e, i, y 앞의 c는 부드러운 c입니다. 그림과 맞는 단어를 누르세요."
+    },
+    "soft_g": {
+      "en": "The letter g before e, i, or y is soft g. Tap the soft g word that matches the picture.",
+      "ko": "e, i, y 앞의 g는 부드러운 g입니다. 그림과 맞는 단어를 누르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Pick the soft g or soft c word that matches the picture"
+    ],
+    "no_ixl_text": true
+  }
+}

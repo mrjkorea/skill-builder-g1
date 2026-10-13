@@ -1,0 +1,352 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_sort_soft_and_hard_g_words_and_soft_and_hard",
+  "family_title_en": "Sort soft and hard g words and soft and hard c words",
+  "item_type": "sort_four_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard",
+      "ix_title": "Sort soft and hard g words and soft and hard c words",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Where does this word go?",
+        "ko": "이 단어는 어디로 가나요?"
+      },
+      "what_to_do": {
+        "en": "Tap hard c, soft c, hard g, or soft g.",
+        "ko": "hard c, soft c, hard g, soft g 중에서 하나를 누르세요."
+      },
+      "choices": [
+        "hard c",
+        "soft c",
+        "hard g",
+        "soft g"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "angel",
+        "badge",
+        "camel",
+        "camera",
+        "candy",
+        "carrot",
+        "celery",
+        "cent",
+        "cone",
+        "cute",
+        "danger",
+        "dragon",
+        "edge",
+        "engine",
+        "fancy",
+        "gem",
+        "gentle",
+        "germ",
+        "giant",
+        "ginger",
+        "giraffe",
+        "glove",
+        "glue",
+        "goat",
+        "huge",
+        "icy",
+        "juicy",
+        "lace",
+        "peace",
+        "prince",
+        "spicy",
+        "stage",
+        "village",
+        "voice",
+        "wagon"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard_0001",
+          "tier": 1,
+          "stem": "cake",
+          "choices": [
+            "hard c",
+            "soft c",
+            "hard g",
+            "soft g"
+          ],
+          "answer_index": 0,
+          "explain_key": "hard_c",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard_0002",
+          "tier": 1,
+          "stem": "ice",
+          "choices": [
+            "hard c",
+            "soft c",
+            "hard g",
+            "soft g"
+          ],
+          "answer_index": 1,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "ice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard_0003",
+          "tier": 1,
+          "stem": "game",
+          "choices": [
+            "hard c",
+            "soft c",
+            "hard g",
+            "soft g"
+          ],
+          "answer_index": 2,
+          "explain_key": "hard_g",
+          "media": [
+            {
+              "lemma": "game"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard_0004",
+          "tier": 2,
+          "stem": "cookie",
+          "choices": [
+            "hard c",
+            "soft c",
+            "hard g",
+            "soft g"
+          ],
+          "answer_index": 0,
+          "explain_key": "hard_c",
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard_0005",
+          "tier": 2,
+          "stem": "pencil",
+          "choices": [
+            "hard c",
+            "soft c",
+            "hard g",
+            "soft g"
+          ],
+          "answer_index": 1,
+          "explain_key": "soft_c",
+          "media": [
+            {
+              "lemma": "pencil"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard_0006",
+          "tier": 2,
+          "stem": "orange",
+          "choices": [
+            "hard c",
+            "soft c",
+            "hard g",
+            "soft g"
+          ],
+          "answer_index": 3,
+          "explain_key": "soft_g",
+          "media": [
+            {
+              "lemma": "orange"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard_0007",
+          "tier": 3,
+          "stem": "girl",
+          "choices": [
+            "hard c",
+            "soft c",
+            "hard g",
+            "soft g"
+          ],
+          "answer_index": 2,
+          "explain_key": "hard_g_odd",
+          "media": [
+            {
+              "lemma": "girl"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_sort_soft_and_hard_g_words_and_soft_and_hard_0008",
+          "tier": 3,
+          "stem": "gym",
+          "choices": [
+            "hard c",
+            "soft c",
+            "hard g",
+            "soft g"
+          ],
+          "answer_index": 3,
+          "explain_key": "soft_g_y",
+          "media": [
+            {
+              "lemma": "gym"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use these four choices in this order on every item: hard c, soft c, hard g, soft g.",
+      "Set answer_index to 0 for hard c, 1 for soft c, 2 for hard g, and 3 for soft g.",
+      "Make the stem one lowercase real spelling from the roots list or allowed_extra_words. Skip typos on the list, and do not add words around the target.",
+      "Pick a word with one clear c or one clear g. Never use a word that has both a c choice and a g choice.",
+      "Do not use ch or ck spellings. Do not use circle, council, soccer, science, special, social, or official.",
+      "Skip language, access, accessories, financial, piggy, bigger, hugged, wiggles, and getting. They do not follow one clean rule.",
+      "Hard sounds like the c in cake or the g in game. Soft sounds like the c in ice or the g in page. A, o, u, or a consonant after the letter keeps it hard. E, i, or y after it makes it soft, except the hard g words named in tier 3. A c or g with no letter after it is hard, as in dog and music.",
+      "Two of the same letter are allowed only when both are the same kind, as in picnic, where both c letters are hard.",
+      "Keep the four bins about even. For tier 3, the tempting wrong bin is the other sound of the same letter.",
+      "Use kid words about home, school, food, pets, play, family, or weather. No brands and no real names.",
+      "If you add media, use one lemma note for that word. Do not invent an mp3 name and do not describe a picture in the stem.",
+      "Use explain_key hard_c, soft_c, hard_g, or soft_g, except hard_g_odd and soft_g_y where the tier 3 rule says so."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "ch",
+    "ck",
+    "/",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "æ",
+    "ə",
+    "ʃ",
+    "ʒ",
+    "θ",
+    "ð",
+    "ŋ",
+    "\\.mp3\\b",
+    "\\.wav\\b",
+    "\\.ogg\\b",
+    "\\bcircle\\b",
+    "\\bcouncil\\b",
+    "\\bsoccer\\b",
+    "\\bscience\\b",
+    "\\bspecial\\b",
+    "\\bsocial\\b",
+    "\\bofficial\\b",
+    "\\bocean\\b",
+    "\\bcage\\b",
+    "\\bmagic\\b",
+    "\\bcircus\\b",
+    "\\bbicycle\\b",
+    "\\baccident\\b",
+    "\\bsuccess\\b",
+    "\\bcycle\\b",
+    "\\btogather\\b",
+    "\\btogeter\\b",
+    "\\btoghether\\b",
+    "\\blanguage\\b",
+    "\\bbigger\\b",
+    "\\bhugged\\b",
+    "\\bpiggy\\b",
+    "\\bwiggles\\b",
+    "\\bgetting\\b",
+    "\\baccess\\b",
+    "\\baccessories\\b",
+    "\\bfinancial\\b"
+  ],
+  "tier_rules": {
+    "1": "One-syllable words with an obvious pattern. Hard c before a, o, u, or a consonant, as in cake, cat, cup, cow, and crab. Hard g before a, o, u, or a consonant, as in game, go, and gold, or a hard g at the end, as in dog and frog. Soft c before e, as in ice, face, nice, and mice. Soft g before e, as in page, large, age, and bridge.",
+    "2": "Longer kid words, usually two syllables, with the letter sometimes in the middle. Hard c: cookie, color, crayon. Hard g: garden, grandma. Soft c: pencil, city, center, cereal. Soft g: orange, message. The vowel rule still decides.",
+    "3": "Near misses only. These keep a hard g before e or i and use explain_key hard_g_odd: girl, girls, gift, give, given, get, begin, geese, together. These are soft because y follows g and use soft_g_y: gym, energy. Music ends with a hard c, and both c letters in picnic are hard."
+  },
+  "miss_explain": {
+    "hard_c": {
+      "en": "This c is hard. It sounds like the c in cat and cake.",
+      "ko": "이 c는 강한 c입니다. cat과 cake의 c와 같은 소리입니다."
+    },
+    "soft_c": {
+      "en": "This c is soft. It sounds like the c in ice and city.",
+      "ko": "이 c는 부드러운 c입니다. ice와 city의 c와 같은 소리입니다."
+    },
+    "hard_g": {
+      "en": "This g is hard. It sounds like the g in game and dog.",
+      "ko": "이 g는 강한 g입니다. game과 dog의 g와 같은 소리입니다."
+    },
+    "soft_g": {
+      "en": "This g is soft. It sounds like the g in page and orange.",
+      "ko": "이 g는 부드러운 g입니다. page와 orange의 g와 같은 소리입니다."
+    },
+    "hard_g_odd": {
+      "en": "This g stays hard. It sounds like the g in game, not page.",
+      "ko": "이 g는 그대로 강한 g입니다. game의 g와 같고 page의 g와 다릅니다."
+    },
+    "soft_g_y": {
+      "en": "This g is soft. A g before y can sound like the g in page.",
+      "ko": "이 g는 부드러운 g입니다. g 다음에 y가 오면 page의 g와 같습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Sort soft and hard g words and soft and hard c words"
+    ],
+    "no_ixl_text": true
+  }
+}

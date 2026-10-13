@@ -1,0 +1,259 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_read_consonant_l_e_words",
+  "family_title_en": "Read consonant-l-e words",
+  "item_type": "sort_two_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_read_consonant_l_e_words",
+      "ix_title": "Read consonant-l-e words",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Is this a consonant-l-e word?",
+        "ko": "이 단어는 자음-l-e 단어인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap consonant-l-e or not consonant-l-e.",
+        "ko": "자음-l-e 또는 자음-l-e 아님을 누르세요."
+      },
+      "choices": [
+        "consonant-l-e",
+        "not consonant-l-e"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "angel",
+        "ankle",
+        "beetle",
+        "bottle",
+        "bubble",
+        "cable",
+        "camel",
+        "candle",
+        "cuddle",
+        "fable",
+        "gentle",
+        "giggle",
+        "handle",
+        "jungle",
+        "kettle",
+        "maple",
+        "middle",
+        "needle",
+        "nickel",
+        "noodle",
+        "pickle",
+        "poodle",
+        "puddle",
+        "purple",
+        "puzzle",
+        "riddle",
+        "simple",
+        "sparkle",
+        "stable",
+        "tickle",
+        "towel",
+        "twinkle",
+        "uncle"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_read_consonant_l_e_words_0001",
+          "tier": 1,
+          "stem": "apple",
+          "choices": [
+            "consonant-l-e",
+            "not consonant-l-e"
+          ],
+          "answer_index": 0,
+          "explain_key": "cle_yes"
+        },
+        {
+          "item_id": "roots_read_consonant_l_e_words_0002",
+          "tier": 1,
+          "stem": "dog",
+          "choices": [
+            "consonant-l-e",
+            "not consonant-l-e"
+          ],
+          "answer_index": 1,
+          "explain_key": "cle_no"
+        },
+        {
+          "item_id": "roots_read_consonant_l_e_words_0003",
+          "tier": 1,
+          "stem": "table",
+          "choices": [
+            "consonant-l-e",
+            "not consonant-l-e"
+          ],
+          "answer_index": 0,
+          "explain_key": "cle_yes"
+        },
+        {
+          "item_id": "roots_read_consonant_l_e_words_0004",
+          "tier": 2,
+          "stem": "turtle",
+          "choices": [
+            "consonant-l-e",
+            "not consonant-l-e"
+          ],
+          "answer_index": 0,
+          "explain_key": "cle_yes"
+        },
+        {
+          "item_id": "roots_read_consonant_l_e_words_0005",
+          "tier": 2,
+          "stem": "circle",
+          "choices": [
+            "consonant-l-e",
+            "not consonant-l-e"
+          ],
+          "answer_index": 0,
+          "explain_key": "cle_yes"
+        },
+        {
+          "item_id": "roots_read_consonant_l_e_words_0006",
+          "tier": 2,
+          "stem": "ball",
+          "choices": [
+            "consonant-l-e",
+            "not consonant-l-e"
+          ],
+          "answer_index": 1,
+          "explain_key": "cle_no"
+        },
+        {
+          "item_id": "roots_read_consonant_l_e_words_0007",
+          "tier": 3,
+          "stem": "smile",
+          "choices": [
+            "consonant-l-e",
+            "not consonant-l-e"
+          ],
+          "answer_index": 1,
+          "explain_key": "vowel_le"
+        },
+        {
+          "item_id": "roots_read_consonant_l_e_words_0008",
+          "tier": 3,
+          "stem": "example",
+          "choices": [
+            "consonant-l-e",
+            "not consonant-l-e"
+          ],
+          "answer_index": 0,
+          "explain_key": "cle_yes"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {},
+  "distractor_rules": {
+    "roots": [
+      "The two choices are always consonant-l-e then not consonant-l-e. Never add, drop, rename, or reorder them.",
+      "The stem is exactly one real whole word from the roots list or allowed_extra_words. Do not write a sentence, a name, or two words.",
+      "A yes word ends in le, a consonant sits right before those letters, and that ending is its own syllable. On the roots list the yes words are able, apple, article, circle, eagle, example, little, people, possible, single, table, title, and turtle.",
+      "Do not use available, because it is too long. Do not use scraps or misspellings such as ple, tle, le, ile, litle, peple, pepole, telle, or smole.",
+      "If a vowel sits right before le, the word is not consonant-l-e. That set includes smile, file, pile, mile, tile, whale, while, hole, pole, sale, whole, mule, sole, male, female, mobile, and profile.",
+      "A word that ends in el is not consonant-l-e. That set includes level, travel, label, model, vowel, easel, hotel, wheel, camel, angel, towel, and nickel.",
+      "Do not use a plural that only adds s after le, such as articles, bubbles, candles, or wiggles. The stem must not be one of those.",
+      "Keep about half the stems yes and half no. Use cle_yes for a yes word, vowel_le when a vowel sits right before le, ends_el when the word ends in el, and cle_no for every other no.",
+      "Stay in a kid world of school, home, food, pets, play, family, and weather. No brands, no real names, no picture talk, and no sound files."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bipa\\b",
+    "schwa",
+    "/",
+    "\\bphoneme\\b",
+    "\\.(mp3|wav|ogg)\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bnike\\b",
+    "\\bdisney\\b",
+    "\\blego\\b",
+    "\\bpokemon\\b",
+    "\\blitle\\b",
+    "\\bpeple\\b",
+    "\\bpepole\\b",
+    "\\btelle\\b",
+    "\\bsmole\\b",
+    "\\bhoel\\b",
+    "\\blittel\\b",
+    "\\bpoel\\b"
+  ],
+  "tier_rules": {
+    "1": "Use one very familiar word. A yes word is apple, table, or little. A no word does not end in l or e, such as dog, cat, sun, book, or frog.",
+    "2": "Use a clear two-syllable consonant-l-e word such as turtle, circle, eagle, or title, or a no word that ends in l or e but not le, such as ball, blue, horse, or house.",
+    "3": "Use near misses. A hard no ends in le with a vowel right before it, such as smile, file, whale, hole, or female, or ends in el, such as level, travel, label, or easel. A hard yes is less obvious, such as example, possible, single, article, or people."
+  },
+  "miss_explain": {
+    "cle_yes": {
+      "en": "A consonant-l-e word ends with a consonant, then l, then e. That ending is its own syllable.",
+      "ko": "자음-l-e 단어는 자음 다음에 l, 그다음에 e로 끝납니다. 그 끝은 따로 음절입니다."
+    },
+    "cle_no": {
+      "en": "This word does not end with a consonant, then l, then e, so it is not a consonant-l-e word.",
+      "ko": "이 단어는 자음 다음에 l, 그다음에 e로 끝나지 않습니다. 자음-l-e 단어가 아닙니다."
+    },
+    "vowel_le": {
+      "en": "A vowel sits right before le, so this is not a consonant-l-e word.",
+      "ko": "le 바로 앞에 모음이 있어서 자음-l-e 단어가 아닙니다."
+    },
+    "ends_el": {
+      "en": "This word ends with e then l, not l then e. An el ending is not consonant-l-e.",
+      "ko": "이 단어는 l 다음 e가 아니라 e 다음 l로 끝납니다. el 끝은 자음-l-e가 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Read consonant-l-e words"
+    ],
+    "no_ixl_text": true
+  }
+}

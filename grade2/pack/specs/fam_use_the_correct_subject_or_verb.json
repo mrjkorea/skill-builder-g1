@@ -1,0 +1,315 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_the_correct_subject_or_verb",
+  "family_title_en": "Use the correct subject or verb",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_the_correct_subject_or_verb",
+      "ix_title": "Use the correct subject or verb",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word fits?",
+        "ko": "어떤 낱말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the subject or verb that matches.",
+        "ko": "알맞은 주어나 동사를 누르세요."
+      },
+      "choice_rule": "Four unique whole words from the wordlist or allowed_extra_words. Mix verb-gap and subject-gap items. Exactly one choice agrees. For a verb gap, include the opposite-number form of the same verb or be/have/do pair. For a subject gap, include real pronouns or nouns of the other number. Never write two choices that both make a good sentence.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bark",
+        "birds",
+        "boys",
+        "cats",
+        "cleans",
+        "closes",
+        "comes",
+        "cooks",
+        "dogs",
+        "drinks",
+        "eats",
+        "everyone",
+        "finds",
+        "gets",
+        "helps",
+        "hunt",
+        "jumps",
+        "knows",
+        "lick",
+        "likes",
+        "lives",
+        "looks",
+        "makes",
+        "opens",
+        "plays",
+        "reads",
+        "rest",
+        "runs",
+        "sees",
+        "sings",
+        "sits",
+        "sleeps",
+        "stays",
+        "wag",
+        "waits",
+        "walks",
+        "wants",
+        "works",
+        "writes"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_the_correct_subject_or_verb_0001",
+          "tier": 1,
+          "stem": "The little dog ... at night.",
+          "choices": [
+            "barks",
+            "bark",
+            "are",
+            "have"
+          ],
+          "answer_index": 0,
+          "explain_key": "verb_singular",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_subject_or_verb_0002",
+          "tier": 1,
+          "stem": "The kids ... in the park.",
+          "choices": [
+            "is",
+            "are",
+            "was",
+            "has"
+          ],
+          "answer_index": 1,
+          "explain_key": "verb_plural",
+          "media": [
+            {
+              "lemma": "kid"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_subject_or_verb_0003",
+          "tier": 1,
+          "stem": "... climbs the big tree.",
+          "choices": [
+            "They",
+            "We",
+            "He",
+            "I"
+          ],
+          "answer_index": 2,
+          "explain_key": "subject_singular",
+          "media": [
+            {
+              "lemma": "tree"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_subject_or_verb_0004",
+          "tier": 2,
+          "stem": "My sister ... a red bike.",
+          "choices": [
+            "have",
+            "are",
+            "has",
+            "do"
+          ],
+          "answer_index": 2,
+          "explain_key": "verb_singular",
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_subject_or_verb_0005",
+          "tier": 2,
+          "stem": "The frogs ... in the pond.",
+          "choices": [
+            "swims",
+            "is",
+            "swim",
+            "has"
+          ],
+          "answer_index": 2,
+          "explain_key": "verb_plural",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_subject_or_verb_0006",
+          "tier": 2,
+          "stem": "... have a picnic today.",
+          "choices": [
+            "He",
+            "She",
+            "It",
+            "They"
+          ],
+          "answer_index": 3,
+          "explain_key": "subject_plural",
+          "media": [
+            {
+              "lemma": "picnic"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_subject_or_verb_0007",
+          "tier": 3,
+          "stem": "The puppy and the cat ... milk.",
+          "choices": [
+            "needs",
+            "has",
+            "is",
+            "need"
+          ],
+          "answer_index": 3,
+          "explain_key": "compound_and",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_subject_or_verb_0008",
+          "tier": 3,
+          "stem": "<NAME> ... to the playground.",
+          "choices": [
+            "go",
+            "are",
+            "goes",
+            "have"
+          ],
+          "answer_index": 2,
+          "explain_key": "verb_singular",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "playground"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep four unique tap choices and exactly one right answer.",
+      "Every choice is a whole word from the wordlist or allowed_extra_words.",
+      "On verb-gap items, one distractor is the opposite-number form of the same verb or of is/are, was/were, has/have, do/does, or go/goes.",
+      "On subject-gap items, distractors are real pronouns or nouns that do not agree with the given verb.",
+      "Never include two choices that both make a correct sentence, such as He and She with climbs.",
+      "Tier 1 may use far helpers. Tier 3 uses the nearest noun or ignores and.",
+      "Capitalize subject choices that fill a stem start. Keep verb choices lowercase.",
+      "Stay in kid world: school, home, food, pets, play, family, weather. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/",
+    "\\bagreement\\b",
+    "\\bsingular\\b",
+    "\\bplural\\b",
+    "\\bconjugate",
+    "\\bsubject-verb\\b",
+    "\\bgrammar\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebays?\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. One clear person or group. Far helpers such as are or have with a singular noun. Add a lemma picture on the noun.",
+    "2": "Stems of five to eight words with two-syllable nouns. Use the true opposite pair such as has/have or swim/swims, plus two extra wrong forms.",
+    "3": "Near misses: compound subjects with and, a noun beside the gap that tempts the wrong number, or <NAME> as one person with goes, has, is, or a verb with s."
+  },
+  "miss_explain": {
+    "verb_singular": {
+      "en": "He, she, it, or one name takes is, was, has, does, goes, or a verb with s.",
+      "ko": "he, she, it 또는 이름 하나에는 is, was, has, does, goes나 s가 있는 동사를 씁니다."
+    },
+    "verb_plural": {
+      "en": "I, you, we, they, or more than one take are, were, have, do, go, or a verb with no s.",
+      "ko": "I, you, we, they 또는 둘 이상에는 are, were, have, do, go나 s가 없는 동사를 씁니다."
+    },
+    "subject_singular": {
+      "en": "This verb is for one. Tap he, she, it, or one name.",
+      "ko": "이 동사는 하나에 맞습니다. he, she, it 또는 이름 하나를 누르세요."
+    },
+    "subject_plural": {
+      "en": "This verb is for more than one. Tap I, you, we, they, or a group.",
+      "ko": "이 동사는 둘 이상에 맞습니다. I, you, we, they 또는 여럿을 누르세요."
+    },
+    "compound_and": {
+      "en": "Two subjects joined by and need a plural verb, like need, are, or have.",
+      "ko": "and로 이어진 두 주어에는 need, are, have처럼 복수 동사를 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use the correct subject or verb"
+    ],
+    "no_ixl_text": true
+  }
+}

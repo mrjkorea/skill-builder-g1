@@ -1,0 +1,1905 @@
+[
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0001",
+    "tier": 1,
+    "stem": "I see a cat.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0002",
+    "tier": 1,
+    "stem": "It is Monday.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0003",
+    "tier": 1,
+    "stem": "I hug the dog.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0004",
+    "tier": 2,
+    "stem": "We eat in the kitchen.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "media": [
+      {
+        "lemma": "kitchen"
+      }
+    ],
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0005",
+    "tier": 2,
+    "stem": "It is Friday.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0006",
+    "tier": 2,
+    "stem": "We live in Canada.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0007",
+    "tier": 3,
+    "stem": "I play with <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0008",
+    "tier": 3,
+    "stem": "We saw the teacher.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "item_type": "sort_two_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0009",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I like cake.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0010",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "It is Tuesday.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0011",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I see bird.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0012",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "It is Wednesday.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0013",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I eat apple.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0014",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "It is Sunday.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0015",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I see rabbit.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0016",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "It is Thursday.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0017",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I drink milk.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0018",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "It is Saturday.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0019",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I like fish.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0020",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "It is Christmas.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_holiday",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0021",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "My pet frog.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0022",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "It is Halloween.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_holiday",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0023",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I eat bread.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0024",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "We love Thanksgiving.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_holiday",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0025",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I see duck.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0026",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I have ball.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0027",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I read book.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0028",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I like grapes.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0029",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I eat banana.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "banana"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0030",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I see horse.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0031",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I like cheese.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cheese"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0032",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I see kitten.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0033",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I eat cookie.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0034",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I see puppy.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0035",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "I like corn.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0036",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We play at school.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0037",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is January.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0038",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I sit on chair.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "chair"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0039",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is February.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0040",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We went to playground.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "playground"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0041",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is March.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0042",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I draw with crayon.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0043",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is April.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0044",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We live in America.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0045",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I write with pencil.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0046",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is June.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0047",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We live in the USA.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0048",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is July.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0049",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I eat at table.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0050",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is August.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0051",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We visit the museum.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0052",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I nap on blanket.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0053",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is September.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0054",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We live in Texas.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0055",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We play in garden.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0056",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is October.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0057",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We live in China.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0058",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I eat my breakfast.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0059",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is November.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0060",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We live in Australia.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0061",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We went to the UK.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0062",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "It is December.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_day",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0063",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We went to London.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0064",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We camp in Texas.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0065",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We live in California.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0066",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We hike in America.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0067",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We went to Washington.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0068",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We sail to Australia.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0069",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I read in library.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0070",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I cook in oven.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "oven"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0071",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I rest on couch.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "couch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0072",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "I work at desk.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0073",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I talk to <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0074",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We met the nurse.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0075",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I sit with <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0076",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We thank the president.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0077",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I walk with <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0078",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We help the student.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0079",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I wave at <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0080",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We know the cook.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0081",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I share with <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0082",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We help the cook.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0083",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I laugh with <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0084",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We greet the president.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0085",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I run with <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0086",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We ask the author.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0087",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I eat with <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0088",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We see the director.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0089",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I read with <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0090",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We call the leader.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0091",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "I smile at <NAME>.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_person",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0092",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We visit the author.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0093",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We live in New York.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0094",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We met the scout.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0095",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We went to New York.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0096",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We help the guide.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0097",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We camp in New York.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0098",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We meet the hero.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0099",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We play in New York.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 1,
+    "explain_key": "proper_place",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_identify_common_and_proper_nouns_0100",
+    "family_id": "fam_identify_common_and_proper_nouns",
+    "skill_id": "roots_identify_common_and_proper_nouns",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We thank the queen.",
+    "choices": [
+      "common noun",
+      "proper noun"
+    ],
+    "answer_index": 0,
+    "explain_key": "common_job",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

@@ -1,0 +1,325 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_which_sentence_has_the_same_meaning",
+  "family_title_en": "Same meaning sentences",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_which_sentence_has_the_same_meaning",
+      "ix_title": "Which sentence has the same meaning?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence has the same meaning?",
+        "ko": "같은 뜻인 문장은 어느 것인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that means the same.",
+        "ko": "같은 뜻인 문장을 누르세요."
+      },
+      "choice_rule": "Write four short kid sentences. Exactly one restates the stem with a Grade 2 synonym or paraphrase. The other three must be an antonym rewrite, a different subject or object, and a near-miss that keeps most words. Never repeat the stem as a choice. One tap and one right answer.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "opened",
+        "started",
+        "ended",
+        "quickly",
+        "loudly",
+        "sleepy",
+        "messy",
+        "dirty",
+        "unhappy",
+        "nearly",
+        "larger",
+        "smaller",
+        "happier",
+        "nicer",
+        "softly",
+        "faster",
+        "slower",
+        "louder",
+        "quieter",
+        "alike"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_which_sentence_has_the_same_meaning_0001",
+          "tier": 1,
+          "stem": "The dog is little.",
+          "choices": [
+            "The dog is small.",
+            "The dog is big.",
+            "The dog is old.",
+            "The cat is little."
+          ],
+          "answer_index": 0,
+          "explain_key": "little_small",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_has_the_same_meaning_0002",
+          "tier": 1,
+          "stem": "<NAME> is happy.",
+          "choices": [
+            "<NAME> is sad.",
+            "<NAME> is glad.",
+            "<NAME> is tired.",
+            "<NAME> is busy."
+          ],
+          "answer_index": 1,
+          "explain_key": "happy_glad",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "smile"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_has_the_same_meaning_0003",
+          "tier": 1,
+          "stem": "The bag is large.",
+          "choices": [
+            "The box is large.",
+            "The bag is small.",
+            "The bag is big.",
+            "The bag is full."
+          ],
+          "answer_index": 2,
+          "explain_key": "large_big",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_has_the_same_meaning_0004",
+          "tier": 2,
+          "stem": "We close the door.",
+          "choices": [
+            "We shut the door.",
+            "We open the door.",
+            "We wash the door.",
+            "We close the gate."
+          ],
+          "answer_index": 0,
+          "explain_key": "close_shut",
+          "media": [
+            {
+              "lemma": "door"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_has_the_same_meaning_0005",
+          "tier": 2,
+          "stem": "The room is neat.",
+          "choices": [
+            "The yard is neat.",
+            "The room is dark.",
+            "The room is warm.",
+            "The room is tidy."
+          ],
+          "answer_index": 3,
+          "explain_key": "neat_tidy",
+          "media": [
+            {
+              "lemma": "room"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_has_the_same_meaning_0006",
+          "tier": 2,
+          "stem": "<NAME> begins lunch now.",
+          "choices": [
+            "<NAME> ends lunch now.",
+            "<NAME> starts lunch now.",
+            "<NAME> begins dinner now.",
+            "<NAME> begins lunch later."
+          ],
+          "answer_index": 1,
+          "explain_key": "begin_start",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_has_the_same_meaning_0007",
+          "tier": 3,
+          "stem": "The kids spoke quietly.",
+          "choices": [
+            "The kids spoke in a loud way.",
+            "The kids sat quietly.",
+            "The kids spoke in a quiet way.",
+            "The girls spoke quietly."
+          ],
+          "answer_index": 2,
+          "explain_key": "quietly_quiet",
+          "media": [
+            {
+              "lemma": "child"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_has_the_same_meaning_0008",
+          "tier": 3,
+          "stem": "The bird flew above the tree.",
+          "choices": [
+            "The bird flew over the tree.",
+            "The bird flew under the tree.",
+            "The bird flew near the tree.",
+            "The duck flew above the tree."
+          ],
+          "answer_index": 0,
+          "explain_key": "above_over",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every item has four original sentences and one right answer. Never reuse the stem wording as a choice.",
+      "The right choice must restate the stem with a clear Grade 2 synonym or a short paraphrase, not extra facts.",
+      "Always include one antonym rewrite that flips a key word to its opposite.",
+      "Always include one choice that changes the person, pet, or thing.",
+      "Always include one near-miss that keeps most words but changes time, place, manner, or a close verb.",
+      "Keep every stem and choice in kid world: school, home, food, pets, play, family, or weather. No brands.",
+      "Use two-syllable words and Grade 2 pairs such as begin/start, close/shut, also/too, above/over, and quietly/in a quiet way.",
+      "Wrong choices must still be grammatical whole-word sentences, never isolated sounds or picture descriptions."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsynonym\\b",
+    "\\bantonym\\b",
+    "\\bmeaning\\b",
+    "\\bsentence\\b",
+    "\\bparaphrase\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. One obvious synonym swap such as little/small, happy/glad, or large/big. Distractors are a clear opposite or a different animal or thing.",
+    "2": "Grade-level stems with two-syllable words. Use pairs like close/shut, neat/tidy, or begin/start. Distractors flip to an opposite, change the object, or change the time.",
+    "3": "Near-miss paraphrases. Use manner restatements, above/over versus under/near, or a close subject swap. Keep stems kid-short and still one right answer."
+  },
+  "miss_explain": {
+    "little_small": {
+      "en": "Little and small mean the same thing.",
+      "ko": "little과 small은 같은 뜻입니다."
+    },
+    "happy_glad": {
+      "en": "Happy and glad mean the same thing.",
+      "ko": "happy와 glad는 같은 뜻입니다."
+    },
+    "large_big": {
+      "en": "Large and big mean the same thing.",
+      "ko": "large와 big은 같은 뜻입니다."
+    },
+    "close_shut": {
+      "en": "Close and shut mean the same thing.",
+      "ko": "close와 shut은 같은 뜻입니다."
+    },
+    "neat_tidy": {
+      "en": "Neat and tidy mean the same thing.",
+      "ko": "neat와 tidy는 같은 뜻입니다."
+    },
+    "begin_start": {
+      "en": "Begin and start mean the same thing.",
+      "ko": "begin과 start는 같은 뜻입니다."
+    },
+    "quietly_quiet": {
+      "en": "Quietly means in a quiet way.",
+      "ko": "quietly는 조용한 방식으로라는 뜻입니다."
+    },
+    "above_over": {
+      "en": "Above and over can mean the same thing.",
+      "ko": "above와 over는 같은 뜻으로 쓰일 수 있습니다."
+    },
+    "same_meaning": {
+      "en": "The right sentence says the same idea with other words.",
+      "ko": "정답 문장은 다른 말로 같은 뜻을 말합니다."
+    },
+    "opposite": {
+      "en": "That sentence says the opposite, not the same.",
+      "ko": "그 문장은 같은 뜻이 아니라 반대입니다."
+    },
+    "other_thing": {
+      "en": "That sentence is about a different person or thing.",
+      "ko": "그 문장은 다른 사람이나 다른 것에 대한 말입니다."
+    },
+    "close_not_same": {
+      "en": "Those words are close, but the meaning is not the same.",
+      "ko": "그 말들은 비슷하지만 뜻이 같지는 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Which sentence has the same meaning?"
+    ],
+    "no_ixl_text": true
+  }
+}

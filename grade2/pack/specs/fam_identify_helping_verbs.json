@@ -1,0 +1,304 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_helping_verbs",
+  "family_title_en": "Identify helping verbs",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_helping_verbs",
+      "ix_title": "Identify helping verbs",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is the helping verb?",
+        "ko": "조동사는 어느 낱말인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the helping verb.",
+        "ko": "조동사를 누르세요."
+      },
+      "choice_rule": "Write four single whole-word choices taken from the stem. Exactly one choice is the helping verb that works with the main verb. Always include that main verb as a distractor. The other two distractors are the subject or another content word from the stem. Never include a second helping verb. Never use a phrase as a choice. Shuffle answer_index.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "helping",
+        "verb",
+        "main",
+        "linking",
+        "playing",
+        "sleeping",
+        "eating",
+        "jumping",
+        "walking",
+        "talking",
+        "reading",
+        "writing",
+        "barking",
+        "flying",
+        "crying",
+        "catching",
+        "washing",
+        "cooking",
+        "staying",
+        "isn't",
+        "aren't",
+        "didn't",
+        "doesn't",
+        "hasn't",
+        "haven't",
+        "wouldn't",
+        "couldn't",
+        "shouldn't"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_helping_verbs_0001",
+          "tier": 1,
+          "stem": "The dog is running.",
+          "choices": [
+            "is",
+            "dog",
+            "running",
+            "the"
+          ],
+          "answer_index": 0,
+          "explain_key": "helping_be",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_helping_verbs_0002",
+          "tier": 1,
+          "stem": "We can kick the ball.",
+          "choices": [
+            "we",
+            "can",
+            "kick",
+            "ball"
+          ],
+          "answer_index": 1,
+          "explain_key": "helping_modal",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_helping_verbs_0003",
+          "tier": 1,
+          "stem": "I will eat lunch.",
+          "choices": [
+            "eat",
+            "lunch",
+            "will",
+            "I"
+          ],
+          "answer_index": 2,
+          "explain_key": "helping_modal",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_helping_verbs_0004",
+          "tier": 2,
+          "stem": "<NAME> has gone to school.",
+          "choices": [
+            "has",
+            "gone",
+            "school",
+            "to"
+          ],
+          "answer_index": 0,
+          "explain_key": "helping_have",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_helping_verbs_0005",
+          "tier": 2,
+          "stem": "The baby was smiling at mom.",
+          "choices": [
+            "smiling",
+            "was",
+            "baby",
+            "mom"
+          ],
+          "answer_index": 1,
+          "explain_key": "helping_be",
+          "media": [
+            {
+              "lemma": "baby"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_helping_verbs_0006",
+          "tier": 2,
+          "stem": "Did you pack the lunch?",
+          "choices": [
+            "did",
+            "pack",
+            "you",
+            "lunch"
+          ],
+          "answer_index": 0,
+          "explain_key": "helping_do",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_helping_verbs_0007",
+          "tier": 3,
+          "stem": "<NAME> would like some juice.",
+          "choices": [
+            "like",
+            "juice",
+            "would",
+            "some"
+          ],
+          "answer_index": 2,
+          "explain_key": "helping_modal",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "juice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_helping_verbs_0008",
+          "tier": 3,
+          "stem": "The puppy has gone outside.",
+          "choices": [
+            "gone",
+            "has",
+            "puppy",
+            "outside"
+          ],
+          "answer_index": 1,
+          "explain_key": "helping_have",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four single words copied from the stem. Exactly one is the helping verb.",
+      "Always include the main verb as a distractor.",
+      "Other distractors are the subject, object, place, or describing word. Never a second helping verb.",
+      "Every stem has one helper plus one main verb. Never stack helpers such as has been or will be.",
+      "Never use be, have, or do as the only verb. Those words must help a clear main verb.",
+      "Keep a mix of be helpers, have helpers, do helpers, and modals across the pool.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands. Use <NAME>, never a real name.",
+      "Tier 1 helpers are is, am, are, can, or will, with obvious noun misses.",
+      "Tier 3 always uses a verb-looking main verb such as gone, like, hide, or catch as the closest miss."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bauxiliary\\b",
+    "\\bmodal\\b",
+    "\\bparticiple\\b",
+    "\\bgrammar\\b",
+    "\\bsentence\\b",
+    "\\bhelping verb\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "/"
+  ],
+  "tier_rules": {
+    "1": "Stems of four or five words. The helping verb is is, am, are, can, or will. Distractors are a noun and the main verb.",
+    "2": "Stems of five to seven words. Use was, were, has, have, did, or should. Include the main verb and a pronoun or person as misses.",
+    "3": "Near-miss stems. Use might, could, would, must, or has/have plus a past form. The closest wrong choice is a verb-looking main verb."
+  },
+  "miss_explain": {
+    "helping_be": {
+      "en": "Is, am, are, was, and were can help a main verb.",
+      "ko": "is, am, are, was, were는 본동사를 돕는 조동사일 수 있어요."
+    },
+    "helping_modal": {
+      "en": "Can, will, could, should, would, might, and must help the main verb.",
+      "ko": "can, will, could, should, would, might, must는 본동사 앞의 조동사예요."
+    },
+    "helping_have": {
+      "en": "Has, have, and had can help a main verb, like gone.",
+      "ko": "has, have, had는 gone 같은 본동사를 돕는 조동사일 수 있어요."
+    },
+    "helping_do": {
+      "en": "Do, does, and did help a main verb. They are not the action.",
+      "ko": "do, does, did는 본동사를 돕는 조동사예요. 동작 낱말은 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify helping verbs"
+    ],
+    "no_ixl_text": true
+  }
+}

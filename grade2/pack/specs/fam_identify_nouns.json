@@ -1,0 +1,291 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_nouns",
+  "family_title_en": "Identify nouns",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_nouns",
+      "ix_title": "Identify nouns",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is a noun?",
+        "ko": "어떤 낱말이 명사인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the noun.",
+        "ko": "명사를 누르세요."
+      },
+      "choice_rule": "Four unique lowercase words taken from the stem. Exactly one is a noun (person, place, animal, or thing). The other three are not nouns in that stem: a verb, an adjective or adverb, and a pronoun or little word. Never include two nouns. Never use a word that can be a noun and a verb in that stem. Vary answer_index.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "noun",
+        "verb",
+        "adjective",
+        "adverb",
+        "pronoun",
+        "person",
+        "place",
+        "thing",
+        "animal",
+        "quickly",
+        "loudly"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_nouns_0001",
+          "tier": 1,
+          "stem": "The cat is soft.",
+          "choices": [
+            "the",
+            "cat",
+            "is",
+            "soft"
+          ],
+          "answer_index": 1,
+          "explain_key": "noun_animal",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_nouns_0002",
+          "tier": 1,
+          "stem": "The warm soup smells good.",
+          "choices": [
+            "warm",
+            "smells",
+            "good",
+            "soup"
+          ],
+          "answer_index": 3,
+          "explain_key": "noun_thing",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_nouns_0003",
+          "tier": 1,
+          "stem": "The red apple is sweet.",
+          "choices": [
+            "apple",
+            "red",
+            "is",
+            "sweet"
+          ],
+          "answer_index": 0,
+          "explain_key": "noun_thing",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_nouns_0004",
+          "tier": 2,
+          "stem": "The fluffy little puppy ran fast.",
+          "choices": [
+            "little",
+            "ran",
+            "puppy",
+            "fast"
+          ],
+          "answer_index": 2,
+          "explain_key": "noun_animal",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_nouns_0005",
+          "tier": 2,
+          "stem": "<NAME> sang very quietly.",
+          "choices": [
+            "<NAME>",
+            "sang",
+            "very",
+            "quietly"
+          ],
+          "answer_index": 0,
+          "explain_key": "noun_person",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_identify_nouns_0006",
+          "tier": 2,
+          "stem": "The yellow balloon floats away.",
+          "choices": [
+            "yellow",
+            "floats",
+            "away",
+            "balloon"
+          ],
+          "answer_index": 3,
+          "explain_key": "noun_thing",
+          "media": [
+            {
+              "lemma": "balloon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_nouns_0007",
+          "tier": 3,
+          "stem": "She found a shiny rock.",
+          "choices": [
+            "she",
+            "found",
+            "shiny",
+            "rock"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_pronoun",
+          "media": [
+            {
+              "lemma": "rock"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_nouns_0008",
+          "tier": 3,
+          "stem": "They sat in the kitchen.",
+          "choices": [
+            "they",
+            "sat",
+            "kitchen",
+            "in"
+          ],
+          "answer_index": 2,
+          "explain_key": "noun_place",
+          "media": [
+            {
+              "lemma": "kitchen"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer exactly four lowercase word choices. Exactly one choice is a noun. Never two nouns.",
+      "The noun is a person, place, animal, or thing from kid world: school, home, food, pets, play, family, weather. No brands.",
+      "Never use a word that can be a noun and a verb in that stem, such as play, drink, cook, or run as a thing.",
+      "Tier 1 distractors are a clear action word and a color, size, or feeling word. Add a picture lemma for the noun.",
+      "Tier 2 uses two-syllable nouns and mixes a verb with an adjective or adverb.",
+      "Tier 3 uses a pronoun (he, she, they, we, it) as a near-miss people-word, plus an irregular past verb or a place noun.",
+      "Do not put <NAME> and another person noun in the same choice set.",
+      "Never describe a picture in the stem. Never invent audio files. One tap. One right answer."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpicture\\b",
+    "\\blook at\\b",
+    "\\bpart of speech\\b",
+    "\\bproper noun\\b",
+    "\\bnaming word\\b",
+    "\\bnouns?\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. One obvious animal, food, or thing noun with a picture lemma. Distractors are a clear verb plus a color, size, or feeling word.",
+    "2": "Five to eight words. Two-syllable nouns such as puppy, balloon, or a person name. Mix a verb with an adjective or adverb. Kid world only.",
+    "3": "Near misses. Pronouns he, she, they, we, or it as tempting people-words. Irregular past verbs. Place nouns such as kitchen. Exactly one noun among the four choices."
+  },
+  "miss_explain": {
+    "noun_animal": {
+      "en": "A noun can name an animal. Cat, dog, and puppy are nouns.",
+      "ko": "명사는 동물을 가리킬 수 있어요. 고양이, 강아지, 새는 명사예요."
+    },
+    "noun_thing": {
+      "en": "A noun names a thing you can see or hold. Soup, apple, and balloon are nouns.",
+      "ko": "명사는 사물의 이름이에요. 수프, 사과, 풍선은 명사예요."
+    },
+    "noun_person": {
+      "en": "A noun can name a person. A name, sister, or friend is a noun.",
+      "ko": "명사는 사람을 가리킬 수 있어요. 이름, 언니, 친구는 명사예요."
+    },
+    "noun_place": {
+      "en": "A noun can name a place. Kitchen, school, and home are nouns.",
+      "ko": "명사는 장소를 가리킬 수 있어요. 부엌, 학교, 집은 명사예요."
+    },
+    "not_pronoun": {
+      "en": "He, she, they, and we take the place of a noun. They are not nouns.",
+      "ko": "he, she, they, we는 명사 대신 쓰는 대명사예요. 명사가 아니에요."
+    },
+    "not_verb": {
+      "en": "A verb names an action. Sat, ran, and found are not nouns.",
+      "ko": "동사는 동작을 나타내요. sat, ran, found는 명사가 아니에요."
+    },
+    "not_adjective": {
+      "en": "An adjective tells about a noun. Red, little, and shiny are not nouns.",
+      "ko": "형용사는 명사를 꾸며요. red, little, shiny는 명사가 아니에요."
+    },
+    "not_adverb": {
+      "en": "An adverb tells how. Quietly, fast, and away are not nouns.",
+      "ko": "부사는 어떻게 하는지를 말해요. quietly, fast, away는 명사가 아니에요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify nouns"
+    ],
+    "no_ixl_text": true
+  }
+}

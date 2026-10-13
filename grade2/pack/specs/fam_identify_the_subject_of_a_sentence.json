@@ -1,0 +1,296 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_the_subject_of_a_sentence",
+  "family_title_en": "Identify the subject of a sentence",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_the_subject_of_a_sentence",
+      "ix_title": "Identify the subject of a sentence",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Who or what is the subject?",
+        "ko": "주어는 누구 또는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word the sentence is about.",
+        "ko": "문장이 가리키는 말을 누르세요."
+      },
+      "choice_rule": "Four unique choices taken from the stem. Exactly one is the simple subject: the main noun, pronoun, or <NAME> the sentence is about. The other three are the verb, object, adjective, place word, or small word from that stem. Never offer both a noun and the plus that noun. Never use grammar labels as choices. Never write compound subjects.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "plays",
+        "runs",
+        "jumps",
+        "likes",
+        "sits",
+        "hops",
+        "walks",
+        "reads",
+        "sleeps",
+        "eats",
+        "sings",
+        "looks",
+        "goes",
+        "comes",
+        "makes",
+        "takes",
+        "gives",
+        "sees"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_the_subject_of_a_sentence_0001",
+          "tier": 1,
+          "stem": "The cat sat down.",
+          "choices": [
+            "cat",
+            "sat",
+            "down",
+            "The"
+          ],
+          "answer_index": 0,
+          "explain_key": "simple_noun",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_subject_of_a_sentence_0002",
+          "tier": 1,
+          "stem": "My dog ran home.",
+          "choices": [
+            "ran",
+            "home",
+            "dog",
+            "My"
+          ],
+          "answer_index": 2,
+          "explain_key": "simple_noun",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_subject_of_a_sentence_0003",
+          "tier": 1,
+          "stem": "A frog can jump.",
+          "choices": [
+            "can",
+            "jump",
+            "A",
+            "frog"
+          ],
+          "answer_index": 3,
+          "explain_key": "simple_noun",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_subject_of_a_sentence_0004",
+          "tier": 2,
+          "stem": "The little puppy drank milk.",
+          "choices": [
+            "little",
+            "puppy",
+            "drank",
+            "milk"
+          ],
+          "answer_index": 1,
+          "explain_key": "adjective_not_subject",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_subject_of_a_sentence_0005",
+          "tier": 2,
+          "stem": "My sister went to school.",
+          "choices": [
+            "school",
+            "went",
+            "sister",
+            "My"
+          ],
+          "answer_index": 2,
+          "explain_key": "location_not_subject",
+          "media": [
+            {
+              "lemma": "sister"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_subject_of_a_sentence_0006",
+          "tier": 2,
+          "stem": "They baked cookies today.",
+          "choices": [
+            "cookies",
+            "today",
+            "baked",
+            "They"
+          ],
+          "answer_index": 3,
+          "explain_key": "pronoun_subject",
+          "media": [
+            {
+              "lemma": "cookies"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_subject_of_a_sentence_0007",
+          "tier": 3,
+          "stem": "<NAME> gave the dog a bone.",
+          "choices": [
+            "dog",
+            "bone",
+            "<NAME>",
+            "gave"
+          ],
+          "answer_index": 2,
+          "explain_key": "name_subject",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_subject_of_a_sentence_0008",
+          "tier": 3,
+          "stem": "The bird in the nest sang.",
+          "choices": [
+            "nest",
+            "sang",
+            "in",
+            "bird"
+          ],
+          "answer_index": 3,
+          "explain_key": "location_not_subject",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four choices every time. One is the simple subject. Three are other words from the same stem.",
+      "Never use the labels subject, predicate, noun, or verb as choices.",
+      "Never put both a noun and the plus that noun in the same choice set.",
+      "Tier 1 stems have one noun. Distractors are the verb and small words.",
+      "Tier 2 adds an adjective, an object, or a pronoun subject.",
+      "Tier 3 uses two nouns, a name versus an object, or a place phrase before the subject.",
+      "Vary answer_index so the right tap is not always first.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands. No real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpredicate\\b",
+    "\\bnoun phrase\\b",
+    "\\bwho or what\\b",
+    "\\bsentence\\b",
+    "\\bsubject\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four or five words with one noun. That noun is the subject. Distractors are the verb and small words. Picture the noun.",
+    "2": "Grade-level stems with an adjective, an object, or a pronoun subject. Distractors are the extra noun or describing word.",
+    "3": "Near misses. Two nouns, a name versus an object, or a place phrase before the subject. The wrong noun is the close distractor."
+  },
+  "miss_explain": {
+    "simple_noun": {
+      "en": "The subject is who or what the sentence is about.",
+      "ko": "주어는 문장이 말하는 사람이나 것입니다."
+    },
+    "adjective_not_subject": {
+      "en": "A describing word is not the subject. Tap the person or thing.",
+      "ko": "설명하는 말은 주어가 아닙니다. 사람이나 것을 누르세요."
+    },
+    "location_not_subject": {
+      "en": "A place word is not the subject. Tap who did the action.",
+      "ko": "장소 말은 주어가 아닙니다. 동작을 한 대상을 누르세요."
+    },
+    "object_not_subject": {
+      "en": "The subject does the action. The other thing is not the subject.",
+      "ko": "주어는 동작을 합니다. 다른 대상은 주어가 아닙니다."
+    },
+    "pronoun_subject": {
+      "en": "Words like he, she, and they can be the subject.",
+      "ko": "he, she, they 같은 말도 주어가 될 수 있습니다."
+    },
+    "name_subject": {
+      "en": "The name tells who the sentence is about. That name is the subject.",
+      "ko": "이름이 문장의 대상을 알려 줍니다. 그 이름이 주어입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify the subject of a sentence"
+    ],
+    "no_ixl_text": true
+  }
+}

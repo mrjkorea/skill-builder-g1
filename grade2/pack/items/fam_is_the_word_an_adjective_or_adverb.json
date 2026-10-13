@@ -1,0 +1,2081 @@
+[
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0001",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"big\" dog ran.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0002",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The dog ran \"slowly\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0003",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"happy\" baby smiled.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adjective",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0004",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME> sat \"quietly\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0005",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We ate a \"sweet\" snack.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0006",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The kids play \"outside\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0007",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"fast\" bike won.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0008",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME> can ride \"fast\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0009",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"red\" ball rolled.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0010",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"small\" cat sleeps.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0011",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "My \"soft\" pillow feels.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pillow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0012",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "A \"blue\" cup fell.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0013",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"sad\" pup cried.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adjective",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0014",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"hot\" pan sits.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0015",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "A \"green\" kite flies.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0016",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"tall\" tree stands.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0017",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"cold\" milk spilled.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0018",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "A \"neat\" desk shines.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0019",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"wet\" cat shook.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0020",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "A \"ripe\" pear fell.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0021",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"gray\" rock sits.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0022",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "My \"new\" hat fits.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0023",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The \"fun\" game starts.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adjective",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0024",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The cat purrs \"softly\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0025",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The bird sings \"happily\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0026",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "Mom talks \"quietly\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0027",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "We ran \"quickly\" home.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0028",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The dog barks \"loudly\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0029",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "We clap \"loudly\" now.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0030",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "Wind blows \"softly\" today.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0031",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The pup sleeps \"quietly\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0032",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "She reads \"quietly\" here.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0033",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The kids hop \"happily\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0034",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "We eat \"slowly\" at lunch.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0035",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_two_bins",
+    "stem": "The bell rings \"loudly\".",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0036",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We had a \"tasty\" lunch.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0037",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The \"fluffy\" kitten purrs.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0038",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "A \"sunny\" day warmed us.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "day"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0039",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The \"muddy\" boots stay.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boots"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0040",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "My \"cozy\" blanket feels warm.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0041",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The \"brave\" knight stands.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "knight"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0042",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We ate \"fresh\" bread today.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0043",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The \"hungry\" dog waits.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0044",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "A \"scary\" story made us jump.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adjective",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0045",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The \"shiny\" coin shines.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0046",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "Our \"loud\" class laughs.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0047",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The \"tired\" kid rests.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adjective",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0048",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "A \"yellow\" duck swam.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0049",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The \"brown\" horse ran.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0050",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We share a \"kind\" note.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0051",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The \"sandy\" beach felt hot.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beach"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0052",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "A \"little\" ant crawls.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0053",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME> smiled \"happily\" today.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0054",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We play \"outside\" after school.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_where",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0055",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The team runs \"quickly\" now.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0056",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "A bird sings \"softly\" at dawn.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0057",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We line up \"quietly\" inside.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_where",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0058",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "Kids swim \"safely\" in pool.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pool"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0059",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "Rain falls \"softly\" tonight.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0060",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We work \"nicely\" in groups.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0061",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME> waved \"kindly\" to us.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0062",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We eat \"inside\" when cold.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_where",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0063",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The bus stops \"safely\" here.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0064",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We read \"quietly\" in library.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0065",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We play \"today\" after rain.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0066",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "Fish swim \"quickly\" away.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0067",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We pack \"quietly\" our bag.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0068",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "The owl calls \"loudly\" tonight.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0069",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We met \"today\" at recess.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adverb",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0070",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "Bugs buzz \"loudly\" near flower.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0071",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME> talks \"softly\" to pup.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0072",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_two_bins",
+    "stem": "We hide \"inside\" during hail.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_where",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0073",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"hard\" shell broke.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0074",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "Hit \"hard\" on the door.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0075",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"early\" train left.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0076",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We wake \"early\" in spring.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0077",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "Our \"late\" snack came.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0078",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We sleep \"late\" on Sunday.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0079",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"fast\" boat wins.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0080",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "Pups run \"fast\" at park.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0081",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME> did \"well\" at recess.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0082",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"fast\" fox ran.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0083",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "Kids jump \"fast\" in gym.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gym"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0084",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "A \"hard\" test came.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "test"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0085",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "Throw \"hard\" to win game.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0086",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"early\" mail came.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0087",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We rise \"early\" for school.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0088",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "A \"late\" bell rang once.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0089",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We arrive \"late\" to class.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0090",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME> kicks \"hard\" the ball.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0091",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"hard\" bench hurt.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0092",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The team plays \"well\" together.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0093",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "A \"fast\" rabbit hid.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0094",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We swim \"fast\" in race.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0095",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"early\" sun rose.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0096",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "We finish \"early\" our work.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0097",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "A \"late\" bus came.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0098",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "Owls hunt \"late\" at night.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0099",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "The \"fast\" kid won.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 0,
+    "explain_key": "adj_before_noun",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_word_an_adjective_or_adverb_0100",
+    "family_id": "fam_is_the_word_an_adjective_or_adverb",
+    "skill_id": "roots_is_the_word_an_adjective_or_adverb",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_two_bins",
+    "stem": "<NAME> reads \"well\" here.",
+    "choices": [
+      "adjective",
+      "adverb"
+    ],
+    "answer_index": 1,
+    "explain_key": "adv_how",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

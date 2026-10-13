@@ -1,0 +1,438 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_the_correct_initial_c",
+  "family_title_en": "Complete the word with the correct initial consonant blend",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_the_correct_initial_c",
+      "ix_title": "Complete the word with the correct initial consonant blend",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which blend completes the last word?",
+        "ko": "마지막 단어를 완성하는 블렌드는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the missing blend.",
+        "ko": "빠진 블렌드를 누르세요."
+      },
+      "choice_rule": "Four unique lowercase choices from bl, br, cl, cr, dr, fl, fr, gl, gr, pl, pr, sc, sk, sl, sm, sn, sp, st, sw, tr, scr, spr, str, squ, thr. Take a real kid word, remove its longest blend from that set, and put only the ending as the last stem token. The correct choice is the blend you removed. The sentence fits that one word and no other blend word. Do not write the finished word in the stem. Tier 1 wrong blends share no letter with the answer. Tier 2 wrong blends are the same length and share exactly one letter. Tier 3 wrong blends each drop, add, or change one letter. No digraphs, misspellings, science, or two. The ending is at least two letters.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "abs",
+        "ace",
+        "ack",
+        "ad",
+        "ade",
+        "aft",
+        "ag",
+        "ail",
+        "ain",
+        "ake",
+        "allow",
+        "ame",
+        "andma",
+        "andpa",
+        "ane",
+        "ank",
+        "anket",
+        "ape",
+        "apes",
+        "ares",
+        "ary",
+        "ash",
+        "ass",
+        "ave",
+        "avel",
+        "aw",
+        "awl",
+        "ayground",
+        "ayon",
+        "ayons",
+        "cr",
+        "dr",
+        "ead",
+        "eak",
+        "eakfast",
+        "eam",
+        "ean",
+        "ease",
+        "ed",
+        "eece",
+        "eed",
+        "eek",
+        "een",
+        "eep",
+        "eet",
+        "eeve",
+        "eeze",
+        "ell",
+        "ells",
+        "ep",
+        "esh",
+        "etty",
+        "fr",
+        "gl",
+        "hool",
+        "hools",
+        "iday",
+        "ide",
+        "idge",
+        "iend",
+        "iends",
+        "ight",
+        "ike",
+        "iled",
+        "iles",
+        "iling",
+        "imming",
+        "ine",
+        "ing",
+        "int",
+        "ipe",
+        "ize",
+        "oak",
+        "oat",
+        "oblem",
+        "ock",
+        "ocks",
+        "ogs",
+        "oke",
+        "om",
+        "ong",
+        "ont",
+        "oon",
+        "oop",
+        "oor",
+        "op",
+        "ope",
+        "ops",
+        "ore",
+        "orts",
+        "ory",
+        "ose",
+        "oss",
+        "ot",
+        "oud",
+        "ough",
+        "ound",
+        "oup",
+        "ove",
+        "ower",
+        "owly",
+        "ows",
+        "oze",
+        "pr",
+        "sc",
+        "scr",
+        "sk",
+        "sm",
+        "spr",
+        "squ",
+        "str",
+        "sw",
+        "ub",
+        "uck",
+        "uffy",
+        "ug",
+        "uit",
+        "um",
+        "ums",
+        "unk",
+        "ush",
+        "ust"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_initial_c_0001",
+          "tier": 1,
+          "stem": "I see a red ag.",
+          "choices": [
+            "br",
+            "sn",
+            "fl",
+            "gr"
+          ],
+          "answer_index": 2,
+          "explain_key": "blend_fl"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_initial_c_0002",
+          "tier": 1,
+          "stem": "Look at the big oud.",
+          "choices": [
+            "fr",
+            "cl",
+            "sn",
+            "gr"
+          ],
+          "answer_index": 1,
+          "explain_key": "blend_cl"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_initial_c_0003",
+          "tier": 1,
+          "stem": "The dog needs a ush.",
+          "choices": [
+            "cl",
+            "sn",
+            "fl",
+            "br"
+          ],
+          "answer_index": 3,
+          "explain_key": "blend_br"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_initial_c_0004",
+          "tier": 2,
+          "stem": "She is my very best iend.",
+          "choices": [
+            "br",
+            "fr",
+            "gr",
+            "tr"
+          ],
+          "answer_index": 1,
+          "explain_key": "blend_fr"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_initial_c_0005",
+          "tier": 2,
+          "stem": "I saw a little pet ake.",
+          "choices": [
+            "sl",
+            "sm",
+            "sn",
+            "st"
+          ],
+          "answer_index": 2,
+          "explain_key": "blend_sn"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_initial_c_0006",
+          "tier": 2,
+          "stem": "I eat soup with a oon.",
+          "choices": [
+            "sn",
+            "pl",
+            "sp",
+            "st"
+          ],
+          "answer_index": 2,
+          "explain_key": "blend_sp"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_initial_c_0007",
+          "tier": 3,
+          "stem": "My little sister just got a new red ayon.",
+          "choices": [
+            "scr",
+            "cr",
+            "cl",
+            "gr"
+          ],
+          "answer_index": 1,
+          "explain_key": "blend_cr"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_initial_c_0008",
+          "tier": 3,
+          "stem": "<NAME> has a big dog and is ong.",
+          "choices": [
+            "st",
+            "spr",
+            "str",
+            "tr"
+          ],
+          "answer_index": 2,
+          "explain_key": "blend_str",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The correct choice is the longest allowed blend removed from the last token to make one real word.",
+      "Wrong choices are other blends from the allowed set, in lowercase, never whole words and never single letters.",
+      "Do not use the digraphs ch, sh, th, or wh. The blend thr is allowed. Never treat two as tw, and never use science as sc.",
+      "Tier 1 wrong blends share no letter with the correct blend.",
+      "Tier 2 wrong blends keep the same length and share exactly one letter with the correct blend.",
+      "Tier 3 wrong blends each drop, add, or change exactly one letter of the correct blend.",
+      "Use a correct kid spelling about home, school, food, pets, play, family, or weather. Skip misspellings, brands, and real names.",
+      "If a stem needs a child, write <NAME>. The finished word must not appear anywhere in the stem."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bdigraph\\b",
+    "\\bschwa\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bscience\\b",
+    "/[a-z]{1,8}/"
+  ],
+  "tier_rules": {
+    "1": "Four to six words. The last token is the ending of a common one-syllable word. Wrong blends share no letter with the answer.",
+    "2": "Six to eight words. The last token is the ending of a grade-level word. Each wrong blend is the same length and shares exactly one letter.",
+    "3": "Seven to ten words. Use a two-syllable word or a three-letter blend. Each wrong blend drops, adds, or changes one letter."
+  },
+  "miss_explain": {
+    "blend_bl": {
+      "en": "The missing letters are bl. They start the word.",
+      "ko": "빠진 글자는 bl입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_br": {
+      "en": "The missing letters are br. They start the word.",
+      "ko": "빠진 글자는 br입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_cl": {
+      "en": "The missing letters are cl. They start the word.",
+      "ko": "빠진 글자는 cl입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_cr": {
+      "en": "The missing letters are cr. They start the word.",
+      "ko": "빠진 글자는 cr입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_dr": {
+      "en": "The missing letters are dr. They start the word.",
+      "ko": "빠진 글자는 dr입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_fl": {
+      "en": "The missing letters are fl. They start the word.",
+      "ko": "빠진 글자는 fl입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_fr": {
+      "en": "The missing letters are fr. They start the word.",
+      "ko": "빠진 글자는 fr입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_gl": {
+      "en": "The missing letters are gl. They start the word.",
+      "ko": "빠진 글자는 gl입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_gr": {
+      "en": "The missing letters are gr. They start the word.",
+      "ko": "빠진 글자는 gr입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_pl": {
+      "en": "The missing letters are pl. They start the word.",
+      "ko": "빠진 글자는 pl입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_pr": {
+      "en": "The missing letters are pr. They start the word.",
+      "ko": "빠진 글자는 pr입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_sc": {
+      "en": "The missing letters are sc. They start the word.",
+      "ko": "빠진 글자는 sc입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_scr": {
+      "en": "The missing letters are scr. All three start the word.",
+      "ko": "빠진 글자는 scr입니다. 세 글자가 모두 단어의 시작입니다."
+    },
+    "blend_sk": {
+      "en": "The missing letters are sk. They start the word.",
+      "ko": "빠진 글자는 sk입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_sl": {
+      "en": "The missing letters are sl. They start the word.",
+      "ko": "빠진 글자는 sl입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_sm": {
+      "en": "The missing letters are sm. They start the word.",
+      "ko": "빠진 글자는 sm입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_sn": {
+      "en": "The missing letters are sn. They start the word.",
+      "ko": "빠진 글자는 sn입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_sp": {
+      "en": "The missing letters are sp. They start the word.",
+      "ko": "빠진 글자는 sp입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_spr": {
+      "en": "The missing letters are spr. All three start the word.",
+      "ko": "빠진 글자는 spr입니다. 세 글자가 모두 단어의 시작입니다."
+    },
+    "blend_squ": {
+      "en": "The missing letters are squ. All three start the word.",
+      "ko": "빠진 글자는 squ입니다. 세 글자가 모두 단어의 시작입니다."
+    },
+    "blend_st": {
+      "en": "The missing letters are st. They start the word.",
+      "ko": "빠진 글자는 st입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_str": {
+      "en": "The missing letters are str. All three start the word.",
+      "ko": "빠진 글자는 str입니다. 세 글자가 모두 단어의 시작입니다."
+    },
+    "blend_sw": {
+      "en": "The missing letters are sw. They start the word.",
+      "ko": "빠진 글자는 sw입니다. 그 글자로 단어가 시작합니다."
+    },
+    "blend_thr": {
+      "en": "The missing letters are thr. All three start the word.",
+      "ko": "빠진 글자는 thr입니다. 세 글자가 모두 단어의 시작입니다."
+    },
+    "blend_tr": {
+      "en": "The missing letters are tr. They start the word.",
+      "ko": "빠진 글자는 tr입니다. 그 글자로 단어가 시작합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with the correct initial consonant blend"
+    ],
+    "no_ixl_text": true
+  }
+}

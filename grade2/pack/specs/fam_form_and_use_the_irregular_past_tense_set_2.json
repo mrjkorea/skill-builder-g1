@@ -1,0 +1,328 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_and_use_the_irregular_past_tense_set_2",
+  "family_title_en": "Irregular past tense: set 2",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_and_use_the_irregular_past_tense_set_2",
+      "ix_title": "Form and use the irregular past tense: set 2",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Tap the past word.",
+        "ko": "과거 단어를 누르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the word that already happened.",
+        "ko": "이미 일어난 일을 나타내는 단어를 누르세요."
+      },
+      "choice_rule": "Write four one-word verb forms from the roots list or allowed_extra_words. Exactly one is the set-2 simple past that matches the stem verb. Also include the present base, an -ed overregularization, and either the past participle or a different irregular past. Never two choices that both fit yesterday. Shuffle so the right word is not always first.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "beginned",
+        "blown",
+        "blowed",
+        "breaked",
+        "builded",
+        "choosed",
+        "chosen",
+        "digged",
+        "drawed",
+        "drawn",
+        "drinked",
+        "driven",
+        "drived",
+        "drunk",
+        "falled",
+        "fallen",
+        "feeled",
+        "finded",
+        "flied",
+        "flown",
+        "freezed",
+        "frozen",
+        "gived",
+        "growed",
+        "grown",
+        "heared",
+        "hidden",
+        "hided",
+        "hunged",
+        "keeped",
+        "knew",
+        "knowed",
+        "known",
+        "leaved",
+        "ridden",
+        "rided",
+        "sanged",
+        "speaked",
+        "spoken",
+        "standed",
+        "sung",
+        "taked",
+        "taken",
+        "telled",
+        "threw",
+        "throwed",
+        "thrown",
+        "waked",
+        "weared",
+        "winned",
+        "woken",
+        "worn",
+        "writed",
+        "written"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0001",
+          "tier": 1,
+          "stem": "Now they draw pictures.",
+          "choices": [
+            "drew",
+            "draw",
+            "drawed",
+            "drawn"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_ed",
+          "media": [
+            {
+              "lemma": "picture"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0002",
+          "tier": 1,
+          "stem": "Now they fly home.",
+          "choices": [
+            "fly",
+            "flied",
+            "flew",
+            "flown"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_present",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0003",
+          "tier": 1,
+          "stem": "Now they write a letter.",
+          "choices": [
+            "write",
+            "wrote",
+            "writed",
+            "written"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_ed",
+          "media": [
+            {
+              "lemma": "letter"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0004",
+          "tier": 2,
+          "stem": "Now they blow bubbles.",
+          "choices": [
+            "blow",
+            "blowed",
+            "blown",
+            "blew"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_ed",
+          "media": [
+            {
+              "lemma": "bubbles"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0005",
+          "tier": 2,
+          "stem": "Now <NAME> can drink cold milk.",
+          "choices": [
+            "drink",
+            "drank",
+            "drinked",
+            "drunk"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_present",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0006",
+          "tier": 2,
+          "stem": "Now the cup can break on the floor.",
+          "choices": [
+            "broke",
+            "break",
+            "breaked",
+            "broken"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_participle",
+          "media": [
+            {
+              "lemma": "cup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0007",
+          "tier": 3,
+          "stem": "Now <NAME> can give a gift at home.",
+          "choices": [
+            "given",
+            "give",
+            "gave",
+            "gived"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_participle",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "gift"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_2_0008",
+          "tier": 3,
+          "stem": "Now <NAME> can begin the game after lunch.",
+          "choices": [
+            "begin",
+            "begun",
+            "beginned",
+            "began"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_participle",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "game"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Target answers are only set-2 simple past: took, gave, wrote, spoke, broke, flew, grew, drew, blew, drank, drove, rode, sang, began, fell, found, heard, told, wore, woke, won, hid, left, kept, felt, built, chose, froze, stood, dug, hung, knew, threw.",
+      "Never target set-1 past: went, saw, ate, came, ran, sat, got, made, was, had, did, said. Those may be wrong choices only.",
+      "Each item has four unique one-word choices: the matching simple past, the present base, an -ed overregularization, and a participle or a different irregular past.",
+      "Only one choice can fit a yesterday reading of the stem. Participles like given, begun, broken, taken, and hidden are wrong unless the stem has have or has, which it must not.",
+      "Stems stay in kid world: school, home, food, pets, play, family, weather. No brands. No real names. Use <NAME> when a person is named.",
+      "Keep overregularizations kid-like and pronounceable, such as drawed, gived, or beginned. Do not use hanged for hang."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\birregular\\b",
+    "\\btense\\b",
+    "\\bverb\\b",
+    "\\bparticiple\\b",
+    "\\binfinitive\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Short present stems of four to six words with a clear set-2 action. Distractors are the base verb, a far -ed guess, and a far participle. Add a noun picture lemma.",
+    "2": "Grade-level stems of five to eight words. Mix <NAME>. Use closer -ed forms and true participles that look almost right.",
+    "3": "Near-miss participles kids mix with simple past, such as gave/given, began/begun, took/taken, or hid/hidden. Stems of seven to ten words. Never two choices that both fit."
+  },
+  "miss_explain": {
+    "not_present": {
+      "en": "That word is for now. Tap the past word that already happened.",
+      "ko": "그 말은 지금을 나타냅니다. 이미 일어난 과거 단어를 누르세요."
+    },
+    "not_ed": {
+      "en": "This past word does not add -ed. It changes to a new word.",
+      "ko": "이 과거 단어는 -ed를 붙이지 않습니다. 다른 단어로 바뀝니다."
+    },
+    "not_participle": {
+      "en": "That word needs have or has. Tap the simple past word.",
+      "ko": "그 말은 have나 has가 필요합니다. 단순 과거 단어를 누르세요."
+    },
+    "not_other": {
+      "en": "That past word is for a different action. Tap the past word that matches.",
+      "ko": "그 과거 단어는 다른 동작입니다. 맞는 과거 단어를 누르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form and use the irregular past tense: set 2"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_long_u_word_silent_e_ue_oo_ew",
+  "family_title_en": "Spell the long u word: silent e, ue, oo, ew",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew",
+      "ix_title": "Spell the long u word: silent e, ue, oo, ew",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "알맞은 철자는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the correct spelling.",
+        "ko": "올바른 철자를 누르세요."
+      },
+      "choice_rule": "Four unique spellings of one long u word. Exactly one is the real spelling with silent e, ue, oo, or ew. The other three swap in a wrong long u pattern or drop a letter. Add media with that target lemma in lowercase. Never put the real spelling in the stem, and never describe a picture in the stem.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew_0001",
+          "tier": 1,
+          "stem": "The month after May.",
+          "choices": [
+            "joon",
+            "june",
+            "juen",
+            "jewn"
+          ],
+          "answer_index": 1,
+          "explain_key": "silent_e",
+          "media": [
+            {
+              "lemma": "june"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew_0002",
+          "tier": 1,
+          "stem": "The color of the sky.",
+          "choices": [
+            "bloo",
+            "bluw",
+            "blue",
+            "blu"
+          ],
+          "answer_index": 2,
+          "explain_key": "ue_team",
+          "media": [
+            {
+              "lemma": "blue"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew_0003",
+          "tier": 1,
+          "stem": "The big light in the night sky.",
+          "choices": [
+            "mune",
+            "mewn",
+            "muun",
+            "moon"
+          ],
+          "answer_index": 3,
+          "explain_key": "oo_team",
+          "media": [
+            {
+              "lemma": "moon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew_0004",
+          "tier": 2,
+          "stem": "Teeth do this to gum.",
+          "choices": [
+            "chew",
+            "choo",
+            "chue",
+            "chuse"
+          ],
+          "answer_index": 0,
+          "explain_key": "ew_team",
+          "media": [
+            {
+              "lemma": "chew"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew_0005",
+          "tier": 2,
+          "stem": "<NAME> will do this with a pencil.",
+          "choices": [
+            "oose",
+            "uese",
+            "ewse",
+            "use"
+          ],
+          "answer_index": 3,
+          "explain_key": "use_not_ue",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "use"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew_0006",
+          "tier": 2,
+          "stem": "The day after Monday.",
+          "choices": [
+            "toosday",
+            "tuesday",
+            "tewsday",
+            "tuseday"
+          ],
+          "answer_index": 1,
+          "explain_key": "ue_inside",
+          "media": [
+            {
+              "lemma": "tuesday"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew_0007",
+          "tier": 3,
+          "stem": "This big white bird has a long neck.",
+          "choices": [
+            "guse",
+            "goose",
+            "geuse",
+            "gewse"
+          ],
+          "answer_index": 1,
+          "explain_key": "oo_not_silent_e",
+          "media": [
+            {
+              "lemma": "goose"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_long_u_word_silent_e_ue_oo_ew_0008",
+          "tier": 3,
+          "stem": "The bird did this in the sky yesterday.",
+          "choices": [
+            "flue",
+            "floo",
+            "flew",
+            "fluse"
+          ],
+          "answer_index": 2,
+          "explain_key": "ew_not_ue",
+          "media": [
+            {
+              "lemma": "flew"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each item has four spellings of one long u word, and exactly one spelling is correct.",
+      "Wrong choices swap in silent e, ue, oo, or ew, or they drop a letter from the real word.",
+      "A wrong choice must not be another real word that also fits the stem. Tier 3 may use a same-sound trap such as flue for flew only when that word does not fit the stem.",
+      "Never teach short oo words such as book, look, foot, good, wood, or cook as long u targets.",
+      "The stem names the word without spelling it. Use school, home, food, pets, play, family, or weather, and do not put a second long u word in the clue.",
+      "Tier 1 wrong choices are easy to spot. Tier 3 wrong choices are one long u pattern away from the real spelling."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "\\bipa\\b",
+    "æ",
+    "ə",
+    "ː",
+    "ʊ",
+    "\\b(book|books|look|looking|foot|good|wood|cook|cookie|cookies|hook|hooks|stood|wool)\\b",
+    "\\b(nike|lego|disney|pokemon|youtube)\\b"
+  ],
+  "tier_rules": {
+    "1": "Clues of four to seven words. The real spelling is a common one-syllable word such as June, blue, or moon. Wrong choices drop a letter or use a vowel team that is easy to reject.",
+    "2": "Grade 2 sentences about school, food, or home. Targets may be two syllables, like Tuesday, or short words like chew and use. Wrong choices swap silent e, ue, oo, or ew.",
+    "3": "Near misses. Goose looks like silent e, but the long u is oo. Flew sounds like a ue word, but it is spelled ew. Wrong choices sit one pattern away."
+  },
+  "miss_explain": {
+    "silent_e": {
+      "en": "Long u can be the letter u, one consonant, and silent e, as in June.",
+      "ko": "긴 u는 u, 자음, 묵음 e로 씁니다. June이 그 예입니다."
+    },
+    "ue_team": {
+      "en": "The letters ue side by side spell long u, as in blue.",
+      "ko": "나란히 쓴 ue는 긴 u입니다. blue가 그 예입니다."
+    },
+    "oo_team": {
+      "en": "The letters oo spell long u, as in moon.",
+      "ko": "oo 두 글자는 긴 u입니다. moon이 그 예입니다."
+    },
+    "ew_team": {
+      "en": "The letters ew spell long u, as in chew.",
+      "ko": "ew는 긴 u 소리입니다. chew가 그 예입니다."
+    },
+    "use_not_ue": {
+      "en": "Use is u, a consonant, then silent e. The e is not beside the u.",
+      "ko": "use는 u 다음 자음, 그다음 묵음 e입니다. ue처럼 붙지 않습니다."
+    },
+    "ue_inside": {
+      "en": "Tuesday keeps ue together. Those two letters spell the long u.",
+      "ko": "Tuesday 안에 ue가 있습니다. 그 두 글자가 긴 u입니다."
+    },
+    "oo_not_silent_e": {
+      "en": "Goose ends with e, but long u is spelled oo, not silent e.",
+      "ko": "goose는 e로 끝나지만 긴 u는 oo입니다. 묵음 e가 아닙니다."
+    },
+    "ew_not_ue": {
+      "en": "Flew sounds like blue, but the long u spelling here is ew.",
+      "ko": "flew는 blue와 비슷하게 들리지만 ew로 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the long u word: silent e, ue, oo, ew"
+    ],
+    "no_ixl_text": true
+  }
+}

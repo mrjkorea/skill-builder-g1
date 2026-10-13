@@ -1,0 +1,363 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_pronoun_verb_contractions",
+  "family_title_en": "Use pronoun-verb contractions",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_pronoun_verb_contractions",
+      "ix_title": "Use pronoun-verb contractions",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which contraction fits?",
+        "ko": "알맞은 줄임말은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right contraction.",
+        "ko": "알맞은 줄임말을 누르세요."
+      },
+      "choice_rule": "Give exactly four unique choices. One is the pronoun-verb contraction that matches the expanded words in the stem. The other three are other pronoun-verb contractions or the lookalikes your, its, their, or there. Mix answer_index. Never use n't forms as the target.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "i'm",
+        "i've",
+        "i'll",
+        "i'd",
+        "you're",
+        "you've",
+        "you'll",
+        "you'd",
+        "he's",
+        "he'll",
+        "he'd",
+        "she's",
+        "she'll",
+        "she'd",
+        "it's",
+        "we're",
+        "we've",
+        "we'll",
+        "we'd",
+        "they're",
+        "they've",
+        "they'll",
+        "they'd"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_pronoun_verb_contractions_0001",
+          "tier": 1,
+          "stem": "I am so happy today.",
+          "choices": [
+            "I'm",
+            "I've",
+            "I'll",
+            "I'd"
+          ],
+          "answer_index": 0,
+          "explain_key": "im",
+          "media": [
+            {
+              "lemma": "smile"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_pronoun_verb_contractions_0002",
+          "tier": 1,
+          "stem": "She is at home.",
+          "choices": [
+            "He's",
+            "She's",
+            "We're",
+            "It's"
+          ],
+          "answer_index": 1,
+          "explain_key": "shes",
+          "media": [
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_pronoun_verb_contractions_0003",
+          "tier": 1,
+          "stem": "We are ready for lunch.",
+          "choices": [
+            "We've",
+            "They're",
+            "We're",
+            "We'll"
+          ],
+          "answer_index": 2,
+          "explain_key": "were_are"
+        },
+        {
+          "item_id": "roots_use_pronoun_verb_contractions_0004",
+          "tier": 2,
+          "stem": "They have a little puppy.",
+          "choices": [
+            "They're",
+            "They'll",
+            "We're",
+            "They've"
+          ],
+          "answer_index": 3,
+          "explain_key": "theyve",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_pronoun_verb_contractions_0005",
+          "tier": 2,
+          "stem": "You are my best friend.",
+          "choices": [
+            "You're",
+            "Your",
+            "You've",
+            "You'll"
+          ],
+          "answer_index": 0,
+          "explain_key": "youre"
+        },
+        {
+          "item_id": "roots_use_pronoun_verb_contractions_0006",
+          "tier": 2,
+          "stem": "It is cold and wet.",
+          "choices": [
+            "Its",
+            "It's",
+            "I'm",
+            "He's"
+          ],
+          "answer_index": 1,
+          "explain_key": "its_is",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_pronoun_verb_contractions_0007",
+          "tier": 3,
+          "stem": "<NAME> said I will help after lunch.",
+          "choices": [
+            "I've",
+            "I'm",
+            "I'll",
+            "I'd"
+          ],
+          "answer_index": 2,
+          "explain_key": "ill",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_use_pronoun_verb_contractions_0008",
+          "tier": 3,
+          "stem": "They are happy at the park.",
+          "choices": [
+            "Their",
+            "There",
+            "They've",
+            "They're"
+          ],
+          "answer_index": 3,
+          "explain_key": "theyre",
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Always offer four unique choices and exactly one right answer.",
+      "The stem must show the expanded pronoun plus verb, such as I am, she is, they have, or I will. Choices show contracted forms.",
+      "Never make an n't form the target. Those are not pronoun-verb contractions.",
+      "Tier 1 distractors use a different pronoun, such as I'm versus he's or we're.",
+      "Tier 2 distractors keep the same pronoun but change the verb, or use your versus you're and its versus it's.",
+      "Tier 3 distractors are near misses: they're versus their versus there, and I'll versus I've versus I'd.",
+      "Keep every stem in kid world: school, home, food, pets, play, family, or weather. No brands and no real names.",
+      "Do not reuse the same four-choice set on back-to-back items. Mix answer_index."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bquestion mark\\b",
+    "\\bpunctuation\\b",
+    "\\bcontraction\\b",
+    "\\bapostrophe\\b",
+    "\\bpronoun\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bisn't\\b",
+    "\\baren't\\b",
+    "\\bdon't\\b",
+    "\\bdoesn't\\b",
+    "\\bdidn't\\b",
+    "\\bcan't\\b",
+    "\\bwon't\\b",
+    "\\blet's\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words that state I am, he is, she is, we are, or they are. Distractors swap the pronoun so the match is obvious.",
+    "2": "Grade-level stems of five to seven words. Use same-pronoun wrong verbs, plus your versus you're and its versus it's.",
+    "3": "Near-miss lookalikes their, there, they're and I'll, I've, I'd. Stems may reach ten words and may use <NAME>."
+  },
+  "miss_explain": {
+    "im": {
+      "en": "I'm means I am.",
+      "ko": "I'm은 I am의 줄임말입니다."
+    },
+    "youre": {
+      "en": "You're means you are, not your.",
+      "ko": "You're는 you are입니다. your이 아닙니다."
+    },
+    "hes": {
+      "en": "He's means he is.",
+      "ko": "He's는 he is의 줄임말입니다."
+    },
+    "shes": {
+      "en": "She's means she is.",
+      "ko": "She's는 she is의 줄임말입니다."
+    },
+    "its_is": {
+      "en": "It's means it is, not its.",
+      "ko": "It's는 it is입니다. its가 아닙니다."
+    },
+    "were_are": {
+      "en": "We're means we are.",
+      "ko": "We're는 we are의 줄임말입니다."
+    },
+    "theyre": {
+      "en": "They're means they are, not their or there.",
+      "ko": "They're는 they are입니다. their이나 there가 아닙니다."
+    },
+    "ive": {
+      "en": "I've means I have.",
+      "ko": "I've는 I have의 줄임말입니다."
+    },
+    "youve": {
+      "en": "You've means you have.",
+      "ko": "You've는 you have의 줄임말입니다."
+    },
+    "weve": {
+      "en": "We've means we have.",
+      "ko": "We've는 we have의 줄임말입니다."
+    },
+    "theyve": {
+      "en": "They've means they have.",
+      "ko": "They've는 they have의 줄임말입니다."
+    },
+    "ill": {
+      "en": "I'll means I will.",
+      "ko": "I'll은 I will의 줄임말입니다."
+    },
+    "youll": {
+      "en": "You'll means you will.",
+      "ko": "You'll은 you will의 줄임말입니다."
+    },
+    "hell": {
+      "en": "He'll means he will.",
+      "ko": "He'll은 he will의 줄임말입니다."
+    },
+    "shell": {
+      "en": "She'll means she will.",
+      "ko": "She'll은 she will의 줄임말입니다."
+    },
+    "well_will": {
+      "en": "We'll means we will.",
+      "ko": "We'll은 we will의 줄임말입니다."
+    },
+    "theyll": {
+      "en": "They'll means they will.",
+      "ko": "They'll은 they will의 줄임말입니다."
+    },
+    "id": {
+      "en": "I'd means I would.",
+      "ko": "I'd는 I would의 줄임말입니다."
+    },
+    "youd": {
+      "en": "You'd means you would.",
+      "ko": "You'd는 you would의 줄임말입니다."
+    },
+    "hed": {
+      "en": "He'd means he would.",
+      "ko": "He'd는 he would의 줄임말입니다."
+    },
+    "shed": {
+      "en": "She'd means she would.",
+      "ko": "She'd는 she would의 줄임말입니다."
+    },
+    "wed": {
+      "en": "We'd means we would.",
+      "ko": "We'd는 we would의 줄임말입니다."
+    },
+    "theyd": {
+      "en": "They'd means they would.",
+      "ko": "They'd는 they would의 줄임말입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "tts-bake"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use pronoun-verb contractions"
+    ],
+    "no_ixl_text": true
+  }
+}

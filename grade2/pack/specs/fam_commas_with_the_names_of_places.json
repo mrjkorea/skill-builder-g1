@@ -1,0 +1,270 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_commas_with_the_names_of_places",
+  "family_title_en": "Commas with the names of places",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_commas_with_the_names_of_places",
+      "ix_title": "Commas with the names of places",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence is written right?",
+        "ko": "어느 문장이 바르게 쓰였나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that is written right.",
+        "ko": "바르게 쓰인 문장을 누르세요."
+      },
+      "choice_rule": "Write four full kid sentences. Exactly one punctuates the place names correctly. Use city then state, city then country, or one place name. Build distractors by dropping the comma, using a period between the names, putting a comma before the place, leaving a trailing comma, reversing city and state, or splitting a two-word place.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "boston",
+        "dallas",
+        "miami",
+        "chicago",
+        "denver",
+        "ohio",
+        "florida",
+        "oregon",
+        "alaska",
+        "england"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_commas_with_the_names_of_places_0001",
+          "tier": 1,
+          "stem": "A letter from home.",
+          "choices": [
+            "We live in York, Texas.",
+            "We live in York Texas.",
+            "We live in York. Texas.",
+            "We live in, York Texas."
+          ],
+          "answer_index": 0,
+          "explain_key": "city_state",
+          "media": [
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_the_names_of_places_0002",
+          "tier": 1,
+          "stem": "Our family trip.",
+          "choices": [
+            "We went to London Canada.",
+            "We went to London, Canada.",
+            "We went to London. Canada.",
+            "We went to, London Canada."
+          ],
+          "answer_index": 1,
+          "explain_key": "city_country",
+          "media": [
+            {
+              "lemma": "map"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_the_names_of_places_0003",
+          "tier": 1,
+          "stem": "My aunt lives here.",
+          "choices": [
+            "My aunt lives in, Texas.",
+            "My aunt lives in Texas,",
+            "My aunt lives in Texas.",
+            "My aunt, lives in Texas."
+          ],
+          "answer_index": 2,
+          "explain_key": "one_place",
+          "media": [
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_the_names_of_places_0004",
+          "tier": 2,
+          "stem": "Grandma wrote from town.",
+          "choices": [
+            "Grandma lives in Boston, Ohio.",
+            "Grandma lives in Boston Ohio.",
+            "Grandma lives in Boston. Ohio.",
+            "Grandma lives in, Boston Ohio."
+          ],
+          "answer_index": 0,
+          "explain_key": "city_state"
+        },
+        {
+          "item_id": "roots_commas_with_the_names_of_places_0005",
+          "tier": 2,
+          "stem": "A card from grandpa.",
+          "choices": [
+            "We live in New York USA.",
+            "We live in New, York USA.",
+            "We live in New York. USA.",
+            "We live in New York, USA."
+          ],
+          "answer_index": 3,
+          "explain_key": "city_country"
+        },
+        {
+          "item_id": "roots_commas_with_the_names_of_places_0006",
+          "tier": 2,
+          "stem": "We play at school.",
+          "choices": [
+            "Our school is in, California.",
+            "Our school is in California.",
+            "Our school is in California,",
+            "Our school, is in California."
+          ],
+          "answer_index": 1,
+          "explain_key": "one_place",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_the_names_of_places_0007",
+          "tier": 3,
+          "stem": "<NAME> lives in a city.",
+          "choices": [
+            "We live in New, York.",
+            "We live in, New York.",
+            "We live in New York.",
+            "We live in New York,"
+          ],
+          "answer_index": 2,
+          "explain_key": "two_word_city",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_commas_with_the_names_of_places_0008",
+          "tier": 3,
+          "stem": "<NAME> went on a trip.",
+          "choices": [
+            "We went to York, Texas.",
+            "We went to Texas, York.",
+            "We went to York Texas.",
+            "We went to York. Texas."
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_order",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "map"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The stem is a short kid-world frame about home, family, school, or a trip. It is not one of the four answer sentences.",
+      "Exactly one choice is correctly punctuated. Never write two choices that can both look right.",
+      "For city and state or city and country, always include the version with no comma.",
+      "Other wrong choices move the comma, swap a period for the comma, reverse the city and state, or split a two-word place.",
+      "Every choice is a full sentence. Use only the roots word list plus allowed extra place names. Never use real person names; use <NAME>.",
+      "Never use street numbers, brands, or grown-up addresses. Keep places in the kid world: home, school, trips, family.",
+      "Tier 3 wrong choices must be near-miss comma placement, not silly extra marks."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bpunctuation\\b",
+    "\\bquestion mark\\b",
+    "\\bcomma\\b",
+    "\\bcommas\\b",
+    "\\bput a comma\\b",
+    "\\badd a comma\\b",
+    "\\bmissing comma\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words with a place picture lemma. Offer a clear city and state, city and country, or one place name. Wrong choices drop the comma or add a very obvious extra comma.",
+    "2": "Grade-level family or school stems. Mix city and state, city and country, two-word cities with a country, and single place names. Wrong choices are the missing comma and one misplaced comma.",
+    "3": "Near-miss comma placement. Use two-word places such as New York with a comma inside, a reversed city and state, or a comma after a single place."
+  },
+  "miss_explain": {
+    "city_state": {
+      "en": "Put a comma between the city and the state.",
+      "ko": "도시와 주 이름 사이에 쉼표를 넣어요."
+    },
+    "city_country": {
+      "en": "Put a comma between the city and the country.",
+      "ko": "도시와 나라 이름 사이에 쉼표를 넣어요."
+    },
+    "one_place": {
+      "en": "One place name does not need a comma.",
+      "ko": "장소가 하나면 쉼표가 필요 없어요."
+    },
+    "two_word_city": {
+      "en": "A two-word place is one name. Do not put a comma inside it.",
+      "ko": "두 단어로 된 장소는 하나의 이름이에요. 가운데에 쉼표를 넣지 마세요."
+    },
+    "wrong_order": {
+      "en": "Write the city first, then a comma, then the state.",
+      "ko": "도시를 먼저 쓰고 쉼표 다음에 주를 써요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Commas with the names of places"
+    ],
+    "no_ixl_text": true
+  }
+}

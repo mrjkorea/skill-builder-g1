@@ -1,0 +1,491 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_consonant_l_e_words",
+  "family_title_en": "Complete the consonant-l-e words",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_consonant_l_e_words",
+      "ix_title": "Complete the consonant-l-e words",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which consonant-l-e word is finished?",
+        "ko": "어떤 자음-l-e 단어가 완성되었나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the one whole word.",
+        "ko": "단어 하나 전체를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word choices and one right answer. The right choice is the base consonant-l-e word: two or more beats, ending in a consonant plus the letters l and e. A plural is not the base, and a one-beat magic-e word is never right. Stem frame: Complete the TOPIC word START. The NAME token may come first, as in <NAME> will complete the book word ti. When NAME is in the stem, set item swap_slots NAME to names.txt. TOPIC is a kid-world roots.txt word such as fruit, home, bird, size, family, play, cake, book, pet, class, rain, milk, game, color, tree, school, baby, food, farm, horse, bug, door, toy, beach, kitchen, light, or face. START is the first syllable of the target, or a longer start from allowed_extra_words when that syllable is a common roots word. The finished target must not appear in the stem. Use only roots.txt, allowed_extra_words, and NAME, with at most ten words. Real targets include apple, table, little, turtle, eagle, circle, people, title, single, able, example, and article, plus every correctly spelled consonant-l-e word in allowed_extra_words. Starts and misspellings in allowed_extra_words are never the right answer. Prefer two-beat kid words. Tier 1 wrong choices are other real consonant-l-e words that do not start with START. Tier 2 wrong choices are one-edit misspellings from roots.txt or allowed_extra_words. Tier 3 wrong choices are near misses only. A tier 3 item may include one real one-beat magic-e word that shares START. Only one choice is the consonant-l-e target. Never invent a spelling outside roots.txt and allowed_extra_words. No bare endings, no single letters, and no sound symbols. Add media as one lemma of the target. Do not describe a picture in the stem.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "abl",
+        "ablle",
+        "ank",
+        "ankel",
+        "ankl",
+        "ankle",
+        "aple",
+        "appel",
+        "appl",
+        "arti",
+        "articel",
+        "articl",
+        "bee",
+        "beetel",
+        "beetl",
+        "beetle",
+        "bot",
+        "botle",
+        "bottel",
+        "bottl",
+        "bottle",
+        "bub",
+        "bubbel",
+        "bubbl",
+        "bubble",
+        "buble",
+        "cand",
+        "candel",
+        "candl",
+        "candle",
+        "canlde",
+        "catle",
+        "catt",
+        "cattel",
+        "cattl",
+        "cattle",
+        "cir",
+        "circel",
+        "circl",
+        "cirkle",
+        "cra",
+        "cradel",
+        "cradl",
+        "cradle",
+        "crum",
+        "crumbel",
+        "crumbl",
+        "crumble",
+        "cud",
+        "cuddel",
+        "cuddl",
+        "cuddle",
+        "dimpel",
+        "dimpl",
+        "dimple",
+        "eagel",
+        "eagl",
+        "egale",
+        "exam",
+        "exampel",
+        "exampl",
+        "fabel",
+        "fabl",
+        "fable",
+        "frec",
+        "freckel",
+        "freckl",
+        "freckle",
+        "gen",
+        "gentel",
+        "gentl",
+        "gentle",
+        "gig",
+        "giggel",
+        "giggl",
+        "giggle",
+        "gigle",
+        "han",
+        "handl",
+        "handle",
+        "handlle",
+        "jug",
+        "juggel",
+        "juggl",
+        "juggle",
+        "jugle",
+        "jun",
+        "jungel",
+        "jungl",
+        "jungle",
+        "ket",
+        "ketle",
+        "kettel",
+        "kettl",
+        "kettle",
+        "lit",
+        "litte",
+        "mapel",
+        "mapl",
+        "maple",
+        "marbel",
+        "marbl",
+        "marble",
+        "mid",
+        "middel",
+        "middl",
+        "middle",
+        "midle",
+        "nee",
+        "needel",
+        "needl",
+        "needle",
+        "noo",
+        "noodel",
+        "noodl",
+        "noodle",
+        "peb",
+        "pebbel",
+        "pebbl",
+        "pebble",
+        "peble",
+        "peo",
+        "peope",
+        "peopel",
+        "pic",
+        "pickel",
+        "pickl",
+        "pickle",
+        "pud",
+        "puddel",
+        "puddl",
+        "puddle",
+        "pudle",
+        "pur",
+        "purpel",
+        "purpl",
+        "purple",
+        "puz",
+        "puzl",
+        "puzle",
+        "puzzel",
+        "puzzle",
+        "ratle",
+        "ratt",
+        "rattel",
+        "rattl",
+        "rattle",
+        "sadd",
+        "saddel",
+        "saddl",
+        "saddle",
+        "sadle",
+        "sim",
+        "simpel",
+        "simpl",
+        "simple",
+        "singel",
+        "singl",
+        "snug",
+        "snuggel",
+        "snuggl",
+        "snuggle",
+        "snugle",
+        "spar",
+        "sparkel",
+        "sparkl",
+        "sparkle",
+        "sta",
+        "stap",
+        "stapel",
+        "stapl",
+        "staple",
+        "ta",
+        "tabble",
+        "tabel",
+        "tabl",
+        "tem",
+        "tempel",
+        "templ",
+        "temple",
+        "ti",
+        "tille",
+        "titel",
+        "titl",
+        "tum",
+        "tumbel",
+        "tumbl",
+        "tumble",
+        "tur",
+        "turtel",
+        "turtl",
+        "un",
+        "uncel",
+        "uncl",
+        "uncle",
+        "wigg",
+        "wiggel",
+        "wiggl",
+        "wiggle",
+        "wigle"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_consonant_l_e_words_0001",
+          "tier": 1,
+          "stem": "Complete the fruit word ap.",
+          "choices": [
+            "table",
+            "apple",
+            "turtle",
+            "circle"
+          ],
+          "answer_index": 1,
+          "explain_key": "double_then_le",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_consonant_l_e_words_0002",
+          "tier": 1,
+          "stem": "Complete the home word ta.",
+          "choices": [
+            "apple",
+            "little",
+            "table",
+            "eagle"
+          ],
+          "answer_index": 2,
+          "explain_key": "single_before_le",
+          "media": [
+            {
+              "lemma": "table"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_consonant_l_e_words_0003",
+          "tier": 1,
+          "stem": "Complete the bird word ea.",
+          "choices": [
+            "apple",
+            "candle",
+            "circle",
+            "eagle"
+          ],
+          "answer_index": 3,
+          "explain_key": "vowel_team_le",
+          "media": [
+            {
+              "lemma": "eagle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_consonant_l_e_words_0004",
+          "tier": 2,
+          "stem": "Complete the size word lit.",
+          "choices": [
+            "little",
+            "litle",
+            "littel",
+            "littl"
+          ],
+          "answer_index": 0,
+          "explain_key": "double_then_le",
+          "media": [
+            {
+              "lemma": "little"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_consonant_l_e_words_0005",
+          "tier": 2,
+          "stem": "Complete the family word peo.",
+          "choices": [
+            "peopl",
+            "peopel",
+            "peope",
+            "people"
+          ],
+          "answer_index": 3,
+          "explain_key": "letter_order",
+          "media": [
+            {
+              "lemma": "people"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_consonant_l_e_words_0006",
+          "tier": 2,
+          "stem": "Complete the play word bub.",
+          "choices": [
+            "buble",
+            "bubbel",
+            "bubble",
+            "bubbl"
+          ],
+          "answer_index": 2,
+          "explain_key": "double_then_le",
+          "media": [
+            {
+              "lemma": "bubble"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_consonant_l_e_words_0007",
+          "tier": 3,
+          "stem": "Complete the cake word can.",
+          "choices": [
+            "candel",
+            "candle",
+            "candl",
+            "canlde"
+          ],
+          "answer_index": 1,
+          "explain_key": "dle_order",
+          "media": [
+            {
+              "lemma": "candle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_consonant_l_e_words_0008",
+          "tier": 3,
+          "stem": "<NAME> will complete the book word ti.",
+          "choices": [
+            "tile",
+            "titel",
+            "titl",
+            "title"
+          ],
+          "answer_index": 3,
+          "explain_key": "title_not_tile",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "title"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use four whole words. Never offer a bare ending, a single letter, or a sound symbol as a choice.",
+      "Exactly one choice is the real consonant-l-e spelling. Misspellings in allowed_extra_words are never the right answer.",
+      "Tier 1 wrong choices are other real consonant-l-e words with a different beginning.",
+      "Tier 2 wrong choices are one-edit misspellings from the roots list or allowed_extra_words.",
+      "Tier 3 wrong choices are near misses only: el instead of le, a dropped final e, a wrong double letter, or one real one-beat word such as tile, smile, pile, file, while, or mile.",
+      "One-beat magic-e words and words that only end in ll are never the right answer.",
+      "Do not use a plural as the base target. candles, bubbles, and wiggles are not the base form.",
+      "Keep school, home, food, pets, play, family, and weather. No brands and no real child names. Use the NAME token when a name is needed."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bipa\\b",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "/[a-z]{1,6}/",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b",
+    "\\babel\\b",
+    "\\bsam\\b",
+    "\\bsin\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\brifle\\b",
+    "\\bbattle\\b"
+  ],
+  "tier_rules": {
+    "1": "Five-word stems in the frame Complete the TOPIC word START. The right word is the only choice that begins with START. The other choices are different real consonant-l-e words.",
+    "2": "Same short frame. Wrong choices are one-edit misspellings of the target from the roots list or allowed_extra_words.",
+    "3": "Near-miss spellings only, and the stem may add the NAME token. Traps are el for le, a missing e, a wrong double letter, or one real one-beat word with the same start."
+  },
+  "miss_explain": {
+    "double_then_le": {
+      "en": "Write that consonant two times, then l, then e.",
+      "ko": "그 자음을 두 번 쓰고 그다음 l, 그다음 e를 쓰세요."
+    },
+    "single_before_le": {
+      "en": "The vowel is long, so write that consonant once, then l and e.",
+      "ko": "모음이 길면 그 자음을 한 번 쓰고 l과 e를 쓰세요."
+    },
+    "vowel_team_le": {
+      "en": "Keep the two vowel letters, then one consonant, l, and e.",
+      "ko": "모음 글자 두 개를 유지하고 자음 하나, l, e를 쓰세요."
+    },
+    "letter_order": {
+      "en": "Use every letter of the real word in order. Do not drop or swap one.",
+      "ko": "맞는 단어의 글자를 순서대로 모두 쓰세요. 빼거나 바꾸지 마세요."
+    },
+    "dle_order": {
+      "en": "This word ends with d, then l, then e.",
+      "ko": "이 단어는 d 다음 l 다음 e로 끝납니다."
+    },
+    "title_not_tile": {
+      "en": "Title has two beats. Tile is a different one-beat word.",
+      "ko": "title은 두 박자입니다. tile은 다른 한 박자 단어입니다."
+    },
+    "two_beats": {
+      "en": "A consonant-l-e word has two beats. A one-beat word is not the match.",
+      "ko": "자음-l-e 단어는 두 박자입니다. 한 박자 단어는 답이 아닙니다."
+    },
+    "le_not_el": {
+      "en": "End with the letter l and then e. Do not put e before l.",
+      "ko": "글자 l 다음에 e로 끝내세요. e를 l 앞에 두지 마세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the consonant-l-e words"
+    ],
+    "no_ixl_text": true
+  }
+}

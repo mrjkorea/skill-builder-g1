@@ -1,0 +1,385 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_the_correct_vowel_tea",
+  "family_title_en": "Complete the word with the correct vowel team",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_the_correct_vowel_tea",
+      "ix_title": "Complete the word with the correct vowel team",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which vowel team completes the word?",
+        "ko": "어떤 모음 팀이 단어를 완성하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the vowel team that completes the word.",
+        "ko": "단어를 완성하는 모음 팀을 누르세요."
+      },
+      "choice_rule": "Four vowel-team choices in shuffled order. Use only ai, ay, ea, ee, ie, oa, oe, oo, ou, ow, oi, oy, au, aw, ew, ue, or igh. Exactly one team replaces the hyphen and spells the word the sentence means. No whole words, no single letters, and no sound marks.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "b-ch",
+        "b-k",
+        "b-l",
+        "b-ns",
+        "b-t",
+        "bl-",
+        "br-d",
+        "br-m",
+        "br-t",
+        "c-k",
+        "c-l",
+        "c-n",
+        "c-nt",
+        "c-t",
+        "ch-",
+        "ch-k",
+        "ch-se",
+        "cl-d",
+        "cl-n",
+        "cr-k",
+        "cr-l",
+        "d-p",
+        "dr-",
+        "dr-m",
+        "f-d",
+        "f-l",
+        "f-nd",
+        "f-t",
+        "fl-",
+        "fl-t",
+        "fr-",
+        "g-d",
+        "g-l",
+        "g-se",
+        "gr-",
+        "gr-n",
+        "gr-nd",
+        "h-k",
+        "h-se",
+        "k-p",
+        "l-d",
+        "l-f",
+        "l-k",
+        "l-p",
+        "m-l",
+        "m-n",
+        "m-se",
+        "m-t",
+        "m-th",
+        "n-d",
+        "n-n",
+        "n-se",
+        "n-t",
+        "p-l",
+        "p-nt",
+        "pl-",
+        "pl-se",
+        "qu-n",
+        "r-d",
+        "r-f",
+        "r-l",
+        "r-m",
+        "r-n",
+        "r-t",
+        "s-d",
+        "s-l",
+        "s-n",
+        "s-t",
+        "sch-l",
+        "sh-",
+        "sh-p",
+        "sh-t",
+        "sl-",
+        "sl-p",
+        "sn-",
+        "sn-l",
+        "sp-n",
+        "st-",
+        "st-d",
+        "str-t",
+        "sw-t",
+        "t-ch",
+        "t-cher",
+        "t-k",
+        "t-l",
+        "t-m",
+        "t-st",
+        "t-th",
+        "thr-",
+        "thr-t",
+        "tr-",
+        "tr-n",
+        "w-d",
+        "w-k",
+        "w-t",
+        "wh-l",
+        "wh-t",
+        "wind-",
+        "yell-"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_vowel_tea_0001",
+          "tier": 1,
+          "stem": "Wet drops from the sky are r-n.",
+          "choices": [
+            "ee",
+            "ai",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 1,
+          "explain_key": "ai_team",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_vowel_tea_0002",
+          "tier": 1,
+          "stem": "The duck has two f-t.",
+          "choices": [
+            "ou",
+            "ee",
+            "ow",
+            "ai"
+          ],
+          "answer_index": 1,
+          "explain_key": "ee_team",
+          "media": [
+            {
+              "lemma": "feet"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_vowel_tea_0003",
+          "tier": 1,
+          "stem": "The night sky has a m-n.",
+          "choices": [
+            "ou",
+            "oy",
+            "aw",
+            "oo"
+          ],
+          "answer_index": 3,
+          "explain_key": "oo_moon",
+          "media": [
+            {
+              "lemma": "moon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_vowel_tea_0004",
+          "tier": 2,
+          "stem": "We swim at the sandy b-ch.",
+          "choices": [
+            "ee",
+            "ai",
+            "ea",
+            "oa"
+          ],
+          "answer_index": 2,
+          "explain_key": "ea_team"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_vowel_tea_0005",
+          "tier": 2,
+          "stem": "Mom has a warm c-t in the snow.",
+          "choices": [
+            "oo",
+            "ow",
+            "ai",
+            "oa"
+          ],
+          "answer_index": 3,
+          "explain_key": "oa_team"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_vowel_tea_0006",
+          "tier": 2,
+          "stem": "A farm animal with soft wool is a sh-p.",
+          "choices": [
+            "ea",
+            "oa",
+            "oo",
+            "ee"
+          ],
+          "answer_index": 3,
+          "explain_key": "ee_team"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_vowel_tea_0007",
+          "tier": 3,
+          "stem": "A fun ride on the lake is a b-t.",
+          "choices": [
+            "ea",
+            "oo",
+            "oa",
+            "ai"
+          ],
+          "answer_index": 2,
+          "explain_key": "use_sentence"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_vowel_tea_0008",
+          "tier": 3,
+          "stem": "<NAME> ate hot m-t for dinner at home.",
+          "choices": [
+            "ee",
+            "oa",
+            "oo",
+            "ea"
+          ],
+          "answer_index": 3,
+          "explain_key": "use_sentence",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Choices are vowel teams of two or three letters, never whole words and never a single letter.",
+      "Exactly one choice fills the hyphen so the sentence names one real word.",
+      "Keep teams inside this set: ai, ay, ea, ee, ie, oa, oe, oo, ou, ow, oi, oy, au, aw, ew, ue, igh.",
+      "On tier 1, each wrong team must form a non-word in that gap.",
+      "On tier 2, one wrong team is a common mix-up, such as ee beside ea or ow beside oa.",
+      "On tier 3, at least two teams must form real words, and only the sentence picks one.",
+      "Do not put the finished word in the stem. Do not use slash marks, held sounds, or real names.",
+      "Stay in a kid world of school, home, food, pets, play, family, or weather. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "https?://",
+    "@",
+    "/",
+    "_",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\bdigraph\\b",
+    "\\bdiphthong\\b"
+  ],
+  "tier_rules": {
+    "1": "Clues of four to seven words with one hyphen gap. Use a common team such as ai, ee, oa, oo, or ow. Each wrong team must spell a non-word. A media lemma of the finished word is allowed.",
+    "2": "Clues of five to nine words. A two-syllable word is welcome. One wrong team is a close mix-up, such as ee beside ea or oo beside oa. Do not add a picture lemma.",
+    "3": "Clues of seven to ten words. At least two teams must spell real words, so only the sentence meaning can decide. Use explain_key use_sentence. Do not add a picture lemma."
+  },
+  "miss_explain": {
+    "ai_team": {
+      "en": "This word uses the vowel team ai, the same team as in rain and train.",
+      "ko": "이 단어는 모음 팀 ai를 씁니다. rain, train과 같은 팀입니다."
+    },
+    "ay_team": {
+      "en": "This word uses the vowel team ay, the same team as in play and day.",
+      "ko": "이 단어는 모음 팀 ay를 씁니다. play, day와 같은 팀입니다."
+    },
+    "ea_team": {
+      "en": "This word uses the vowel team ea, the same team as in beach and leaf.",
+      "ko": "이 단어는 모음 팀 ea를 씁니다. beach, leaf와 같은 팀입니다."
+    },
+    "ee_team": {
+      "en": "This word uses the vowel team ee, the same team as in tree and sheep.",
+      "ko": "이 단어는 모음 팀 ee를 씁니다. tree, sheep과 같은 팀입니다."
+    },
+    "oa_team": {
+      "en": "This word uses the vowel team oa, the same team as in boat and coat.",
+      "ko": "이 단어는 모음 팀 oa를 씁니다. boat, coat와 같은 팀입니다."
+    },
+    "oo_moon": {
+      "en": "This word uses the vowel team oo, the same team as in moon and food.",
+      "ko": "이 단어는 모음 팀 oo를 씁니다. moon, food와 같은 팀입니다."
+    },
+    "oo_book": {
+      "en": "This word uses the vowel team oo, the same team as in book and look.",
+      "ko": "이 단어는 모음 팀 oo를 씁니다. book, look과 같은 팀입니다."
+    },
+    "ow_team": {
+      "en": "This word uses the vowel team ow, the same team as in snow and grow.",
+      "ko": "이 단어는 모음 팀 ow를 씁니다. snow, grow와 같은 팀입니다."
+    },
+    "ou_team": {
+      "en": "This word uses the vowel team ou, the same team as in house and cloud.",
+      "ko": "이 단어는 모음 팀 ou를 씁니다. house, cloud와 같은 팀입니다."
+    },
+    "oi_team": {
+      "en": "This word uses the vowel team oi, the same team as in coin and noise.",
+      "ko": "이 단어는 모음 팀 oi를 씁니다. coin, noise와 같은 팀입니다."
+    },
+    "oy_team": {
+      "en": "This word uses the vowel team oy, the same team as in toy and boy.",
+      "ko": "이 단어는 모음 팀 oy를 씁니다. toy, boy와 같은 팀입니다."
+    },
+    "ew_team": {
+      "en": "This word uses the vowel team ew, the same team as in new and chew.",
+      "ko": "이 단어는 모음 팀 ew를 씁니다. new, chew와 같은 팀입니다."
+    },
+    "ue_team": {
+      "en": "This word uses the vowel team ue, the same team as in blue.",
+      "ko": "이 단어는 모음 팀 ue를 씁니다. blue와 같은 팀입니다."
+    },
+    "igh_team": {
+      "en": "This word uses the vowel team igh, the same team as in night and light.",
+      "ko": "이 단어는 모음 팀 igh를 씁니다. night, light와 같은 팀입니다."
+    },
+    "use_sentence": {
+      "en": "Another team can spell a different word. Choose the team that fits the sentence.",
+      "ko": "다른 팀도 다른 단어를 만들 수 있습니다. 문장에 맞는 팀을 고르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with the correct vowel team"
+    ],
+    "no_ixl_text": true
+  }
+}

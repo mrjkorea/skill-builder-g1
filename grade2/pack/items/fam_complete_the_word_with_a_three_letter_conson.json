@@ -1,0 +1,2408 @@
+[
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0001",
+    "tier": 1,
+    "stem": "My sock has a stripe.",
+    "choices": [
+      "str",
+      "squ",
+      "spl",
+      "shr"
+    ],
+    "answer_index": 0,
+    "explain_key": "str_onset",
+    "media": [
+      {
+        "lemma": "stripe"
+      }
+    ],
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0002",
+    "tier": 1,
+    "stem": "We saw three fish.",
+    "choices": [
+      "squ",
+      "spl",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 2,
+    "explain_key": "thr_onset",
+    "media": [
+      {
+        "lemma": "three"
+      }
+    ],
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0003",
+    "tier": 1,
+    "stem": "We squeeze the wet rag.",
+    "choices": [
+      "str",
+      "squ",
+      "spl",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "squ_onset",
+    "media": [
+      {
+        "lemma": "squeeze"
+      }
+    ],
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0004",
+    "tier": 2,
+    "stem": "The screen is too bright.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "shr"
+    ],
+    "answer_index": 2,
+    "explain_key": "scr_onset",
+    "media": [
+      {
+        "lemma": "screen"
+      }
+    ],
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0005",
+    "tier": 2,
+    "stem": "We splash in the little pool.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 3,
+    "explain_key": "spl_onset",
+    "media": [
+      {
+        "lemma": "splash"
+      }
+    ],
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0006",
+    "tier": 2,
+    "stem": "The spring days are very sunny.",
+    "choices": [
+      "str",
+      "spr",
+      "spl",
+      "scr"
+    ],
+    "answer_index": 1,
+    "explain_key": "spr_onset",
+    "media": [
+      {
+        "lemma": "spring"
+      }
+    ],
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0007",
+    "tier": 3,
+    "stem": "<NAME> saw a strong horse by the tree.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "strong"
+      }
+    ],
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0008",
+    "tier": 3,
+    "stem": "Please spray water on the green grass.",
+    "choices": [
+      "str",
+      "spl",
+      "thr",
+      "spr"
+    ],
+    "answer_index": 3,
+    "explain_key": "blend_near",
+    "media": [
+      {
+        "lemma": "spray"
+      }
+    ],
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0009",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The street is wet today.",
+    "choices": [
+      "squ",
+      "thr",
+      "str",
+      "shr"
+    ],
+    "answer_index": 2,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "street"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0010",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I hear a loud squeak.",
+    "choices": [
+      "thr",
+      "squ",
+      "spl",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squeak"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0011",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We throw the red ball.",
+    "choices": [
+      "thr",
+      "squ",
+      "shr",
+      "spr"
+    ],
+    "answer_index": 0,
+    "explain_key": "thr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "throw"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0012",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My string is very long.",
+    "choices": [
+      "squ",
+      "spl",
+      "shr",
+      "str"
+    ],
+    "answer_index": 3,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "string"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0013",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The scrub brush is blue.",
+    "choices": [
+      "squ",
+      "thr",
+      "scr",
+      "shr"
+    ],
+    "answer_index": 2,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0014",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We spread jam on toast.",
+    "choices": [
+      "squ",
+      "spr",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "spr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0015",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I split the big cookie.",
+    "choices": [
+      "spl",
+      "squ",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 0,
+    "explain_key": "spl_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "split"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0016",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The stream runs by school.",
+    "choices": [
+      "squ",
+      "str",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stream"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0017",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We heard a loud scream.",
+    "choices": [
+      "squ",
+      "thr",
+      "scr",
+      "shr"
+    ],
+    "answer_index": 2,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scream"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0018",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The shrub is near fence.",
+    "choices": [
+      "shr",
+      "squ",
+      "thr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "shr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0019",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We scrape the wet chalk dust.",
+    "choices": [
+      "squ",
+      "scr",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0020",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My thread is blue now.",
+    "choices": [
+      "thr",
+      "squ",
+      "shr",
+      "spr"
+    ],
+    "answer_index": 0,
+    "explain_key": "thr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0021",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We strike the drum hard.",
+    "choices": [
+      "squ",
+      "str",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "strike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0022",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The square mat is red.",
+    "choices": [
+      "squ",
+      "thr",
+      "spl",
+      "shr"
+    ],
+    "answer_index": 0,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "square"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0023",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We sprout seeds in cup.",
+    "choices": [
+      "squ",
+      "spr",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "spr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sprout"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0024",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The shrimp is on plate.",
+    "choices": [
+      "shr",
+      "squ",
+      "thr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "shr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrimp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0025",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We stretch after gym class.",
+    "choices": [
+      "str",
+      "squ",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 0,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stretch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0026",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The squash is big and round.",
+    "choices": [
+      "squ",
+      "thr",
+      "spl",
+      "shr"
+    ],
+    "answer_index": 0,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squash"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0027",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We scrub the dirty pot.",
+    "choices": [
+      "squ",
+      "scr",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0028",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The straw is in my drink.",
+    "choices": [
+      "squ",
+      "str",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "straw"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0029",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We shrink the wet shirt.",
+    "choices": [
+      "shr",
+      "squ",
+      "thr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "shr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrink"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0030",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The throne looks like gold.",
+    "choices": [
+      "thr",
+      "squ",
+      "shr",
+      "spr"
+    ],
+    "answer_index": 0,
+    "explain_key": "thr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "throne"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0031",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We scrape mud off boots.",
+    "choices": [
+      "squ",
+      "scr",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0032",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The strap holds my bag.",
+    "choices": [
+      "str",
+      "squ",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 0,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "strap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0033",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We squint at the bright sun.",
+    "choices": [
+      "squ",
+      "thr",
+      "spl",
+      "shr"
+    ],
+    "answer_index": 0,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squint"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0034",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The shred fell on floor.",
+    "choices": [
+      "shr",
+      "squ",
+      "thr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "shr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shred"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0035",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We screw the lid on tight.",
+    "choices": [
+      "scr",
+      "squ",
+      "thr",
+      "shr"
+    ],
+    "answer_index": 0,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "screw"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0036",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We walked down our street after lunch.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 1,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "street"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0037",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mouse made a loud squeak.",
+    "choices": [
+      "str",
+      "squ",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 1,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squeak"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0038",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Can you throw the soft ball to me?",
+    "choices": [
+      "thr",
+      "spr",
+      "str",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "thr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "throw"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0039",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Her spring coat is pink and warm.",
+    "choices": [
+      "str",
+      "scr",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 2,
+    "explain_key": "spr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spring"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0040",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We watched the old screen at home.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "shr"
+    ],
+    "answer_index": 2,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "screen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0041",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids splash at the pool today.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 3,
+    "explain_key": "spl_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "splash"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0042",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He spread butter on his warm toast.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 1,
+    "explain_key": "spr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0043",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We split the apple at the picnic.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 3,
+    "explain_key": "spl_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "split"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0044",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The strong wind blew my hat off.",
+    "choices": [
+      "spr",
+      "scr",
+      "str",
+      "thr"
+    ],
+    "answer_index": 2,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "strong"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0045",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They scream when the lights go out.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "shr"
+    ],
+    "answer_index": 2,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scream"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0046",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The green shrub grows by our porch.",
+    "choices": [
+      "str",
+      "shr",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 1,
+    "explain_key": "shr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0047",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We fixed the cracked screen door.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 2,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "screen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0048",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She tied a thread on the red kite.",
+    "choices": [
+      "str",
+      "spr",
+      "thr",
+      "scr"
+    ],
+    "answer_index": 2,
+    "explain_key": "thr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0049",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We strike the drum at the party.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 0,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "strike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0050",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The square table fits our kitchen.",
+    "choices": [
+      "str",
+      "squ",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 1,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "square"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0051",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tiny seeds sprout in the wet soil.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "spr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sprout"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0052",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We ate shrimp with rice for dinner.",
+    "choices": [
+      "str",
+      "spr",
+      "shr",
+      "scr"
+    ],
+    "answer_index": 2,
+    "explain_key": "shr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrimp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0053",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We stretch our arms before we run.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stretch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0054",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Mom cooked squash soup for us tonight.",
+    "choices": [
+      "str",
+      "squ",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 1,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squash"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0055",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We scrub the table after we eat.",
+    "choices": [
+      "scr",
+      "str",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0056",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I sip juice with a long straw.",
+    "choices": [
+      "spr",
+      "scr",
+      "str",
+      "spl"
+    ],
+    "answer_index": 2,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "straw"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0057",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The shirt will shrink in hot water.",
+    "choices": [
+      "shr",
+      "str",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "shr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrink"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0058",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We read about a king on his throne.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 3,
+    "explain_key": "thr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "throne"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0059",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We scrape the plate into the bin.",
+    "choices": [
+      "scr",
+      "str",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0060",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The strap on my backpack is blue.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 1,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "strap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0061",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We squint when the snow is bright.",
+    "choices": [
+      "squ",
+      "str",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squint"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0062",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A shred of paper stuck to my shoe.",
+    "choices": [
+      "str",
+      "spr",
+      "shr",
+      "scr"
+    ],
+    "answer_index": 2,
+    "explain_key": "shr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shred"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0063",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Dad will screw the shelf to the wall.",
+    "choices": [
+      "scr",
+      "str",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "screw"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0064",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We spray the plant with clean water.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 1,
+    "explain_key": "spr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spray"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0065",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The stripe on my sock is bright green.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "str_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stripe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0066",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We squeeze the lemon into the tea.",
+    "choices": [
+      "str",
+      "spr",
+      "squ",
+      "scr"
+    ],
+    "answer_index": 2,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squeeze"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0067",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I saw three ducks at the pond.",
+    "choices": [
+      "thr",
+      "str",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "thr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "three"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0068",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We found a scrap of paper on desk.",
+    "choices": [
+      "str",
+      "scr",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 1,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0069",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The squid toy floats in the bath.",
+    "choices": [
+      "squ",
+      "str",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "squ_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0070",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We got a sprain playing soccer today.",
+    "choices": [
+      "str",
+      "scr",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 2,
+    "explain_key": "spr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sprain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0071",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We scratch the itchy bug bite gently.",
+    "choices": [
+      "scr",
+      "str",
+      "spr",
+      "squ"
+    ],
+    "answer_index": 0,
+    "explain_key": "scr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scratch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0072",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The throne in the story is gold.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 3,
+    "explain_key": "thr_onset",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "throne"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0073",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "After track practice <NAME> felt strong and happy.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "strong"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0074",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We took a trip down the wide main street.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "street"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0075",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The king sat on his tall gold throne.",
+    "choices": [
+      "str",
+      "thr",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "throne"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0076",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Please do not throw rocks near the glass window.",
+    "choices": [
+      "thr",
+      "str",
+      "spl",
+      "spr"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "throw"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0077",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We plant seeds that sprout by the back fence.",
+    "choices": [
+      "str",
+      "scr",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 2,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sprout"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0078",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We clip fresh grass while birds splash in the bath.",
+    "choices": [
+      "spl",
+      "str",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "splash"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0079",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The old TV screen flickered then went dark at bedtime.",
+    "choices": [
+      "str",
+      "scr",
+      "spr",
+      "thr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "screen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0080",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mom will spray the rose bush to keep bugs away.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spray"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0081",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We heard a squeak when the trap door moved slightly.",
+    "choices": [
+      "str",
+      "spr",
+      "squ",
+      "scr"
+    ],
+    "answer_index": 2,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squeak"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0082",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The class scream echoed in the hall after lunch.",
+    "choices": [
+      "scr",
+      "str",
+      "spr",
+      "squ"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scream"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0083",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Do not scream in the quiet library after school.",
+    "choices": [
+      "str",
+      "scr",
+      "spr",
+      "shr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scream"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0084",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We split the log with Dad after we rake leaves.",
+    "choices": [
+      "spl",
+      "str",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "split"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0085",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wet shirt might shrink if the water stays hot.",
+    "choices": [
+      "str",
+      "spr",
+      "shr",
+      "scr"
+    ],
+    "answer_index": 2,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrink"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0086",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We spread butter and jam on toast for breakfast.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "spread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0087",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "A tiny shrimp hid under a rock in the pool.",
+    "choices": [
+      "str",
+      "shr",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrimp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0088",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We stretch and breathe before the big race starts.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stretch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0089",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The round squash sat next to corn on our table.",
+    "choices": [
+      "str",
+      "spr",
+      "squ",
+      "scr"
+    ],
+    "answer_index": 2,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squash"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0090",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We scrub mud off our cleats after the muddy game.",
+    "choices": [
+      "scr",
+      "str",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0091",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I sew a button on my shirt with blue thread.",
+    "choices": [
+      "str",
+      "thr",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0092",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We strike the big drum when the music stops.",
+    "choices": [
+      "str",
+      "spr",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "strike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0093",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The square rug fits under our small wooden table.",
+    "choices": [
+      "str",
+      "spr",
+      "squ",
+      "scr"
+    ],
+    "answer_index": 2,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "square"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0094",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We squint when the bright sun hits the clock face.",
+    "choices": [
+      "squ",
+      "str",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squint"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0095",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "A green shrub grows where the trail turns left.",
+    "choices": [
+      "str",
+      "shr",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shrub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0096",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We scratch names off the wet art list today.",
+    "choices": [
+      "scr",
+      "str",
+      "spr",
+      "spl"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scratch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0097",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The long strap broke when my heavy books fell down.",
+    "choices": [
+      "spr",
+      "scr",
+      "str",
+      "thr"
+    ],
+    "answer_index": 2,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "strap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0098",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We scrape ice off the car window on cold mornings.",
+    "choices": [
+      "scr",
+      "str",
+      "spr",
+      "squ"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scrape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0099",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Friends share one straw at the juice stand today.",
+    "choices": [
+      "spr",
+      "str",
+      "scr",
+      "thr"
+    ],
+    "answer_index": 1,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "straw"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_word_with_a_three_letter_conson_0100",
+    "family_id": "fam_complete_the_word_with_a_three_letter_conson",
+    "skill_id": "roots_complete_the_word_with_a_three_letter_conson",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We squeeze the wet sponge after we wash the dishes.",
+    "choices": [
+      "squ",
+      "str",
+      "spr",
+      "scr"
+    ],
+    "answer_index": 0,
+    "explain_key": "blend_near",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "squeeze"
+      }
+    ]
+  }
+]

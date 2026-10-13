@@ -1,0 +1,296 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_r_control_sentence_that_matches_t",
+  "family_title_en": "Choose the r-control sentence that matches the picture",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_r_control_sentence_that_matches_t",
+      "ix_title": "Choose the r-control sentence that matches the picture",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence matches the picture?",
+        "ko": "그림과 맞는 문장은 어느 것인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that matches.",
+        "ko": "그림과 맞는 문장을 누르세요."
+      },
+      "choice_rule": "Four unique sentences and one answer_index. Words come from the roots list, allowed_extra_words, or the NAME token. Each sentence has one whole r-control word spelled ar, er, ir, or, and ur. Media is a single lemma that appears in the correct sentence only, and that sentence is true of a plain picture of the lemma. Stems are tap cues of at most ten words and do not describe the picture. Vary the answer_index. Some tier 3 stems may use <NAME> with swap slot NAME. Set explain_key to ar_word, er_word, ir_word, or_word, or ur_word to match the correct word. No IPA, no isolated sounds, and no audio files.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "arm",
+        "burn",
+        "chart",
+        "curl",
+        "fern",
+        "fork",
+        "fur",
+        "herd",
+        "porch",
+        "purple",
+        "purse",
+        "scarf",
+        "shark",
+        "shirt",
+        "skirt",
+        "smart",
+        "stir",
+        "storm",
+        "third",
+        "turkey"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_r_control_sentence_that_matches_t_0001",
+          "tier": 1,
+          "stem": "Which one matches?",
+          "choices": [
+            "I see a bird.",
+            "I see a horse.",
+            "I see a car.",
+            "I see a star."
+          ],
+          "answer_index": 0,
+          "explain_key": "ir_word",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_r_control_sentence_that_matches_t_0002",
+          "tier": 1,
+          "stem": "Find the right one.",
+          "choices": [
+            "I see a flower.",
+            "I see a river.",
+            "I see a turtle.",
+            "I see a sister."
+          ],
+          "answer_index": 2,
+          "explain_key": "ur_word",
+          "media": [
+            {
+              "lemma": "turtle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_r_control_sentence_that_matches_t_0003",
+          "tier": 1,
+          "stem": "Tap the right one.",
+          "choices": [
+            "The summer is hot.",
+            "I see the corn.",
+            "The winter is cold.",
+            "The morning is bright."
+          ],
+          "answer_index": 1,
+          "explain_key": "or_word",
+          "media": [
+            {
+              "lemma": "corn"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_r_control_sentence_that_matches_t_0004",
+          "tier": 2,
+          "stem": "Read and tap the right one.",
+          "choices": [
+            "I can see a park.",
+            "I can see a barn.",
+            "I can see a yard.",
+            "I can see a farm."
+          ],
+          "answer_index": 3,
+          "explain_key": "ar_word",
+          "media": [
+            {
+              "lemma": "farm"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_r_control_sentence_that_matches_t_0005",
+          "tier": 2,
+          "stem": "Read and find the right one.",
+          "choices": [
+            "I can see the sister.",
+            "I can see the mother.",
+            "I can see the teacher.",
+            "I can see the father."
+          ],
+          "answer_index": 2,
+          "explain_key": "er_word",
+          "media": [
+            {
+              "lemma": "teacher"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_r_control_sentence_that_matches_t_0006",
+          "tier": 2,
+          "stem": "Which one is the right match?",
+          "choices": [
+            "I can see a horse.",
+            "I can see the corn.",
+            "I can see a store.",
+            "I can see the morning."
+          ],
+          "answer_index": 0,
+          "explain_key": "or_word",
+          "media": [
+            {
+              "lemma": "horse"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_r_control_sentence_that_matches_t_0007",
+          "tier": 3,
+          "stem": "Read each one and tap the match.",
+          "choices": [
+            "Now I can see a card here.",
+            "Now I can see a car here.",
+            "Now I can see a cart here.",
+            "Now I can see a jar here."
+          ],
+          "answer_index": 1,
+          "explain_key": "ar_word",
+          "media": [
+            {
+              "lemma": "car"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_r_control_sentence_that_matches_t_0008",
+          "tier": 3,
+          "stem": "<NAME> can read and tap the match.",
+          "choices": [
+            "Now I can see this nurse here.",
+            "Now I can see this turtle here.",
+            "Now I can see this bird here.",
+            "Now I can see this girl here."
+          ],
+          "answer_index": 3,
+          "explain_key": "ir_word",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "girl"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use exactly four different sentences, and make exactly one of them name the picture lemma.",
+      "Every sentence must use the roots word list or allowed_extra_words and stay under sixty characters.",
+      "Put one whole r-control word in every sentence, spelled ar, er, ir, or, and ur. Never use IPA or an isolated sound.",
+      "Tier 1 wrong sentences name something very different. Tier 2 wrong sentences keep the frame and change the r-control word. Tier 3 wrong sentences are near misses such as car, card, and cart.",
+      "The correct sentence must be true of a plain picture of the lemma. Do not add details the picture may not show.",
+      "Do not describe the picture in the stem. The picture is only a media lemma. Do not invent audio files.",
+      "Keep the kid world to school, home, food, pets, play, family, and weather. No brands and no real personal names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\bdigraph\\b",
+    "\\bdiphthong\\b",
+    "r-control",
+    "/[^/\\s]{1,8}/",
+    "disney",
+    "pokemon",
+    "minecraft",
+    "youtube",
+    "\\bnike\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words and short sentences. The other three sentences name very different things, so the picture match is easy to see.",
+    "2": "Stems of about six words. Sentences share a frame, and distractors swap in another r-control word, including two-syllable words such as teacher, sister, and morning. Only one sentence names the picture.",
+    "3": "Stems of seven to ten words. Distractors are near-miss r-control spellings in the same frame, such as car, card, cart, and jar, or bird and girl. Exactly one sentence names the picture lemma."
+  },
+  "miss_explain": {
+    "ar_word": {
+      "en": "Read the whole ar word. The right sentence names the picture, not a look-alike word.",
+      "ko": "ar 단어를 통째로 읽으세요. 비슷해 보여도 그림의 이름을 말한 문장이 맞아요."
+    },
+    "er_word": {
+      "en": "Read the whole er word. The right sentence names the picture, not a different er word.",
+      "ko": "er 단어를 통째로 읽으세요. 다른 er 단어가 아니라 그림의 이름을 말한 문장이 맞아요."
+    },
+    "ir_word": {
+      "en": "Read the whole ir word, as in bird or girl. The right sentence names the picture.",
+      "ko": "bird, girl처럼 ir 단어를 통째로 읽으세요. 그림의 이름을 말한 문장이 맞아요."
+    },
+    "or_word": {
+      "en": "Read the whole or word, as in horse or corn. The right sentence names the picture.",
+      "ko": "horse, corn처럼 or 단어를 통째로 읽으세요. 그림의 이름을 말한 문장이 맞아요."
+    },
+    "ur_word": {
+      "en": "Read the whole ur word, as in turtle or nurse. The right sentence names the picture.",
+      "ko": "turtle, nurse처럼 ur 단어를 통째로 읽으세요. 그림의 이름을 말한 문장이 맞아요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Choose the r-control sentence that matches the picture"
+    ],
+    "no_ixl_text": true
+  }
+}

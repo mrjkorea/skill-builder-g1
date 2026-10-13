@@ -1,0 +1,339 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_order_alphabetically_based_on_the_first_thre",
+  "family_title_en": "Order by first three letters",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_order_alphabetically_based_on_the_first_thre",
+      "ix_title": "Order alphabetically based on the first three letters",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word comes first?",
+        "ko": "어떤 단어가 ABC 순으로 가장 먼저인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that comes first in ABC order.",
+        "ko": "ABC 순으로 가장 앞에 오는 단어를 누르세요."
+      },
+      "choice_rule": "Four unique wordlist words. Exactly one is first in ABC order when you compare the first three letters. Never use a set that ties on the first three letters.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "abc",
+        "alphabet",
+        "earlier",
+        "last",
+        "next",
+        "comes",
+        "words",
+        "lists"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_thre_0001",
+          "tier": 1,
+          "stem": "See bag, bed, box, and bus.",
+          "choices": [
+            "bed",
+            "box",
+            "bag",
+            "bus"
+          ],
+          "answer_index": 2,
+          "explain_key": "second_letter",
+          "media": [
+            {
+              "lemma": "bag"
+            },
+            {
+              "lemma": "bed"
+            },
+            {
+              "lemma": "box"
+            },
+            {
+              "lemma": "bus"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_thre_0002",
+          "tier": 1,
+          "stem": "Look at desk, dog, doll, and duck.",
+          "choices": [
+            "dog",
+            "desk",
+            "duck",
+            "doll"
+          ],
+          "answer_index": 1,
+          "explain_key": "second_letter",
+          "media": [
+            {
+              "lemma": "desk"
+            },
+            {
+              "lemma": "dog"
+            },
+            {
+              "lemma": "doll"
+            },
+            {
+              "lemma": "duck"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_thre_0003",
+          "tier": 1,
+          "stem": "Find fish, flag, fox, and frog.",
+          "choices": [
+            "flag",
+            "fox",
+            "frog",
+            "fish"
+          ],
+          "answer_index": 3,
+          "explain_key": "second_letter",
+          "media": [
+            {
+              "lemma": "fish"
+            },
+            {
+              "lemma": "flag"
+            },
+            {
+              "lemma": "fox"
+            },
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_thre_0004",
+          "tier": 2,
+          "stem": "<NAME> has shed, ship, shoe, and shut.",
+          "choices": [
+            "ship",
+            "shoe",
+            "shed",
+            "shut"
+          ],
+          "answer_index": 2,
+          "explain_key": "third_letter",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "shed"
+            },
+            {
+              "lemma": "ship"
+            },
+            {
+              "lemma": "shoe"
+            },
+            {
+              "lemma": "shut"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_thre_0005",
+          "tier": 2,
+          "stem": "Check clap, clip, clock, and club.",
+          "choices": [
+            "clip",
+            "clap",
+            "club",
+            "clock"
+          ],
+          "answer_index": 1,
+          "explain_key": "third_letter",
+          "media": [
+            {
+              "lemma": "clap"
+            },
+            {
+              "lemma": "clip"
+            },
+            {
+              "lemma": "clock"
+            },
+            {
+              "lemma": "club"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_thre_0006",
+          "tier": 2,
+          "stem": "Pick chat, check, chin, and chop.",
+          "choices": [
+            "check",
+            "chin",
+            "chop",
+            "chat"
+          ],
+          "answer_index": 3,
+          "explain_key": "third_letter",
+          "media": [
+            {
+              "lemma": "chat"
+            },
+            {
+              "lemma": "check"
+            },
+            {
+              "lemma": "chin"
+            },
+            {
+              "lemma": "chop"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_thre_0007",
+          "tier": 3,
+          "stem": "Try brave, bread, brick, and brown.",
+          "choices": [
+            "bread",
+            "brick",
+            "brave",
+            "brown"
+          ],
+          "answer_index": 2,
+          "explain_key": "third_letter",
+          "media": [
+            {
+              "lemma": "brave"
+            },
+            {
+              "lemma": "bread"
+            },
+            {
+              "lemma": "brick"
+            },
+            {
+              "lemma": "brown"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_thre_0008",
+          "tier": 3,
+          "stem": "<NAME> saw crash, cream, crib, and crow.",
+          "choices": [
+            "cream",
+            "crash",
+            "crow",
+            "crib"
+          ],
+          "answer_index": 1,
+          "explain_key": "third_letter",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "crash"
+            },
+            {
+              "lemma": "cream"
+            },
+            {
+              "lemma": "crib"
+            },
+            {
+              "lemma": "crow"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer exactly four unique wordlist words. The correct tap is the word that comes first when you compare up to the first three letters.",
+      "Never use a set that ties on the first three letters. Those three letters must pick one clear winner.",
+      "Tier 1: all four words share the first letter. The second letters are far apart.",
+      "Tier 2: all four words share the first two letters. The third letters decide the order.",
+      "Tier 3: all four words share the first two letters. The third letters are close, and one distractor is the word that comes second.",
+      "Keep every word in the kid world: school, home, food, pets, play, family, or weather. No brands. No real names.",
+      "Do not write the ABC answer in the stem. The stem only names the four words."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\balphabetically\\b",
+    "\\bdictionary\\b",
+    "\\bglossary\\b",
+    "\\bthesaurus\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stem of six or seven words. Four words share a first letter. Second letters are far apart. Add picture lemmas for the four choice words.",
+    "2": "Four words share the first two letters. Kids must use the third letter. Two-syllable words are fine.",
+    "3": "Four words share the first two letters. Third letters sit close in the alphabet, and one distractor is the second word in ABC order."
+  },
+  "miss_explain": {
+    "second_letter": {
+      "en": "The first letters match. Look at the second letter to see which word comes first.",
+      "ko": "첫 글자가 같아요. 둘째 글자를 보고 어느 단어가 먼저인지 고르세요."
+    },
+    "third_letter": {
+      "en": "The first two letters match. Look at the third letter to see which word comes first.",
+      "ko": "처음 두 글자가 같아요. 셋째 글자를 보고 어느 단어가 먼저인지 고르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Order alphabetically based on the first three letters"
+    ],
+    "no_ixl_text": true
+  }
+}

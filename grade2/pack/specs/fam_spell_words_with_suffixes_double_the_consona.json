@@ -1,0 +1,390 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+  "family_title_en": "Spell words with suffixes: double the consonant",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+      "ix_title": "Spell words with suffixes: double the consonant",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Tap the right spelling.",
+        "ko": "올바른 철자를 누르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the word that is spelled right.",
+        "ko": "바르게 쓴 단어를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word spellings of one base plus ing, ed, er, or est. Exactly one follows the double-consonant rule or correctly does not double. Three near-misses: missing double, extra copy of the last letter, kept silent e, or a lookalike base. Never invent audio. Kid-world bases only.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bakeing",
+        "bakking",
+        "baking",
+        "beged",
+        "begged",
+        "biger",
+        "bigerr",
+        "biggger",
+        "chopped",
+        "choped",
+        "clapd",
+        "claped",
+        "clappped",
+        "cleanned",
+        "cookked",
+        "cuting",
+        "cutting",
+        "driping",
+        "dripping",
+        "droped",
+        "dropped",
+        "ed",
+        "er",
+        "est",
+        "fiter",
+        "fitter",
+        "fliped",
+        "flipped",
+        "geting",
+        "grabbed",
+        "grabed",
+        "helpped",
+        "hiting",
+        "hitting",
+        "hopeing",
+        "hoping",
+        "hopped",
+        "hoppeing",
+        "hoppping",
+        "hoter",
+        "huggedd",
+        "huggd",
+        "huged",
+        "humed",
+        "hummed",
+        "ing",
+        "jumpd",
+        "jumped",
+        "jumpped",
+        "jumpt",
+        "leting",
+        "letting",
+        "likked",
+        "lookked",
+        "naped",
+        "napped",
+        "needded",
+        "openned",
+        "peted",
+        "petted",
+        "pined",
+        "pinned",
+        "planing",
+        "plannng",
+        "plannning",
+        "puting",
+        "putting",
+        "rained",
+        "rainned",
+        "reder",
+        "redder",
+        "riped",
+        "ripped",
+        "robed",
+        "robbed",
+        "runing",
+        "runnning",
+        "runnung",
+        "sader",
+        "sadder",
+        "seting",
+        "setting",
+        "shiped",
+        "shipped",
+        "shoping",
+        "shuting",
+        "shutting",
+        "siting",
+        "sittting",
+        "sittng",
+        "skiped",
+        "skipped",
+        "smilled",
+        "steped",
+        "stepped",
+        "stoped",
+        "stopped",
+        "swiming",
+        "taped",
+        "tapped",
+        "tapt",
+        "triped",
+        "tripped",
+        "tuged",
+        "tugged",
+        "waitted",
+        "walkked",
+        "wining",
+        "winning",
+        "wraping",
+        "wrapping",
+        "ziped",
+        "zipped"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_words_with_suffixes_double_the_consona_0001",
+          "tier": 1,
+          "stem": "Add ing to hop.",
+          "choices": [
+            "hopping",
+            "hoping",
+            "hoppping",
+            "hoppeing"
+          ],
+          "answer_index": 0,
+          "explain_key": "double_ing",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_double_the_consona_0002",
+          "tier": 1,
+          "stem": "The dog will run.",
+          "choices": [
+            "runing",
+            "running",
+            "runnung",
+            "runnning"
+          ],
+          "answer_index": 1,
+          "explain_key": "double_ing",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_double_the_consona_0003",
+          "tier": 1,
+          "stem": "The cat can sit.",
+          "choices": [
+            "siting",
+            "sittng",
+            "sitting",
+            "sittting"
+          ],
+          "answer_index": 2,
+          "explain_key": "double_ing",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_double_the_consona_0004",
+          "tier": 2,
+          "stem": "Did the kids clap?",
+          "choices": [
+            "clapped",
+            "claped",
+            "clapd",
+            "clappped"
+          ],
+          "answer_index": 0,
+          "explain_key": "double_ed",
+          "media": [
+            {
+              "lemma": "kid"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_double_the_consona_0005",
+          "tier": 2,
+          "stem": "Did <NAME> hug mom?",
+          "choices": [
+            "huged",
+            "huggd",
+            "huggedd",
+            "hugged"
+          ],
+          "answer_index": 3,
+          "explain_key": "double_ed",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_double_the_consona_0006",
+          "tier": 2,
+          "stem": "My bag is big.",
+          "choices": [
+            "biger",
+            "bigger",
+            "bigerr",
+            "biggger"
+          ],
+          "answer_index": 1,
+          "explain_key": "double_er",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_double_the_consona_0007",
+          "tier": 3,
+          "stem": "<NAME> will hope we win.",
+          "choices": [
+            "hopping",
+            "hopeing",
+            "hoping",
+            "hoppeing"
+          ],
+          "answer_index": 2,
+          "explain_key": "no_double_e",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "sun"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_double_the_consona_0008",
+          "tier": 3,
+          "stem": "Add ed to jump.",
+          "choices": [
+            "jumpped",
+            "jumped",
+            "jumpt",
+            "jumpd"
+          ],
+          "answer_index": 1,
+          "explain_key": "no_double_cc",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four unique whole words. One spelling is right. One tap only.",
+      "Wrong choices must be near-miss spellings of the same base plus the same ending, not a new word meaning unless it is the silent-e lookalike.",
+      "Tier 1 uses CVC plus ing. Make the missed double easy to see next to a wild extra letter.",
+      "Tier 2 uses ed or er on grade-two CVC words. Mix a missed double, a triple letter, and a chopped ending.",
+      "Tier 3 uses a silent-e base or a two-consonant base. One wrong choice doubles when it should not, or skips the double when it should.",
+      "Never write IPA, slash sounds, or letter-name strings as choices. Whole words only.",
+      "Keep stems in school, home, food, pets, play, family, or weather. No brands. No real names.",
+      "Do not reuse a gold stem. Do not copy inventory question text."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsuffix\\b",
+    "\\bconsonant\\b",
+    "\\bvowel\\b",
+    "\\bsyllable\\b",
+    "1-1-1",
+    "\\bshort vowel\\b",
+    "\\bdouble the\\b",
+    "/[aeiouæøŋʃθð]",
+    "\\bipa\\b"
+  ],
+  "tier_rules": {
+    "1": "Four to six word stems. CVC base plus ing. Picture of the action. Wrong choices drop the extra letter or add a wild extra letter.",
+    "2": "Grade two stems of four to seven words. Use ed or er. Distractors miss the double, triple the last letter, or chop the ending.",
+    "3": "Near misses. Silent-e or two-consonant bases. One choice wrongly doubles. The right choice does not double. Longer stem is fine."
+  },
+  "miss_explain": {
+    "double_ing": {
+      "en": "A short word with one last consonant doubles that letter before ing.",
+      "ko": "자음 하나로 끝나는 짧은 말은 ing 앞에서 그 자음을 겹쳐 씁니다."
+    },
+    "double_ed": {
+      "en": "A short word with one last consonant doubles that letter before ed.",
+      "ko": "자음 하나로 끝나는 짧은 말은 ed 앞에서 그 자음을 겹쳐 씁니다."
+    },
+    "double_er": {
+      "en": "A short word with one last consonant doubles that letter before er.",
+      "ko": "자음 하나로 끝나는 짧은 말은 er 앞에서 그 자음을 겹쳐 씁니다."
+    },
+    "no_double_e": {
+      "en": "If the word ends with e, do not double. Drop the e, then add the ending.",
+      "ko": "단어가 e로 끝나면 겹치지 않습니다. e를 빼고 어미를 붙입니다."
+    },
+    "no_double_cc": {
+      "en": "If the word already ends with two consonants, do not double. Just add the ending.",
+      "ko": "자음이 이미 두 개면 겹치지 않습니다. 어미만 붙입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Spell words with suffixes: double the consonant"
+    ],
+    "no_ixl_text": true
+  }
+}

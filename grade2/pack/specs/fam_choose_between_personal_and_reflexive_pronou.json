@@ -1,0 +1,261 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_between_personal_and_reflexive_pronou",
+  "family_title_en": "Choose between personal and reflexive pronouns",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_between_personal_and_reflexive_pronou",
+      "ix_title": "Choose between personal and reflexive pronouns",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word belongs?",
+        "ko": "어떤 말이 들어가나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that belongs.",
+        "ko": "알맞은 말을 누르세요."
+      },
+      "choice_rule": "Four pronoun choices per item. Exactly one fits. Always include the personal or reflexive twin of the right word. Add two more that are the wrong person, number, or case. Never add a second grammatical fit. Keep labels lowercase except I.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "herself",
+        "himself",
+        "itself",
+        "myself",
+        "ourselves",
+        "themselves",
+        "yourself",
+        "yourselves"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_between_personal_and_reflexive_pronou_0001",
+          "tier": 1,
+          "stem": "The cat cleaned",
+          "choices": [
+            "itself",
+            "it",
+            "her",
+            "them"
+          ],
+          "answer_index": 0,
+          "explain_key": "need_reflexive",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_personal_and_reflexive_pronou_0002",
+          "tier": 1,
+          "stem": "I made a snack for",
+          "choices": [
+            "me",
+            "myself",
+            "him",
+            "us"
+          ],
+          "answer_index": 1,
+          "explain_key": "need_reflexive",
+          "media": [
+            {
+              "lemma": "snack"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_personal_and_reflexive_pronou_0003",
+          "tier": 1,
+          "stem": "At home <NAME> hugged",
+          "choices": [
+            "myself",
+            "I",
+            "me",
+            "we"
+          ],
+          "answer_index": 2,
+          "explain_key": "need_personal",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_choose_between_personal_and_reflexive_pronou_0004",
+          "tier": 2,
+          "stem": "In the water the puppy saw",
+          "choices": [
+            "it",
+            "him",
+            "itself",
+            "them"
+          ],
+          "answer_index": 2,
+          "explain_key": "need_reflexive",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_personal_and_reflexive_pronou_0005",
+          "tier": 2,
+          "stem": "At school I saw",
+          "choices": [
+            "herself",
+            "she",
+            "I",
+            "her"
+          ],
+          "answer_index": 3,
+          "explain_key": "need_personal"
+        },
+        {
+          "item_id": "roots_choose_between_personal_and_reflexive_pronou_0006",
+          "tier": 2,
+          "stem": "We made breakfast for",
+          "choices": [
+            "us",
+            "ourselves",
+            "we",
+            "I"
+          ],
+          "answer_index": 1,
+          "explain_key": "need_reflexive",
+          "media": [
+            {
+              "lemma": "breakfast"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_personal_and_reflexive_pronou_0007",
+          "tier": 3,
+          "stem": "In the window my sister saw",
+          "choices": [
+            "her",
+            "she",
+            "herself",
+            "itself"
+          ],
+          "answer_index": 2,
+          "explain_key": "need_reflexive",
+          "media": [
+            {
+              "lemma": "window"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_personal_and_reflexive_pronou_0008",
+          "tier": 3,
+          "stem": "After school <NAME> can help",
+          "choices": [
+            "ourselves",
+            "we",
+            "I",
+            "us"
+          ],
+          "answer_index": 3,
+          "explain_key": "need_personal",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every stem is a short kid sentence that needs one object pronoun at the end. Never put the answer inside the stem.",
+      "Exactly one choice can complete the stem. Drop any choice that still makes a true other-person reading.",
+      "The main distractor is the personal or reflexive twin of the right word. The other two are wrong person, number, or case.",
+      "Never use <NAME> as the subject of himself or herself. The name list has no gender.",
+      "Keep about half reflexive and half personal. Use home, school, food, pets, play, family, or weather only.",
+      "Do not write metalanguage, brands, real names, or picture descriptions in stems or choices."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpronoun\\b",
+    "\\breflexive\\b",
+    "\\bpersonal\\b",
+    "\\bgrammar\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of two to five words. Same-person or different-person is obvious. Twin distractor plus wrong-case words. Picture the actor or food when a concrete noun is present.",
+    "2": "Stems of four to seven words with two-syllable nouns such as puppy or breakfast. Use for-frames or saw-frames. Twin distractor plus wrong person or number.",
+    "3": "Near-miss twins such as her and herself or us and ourselves. Longer fronted stems. One NAME helper frame. No second legal reading."
+  },
+  "miss_explain": {
+    "need_reflexive": {
+      "en": "Use a -self word when the same person does the action to that same person.",
+      "ko": "같은 사람이 자기 자신에게 하는 일에는 -self가 붙은 말을 씁니다."
+    },
+    "need_personal": {
+      "en": "Use me, him, her, us, or them when the action goes to someone else.",
+      "ko": "다른 사람에게 하는 일에는 me, him, her, us, them을 씁니다."
+    },
+    "wrong_person": {
+      "en": "Match who the word talks about. He pairs with himself. She pairs with herself.",
+      "ko": "말이 가리키는 사람과 짝을 맞추세요. he는 himself, she는 herself와 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none",
+    "voices": [
+      "bella",
+      "puck"
+    ]
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Choose between personal and reflexive pronouns"
+    ],
+    "no_ixl_text": true
+  }
+}

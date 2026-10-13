@@ -1,0 +1,2402 @@
+[
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0001",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog ran.",
+    "choices": [
+      "The big dog ran.",
+      "The dog ran too.",
+      "The dog ran also.",
+      "The dog ran again."
+    ],
+    "answer_index": 0,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0002",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bird sat.",
+    "choices": [
+      "The bird sat too.",
+      "The bird sat also.",
+      "The red bird sat.",
+      "The bird sat again."
+    ],
+    "answer_index": 2,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0003",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pig ate.",
+    "choices": [
+      "The pig ate too.",
+      "The pink pig ate.",
+      "The pig ate also.",
+      "The pig ate again."
+    ],
+    "answer_index": 1,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0004",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kitten sat on the bed.",
+    "choices": [
+      "The kitten sat on the bed too.",
+      "The kitten sat on one bed.",
+      "The kitten sat on the bed again.",
+      "The fluffy kitten sat on the bed."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0005",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> ate the soup.",
+    "choices": [
+      "<NAME> ate the soup too.",
+      "<NAME> ate the hot soup.",
+      "<NAME> ate the soup again.",
+      "<NAME> and mom ate the soup."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0006",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids play in the yard.",
+    "choices": [
+      "The kids play in the sunny yard.",
+      "The kids play in the yard today.",
+      "The kids play in one yard.",
+      "The kids and mom play in the yard."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0007",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy ran to school.",
+    "choices": [
+      "The boy ran to school yesterday.",
+      "The boy ran to school today.",
+      "The boy ran slowly to school.",
+      "The boy and sister ran to school."
+    ],
+    "answer_index": 2,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0008",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The rain fell on the roof.",
+    "choices": [
+      "The rain fell on the roof yesterday.",
+      "The rain and hail fell on the roof.",
+      "The rain fell on that roof.",
+      "The heavy rain fell on the roof."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0009",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat naps.",
+    "choices": [
+      "The black cat naps.",
+      "The cat naps too.",
+      "The cat naps also.",
+      "The cat naps again."
+    ],
+    "answer_index": 0,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0010",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fox hid.",
+    "choices": [
+      "The fox hid too.",
+      "The red fox hid.",
+      "The fox hid also.",
+      "The fox hid again."
+    ],
+    "answer_index": 1,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0011",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cow mooed.",
+    "choices": [
+      "The cow mooed too.",
+      "The cow mooed also.",
+      "The brown cow mooed.",
+      "The cow mooed again."
+    ],
+    "answer_index": 2,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0012",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ant crawled.",
+    "choices": [
+      "The ant crawled too.",
+      "The ant crawled also.",
+      "The ant crawled again.",
+      "The tiny ant crawled."
+    ],
+    "answer_index": 3,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0013",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bus stopped.",
+    "choices": [
+      "The yellow bus stopped.",
+      "The bus stopped too.",
+      "The bus stopped also.",
+      "The bus stopped again."
+    ],
+    "answer_index": 0,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0014",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hat fell.",
+    "choices": [
+      "The hat fell too.",
+      "The blue hat fell.",
+      "The hat fell also.",
+      "The hat fell again."
+    ],
+    "answer_index": 1,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0015",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The frog jumped.",
+    "choices": [
+      "The frog jumped too.",
+      "The frog jumped also.",
+      "The green frog jumped.",
+      "The frog jumped again."
+    ],
+    "answer_index": 2,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0016",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fish swam.",
+    "choices": [
+      "The fish swam too.",
+      "The fish swam also.",
+      "The fish swam again.",
+      "The small fish swam."
+    ],
+    "answer_index": 3,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0017",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boat floated.",
+    "choices": [
+      "The small boat floated.",
+      "The boat floated too.",
+      "The boat floated also.",
+      "The boat floated again."
+    ],
+    "answer_index": 0,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0018",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The moon glowed.",
+    "choices": [
+      "The moon glowed too.",
+      "The bright moon glowed.",
+      "The moon glowed also.",
+      "The moon glowed again."
+    ],
+    "answer_index": 1,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0019",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The car beeped.",
+    "choices": [
+      "The car beeped too.",
+      "The car beeped also.",
+      "The red car beeped.",
+      "The car beeped again."
+    ],
+    "answer_index": 2,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0020",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bee buzzed.",
+    "choices": [
+      "The bee buzzed too.",
+      "The bee buzzed also.",
+      "The bee buzzed again.",
+      "The yellow bee buzzed."
+    ],
+    "answer_index": 3,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bee"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0021",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The duck quacked.",
+    "choices": [
+      "The white duck quacked.",
+      "The duck quacked too.",
+      "The duck quacked also.",
+      "The duck quacked again."
+    ],
+    "answer_index": 0,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0022",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl hooted.",
+    "choices": [
+      "The owl hooted too.",
+      "The gray owl hooted.",
+      "The owl hooted also.",
+      "The owl hooted again."
+    ],
+    "answer_index": 1,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0023",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rug lay flat.",
+    "choices": [
+      "The rug lay flat too.",
+      "The rug lay flat also.",
+      "The red rug lay flat.",
+      "The rug lay flat again."
+    ],
+    "answer_index": 2,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0024",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cup tipped.",
+    "choices": [
+      "The cup tipped too.",
+      "The cup tipped also.",
+      "The cup tipped again.",
+      "The blue cup tipped."
+    ],
+    "answer_index": 3,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0025",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ant marched.",
+    "choices": [
+      "The black ant marched.",
+      "The ant marched too.",
+      "The ant marched also.",
+      "The ant marched again."
+    ],
+    "answer_index": 0,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0026",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kite flew.",
+    "choices": [
+      "The kite flew too.",
+      "The red kite flew.",
+      "The kite flew also.",
+      "The kite flew again."
+    ],
+    "answer_index": 1,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0027",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The van parked.",
+    "choices": [
+      "The van parked too.",
+      "The van parked also.",
+      "The white van parked.",
+      "The van parked again."
+    ],
+    "answer_index": 2,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "van"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0028",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hen clucked.",
+    "choices": [
+      "The hen clucked too.",
+      "The hen clucked also.",
+      "The hen clucked again.",
+      "The brown hen clucked."
+    ],
+    "answer_index": 3,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0029",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The snail slid.",
+    "choices": [
+      "The small snail slid.",
+      "The snail slid too.",
+      "The snail slid also.",
+      "The snail slid again."
+    ],
+    "answer_index": 0,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0030",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pup barked.",
+    "choices": [
+      "The pup barked too.",
+      "The small pup barked.",
+      "The pup barked also.",
+      "The pup barked again."
+    ],
+    "answer_index": 1,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0031",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The jar cracked.",
+    "choices": [
+      "The jar cracked too.",
+      "The jar cracked also.",
+      "The big jar cracked.",
+      "The jar cracked again."
+    ],
+    "answer_index": 2,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jar"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0032",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The log rolled.",
+    "choices": [
+      "The log rolled too.",
+      "The log rolled also.",
+      "The log rolled again.",
+      "The brown log rolled."
+    ],
+    "answer_index": 3,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "log"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0033",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pen leaked.",
+    "choices": [
+      "The blue pen leaked.",
+      "The pen leaked too.",
+      "The pen leaked also.",
+      "The pen leaked again."
+    ],
+    "answer_index": 0,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0034",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The toy broke.",
+    "choices": [
+      "The toy broke too.",
+      "The red toy broke.",
+      "The toy broke also.",
+      "The toy broke again."
+    ],
+    "answer_index": 1,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0035",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bun steamed.",
+    "choices": [
+      "The bun steamed too.",
+      "The bun steamed also.",
+      "The hot bun steamed.",
+      "The bun steamed again."
+    ],
+    "answer_index": 2,
+    "explain_key": "size_or_color",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0036",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy slept on the rug.",
+    "choices": [
+      "The soft puppy slept on the rug.",
+      "The puppy slept on the rug today.",
+      "The puppy slept on one rug.",
+      "The puppy slept on the rug too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0037",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cookies cooled on the tray.",
+    "choices": [
+      "The cookies cooled on the tray again.",
+      "The warm cookies cooled on the tray.",
+      "The cookies cooled on one tray.",
+      "Mom and I cooled cookies on the tray."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookies"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0038",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The turtle crawled to the pond.",
+    "choices": [
+      "The turtle crawled to the pond today.",
+      "The turtle crawled to one pond.",
+      "The slow turtle crawled to the pond.",
+      "The turtle crawled to the pond too."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0039",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The baby cried in the crib.",
+    "choices": [
+      "The baby cried in the crib again.",
+      "The baby cried in one crib.",
+      "The baby and dad cried in the crib.",
+      "The sleepy baby cried in the crib."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0040",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The snow covered the hill.",
+    "choices": [
+      "The white snow covered the hill.",
+      "The snow covered the hill today.",
+      "The snow covered one hill.",
+      "The snow covered the hill too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0041",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rabbit hid in the bush.",
+    "choices": [
+      "The rabbit hid in the bush again.",
+      "The fuzzy rabbit hid in the bush.",
+      "The rabbit hid in one bush.",
+      "The rabbit and fox hid in the bush."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0042",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wind blew through the trees.",
+    "choices": [
+      "The wind blew through the trees today.",
+      "The wind blew through one tree.",
+      "The cold wind blew through the trees.",
+      "The wind blew through the trees too."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0043",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cake sat on the table.",
+    "choices": [
+      "The cake sat on the table again.",
+      "The cake sat on one table.",
+      "The cake and pie sat on the table.",
+      "The yummy cake sat on the table."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0044",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The horse ran in the field.",
+    "choices": [
+      "The brown horse ran in the field.",
+      "The horse ran in the field today.",
+      "The horse ran in one field.",
+      "The horse ran in the field too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0045",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl drew on the paper.",
+    "choices": [
+      "The girl drew on the paper again.",
+      "The neat girl drew on the paper.",
+      "The girl drew on one paper.",
+      "The girl and brother drew on the paper."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0046",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The soup bubbled in the pot.",
+    "choices": [
+      "The soup bubbled in the pot today.",
+      "The soup bubbled in one pot.",
+      "The hot soup bubbled in the pot.",
+      "The soup bubbled in the pot too."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0047",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The leaves fell from the tree.",
+    "choices": [
+      "The leaves fell from the tree again.",
+      "The leaves fell from one tree.",
+      "The leaves and seeds fell from the tree.",
+      "The red leaves fell from the tree."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaves"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0048",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mouse hid in the hole.",
+    "choices": [
+      "The tiny mouse hid in the hole.",
+      "The mouse hid in the hole today.",
+      "The mouse hid in one hole.",
+      "The mouse hid in the hole too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0049",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The blanket kept me warm.",
+    "choices": [
+      "The blanket kept me warm again.",
+      "The cozy blanket kept me warm.",
+      "One blanket kept me warm.",
+      "The blanket and pillow kept me warm."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0050",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wave hit the sand.",
+    "choices": [
+      "The wave hit the sand today.",
+      "The wave hit the sand too.",
+      "The wet wave hit the sand.",
+      "The wave and wind hit the sand."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wave"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0051",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The crayon drew on the paper.",
+    "choices": [
+      "The crayon drew on the paper again.",
+      "The crayon drew on one paper.",
+      "The crayon drew on the paper today.",
+      "The red crayon drew on the paper."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0052",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy chewed on the bone.",
+    "choices": [
+      "The cute puppy chewed on the bone.",
+      "The puppy chewed on the bone today.",
+      "The puppy chewed on one bone.",
+      "The puppy chewed on the bone too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0053",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rain pattered on the window.",
+    "choices": [
+      "The rain pattered on the window again.",
+      "The rainy rain pattered on the window.",
+      "The rain pattered on one window.",
+      "The rain and wind pattered on the window."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0054",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bear walked in the woods.",
+    "choices": [
+      "The bear walked in the woods today.",
+      "The bear walked in one wood.",
+      "The big bear walked in the woods.",
+      "The bear walked in the woods too."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0055",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The ice melted in the sun.",
+    "choices": [
+      "The ice melted in the sun again.",
+      "The ice melted in the sun today.",
+      "The ice and snow melted in the sun.",
+      "The cold ice melted in the sun."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0056",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The frog sat on the rock.",
+    "choices": [
+      "The green frog sat on the rock.",
+      "The frog sat on the rock today.",
+      "The frog sat on one rock.",
+      "The frog sat on the rock too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0057",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The stars shone in the sky.",
+    "choices": [
+      "The stars shone in the sky again.",
+      "The bright stars shone in the sky.",
+      "The stars shone in one sky.",
+      "The stars shone in the sky tonight."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stars"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0058",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mud stuck to my boots.",
+    "choices": [
+      "The mud stuck to my boots today.",
+      "The mud stuck to one boot.",
+      "The sticky mud stuck to my boots.",
+      "The mud stuck to my boots too."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0059",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bell rang in the hall.",
+    "choices": [
+      "The bell rang in the hall again.",
+      "The bell rang in one hall.",
+      "The bell rang in the hall today.",
+      "The loud bell rang in the hall."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0060",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The corn grew in the garden.",
+    "choices": [
+      "The tall corn grew in the garden.",
+      "The corn grew in the garden today.",
+      "The corn grew in one garden.",
+      "The corn grew in the garden too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0061",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boat rocked on the lake.",
+    "choices": [
+      "The boat rocked on the lake again.",
+      "The small boat rocked on the lake.",
+      "The boat rocked on one lake.",
+      "The boat rocked on the lake today."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0062",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sheep grazed on the grass.",
+    "choices": [
+      "The sheep grazed on the grass today.",
+      "The sheep grazed on one grass.",
+      "The white sheep grazed on the grass.",
+      "The sheep grazed on the grass too."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0063",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The path led to the barn.",
+    "choices": [
+      "The path led to the barn again.",
+      "The path led to one barn.",
+      "The path led to the barn today.",
+      "The muddy path led to the barn."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0064",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cloud blocked the sun.",
+    "choices": [
+      "The gray cloud blocked the sun.",
+      "The cloud blocked the sun today.",
+      "One cloud blocked the sun.",
+      "The cloud blocked the sun too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0065",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rope hung from the tree.",
+    "choices": [
+      "The rope hung from the tree again.",
+      "The long rope hung from the tree.",
+      "The rope hung from one tree.",
+      "The rope hung from the tree today."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0066",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hog ate the hay.",
+    "choices": [
+      "The hog ate the hay today.",
+      "The hog ate the hay too.",
+      "The big hog ate the hay.",
+      "The hog and hen ate the hay."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0067",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The lamp lit up the room.",
+    "choices": [
+      "The lamp lit up the room again.",
+      "One lamp lit up the room.",
+      "The lamp lit up the room tonight.",
+      "The bright lamp lit up the room."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0068",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The seal slid on the ice.",
+    "choices": [
+      "The smooth seal slid on the ice.",
+      "The seal slid on the ice today.",
+      "The seal slid on one ice.",
+      "The seal slid on the ice too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seal"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0069",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cart rolled down the hill.",
+    "choices": [
+      "The cart rolled down the hill again.",
+      "The red cart rolled down the hill.",
+      "One cart rolled down the hill.",
+      "The cart rolled down the hill today."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cart"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0070",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bee landed on the flower.",
+    "choices": [
+      "The bee landed on the flower today.",
+      "The bee landed on one flower.",
+      "The busy bee landed on the flower.",
+      "The bee landed on the flower too."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bee"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0071",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sled raced down the slope.",
+    "choices": [
+      "The sled raced down the slope again.",
+      "One sled raced down the slope.",
+      "The sled raced down the slope today.",
+      "The fast sled raced down the slope."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sled"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0072",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tap sprayed the flowers.",
+    "choices": [
+      "The green tap sprayed the flowers.",
+      "The tap sprayed the flowers today.",
+      "The tap sprayed one flower.",
+      "The tap sprayed the flowers too."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0073",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids walked to the bus.",
+    "choices": [
+      "The kids walked quickly to the bus.",
+      "The kids walked to the bus yesterday.",
+      "The kids walked to the bus today.",
+      "The kids and dad walked to the bus."
+    ],
+    "answer_index": 0,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kids"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0074",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cat jumped on the couch.",
+    "choices": [
+      "The cat jumped on the couch yesterday.",
+      "The cat jumped softly on the couch.",
+      "The cat and dog jumped on the couch.",
+      "The cat jumped on that couch."
+    ],
+    "answer_index": 1,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0075",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The dog barked at the mail.",
+    "choices": [
+      "The dog barked at the mail yesterday.",
+      "The dog barked at the mail today.",
+      "The dog barked loudly at the mail.",
+      "The dog and cat barked at the mail."
+    ],
+    "answer_index": 2,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0076",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girl read her book.",
+    "choices": [
+      "The girl read her book yesterday.",
+      "The girl read her book today.",
+      "The girl and brother read her book.",
+      "The girl read her book quietly."
+    ],
+    "answer_index": 3,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0077",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy built a tall tower.",
+    "choices": [
+      "The boy built a huge tower.",
+      "The boy built a tall tower yesterday.",
+      "The blocks and boy built a tall tower.",
+      "The boy built that tall tower."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0078",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wind shook the old fence.",
+    "choices": [
+      "The wind shook the old fence yesterday.",
+      "The windy wind shook the old fence.",
+      "The wind shook the old fence today.",
+      "The wind and rain shook the old fence."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0079",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The snow fell on the steps.",
+    "choices": [
+      "The snow fell on the steps yesterday.",
+      "The snow and ice fell on the steps.",
+      "The heavy snow fell on the steps.",
+      "The snow fell on those steps."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0080",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids ran around the track.",
+    "choices": [
+      "The kids ran around the track yesterday.",
+      "The kids ran around the track today.",
+      "The kids and dad ran around the track.",
+      "The kids ran fast around the track."
+    ],
+    "answer_index": 3,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kids"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0081",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The baby laughed at the clown.",
+    "choices": [
+      "The baby laughed loudly at the clown.",
+      "The baby laughed at the clown yesterday.",
+      "The baby laughed at the clown today.",
+      "The baby and sister laughed at the clown."
+    ],
+    "answer_index": 0,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0082",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The truck drove down the road.",
+    "choices": [
+      "The truck drove down the road yesterday.",
+      "The truck drove slowly down the road.",
+      "The truck and van drove down the road.",
+      "The truck drove down that road."
+    ],
+    "answer_index": 1,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0083",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The owl flew over the barn.",
+    "choices": [
+      "The owl flew over the barn yesterday.",
+      "The owl flew over the barn tonight.",
+      "The owl flew quietly over the barn.",
+      "The owl and bat flew over the barn."
+    ],
+    "answer_index": 2,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0084",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The rain soaked the soccer field.",
+    "choices": [
+      "The rain soaked the soccer field yesterday.",
+      "The rain soaked the soccer field today.",
+      "The rain and mud soaked the soccer field.",
+      "The rainy rain soaked the soccer field."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0085",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The horse ran across the meadow.",
+    "choices": [
+      "The horse ran quickly across the meadow.",
+      "The horse ran across the meadow yesterday.",
+      "The horse ran across the meadow today.",
+      "The horse and cow ran across the meadow."
+    ],
+    "answer_index": 0,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0086",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wave crashed on the rocks.",
+    "choices": [
+      "The wave crashed on the rocks yesterday.",
+      "The rough wave crashed on the rocks.",
+      "The wave crashed on the rocks today.",
+      "The wave and wind crashed on the rocks."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wave"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0087",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The teacher wrote on the board.",
+    "choices": [
+      "The teacher wrote on the board yesterday.",
+      "The teacher wrote on the board today.",
+      "The teacher wrote quietly on the board.",
+      "The teacher and I wrote on the board."
+    ],
+    "answer_index": 2,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0088",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kite tugged in the breeze.",
+    "choices": [
+      "The kite tugged in the breeze yesterday.",
+      "The kite tugged in the breeze today.",
+      "The kite and string tugged in the breeze.",
+      "The kite tugged gently in the breeze."
+    ],
+    "answer_index": 3,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0089",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The puppy wagged its little tail.",
+    "choices": [
+      "The cute puppy wagged its little tail.",
+      "The puppy wagged its little tail yesterday.",
+      "The puppy wagged its little tail today.",
+      "The puppy and kitten wagged its little tail."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0090",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The thunder rattled the windows.",
+    "choices": [
+      "The thunder rattled the windows yesterday.",
+      "The loud thunder rattled the windows.",
+      "The thunder rattled the windows tonight.",
+      "The thunder and wind rattled the windows."
+    ],
+    "answer_index": 1,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thunder"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0091",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The ants marched into the kitchen.",
+    "choices": [
+      "The ants marched into the kitchen yesterday.",
+      "The ants marched into the kitchen today.",
+      "The tiny ants marched into the kitchen.",
+      "The ants and bugs marched into the kitchen."
+    ],
+    "answer_index": 2,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ants"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0092",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fire warmed our cold hands.",
+    "choices": [
+      "The fire warmed our cold hands yesterday.",
+      "The fire warmed our cold hands tonight.",
+      "The fire and stove warmed our cold hands.",
+      "The warm fire warmed our cold hands."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0093",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The rabbit hopped through the garden.",
+    "choices": [
+      "The rabbit hopped quickly through the garden.",
+      "The rabbit hopped through the garden yesterday.",
+      "The rabbit hopped through the garden today.",
+      "The rabbit and mouse hopped through the garden."
+    ],
+    "answer_index": 0,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0094",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bus stopped at our corner.",
+    "choices": [
+      "The bus stopped at our corner yesterday.",
+      "The yellow bus stopped at our corner.",
+      "The bus stopped at our corner today.",
+      "The bus and car stopped at our corner."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0095",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The frog croaked near the creek.",
+    "choices": [
+      "The frog croaked near the creek yesterday.",
+      "The frog croaked near the creek tonight.",
+      "The frog croaked loudly near the creek.",
+      "The frog and duck croaked near the creek."
+    ],
+    "answer_index": 2,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0096",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The leaves crunched under my boots.",
+    "choices": [
+      "The leaves crunched under my boots yesterday.",
+      "The leaves crunched under my boots today.",
+      "The leaves and sticks crunched under my boots.",
+      "The dry leaves crunched under my boots."
+    ],
+    "answer_index": 3,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaves"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0097",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The mouse nibbled the cheese.",
+    "choices": [
+      "The small mouse nibbled the cheese.",
+      "The mouse nibbled the cheese yesterday.",
+      "The mouse nibbled the cheese tonight.",
+      "The mouse and ant nibbled the cheese."
+    ],
+    "answer_index": 0,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0098",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The sun beat down on us.",
+    "choices": [
+      "The sun beat down on us yesterday.",
+      "The hot sun beat down on us.",
+      "The sun beat down on us today.",
+      "The sun and wind beat down on us."
+    ],
+    "answer_index": 1,
+    "explain_key": "look_or_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0099",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The duck paddled across the pond.",
+    "choices": [
+      "The duck paddled across the pond yesterday.",
+      "The duck paddled across the pond today.",
+      "The duck paddled slowly across the pond.",
+      "The duck and goose paddled across the pond."
+    ],
+    "answer_index": 2,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_add_descriptive_details_to_sentences_0100",
+    "family_id": "fam_add_descriptive_details_to_sentences",
+    "skill_id": "roots_add_descriptive_details_to_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bell chimed at recess time.",
+    "choices": [
+      "The bell chimed at recess time yesterday.",
+      "The bell chimed at recess time today.",
+      "The bell and horn chimed at recess time.",
+      "The loud bell chimed at recess time."
+    ],
+    "answer_index": 3,
+    "explain_key": "how_word",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  }
+]

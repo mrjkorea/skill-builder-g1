@@ -1,0 +1,363 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_the_correct_final_con",
+  "family_title_en": "Complete the word with the correct final consonant blend",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_the_correct_final_con",
+      "ix_title": "Complete the word with the correct final consonant blend",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which ending completes the word?",
+        "ko": "어떤 끝 글자가 단어를 완성하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the final consonant blend.",
+        "ko": "끝 자음군을 누르세요."
+      },
+      "choice_rule": "Four unique lowercase final blends from nd, nt, mp, st, sk, ft, nk, lt, ld, lk, lp, lf, rd, rk, rn, xt, and pt. The stem is a kid sentence with the target word cut before its final blend, so pond shows as po. The cut-off piece must be on the roots word list or in allowed_extra_words, and every other stem word must be on the roots word list. Exactly one blend completes a real word that fits. Set explain_key to final_ plus that blend. If a picture helps, add media as the target lemma and do not describe it.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bi",
+        "bu",
+        "chi",
+        "da",
+        "di",
+        "dri",
+        "du",
+        "fa",
+        "fe",
+        "fi",
+        "fo",
+        "gi",
+        "ha",
+        "hu",
+        "ju",
+        "li",
+        "ma",
+        "mi",
+        "mu",
+        "pa",
+        "pi",
+        "pu",
+        "si",
+        "sku",
+        "sta",
+        "tha",
+        "thi",
+        "wa",
+        "wo",
+        "ya"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_final_con_0001",
+          "tier": 1,
+          "stem": "The duck is in the po.",
+          "choices": [
+            "nd",
+            "ft",
+            "nk",
+            "lt"
+          ],
+          "answer_index": 0,
+          "explain_key": "final_nd",
+          "media": [
+            {
+              "lemma": "pond"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_final_con_0002",
+          "tier": 1,
+          "stem": "A bird is in the ne.",
+          "choices": [
+            "nd",
+            "ft",
+            "st",
+            "mp"
+          ],
+          "answer_index": 2,
+          "explain_key": "final_st",
+          "media": [
+            {
+              "lemma": "nest"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_final_con_0003",
+          "tier": 1,
+          "stem": "<NAME> is at ca.",
+          "choices": [
+            "nd",
+            "lt",
+            "ft",
+            "mp"
+          ],
+          "answer_index": 3,
+          "explain_key": "final_mp",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "camp"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_final_con_0004",
+          "tier": 2,
+          "stem": "We sleep in the te.",
+          "choices": [
+            "st",
+            "nt",
+            "ft",
+            "lk"
+          ],
+          "answer_index": 1,
+          "explain_key": "final_nt",
+          "media": [
+            {
+              "lemma": "tent"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_final_con_0005",
+          "tier": 2,
+          "stem": "The la is on at night.",
+          "choices": [
+            "nd",
+            "ft",
+            "mp",
+            "lk"
+          ],
+          "answer_index": 2,
+          "explain_key": "final_mp",
+          "media": [
+            {
+              "lemma": "lamp"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_final_con_0006",
+          "tier": 2,
+          "stem": "The book is on the de.",
+          "choices": [
+            "nt",
+            "mp",
+            "nd",
+            "sk"
+          ],
+          "answer_index": 3,
+          "explain_key": "final_sk",
+          "media": [
+            {
+              "lemma": "desk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_final_con_0007",
+          "tier": 3,
+          "stem": "We put the coins in the ba at home.",
+          "choices": [
+            "nd",
+            "nk",
+            "rk",
+            "nt"
+          ],
+          "answer_index": 1,
+          "explain_key": "final_nk",
+          "media": [
+            {
+              "lemma": "bank"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_final_con_0008",
+          "tier": 3,
+          "stem": "The kids like to play in the hot sa.",
+          "choices": [
+            "lt",
+            "nk",
+            "nd",
+            "st"
+          ],
+          "answer_index": 2,
+          "explain_key": "final_nd",
+          "media": [
+            {
+              "lemma": "sand"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The stem keeps a word with its final consonant blend cut off, and that blend is the one right choice.",
+      "Wrong choices are other final blends of two or three letters, not single letters and not whole words.",
+      "Never use the digraphs sh, ch, th, wh, ck, or ng as choices. A blend keeps each letter.",
+      "Do not use nch or tch. The ch in them is a digraph, not a final blend.",
+      "Tier 1 wrong blends must not spell any real word with the cut-off piece.",
+      "Tier 2 may include one blend that spells a real word the sentence does not mean.",
+      "Tier 3 uses two near-miss blends that each spell a different real word.",
+      "Exactly one choice may make the sentence true for a child at school, home, or play.",
+      "Choices are lowercase letter blends. Do not write the finished word in a choice.",
+      "Use kid-world stems only: school, home, food, pets, play, family, or weather. No brands.",
+      "Never write a real child name. If a stem needs a name, use <NAME> and names.txt."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "æ",
+    "ɑ",
+    "ə",
+    "ɪ",
+    "ʊ",
+    "ʌ",
+    "ɛ",
+    "ɔ",
+    "ŋ",
+    "ʃ",
+    "θ",
+    "ð",
+    "ʒ",
+    "\\b(sh|ch|th|wh|ck|ng)\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Cut the target word before its final blend. Only the right blend spells a real word.",
+    "2": "Stems of five to eight words. One wrong blend may spell a real word that does not fit the sentence.",
+    "3": "Stems of seven to ten words. Two wrong blends are near misses that spell a different real word."
+  },
+  "miss_explain": {
+    "final_nd": {
+      "en": "The word ends with the letters nd, like pond, sand, or wind.",
+      "ko": "이 단어는 pond, sand, wind처럼 nd로 끝납니다."
+    },
+    "final_nt": {
+      "en": "The word ends with the letters nt, like tent or plant.",
+      "ko": "이 단어는 tent나 plant처럼 nt로 끝납니다."
+    },
+    "final_mp": {
+      "en": "The word ends with the letters mp, like camp or lamp.",
+      "ko": "이 단어는 camp나 lamp처럼 mp로 끝납니다."
+    },
+    "final_st": {
+      "en": "The word ends with the letters st, like nest or rest.",
+      "ko": "이 단어는 nest나 rest처럼 st로 끝납니다."
+    },
+    "final_sk": {
+      "en": "The word ends with the letters sk, like desk or mask.",
+      "ko": "이 단어는 desk나 mask처럼 sk로 끝납니다."
+    },
+    "final_ft": {
+      "en": "The word ends with the letters ft, like gift or left.",
+      "ko": "이 단어는 gift나 left처럼 ft로 끝납니다."
+    },
+    "final_nk": {
+      "en": "The word ends with the letters nk, like bank or sink.",
+      "ko": "이 단어는 bank나 sink처럼 nk로 끝납니다."
+    },
+    "final_lt": {
+      "en": "The word ends with the letters lt, like melt.",
+      "ko": "이 단어는 melt처럼 lt로 끝납니다."
+    },
+    "final_ld": {
+      "en": "The word ends with the letters ld, like cold or gold.",
+      "ko": "이 단어는 cold나 gold처럼 ld로 끝납니다."
+    },
+    "final_lk": {
+      "en": "The word ends with the letters lk, like milk.",
+      "ko": "이 단어는 milk처럼 lk로 끝납니다."
+    },
+    "final_lp": {
+      "en": "The word ends with the letters lp, like help.",
+      "ko": "이 단어는 help처럼 lp로 끝납니다."
+    },
+    "final_lf": {
+      "en": "The word ends with the letters lf, like shelf.",
+      "ko": "이 단어는 shelf처럼 lf로 끝납니다."
+    },
+    "final_rd": {
+      "en": "The word ends with the letters rd, like card or bird.",
+      "ko": "이 단어는 card나 bird처럼 rd로 끝납니다."
+    },
+    "final_rk": {
+      "en": "The word ends with the letters rk, like bark or park.",
+      "ko": "이 단어는 bark나 park처럼 rk로 끝납니다."
+    },
+    "final_rn": {
+      "en": "The word ends with the letters rn, like corn or horn.",
+      "ko": "이 단어는 corn이나 horn처럼 rn으로 끝납니다."
+    },
+    "final_xt": {
+      "en": "The word ends with the letters xt, like next.",
+      "ko": "이 단어는 next처럼 xt로 끝납니다."
+    },
+    "final_pt": {
+      "en": "The word ends with the letters pt, like kept.",
+      "ko": "이 단어는 kept처럼 pt로 끝납니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with the correct final consonant blend"
+    ],
+    "no_ixl_text": true
+  }
+}

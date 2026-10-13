@@ -1,0 +1,248 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_common_and_proper_nouns",
+  "family_title_en": "Identify common and proper nouns",
+  "item_type": "sort_two_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_common_and_proper_nouns",
+      "ix_title": "Identify common and proper nouns",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "What kind of noun is the last word?",
+        "ko": "마지막 단어는 어떤 명사인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap common noun or proper noun.",
+        "ko": "보통명사 또는 고유명사를 누르세요."
+      },
+      "choices": [
+        "common noun",
+        "proper noun"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "christmas",
+        "halloween",
+        "holiday",
+        "museum",
+        "thanksgiving"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_common_and_proper_nouns_0001",
+          "tier": 1,
+          "stem": "I see a cat.",
+          "choices": [
+            "common noun",
+            "proper noun"
+          ],
+          "answer_index": 0,
+          "explain_key": "common_noun",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_common_and_proper_nouns_0002",
+          "tier": 1,
+          "stem": "It is Monday.",
+          "choices": [
+            "common noun",
+            "proper noun"
+          ],
+          "answer_index": 1,
+          "explain_key": "proper_day"
+        },
+        {
+          "item_id": "roots_identify_common_and_proper_nouns_0003",
+          "tier": 1,
+          "stem": "I hug the dog.",
+          "choices": [
+            "common noun",
+            "proper noun"
+          ],
+          "answer_index": 0,
+          "explain_key": "common_noun",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_common_and_proper_nouns_0004",
+          "tier": 2,
+          "stem": "We eat in the kitchen.",
+          "choices": [
+            "common noun",
+            "proper noun"
+          ],
+          "answer_index": 0,
+          "explain_key": "common_noun",
+          "media": [
+            {
+              "lemma": "kitchen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_common_and_proper_nouns_0005",
+          "tier": 2,
+          "stem": "It is Friday.",
+          "choices": [
+            "common noun",
+            "proper noun"
+          ],
+          "answer_index": 1,
+          "explain_key": "proper_day"
+        },
+        {
+          "item_id": "roots_identify_common_and_proper_nouns_0006",
+          "tier": 2,
+          "stem": "We live in Canada.",
+          "choices": [
+            "common noun",
+            "proper noun"
+          ],
+          "answer_index": 1,
+          "explain_key": "proper_place"
+        },
+        {
+          "item_id": "roots_identify_common_and_proper_nouns_0007",
+          "tier": 3,
+          "stem": "I play with <NAME>.",
+          "choices": [
+            "common noun",
+            "proper noun"
+          ],
+          "answer_index": 1,
+          "explain_key": "proper_person",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_identify_common_and_proper_nouns_0008",
+          "tier": 3,
+          "stem": "We saw the teacher.",
+          "choices": [
+            "common noun",
+            "proper noun"
+          ],
+          "answer_index": 0,
+          "explain_key": "common_job"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The two bin labels stay common noun then proper noun. Never change the words or the order.",
+      "The last word of every stem is the only noun and the word to sort. Other words must be articles, pronouns, verbs, adjectives, or prepositions.",
+      "Write common nouns in lowercase and proper nouns with a capital letter. Use <NAME> for any person name.",
+      "Keep about half the pool common and half proper. One tap. One right bin.",
+      "Never use mom, dad, grandma, grandpa, sun, moon, or earth. Those can read two ways.",
+      "Stay in the kid world of school, home, food, pets, play, family, and weather. No brands.",
+      "For tier 3 use job titles as common nouns, <NAME>, or two-word place names from the word list such as New York."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bmom\\b",
+    "\\bdad\\b",
+    "\\bgrandma\\b",
+    "\\bgrandpa\\b",
+    "\\bearth\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three or four words. Last word is an obvious pet, food, or day name. Add a lemma picture for concrete common nouns.",
+    "2": "Stems of four to six words. Last word is a two-syllable common noun or a month, day, or country name.",
+    "3": "Near misses. Last word is <NAME>, a job title kids may capitalize, or a two-word place name."
+  },
+  "miss_explain": {
+    "common_noun": {
+      "en": "A common noun names any person, place, or thing. It does not need a capital letter.",
+      "ko": "보통명사는 일반 사람, 장소, 사물을 가리킵니다. 대문자가 필요하지 않습니다."
+    },
+    "common_job": {
+      "en": "A job word like teacher is a common noun. It is not a special name.",
+      "ko": "teacher처럼 직업을 나타내는 말은 보통명사입니다. 특별한 이름이 아닙니다."
+    },
+    "proper_noun": {
+      "en": "A proper noun names a special person, place, or thing. It starts with a capital letter.",
+      "ko": "고유명사는 특정한 사람, 장소, 사물의 이름입니다. 대문자로 시작합니다."
+    },
+    "proper_person": {
+      "en": "A person's name is a proper noun. It always starts with a capital letter.",
+      "ko": "사람의 이름은 고유명사입니다. 항상 대문자로 시작합니다."
+    },
+    "proper_place": {
+      "en": "The name of a special place is a proper noun. It starts with a capital letter.",
+      "ko": "특별한 장소의 이름은 고유명사입니다. 대문자로 시작합니다."
+    },
+    "proper_day": {
+      "en": "Names of days and months are proper nouns. They start with a capital letter.",
+      "ko": "요일과 달의 이름은 고유명사입니다. 대문자로 시작합니다."
+    },
+    "proper_holiday": {
+      "en": "Names of holidays are proper nouns. They start with a capital letter.",
+      "ko": "축일의 이름은 고유명사입니다. 대문자로 시작합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify common and proper nouns"
+    ],
+    "no_ixl_text": true
+  }
+}

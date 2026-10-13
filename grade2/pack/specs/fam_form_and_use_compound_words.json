@@ -1,0 +1,320 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_and_use_compound_words",
+  "family_title_en": "Form and use compound words",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_and_use_compound_words",
+      "ix_title": "Form and use compound words",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word fits?",
+        "ko": "어느 낱말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that fits.",
+        "ko": "알맞은 낱말을 누르세요."
+      },
+      "choice_rule": "Four unique whole words from the wordlist or allowed_extra_words. Exactly one answer: the closed compound formed from a stem pair or the closed compound that fits the stem idea. Always include one leftover part of that compound. Tier 1: the other two choices are a short non-compound and a far word, never a second true compound. Tier 2: one leftover part, one same-topic compound that does not fit, and one plain kid word. Tier 3: two other real compounds that share a part or topic, plus one leftover part. Never two choices that both fit. Never brands, real names, IPA, or picture prose.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "anyone",
+        "anything",
+        "backyard",
+        "backpack",
+        "baseball",
+        "bedroom",
+        "bookmark",
+        "bow",
+        "cannot",
+        "catfish",
+        "classroom",
+        "cookbook",
+        "cupcake",
+        "daytime",
+        "doorbell",
+        "downtown",
+        "driveway",
+        "drop",
+        "everybody",
+        "everyone",
+        "everything",
+        "firetruck",
+        "football",
+        "goldfish",
+        "homework",
+        "hotdog",
+        "lunchtime",
+        "mailbox",
+        "moonlight",
+        "nighttime",
+        "nobody",
+        "notebook",
+        "pancake",
+        "raindrop",
+        "raincoat",
+        "sailboat",
+        "sandbox",
+        "sidewalk",
+        "snowball",
+        "snowman",
+        "softball",
+        "somebody",
+        "starlight",
+        "sunflower",
+        "sunlight",
+        "sunrise",
+        "sunset",
+        "sunshine",
+        "toothbrush",
+        "toothpaste"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_and_use_compound_words_0001",
+          "tier": 1,
+          "stem": "sun and shine.",
+          "choices": [
+            "sunshine",
+            "sun",
+            "shine",
+            "sunny"
+          ],
+          "answer_index": 0,
+          "explain_key": "form_join",
+          "media": [
+            {
+              "lemma": "sun"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_compound_words_0002",
+          "tier": 1,
+          "stem": "rain and bow.",
+          "choices": [
+            "rain",
+            "rainbow",
+            "bow",
+            "train"
+          ],
+          "answer_index": 1,
+          "explain_key": "form_join",
+          "media": [
+            {
+              "lemma": "rainbow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_compound_words_0003",
+          "tier": 1,
+          "stem": "bed and time.",
+          "choices": [
+            "bed",
+            "time",
+            "dinner",
+            "bedtime"
+          ],
+          "answer_index": 3,
+          "explain_key": "form_join",
+          "media": [
+            {
+              "lemma": "bed"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_compound_words_0004",
+          "tier": 2,
+          "stem": "Kids run and play.",
+          "choices": [
+            "play",
+            "classroom",
+            "playground",
+            "ground"
+          ],
+          "answer_index": 2,
+          "explain_key": "use_fit",
+          "media": [
+            {
+              "lemma": "playground"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_compound_words_0005",
+          "tier": 2,
+          "stem": "<NAME> ate cake from a cup.",
+          "choices": [
+            "cup",
+            "cupcake",
+            "cake",
+            "pancake"
+          ],
+          "answer_index": 1,
+          "explain_key": "use_fit",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_compound_words_0006",
+          "tier": 2,
+          "stem": "A man made of snow.",
+          "choices": [
+            "snow",
+            "man",
+            "snowball",
+            "snowman"
+          ],
+          "answer_index": 3,
+          "explain_key": "use_fit",
+          "media": [
+            {
+              "lemma": "snow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_compound_words_0007",
+          "tier": 3,
+          "stem": "Wear this in the rain.",
+          "choices": [
+            "rainbow",
+            "raindrop",
+            "raincoat",
+            "rain"
+          ],
+          "answer_index": 2,
+          "explain_key": "wrong_compound",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_compound_words_0008",
+          "tier": 3,
+          "stem": "<NAME> put books in a pack.",
+          "choices": [
+            "bookmark",
+            "pack",
+            "notebook",
+            "backpack"
+          ],
+          "answer_index": 3,
+          "explain_key": "wrong_compound",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four unique whole words and keep the correct compound in a mixed position across the pool, not only first.",
+      "One leftover part of the target compound must appear as a distractor on every item.",
+      "Never write a second choice that also fits the stem pair or the stem idea.",
+      "Wrong compounds must be real closed compounds from the extra list or wordlist, never invented blends.",
+      "Keep every stem and choice in the kid world of school, home, food, pets, play, family, or weather.",
+      "Tier 3 distractors stay close: two compounds that share a part or topic with the answer, plus one leftover part."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/[a-zæəɪʊθʃŋ]{1,4}/",
+    "\\bcompound word\\b",
+    "\\blook at the picture\\b",
+    "\\bmp3\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three or four words: two list words joined by and, plus a period. Picture lemma on the target. Distractors are leftover parts and one far non-compound.",
+    "2": "Kid sentences of four to seven words. The answer is the compound that fits. Distractors are one leftover part, one same-topic compound, and one plain word.",
+    "3": "Near-miss use items. Two other real compounds share a part or topic with the answer, and one leftover part stays in the set."
+  },
+  "miss_explain": {
+    "form_join": {
+      "en": "Two words join to make one new compound word.",
+      "ko": "두 낱말을 붙이면 새로운 합성어가 됩니다."
+    },
+    "use_fit": {
+      "en": "Pick the compound word that fits this idea.",
+      "ko": "이 뜻에 맞는 합성어를 고르세요."
+    },
+    "pick_compound": {
+      "en": "A compound word is made of two smaller words.",
+      "ko": "합성어는 작은 낱말 두 개로 된 말입니다."
+    },
+    "wrong_compound": {
+      "en": "That compound word does not fit this idea.",
+      "ko": "그 합성어는 이 뜻에 맞지 않습니다."
+    },
+    "part_not_whole": {
+      "en": "That is only one part, not the whole compound.",
+      "ko": "그것은 한 부분일 뿐, 합성어 전체가 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form and use compound words"
+    ],
+    "no_ixl_text": true
+  }
+}

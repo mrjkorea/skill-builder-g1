@@ -1,0 +1,234 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_read_words_with_blends",
+  "family_title_en": "Read words with blends",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_read_words_with_blends",
+      "ix_title": "Read words with blends",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word has a blend?",
+        "ko": "자음군이 있는 단어는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word with a blend.",
+        "ko": "자음군이 있는 단어를 누르세요."
+      },
+      "choice_rule": "Four different lowercase whole words taken from the stem. Exactly one has a consonant blend. Vary which slot holds the answer.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_read_words_with_blends_0001",
+          "tier": 1,
+          "stem": "My frog can hop.",
+          "choices": [
+            "can",
+            "hop",
+            "my",
+            "frog"
+          ],
+          "answer_index": 3,
+          "explain_key": "r_blend"
+        },
+        {
+          "item_id": "roots_read_words_with_blends_0002",
+          "tier": 1,
+          "stem": "My dog can play.",
+          "choices": [
+            "play",
+            "dog",
+            "can",
+            "my"
+          ],
+          "answer_index": 0,
+          "explain_key": "l_blend"
+        },
+        {
+          "item_id": "roots_read_words_with_blends_0003",
+          "tier": 1,
+          "stem": "<NAME> can see my flag.",
+          "choices": [
+            "can",
+            "see",
+            "flag",
+            "my"
+          ],
+          "answer_index": 2,
+          "explain_key": "l_blend",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_read_words_with_blends_0004",
+          "tier": 2,
+          "stem": "The sheep can sleep.",
+          "choices": [
+            "sleep",
+            "sheep",
+            "can",
+            "the"
+          ],
+          "answer_index": 0,
+          "explain_key": "l_blend"
+        },
+        {
+          "item_id": "roots_read_words_with_blends_0005",
+          "tier": 2,
+          "stem": "She left the white hat.",
+          "choices": [
+            "she",
+            "left",
+            "white",
+            "hat"
+          ],
+          "answer_index": 1,
+          "explain_key": "final_blend"
+        },
+        {
+          "item_id": "roots_read_words_with_blends_0006",
+          "tier": 2,
+          "stem": "My brother has a red shoe.",
+          "choices": [
+            "has",
+            "shoe",
+            "brother",
+            "red"
+          ],
+          "answer_index": 2,
+          "explain_key": "r_blend"
+        },
+        {
+          "item_id": "roots_read_words_with_blends_0007",
+          "tier": 3,
+          "stem": "My dad can stop at the top.",
+          "choices": [
+            "top",
+            "dad",
+            "stop",
+            "can"
+          ],
+          "answer_index": 2,
+          "explain_key": "s_blend"
+        },
+        {
+          "item_id": "roots_read_words_with_blends_0008",
+          "tier": 3,
+          "stem": "We smile for a mile.",
+          "choices": [
+            "for",
+            "mile",
+            "we",
+            "smile"
+          ],
+          "answer_index": 3,
+          "explain_key": "s_blend"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one word in the stem has a consonant blend, and that word is the correct choice.",
+      "Give four lowercase whole-word choices copied from the stem. The other three words have no consonant blend.",
+      "A blend is two or three consonant sounds side by side, and each sound is heard, at the start or at the end.",
+      "Initial blends include bl, cl, fl, gl, pl, sl, br, cr, dr, fr, gr, pr, tr, sc, sk, sm, sn, sp, st, sw, scr, spr, and str.",
+      "Final blends include ft, ld, lk, lp, lt, mp, nd, nt, sk, and st.",
+      "The spellings sh, ch, th, wh, ck, and ng are digraphs with one sound. Vowel teams such as ee, ay, and igh stay with the vowel.",
+      "Silent letters in kn and wr stay silent, so those pairs are one sound. R-controlled or, ar, er, ir, and ur stay with the vowel.",
+      "Tier 1 distractors are short words such as can, hop, dog, and red, with no digraph beside them.",
+      "Tier 2 distractors include a digraph word from the stem, such as sheep, shoe, she, or white.",
+      "Tier 3 distractors include a near miss that drops one consonant, such as top beside stop or mile beside smile.",
+      "Every stem word comes from the roots word list or allowed_extra_words, except the token <NAME>. Personal names use <NAME>."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\.mp3\\b",
+    "\\.wav\\b",
+    "/",
+    "æ",
+    "ə",
+    "ʃ",
+    "θ",
+    "ð",
+    "ŋ"
+  ],
+  "tier_rules": {
+    "1": "Stems of four or five words with a one-syllable initial blend. Distractors are short familiar words with no blend and no digraph.",
+    "2": "Stems of four to seven words. Use a two-syllable blend word or a final blend, and include one digraph distractor from the stem.",
+    "3": "Use a near-miss distractor that drops one consonant from the blend word. Keep a single right answer and at most ten words."
+  },
+  "miss_explain": {
+    "l_blend": {
+      "en": "Look for a consonant plus l. You hear both sounds, as in play, flag, and sleep.",
+      "ko": "자음 뒤에 l이 있습니다. play, flag, sleep처럼 두 소리가 납니다."
+    },
+    "r_blend": {
+      "en": "Look for a consonant plus r. You hear both sounds, as in frog and brother.",
+      "ko": "자음 뒤에 r이 있습니다. frog, brother처럼 두 소리가 납니다."
+    },
+    "s_blend": {
+      "en": "Look for s plus another consonant. You hear both sounds, as in stop and smile.",
+      "ko": "s 뒤에 다른 자음이 있습니다. stop, smile처럼 두 소리가 납니다."
+    },
+    "final_blend": {
+      "en": "Look at the end of the word. Two consonants there are both heard, as in left.",
+      "ko": "단어 끝을 보세요. left처럼 자음 두 소리가 모두 납니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Read words with blends"
+    ],
+    "no_ixl_text": true
+  }
+}

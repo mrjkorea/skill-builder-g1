@@ -1,0 +1,270 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_between_adjectives_and_adverbs",
+  "family_title_en": "Choose between adjectives and adverbs",
+  "item_type": "sort_two_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_between_adjectives_and_adverbs",
+      "ix_title": "Choose between adjectives and adverbs",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Adjective or adverb?",
+        "ko": "형용사일까요, 부사일까요?"
+      },
+      "what_to_do": {
+        "en": "Tap adjective or adverb.",
+        "ko": "형용사 또는 부사를 누르세요."
+      },
+      "choices": [
+        "adjective",
+        "adverb"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "adjective",
+        "adverb",
+        "bravely",
+        "brightly",
+        "busily",
+        "calmly",
+        "careful",
+        "carefully",
+        "easily",
+        "happily",
+        "hungrily",
+        "kindly",
+        "loudly",
+        "neatly",
+        "quickly",
+        "sadly",
+        "softly",
+        "sweetly",
+        "tidily",
+        "warmly",
+        "wisely"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_between_adjectives_and_adverbs_0001",
+          "tier": 1,
+          "stem": "The quiet cat drank milk.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 0,
+          "explain_key": "adjective",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_adjectives_and_adverbs_0002",
+          "tier": 1,
+          "stem": "The dog ran slowly.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 1,
+          "explain_key": "adverb",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_adjectives_and_adverbs_0003",
+          "tier": 1,
+          "stem": "My sister is nice.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 0,
+          "explain_key": "adjective"
+        },
+        {
+          "item_id": "roots_choose_between_adjectives_and_adverbs_0004",
+          "tier": 2,
+          "stem": "The puppy barked loudly.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 1,
+          "explain_key": "adverb",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_adjectives_and_adverbs_0005",
+          "tier": 2,
+          "stem": "The kids walk safely at school.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 1,
+          "explain_key": "adverb",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_adjectives_and_adverbs_0006",
+          "tier": 2,
+          "stem": "<NAME> has a slow bike.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 0,
+          "explain_key": "adjective",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_adjectives_and_adverbs_0007",
+          "tier": 3,
+          "stem": "The mouse hid quietly.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 1,
+          "explain_key": "adverb",
+          "media": [
+            {
+              "lemma": "mouse"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_between_adjectives_and_adverbs_0008",
+          "tier": 3,
+          "stem": "<NAME> feels happy after lunch.",
+          "choices": [
+            "adjective",
+            "adverb"
+          ],
+          "answer_index": 0,
+          "explain_key": "linking_adj",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The two bin labels are fixed as adjective then adverb. Never change them or their order.",
+      "Every stem is one kid-world sentence with exactly one adjective or one adverb, never both, and never a second -ly word or time word like today.",
+      "The target is a quality word a Grade 2 kid can hear. Do not count particles like down, here, or home as the target.",
+      "Keep the pool near half adjective bins and half adverb bins.",
+      "Wrong-bin taps are the only distractor. Never add extra choice words.",
+      "For tier 3 use adjectives after looks or feels, or -ly adverbs after an action verb that sits near a noun."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bmodify\\b",
+    "\\bmodifies\\b",
+    "\\bdescribes\\b",
+    "\\bdescribing\\b",
+    "\\bgrammar\\b",
+    "\\bsuffix\\b",
+    "\\bpart of speech\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Use is plus an adjective, or an action verb plus a clear -ly adverb. Add a picture lemma for a pet or food when the stem names one.",
+    "2": "Grade-level stems of four to seven words. Use two-syllable nouns such as puppy or sister, a name swap, or an -ly adverb after a past-tense verb.",
+    "3": "Near misses. Adjectives after looks or feels, and -ly adverbs after an action verb that sits next to a noun a kid might think is being described."
+  },
+  "miss_explain": {
+    "adjective": {
+      "en": "An adjective tells about a person, animal, or thing.",
+      "ko": "형용사는 사람, 동물, 사물을 설명합니다."
+    },
+    "adverb": {
+      "en": "An adverb tells about an action. Many adverbs end in -ly.",
+      "ko": "부사는 동작을 설명합니다. 많은 부사는 -ly로 끝납니다."
+    },
+    "linking_adj": {
+      "en": "After feels or looks, use an adjective, not an adverb.",
+      "ko": "feels나 looks 다음에는 부사가 아니라 형용사를 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Choose between adjectives and adverbs"
+    ],
+    "no_ixl_text": true
+  }
+}

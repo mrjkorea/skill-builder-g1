@@ -1,0 +1,285 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+  "family_title_en": "Capitalizing the names of people and pets",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+      "ix_title": "Capitalizing the names of people and pets",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Tap the name.",
+        "ko": "이름을 누르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the word that needs a capital.",
+        "ko": "대문자가 필요한 단어를 누르세요."
+      },
+      "choice_rule": "Offer four unique single-word choices. Exactly one is <NAME>. The other three are non-name words from the stem. Never use the first word of the sentence as a choice. Never write a real name.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "cousin",
+        "hamster",
+        "parrot",
+        "neighbor",
+        "buddy",
+        "goldfish",
+        "pony"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_capitalizing_the_names_of_people_and_pets_0001",
+          "tier": 1,
+          "stem": "The dog ran to <NAME>.",
+          "choices": [
+            "dog",
+            "ran",
+            "to",
+            "<NAME>"
+          ],
+          "answer_index": 3,
+          "explain_key": "person_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_people_and_pets_0002",
+          "tier": 1,
+          "stem": "They named the cat <NAME>.",
+          "choices": [
+            "named",
+            "the",
+            "cat",
+            "<NAME>"
+          ],
+          "answer_index": 3,
+          "explain_key": "pet_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_people_and_pets_0003",
+          "tier": 1,
+          "stem": "<NAME> has a red ball.",
+          "choices": [
+            "<NAME>",
+            "has",
+            "red",
+            "ball"
+          ],
+          "answer_index": 0,
+          "explain_key": "person_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_people_and_pets_0004",
+          "tier": 2,
+          "stem": "The teacher saw <NAME> today.",
+          "choices": [
+            "teacher",
+            "saw",
+            "today",
+            "<NAME>"
+          ],
+          "answer_index": 3,
+          "explain_key": "person_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_people_and_pets_0005",
+          "tier": 2,
+          "stem": "Our family has a dog named <NAME>.",
+          "choices": [
+            "family",
+            "dog",
+            "named",
+            "<NAME>"
+          ],
+          "answer_index": 3,
+          "explain_key": "pet_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_people_and_pets_0006",
+          "tier": 2,
+          "stem": "The boy and <NAME> play ball.",
+          "choices": [
+            "boy",
+            "and",
+            "play",
+            "<NAME>"
+          ],
+          "answer_index": 3,
+          "explain_key": "person_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_people_and_pets_0007",
+          "tier": 3,
+          "stem": "My mom called <NAME> after lunch.",
+          "choices": [
+            "mom",
+            "called",
+            "lunch",
+            "<NAME>"
+          ],
+          "answer_index": 3,
+          "explain_key": "person_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_people_and_pets_0008",
+          "tier": 3,
+          "stem": "My grandma saw <NAME> at school.",
+          "choices": [
+            "grandma",
+            "saw",
+            "school",
+            "<NAME>"
+          ],
+          "answer_index": 3,
+          "explain_key": "person_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one choice is <NAME>. The other three are non-name words taken from the stem.",
+      "Never offer the first word of the sentence as a choice, because it is capitalized only as the start.",
+      "Never write a real name. Use only the <NAME> swap from names.txt.",
+      "Wrong choices should look like they might need a capital: people words, pet words, or family words.",
+      "Tier 1 distractors are obvious common nouns such as dog, cat, or ball.",
+      "Tier 2 distractors include boy, girl, teacher, puppy, or family.",
+      "Tier 3 distractors include mom, dad, brother, sister, or grandma.",
+      "Keep about half the pool as people names and half as pet names.",
+      "Do not capitalize common nouns inside the stem.",
+      "Every item that uses <NAME> must set swap_slots NAME to names.txt."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bcapital letter\\b",
+    "\\buppercase\\b",
+    "\\blowercase\\b",
+    "\\bproper noun\\b",
+    "\\bcapitalize",
+    "\\bpunctuation\\b",
+    "\\bjohn\\b",
+    "\\bdavid\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. The name is <NAME>. Distractors are obvious common nouns like dog, cat, or ball. Add a pet or object picture when the stem names one.",
+    "2": "Grade-level stems of five to seven words. Distractors include people words such as boy, girl, or teacher, and pet words such as dog or puppy that are not the name.",
+    "3": "Near-miss distractors. Include family words such as mom, dad, brother, sister, or grandma that kids may want to capitalize. Stems may run up to ten words."
+  },
+  "miss_explain": {
+    "person_name": {
+      "en": "A person's name begins with a capital letter.",
+      "ko": "사람 이름은 대문자로 시작합니다."
+    },
+    "pet_name": {
+      "en": "A pet's name begins with a capital letter.",
+      "ko": "펫 이름은 대문자로 시작합니다."
+    },
+    "common_word": {
+      "en": "This word is not a name, so it does not need a capital.",
+      "ko": "이 단어는 이름이 아니므로 대문자가 필요 없습니다."
+    },
+    "family_word": {
+      "en": "Words like mom or brother are not names here.",
+      "ko": "엄마나 형제처럼 쓰인 말은 여기서 이름이 아닙니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Capitalizing the names of people and pets"
+    ],
+    "no_ixl_text": true
+  }
+}

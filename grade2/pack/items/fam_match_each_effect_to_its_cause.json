@@ -1,0 +1,2477 @@
+[
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0001",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The grass is wet.",
+    "choices": [
+      "Rain fell on it.",
+      "The sun is hot.",
+      "The cat is small.",
+      "The book is new."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grass"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0002",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ice melts.",
+    "choices": [
+      "The pond is deep.",
+      "The sun is hot.",
+      "The ice is cold.",
+      "The fish can swim."
+    ],
+    "answer_index": 1,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0003",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The baby is sad.",
+    "choices": [
+      "The cake is sweet.",
+      "The ball is round.",
+      "The dog barked.",
+      "The sock is pink."
+    ],
+    "answer_index": 2,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0004",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The floor is wet and muddy.",
+    "choices": [
+      "The chair is brown.",
+      "The milk is cold.",
+      "<NAME> spilled the milk.",
+      "<NAME> likes the floor."
+    ],
+    "answer_index": 2,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "floor"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0005",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The little plant grew tall.",
+    "choices": [
+      "The plant is green.",
+      "The pot is round.",
+      "Bugs sat on a leaf.",
+      "<NAME> gave it water."
+    ],
+    "answer_index": 3,
+    "explain_key": "plant_grow",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0006",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> is not hungry now.",
+    "choices": [
+      "The lunch is hot.",
+      "<NAME> ate lunch.",
+      "<NAME> set a cup.",
+      "The plate is clean."
+    ],
+    "answer_index": 1,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0007",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The little puppy hid under the bed.",
+    "choices": [
+      "The puppy likes the bed.",
+      "The puppy has a bone.",
+      "The thunder was loud.",
+      "The puppy took a nap."
+    ],
+    "answer_index": 2,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0008",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> put on a warm coat at home.",
+    "choices": [
+      "The wind is cold.",
+      "The coat is blue.",
+      "<NAME> took off the coat.",
+      "The sun feels warm."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0009",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The yard is wet.",
+    "choices": [
+      "Rain fell on it.",
+      "The bus is big.",
+      "The pen is blue.",
+      "The map is old."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0010",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The path is wet.",
+    "choices": [
+      "Rain fell hard.",
+      "The cat is soft.",
+      "The hat is red.",
+      "The box is full."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0011",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog is wet.",
+    "choices": [
+      "Rain fell on it.",
+      "The fish can swim.",
+      "The bed is soft.",
+      "The toy is new."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0012",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cup is hot.",
+    "choices": [
+      "Hot tea is in it.",
+      "The spoon is big.",
+      "The cat is black.",
+      "The book is new."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0013",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The soup is hot.",
+    "choices": [
+      "It got hot on the stove.",
+      "The bowl is round.",
+      "The plate is clean.",
+      "The napkin is white."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0014",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The sand is hot.",
+    "choices": [
+      "The sun is hot.",
+      "The crab is red.",
+      "The boat is far.",
+      "The rock is gray."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0015",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat ran away.",
+    "choices": [
+      "The dog barked loud.",
+      "The fish can swim.",
+      "The grass is green.",
+      "The clock is round."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0016",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bird flew off.",
+    "choices": [
+      "A loud horn rang.",
+      "The nest is warm.",
+      "The egg is white.",
+      "The tree is tall."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0017",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The mouse hid fast.",
+    "choices": [
+      "The cat ran near it.",
+      "The cheese is good.",
+      "The hole is dark.",
+      "The tail is long."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0018",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The vase is broken.",
+    "choices": [
+      "It fell off the shelf.",
+      "The shelf is brown.",
+      "The flower is pink.",
+      "The room is big."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "vase"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0019",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The toy is broken.",
+    "choices": [
+      "<NAME> dropped it hard.",
+      "The toy is red.",
+      "The box is open.",
+      "The rug is soft."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0020",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The plate cracked.",
+    "choices": [
+      "It fell on the floor.",
+      "The floor is clean.",
+      "The cup is full.",
+      "The spoon is shiny."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0021",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kite flew high.",
+    "choices": [
+      "The wind blew hard.",
+      "The string is long.",
+      "The tail is red.",
+      "The boy is tall."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0022",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The flag moves.",
+    "choices": [
+      "Wind blew in the yard.",
+      "The pole is tall.",
+      "The gate is shut.",
+      "The path is long."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0023",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The flower is fresh.",
+    "choices": [
+      "<NAME> gave it water.",
+      "The vase is glass.",
+      "The table is wood.",
+      "The room is bright."
+    ],
+    "answer_index": 0,
+    "explain_key": "plant_grow",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0024",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The tree has green leaves.",
+    "choices": [
+      "Rain and sun came.",
+      "The nest is high.",
+      "The bird can sing.",
+      "The hill is steep."
+    ],
+    "answer_index": 0,
+    "explain_key": "plant_grow",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0025",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The shoe is muddy.",
+    "choices": [
+      "<NAME> went in mud.",
+      "The shoe is black.",
+      "The sock is clean.",
+      "The foot is small."
+    ],
+    "answer_index": 0,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0026",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The paper has a rip.",
+    "choices": [
+      "The puppy chews it.",
+      "The desk is neat.",
+      "The pencil is sharp.",
+      "The pen is pink."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paper"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0027",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The room is dark.",
+    "choices": [
+      "The lamp went out.",
+      "The bed is soft.",
+      "The pillow is soft.",
+      "The rug is blue."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0028",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bell rang loud.",
+    "choices": [
+      "The teacher rang it.",
+      "The pen is white.",
+      "The map is on wall.",
+      "The clock is round."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0029",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cake is gone.",
+    "choices": [
+      "We ate it at lunch.",
+      "The cake was sweet.",
+      "The plate is pretty.",
+      "The table is set."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0030",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Juice is on the floor.",
+    "choices": [
+      "The cup fell over.",
+      "The spoon is long.",
+      "The napkin is clean.",
+      "The lunch box is red."
+    ],
+    "answer_index": 0,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0031",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rabbit ran away.",
+    "choices": [
+      "A dog ran near it.",
+      "The corn is sweet.",
+      "The grass is soft.",
+      "The hole is deep."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0032",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The board has a word.",
+    "choices": [
+      "<NAME> wrote on it.",
+      "The pen is on desk.",
+      "The desk has books.",
+      "The chair is brown."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "board"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0033",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pond has ice on it.",
+    "choices": [
+      "Cold air came at night.",
+      "The duck flew away.",
+      "The bank is steep.",
+      "The rock is gray."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pond"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0034",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The coat is dirty.",
+    "choices": [
+      "<NAME> spilled red juice.",
+      "The coat is blue.",
+      "The hat is white.",
+      "The sleeve is long."
+    ],
+    "answer_index": 0,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0035",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The snow is deep.",
+    "choices": [
+      "Snow fell all night.",
+      "The sled is red.",
+      "The hill is steep.",
+      "The boot is black."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0036",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The street has a big puddle.",
+    "choices": [
+      "Rain made a wet spot.",
+      "The street is long.",
+      "The mail box is red.",
+      "Cars drive on road."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "street"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0037",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The garden plant is green and tall.",
+    "choices": [
+      "<NAME> gave it water.",
+      "The fence is white.",
+      "The shed is brown.",
+      "The gate is shut."
+    ],
+    "answer_index": 0,
+    "explain_key": "plant_grow",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0038",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kitten purrs on the couch.",
+    "choices": [
+      "<NAME> gave it warm milk.",
+      "The couch is soft.",
+      "The TV is off.",
+      "The lamp is on."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0039",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The class floor is wet and dirty.",
+    "choices": [
+      "Juice spilled at snack time.",
+      "The chair is brown.",
+      "The board has math.",
+      "The clock is loud."
+    ],
+    "answer_index": 0,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0040",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The picnic blanket got wet.",
+    "choices": [
+      "Rain fell from the sky.",
+      "The bag has food.",
+      "The ant moves by.",
+      "The tree has shade."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0041",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The ice cream melted on the hand.",
+    "choices": [
+      "The sun made it melt.",
+      "The shop is near.",
+      "The line was long.",
+      "The hand is small."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0042",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mouse is asleep in its nest.",
+    "choices": [
+      "It ran on the wheel.",
+      "The box has water.",
+      "The food is seed.",
+      "The door is shut."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0043",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bike seat feels warm.",
+    "choices": [
+      "It sat in the hot sun.",
+      "The wheel is black.",
+      "The bell is loud.",
+      "The rope is tight."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0044",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The baby fell asleep in the crib.",
+    "choices": [
+      "<NAME> read a quiet book.",
+      "The mobile spins slow.",
+      "The blanket is blue.",
+      "The room is clean."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0045",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The ball rolled into the street.",
+    "choices": [
+      "<NAME> kicks it too hard.",
+      "The net is white.",
+      "The grass is cut.",
+      "The team wears blue."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0046",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cookies smell sweet today.",
+    "choices": [
+      "Mom baked them this morning.",
+      "The oven is off now.",
+      "The pan is round.",
+      "The hat is on hooks."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0047",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The fish pool water is dirty.",
+    "choices": [
+      "<NAME> gave too much food.",
+      "The rock is red.",
+      "The light is on.",
+      "The fan is loud."
+    ],
+    "answer_index": 0,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0048",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The board still has a word.",
+    "choices": [
+      "<NAME> wrote on it.",
+      "<NAME> wipe the word off.",
+      "The pen is in box.",
+      "The pen is old."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "board"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0049",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dog is still wet.",
+    "choices": [
+      "It got out of the tub.",
+      "The mat is by door.",
+      "The rug is soft.",
+      "The rope is long."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0050",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The lunch box came home with nothing.",
+    "choices": [
+      "<NAME> ate every snack.",
+      "The box is red.",
+      "The top is shut tight.",
+      "The napkin was clean."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0051",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The window glass is hard to see.",
+    "choices": [
+      "Hot soup sat near it.",
+      "The frame is white.",
+      "The lock is tight.",
+      "The wall is white."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "window"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0052",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy chews the left shoe.",
+    "choices": [
+      "It was alone at home.",
+      "The shoe is brown.",
+      "The shoe tie is tight.",
+      "The room has a coat."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0053",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The park bench is hot to touch.",
+    "choices": [
+      "It sat in the hot sun.",
+      "The sand is cool.",
+      "The swing moves slow.",
+      "The hill is steep."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0054",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bird pool is full of water.",
+    "choices": [
+      "Rain made it full at night.",
+      "The stone is gray.",
+      "The bush is green.",
+      "The path is long."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0055",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The teddy bear fell on the floor.",
+    "choices": [
+      "<NAME> dropped it from bed.",
+      "The bear is brown.",
+      "The bed has a pillow.",
+      "The lamp is dim."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teddy"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0056",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The plant fell on its side.",
+    "choices": [
+      "The cat jump on shelf.",
+      "The pot is round.",
+      "The leaf is long.",
+      "The window is open."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0057",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The road is wet after the rain.",
+    "choices": [
+      "Rain wash the road clean.",
+      "The sign is bright.",
+      "The car is by road.",
+      "The light turn red."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "road"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0058",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy has a hurt leg.",
+    "choices": [
+      "He fell on the playground.",
+      "The bandage is a star.",
+      "The sock is blue.",
+      "The shoe is tied."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0059",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rabbit box has hay out.",
+    "choices": [
+      "The rabbit dug in hay.",
+      "The water cup drips.",
+      "The door is shut tight.",
+      "The wheel spins free."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0060",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cookies rose high in the pan.",
+    "choices": [
+      "The hot oven made them rise.",
+      "The pan is round.",
+      "The bell rang loud.",
+      "The hat is on hooks."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0061",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The car glass has rain drops.",
+    "choices": [
+      "It rained while we wait.",
+      "The seat is soft.",
+      "The radio is soft.",
+      "The wheel is black."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0062",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sister is smiling now.",
+    "choices": [
+      "<NAME> shared the cookie.",
+      "The chair is wood.",
+      "The cup has milk.",
+      "The napkin is clean."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0063",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hall smells like fresh paint.",
+    "choices": [
+      "Mom paint the wall today.",
+      "The floor is tile.",
+      "The light is bright.",
+      "The door is closed."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hall"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0064",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The baby duck follow the mom.",
+    "choices": [
+      "She called them with noise.",
+      "The pond is still.",
+      "The rock is gray.",
+      "The sun is low."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0065",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The book pages are wet today.",
+    "choices": [
+      "<NAME> left it in rain.",
+      "The book is blue.",
+      "The pencil is short.",
+      "The pen is black."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0066",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The toast is up and hot.",
+    "choices": [
+      "The hot oven made it rise.",
+      "The butter is cold.",
+      "The plate is warm.",
+      "The jam is red."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0067",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mouse moves in its wheel.",
+    "choices": [
+      "It woke up at night.",
+      "The paper is soft.",
+      "The pipe is round.",
+      "The food is seed."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0068",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The front step is hard to walk.",
+    "choices": [
+      "Ice is on it at night.",
+      "The rail is white.",
+      "The mat says welcome.",
+      "The light is on."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "step"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0069",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The class got more time at recess.",
+    "choices": [
+      "Every kid finished the work.",
+      "The bell rang on time.",
+      "The yard has a swing.",
+      "The fence is white."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "recess"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0070",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The orange rolled under the table.",
+    "choices": [
+      "<NAME> move it off plate.",
+      "The peel is rough.",
+      "The table is round.",
+      "The chair is soft."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "orange"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0071",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kitten hair is up tall.",
+    "choices": [
+      "A loud truck drove by.",
+      "The tail is long.",
+      "The eye is green.",
+      "The foot is tiny."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0072",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tile floor is wet.",
+    "choices": [
+      "The dog ran in after tub.",
+      "The tile is white.",
+      "The rug is by door.",
+      "The rope is on hook."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0073",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girl had an umbrella on the walk home.",
+    "choices": [
+      "Rain came on the walk.",
+      "The umbrella is red.",
+      "She put it away.",
+      "The walk is long."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "umbrella"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0074",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The treat in the pocket turned soft.",
+    "choices": [
+      "Warm skin made it soft.",
+      "The wrap is shiny.",
+      "The path was fun.",
+      "<NAME> ate a snack."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0075",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The mouse stay inside its little house.",
+    "choices": [
+      "The cat sat by the box.",
+      "The house is wood.",
+      "The mouse ate seed.",
+      "The mouse drank water."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0076",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The new crayon broke on the art table.",
+    "choices": [
+      "<NAME> press down too hard.",
+      "The crayon is red.",
+      "The paper is white.",
+      "The box has ten."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0077",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The family dog cried by the front door.",
+    "choices": [
+      "<NAME> left for school early.",
+      "The dog has a bone.",
+      "The rope is inside.",
+      "The bowl has water."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0078",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The red plant bent near the white fence.",
+    "choices": [
+      "It grew near the sunny spot.",
+      "The fence is white.",
+      "The soil is dark.",
+      "The pot is round."
+    ],
+    "answer_index": 0,
+    "explain_key": "plant_grow",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0079",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The child is tired at story time tonight.",
+    "choices": [
+      "She miss her nap today.",
+      "The book has a bear.",
+      "The rug is soft.",
+      "The lamp is dim."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "child"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0080",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The table had a wet spot by the cup.",
+    "choices": [
+      "Juice drips from a small rip.",
+      "The cup is red.",
+      "The tap drips slow.",
+      "The pan is yellow."
+    ],
+    "answer_index": 0,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0081",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The snow in the yard got very small.",
+    "choices": [
+      "Warm air came the next day.",
+      "The hat is wool.",
+      "The nose fell off.",
+      "Kids built it yesterday."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0082",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The trap shut tight in the shed at night.",
+    "choices": [
+      "The mouse tried to take cheese.",
+      "The shed has a bike.",
+      "The light is on.",
+      "The floor is hard."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0083",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The class mouse would not leave its pipe.",
+    "choices": [
+      "A loud bell rang in the hall.",
+      "The pipe is clear.",
+      "Kids feed it one by one.",
+      "The box lock is tight."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0084",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> wore boots to the bus stop today.",
+    "choices": [
+      "Dark cloud came in the sky.",
+      "The bus is yellow.",
+      "The coat is red.",
+      "The stop sign is near."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0085",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The birthday balloon on the chair went down.",
+    "choices": [
+      "The air went out of it slow.",
+      "The ribbon is long.",
+      "The cake has candles.",
+      "The friends sang loud."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "balloon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0086",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wet coat on the line got dry and hard.",
+    "choices": [
+      "Cold wind dry the coat fast.",
+      "The pin is wood.",
+      "The line is tight.",
+      "The bag is round."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0087",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The puppy stop loud barks at the mail man.",
+    "choices": [
+      "The man walk away down path.",
+      "The puppy is small.",
+      "The mail door is small.",
+      "The path is long."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0088",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The tall stack of blocks fell on the rug.",
+    "choices": [
+      "The base move from a touch.",
+      "The block is wood.",
+      "The rug is soft.",
+      "The cat sit close by."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0089",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The leaves on the tree turned red this week.",
+    "choices": [
+      "Cool night came after warm days.",
+      "The tree is wide.",
+      "Mice run on the tree.",
+      "The yard rake is near."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0090",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fish jump up and fell on the rock.",
+    "choices": [
+      "A big fish came near it.",
+      "The rock is gray.",
+      "The water is green.",
+      "The net hang on post."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0091",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wet paint sign stay on the park bench.",
+    "choices": [
+      "Mom paint the bench at dawn.",
+      "The bench is green.",
+      "The sign is orange.",
+      "Kids play on swing."
+    ],
+    "answer_index": 0,
+    "explain_key": "cause_first",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0092",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The ice in the cooler was water by noon.",
+    "choices": [
+      "Hot sun beat on the top.",
+      "The cooler is blue.",
+      "The food stay cold.",
+      "The drink was packed."
+    ],
+    "answer_index": 0,
+    "explain_key": "heat_melt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0093",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The baby bird on the ground cried loud.",
+    "choices": [
+      "Wind blew it from the tree.",
+      "The nest is high.",
+      "The tail is tiny.",
+      "The mother bring bugs."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0094",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The rug has mud on it.",
+    "choices": [
+      "The dog ran in with mud.",
+      "The rug is red.",
+      "The door has a screen.",
+      "The rope is on hook."
+    ],
+    "answer_index": 0,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0095",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The mouse water cup was dry at school.",
+    "choices": [
+      "It drips through a loose cap.",
+      "The cap is red.",
+      "The paper was new.",
+      "The wheel still spins."
+    ],
+    "answer_index": 0,
+    "explain_key": "spill_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "water"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0096",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy could not find his mitten after recess.",
+    "choices": [
+      "It fell in the snow at play.",
+      "The other mitten is dry.",
+      "The coat is warm.",
+      "The bell rang loud."
+    ],
+    "answer_index": 0,
+    "explain_key": "fall_broke",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0097",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cake on the table had a big part gone.",
+    "choices": [
+      "<NAME> ate it before dinner.",
+      "The top is white.",
+      "The plate is clean.",
+      "The light is dim in box."
+    ],
+    "answer_index": 0,
+    "explain_key": "food_full",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0098",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cat made a loud noise at the dog.",
+    "choices": [
+      "The dog barked at the cat.",
+      "The cat sat by the window.",
+      "The dog wags its tail.",
+      "The rug is in hall."
+    ],
+    "answer_index": 0,
+    "explain_key": "loud_scare",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0099",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The puddle at the bus stop was gray.",
+    "choices": [
+      "Rain fell all morning long.",
+      "The stop sign is red.",
+      "Kids stand in a line.",
+      "The bus wait near."
+    ],
+    "answer_index": 0,
+    "explain_key": "rain_wet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puddle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_effect_to_its_cause_0100",
+    "family_id": "fam_match_each_effect_to_its_cause",
+    "skill_id": "roots_match_each_effect_to_its_cause",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The warm hat got packed away in spring.",
+    "choices": [
+      "Spring sun made days warm.",
+      "The hat has a stripe.",
+      "The box is under bed.",
+      "The coat still hangs."
+    ],
+    "answer_index": 0,
+    "explain_key": "cold_coat",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  }
+]

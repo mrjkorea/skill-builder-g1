@@ -1,0 +1,332 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_order_alphabetically_based_on_the_first_two",
+  "family_title_en": "Order alphabetically based on the first two letters",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_order_alphabetically_based_on_the_first_two",
+      "ix_title": "Order alphabetically based on the first two letters",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Look at the first two letters.",
+        "ko": "앞 두 글자를 보세요."
+      },
+      "what_to_do": {
+        "en": "Tap the word that comes first or last.",
+        "ko": "먼저 또는 마지막에 오는 단어를 누르세요."
+      },
+      "choice_rule": "Always exactly four single kid-world words from the roots wordlist. All four share the same first letter. Each word must have a different second letter. Never use two words that share the same first two letters. The stem asks first or last. One correct tap. Mix the answer slot.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "letters",
+        "second",
+        "alphabet",
+        "abc"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_two_0001",
+          "tier": 1,
+          "stem": "Which word comes first?",
+          "choices": [
+            "chick",
+            "clock",
+            "cat",
+            "cow"
+          ],
+          "answer_index": 2,
+          "explain_key": "comes_first",
+          "media": [
+            {
+              "lemma": "cat"
+            },
+            {
+              "lemma": "chick"
+            },
+            {
+              "lemma": "clock"
+            },
+            {
+              "lemma": "cow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_two_0002",
+          "tier": 1,
+          "stem": "What word comes first?",
+          "choices": [
+            "desk",
+            "dog",
+            "dark",
+            "duck"
+          ],
+          "answer_index": 2,
+          "explain_key": "comes_first",
+          "media": [
+            {
+              "lemma": "desk"
+            },
+            {
+              "lemma": "dog"
+            },
+            {
+              "lemma": "dark"
+            },
+            {
+              "lemma": "duck"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_two_0003",
+          "tier": 1,
+          "stem": "Which word comes first?",
+          "choices": [
+            "bike",
+            "ball",
+            "boat",
+            "bun"
+          ],
+          "answer_index": 1,
+          "explain_key": "comes_first",
+          "media": [
+            {
+              "lemma": "ball"
+            },
+            {
+              "lemma": "bike"
+            },
+            {
+              "lemma": "boat"
+            },
+            {
+              "lemma": "bun"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_two_0004",
+          "tier": 2,
+          "stem": "Find the first word.",
+          "choices": [
+            "apple",
+            "art",
+            "aunt",
+            "ant"
+          ],
+          "answer_index": 3,
+          "explain_key": "comes_first",
+          "media": [
+            {
+              "lemma": "apple"
+            },
+            {
+              "lemma": "ant"
+            },
+            {
+              "lemma": "aunt"
+            },
+            {
+              "lemma": "art"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_two_0005",
+          "tier": 2,
+          "stem": "Which word comes last?",
+          "choices": [
+            "rain",
+            "rice",
+            "rug",
+            "rope"
+          ],
+          "answer_index": 2,
+          "explain_key": "comes_last",
+          "media": [
+            {
+              "lemma": "rain"
+            },
+            {
+              "lemma": "rice"
+            },
+            {
+              "lemma": "rope"
+            },
+            {
+              "lemma": "rug"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_two_0006",
+          "tier": 2,
+          "stem": "What word comes first?",
+          "choices": [
+            "gift",
+            "garden",
+            "gold",
+            "gum"
+          ],
+          "answer_index": 1,
+          "explain_key": "comes_first",
+          "media": [
+            {
+              "lemma": "garden"
+            },
+            {
+              "lemma": "gift"
+            },
+            {
+              "lemma": "gold"
+            },
+            {
+              "lemma": "gum"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_two_0007",
+          "tier": 3,
+          "stem": "Find the first word.",
+          "choices": [
+            "picnic",
+            "pencil",
+            "plant",
+            "pond"
+          ],
+          "answer_index": 1,
+          "explain_key": "comes_first",
+          "media": [
+            {
+              "lemma": "picnic"
+            },
+            {
+              "lemma": "pencil"
+            },
+            {
+              "lemma": "plant"
+            },
+            {
+              "lemma": "pond"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_order_alphabetically_based_on_the_first_two_0008",
+          "tier": 3,
+          "stem": "Find the last word.",
+          "choices": [
+            "map",
+            "men",
+            "milk",
+            "mop"
+          ],
+          "answer_index": 3,
+          "explain_key": "comes_last",
+          "media": [
+            {
+              "lemma": "map"
+            },
+            {
+              "lemma": "men"
+            },
+            {
+              "lemma": "milk"
+            },
+            {
+              "lemma": "mop"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The four choices are always single words, never phrases or ABC lists.",
+      "All four words share one first letter so the child must use the second letter.",
+      "Each word must have a different second letter. Same first two letters is banned.",
+      "Wrong choices are the other three words in that set, not random off-set words.",
+      "Keep words in the kid world: school, home, food, pets, play, family, weather.",
+      "No real names. If a name is needed, use <NAME> only.",
+      "Do not use brands, cities, countries, or adult work words.",
+      "Spread the correct choice across slots 0, 1, 2, and 3."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\balphabetically\\b",
+    "\\bthird letter\\b",
+    "\\bdictionary\\b",
+    "\\bguide word",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stem asking which word comes first. Second letters are far apart, such as a versus o versus u. Picture each word.",
+    "2": "Grade-level stems. Mix first and last. Two-syllable words are fine. Second letters are closer than in tier 1.",
+    "3": "Near-miss sets whose second letters sit next to each other, such as e i o or a e i. Ask first or last."
+  },
+  "miss_explain": {
+    "comes_first": {
+      "en": "Look at the first two letters. The word whose second letter comes first in ABC order is first.",
+      "ko": "앞 두 글자를 보세요. 두 번째 글자가 알파벳에서 더 앞인 단어가 먼저입니다."
+    },
+    "comes_last": {
+      "en": "Look at the first two letters. The word whose second letter comes last in ABC order is last.",
+      "ko": "앞 두 글자를 보세요. 두 번째 글자가 알파벳에서 더 뒤인 단어가 마지막입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Order alphabetically based on the first two letters"
+    ],
+    "no_ixl_text": true
+  }
+}

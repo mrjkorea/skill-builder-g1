@@ -1,0 +1,2255 @@
+[
+  {
+    "item_id": "roots_use_contractions_with_not_0001",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat is not sad.",
+    "choices": [
+      "isn't",
+      "don't",
+      "can't",
+      "won't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0002",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We do not run.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "isn't",
+      "aren't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0003",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The frogs are not wet.",
+    "choices": [
+      "don't",
+      "isn't",
+      "aren't",
+      "can't"
+    ],
+    "answer_index": 2,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0004",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy does not jump.",
+    "choices": [
+      "don't",
+      "didn't",
+      "isn't",
+      "doesn't"
+    ],
+    "answer_index": 3,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0005",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did not eat lunch.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0006",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The door was not open.",
+    "choices": [
+      "isn't",
+      "wasn't",
+      "aren't",
+      "weren't"
+    ],
+    "answer_index": 1,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0007",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The little children were not at school today.",
+    "choices": [
+      "wasn't",
+      "aren't",
+      "weren't",
+      "isn't"
+    ],
+    "answer_index": 2,
+    "explain_key": "werent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0008",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will not ride the bike today.",
+    "choices": [
+      "wouldn't",
+      "wasn't",
+      "don't",
+      "won't"
+    ],
+    "answer_index": 3,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0009",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog is not big.",
+    "choices": [
+      "isn't",
+      "weren't",
+      "hadn't",
+      "won't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0010",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "It is not warm today.",
+    "choices": [
+      "aren't",
+      "isn't",
+      "don't",
+      "can't"
+    ],
+    "answer_index": 1,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0011",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They are not here.",
+    "choices": [
+      "don't",
+      "isn't",
+      "aren't",
+      "wasn't"
+    ],
+    "answer_index": 2,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0012",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We do not play.",
+    "choices": [
+      "won't",
+      "don't",
+      "doesn't",
+      "isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0013",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "You do not sing.",
+    "choices": [
+      "isn't",
+      "don't",
+      "hasn't",
+      "weren't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0014",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ants are not red.",
+    "choices": [
+      "can't",
+      "aren't",
+      "don't",
+      "isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0015",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fish is not blue.",
+    "choices": [
+      "isn't",
+      "didn't",
+      "weren't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0016",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Bears are not small.",
+    "choices": [
+      "hasn't",
+      "aren't",
+      "won't",
+      "isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0017",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We do not hop.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "wasn't",
+      "couldn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0018",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hen is not loud.",
+    "choices": [
+      "isn't",
+      "aren't",
+      "hadn't",
+      "won't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0019",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kids are not sad.",
+    "choices": [
+      "don't",
+      "isn't",
+      "aren't",
+      "can't"
+    ],
+    "answer_index": 2,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0020",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I do not cry.",
+    "choices": [
+      "weren't",
+      "don't",
+      "doesn't",
+      "wasn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0021",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl is not out.",
+    "choices": [
+      "isn't",
+      "haven't",
+      "won't",
+      "aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0022",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Ducks are not dry.",
+    "choices": [
+      "hadn't",
+      "aren't",
+      "isn't",
+      "shouldn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0023",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We do not yell.",
+    "choices": [
+      "don't",
+      "couldn't",
+      "doesn't",
+      "weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0024",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bug is not slow.",
+    "choices": [
+      "isn't",
+      "won't",
+      "aren't",
+      "hasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0025",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cows are not fast.",
+    "choices": [
+      "can't",
+      "aren't",
+      "don't",
+      "isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0026",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "You do not nap.",
+    "choices": [
+      "isn't",
+      "don't",
+      "didn't",
+      "wasn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0027",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pig is not clean.",
+    "choices": [
+      "isn't",
+      "weren't",
+      "don't",
+      "hadn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0028",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Birds are not on land.",
+    "choices": [
+      "won't",
+      "aren't",
+      "isn't",
+      "couldn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0029",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We do not fight.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "hasn't",
+      "aren't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0030",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The sun is not out.",
+    "choices": [
+      "isn't",
+      "aren't",
+      "won't",
+      "didn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0031",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boys are not home.",
+    "choices": [
+      "don't",
+      "wasn't",
+      "aren't",
+      "isn't"
+    ],
+    "answer_index": 2,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0032",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I do not swim.",
+    "choices": [
+      "weren't",
+      "don't",
+      "doesn't",
+      "can't"
+    ],
+    "answer_index": 1,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0033",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fox is not kind.",
+    "choices": [
+      "isn't",
+      "haven't",
+      "aren't",
+      "won't"
+    ],
+    "answer_index": 0,
+    "explain_key": "isnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0034",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Frogs are not in mud.",
+    "choices": [
+      "hadn't",
+      "aren't",
+      "isn't",
+      "shouldn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "arent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0035",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We do not hide.",
+    "choices": [
+      "don't",
+      "isn't",
+      "doesn't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "dont",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0036",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kitten does not purr.",
+    "choices": [
+      "don't",
+      "doesn't",
+      "didn't",
+      "isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0037",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did not nap today.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0038",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cake was not hot.",
+    "choices": [
+      "isn't",
+      "wasn't",
+      "aren't",
+      "weren't"
+    ],
+    "answer_index": 1,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0039",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bird can not fly.",
+    "choices": [
+      "couldn't",
+      "can't",
+      "won't",
+      "shouldn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0040",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She does not like milk.",
+    "choices": [
+      "don't",
+      "doesn't",
+      "didn't",
+      "isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0041",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did not draw a map.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "hadn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0042",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bus was not late.",
+    "choices": [
+      "wasn't",
+      "weren't",
+      "isn't",
+      "aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0043",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He does not wash hands.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "didn't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0044",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rain did not stop.",
+    "choices": [
+      "doesn't",
+      "didn't",
+      "don't",
+      "wasn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0045",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I can not reach the shelf.",
+    "choices": [
+      "can't",
+      "couldn't",
+      "won't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0046",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dog was not in bed.",
+    "choices": [
+      "wasn't",
+      "weren't",
+      "isn't",
+      "aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0047",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Mom does not cook fish.",
+    "choices": [
+      "don't",
+      "doesn't",
+      "didn't",
+      "isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0048",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did not fix the toy.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0049",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The lamp was not on.",
+    "choices": [
+      "isn't",
+      "wasn't",
+      "aren't",
+      "weren't"
+    ],
+    "answer_index": 1,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0050",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat can not climb.",
+    "choices": [
+      "can't",
+      "couldn't",
+      "won't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0051",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He does not feed the fish.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "didn't",
+      "hasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0052",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We did not win the game.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0053",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The path was not muddy.",
+    "choices": [
+      "wasn't",
+      "weren't",
+      "isn't",
+      "aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0054",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "You can not pet the dog.",
+    "choices": [
+      "can't",
+      "couldn't",
+      "won't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0055",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She does not read at night.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "didn't",
+      "isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0056",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did not pack the bag.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "hadn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0057",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The stove was not hot.",
+    "choices": [
+      "wasn't",
+      "weren't",
+      "isn't",
+      "aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stove"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0058",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He can not sing well.",
+    "choices": [
+      "can't",
+      "couldn't",
+      "won't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0059",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "It does not snow in July.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "didn't",
+      "isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0060",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They did not clean the room.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0061",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bell was not loud.",
+    "choices": [
+      "wasn't",
+      "weren't",
+      "isn't",
+      "aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0062",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We can not play outside.",
+    "choices": [
+      "can't",
+      "couldn't",
+      "won't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0063",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Dad does not bake bread.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "didn't",
+      "isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0064",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did not miss the bus.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0065",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The pond was not cold.",
+    "choices": [
+      "wasn't",
+      "weren't",
+      "isn't",
+      "aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pond"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0066",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "You can not open the jar.",
+    "choices": [
+      "can't",
+      "couldn't",
+      "won't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jar"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0067",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The horse does not run fast.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "didn't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0068",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I did not lose my hat.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "hadn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0069",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The yard was not tidy.",
+    "choices": [
+      "wasn't",
+      "weren't",
+      "isn't",
+      "aren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wasnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0070",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She can not tie her shoe.",
+    "choices": [
+      "can't",
+      "couldn't",
+      "won't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "cant",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0071",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kid does not crawl yet.",
+    "choices": [
+      "doesn't",
+      "don't",
+      "didn't",
+      "isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "doesnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0072",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We did not see the owl.",
+    "choices": [
+      "didn't",
+      "doesn't",
+      "don't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "didnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0073",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The happy kids were not loud at recess.",
+    "choices": [
+      "wasn't",
+      "aren't",
+      "weren't",
+      "isn't"
+    ],
+    "answer_index": 2,
+    "explain_key": "werent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0074",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will not go to the park.",
+    "choices": [
+      "wouldn't",
+      "won't",
+      "wasn't",
+      "don't"
+    ],
+    "answer_index": 1,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0075",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The old boat could not float on the lake.",
+    "choices": [
+      "couldn't",
+      "can't",
+      "wouldn't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "couldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0076",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We should not run in the hall at school.",
+    "choices": [
+      "shouldn't",
+      "couldn't",
+      "wouldn't",
+      "can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "shouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0077",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The brown horse has not had its hay yet.",
+    "choices": [
+      "hasn't",
+      "haven't",
+      "hadn't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "hasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0078",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My friends have not finished the math work.",
+    "choices": [
+      "haven't",
+      "hasn't",
+      "hadn't",
+      "weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "havent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0079",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids had not seen the new puppy before.",
+    "choices": [
+      "hadn't",
+      "hasn't",
+      "haven't",
+      "didn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "hadnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0080",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wet ducks were not on the pond today.",
+    "choices": [
+      "wasn't",
+      "weren't",
+      "aren't",
+      "isn't"
+    ],
+    "answer_index": 1,
+    "explain_key": "werent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0081",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> would not share the red crayon.",
+    "choices": [
+      "wouldn't",
+      "won't",
+      "couldn't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0082",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The little mice could not find the cheese.",
+    "choices": [
+      "couldn't",
+      "can't",
+      "wouldn't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "couldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0083",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You should not throw stones near the window.",
+    "choices": [
+      "shouldn't",
+      "couldn't",
+      "wouldn't",
+      "can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "shouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "window"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0084",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The tall tree has not lost its green leaves.",
+    "choices": [
+      "hasn't",
+      "haven't",
+      "hadn't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "hasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0085",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The soccer team have not won a game yet.",
+    "choices": [
+      "haven't",
+      "hasn't",
+      "hadn't",
+      "weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "havent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0086",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We had not packed snacks before the long trip.",
+    "choices": [
+      "hadn't",
+      "hasn't",
+      "haven't",
+      "didn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "hadnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0087",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The students were not ready for the spelling test.",
+    "choices": [
+      "weren't",
+      "wasn't",
+      "aren't",
+      "isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "werent",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0088",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will not eat the green peas tonight.",
+    "choices": [
+      "won't",
+      "wouldn't",
+      "wasn't",
+      "don't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wont",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "peas"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0089",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The sick bird could not fly back to its nest.",
+    "choices": [
+      "couldn't",
+      "can't",
+      "wouldn't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "couldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0090",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Kids should not run on the wet playground.",
+    "choices": [
+      "shouldn't",
+      "couldn't",
+      "wouldn't",
+      "can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "shouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "playground"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0091",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The gray cat has not had all its milk.",
+    "choices": [
+      "hasn't",
+      "haven't",
+      "hadn't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "hasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0092",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids have not set up their tent yet.",
+    "choices": [
+      "haven't",
+      "hasn't",
+      "hadn't",
+      "weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "havent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0093",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We had not cleaned our teeth before bedtime story.",
+    "choices": [
+      "hadn't",
+      "hasn't",
+      "haven't",
+      "didn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "hadnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0094",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girls were not happy about the rainy weather.",
+    "choices": [
+      "weren't",
+      "wasn't",
+      "aren't",
+      "isn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "werent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0095",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> would not wear boots in the snow.",
+    "choices": [
+      "wouldn't",
+      "won't",
+      "couldn't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "wouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0096",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The small boat could not cross the wide river.",
+    "choices": [
+      "couldn't",
+      "can't",
+      "wouldn't",
+      "shouldn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "couldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0097",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You should not touch the hot pan on the stove.",
+    "choices": [
+      "shouldn't",
+      "couldn't",
+      "wouldn't",
+      "can't"
+    ],
+    "answer_index": 0,
+    "explain_key": "shouldnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0098",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The farm dog has not barked at the mail truck.",
+    "choices": [
+      "hasn't",
+      "haven't",
+      "hadn't",
+      "wasn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "hasnt",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0099",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The people have not put flowers in the garden.",
+    "choices": [
+      "haven't",
+      "hasn't",
+      "hadn't",
+      "weren't"
+    ],
+    "answer_index": 0,
+    "explain_key": "havent",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "garden"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_contractions_with_not_0100",
+    "family_id": "fam_use_contractions_with_not",
+    "skill_id": "roots_use_contractions_with_not",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The class had not learned the new song before Friday.",
+    "choices": [
+      "hadn't",
+      "hasn't",
+      "haven't",
+      "didn't"
+    ],
+    "answer_index": 0,
+    "explain_key": "hadnt",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

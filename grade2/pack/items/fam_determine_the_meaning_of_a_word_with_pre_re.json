@@ -1,0 +1,2627 @@
+[
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0001",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will reread the book.",
+    "choices": [
+      "read again",
+      "eat cake",
+      "run home",
+      "blue bike"
+    ],
+    "answer_index": 0,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0002",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will preview the movie.",
+    "choices": [
+      "ride a bus",
+      "wash the dog",
+      "cold milk",
+      "view before"
+    ],
+    "answer_index": 3,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "movie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0003",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> can rewrite the note.",
+    "choices": [
+      "sleep late",
+      "write again",
+      "feed the cat",
+      "open a box"
+    ],
+    "answer_index": 1,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "paper"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0004",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will refill the cup at home.",
+    "choices": [
+      "fill again",
+      "fill before",
+      "fill wrong",
+      "not fill"
+    ],
+    "answer_index": 0,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0005",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did misspell the word in class.",
+    "choices": [
+      "spell again",
+      "spell before",
+      "spell wrong",
+      "not spell"
+    ],
+    "answer_index": 2,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "pencil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0006",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We had a pretest at school.",
+    "choices": [
+      "test before",
+      "test again",
+      "test wrong",
+      "skip the test"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0007",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did misread the last line at school.",
+    "choices": [
+      "read again",
+      "read wrong",
+      "read before",
+      "write wrong"
+    ],
+    "answer_index": 1,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0008",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will prepay for lunch at school today.",
+    "choices": [
+      "pay before",
+      "pay again",
+      "pay wrong",
+      "eat before"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0009",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will redo the art at home.",
+    "choices": [
+      "do again",
+      "eat soup",
+      "play ball",
+      "big tree"
+    ],
+    "answer_index": 0,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "art"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0010",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will reheat the soup for dinner.",
+    "choices": [
+      "red hat",
+      "jump high",
+      "walk slow",
+      "heat again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0011",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will replay the fun game today.",
+    "choices": [
+      "green frog",
+      "play again",
+      "wash hands",
+      "sit down"
+    ],
+    "answer_index": 1,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0012",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> can retell the good story.",
+    "choices": [
+      "cold rain",
+      "draw cats",
+      "tell again",
+      "climb trees"
+    ],
+    "answer_index": 2,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0013",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will retie the loose shoe.",
+    "choices": [
+      "drink milk",
+      "soft bed",
+      "find bugs",
+      "tie again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0014",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> can reuse the clean bag.",
+    "choices": [
+      "throw rocks",
+      "use again",
+      "wet mud",
+      "sing loud"
+    ],
+    "answer_index": 1,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0015",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will rewash the dirty sock.",
+    "choices": [
+      "feed fish",
+      "wash again",
+      "tall gate",
+      "read maps"
+    ],
+    "answer_index": 1,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0016",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will reload the toy cart.",
+    "choices": [
+      "load again",
+      "nap early",
+      "pick flowers",
+      "warm sun"
+    ],
+    "answer_index": 0,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cart"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0017",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will relock the front door.",
+    "choices": [
+      "blue sky",
+      "bake bread",
+      "lock again",
+      "ride bikes"
+    ],
+    "answer_index": 2,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0018",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will remake the broken bed.",
+    "choices": [
+      "fresh air",
+      "catch balls",
+      "hide toys",
+      "make again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0019",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will preheat the oven at home.",
+    "choices": [
+      "heat before",
+      "pet dog",
+      "kick ball",
+      "long road"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "oven"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0020",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> went to preschool this morning.",
+    "choices": [
+      "dig holes",
+      "fly kites",
+      "sweet cake",
+      "school before"
+    ],
+    "answer_index": 3,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0021",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will prewash the dirty shirt.",
+    "choices": [
+      "wash before",
+      "count stars",
+      "tiny ant",
+      "run fast"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shirt"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0022",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We had a pregame snack at school.",
+    "choices": [
+      "game before",
+      "drop pins",
+      "hot tea",
+      "sleep now"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0023",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom did precut the fruit for lunch.",
+    "choices": [
+      "dry leaves",
+      "cut before",
+      "lock gates",
+      "call friends"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fruit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0024",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Dad will precook the rice for dinner.",
+    "choices": [
+      "windy day",
+      "paint walls",
+      "fold clothes",
+      "cook before"
+    ],
+    "answer_index": 3,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0025",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> did misplace the toy at home.",
+    "choices": [
+      "win games",
+      "share toys",
+      "place wrong",
+      "happy face"
+    ],
+    "answer_index": 2,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0026",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> did misname the pet rabbit.",
+    "choices": [
+      "clean room",
+      "name wrong",
+      "brush hair",
+      "yellow bus"
+    ],
+    "answer_index": 1,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0027",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> did mislabel the art box.",
+    "choices": [
+      "label wrong",
+      "eat lunch",
+      "walk home",
+      "small bug"
+    ],
+    "answer_index": 0,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0028",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> did miscount the eggs in class.",
+    "choices": [
+      "water plants",
+      "play tag",
+      "cool shade",
+      "count wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0029",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> saw a misprint on the page.",
+    "choices": [
+      "hold hands",
+      "kick stones",
+      "bright moon",
+      "print wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "page"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0030",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> did mistell the time at school.",
+    "choices": [
+      "open jars",
+      "jump rope",
+      "tell wrong",
+      "warm coat"
+    ],
+    "answer_index": 2,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0031",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will recheck the math homework.",
+    "choices": [
+      "fly kite",
+      "old barn",
+      "check again",
+      "milk cow"
+    ],
+    "answer_index": 2,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "homework"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0032",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will rename the pet fish.",
+    "choices": [
+      "stack blocks",
+      "slice bread",
+      "pink flower",
+      "name again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0033",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will replant the small seed.",
+    "choices": [
+      "blow bubbles",
+      "watch tv",
+      "gray cloud",
+      "plant again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0034",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will reopen the toy box.",
+    "choices": [
+      "brown dog",
+      "swim pool",
+      "open again",
+      "ring bell"
+    ],
+    "answer_index": 2,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0035",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> will repack the lunch bag.",
+    "choices": [
+      "pack again",
+      "roll ball",
+      "thin ice",
+      "dig sand"
+    ],
+    "answer_index": 0,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0036",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will restart the game after lunch.",
+    "choices": [
+      "not start",
+      "start wrong",
+      "start again",
+      "start before"
+    ],
+    "answer_index": 2,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0037",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will replace the old battery at home.",
+    "choices": [
+      "not place",
+      "place wrong",
+      "place before",
+      "place again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "battery"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0038",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will repay the coins to Mom.",
+    "choices": [
+      "pay before",
+      "pay again",
+      "not pay",
+      "pay wrong"
+    ],
+    "answer_index": 1,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coin"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0039",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will reprint the faded map for class.",
+    "choices": [
+      "print wrong",
+      "not print",
+      "print before",
+      "print again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0040",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will recount the beads on the string.",
+    "choices": [
+      "count before",
+      "count again",
+      "count wrong",
+      "not count"
+    ],
+    "answer_index": 1,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bead"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0041",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We will recook the cold pasta for dinner.",
+    "choices": [
+      "not cook",
+      "cook again",
+      "cook wrong",
+      "cook before"
+    ],
+    "answer_index": 1,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pasta"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0042",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Dad will recut the torn paper for art.",
+    "choices": [
+      "cut wrong",
+      "cut before",
+      "not cut",
+      "cut again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paper"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0043",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We will retest the spelling words on Friday.",
+    "choices": [
+      "test before",
+      "not test",
+      "test wrong",
+      "test again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "test"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0044",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will rebuild the fallen block wall.",
+    "choices": [
+      "build wrong",
+      "build before",
+      "not build",
+      "build again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0045",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will redraw the house in art class.",
+    "choices": [
+      "draw wrong",
+      "not draw",
+      "draw before",
+      "draw again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0046",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please refill the water bottle at the park.",
+    "choices": [
+      "not fill",
+      "fill wrong",
+      "fill before",
+      "fill again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bottle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0047",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will retie the knot on the balloon.",
+    "choices": [
+      "tie again",
+      "not tie",
+      "tie wrong",
+      "tie before"
+    ],
+    "answer_index": 0,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "balloon"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0048",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> must preheat the pan before cooking.",
+    "choices": [
+      "not heat",
+      "heat before",
+      "heat wrong",
+      "heat again"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0049",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Please prewash the grapes before we eat.",
+    "choices": [
+      "not wash",
+      "wash before",
+      "wash again",
+      "wash wrong"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0050",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She will precut the tape for the project.",
+    "choices": [
+      "cut wrong",
+      "cut before",
+      "cut again",
+      "not cut"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0051",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They precook the beans for the picnic.",
+    "choices": [
+      "cook before",
+      "not cook",
+      "cook wrong",
+      "cook again"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bean"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0052",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The team had a pregame talk in the gym.",
+    "choices": [
+      "not game",
+      "game again",
+      "game wrong",
+      "game before"
+    ],
+    "answer_index": 3,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gym"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0053",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our class took a pretest on the new unit.",
+    "choices": [
+      "test before",
+      "test again",
+      "test wrong",
+      "not test"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "unit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0054",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "You can prepay for the field trip online.",
+    "choices": [
+      "pay again",
+      "pay before",
+      "pay wrong",
+      "not pay"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "trip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0055",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> will preview the pages in the workbook.",
+    "choices": [
+      "view wrong",
+      "view before",
+      "view again",
+      "not view"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "workbook"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0056",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bus stops at preschool on Main Street.",
+    "choices": [
+      "school again",
+      "not school",
+      "school wrong",
+      "school before"
+    ],
+    "answer_index": 3,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0057",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Dad will prewash the muddy boots by the door.",
+    "choices": [
+      "wash again",
+      "wash before",
+      "wash wrong",
+      "not wash"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0058",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The helper did precut strips for the banner.",
+    "choices": [
+      "cut wrong",
+      "cut again",
+      "not cut",
+      "cut before"
+    ],
+    "answer_index": 3,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "banner"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0059",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Mom will precook soup for the sick child.",
+    "choices": [
+      "cook before",
+      "cook again",
+      "cook wrong",
+      "not cook"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0060",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We ate a pregame meal before the big match.",
+    "choices": [
+      "game wrong",
+      "game again",
+      "not game",
+      "game before"
+    ],
+    "answer_index": 3,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "meal"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0061",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did misread the sign on the bus.",
+    "choices": [
+      "not read",
+      "read before",
+      "read again",
+      "read wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sign"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0062",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did misuse the glue in art class.",
+    "choices": [
+      "use again",
+      "not use",
+      "use before",
+      "use wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "glue"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0063",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did misplace the key at home today.",
+    "choices": [
+      "not place",
+      "place before",
+      "place again",
+      "place wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "key"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0064",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did misname the plant in science class.",
+    "choices": [
+      "name wrong",
+      "name before",
+      "name again",
+      "not name"
+    ],
+    "answer_index": 0,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0065",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did mislabel the jar in the kitchen.",
+    "choices": [
+      "label before",
+      "label again",
+      "not label",
+      "label wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jar"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0066",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did miscount the steps on the stairs.",
+    "choices": [
+      "count again",
+      "count wrong",
+      "count before",
+      "not count"
+    ],
+    "answer_index": 1,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stair"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0067",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> found a misprint in the workbook page.",
+    "choices": [
+      "print before",
+      "not print",
+      "print again",
+      "print wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "workbook"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0068",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did mistell the joke to the class.",
+    "choices": [
+      "not tell",
+      "tell before",
+      "tell again",
+      "tell wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "joke"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0069",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did mismatch the puzzle pieces today.",
+    "choices": [
+      "match before",
+      "match again",
+      "match wrong",
+      "not match"
+    ],
+    "answer_index": 2,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puzzle"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0070",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did misspell a name on the card.",
+    "choices": [
+      "spell again",
+      "spell wrong",
+      "spell before",
+      "not spell"
+    ],
+    "answer_index": 1,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0071",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I did misread the clock and was late.",
+    "choices": [
+      "read before",
+      "read again",
+      "not read",
+      "read wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0072",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Do not misuse the scissors during craft time.",
+    "choices": [
+      "use before",
+      "use again",
+      "not use",
+      "use wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "scissors"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0073",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will reread the poem in class today.",
+    "choices": [
+      "poem wrong",
+      "read before",
+      "read wrong",
+      "read again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "poem"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0074",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did misread the menu and ordered wrong food.",
+    "choices": [
+      "read wrong",
+      "read before",
+      "order wrong",
+      "read again"
+    ],
+    "answer_index": 0,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "menu"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0075",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will prepay for snacks at the school carnival.",
+    "choices": [
+      "pay wrong",
+      "pay before",
+      "pay again",
+      "snack wrong"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0076",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will repay the coins she borrowed from brother.",
+    "choices": [
+      "pay again",
+      "pay before",
+      "pay wrong",
+      "coin wrong"
+    ],
+    "answer_index": 0,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coin"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0077",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will reprint the photo smudged in the backpack.",
+    "choices": [
+      "print wrong",
+      "print before",
+      "photo wrong",
+      "print again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "photo"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0078",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> found a misprint on the lunch menu at school.",
+    "choices": [
+      "print wrong",
+      "print before",
+      "menu wrong",
+      "print again"
+    ],
+    "answer_index": 0,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "menu"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0079",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will preheat the oven before baking with Mom.",
+    "choices": [
+      "heat wrong",
+      "bake wrong",
+      "heat again",
+      "heat before"
+    ],
+    "answer_index": 3,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "oven"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0080",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will reheat the mac and cheese for dinner.",
+    "choices": [
+      "heat wrong",
+      "heat before",
+      "dinner wrong",
+      "heat again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0081",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Our teacher gave a pretest before the math test.",
+    "choices": [
+      "test again",
+      "test before",
+      "test wrong",
+      "math wrong"
+    ],
+    "answer_index": 1,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "math"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0082",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I will retest on the science facts I got wrong.",
+    "choices": [
+      "test before",
+      "test wrong",
+      "fact wrong",
+      "test again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fact"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0083",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did misspell one word on the spelling list.",
+    "choices": [
+      "spell before",
+      "spell again",
+      "list wrong",
+      "spell wrong"
+    ],
+    "answer_index": 3,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "list"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0084",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will rewrite the note to make it neat.",
+    "choices": [
+      "write before",
+      "note wrong",
+      "write wrong",
+      "write again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0085",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did mislabel the crayon box with wrong color.",
+    "choices": [
+      "label before",
+      "label wrong",
+      "color wrong",
+      "label again"
+    ],
+    "answer_index": 1,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0086",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will preview the video before class watches it.",
+    "choices": [
+      "view before",
+      "view again",
+      "watch wrong",
+      "view wrong"
+    ],
+    "answer_index": 0,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "video"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0087",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did misplace the homework folder in class.",
+    "choices": [
+      "folder wrong",
+      "place wrong",
+      "place again",
+      "place before"
+    ],
+    "answer_index": 1,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "folder"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0088",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will replace the dead bulb in the bed lamp.",
+    "choices": [
+      "bulb wrong",
+      "place before",
+      "place wrong",
+      "place again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bulb"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0089",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Grandma will precut the apples before the kids come.",
+    "choices": [
+      "cut wrong",
+      "apple wrong",
+      "cut before",
+      "cut again"
+    ],
+    "answer_index": 2,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0090",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will recut the ribbon after measuring too short.",
+    "choices": [
+      "cut wrong",
+      "cut before",
+      "ribbon wrong",
+      "cut again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ribbon"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0091",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The coach gave a pregame talk before the soccer game.",
+    "choices": [
+      "game wrong",
+      "game again",
+      "game before",
+      "talk wrong"
+    ],
+    "answer_index": 2,
+    "explain_key": "pre_before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coach"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0092",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will replay the saved game to hear the song.",
+    "choices": [
+      "play before",
+      "play wrong",
+      "song wrong",
+      "play again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0093",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did misname the turtle on the tank label.",
+    "choices": [
+      "name before",
+      "turtle wrong",
+      "name wrong",
+      "name again"
+    ],
+    "answer_index": 2,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0094",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will rename the puppy with a better name.",
+    "choices": [
+      "name before",
+      "puppy wrong",
+      "name wrong",
+      "name again"
+    ],
+    "answer_index": 3,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0095",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did misuse the stapler and bent the papers.",
+    "choices": [
+      "use again",
+      "paper wrong",
+      "use wrong",
+      "use before"
+    ],
+    "answer_index": 2,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paper"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0096",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will reuse the gift bag for a birthday gift.",
+    "choices": [
+      "use again",
+      "gift wrong",
+      "use before",
+      "use wrong"
+    ],
+    "answer_index": 0,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0097",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did miscount the marbles and lost the game.",
+    "choices": [
+      "count wrong",
+      "marble wrong",
+      "count again",
+      "count before"
+    ],
+    "answer_index": 0,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "marble"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0098",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will recount the votes for the class leader.",
+    "choices": [
+      "vote wrong",
+      "count wrong",
+      "count again",
+      "count before"
+    ],
+    "answer_index": 2,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "vote"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0099",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did mismatch the gloves and wore two different ones.",
+    "choices": [
+      "match before",
+      "glove wrong",
+      "match wrong",
+      "match again"
+    ],
+    "answer_index": 2,
+    "explain_key": "mis_wrong",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "glove"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_determine_the_meaning_of_a_word_with_pre_re_0100",
+    "family_id": "fam_determine_the_meaning_of_a_word_with_pre_re",
+    "skill_id": "roots_determine_the_meaning_of_a_word_with_pre_re",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will retie the kite string after the wind.",
+    "choices": [
+      "tie before",
+      "tie again",
+      "tie wrong",
+      "kite wrong"
+    ],
+    "answer_index": 1,
+    "explain_key": "re_again",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

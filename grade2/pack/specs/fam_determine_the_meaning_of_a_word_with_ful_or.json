@@ -1,0 +1,302 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_determine_the_meaning_of_a_word_with_ful_or",
+  "family_title_en": "Meaning of -ful and -less words",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_determine_the_meaning_of_a_word_with_ful_or",
+      "ix_title": "Determine the meaning of a word with -ful or -less",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "What does the word mean?",
+        "ko": "이 단어는 무슨 뜻인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right meaning.",
+        "ko": "알맞은 뜻을 누르세요."
+      },
+      "choice_rule": "Four unique meaning phrases per item. Correct is full of plus the base for a -ful word, or without plus the base for a -less word, adding a or an when English needs it. One distractor is the opposite ending on the same base. Two distractors are real meanings of other allowed -ful or -less words. Shuffle so the right tap is not always first. Never reuse the same four choices.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "beautiful",
+        "beauty",
+        "careful",
+        "careless",
+        "cloudless",
+        "colorful",
+        "endless",
+        "fear",
+        "fearful",
+        "fearless",
+        "harm",
+        "harmless",
+        "helpful",
+        "helpless",
+        "homeless",
+        "hope",
+        "hopeful",
+        "hopeless",
+        "joy",
+        "joyful",
+        "mean",
+        "meaning",
+        "pain",
+        "painful",
+        "painless",
+        "peace",
+        "peaceful",
+        "playful",
+        "powerful",
+        "powerless",
+        "rest",
+        "restful",
+        "restless",
+        "tasteless",
+        "thankful",
+        "thankless",
+        "thoughtful",
+        "thoughtless",
+        "useful",
+        "useless",
+        "wonder",
+        "wonderful"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_ful_or_0001",
+          "tier": 1,
+          "stem": "Helpful",
+          "choices": [
+            "without help",
+            "full of help",
+            "full of hope",
+            "without care"
+          ],
+          "answer_index": 1,
+          "explain_key": "ful_means"
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_ful_or_0002",
+          "tier": 1,
+          "stem": "Homeless",
+          "choices": [
+            "full of home",
+            "without help",
+            "without a home",
+            "full of care"
+          ],
+          "answer_index": 2,
+          "explain_key": "less_means",
+          "media": [
+            {
+              "lemma": "home"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_ful_or_0003",
+          "tier": 1,
+          "stem": "Careful",
+          "choices": [
+            "without care",
+            "full of play",
+            "without use",
+            "full of care"
+          ],
+          "answer_index": 3,
+          "explain_key": "ful_means"
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_ful_or_0004",
+          "tier": 2,
+          "stem": "The playful puppy ran.",
+          "choices": [
+            "without play",
+            "full of play",
+            "full of rest",
+            "without care"
+          ],
+          "answer_index": 1,
+          "explain_key": "ful_means",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_ful_or_0005",
+          "tier": 2,
+          "stem": "<NAME> was careless with the cup.",
+          "choices": [
+            "full of care",
+            "without care",
+            "full of use",
+            "without home"
+          ],
+          "answer_index": 1,
+          "explain_key": "less_means",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_ful_or_0006",
+          "tier": 2,
+          "stem": "A cloudless day is bright.",
+          "choices": [
+            "full of clouds",
+            "without rain",
+            "without clouds",
+            "full of wind"
+          ],
+          "answer_index": 2,
+          "explain_key": "less_means",
+          "media": [
+            {
+              "lemma": "cloud"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_ful_or_0007",
+          "tier": 3,
+          "stem": "<NAME> felt hopeless after the game.",
+          "choices": [
+            "full of hope",
+            "without help",
+            "full of play",
+            "without hope"
+          ],
+          "answer_index": 3,
+          "explain_key": "opposite_suffix",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "game"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_determine_the_meaning_of_a_word_with_ful_or_0008",
+          "tier": 3,
+          "stem": "The useful map was in the bag.",
+          "choices": [
+            "without use",
+            "full of care",
+            "full of use",
+            "without hope"
+          ],
+          "answer_index": 2,
+          "explain_key": "wrong_base",
+          "media": [
+            {
+              "lemma": "map"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Always include the opposite ending on the same base, such as full of hope beside without hope.",
+      "The other two wrong taps must be true meanings of different allowed -ful or -less words, never nonsense phrases.",
+      "Never offer the bare base alone as a choice. Help is not the meaning of helpful.",
+      "Keep about half the pool -ful and half -less. Kid world only: school, home, food, pets, play, family, weather.",
+      "Tier 1 uses far bases such as help, hope, and care. Tier 3 uses near bases such as help and hope, or care and use.",
+      "Do not name the ending in the stem. Show the word or a short kid sentence. No real names. Use <NAME>.",
+      "When the stem has a concrete noun, add one lemma_lookup picture for that noun. Never invent audio files."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsuffix\\b",
+    "\\bprefix\\b",
+    "\\baffix\\b",
+    "\\bmorpheme\\b",
+    "\\broot word\\b",
+    "\\bbase word\\b",
+    "\\bendings?\\b"
+  ],
+  "tier_rules": {
+    "1": "Stem is the target word alone or the word plus means. Opposite-ending distractor plus far bases. Add a lemma picture when the base is concrete.",
+    "2": "Five to seven word kid sentence that holds one -ful or -less word. Grade-level opposite and other-word distractors.",
+    "3": "A sentence where the opposite ending could fit if the child skips the last letters. Near-miss bases such as help and hope, or care and use."
+  },
+  "miss_explain": {
+    "ful_means": {
+      "en": "-ful means full of. Helpful means full of help.",
+      "ko": "-ful은 가득한 뜻입니다. helpful은 도움이 가득한 것입니다."
+    },
+    "less_means": {
+      "en": "-less means without. Homeless means without a home.",
+      "ko": "-less는 없는 뜻입니다. homeless는 집이 없는 것입니다."
+    },
+    "opposite_suffix": {
+      "en": "Look at the ending. -ful is full of. -less is without. Do not pick the opposite.",
+      "ko": "어미를 보세요. -ful은 가득한, -less는 없는 뜻입니다. 반대를 고르지 마세요."
+    },
+    "wrong_base": {
+      "en": "Keep the same base word. Useful is about use, not care or hope.",
+      "ko": "같은 기본 단어를 보세요. useful은 쓸모에 대한 뜻입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Determine the meaning of a word with -ful or -less"
+    ],
+    "no_ixl_text": true
+  }
+}

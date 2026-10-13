@@ -1,0 +1,281 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_the_correct_diphthong",
+  "family_title_en": "Complete the word with the correct diphthong: oi, oy, ou, ow",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_the_correct_diphthong",
+      "ix_title": "Complete the word with the correct diphthong: oi, oy, ou, ow",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which letters complete the word?",
+        "ko": "단어를 완성하는 글자를 고르세요."
+      },
+      "what_to_do": {
+        "en": "Tap oi, oy, ou, or ow.",
+        "ko": "oi, oy, ou, ow 중에서 누르세요."
+      },
+      "choices": [
+        "oi",
+        "oy",
+        "ou",
+        "ow"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "ab-t",
+        "ar-nd",
+        "b-",
+        "b-nced",
+        "br-n",
+        "c-",
+        "c-ch",
+        "c-n",
+        "c-ns",
+        "ch-ce",
+        "cl-d",
+        "cl-n",
+        "cr-n",
+        "d-n",
+        "f-nd",
+        "fl-er",
+        "gr-nd",
+        "h-",
+        "h-se",
+        "j-",
+        "j-n",
+        "l-d",
+        "m-ntains",
+        "m-se",
+        "m-th",
+        "n-",
+        "n-se",
+        "p-ch",
+        "p-er",
+        "p-nt",
+        "r-nd",
+        "s-th",
+        "t-",
+        "t-n"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_diphthong_0001",
+          "tier": 1,
+          "stem": "The c-n is small.",
+          "choices": [
+            "oi",
+            "oy",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 0,
+          "explain_key": "oi_middle"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_diphthong_0002",
+          "tier": 1,
+          "stem": "The b- has a pet.",
+          "choices": [
+            "oi",
+            "oy",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 1,
+          "explain_key": "oy_final"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_diphthong_0003",
+          "tier": 1,
+          "stem": "We can go home n-.",
+          "choices": [
+            "oi",
+            "oy",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 3,
+          "explain_key": "ow_final"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_diphthong_0004",
+          "tier": 2,
+          "stem": "The h-se is big and red.",
+          "choices": [
+            "oi",
+            "oy",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 2,
+          "explain_key": "ou_middle"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_diphthong_0005",
+          "tier": 2,
+          "stem": "Please p-nt at the map.",
+          "choices": [
+            "oi",
+            "oy",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 0,
+          "explain_key": "oi_middle"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_diphthong_0006",
+          "tier": 2,
+          "stem": "Sit d-n on the rug.",
+          "choices": [
+            "oi",
+            "oy",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 3,
+          "explain_key": "ow_before_n"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_diphthong_0007",
+          "tier": 3,
+          "stem": "The red fl-er is in the yard.",
+          "choices": [
+            "oi",
+            "oy",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 3,
+          "explain_key": "ow_before_er"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_diphthong_0008",
+          "tier": 3,
+          "stem": "<NAME> is ab-t to go home.",
+          "choices": [
+            "oi",
+            "oy",
+            "ou",
+            "ow"
+          ],
+          "answer_index": 2,
+          "explain_key": "ou_middle",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Choices are always oi, oy, ou, ow in that order. Exactly one choice is correct.",
+      "Hide the diphthong of one word with a hyphen. The hyphen stands for exactly those two letters.",
+      "The correct pair must build one real word. The other three pairs must not build a real word.",
+      "For the gaps b-, t-, c-, and h-, bow, tow, coy, and hoy are real words. The sentence must fit only boy, toy, cow, or how.",
+      "Do not print the finished word. No other stem word may contain the letter pairs oi, oy, ou, or ow.",
+      "On tiers 2 and 3 the tempting miss is the same-sound partner, oi or oy, and ou or ow.",
+      "Use oy at the end, oi before a consonant, ow at the end or before n, and ou in the middle. Flower keeps ow before er.",
+      "Keep sentences in school, home, food, pets, play, family, or weather. No brands and no real names.",
+      "Every stem word except the hyphen token and NAME must come from the roots word list. Copy hyphen tokens from allowed_extra_words."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bdiphthong\\b",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\/[^/\\s]{1,12}\\/",
+    "_{2,}",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "sh-t",
+    "c-nt"
+  ],
+  "tier_rules": {
+    "1": "Four to six words. A common one-syllable word with the diphthong at the end, as in boy and now, or the pattern in coin. A wrong pair does not spell the word.",
+    "2": "Five to seven words. One-syllable words where the same sound has two spellings. The near miss is oi against oy, or ou against ow, in the wrong part of the word.",
+    "3": "Up to ten words. Two-syllable words such as flower and about, where ow before er or ou in the middle tempts the other spelling of the same sound."
+  },
+  "miss_explain": {
+    "oi_middle": {
+      "en": "Oi comes in the middle of a word, as in coin and point. Oy is for the end.",
+      "ko": "oi는 coin, point처럼 단어 가운데에 옵니다. 끝에는 oy를 씁니다."
+    },
+    "oy_final": {
+      "en": "Oy comes at the end of a word, as in boy and joy. Oi is for the middle.",
+      "ko": "oy는 boy, joy처럼 단어 끝에 옵니다. 가운데에는 oi를 씁니다."
+    },
+    "ou_middle": {
+      "en": "Ou comes in the middle of a word, as in house and about. Do not use ow there.",
+      "ko": "ou는 house, about처럼 단어 가운데에 옵니다. 그 자리에는 ow를 쓰지 않습니다."
+    },
+    "ow_final": {
+      "en": "Ow comes at the end of a word, as in now and cow. Ou is not used at the end.",
+      "ko": "ow는 now, cow처럼 단어 끝에 옵니다. 끝에는 ou를 쓰지 않습니다."
+    },
+    "ow_before_n": {
+      "en": "Use ow before n, as in down, town, and clown. Ou is not the spelling there.",
+      "ko": "down, town, clown처럼 n 앞에는 ow를 씁니다. ou로 쓰지 않습니다."
+    },
+    "ow_before_er": {
+      "en": "Flower uses ow before er. Do not spell this word with ou.",
+      "ko": "flower는 er 앞에 ow를 씁니다. 이 단어는 ou로 쓰지 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with the correct diphthong: oi, oy, ou, ow"
+    ],
+    "no_ixl_text": true
+  }
+}

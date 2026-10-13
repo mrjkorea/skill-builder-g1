@@ -1,0 +1,2168 @@
+[
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0001",
+    "tier": 1,
+    "stem": "Spell this word.",
+    "choices": [
+      "apple",
+      "apal",
+      "apul",
+      "apl"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_le",
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0002",
+    "tier": 1,
+    "stem": "Spell the word here.",
+    "choices": [
+      "tabo",
+      "table",
+      "tayb",
+      "tblu"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ]
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0003",
+    "tier": 1,
+    "stem": "Which spelling is right?",
+    "choices": [
+      "turtul",
+      "turtu",
+      "turtle",
+      "turtol"
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_le",
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0004",
+    "tier": 2,
+    "stem": "How do you spell this?",
+    "choices": [
+      "eagle",
+      "eagl",
+      "eagel",
+      "egle"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "media": [
+      {
+        "lemma": "eagle"
+      }
+    ]
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0005",
+    "tier": 2,
+    "stem": "Spell the right word.",
+    "choices": [
+      "circl",
+      "circel",
+      "cirkle",
+      "circle"
+    ],
+    "answer_index": 3,
+    "explain_key": "le_order",
+    "media": [
+      {
+        "lemma": "circle"
+      }
+    ]
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0006",
+    "tier": 2,
+    "stem": "Pick the right spelling.",
+    "choices": [
+      "peopl",
+      "people",
+      "pepole",
+      "peple"
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_le",
+    "media": [
+      {
+        "lemma": "people"
+      }
+    ]
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0007",
+    "tier": 3,
+    "stem": "The baby pet is not big.",
+    "choices": [
+      "litle",
+      "little",
+      "littl",
+      "littel"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_le"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0008",
+    "tier": 3,
+    "stem": "<NAME> wrote the name of the book.",
+    "choices": [
+      "title",
+      "tittle",
+      "titel",
+      "tittel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tap the right spelling.",
+    "choices": [
+      "bubble",
+      "bubbl",
+      "bubbel",
+      "bubl"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bubble"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0009"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Find the right spelling.",
+    "choices": [
+      "botel",
+      "bottl",
+      "bottle",
+      "botle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bottle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0010"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Choose the right spelling.",
+    "choices": [
+      "candl",
+      "candell",
+      "candle",
+      "candul"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "candle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0011"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this fun game word.",
+    "choices": [
+      "puzle",
+      "puzzel",
+      "puzzl",
+      "puzzle"
+    ],
+    "answer_index": 3,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puzzle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0012"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this color word.",
+    "choices": [
+      "purple",
+      "purpl",
+      "purpel",
+      "purpul"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "purple"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0013"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this sewing tool.",
+    "choices": [
+      "needl",
+      "needel",
+      "needle",
+      "nedle"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "needle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0014"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this bug word.",
+    "choices": [
+      "beetl",
+      "beetel",
+      "beetle",
+      "betle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beetle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0015"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this tree word.",
+    "choices": [
+      "mapel",
+      "mapl",
+      "maple",
+      "mapele"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "maple"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0016"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this door part.",
+    "choices": [
+      "handl",
+      "handel",
+      "handle",
+      "hndle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "handle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0017"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this family word.",
+    "choices": [
+      "uncl",
+      "uncel",
+      "unkle",
+      "uncle"
+    ],
+    "answer_index": 3,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "uncle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0018"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this place word.",
+    "choices": [
+      "midle",
+      "middl",
+      "middle",
+      "midel"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "middle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0019"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this easy word.",
+    "choices": [
+      "simpl",
+      "simple",
+      "simpel",
+      "simle"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "simple"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0020"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this art stand.",
+    "choices": [
+      "easel",
+      "easle",
+      "easell",
+      "esel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "easel"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0021"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this one word.",
+    "choices": [
+      "singl",
+      "singel",
+      "single",
+      "singul"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "single"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0022"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell this can word.",
+    "choices": [
+      "abl",
+      "abble",
+      "able",
+      "abel"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "able"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0023"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the round fruit.",
+    "choices": [
+      "apple",
+      "appl",
+      "appel",
+      "aplle"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0024"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the flat surface.",
+    "choices": [
+      "tabl",
+      "tabel",
+      "table",
+      "tayble"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0025"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the shelled pet.",
+    "choices": [
+      "turtl",
+      "turtel",
+      "turtle",
+      "turtul"
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0026"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the round shape.",
+    "choices": [
+      "circl",
+      "circel",
+      "cirkle",
+      "circle"
+    ],
+    "answer_index": 3,
+    "explain_key": "le_order",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "circle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0027"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the high bird.",
+    "choices": [
+      "eagle",
+      "eagl",
+      "eagel",
+      "egle"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "eagle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0028"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the group word.",
+    "choices": [
+      "peopl",
+      "people",
+      "pepole",
+      "peple"
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "people"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0029"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the small size.",
+    "choices": [
+      "litle",
+      "little",
+      "littl",
+      "littel"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "little"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0030"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Spell the book name.",
+    "choices": [
+      "title",
+      "tittle",
+      "titel",
+      "tittel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "title"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0031"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Soap makes this in water.",
+    "choices": [
+      "bubl",
+      "bubbel",
+      "bubble",
+      "bubbl"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0032"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Juice can come in this.",
+    "choices": [
+      "botle",
+      "bottl",
+      "bottle",
+      "botel"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0033"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Birthday cake has one lit.",
+    "choices": [
+      "candl",
+      "candle",
+      "candul",
+      "candell"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0034"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Rainbow has this color too.",
+    "choices": [
+      "purpl",
+      "purple",
+      "purpel",
+      "purpul"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0035"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A game with many pieces.",
+    "choices": [
+      "puzle",
+      "puzzle",
+      "puzzl",
+      "puzzel"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0036"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "You sew with this sharp tool.",
+    "choices": [
+      "needl",
+      "needel",
+      "needle",
+      "nedle"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0037"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Some bugs have hard wing covers.",
+    "choices": [
+      "beetl",
+      "beetel",
+      "beetle",
+      "betle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0038"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pancake syrup comes from this tree.",
+    "choices": [
+      "mapel",
+      "mapl",
+      "maple",
+      "mapele"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0039"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Turn this to open the door.",
+    "choices": [
+      "handl",
+      "handel",
+      "handle",
+      "hndle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0040"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Mom's brother is your ___.",
+    "choices": [
+      "uncl",
+      "uncel",
+      "unkle",
+      "uncle"
+    ],
+    "answer_index": 3,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0041"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Not the top or the bottom.",
+    "choices": [
+      "midle",
+      "middl",
+      "middle",
+      "midel"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0042"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Not hard means it is ___.",
+    "choices": [
+      "simpl",
+      "simple",
+      "simpel",
+      "simle"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0043"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The artist paints on a stand.",
+    "choices": [
+      "easel",
+      "easle",
+      "easell",
+      "esel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0044"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Just one not a pair.",
+    "choices": [
+      "singl",
+      "singel",
+      "single",
+      "singul"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0045"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I am ___ to help you.",
+    "choices": [
+      "abl",
+      "abble",
+      "able",
+      "abel"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0046"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A crunchy snack from a tree.",
+    "choices": [
+      "apal",
+      "apul",
+      "apple",
+      "apl"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0047"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Homework goes on the kitchen ___.",
+    "choices": [
+      "tabo",
+      "table",
+      "tayb",
+      "tblu"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0048"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "It swims and has a hard shell.",
+    "choices": [
+      "turtul",
+      "turtu",
+      "turtle",
+      "turtol"
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0049"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "It soars above the mountains.",
+    "choices": [
+      "eagle",
+      "eagl",
+      "eagel",
+      "egle"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0050"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "A wheel is this round shape.",
+    "choices": [
+      "circl",
+      "circel",
+      "cirkle",
+      "circle"
+    ],
+    "answer_index": 3,
+    "explain_key": "le_order",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0051"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Many humans live in a town.",
+    "choices": [
+      "peopl",
+      "people",
+      "pepole",
+      "peple"
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0052"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the soap foam word.",
+    "choices": [
+      "bubbl",
+      "bubbel",
+      "bubble",
+      "bubl"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bubble"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0053"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the drink container word.",
+    "choices": [
+      "botel",
+      "bottl",
+      "bottle",
+      "botle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bottle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0054"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the birthday light word.",
+    "choices": [
+      "candl",
+      "candell",
+      "candle",
+      "candul"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "candle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0055"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the jigsaw game word.",
+    "choices": [
+      "puzle",
+      "puzzel",
+      "puzzl",
+      "puzzle"
+    ],
+    "answer_index": 3,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puzzle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0056"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the grape color word.",
+    "choices": [
+      "purple",
+      "purpl",
+      "purpel",
+      "purpul"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "purple"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0057"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the sharp sewing word.",
+    "choices": [
+      "needl",
+      "needel",
+      "needle",
+      "nedle"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "needle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0058"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the hard wing bug word.",
+    "choices": [
+      "beetl",
+      "beetel",
+      "beetle",
+      "betle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beetle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0059"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the syrup tree word.",
+    "choices": [
+      "mapel",
+      "mapl",
+      "maple",
+      "mapele"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "maple"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0060"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the door grip word.",
+    "choices": [
+      "handl",
+      "handel",
+      "handle",
+      "hndle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "handle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0061"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the family member word.",
+    "choices": [
+      "uncl",
+      "uncel",
+      "unkle",
+      "uncle"
+    ],
+    "answer_index": 3,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "uncle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0062"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the center place word.",
+    "choices": [
+      "midle",
+      "middl",
+      "middle",
+      "midel"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "middle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0063"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the easy kind word.",
+    "choices": [
+      "simpl",
+      "simple",
+      "simpel",
+      "simle"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "simple"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0064"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the paint stand word.",
+    "choices": [
+      "easel",
+      "easle",
+      "easell",
+      "esel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "easel"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0065"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the just one word.",
+    "choices": [
+      "singl",
+      "singel",
+      "single",
+      "singul"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "single"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0066"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the I can word.",
+    "choices": [
+      "abl",
+      "abble",
+      "able",
+      "abel"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "able"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0067"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the very small word.",
+    "choices": [
+      "litle",
+      "little",
+      "littl",
+      "littel"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "little"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0068"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the book name word.",
+    "choices": [
+      "title",
+      "tittle",
+      "titel",
+      "tittel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "title"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0069"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the crunchy fruit word.",
+    "choices": [
+      "apple",
+      "apal",
+      "apul",
+      "apl"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0070"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the dinner surface word.",
+    "choices": [
+      "tabo",
+      "table",
+      "tayb",
+      "tblu"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0071"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Tap the slow shell pet word.",
+    "choices": [
+      "turtul",
+      "turtu",
+      "turtle",
+      "turtol"
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ],
+    "item_id": "roots_spell_the_consonant_l_e_word_0072"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The puppy is very small.",
+    "choices": [
+      "litle",
+      "little",
+      "littl",
+      "littel"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0073"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> read the name on the cover.",
+    "choices": [
+      "title",
+      "tittle",
+      "titel",
+      "tittel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "item_id": "roots_spell_the_consonant_l_e_word_0074"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We sat around the kitchen ___.",
+    "choices": [
+      "tabo",
+      "table",
+      "tayb",
+      "tblu"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0075"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Draw a round ___ with no corners.",
+    "choices": [
+      "circl",
+      "circel",
+      "cirkle",
+      "circle"
+    ],
+    "answer_index": 3,
+    "explain_key": "le_order",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0076"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bird in the sky is an ___.",
+    "choices": [
+      "eagle",
+      "eagl",
+      "eagel",
+      "egle"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0077"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Many ___ came to the school fair.",
+    "choices": [
+      "peopl",
+      "people",
+      "pepole",
+      "peple"
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0078"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> ate a red fruit at lunch.",
+    "choices": [
+      "apple",
+      "apal",
+      "apul",
+      "apl"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "item_id": "roots_spell_the_consonant_l_e_word_0079"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The pet in the tank is a ___.",
+    "choices": [
+      "turtul",
+      "turtu",
+      "turtle",
+      "turtol"
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0080"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Blow soap and make a ___.",
+    "choices": [
+      "bubl",
+      "bubbel",
+      "bubble",
+      "bubbl"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0081"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Pour milk from the glass ___.",
+    "choices": [
+      "botle",
+      "bottl",
+      "bottle",
+      "botel"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0082"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The lights went out so we lit a ___.",
+    "choices": [
+      "candl",
+      "candle",
+      "candul",
+      "candell"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0083"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Grapes and plums can be ___.",
+    "choices": [
+      "purpl",
+      "purple",
+      "purpel",
+      "purpul"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0084"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Grandma uses a ___ when she sews.",
+    "choices": [
+      "needl",
+      "needel",
+      "needle",
+      "nedle"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0085"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "A shiny black ___ crawled on the leaf.",
+    "choices": [
+      "beetl",
+      "beetel",
+      "beetle",
+      "betle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0086"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Autumn leaves fall from a ___ tree.",
+    "choices": [
+      "mapel",
+      "mapl",
+      "maple",
+      "mapele"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0087"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Hold the cup by its ___.",
+    "choices": [
+      "handl",
+      "handel",
+      "handle",
+      "hndle"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0088"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> visited his mom's brother.",
+    "choices": [
+      "uncl",
+      "uncel",
+      "unkle",
+      "uncle"
+    ],
+    "answer_index": 3,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "item_id": "roots_spell_the_consonant_l_e_word_0089"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Cut the sandwich in the ___.",
+    "choices": [
+      "midle",
+      "middl",
+      "middle",
+      "midel"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0090"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The test was ___ with ten questions.",
+    "choices": [
+      "simpl",
+      "simple",
+      "simpel",
+      "simle"
+    ],
+    "answer_index": 1,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0091"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The class painted at an ___.",
+    "choices": [
+      "easel",
+      "easle",
+      "easell",
+      "esel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0092"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "There was a ___ cookie left for me.",
+    "choices": [
+      "singl",
+      "singel",
+      "single",
+      "singul"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0093"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is ___ to ride his bike.",
+    "choices": [
+      "abl",
+      "abble",
+      "able",
+      "abel"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "item_id": "roots_spell_the_consonant_l_e_word_0094"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> finished the jigsaw ___.",
+    "choices": [
+      "puzle",
+      "puzzle",
+      "puzzl",
+      "puzzel"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "item_id": "roots_spell_the_consonant_l_e_word_0095"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The mouse is ___ not huge.",
+    "choices": [
+      "litle",
+      "little",
+      "littl",
+      "littel"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0096"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Write the ___ at the top of the page.",
+    "choices": [
+      "title",
+      "tittle",
+      "titel",
+      "tittel"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0097"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> set cups on the wood ___.",
+    "choices": [
+      "tabl",
+      "tabel",
+      "table",
+      "tayble"
+    ],
+    "answer_index": 2,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "item_id": "roots_spell_the_consonant_l_e_word_0098"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Trace one perfect ___ in your notebook.",
+    "choices": [
+      "circl",
+      "circel",
+      "cirkle",
+      "circle"
+    ],
+    "answer_index": 3,
+    "explain_key": "le_order",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0099"
+  },
+  {
+    "family_id": "fam_spell_the_consonant_l_e_word",
+    "skill_id": "roots_spell_the_consonant_l_e_word",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We watched an ___ fly over the lake.",
+    "choices": [
+      "eagle",
+      "eagl",
+      "eagel",
+      "egle"
+    ],
+    "answer_index": 0,
+    "explain_key": "single_le",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "item_id": "roots_spell_the_consonant_l_e_word_0100"
+  }
+]

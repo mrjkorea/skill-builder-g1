@@ -1,0 +1,2402 @@
+[
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0001",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rain fell on the grass.",
+    "choices": [
+      "The grass got wet.",
+      "The grass was dry.",
+      "The sun came out.",
+      "The bird sang a song."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0002",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The baby was very hungry.",
+    "choices": [
+      "The baby went to sleep.",
+      "The baby ate lunch.",
+      "The baby sang a song.",
+      "The baby put on a coat."
+    ],
+    "answer_index": 1,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0003",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> spilled the milk.",
+    "choices": [
+      "The milk was cold.",
+      "The cup was full.",
+      "The floor got wet.",
+      "The cow ate grass."
+    ],
+    "answer_index": 2,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0004",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The loud wind blew the hat.",
+    "choices": [
+      "The hat flew away.",
+      "The hat was new.",
+      "The wind was cold.",
+      "The boy put on a hat."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0005",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> left the cookies in the oven.",
+    "choices": [
+      "The cookies were very sweet.",
+      "The kids ate the cookies after dinner.",
+      "The oven was in the kitchen.",
+      "The cookies got too hot."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0006",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy barked at night.",
+    "choices": [
+      "The puppy was brown.",
+      "The baby woke up.",
+      "The baby went to sleep.",
+      "The dog ran in the yard."
+    ],
+    "answer_index": 1,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0007",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The plant did not get water.",
+    "choices": [
+      "The plant did not grow.",
+      "The plant was in the sun.",
+      "Water fell on the plant.",
+      "The flower was pretty and pink."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0008",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> left her lunch at home.",
+    "choices": [
+      "She packed a big lunch.",
+      "Her lunch was on the table.",
+      "She was hungry at school.",
+      "She found her lunch at home."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0009",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The sun was hot all day.",
+    "choices": [
+      "The ground got dry.",
+      "The moon came up.",
+      "The cat slept on a rug.",
+      "The stars came out at night."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0010",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ice sat in sun.",
+    "choices": [
+      "The ice melted fast.",
+      "The ice was cold.",
+      "Snow fell on hills.",
+      "The lake was deep."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0011",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog ran in mud.",
+    "choices": [
+      "The dog got muddy.",
+      "The dog was happy.",
+      "Birds flew over trees.",
+      "The bus went to school."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0012",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> forgot her coat.",
+    "choices": [
+      "She felt very cold.",
+      "She ate her lunch.",
+      "She read a good book.",
+      "She played with blocks."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0013",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bell rang at school.",
+    "choices": [
+      "The kids lined up.",
+      "The bell was gold.",
+      "A frog jumped in grass.",
+      "Mom made soup for dinner."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0014",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat knocked the cup.",
+    "choices": [
+      "The cup fell down.",
+      "The cat was soft.",
+      "Fish swam in the pond.",
+      "Dad fixed the red bike."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0015",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We planted seeds in soil.",
+    "choices": [
+      "The seeds began to grow.",
+      "We had a fun picnic.",
+      "The dog barked at mail.",
+      "Rain fell on the roof."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0016",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy ate too much cake.",
+    "choices": [
+      "He felt sick a lot.",
+      "He liked the blue hat.",
+      "His sister drew a cat.",
+      "They went to the park."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0017",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The snow fell all night.",
+    "choices": [
+      "The yard was white.",
+      "The snow was cold.",
+      "Grandma told a story.",
+      "The clock ticked loudly."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0018",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The lamp burned all night.",
+    "choices": [
+      "The room stayed bright.",
+      "The lamp was tall.",
+      "Bees buzzed near flowers.",
+      "We ate rice for lunch."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0019",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kite string broke loose.",
+    "choices": [
+      "The kite flew away.",
+      "The kite was red.",
+      "We sang at music time.",
+      "The frog hid in its shell."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0020",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The juice box leaked badly.",
+    "choices": [
+      "The bag got soaked.",
+      "The juice was sweet.",
+      "We played tag at recess.",
+      "A bird built a nest."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0021",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The door was left open.",
+    "choices": [
+      "The cat ran outside.",
+      "The door was brown.",
+      "We counted to one hundred.",
+      "Fish jumped in the stream."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0022",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy tripped on a rock.",
+    "choices": [
+      "He hurt his knee bad.",
+      "He wore new shoes.",
+      "His mom made hot soup.",
+      "The bus stopped at corner."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0023",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fire warmed the room.",
+    "choices": [
+      "We felt nice and warm.",
+      "The fire was orange.",
+      "We read books at library.",
+      "A duck swam in the pond."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0024",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The girl missed the bus.",
+    "choices": [
+      "She was late for school.",
+      "She packed her lunch.",
+      "Her dog wagged its tail.",
+      "They ate corn at dinner."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0025",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The wind blew the papers.",
+    "choices": [
+      "The papers flew everywhere.",
+      "The wind was loud.",
+      "We painted at art time.",
+      "The mouse ran on wheel."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0026",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ant bit my arm.",
+    "choices": [
+      "My arm hurt a lot.",
+      "The ant was small.",
+      "We had math after lunch.",
+      "The owl hooted at night."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0027",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The tub filled with water.",
+    "choices": [
+      "Water spilled on floor.",
+      "The tub was white.",
+      "We wrote words on paper.",
+      "A rabbit hopped in grass."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "water"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0028",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy dropped his sandwich.",
+    "choices": [
+      "Sand fell on the bread.",
+      "The bread was soft.",
+      "We ran fast at recess.",
+      "Stars came out at night."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0029",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The girl lost her mitten.",
+    "choices": [
+      "Her hand felt cold.",
+      "Her mitten was red.",
+      "We sang songs in music.",
+      "The frog croaked by pond."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0030",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The oven door stayed open.",
+    "choices": [
+      "The kitchen got hot.",
+      "The oven was big.",
+      "We played ball at recess.",
+      "A worm dug in the dirt."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "oven"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0031",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hose sprayed the plants.",
+    "choices": [
+      "The plants got wet.",
+      "The hose was green.",
+      "We ate apples at snack.",
+      "The moon rose at night."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0032",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy cracked the egg.",
+    "choices": [
+      "The yolk ran out.",
+      "The egg was white.",
+      "We built a tower of blocks.",
+      "A train rolled on tracks."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0033",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The girl burned the toast.",
+    "choices": [
+      "The toast turned black.",
+      "The toast was warm.",
+      "We learned new words today.",
+      "A fox ran in the trees."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0034",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat spilled the water.",
+    "choices": [
+      "The floor got wet.",
+      "The cat was gray.",
+      "We drew maps in class.",
+      "The sun set behind hills."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "water"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0035",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy forgot his pencil.",
+    "choices": [
+      "He could not write words.",
+      "He liked his blue desk.",
+      "His dad drove him to school.",
+      "They ate corn at dinner."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0036",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The heavy box fell off shelf.",
+    "choices": [
+      "Toys spilled on the floor.",
+      "The box was red.",
+      "The shelf was made of wood.",
+      "The girl put toys in box."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0037",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> left the gate open.",
+    "choices": [
+      "The dog ran in the yard.",
+      "The gate was tall.",
+      "The dog liked its bone.",
+      "<NAME> fed the dog dinner."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0038",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl forgot to tie shoes.",
+    "choices": [
+      "She tripped on the stairs.",
+      "Her shoes were new.",
+      "She tied a bow on gift.",
+      "The stairs were very steep."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0039",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hot sun melted the crayon.",
+    "choices": [
+      "The crayon got soft.",
+      "The crayon was yellow.",
+      "The sun was in the sky.",
+      "The girl drew a house."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0040",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat pushed the vase off.",
+    "choices": [
+      "The vase broke on floor.",
+      "The vase held pretty flowers.",
+      "The cat jumped on the table.",
+      "The floor was clean and shiny."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "vase"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0041",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy ate all his candy.",
+    "choices": [
+      "He felt sick a lot.",
+      "He saved some for later.",
+      "The candy was in a jar.",
+      "His mom bought more candy."
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "candy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0042",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The thunder scared the puppy.",
+    "choices": [
+      "The puppy hid under bed.",
+      "The puppy was very small.",
+      "Thunder rumbled in the sky.",
+      "The bed had a soft blanket."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0043",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did not eat breakfast.",
+    "choices": [
+      "She felt hungry at school.",
+      "She packed her lunch bag.",
+      "Breakfast was eggs and toast.",
+      "She walked to school with dad."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "breakfast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0044",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wind knocked down the sign.",
+    "choices": [
+      "The sign fell on grass.",
+      "The sign said stop.",
+      "The wind blew from the north.",
+      "A car stopped at the corner."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sign"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0045",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl left the window open.",
+    "choices": [
+      "Rain came in the room.",
+      "The window had clean glass.",
+      "The girl looked out window.",
+      "The room had a blue rug."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "window"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0046",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy spilled paint on shirt.",
+    "choices": [
+      "His shirt got a stain.",
+      "His shirt was blue.",
+      "The boy painted a tree.",
+      "Paint was in a small cup."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paint"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0047",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dog dug a hole in yard.",
+    "choices": [
+      "Dirt flew on the grass.",
+      "The dog was brown and big.",
+      "The yard had a tall fence.",
+      "The boy filled hole with sand."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0048",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The ice cream sat in sun.",
+    "choices": [
+      "The ice cream dripped down.",
+      "The ice cream was cold.",
+      "The sun was very bright.",
+      "The girl licked the cone fast."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0049",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> broke the toy car.",
+    "choices": [
+      "The wheel fell off.",
+      "The car was red and fast.",
+      "<NAME> pushed car on floor.",
+      "The floor was smooth and flat."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0050",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The baby pulled the tablecloth.",
+    "choices": [
+      "The cup fell and broke.",
+      "The baby was ten months old.",
+      "The tablecloth had flowers on it.",
+      "Mom picked up the broken cup."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0051",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl did not brush teeth.",
+    "choices": [
+      "Her breath smelled bad.",
+      "She brushed her long hair.",
+      "Her teeth were white and clean.",
+      "She smiled in the mirror."
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teeth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0052",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mouse chewed the cord.",
+    "choices": [
+      "The lamp would not turn on.",
+      "The mouse was small and gray.",
+      "The cord was under the desk.",
+      "The lamp lit up the room."
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0053",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy kicked the ball hard.",
+    "choices": [
+      "The ball hit the window.",
+      "The ball was black and white.",
+      "The boy ran after the ball.",
+      "The window was very clean."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0054",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rain filled the puddle.",
+    "choices": [
+      "We jumped in the puddle.",
+      "The puddle was on the path.",
+      "Rain fell from gray clouds.",
+      "We wore boots to school."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puddle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0055",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> left the book outside.",
+    "choices": [
+      "The pages got wet.",
+      "The book had many pictures.",
+      "<NAME> read the book at night.",
+      "The yard had a big tree."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0056",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The stove got too hot.",
+    "choices": [
+      "The pot handle burned.",
+      "The stove was in kitchen.",
+      "Mom stirred soup in the pot.",
+      "The kitchen smelled like soup."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stove"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0057",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl whispered during the test.",
+    "choices": [
+      "The teacher shushed her.",
+      "The girl knew the answers.",
+      "The test had ten questions.",
+      "The class was very quiet."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "test"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0058",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat sat on the wet paint.",
+    "choices": [
+      "Paint got on the cat fur.",
+      "The cat was orange and white.",
+      "The paint was on the paper.",
+      "The girl washed the cat later."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0059",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy left his bike in rain.",
+    "choices": [
+      "The bike chain got dirty.",
+      "The bike had a red bell.",
+      "The boy rode bike to park.",
+      "Rain stopped by the afternoon."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0060",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl bit the green apple.",
+    "choices": [
+      "Juice ran down her chin.",
+      "The apple was on the table.",
+      "She picked apple from tree.",
+      "The apple was round and firm."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0061",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dog barked at the mail.",
+    "choices": [
+      "The man walked away fast.",
+      "The dog was behind the fence.",
+      "The man had a big bag.",
+      "Mail came every day."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0062",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> forgot to close the lid.",
+    "choices": [
+      "The soup spilled on stove.",
+      "The lid was on the counter.",
+      "<NAME> stirred the hot soup.",
+      "The stove was turned on low."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0063",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sun dried the wet clothes.",
+    "choices": [
+      "The clothes felt dry again.",
+      "The clothes hung on a line.",
+      "The sun was hot at noon.",
+      "Mom folded the dry clothes."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "clothes"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0064",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy pushed his sister hard.",
+    "choices": [
+      "She fell and cried.",
+      "The boy wanted to play tag.",
+      "His sister was younger than him.",
+      "Mom gave them both a snack."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0065",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The plant got no sunlight.",
+    "choices": [
+      "The leaves turned yellow.",
+      "The plant was in a pot.",
+      "Sunlight came through window.",
+      "The girl watered the plant."
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0066",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl left crayons in the car.",
+    "choices": [
+      "The crayons melted in heat.",
+      "The crayons were in a box.",
+      "The car was parked outside.",
+      "The girl drew with crayons."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0067",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The ant flew into the tent.",
+    "choices": [
+      "We ran out of the tent.",
+      "The tent was blue and big.",
+      "Bees like sweet flower smell.",
+      "We ate lunch inside the tent."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0068",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy dropped the egg on floor.",
+    "choices": [
+      "The egg cracked open.",
+      "The egg was from the store.",
+      "The boy carried egg carefully.",
+      "The floor was hard and flat."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0069",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> did not wear a hat.",
+    "choices": [
+      "Her nose turned bright red.",
+      "<NAME> had a pink hat.",
+      "The sun was very strong.",
+      "She put on her coat later."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0070",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kitten climbed the curtain.",
+    "choices": [
+      "The curtain ripped a little.",
+      "The kitten was small and fluffy.",
+      "The curtain was in the window.",
+      "Mom sewed the curtain later."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0071",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl shook the juice can.",
+    "choices": [
+      "Juice sprayed when opened.",
+      "The can was cold and wet.",
+      "The girl opened the can fast.",
+      "Juice bubbled in the glass."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0072",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The snow blocked the path.",
+    "choices": [
+      "Dad could not leave home.",
+      "The snow was deep and white.",
+      "Dad cleared the path clean.",
+      "The car was in the barn."
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0073",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "No one cleaned the fish bowl.",
+    "choices": [
+      "The water got dirty.",
+      "The fish swam in the bowl.",
+      "The bowl sat on a stand.",
+      "The fish were orange and gold."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0074",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> stayed up very late.",
+    "choices": [
+      "She was sleepy at school.",
+      "She read a book in bed.",
+      "School started at eight today.",
+      "Her teacher smiled at her."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0075",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The door was stuck shut.",
+    "choices": [
+      "We could not go outside.",
+      "The door was made of wood.",
+      "We wanted to play in yard.",
+      "The yard had green grass."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0076",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy fed the dog too much.",
+    "choices": [
+      "The dog got sick.",
+      "The dog wagged its tail.",
+      "The boy loved his brown dog.",
+      "The dog slept on its bed."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0077",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girl did not wear boots.",
+    "choices": [
+      "Her feet got wet in rain.",
+      "She put on her rain coat.",
+      "Boots were by the front door.",
+      "She jumped over a puddle."
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0078",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The battery in the toy died.",
+    "choices": [
+      "The toy stopped moving.",
+      "The toy was a red car.",
+      "The battery was very small.",
+      "The boy played with the toy."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0079",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The ants found the spilled sugar.",
+    "choices": [
+      "Many ants came to eat.",
+      "The sugar was white and sweet.",
+      "Ants live in a hill outside.",
+      "Mom cleaned up the sugar."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0080",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girl left the milk out.",
+    "choices": [
+      "The milk smelled sour.",
+      "The milk was in a glass.",
+      "The girl poured milk on cereal.",
+      "The milk sat on the table."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0081",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> did not lock the cage.",
+    "choices": [
+      "The pet mouse got out.",
+      "The cage was on the desk.",
+      "The mouse ran on its wheel.",
+      "<NAME> fed the mouse seeds."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0082",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The lights went out at night.",
+    "choices": [
+      "We lit candles in room.",
+      "The lights were on the wall.",
+      "We ate dinner before dark.",
+      "The room had a big window."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0083",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy threw the ball at wall.",
+    "choices": [
+      "The ball bounced back fast.",
+      "The ball was round and red.",
+      "The wall was white and smooth.",
+      "The boy caught the ball."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0084",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cat scratched the couch.",
+    "choices": [
+      "The couch got a rip.",
+      "The cat sharpened its claws.",
+      "The couch was soft and brown.",
+      "Dad moved the couch away."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0085",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The seeds got no water at all.",
+    "choices": [
+      "The seeds did not grow.",
+      "The seeds were in the soil.",
+      "Water fell from the hose.",
+      "The garden had many plants."
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0086",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girl ate the last cookie.",
+    "choices": [
+      "Her brother had none left.",
+      "The cookie was very sweet.",
+      "Her brother wanted a cookie too.",
+      "Mom baked cookies yesterday."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0087",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> left the tap running.",
+    "choices": [
+      "The sink filled with water.",
+      "The tap was very shiny.",
+      "<NAME> washed hands with soap.",
+      "Water went down the drain."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "water"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0088",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The dog chewed the new shoe.",
+    "choices": [
+      "The shoe looked very chewed.",
+      "The dog was still a puppy.",
+      "The shoe was by the front door.",
+      "Mom bought new shoes for boy."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0089",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The ice on the pond got thin.",
+    "choices": [
+      "The ice cracked under feet.",
+      "The pond was behind the school.",
+      "Kids wanted to skate on ice.",
+      "The ice was smooth and clear."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0090",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy did not study for test.",
+    "choices": [
+      "He missed many answers.",
+      "He brought pencil to school.",
+      "The test was on Friday morning.",
+      "His teacher graded the test."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "test"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0091",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wind blew the hat inside out.",
+    "choices": [
+      "The hat ripped a little.",
+      "The wind was very strong.",
+      "Rain fell on the hat.",
+      "The girl held the hat tight."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0092",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girl spilled juice on rug.",
+    "choices": [
+      "The rug got a stain.",
+      "The rug was in the room.",
+      "Juice was orange and sweet.",
+      "Mom cleaned the rug later."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0093",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> forgot to feed the fish.",
+    "choices": [
+      "The fish looked very still.",
+      "The fish swam in clear water.",
+      "<NAME> had three small fish.",
+      "Fish food was on the shelf."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0094",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy left his ball on hill.",
+    "choices": [
+      "The ball rolled down alone.",
+      "The hill was covered in snow.",
+      "The boy ran up the hill again.",
+      "The ball was red and fast."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_related",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0095",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The sun hid behind dark clouds.",
+    "choices": [
+      "The sky turned gray.",
+      "The sun was very bright before.",
+      "Clouds moved across the sky.",
+      "Birds flew back to their nests."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0096",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girl did not rinse the soap.",
+    "choices": [
+      "Her hands still had soap.",
+      "She washed hands with warm water.",
+      "Soap bubbles covered her hands.",
+      "She dried hands on a towel."
+    ],
+    "answer_index": 0,
+    "explain_key": "opposite_event",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0097",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The mouse ate a hole in bag.",
+    "choices": [
+      "Bits fell on the floor.",
+      "The bag held bread bits.",
+      "The mouse lived in the wall.",
+      "The floor was cleaned each day."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0098",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> knocked over the plant.",
+    "choices": [
+      "Soil spilled on the table.",
+      "The plant had green leaves.",
+      "<NAME> watered the plant daily.",
+      "The table was near the window."
+    ],
+    "answer_index": 0,
+    "explain_key": "match_effect",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0099",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy left the ice in sun.",
+    "choices": [
+      "The ice cream melted soft.",
+      "The ice was in the kitchen.",
+      "The boy wanted ice cream cone.",
+      "Mom put the ice away."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_match_each_cause_to_its_effect_0100",
+    "family_id": "fam_match_each_cause_to_its_effect",
+    "skill_id": "roots_match_each_cause_to_its_effect",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The dog got wet in the rain.",
+    "choices": [
+      "Water dripped from his fur.",
+      "The dog shook off the water.",
+      "Rain fell on the dog outside.",
+      "The dog ran to the house."
+    ],
+    "answer_index": 0,
+    "explain_key": "restated_cause",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  }
+]

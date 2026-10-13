@@ -1,0 +1,315 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_prefixes_and_suffixes_review",
+  "family_title_en": "Prefixes and suffixes review",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_prefixes_and_suffixes_review",
+      "ix_title": "Prefixes and suffixes: review",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word matches?",
+        "ko": "어떤 단어가 같은 뜻인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the matching word.",
+        "ko": "같은 뜻의 단어를 누르세요."
+      },
+      "choice_rule": "Write four single whole words. Exactly one affixed word matches the stem meaning. Use Grade 2 prefixes un-, re-, pre-, dis-, mis- and suffixes -ful, -less, -ly, -er, -est, -y. Distractors use a different affix, the opposite affix, or a different base. Never give two words that both fit. Never use a bare prefix, suffix, or letter string as a choice.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "biggest",
+        "careful",
+        "careless",
+        "disagree",
+        "dislike",
+        "faster",
+        "fastest",
+        "helpful",
+        "helpless",
+        "homeless",
+        "hope",
+        "hopeful",
+        "hopeless",
+        "mismatch",
+        "misspell",
+        "pretest",
+        "preview",
+        "quickly",
+        "replay",
+        "reread",
+        "rewrite",
+        "sleepy",
+        "thankful",
+        "unfinished",
+        "unhappy",
+        "unkind",
+        "unlock",
+        "unpack",
+        "unread",
+        "unsafe"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_prefixes_and_suffixes_review_0001",
+          "tier": 1,
+          "stem": "not happy",
+          "choices": [
+            "unhappy",
+            "replay",
+            "helpful",
+            "slowly"
+          ],
+          "answer_index": 0,
+          "explain_key": "prefix_un",
+          "media": [
+            {
+              "lemma": "happy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_prefixes_and_suffixes_review_0002",
+          "tier": 1,
+          "stem": "play again",
+          "choices": [
+            "unlock",
+            "replay",
+            "careful",
+            "slowly"
+          ],
+          "answer_index": 1,
+          "explain_key": "prefix_re",
+          "media": [
+            {
+              "lemma": "game"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_prefixes_and_suffixes_review_0003",
+          "tier": 1,
+          "stem": "in a slow way",
+          "choices": [
+            "unhappy",
+            "dislike",
+            "slowly",
+            "reread"
+          ],
+          "answer_index": 2,
+          "explain_key": "suffix_ly"
+        },
+        {
+          "item_id": "roots_prefixes_and_suffixes_review_0004",
+          "tier": 2,
+          "stem": "open the lock",
+          "choices": [
+            "replay",
+            "helpful",
+            "slowly",
+            "unlock"
+          ],
+          "answer_index": 3,
+          "explain_key": "prefix_un",
+          "media": [
+            {
+              "lemma": "lock"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_prefixes_and_suffixes_review_0005",
+          "tier": 2,
+          "stem": "full of help",
+          "choices": [
+            "helpful",
+            "hopeless",
+            "replay",
+            "unlock"
+          ],
+          "answer_index": 0,
+          "explain_key": "suffix_ful"
+        },
+        {
+          "item_id": "roots_prefixes_and_suffixes_review_0006",
+          "tier": 2,
+          "stem": "<NAME> does not like the soup.",
+          "choices": [
+            "replay",
+            "reread",
+            "dislike",
+            "helpful"
+          ],
+          "answer_index": 2,
+          "explain_key": "prefix_dis",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_prefixes_and_suffixes_review_0007",
+          "tier": 3,
+          "stem": "The team is without hope.",
+          "choices": [
+            "hopeful",
+            "helpful",
+            "replay",
+            "hopeless"
+          ],
+          "answer_index": 3,
+          "explain_key": "suffix_less"
+        },
+        {
+          "item_id": "roots_prefixes_and_suffixes_review_0008",
+          "tier": 3,
+          "stem": "<NAME> must read the story again.",
+          "choices": [
+            "preview",
+            "reread",
+            "unread",
+            "slowly"
+          ],
+          "answer_index": 1,
+          "explain_key": "prefix_re",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Always write exactly four one-word choices. Never change the count or use a phrase as a choice.",
+      "Exactly one choice matches the stem meaning. If two affixed words both fit, drop one of them.",
+      "Use only Grade 2 affixes: un-, re-, pre-, dis-, mis-, -ful, -less, -ly, -er, -est, and -y.",
+      "Do not use return as a re- target; kids hear it as go back, not again.",
+      "Never pair dislike with unlike, or unread with reread as two keys for the same stem.",
+      "Tier 1 distractors come from a different affix family and a different base word.",
+      "Tier 2 distractors may share a base or a close affix, but only one word may fit.",
+      "Tier 3 distractors are near misses: un- versus re- or pre- on the same base, or -ful versus -less.",
+      "Choices are whole kid words from school, home, food, pets, play, family, or weather. No brands and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bprefix(es)?\\b",
+    "\\bsuffix(es)?\\b",
+    "\\baffix(es)?\\b",
+    "\\bmorpheme\\b",
+    "\\bbase word\\b",
+    "\\broot word\\b",
+    "/[a-zæəɪθðʃʒŋ]/"
+  ],
+  "tier_rules": {
+    "1": "Short meaning stems of two to four words. Targets use un-, re-, or -ly with a clear kid base. Distractors come from other affix families.",
+    "2": "Grade-level stems of three to seven words. Mix dis-, un- on verbs, and -ful. Distractors may share a base or a close affix.",
+    "3": "Near-miss stems of four to eight words. Pair un- versus re- or pre- on the same base, and -ful versus -less. One stem may use <NAME>."
+  },
+  "miss_explain": {
+    "prefix_un": {
+      "en": "un- means not or the opposite.",
+      "ko": "un-은 아니다 또는 반대라는 뜻입니다."
+    },
+    "prefix_re": {
+      "en": "re- means again.",
+      "ko": "re-는 다시라는 뜻입니다."
+    },
+    "prefix_dis": {
+      "en": "dis- means not or the opposite.",
+      "ko": "dis-는 아니다 또는 반대라는 뜻입니다."
+    },
+    "prefix_pre": {
+      "en": "pre- means before.",
+      "ko": "pre-는 전에라는 뜻입니다."
+    },
+    "prefix_mis": {
+      "en": "mis- means wrong.",
+      "ko": "mis-는 잘못이라는 뜻입니다."
+    },
+    "suffix_ful": {
+      "en": "-ful means full of.",
+      "ko": "-ful은 가득하다는 뜻입니다."
+    },
+    "suffix_less": {
+      "en": "-less means without.",
+      "ko": "-less는 없이라는 뜻입니다."
+    },
+    "suffix_ly": {
+      "en": "-ly tells how it is done.",
+      "ko": "-ly는 어떻게 하는지를 나타냅니다."
+    },
+    "suffix_er": {
+      "en": "-er means more, or a person who does it.",
+      "ko": "-er는 더, 또는 하는 사람이라는 뜻입니다."
+    },
+    "suffix_est": {
+      "en": "-est means the most.",
+      "ko": "-est는 가장이라는 뜻입니다."
+    },
+    "suffix_y": {
+      "en": "-y means like that, or full of it.",
+      "ko": "-y는 그와 같거나 가득하다는 뜻입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Prefixes and suffixes: review"
+    ],
+    "no_ixl_text": true
+  }
+}

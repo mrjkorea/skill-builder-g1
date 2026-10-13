@@ -1,0 +1,251 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_is_it_a_complete_sentence_or_a_run_on",
+  "family_title_en": "Complete sentence or run-on",
+  "item_type": "sort_two_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_is_it_a_complete_sentence_or_a_run_on",
+      "ix_title": "Is it a complete sentence or a run-on?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Complete sentence or run-on?",
+        "ko": "완전한 문장일까요, 이어 붙인 문장일까요?"
+      },
+      "what_to_do": {
+        "en": "Tap complete sentence or run-on.",
+        "ko": "완전한 문장 또는 이어 붙인 문장을 누르세요."
+      },
+      "choices": [
+        "complete sentence",
+        "run-on"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "sentence",
+        "run-on"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_run_on_0001",
+          "tier": 1,
+          "stem": "The puppy ran home.",
+          "choices": [
+            "complete sentence",
+            "run-on"
+          ],
+          "answer_index": 0,
+          "explain_key": "complete",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_run_on_0002",
+          "tier": 1,
+          "stem": "The dog barked the cat ran.",
+          "choices": [
+            "complete sentence",
+            "run-on"
+          ],
+          "answer_index": 1,
+          "explain_key": "run_on",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_run_on_0003",
+          "tier": 1,
+          "stem": "My sister needs milk.",
+          "choices": [
+            "complete sentence",
+            "run-on"
+          ],
+          "answer_index": 0,
+          "explain_key": "complete",
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_run_on_0004",
+          "tier": 2,
+          "stem": "We ate breakfast we drank juice.",
+          "choices": [
+            "complete sentence",
+            "run-on"
+          ],
+          "answer_index": 1,
+          "explain_key": "run_on",
+          "media": [
+            {
+              "lemma": "juice"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_run_on_0005",
+          "tier": 2,
+          "stem": "The little puppy sat on the bed.",
+          "choices": [
+            "complete sentence",
+            "run-on"
+          ],
+          "answer_index": 0,
+          "explain_key": "complete",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_run_on_0006",
+          "tier": 2,
+          "stem": "<NAME> baked cookies we ate them.",
+          "choices": [
+            "complete sentence",
+            "run-on"
+          ],
+          "answer_index": 1,
+          "explain_key": "run_on",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_run_on_0007",
+          "tier": 3,
+          "stem": "The sun is hot and we need water.",
+          "choices": [
+            "complete sentence",
+            "run-on"
+          ],
+          "answer_index": 0,
+          "explain_key": "compound_ok",
+          "media": [
+            {
+              "lemma": "sun"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_or_a_run_on_0008",
+          "tier": 3,
+          "stem": "The happy family ate dinner, the kids went outside.",
+          "choices": [
+            "complete sentence",
+            "run-on"
+          ],
+          "answer_index": 1,
+          "explain_key": "run_on",
+          "media": [
+            {
+              "lemma": "dinner"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The two bin labels stay complete sentence then run-on. Never rename them, add bins, or swap their order.",
+      "Every stem is one complete sentence or a run-on of two complete thoughts. Never use a fragment.",
+      "Keep the pool near half complete sentences and half run-ons.",
+      "A run-on has two subject-verb thoughts with no and, but, or so and no period between them. A comma splice is a run-on.",
+      "A complete sentence may join two thoughts with and, but, or so. That is still complete, not a run-on.",
+      "Stems use only the roots word list, allowed_extra_words, and <NAME>. No real names.",
+      "Stay in kid world: school, home, food, pets, play, family, weather. No brands.",
+      "One right bin. Tap only."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bfragment\\b",
+    "\\bpunctuation\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\?"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Complete sentences have one subject, one verb, and a period. Run-ons jam two short subject-verb pairs with no comma and no linking word.",
+    "2": "Grade-level stems of five to eight words. Use two-syllable kid words. Run-ons may start the second thought with we or they. Add a lemma picture for the first noun.",
+    "3": "Near misses up to ten words. Complete sentences join two thoughts with and, but, or so. Run-ons are longer comma splices that look like one story."
+  },
+  "miss_explain": {
+    "complete": {
+      "en": "A complete sentence tells one full thought. It has a who or what and what they do.",
+      "ko": "완전한 문장은 생각 하나를 끝까지 말합니다. 누가 무엇을 하는지 있습니다."
+    },
+    "run_on": {
+      "en": "A run-on sticks two sentences together. Split them or join them with and.",
+      "ko": "이어 붙인 문장은 문장 두 개를 붙여 둡니다. 나누거나 and로 잇습니다."
+    },
+    "compound_ok": {
+      "en": "And can join two thoughts. That is still one complete sentence.",
+      "ko": "And는 생각 두 개를 이을 수 있습니다. 그래도 완전한 문장 하나입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Is it a complete sentence or a run-on?"
+    ],
+    "no_ixl_text": true
+  }
+}

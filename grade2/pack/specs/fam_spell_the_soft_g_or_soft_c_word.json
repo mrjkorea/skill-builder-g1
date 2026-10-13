@@ -1,0 +1,254 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_soft_g_or_soft_c_word",
+  "family_title_en": "Spell the soft g or soft c word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_soft_g_or_soft_c_word",
+      "ix_title": "Spell the soft g or soft c word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which soft c or soft g spelling is right?",
+        "ko": "약한 c나 약한 g의 올바른 철자는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word spelled the right way.",
+        "ko": "바르게 쓴 단어를 누르세요."
+      },
+      "choice_rule": "Each item has four unique whole-word spellings of one soft-c or soft-g word that fits the stem. Exactly one choice is the real spelling, and answer_index points to it. Take that word from the roots list or allowed_extra_words. The stem may use only the roots list, allowed extra words, and <NAME>, and it must not contain any choice.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "badge",
+        "cabbage",
+        "cage",
+        "cent",
+        "circus",
+        "cycle",
+        "danger",
+        "dice",
+        "edge",
+        "engine",
+        "fancy",
+        "gem",
+        "gentle",
+        "giant",
+        "giraffe",
+        "huge",
+        "judge",
+        "lace",
+        "magic",
+        "peace",
+        "piece",
+        "prince",
+        "spice",
+        "stage",
+        "strange",
+        "trace",
+        "village",
+        "voice"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_soft_g_or_soft_c_word_0001",
+          "tier": 1,
+          "stem": "Water that turned hard and cold.",
+          "choices": [
+            "ice",
+            "ise",
+            "ikk",
+            "icc"
+          ],
+          "answer_index": 0,
+          "explain_key": "soft_c"
+        },
+        {
+          "item_id": "roots_spell_the_soft_g_or_soft_c_word_0002",
+          "tier": 1,
+          "stem": "It is how old someone is.",
+          "choices": [
+            "aje",
+            "age",
+            "ajj",
+            "aeg"
+          ],
+          "answer_index": 1,
+          "explain_key": "soft_g"
+        },
+        {
+          "item_id": "roots_spell_the_soft_g_or_soft_c_word_0003",
+          "tier": 1,
+          "stem": "The front of your head.",
+          "choices": [
+            "fase",
+            "facc",
+            "face",
+            "faec"
+          ],
+          "answer_index": 2,
+          "explain_key": "soft_c"
+        },
+        {
+          "item_id": "roots_spell_the_soft_g_or_soft_c_word_0004",
+          "tier": 2,
+          "stem": "A place bigger than a town.",
+          "choices": [
+            "city",
+            "sity",
+            "citi",
+            "citty"
+          ],
+          "answer_index": 0,
+          "explain_key": "soft_c"
+        },
+        {
+          "item_id": "roots_spell_the_soft_g_or_soft_c_word_0005",
+          "tier": 2,
+          "stem": "It is a fruit and a color.",
+          "choices": [
+            "oranj",
+            "orang",
+            "orenge",
+            "orange"
+          ],
+          "answer_index": 3,
+          "explain_key": "soft_g"
+        },
+        {
+          "item_id": "roots_spell_the_soft_g_or_soft_c_word_0006",
+          "tier": 2,
+          "stem": "Run and play in this school room.",
+          "choices": [
+            "jym",
+            "gym",
+            "gim",
+            "gymm"
+          ],
+          "answer_index": 1,
+          "explain_key": "soft_g"
+        },
+        {
+          "item_id": "roots_spell_the_soft_g_or_soft_c_word_0007",
+          "tier": 3,
+          "stem": "One small bit cut from a cake.",
+          "choices": [
+            "slic",
+            "slise",
+            "slice",
+            "slace"
+          ],
+          "answer_index": 2,
+          "explain_key": "silent_e"
+        },
+        {
+          "item_id": "roots_spell_the_soft_g_or_soft_c_word_0008",
+          "tier": 3,
+          "stem": "<NAME> can see the road over the water.",
+          "choices": [
+            "brige",
+            "brij",
+            "bridg",
+            "bridge"
+          ],
+          "answer_index": 3,
+          "explain_key": "soft_g_dge",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four spellings of the same soft-c or soft-g word, and exactly one spelling is real.",
+      "Distractors are misspellings of that same word, never a different real word that also fits the clue.",
+      "For tier 1, one distractor may swap c with s or g with j, and the other two must look clearly wrong.",
+      "For tier 2, keep each distractor one letter off, such as c for s, g for j, or one wrong vowel.",
+      "For tier 3, use near misses that drop the silent e, drop the d in dge, or swap only the soft letter.",
+      "Choices are whole words. Never write IPA, slash sounds, or a held letter sound.",
+      "Keep clues in school, home, food, pets, play, family, and weather, with no brand names.",
+      "Do not put the correct spelling or any choice inside the stem.",
+      "When the stem uses <NAME>, set swap_slots NAME to names.txt and never write a real name."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "phoneme",
+    "schwa",
+    "\\bipa\\b",
+    "\\/[^\\s/]+\\/"
+  ],
+  "tier_rules": {
+    "1": "Clues of four to six words and a common one-syllable word such as ice, age, or face. Two distractors look clearly wrong.",
+    "2": "Clues of five to eight words and a Grade 2 word such as city, orange, or gym. Distractors are one letter off.",
+    "3": "Clues of seven to ten words. Distractors are near misses that drop silent e, drop the d in dge, or swap only c/s or g/j."
+  },
+  "miss_explain": {
+    "soft_c": {
+      "en": "Use c before e, i, or y when it sounds like the s in sun, as in ice and city.",
+      "ko": "e, i, y 앞의 c는 sun의 s처럼 들려요. ice와 city가 그 예예요."
+    },
+    "soft_g": {
+      "en": "Use g before e, i, or y when it sounds like the j in jam, as in age and gym.",
+      "ko": "e, i, y 앞의 g는 jam의 j처럼 들려요. age와 gym이 그 예예요."
+    },
+    "silent_e": {
+      "en": "The e at the end keeps the c soft, like the s in sun. Slice needs that e.",
+      "ko": "끝의 e가 c를 sun의 s처럼 약하게 지켜요. slice에는 그 e가 필요해요."
+    },
+    "soft_g_dge": {
+      "en": "Bridge ends in dge. The g sounds like the j in jam, and the e keeps it soft.",
+      "ko": "bridge는 dge로 끝나요. g는 jam의 j처럼 들리고 끝 e가 그 소리를 지켜요."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the soft g or soft c word"
+    ],
+    "no_ixl_text": true
+  }
+}

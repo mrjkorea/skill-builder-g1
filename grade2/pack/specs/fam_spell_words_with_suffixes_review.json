@@ -1,0 +1,339 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_words_with_suffixes_review",
+  "family_title_en": "Spell words with suffixes",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_words_with_suffixes_review",
+      "ix_title": "Spell words with suffixes: review",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어느 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that is spelled right.",
+        "ko": "바르게 쓰인 단어를 누르세요."
+      },
+      "choice_rule": "Four unique spellings of one same suffixed word. Exactly one is the standard Grade 2 spelling. The other three are misspellings of that same word: wrong doubling, kept or dropped silent e, y not changed to i, or extra or missing suffix letters. Never use a different real word as a distractor. Shuffle so the right choice is not always first.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "ed",
+        "ing",
+        "ly",
+        "es",
+        "est",
+        "ful",
+        "less",
+        "playing",
+        "played",
+        "jumping",
+        "jumped",
+        "walking",
+        "walked",
+        "walks",
+        "baking",
+        "coming",
+        "taking",
+        "giving",
+        "moving",
+        "riding",
+        "boxes",
+        "dishes",
+        "classes",
+        "buses",
+        "foxes",
+        "wishes",
+        "benches",
+        "happily",
+        "helpful",
+        "careful",
+        "hopeful",
+        "biggest",
+        "hottest",
+        "nicest",
+        "smallest",
+        "cried",
+        "families",
+        "babies",
+        "puppies",
+        "liked",
+        "lived",
+        "needed",
+        "helped",
+        "asked",
+        "wanted"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_words_with_suffixes_review_0001",
+          "tier": 1,
+          "stem": "Spell bark with ed",
+          "choices": [
+            "barked",
+            "barkd",
+            "barkked",
+            "barkded"
+          ],
+          "answer_index": 0,
+          "explain_key": "add_ed",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_review_0002",
+          "tier": 1,
+          "stem": "Add ing to look",
+          "choices": [
+            "lookking",
+            "looking",
+            "lookeing",
+            "loking"
+          ],
+          "answer_index": 1,
+          "explain_key": "add_ing",
+          "media": [
+            {
+              "lemma": "baby"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_review_0003",
+          "tier": 1,
+          "stem": "<NAME> will spell book with s",
+          "choices": [
+            "bookes",
+            "bookss",
+            "books",
+            "bookz"
+          ],
+          "answer_index": 2,
+          "explain_key": "add_s",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_review_0004",
+          "tier": 2,
+          "stem": "Add ing to smile",
+          "choices": [
+            "smiling",
+            "smileing",
+            "smilling",
+            "smilng"
+          ],
+          "answer_index": 0,
+          "explain_key": "drop_e",
+          "media": [
+            {
+              "lemma": "girl"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_review_0005",
+          "tier": 2,
+          "stem": "Add ed to hug",
+          "choices": [
+            "huged",
+            "huggd",
+            "hugied",
+            "hugged"
+          ],
+          "answer_index": 3,
+          "explain_key": "double_consonant",
+          "media": [
+            {
+              "lemma": "mom"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_review_0006",
+          "tier": 2,
+          "stem": "Make this box look big with er",
+          "choices": [
+            "biger",
+            "bigger",
+            "bigest",
+            "bigerr"
+          ],
+          "answer_index": 1,
+          "explain_key": "add_er",
+          "media": [
+            {
+              "lemma": "box"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_review_0007",
+          "tier": 3,
+          "stem": "The turtle moves slow with ly",
+          "choices": [
+            "slowley",
+            "slowely",
+            "slowly",
+            "sloly"
+          ],
+          "answer_index": 2,
+          "explain_key": "add_ly",
+          "media": [
+            {
+              "lemma": "turtle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_suffixes_review_0008",
+          "tier": 3,
+          "stem": "<NAME> said the bag feels heavy with er",
+          "choices": [
+            "heavier",
+            "heavyer",
+            "heaveir",
+            "hevier"
+          ],
+          "answer_index": 0,
+          "explain_key": "y_to_i",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every item has one right spelling and three misspellings of that same suffixed word.",
+      "Never use a different real word, a different suffix meaning, or a wordlist typo such as happi or allways as the correct choice.",
+      "Tier 1 targets just-add suffixes on unchanged bases: ed, ing, or s. Make distractors obvious: missing letters or a doubled suffix.",
+      "Tier 2 targets drop-silent-e or double-the-final-consonant before ed, ing, or er. Distractors should miss exactly that change.",
+      "Tier 3 targets y-to-i before ed or er, and ly adverbs. Distractors keep y, add the wrong vowel, or misspell ly.",
+      "Stay in the Grade 2 suffix set only: s, es, ed, ing, er, est, ly, ful, less.",
+      "Keep stems in kid world: school, home, food, pets, play, family, weather. No brands and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsuffix\\b",
+    "\\bbase word\\b",
+    "\\broot word\\b",
+    "\\bmisspell",
+    "\\bvowel\\b",
+    "\\bconsonant\\b",
+    "\\bsilent e\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to six words. Just add s, ed, or ing. Distractors drop letters or pile on extra suffix letters.",
+    "2": "Stems of four to eight words. Use drop-silent-e or double-final-consonant before ed, ing, or er. Distractors miss that one change.",
+    "3": "Longer stems up to ten words. Use y-to-i before ed or er, or add ly. Distractors are near-miss spellings of the same word."
+  },
+  "miss_explain": {
+    "add_ed": {
+      "en": "Add -ed to tell about the past. Keep the other letters the same.",
+      "ko": "과거를 말할 때는 -ed를 붙입니다. 다른 글자는 그대로 둡니다."
+    },
+    "add_ing": {
+      "en": "Add -ing to the word. Keep the base letters the same.",
+      "ko": "단어에 -ing을 붙입니다. 원래 글자는 그대로 둡니다."
+    },
+    "add_s": {
+      "en": "Add -s to mean more than one. Do not add extra letters.",
+      "ko": "하나보다 많으면 -s를 붙입니다. 글자를 더 넣지 마세요."
+    },
+    "add_es": {
+      "en": "After s, x, ch, or sh, add -es to mean more than one.",
+      "ko": "s, x, ch, sh 뒤에는 하나보다 많음을 -es로 나타냅니다."
+    },
+    "drop_e": {
+      "en": "Drop the silent e, then add the suffix.",
+      "ko": "말하지 않는 e를 빼고 나서 접미사를 붙입니다."
+    },
+    "double_consonant": {
+      "en": "Double the last consonant, then add the suffix.",
+      "ko": "마지막 자음을 하나 더 쓴 다음 접미사를 붙입니다."
+    },
+    "add_er": {
+      "en": "Add -er to compare two things. Double the last consonant in a short word.",
+      "ko": "두 가지를 비교할 때는 -er을 붙입니다. 짧은 단어는 마지막 자음을 겹칩니다."
+    },
+    "add_est": {
+      "en": "Add -est to compare more than two. Double the last consonant if you need to.",
+      "ko": "셋 이상을 비교할 때는 -est를 붙입니다. 필요하면 마지막 자음을 겹칩니다."
+    },
+    "add_ly": {
+      "en": "Add -ly to tell how. Do not change the other letters.",
+      "ko": "어떻게인지 말할 때는 -ly를 붙입니다. 다른 글자는 바꾸지 마세요."
+    },
+    "y_to_i": {
+      "en": "Change the y to i, then add the suffix.",
+      "ko": "y를 i로 바꾼 다음 접미사를 붙입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Spell words with suffixes: review"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_the_prefixes_pre_re_and_mis",
+  "family_title_en": "Use the prefixes pre-, re-, and mis-",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_the_prefixes_pre_re_and_mis",
+      "ix_title": "Use the prefixes pre-, re-, and mis-",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word fits?",
+        "ko": "어떤 낱말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word with the right prefix.",
+        "ko": "알맞은 접두사가 붙은 낱말을 누르세요."
+      },
+      "choice_rule": "Write four unique lowercase words. Exactly one is the pre-, re-, or mis- word that matches the stem. Use skill-target words from allowed_extra_words or transparent wordlist words repeat, return, review, and reply. Two distractors are other real pre-, re-, or mis- words that do not fit. One distractor is usually the bare base. Tier 3 uses a same-base near-miss such as reread/misread, pretest/retest, misplace/replace, or miscount/recount. Never invent nonce words. Never put the answer in the stem. Never write two words that both fit.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "mismatch",
+        "miscount",
+        "misplace",
+        "misread",
+        "misspell",
+        "mistake",
+        "mistreat",
+        "precook",
+        "pregame",
+        "preheat",
+        "prepay",
+        "preschool",
+        "pretest",
+        "preview",
+        "prewrite",
+        "preread",
+        "rebuild",
+        "recount",
+        "redo",
+        "refill",
+        "reheat",
+        "remake",
+        "replace",
+        "replay",
+        "reread",
+        "restart",
+        "retell",
+        "retest",
+        "reuse",
+        "rewrite"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_the_prefixes_pre_re_and_mis_0001",
+          "tier": 1,
+          "stem": "Play the game again.",
+          "choices": [
+            "replay",
+            "preview",
+            "misspell",
+            "play"
+          ],
+          "answer_index": 0,
+          "explain_key": "re_again",
+          "media": [
+            {
+              "lemma": "game"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_prefixes_pre_re_and_mis_0002",
+          "tier": 1,
+          "stem": "Look before the show.",
+          "choices": [
+            "replay",
+            "preview",
+            "misspell",
+            "look"
+          ],
+          "answer_index": 1,
+          "explain_key": "pre_before",
+          "media": [
+            {
+              "lemma": "show"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_prefixes_pre_re_and_mis_0003",
+          "tier": 1,
+          "stem": "Spell the word wrong.",
+          "choices": [
+            "replay",
+            "pretest",
+            "misspell",
+            "spell"
+          ],
+          "answer_index": 2,
+          "explain_key": "mis_wrong"
+        },
+        {
+          "item_id": "roots_use_the_prefixes_pre_re_and_mis_0004",
+          "tier": 2,
+          "stem": "<NAME> will read the book again.",
+          "choices": [
+            "reread",
+            "misread",
+            "preview",
+            "read"
+          ],
+          "answer_index": 0,
+          "explain_key": "re_again",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_prefixes_pre_re_and_mis_0005",
+          "tier": 2,
+          "stem": "I put my bag in the wrong place.",
+          "choices": [
+            "replace",
+            "replay",
+            "place",
+            "misplace"
+          ],
+          "answer_index": 3,
+          "explain_key": "mis_wrong",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_prefixes_pre_re_and_mis_0006",
+          "tier": 2,
+          "stem": "We take a test before class.",
+          "choices": [
+            "retest",
+            "pretest",
+            "mistake",
+            "test"
+          ],
+          "answer_index": 1,
+          "explain_key": "pre_before",
+          "media": [
+            {
+              "lemma": "class"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_prefixes_pre_re_and_mis_0007",
+          "tier": 3,
+          "stem": "She wrote her letter again.",
+          "choices": [
+            "prewrite",
+            "misread",
+            "rewrite",
+            "write"
+          ],
+          "answer_index": 2,
+          "explain_key": "re_again",
+          "media": [
+            {
+              "lemma": "letter"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_prefixes_pre_re_and_mis_0008",
+          "tier": 3,
+          "stem": "Count the coins the wrong way.",
+          "choices": [
+            "recount",
+            "miscount",
+            "pretest",
+            "count"
+          ],
+          "answer_index": 1,
+          "explain_key": "mis_wrong",
+          "media": [
+            {
+              "lemma": "coin"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four lowercase words: one right prefixed word and three wrong ones.",
+      "Wrong choices must be real words from the wordlist or allowed_extra_words. Never invent a prefix plus base that is not on those lists.",
+      "Use the bare base as one distractor on most items.",
+      "Other distractors are a different prefix that does not fit, or a same-base near-miss.",
+      "Never use remember, missing, or miss as a re- or mis- answer. Those are not Grade 2 prefix uses.",
+      "Never let two choices both fit the stem. replace means place again, not place wrong. recount means count again, not count wrong.",
+      "Keep stems in kid world: school, home, food, pets, play, family, weather. No brands.",
+      "Stems must show again, before, or wrong without using the answer word."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bprefix\\b",
+    "\\bsuffix\\b",
+    "\\baffix",
+    "\\broot word\\b",
+    "\\bsyllable\\b",
+    "\\bdefinition\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. The clue again, before, or wrong is obvious. Distractors are other prefixes plus the bare base.",
+    "2": "Grade-level stems of five to eight words. Kid-world sentences with pronouns. Distractors are real pre, re, or mis words that do not fit.",
+    "3": "Near-miss same-base pairs such as reread and misread, rewrite and prewrite, or miscount and recount. Stems may use NAME or irregular past."
+  },
+  "miss_explain": {
+    "re_again": {
+      "en": "re- means again. Tap the word that means again.",
+      "ko": "re-는 다시라는 뜻입니다. 다시라는 뜻의 낱말을 누르세요."
+    },
+    "pre_before": {
+      "en": "pre- means before. Tap the word that means before.",
+      "ko": "pre-는 전에라는 뜻입니다. 전이라는 뜻의 낱말을 누르세요."
+    },
+    "mis_wrong": {
+      "en": "mis- means wrong. Tap the word that means the wrong way.",
+      "ko": "mis-는 잘못이라는 뜻입니다. 잘못한다는 뜻의 낱말을 누르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use the prefixes pre-, re-, and mis-"
+    ],
+    "no_ixl_text": true
+  }
+}

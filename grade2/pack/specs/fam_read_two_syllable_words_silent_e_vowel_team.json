@@ -1,0 +1,276 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_read_two_syllable_words_silent_e_vowel_team",
+  "family_title_en": "Read two-syllable words: silent e, vowel team, r-controlled",
+  "item_type": "sort_three_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_read_two_syllable_words_silent_e_vowel_team",
+      "ix_title": "Read two-syllable words: silent e, vowel team, r-controlled",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word has the same pattern?",
+        "ko": "어떤 단어가 같은 글자 패턴인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap bedtime, cookie, or sister.",
+        "ko": "bedtime, cookie, sister 중 하나를 누르세요."
+      },
+      "choices": [
+        "bedtime",
+        "cookie",
+        "sister"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "artist",
+        "autumn",
+        "barnyard",
+        "baseball",
+        "bathroom",
+        "bookshelf",
+        "carpet",
+        "circus",
+        "classmate",
+        "classroom",
+        "corner",
+        "cowboy",
+        "daisy",
+        "dirty",
+        "doctor",
+        "drawing",
+        "escape",
+        "farmer",
+        "flagpole",
+        "football",
+        "forest",
+        "forty",
+        "handshake",
+        "harvest",
+        "highway",
+        "invite",
+        "larger",
+        "mailbox",
+        "marble",
+        "marker",
+        "mirror",
+        "mistake",
+        "noisy",
+        "painting",
+        "polite",
+        "postcard",
+        "purple",
+        "raincoat",
+        "reptile",
+        "rosebud",
+        "rowboat",
+        "sailboat",
+        "seagull",
+        "seaweed",
+        "seesaw",
+        "snowball",
+        "snowman",
+        "spaceship",
+        "spider",
+        "subway",
+        "sunshine",
+        "sunrise",
+        "tadpole",
+        "target",
+        "tiger",
+        "zipper"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_read_two_syllable_words_silent_e_vowel_team_0001",
+          "tier": 1,
+          "stem": "inside",
+          "choices": [
+            "bedtime",
+            "cookie",
+            "sister"
+          ],
+          "answer_index": 0,
+          "explain_key": "silent_e"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_silent_e_vowel_team_0002",
+          "tier": 1,
+          "stem": "looking",
+          "choices": [
+            "bedtime",
+            "cookie",
+            "sister"
+          ],
+          "answer_index": 1,
+          "explain_key": "vowel_team"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_silent_e_vowel_team_0003",
+          "tier": 1,
+          "stem": "winter",
+          "choices": [
+            "bedtime",
+            "cookie",
+            "sister"
+          ],
+          "answer_index": 2,
+          "explain_key": "r_controlled"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_silent_e_vowel_team_0004",
+          "tier": 2,
+          "stem": "tadpole",
+          "choices": [
+            "bedtime",
+            "cookie",
+            "sister"
+          ],
+          "answer_index": 0,
+          "explain_key": "silent_e"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_silent_e_vowel_team_0005",
+          "tier": 2,
+          "stem": "rainbow",
+          "choices": [
+            "bedtime",
+            "cookie",
+            "sister"
+          ],
+          "answer_index": 1,
+          "explain_key": "vowel_team"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_silent_e_vowel_team_0006",
+          "tier": 2,
+          "stem": "garden",
+          "choices": [
+            "bedtime",
+            "cookie",
+            "sister"
+          ],
+          "answer_index": 2,
+          "explain_key": "r_controlled"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_silent_e_vowel_team_0007",
+          "tier": 3,
+          "stem": "baseball",
+          "choices": [
+            "bedtime",
+            "cookie",
+            "sister"
+          ],
+          "answer_index": 0,
+          "explain_key": "silent_e"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_silent_e_vowel_team_0008",
+          "tier": 3,
+          "stem": "before",
+          "choices": [
+            "bedtime",
+            "cookie",
+            "sister"
+          ],
+          "answer_index": 2,
+          "explain_key": "r_controlled"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {},
+  "distractor_rules": {
+    "roots": [
+      "Always use exactly these choices in this order: bedtime, cookie, sister.",
+      "bedtime means silent e and answer index 0. cookie means vowel team and answer index 1. sister means r-controlled and answer index 2.",
+      "The stem is exactly one two-syllable word. Never use bedtime, cookie, or sister as the stem.",
+      "Silent e is a vowel, then a consonant, then e. A vowel team includes ai, ay, ea, ee, ie, oa, ow, oo, ou, oi, oy, au, aw, ew, and igh. R-controlled is ar, er, ir, or, ur, or ore.",
+      "Each stem has only one of those patterns. The e in ore is not silent e. A consonant plus le is not silent e.",
+      "Never use a word that mixes two patterns, such as teacher, outside, notebook, birthday, flower, or weather.",
+      "Do not use a stem that shares a topic with one anchor: no family words, no food words, and no bed, sleep, or night words.",
+      "Every stem has exactly two syllables. Do not use a one-syllable word or a three-syllable word.",
+      "Tier 3 stems should look like the wrong anchor at first, such as a hidden silent e or a final e that is really ore.",
+      "Stems and choices are whole words only. No sound symbols, no brand names, and no real person names.",
+      "Do not reuse a gold stem. Each new item needs its own two-syllable word."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "phoneme",
+    "schwa",
+    "\\.mp3",
+    "\\bipa\\b",
+    "\\bdavid\\b",
+    "\\bjay\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Easy two-syllable words whose pattern is obvious next to the anchor: inside with bedtime, looking with cookie, and winter with sister.",
+    "2": "The pattern is true but not a copy of the anchor spelling. Use tadpole with bedtime, rainbow with cookie, and garden with sister.",
+    "3": "Near misses. baseball hides silent e in the first part and still matches bedtime. before ends in e but ore is r-controlled, so it matches sister. heavy and ready still match cookie."
+  },
+  "miss_explain": {
+    "silent_e": {
+      "en": "Silent e makes the vowel say its name. It may be at the end or inside the word. Match bedtime.",
+      "ko": "묵음 e는 모음이 이름을 말하게 합니다. 끝이나 안에 있을 수 있습니다. bedtime을 누르세요."
+    },
+    "vowel_team": {
+      "en": "Two vowels side by side make one sound, even if they are not oo. Match cookie.",
+      "ko": "나란히 있는 모음은 oo가 아니어도 한 소리입니다. cookie를 누르세요."
+    },
+    "r_controlled": {
+      "en": "If r follows the vowel, match sister. A final e can still belong to that r spelling.",
+      "ko": "모음 뒤에 r이 있으면 sister와 같습니다. 끝의 e도 그 r 철자일 수 있습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Read two-syllable words: silent e, vowel team, r-controlled"
+    ],
+    "no_ixl_text": true
+  }
+}

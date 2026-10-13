@@ -1,0 +1,237 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_sentence_with_the_correct_close",
+  "family_title_en": "Complete the sentence with the correct closed vowel exception word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_sentence_with_the_correct_close",
+      "ix_title": "Complete the sentence with the correct closed vowel exception word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word completes the sentence?",
+        "ko": "어느 낱말이 문장을 완성하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the closed vowel exception word that fits.",
+        "ko": "알맞은 닫힌 모음 예외 낱말을 누르세요."
+      },
+      "choice_rule": "Use four different lowercase whole words. Mark the missing word with a single hyphen, and keep the stem at ten words or fewer. The correct word is one closed vowel exception from the old, olt, ost, ind, or ild patterns: old, cold, gold, hold, fold, told, sold, bold, bolt, colt, most, post, host, find, kind, mind, blind, child, wild, or mild. Exactly one choice may finish the sentence. Other stem words must be in the roots word list or allowed_extra_words. Use <NAME> instead of a real name. Do not add pictures or audio.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "blind",
+        "bold",
+        "bolt",
+        "colt",
+        "host",
+        "mild",
+        "mind",
+        "sold",
+        "wild"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_close_0001",
+          "tier": 1,
+          "stem": "The night air is very -.",
+          "choices": [
+            "find",
+            "child",
+            "post",
+            "cold"
+          ],
+          "answer_index": 3,
+          "explain_key": "old_long_o"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_close_0002",
+          "tier": 1,
+          "stem": "The little - has a pet dog.",
+          "choices": [
+            "child",
+            "gold",
+            "most",
+            "fold"
+          ],
+          "answer_index": 0,
+          "explain_key": "ild_long_i"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_close_0003",
+          "tier": 1,
+          "stem": "I will - my lost sock.",
+          "choices": [
+            "cold",
+            "gold",
+            "find",
+            "post"
+          ],
+          "answer_index": 2,
+          "explain_key": "ind_long_i"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_close_0004",
+          "tier": 2,
+          "stem": "Dad dug up - in the sand.",
+          "choices": [
+            "cold",
+            "gold",
+            "hold",
+            "fold"
+          ],
+          "answer_index": 1,
+          "explain_key": "old_long_o"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_close_0005",
+          "tier": 2,
+          "stem": "Please - my hand on the bus.",
+          "choices": [
+            "hold",
+            "fold",
+            "told",
+            "gold"
+          ],
+          "answer_index": 0,
+          "explain_key": "old_long_o"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_close_0006",
+          "tier": 2,
+          "stem": "She was - to her friend at school.",
+          "choices": [
+            "find",
+            "gold",
+            "most",
+            "kind"
+          ],
+          "answer_index": 3,
+          "explain_key": "ind_long_i"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_close_0007",
+          "tier": 3,
+          "stem": "I like the red fruit - of all.",
+          "choices": [
+            "post",
+            "cost",
+            "most",
+            "lost"
+          ],
+          "answer_index": 2,
+          "explain_key": "ost_long_o"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_the_correct_close_0008",
+          "tier": 3,
+          "stem": "<NAME> - us a funny story before bedtime today.",
+          "choices": [
+            "fold",
+            "told",
+            "hold",
+            "old"
+          ],
+          "answer_index": 1,
+          "explain_key": "old_long_o",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The correct choice is one closed vowel exception from the old, olt, ost, ind, or ild pattern.",
+      "Give four lowercase whole words, and make sure only one choice completes the sentence.",
+      "Tier 1 distractors are exception words from a different pattern that clearly do not fit.",
+      "Tier 2 distractors are other exception words that almost fit the meaning but do not.",
+      "Tier 3 distractors are near spellings, such as most beside post, or hold beside fold and told.",
+      "Cost and lost may appear beside an ost word as look-alikes, but they are never the correct answer.",
+      "Do not use wind as a correct answer. Do not use misspellings, brands, or real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\bexception\\b",
+    "\\bsyllable\\b",
+    "\\bvowel\\b",
+    "\\bsound\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of about six words on a familiar kid topic. The answer is an easy word such as cold, find, or child, and the other choices clearly do not fit.",
+    "2": "Grade 2 stems of about seven or eight words. The answer is a closed vowel exception such as gold, hold, or kind, with other exception words as close distractors.",
+    "3": "Near-miss choices such as most, post, cost, and lost, or told, hold, fold, and old. Stems can run to nine words and still have only one word that fits."
+  },
+  "miss_explain": {
+    "old_long_o": {
+      "en": "Cold, gold, hold, fold, told, and old end in old. The letter o says its long name.",
+      "ko": "cold, gold, hold, fold, told, old처럼 old로 끝나면 글자 o는 자기 이름을 말합니다."
+    },
+    "ild_long_i": {
+      "en": "Child, wild, and mild end in ild. The letter i says its long name.",
+      "ko": "child, wild, mild는 ild로 끝납니다. 글자 i는 자기 이름을 말합니다."
+    },
+    "ind_long_i": {
+      "en": "Find, kind, and mind end in ind. The letter i says its long name.",
+      "ko": "find, kind, mind는 ind로 끝납니다. 글자 i는 자기 이름을 말합니다."
+    },
+    "ost_long_o": {
+      "en": "Most, post, and host end in ost. The letter o says its long name.",
+      "ko": "most, post, host는 ost로 끝납니다. 글자 o는 자기 이름을 말합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the sentence with the correct closed vowel exception word"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_combine_sentences_predicates",
+  "family_title_en": "Combine sentences: predicates",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_combine_sentences_predicates",
+      "ix_title": "Combine sentences: predicates",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence joins both actions?",
+        "ko": "두 동작을 이은 문장은 어느 것인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that puts both actions together.",
+        "ko": "두 동작을 함께 넣은 문장을 누르세요."
+      },
+      "choice_rule": "Four full sentences. Exactly one keeps one shared who and joins both predicates with and. The other three move and, drop a verb, or keep two subjects.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "jumped",
+        "played",
+        "walked",
+        "washed",
+        "danced",
+        "hopped",
+        "likes",
+        "eats",
+        "sits",
+        "runs",
+        "kicked",
+        "picked"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_combine_sentences_predicates_0001",
+          "tier": 1,
+          "stem": "The dog barked. The dog ran.",
+          "choices": [
+            "The dog barked and ran.",
+            "The dog and barked ran.",
+            "Barked and ran the dog.",
+            "The barked dog and ran."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_and",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_predicates_0002",
+          "tier": 1,
+          "stem": "The cat sat. The cat hid.",
+          "choices": [
+            "The cat sat and hid.",
+            "The cat and sat hid.",
+            "Sat and hid the cat.",
+            "The sat cat and hid."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_and",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_predicates_0003",
+          "tier": 1,
+          "stem": "The bird sang. The bird flew.",
+          "choices": [
+            "The bird sang and flew.",
+            "The bird and sang flew.",
+            "Sang and flew the bird.",
+            "The sang bird and flew."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_and",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_predicates_0004",
+          "tier": 2,
+          "stem": "<NAME> baked bread. <NAME> made soup.",
+          "choices": [
+            "<NAME> baked bread and made soup.",
+            "<NAME> baked and bread made soup.",
+            "<NAME> and baked bread made soup.",
+            "<NAME> baked bread and soup."
+          ],
+          "answer_index": 0,
+          "explain_key": "keep_verbs",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bread"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_predicates_0005",
+          "tier": 2,
+          "stem": "My little sister smiled. My little sister waved.",
+          "choices": [
+            "My little sister smiled and waved.",
+            "My little sister smiled and my little sister waved.",
+            "My little sister and smiled waved.",
+            "My little smiled sister and waved."
+          ],
+          "answer_index": 0,
+          "explain_key": "same_who",
+          "media": [
+            {
+              "lemma": "sister"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_predicates_0006",
+          "tier": 2,
+          "stem": "The puppy packed lunch. The puppy hid.",
+          "choices": [
+            "The puppy packed lunch and hid.",
+            "The puppy packed and lunch hid.",
+            "The puppy and packed lunch hid.",
+            "The packed puppy lunch and hid."
+          ],
+          "answer_index": 0,
+          "explain_key": "and_place",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_predicates_0007",
+          "tier": 3,
+          "stem": "The brown horse ran. The brown horse ate.",
+          "choices": [
+            "The brown horse ran and ate.",
+            "The horse ran and the horse ate.",
+            "The brown horse and ran ate.",
+            "The brown and horse ran ate."
+          ],
+          "answer_index": 0,
+          "explain_key": "same_who",
+          "media": [
+            {
+              "lemma": "horse"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_predicates_0008",
+          "tier": 3,
+          "stem": "<NAME> read books. <NAME> drew pictures.",
+          "choices": [
+            "<NAME> read books and drew pictures.",
+            "<NAME> read books and pictures.",
+            "<NAME> read and books drew pictures.",
+            "<NAME> read books and <NAME> drew pictures."
+          ],
+          "answer_index": 0,
+          "explain_key": "keep_verbs",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every stem is two short statements with the same who and two different actions. Never mix two different people in one stem.",
+      "The correct choice keeps that who once and joins both action phrases with and.",
+      "Wrong choices must stay readable kid sentences. Do not invent nonsense letter strings.",
+      "Tier 1 distractors put and in the wrong spot or scramble the word order.",
+      "Tier 2 adds a dropped-verb choice or a choice that joins things instead of actions.",
+      "Tier 3 uses a near miss that keeps both whos, such as The horse ran and the horse ate.",
+      "Use <NAME> from names.txt. Never write a real name.",
+      "Stay in kid world: school, home, food, pets, play, family, weather. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpredicate",
+    "\\bsubject",
+    "\\bclause",
+    "\\bcompound",
+    "\\bsentence",
+    "\\bcombine"
+  ],
+  "tier_rules": {
+    "1": "Two short same-who statements. The right choice joins both actions with and. Distractors move and or scramble the words.",
+    "2": "Longer predicates or two-syllable words. One wrong choice drops a verb or joins things instead of actions.",
+    "3": "Near misses that keep both whos, or put and between the wrong words."
+  },
+  "miss_explain": {
+    "join_and": {
+      "en": "Keep the same who. Put and between the two actions.",
+      "ko": "같은 사람을 유지하고, 두 동작 사이에 and를 넣으세요."
+    },
+    "keep_verbs": {
+      "en": "Keep both action words when you join the sentences.",
+      "ko": "문장을 이을 때 두 동작 단어를 모두 남기세요."
+    },
+    "and_place": {
+      "en": "Put and between the two actions, not between other words.",
+      "ko": "and는 다른 말 사이가 아니라 두 동작 사이에 넣으세요."
+    },
+    "same_who": {
+      "en": "Do not say the who twice. Join only the two actions.",
+      "ko": "사람은 한 번만 쓰고, 두 동작만 이으세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Combine sentences: predicates"
+    ],
+    "no_ixl_text": true
+  }
+}

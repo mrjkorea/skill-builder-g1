@@ -1,0 +1,367 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_the_correct_r_control",
+  "family_title_en": "Complete the word with the correct r-controlled vowel: ar, er, ir, or, ur",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_the_correct_r_control",
+      "ix_title": "Complete the word with the correct r-controlled vowel: ar, er, ir, or, ur",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which two letters complete the word?",
+        "ko": "어떤 두 글자가 단어를 완성하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the letter pair that fits.",
+        "ko": "알맞은 글자 쌍을 누르세요."
+      },
+      "choice_rule": "Each item has four unique choices from ar, er, ir, or, and ur, including the pair that completes the gapped word, plus answer_index. The stem is one original kid sentence of at most ten words and does not repeat the prompt. Exactly one token contains a single hyphen; that token is copied from allowed_extra_words, and the hyphen stands for the missing pair. Every other word comes from the roots word list, or is <NAME>. Only one pair may make a word that fits the sentence. Do not spell the target in full, and do not put the pairs ar, er, ir, or, and ur in the other words. When the completed word is a noun, add media with that lemma only. Never describe a picture and never invent audio.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "aft-",
+        "b-d",
+        "b-ked",
+        "b-ks",
+        "b-n",
+        "b-thday",
+        "bef-e",
+        "bett-",
+        "bigg-",
+        "broth-",
+        "c-",
+        "c-cle",
+        "c-d",
+        "c-ds",
+        "c-n",
+        "c-t",
+        "d-ing",
+        "d-t",
+        "dinn-",
+        "ev-",
+        "f-",
+        "f-m",
+        "f-n",
+        "f-st",
+        "fath-",
+        "flow-",
+        "g-den",
+        "g-l",
+        "g-ls",
+        "h-",
+        "h-d",
+        "h-n",
+        "h-se",
+        "h-t",
+        "j-",
+        "lat-",
+        "lett-",
+        "m-ch",
+        "m-e",
+        "m-k",
+        "m-ning",
+        "moth-",
+        "n-se",
+        "n-th",
+        "nev-",
+        "numb-",
+        "oth-",
+        "ov-",
+        "p-k",
+        "p-ple",
+        "p-son",
+        "p-ty",
+        "pap-",
+        "ret-n",
+        "riv-",
+        "sat-day",
+        "sh-k",
+        "sh-p",
+        "sist-",
+        "socc-",
+        "sp-ts",
+        "st-",
+        "st-e",
+        "st-t",
+        "st-y",
+        "summ-",
+        "t-n",
+        "t-ned",
+        "t-tle",
+        "teach-",
+        "th-sday",
+        "thund-",
+        "und-",
+        "w-d",
+        "w-k",
+        "w-ld",
+        "w-m",
+        "wat-",
+        "weath-",
+        "wint-",
+        "y-d"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0001",
+          "tier": 1,
+          "stem": "My red c-t is big.",
+          "choices": [
+            "er",
+            "ar",
+            "ir",
+            "or"
+          ],
+          "answer_index": 1,
+          "explain_key": "ar_vowel",
+          "media": [
+            {
+              "lemma": "cart"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0002",
+          "tier": 1,
+          "stem": "A b-d sat in the tree.",
+          "choices": [
+            "er",
+            "ur",
+            "ir",
+            "or"
+          ],
+          "answer_index": 2,
+          "explain_key": "ir_vowel",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0003",
+          "tier": 1,
+          "stem": "We ate c-n at lunch.",
+          "choices": [
+            "ur",
+            "ar",
+            "er",
+            "or"
+          ],
+          "answer_index": 3,
+          "explain_key": "or_vowel",
+          "media": [
+            {
+              "lemma": "corn"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0004",
+          "tier": 2,
+          "stem": "My sist- has a little cat.",
+          "choices": [
+            "ir",
+            "ur",
+            "er",
+            "ar"
+          ],
+          "answer_index": 2,
+          "explain_key": "er_vowel",
+          "media": [
+            {
+              "lemma": "sister"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0005",
+          "tier": 2,
+          "stem": "A green t-tle sat on a rock.",
+          "choices": [
+            "er",
+            "ur",
+            "ir",
+            "or"
+          ],
+          "answer_index": 1,
+          "explain_key": "ur_vowel",
+          "media": [
+            {
+              "lemma": "turtle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0006",
+          "tier": 2,
+          "stem": "We play in the m-ning at home.",
+          "choices": [
+            "ar",
+            "er",
+            "ir",
+            "or"
+          ],
+          "answer_index": 3,
+          "explain_key": "or_vowel",
+          "media": [
+            {
+              "lemma": "morning"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0007",
+          "tier": 3,
+          "stem": "<NAME> saw the cow on the f-m.",
+          "choices": [
+            "or",
+            "ir",
+            "ar",
+            "er"
+          ],
+          "answer_index": 2,
+          "explain_key": "ar_vowel",
+          "media": [
+            {
+              "lemma": "farm"
+            }
+          ],
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0008",
+          "tier": 3,
+          "stem": "His dog dug in the wet d-t.",
+          "choices": [
+            "ir",
+            "ar",
+            "er",
+            "ur"
+          ],
+          "answer_index": 0,
+          "explain_key": "ir_vowel",
+          "media": [
+            {
+              "lemma": "dirt"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use exactly four different pairs from ar, er, ir, or, and ur, and always include the one correct pair.",
+      "A wrong pair must not spell another word that also fits the sentence.",
+      "On tier 1 every wrong pair spells nonsense, not a real word.",
+      "On tier 2 include one trap from er, ir, and ur, or a look-alike such as ar beside or.",
+      "On tier 3 include a near miss that spells a different real word the sentence rules out.",
+      "Choices are letter pairs only. Never use a full word, slash marks, or a held clip.",
+      "Spread answer_index across 0, 1, 2, and 3 so the correct pair is not always in the same slot.",
+      "Copy the gap token from allowed_extra_words. Do not invent a new hyphen token.",
+      "Use all five pairs as correct answers across the pool, not just one pattern.",
+      "Use <NAME> for a person and set swap_slots NAME to names.txt. Never write a real name.",
+      "Stay in the kid world of school, home, food, pets, play, family, and weather. No brands.",
+      "Grade 2 grammar is fine, including irregular past such as sat, ate, saw, and dug, plus pronouns and adjectives."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "\\bipa\\b",
+    "\\bdigraph\\b",
+    "\\bpicture\\b",
+    "\\bphoto\\b",
+    "\\bmp3\\b",
+    "\\bsound\\b",
+    "/[a-z]{1,4}/",
+    "[æɑɔɪʊʌɛəʃθðŋ]",
+    "\\blego\\b",
+    "\\bdisney\\b",
+    "\\bnike\\b",
+    "\\bpokemon\\b",
+    "\\bminecraft\\b",
+    "\\broblox\\b",
+    "\\byoutube\\b"
+  ],
+  "tier_rules": {
+    "1": "Five or six words. A very common word such as cart, bird, or corn. Only one letter pair makes a real word, so every wrong pair is nonsense.",
+    "2": "Six to eight words. Use a two-syllable word such as sister, turtle, or morning. Include one trap from er, ir, and ur, or a look-alike such as ar next to or.",
+    "3": "Seven to ten words. <NAME> may be used. At least one wrong pair spells another real word, such as form or firm beside farm, but the sentence fits only one."
+  },
+  "miss_explain": {
+    "ar_vowel": {
+      "en": "Use ar, as in cart and farm. Another pair makes a different word or no word.",
+      "ko": "cart과 farm처럼 ar을 쓰세요. 다른 쌍은 다른 단어를 만들거나 단어가 아닙니다."
+    },
+    "er_vowel": {
+      "en": "Use er, as in sister and water. ir and ur are easy to mix up, but they spell other words.",
+      "ko": "sister와 water처럼 er을 쓰세요. ir과 ur은 헷갈리기 쉬워도 다른 단어를 만듭니다."
+    },
+    "ir_vowel": {
+      "en": "Use ir, as in bird and dirt. Another pair may be easy to mix up, or it may spell a different word.",
+      "ko": "bird과 dirt처럼 ir을 쓰세요. 다른 쌍은 헷갈리거나 다른 단어를 만듭니다."
+    },
+    "or_vowel": {
+      "en": "Use or, as in corn and morning. A look-alike pair such as ar spells a different word.",
+      "ko": "corn과 morning처럼 or을 쓰세요. ar 같은 비슷한 쌍은 다른 단어를 만듭니다."
+    },
+    "ur_vowel": {
+      "en": "Use ur, as in turtle and turn. er and ir are easy to mix up, but they spell other words.",
+      "ko": "turtle과 turn처럼 ur을 쓰세요. er과 ir은 헷갈리기 쉬워도 다른 단어를 만듭니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with the correct r-controlled vowel: ar, er, ir, or, ur"
+    ],
+    "no_ixl_text": true
+  }
+}

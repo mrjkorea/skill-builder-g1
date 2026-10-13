@@ -1,0 +1,2307 @@
+[
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0001",
+    "tier": 1,
+    "stem": "I eat breakfast.",
+    "choices": [
+      "I will eat breakfast.",
+      "I eat breakfast.",
+      "I ate breakfast.",
+      "I eating breakfast."
+    ],
+    "answer_index": 0,
+    "explain_key": "add_will",
+    "media": [
+      {
+        "lemma": "breakfast"
+      }
+    ],
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0002",
+    "tier": 1,
+    "stem": "We play soccer.",
+    "choices": [
+      "We play soccer.",
+      "We will play soccer.",
+      "We played soccer.",
+      "We playing soccer."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "media": [
+      {
+        "lemma": "soccer"
+      }
+    ],
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0003",
+    "tier": 1,
+    "stem": "They bake cookies.",
+    "choices": [
+      "They bake cookies.",
+      "They baked cookies.",
+      "They will bake cookies.",
+      "They baking cookies."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_past",
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ],
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0004",
+    "tier": 2,
+    "stem": "She ran home.",
+    "choices": [
+      "She will run home.",
+      "She will ran home.",
+      "She ran home.",
+      "She runs home."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ],
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0005",
+    "tier": 2,
+    "stem": "<NAME> went to school.",
+    "choices": [
+      "<NAME> went to school.",
+      "<NAME> will go to school.",
+      "<NAME> will went to school.",
+      "<NAME> goes to school."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0006",
+    "tier": 2,
+    "stem": "I saw a frog.",
+    "choices": [
+      "I saw a frog.",
+      "I see a frog.",
+      "I will see a frog.",
+      "I will saw a frog."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0007",
+    "tier": 3,
+    "stem": "<NAME> has a red kite.",
+    "choices": [
+      "<NAME> will have a red kite.",
+      "<NAME> will has a red kite.",
+      "<NAME> has a red kite.",
+      "<NAME> had a red kite."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ],
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0008",
+    "tier": 3,
+    "stem": "We were at the park.",
+    "choices": [
+      "We were at the park.",
+      "We are at the park.",
+      "We will were at the park.",
+      "We will be at the park."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_past",
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ],
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0009",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I drink milk.",
+    "choices": [
+      "I will drink milk.",
+      "I drink milk.",
+      "I drank milk.",
+      "I drinking milk."
+    ],
+    "answer_index": 0,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0010",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We jump rope.",
+    "choices": [
+      "We jump rope.",
+      "We jumped rope.",
+      "We will jump rope.",
+      "We jumping rope."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0011",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They wash pots.",
+    "choices": [
+      "They wash pots.",
+      "They washed pots.",
+      "They washing pots.",
+      "They will wash pots."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0012",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She reads books.",
+    "choices": [
+      "She reads books.",
+      "She read books.",
+      "She will read books.",
+      "She reading books."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0013",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He runs fast.",
+    "choices": [
+      "He runs fast.",
+      "He ran fast.",
+      "He will run fast.",
+      "He running fast."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0014",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I help Mom.",
+    "choices": [
+      "I help Mom.",
+      "I helped Mom.",
+      "I will help Mom.",
+      "I helping Mom."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0015",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We make lunch.",
+    "choices": [
+      "We will make lunch.",
+      "We make lunch.",
+      "We made lunch.",
+      "We making lunch."
+    ],
+    "answer_index": 0,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0016",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We cook soup.",
+    "choices": [
+      "We cook soup.",
+      "We cooked soup.",
+      "We will cook soup.",
+      "We cooking soup."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0017",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I walk home.",
+    "choices": [
+      "I walk home.",
+      "I walked home.",
+      "I walking home.",
+      "I will walk home."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0018",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We eat lunch.",
+    "choices": [
+      "We eat lunch.",
+      "We ate lunch.",
+      "We will eat lunch.",
+      "We eating lunch."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0019",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They play games.",
+    "choices": [
+      "They play games.",
+      "They played games.",
+      "They will play games.",
+      "They playing games."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0020",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She bakes bread.",
+    "choices": [
+      "She bakes bread.",
+      "She baked bread.",
+      "She baking bread.",
+      "She will bake bread."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0021",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I wash my cup.",
+    "choices": [
+      "I wash my cup.",
+      "I washed my cup.",
+      "I will wash my cup.",
+      "I washing my cup."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0022",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We read stories.",
+    "choices": [
+      "We read stories.",
+      "We will read stories.",
+      "We reading stories.",
+      "We reads stories."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0023",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He drinks juice.",
+    "choices": [
+      "He drinks juice.",
+      "He drank juice.",
+      "He will drink juice.",
+      "He drinking juice."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0024",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I cook dinner.",
+    "choices": [
+      "I cook dinner.",
+      "I cooked dinner.",
+      "I cooking dinner.",
+      "I will cook dinner."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0025",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They jump high.",
+    "choices": [
+      "They jump high.",
+      "They jumped high.",
+      "They will jump high.",
+      "They jumping high."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0026",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We help Dad.",
+    "choices": [
+      "We help Dad.",
+      "We helped Dad.",
+      "We will help Dad.",
+      "We helping Dad."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0027",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She eats apples.",
+    "choices": [
+      "She eats apples.",
+      "She ate apples.",
+      "She eating apples.",
+      "She will eat apples."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0028",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I play ball.",
+    "choices": [
+      "I play ball.",
+      "I played ball.",
+      "I will play ball.",
+      "I playing ball."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0029",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We run races.",
+    "choices": [
+      "We run races.",
+      "We ran races.",
+      "We will run races.",
+      "We running races."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0030",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They bake cakes.",
+    "choices": [
+      "They bake cakes.",
+      "They baked cakes.",
+      "They will bake cakes.",
+      "They baking cakes."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0031",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He walks slow.",
+    "choices": [
+      "He walks slow.",
+      "He walked slow.",
+      "He walking slow.",
+      "He will walk slow."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0032",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I open gifts.",
+    "choices": [
+      "I open gifts.",
+      "I opened gifts.",
+      "I will open gifts.",
+      "I opening gifts."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0033",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We drink tea.",
+    "choices": [
+      "We drink tea.",
+      "We drank tea.",
+      "We will drink tea.",
+      "We drinking tea."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tea"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0034",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They make beds.",
+    "choices": [
+      "They make beds.",
+      "They made beds.",
+      "They making beds.",
+      "They will make beds."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0035",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I jump far.",
+    "choices": [
+      "I jump far.",
+      "I jumped far.",
+      "I will jump far.",
+      "I jumping far."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0036",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I went outside.",
+    "choices": [
+      "I will go outside.",
+      "I will went outside.",
+      "I went outside.",
+      "I go outside."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0037",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She took a nap.",
+    "choices": [
+      "She took a nap.",
+      "She will take a nap.",
+      "She will took a nap.",
+      "She takes a nap."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nap"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0038",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We made cookies.",
+    "choices": [
+      "We made cookies.",
+      "We make cookies.",
+      "We will make cookies.",
+      "We will made cookies."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0039",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He drew a cat.",
+    "choices": [
+      "He drew a cat.",
+      "He will draw a cat.",
+      "He draws a cat.",
+      "He will drew a cat."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0040",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They sang loud.",
+    "choices": [
+      "They sang loud.",
+      "They sing loud.",
+      "They will sing loud.",
+      "They will sang loud."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0041",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I ate my snack.",
+    "choices": [
+      "I ate my snack.",
+      "I eat my snack.",
+      "I will eat my snack.",
+      "I will ate my snack."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0042",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She gave a hug.",
+    "choices": [
+      "She gave a hug.",
+      "She will give a hug.",
+      "She gives a hug.",
+      "She will gave a hug."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0043",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We sat on grass.",
+    "choices": [
+      "We sat on grass.",
+      "We sit on grass.",
+      "We will sit on grass.",
+      "We will sat on grass."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grass"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0044",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He came home late.",
+    "choices": [
+      "He came home late.",
+      "He will come home late.",
+      "He comes home late.",
+      "He will came home late."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0045",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They hid the toy.",
+    "choices": [
+      "They hid the toy.",
+      "They hide the toy.",
+      "They will hide the toy.",
+      "They will hid the toy."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0046",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I told a story.",
+    "choices": [
+      "I told a story.",
+      "I tell a story.",
+      "I will tell a story.",
+      "I will told a story."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0047",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She wore a hat.",
+    "choices": [
+      "She wore a hat.",
+      "She will wear a hat.",
+      "She wears a hat.",
+      "She will wore a hat."
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0048",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We found a bug.",
+    "choices": [
+      "We found a bug.",
+      "We find a bug.",
+      "We will find a bug.",
+      "We will found a bug."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0049",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He broke a cup.",
+    "choices": [
+      "He broke a cup.",
+      "He will break a cup.",
+      "He breaks a cup.",
+      "He will broke a cup."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0050",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They flew a kite.",
+    "choices": [
+      "They flew a kite.",
+      "They fly a kite.",
+      "They will fly a kite.",
+      "They will flew a kite."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0051",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I kept my toy.",
+    "choices": [
+      "I kept my toy.",
+      "I keep my toy.",
+      "I will keep my toy.",
+      "I will kept my toy."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0052",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She gave a card.",
+    "choices": [
+      "She gave a card.",
+      "She will give a card.",
+      "She gives a card.",
+      "She will gave a card."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0053",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We built a fort.",
+    "choices": [
+      "We built a fort.",
+      "We build a fort.",
+      "We will build a fort.",
+      "We will built a fort."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0054",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He hid a fish.",
+    "choices": [
+      "He hid a fish.",
+      "He will hide a fish.",
+      "He hides a fish.",
+      "He will hid a fish."
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0055",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They wrote a note.",
+    "choices": [
+      "They wrote a note.",
+      "They write a note.",
+      "They will write a note.",
+      "They will wrote a note."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0056",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I got a gift.",
+    "choices": [
+      "I got a gift.",
+      "I get a gift.",
+      "I will get a gift.",
+      "I will got a gift."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0057",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She bit an apple.",
+    "choices": [
+      "She bit an apple.",
+      "She will bite an apple.",
+      "She bites an apple.",
+      "She will bit an apple."
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0058",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We chose a book.",
+    "choices": [
+      "We chose a book.",
+      "We choose a book.",
+      "We will choose a book.",
+      "We will chose a book."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0059",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He cut a tree.",
+    "choices": [
+      "He cut a tree.",
+      "He will cut a tree.",
+      "He cuts a tree.",
+      "He will cuts a tree."
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0060",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They fell in mud.",
+    "choices": [
+      "They fell in mud.",
+      "They fall in mud.",
+      "They will fall in mud.",
+      "They will fell in mud."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0061",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I left my bag.",
+    "choices": [
+      "I left my bag.",
+      "I leave my bag.",
+      "I will leave my bag.",
+      "I will left my bag."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0062",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We sang a song.",
+    "choices": [
+      "We sang a song.",
+      "We sing a song.",
+      "We will sing a song.",
+      "We will sang a song."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0063",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He fell on grass.",
+    "choices": [
+      "He fell on grass.",
+      "He falls on grass.",
+      "He will fall on grass.",
+      "He will fell on grass."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grass"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0064",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I fell off bed.",
+    "choices": [
+      "I fell off bed.",
+      "I fall off bed.",
+      "I will fall off bed.",
+      "I will fell off bed."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0065",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They cut the cake.",
+    "choices": [
+      "They cut the cake.",
+      "They will cut the cake.",
+      "They cuts the cake.",
+      "They will cuts the cake."
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0066",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I read a book.",
+    "choices": [
+      "I read a book.",
+      "I will read a book.",
+      "I reads a book.",
+      "I will reads a book."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0067",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She won the game.",
+    "choices": [
+      "She won the game.",
+      "She win the game.",
+      "She will win the game.",
+      "She will won the game."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0068",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> ran fast.",
+    "choices": [
+      "<NAME> will run fast.",
+      "<NAME> will ran fast.",
+      "<NAME> ran fast.",
+      "<NAME> runs fast."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0069",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> ate lunch.",
+    "choices": [
+      "<NAME> ate lunch.",
+      "<NAME> will eat lunch.",
+      "<NAME> will ate lunch.",
+      "<NAME> eats lunch."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0070",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> saw a bird.",
+    "choices": [
+      "<NAME> saw a bird.",
+      "<NAME> see a bird.",
+      "<NAME> will see a bird.",
+      "<NAME> will saw a bird."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0071",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> made a card.",
+    "choices": [
+      "<NAME> made a card.",
+      "<NAME> make a card.",
+      "<NAME> will make a card.",
+      "<NAME> will made a card."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0072",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> drew a star.",
+    "choices": [
+      "<NAME> drew a star.",
+      "<NAME> will draw a star.",
+      "<NAME> draws a star.",
+      "<NAME> will drew a star."
+    ],
+    "answer_index": 1,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0073",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I am happy.",
+    "choices": [
+      "I will be happy.",
+      "I will am happy.",
+      "I am happy.",
+      "I was happy."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0074",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We are ready.",
+    "choices": [
+      "We are ready.",
+      "We were ready.",
+      "We will be ready.",
+      "We will are ready."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0075",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They are tall.",
+    "choices": [
+      "They will be tall.",
+      "They will are tall.",
+      "They are tall.",
+      "They were tall."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0076",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She is kind.",
+    "choices": [
+      "She is kind.",
+      "She was kind.",
+      "She will is kind.",
+      "She will be kind."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0077",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He is six.",
+    "choices": [
+      "He is six.",
+      "He was six.",
+      "He will be six.",
+      "He will is six."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0078",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I have a dog.",
+    "choices": [
+      "I have a dog.",
+      "I had a dog.",
+      "I will have a dog.",
+      "I will has a dog."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0079",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We have fun.",
+    "choices": [
+      "We will have fun.",
+      "We will has fun.",
+      "We have fun.",
+      "We had fun."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0080",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They have cats.",
+    "choices": [
+      "They have cats.",
+      "They had cats.",
+      "They will has cats.",
+      "They will have cats."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0081",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She has a hat.",
+    "choices": [
+      "She has a hat.",
+      "She had a hat.",
+      "She will have a hat.",
+      "She will has a hat."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0082",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He has a bike.",
+    "choices": [
+      "He will have a bike.",
+      "He will has a bike.",
+      "He has a bike.",
+      "He had a bike."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0083",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You are nice.",
+    "choices": [
+      "You are nice.",
+      "You were nice.",
+      "You will are nice.",
+      "You will be nice."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0084",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We were tired.",
+    "choices": [
+      "We were tired.",
+      "We are tired.",
+      "We will were tired.",
+      "We will be tired."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0085",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They were loud.",
+    "choices": [
+      "They will be loud.",
+      "They will were loud.",
+      "They were loud.",
+      "They are loud."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0086",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She was sick.",
+    "choices": [
+      "She was sick.",
+      "She is sick.",
+      "She will was sick.",
+      "She will be sick."
+    ],
+    "answer_index": 3,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0087",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He was late.",
+    "choices": [
+      "He was late.",
+      "He is late.",
+      "He will be late.",
+      "He will was late."
+    ],
+    "answer_index": 2,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0088",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I am at home.",
+    "choices": [
+      "I am at home.",
+      "I was at home.",
+      "I will am at home.",
+      "I will be at home."
+    ],
+    "answer_index": 3,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0089",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We are at school.",
+    "choices": [
+      "We will be at school.",
+      "We will are at school.",
+      "We are at school.",
+      "We were at school."
+    ],
+    "answer_index": 0,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0090",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They are my pals.",
+    "choices": [
+      "They are my pals.",
+      "They were my pals.",
+      "They will are my pals.",
+      "They will be my pals."
+    ],
+    "answer_index": 3,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0091",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She is my friend.",
+    "choices": [
+      "She is my friend.",
+      "She was my friend.",
+      "She will be my friend.",
+      "She will is my friend."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0092",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He has red shoes.",
+    "choices": [
+      "He has red shoes.",
+      "He had red shoes.",
+      "He will has red shoes.",
+      "He will have red shoes."
+    ],
+    "answer_index": 3,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0093",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I have a kite.",
+    "choices": [
+      "I have a kite.",
+      "I had a kite.",
+      "I will has a kite.",
+      "I will have a kite."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0094",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We were on bus.",
+    "choices": [
+      "We were on bus.",
+      "We are on bus.",
+      "We will were on bus.",
+      "We will be on bus."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0095",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They are in class.",
+    "choices": [
+      "They will be in class.",
+      "They will are in class.",
+      "They are in class.",
+      "They were in class."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0096",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She has a puppy.",
+    "choices": [
+      "She has a puppy.",
+      "She had a puppy.",
+      "She will have a puppy.",
+      "She will has a puppy."
+    ],
+    "answer_index": 2,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0097",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> has a cat.",
+    "choices": [
+      "<NAME> will have a cat.",
+      "<NAME> will has a cat.",
+      "<NAME> has a cat.",
+      "<NAME> had a cat."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0098",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is at home.",
+    "choices": [
+      "<NAME> is at home.",
+      "<NAME> was at home.",
+      "<NAME> will is at home.",
+      "<NAME> will be at home."
+    ],
+    "answer_index": 3,
+    "explain_key": "keep_base",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0099",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> is here.",
+    "choices": [
+      "<NAME> is here.",
+      "<NAME> was here.",
+      "<NAME> will is here.",
+      "<NAME> will be here."
+    ],
+    "answer_index": 3,
+    "explain_key": "add_will",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_change_the_sentence_to_future_tense_0100",
+    "family_id": "fam_change_the_sentence_to_future_tense",
+    "skill_id": "roots_change_the_sentence_to_future_tense",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I was hungry.",
+    "choices": [
+      "I was hungry.",
+      "I am hungry.",
+      "I will was hungry.",
+      "I will be hungry."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

@@ -1,0 +1,274 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_words_with_final_consonant_patterns_ng",
+  "family_title_en": "Spell words with final consonant patterns: ng, nk",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_words_with_final_consonant_patterns_ng",
+      "ix_title": "Spell words with final consonant patterns: ng, nk",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어떤 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the correct spelling.",
+        "ko": "맞는 철자를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word spellings of one target word. Exactly one is correct and ends in ng or nk. Tier 1 wrong choices drop a letter or change one letter so the ending is not ng or nk. Tier 2 wrong choices swap ng with nk, spell nck, or double the final letter. Tier 3 wrong choices are near misses only, including a real word that swaps g with k, an extra letter, or nck. Never use IPA, a slash sound, or a bare phoneme.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bang",
+        "blank",
+        "blink",
+        "bunk",
+        "chunk",
+        "dunk",
+        "fang",
+        "honk",
+        "junk",
+        "lung",
+        "plank",
+        "rank",
+        "ring",
+        "rung",
+        "sank",
+        "shrink",
+        "sting",
+        "stink",
+        "sung",
+        "sunk",
+        "tank",
+        "trunk",
+        "wink",
+        "wing",
+        "yank"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_words_with_final_consonant_patterns_ng_0001",
+          "tier": 1,
+          "stem": "A bird does this with a song.",
+          "choices": [
+            "sin",
+            "sing",
+            "sig",
+            "sng"
+          ],
+          "answer_index": 1,
+          "explain_key": "ends_ng"
+        },
+        {
+          "item_id": "roots_spell_words_with_final_consonant_patterns_ng_0002",
+          "tier": 1,
+          "stem": "This color is like light red.",
+          "choices": [
+            "pin",
+            "pik",
+            "pink",
+            "pnk"
+          ],
+          "answer_index": 2,
+          "explain_key": "ends_nk"
+        },
+        {
+          "item_id": "roots_spell_words_with_final_consonant_patterns_ng_0003",
+          "tier": 1,
+          "stem": "This man has a gold crown.",
+          "choices": [
+            "kin",
+            "kig",
+            "kng",
+            "king"
+          ],
+          "answer_index": 3,
+          "explain_key": "ends_ng",
+          "media": [
+            {
+              "lemma": "king"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_final_consonant_patterns_ng_0004",
+          "tier": 2,
+          "stem": "Wash the dish in this at home.",
+          "choices": [
+            "sing",
+            "sinck",
+            "sink",
+            "sinkk"
+          ],
+          "answer_index": 2,
+          "explain_key": "ends_nk",
+          "media": [
+            {
+              "lemma": "sink"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_final_consonant_patterns_ng_0005",
+          "tier": 2,
+          "stem": "My dad can put coins in this place.",
+          "choices": [
+            "bang",
+            "banck",
+            "bankk",
+            "bank"
+          ],
+          "answer_index": 3,
+          "explain_key": "ends_nk",
+          "media": [
+            {
+              "lemma": "bank"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_final_consonant_patterns_ng_0006",
+          "tier": 2,
+          "stem": "We sing this together at school.",
+          "choices": [
+            "song",
+            "sonk",
+            "sonng",
+            "songk"
+          ],
+          "answer_index": 0,
+          "explain_key": "ends_ng"
+        },
+        {
+          "item_id": "roots_spell_words_with_final_consonant_patterns_ng_0007",
+          "tier": 3,
+          "stem": "We eat a hot breakfast early on this day.",
+          "choices": [
+            "mornink",
+            "morning",
+            "mornin",
+            "morningg"
+          ],
+          "answer_index": 1,
+          "explain_key": "ends_ng",
+          "media": [
+            {
+              "lemma": "morning"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_final_consonant_patterns_ng_0008",
+          "tier": 3,
+          "stem": "<NAME> will use the brain in class today.",
+          "choices": [
+            "thing",
+            "thinck",
+            "thinkk",
+            "think"
+          ],
+          "answer_index": 3,
+          "explain_key": "ends_nk",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four choices and exactly one correct spelling. The correct word ends in ng or nk.",
+      "Wrong choices are attempts at that same word, not a random list of other words.",
+      "Tier 1 wrong choices drop a letter or change one letter so the ending is not ng or nk.",
+      "Tier 2 wrong choices swap ng with nk, spell the ending nck, or double the last letter.",
+      "Tier 3 wrong choices stay one small change away, including a real word that only swaps g and k.",
+      "Do not put the correct spelling in the stem. The clue is home, school, food, pets, play, family, or weather.",
+      "Choices are whole spellings. Never use IPA, a slash sound, or a single phoneme.",
+      "No brand names and no real personal names. Use <NAME> when a stem needs a child."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bdigraph\\b",
+    "\\bphoneme\\b",
+    "\\bgrapheme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "ŋ",
+    "ə",
+    "ɪ",
+    "ˈ",
+    "\\/\\S+\\/",
+    "\\bdisney\\b",
+    "\\bnike\\b",
+    "\\blego\\b",
+    "\\bpokemon\\b",
+    "\\bminecraft\\b",
+    "\\broblox\\b"
+  ],
+  "tier_rules": {
+    "1": "Four to seven words. A common one-syllable word such as sing, king, or pink. Wrong choices are obvious missing or changed letters, not real ng or nk neighbors.",
+    "2": "Six to eight words. Wrong choices swap ng and nk, use nck, or double the final letter. The clue fits only one word.",
+    "3": "Eight to ten words. Use <NAME> or a two-syllable word such as morning. Every wrong choice is a near miss, and one of them swaps ng with nk."
+  },
+  "miss_explain": {
+    "ends_ng": {
+      "en": "This word ends with ng. Write n, then g. Do not write k or add an extra letter.",
+      "ko": "이 단어는 ng로 끝납니다. n 다음에 g를 쓰세요. k를 쓰거나 글자를 더하지 마세요."
+    },
+    "ends_nk": {
+      "en": "This word ends with nk. Write n, then k. Do not write g or add an extra letter.",
+      "ko": "이 단어는 nk로 끝납니다. n 다음에 k를 쓰세요. g를 쓰거나 글자를 더하지 마세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell words with final consonant patterns: ng, nk"
+    ],
+    "no_ixl_text": true
+  }
+}

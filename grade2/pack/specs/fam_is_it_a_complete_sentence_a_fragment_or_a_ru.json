@@ -1,0 +1,248 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_is_it_a_complete_sentence_a_fragment_or_a_ru",
+  "family_title_en": "Sentences, fragments, and run-ons",
+  "item_type": "sort_three_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru",
+      "ix_title": "Is it a complete sentence, a fragment, or a run-on?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Sentence, fragment, or run-on?",
+        "ko": "문장, 조각, 이어진 문장 중 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap sentence, fragment, or run-on.",
+        "ko": "문장, 조각, 이어진 문장을 누르세요."
+      },
+      "choices": [
+        "sentence",
+        "fragment",
+        "run-on"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "sentence",
+        "fragment",
+        "run-on",
+        "complete"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0001",
+          "tier": 1,
+          "stem": "The dog ran home.",
+          "choices": [
+            "sentence",
+            "fragment",
+            "run-on"
+          ],
+          "answer_index": 0,
+          "explain_key": "sentence",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0002",
+          "tier": 1,
+          "stem": "The little brown dog.",
+          "choices": [
+            "sentence",
+            "fragment",
+            "run-on"
+          ],
+          "answer_index": 1,
+          "explain_key": "fragment",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0003",
+          "tier": 1,
+          "stem": "The cat sat the dog ran.",
+          "choices": [
+            "sentence",
+            "fragment",
+            "run-on"
+          ],
+          "answer_index": 2,
+          "explain_key": "run_on",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0004",
+          "tier": 2,
+          "stem": "My sister baked a cake.",
+          "choices": [
+            "sentence",
+            "fragment",
+            "run-on"
+          ],
+          "answer_index": 0,
+          "explain_key": "sentence",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0005",
+          "tier": 2,
+          "stem": "After the big lunch.",
+          "choices": [
+            "sentence",
+            "fragment",
+            "run-on"
+          ],
+          "answer_index": 1,
+          "explain_key": "fragment"
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0006",
+          "tier": 2,
+          "stem": "We ate lunch we went outside.",
+          "choices": [
+            "sentence",
+            "fragment",
+            "run-on"
+          ],
+          "answer_index": 2,
+          "explain_key": "run_on"
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0007",
+          "tier": 3,
+          "stem": "<NAME> was hungry after dinner.",
+          "choices": [
+            "sentence",
+            "fragment",
+            "run-on"
+          ],
+          "answer_index": 0,
+          "explain_key": "sentence",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_is_it_a_complete_sentence_a_fragment_or_a_ru_0008",
+          "tier": 3,
+          "stem": "Because the rain was cold.",
+          "choices": [
+            "sentence",
+            "fragment",
+            "run-on"
+          ],
+          "answer_index": 1,
+          "explain_key": "fragment",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The three bin labels are fixed as sentence, fragment, run-on. Never change the words or the order.",
+      "Every stem is clearly one kind only. A reader must not be able to defend two labels.",
+      "Keep the pool near even across the three kinds.",
+      "A sentence has one who or what and one action and tells one full idea. End it with a period.",
+      "A fragment never has both a subject and a finished predicate that stand alone. Use a noun group, a time or place phrase, or a because or when group.",
+      "A run-on is two full ideas smashed with no period and no joining word. Do not use and, but, or a comma to join them.",
+      "Use only roots wordlist words plus allowed extras and <NAME>. Prefer listed past forms such as ran, sat, ate, went, baked, barked.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands and no real names.",
+      "Tier 3 near misses: a full sentence that adds after or when, a because group that has a who and an action, or two short clauses that look like one busy line."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpunctuation\\b",
+    "\\bperiod\\b",
+    "\\bcomma\\b",
+    "\\bsubject\\b",
+    "\\bpredicate\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Sentences are one clear who plus action. Fragments are a noun group with no verb. Run-ons smash two tiny sentences with no mark.",
+    "2": "Grade-level stems of five to seven words. Use two-syllable kid words. Fragments include after or at phrases. Run-ons use two kid actions. Sentences may use irregular past.",
+    "3": "Near misses up to ten words. Complete sentences add after or when. Fragments start with because or when but still have a who and an action. Run-ons are two short clauses that look like one line."
+  },
+  "miss_explain": {
+    "sentence": {
+      "en": "A sentence tells one full idea. It has a who or what and an action.",
+      "ko": "문장은 완전한 생각 하나입니다. 누구 또는 무엇과 하는 일이 있습니다."
+    },
+    "fragment": {
+      "en": "A fragment is not a full idea. It needs more words to finish.",
+      "ko": "조각은 완전한 생각이 아닙니다. 생각을 끝내려면 말이 더 필요합니다."
+    },
+    "run_on": {
+      "en": "A run-on sticks two full ideas together. It needs a stop.",
+      "ko": "이어진 문장은 완전한 생각 두 개를 붙입니다. 멈춤이 필요합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Is it a complete sentence, a fragment, or a run-on?"
+    ],
+    "no_ixl_text": true
+  }
+}

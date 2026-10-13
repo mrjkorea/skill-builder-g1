@@ -1,0 +1,295 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_replace_the_plural_noun_with_a_personal_pron",
+  "family_title_en": "Replace the plural noun with a personal pronoun",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_replace_the_plural_noun_with_a_personal_pron",
+      "ix_title": "Replace the plural noun with a personal pronoun",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which pronoun replaces the plural noun?",
+        "ko": "복수 명사를 대신할 대명사는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the personal pronoun.",
+        "ko": "인칭 대명사를 누르세요."
+      },
+      "choice_rule": "Four unique personal pronouns per item. Exactly one replaces the only plural noun. Right answer is they, them, we, or us. Fill others from they, them, we, us, he, she, it, I, me. Never a second legal reading.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "dogs",
+        "cats",
+        "birds",
+        "toys",
+        "trees",
+        "eggs",
+        "apples",
+        "flowers",
+        "balls",
+        "hats",
+        "ducks",
+        "pigs",
+        "bears",
+        "horses",
+        "socks",
+        "shoes",
+        "bags",
+        "cups",
+        "boxes",
+        "dishes",
+        "kittens",
+        "puppies",
+        "sisters",
+        "brothers"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_replace_the_plural_noun_with_a_personal_pron_0001",
+          "tier": 1,
+          "stem": "The frogs jump.",
+          "choices": [
+            "they",
+            "them",
+            "he",
+            "it"
+          ],
+          "answer_index": 0,
+          "explain_key": "they_subject",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_plural_noun_with_a_personal_pron_0002",
+          "tier": 1,
+          "stem": "I see the ants.",
+          "choices": [
+            "they",
+            "them",
+            "she",
+            "it"
+          ],
+          "answer_index": 1,
+          "explain_key": "them_object",
+          "media": [
+            {
+              "lemma": "ant"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_plural_noun_with_a_personal_pron_0003",
+          "tier": 1,
+          "stem": "The kids play.",
+          "choices": [
+            "he",
+            "they",
+            "it",
+            "she"
+          ],
+          "answer_index": 1,
+          "explain_key": "they_subject",
+          "media": [
+            {
+              "lemma": "kid"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_plural_noun_with_a_personal_pron_0004",
+          "tier": 2,
+          "stem": "The happy children walk to school.",
+          "choices": [
+            "them",
+            "we",
+            "they",
+            "us"
+          ],
+          "answer_index": 2,
+          "explain_key": "they_subject",
+          "media": [
+            {
+              "lemma": "child"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_plural_noun_with_a_personal_pron_0005",
+          "tier": 2,
+          "stem": "We feed the pets after dinner.",
+          "choices": [
+            "they",
+            "we",
+            "us",
+            "them"
+          ],
+          "answer_index": 3,
+          "explain_key": "them_object",
+          "media": [
+            {
+              "lemma": "pet"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_plural_noun_with_a_personal_pron_0006",
+          "tier": 2,
+          "stem": "<NAME> ate the cookies.",
+          "choices": [
+            "it",
+            "he",
+            "them",
+            "they"
+          ],
+          "answer_index": 2,
+          "explain_key": "them_object",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_plural_noun_with_a_personal_pron_0007",
+          "tier": 3,
+          "stem": "After lunch the tired students read.",
+          "choices": [
+            "them",
+            "they",
+            "we",
+            "it"
+          ],
+          "answer_index": 1,
+          "explain_key": "they_subject",
+          "media": [
+            {
+              "lemma": "student"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_plural_noun_with_a_personal_pron_0008",
+          "tier": 3,
+          "stem": "My friends and I play outside.",
+          "choices": [
+            "they",
+            "them",
+            "us",
+            "we"
+          ],
+          "answer_index": 3,
+          "explain_key": "we_speaker",
+          "media": [
+            {
+              "lemma": "friend"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each stem has exactly one plural noun to replace. Never two plurals.",
+      "The correct pronoun is they, them, we, or us. Never a singular pronoun.",
+      "Use they when that plural noun does the action. Use them when it receives the action.",
+      "Use we or us only when the stem group clearly includes I or me. Otherwise they or them.",
+      "Tier 1 distractors are far singular pronouns such as he, she, or it.",
+      "Tier 2 distractors mix wrong case they or them with we or us when the speaker is not in the group.",
+      "Tier 3 distractors are near-miss plural pronouns they, them, we, and us.",
+      "Never write a stem that can take two right pronouns.",
+      "Keep stems in kid world: school, home, food, pets, play, family, weather. No brands.",
+      "Use <NAME> for any person name. Never a real name."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bplural\\b",
+    "\\bpronoun\\b",
+    "\\bnoun\\b",
+    "\\bsubject\\b",
+    "\\bobject\\b",
+    "\\breplace\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words and one regular plural. Picture the noun. they or them is obvious. Distractors are far singular he, she, or it.",
+    "2": "Stems of four to seven words with two-syllable kid words. Mix subject they and object them. Distractors include wrong case and we or us when I is not in the group.",
+    "3": "Near misses: a time phrase before the subject, an irregular plural, or a group with I or me that needs we or us. Distractors are the other plural pronouns."
+  },
+  "miss_explain": {
+    "they_subject": {
+      "en": "Use they for a plural noun that does the action.",
+      "ko": "동작을 하는 복수 명사에는 they를 씁니다."
+    },
+    "them_object": {
+      "en": "Use them for a plural noun that receives the action.",
+      "ko": "동작을 받는 복수 명사에는 them을 씁니다."
+    },
+    "we_speaker": {
+      "en": "Use we when I am part of the group.",
+      "ko": "내가 그 무리에 속하면 we를 씁니다."
+    },
+    "us_speaker": {
+      "en": "Use us when the group includes me.",
+      "ko": "그 무리에 me가 들어가면 us를 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Replace the plural noun with a personal pronoun"
+    ],
+    "no_ixl_text": true
+  }
+}

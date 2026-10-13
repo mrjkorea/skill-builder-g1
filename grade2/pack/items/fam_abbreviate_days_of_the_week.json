@@ -1,0 +1,2495 @@
+[
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0001",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Monday",
+    "choices": [
+      "Mon.",
+      "Fri.",
+      "Sat.",
+      "Jan."
+    ],
+    "answer_index": 0,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0002",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Friday",
+    "choices": [
+      "Sun.",
+      "Wed.",
+      "Fri.",
+      "Feb."
+    ],
+    "answer_index": 2,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0003",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Sunday",
+    "choices": [
+      "Sat.",
+      "Sun.",
+      "Mon.",
+      "Dec."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0004",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We play soccer on Tuesday.",
+    "choices": [
+      "Wed.",
+      "Tues.",
+      "Thurs.",
+      "Fri."
+    ],
+    "answer_index": 1,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0005",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "School is closed on Wednesday.",
+    "choices": [
+      "Sat.",
+      "Mon.",
+      "Fri.",
+      "Wed."
+    ],
+    "answer_index": 3,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0006",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> has lunch on Saturday.",
+    "choices": [
+      "Sun.",
+      "Sat.",
+      "Fri.",
+      "Mar."
+    ],
+    "answer_index": 1,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0007",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> read a book on Thursday.",
+    "choices": [
+      "Tues.",
+      "Thur.",
+      "Thurs.",
+      "Thu."
+    ],
+    "answer_index": 2,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0008",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> went to school on Tuesday.",
+    "choices": [
+      "Tue.",
+      "Thurs.",
+      "Tues",
+      "Tues."
+    ],
+    "answer_index": 3,
+    "explain_key": "use_period",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0009",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tuesday",
+    "choices": [
+      "Tues.",
+      "Sun.",
+      "Mon.",
+      "Apr."
+    ],
+    "answer_index": 0,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0010",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Wednesday",
+    "choices": [
+      "Wed.",
+      "Sat.",
+      "Jan.",
+      "Mon."
+    ],
+    "answer_index": 0,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0011",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Thursday",
+    "choices": [
+      "Thurs.",
+      "Fri.",
+      "Mar.",
+      "Sun."
+    ],
+    "answer_index": 0,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0012",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Saturday",
+    "choices": [
+      "Sat.",
+      "Mon.",
+      "Aug.",
+      "Wed."
+    ],
+    "answer_index": 0,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0013",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Monday",
+    "choices": [
+      "Tue.",
+      "Mon.",
+      "Dec.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0014",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Friday",
+    "choices": [
+      "Wed.",
+      "Fri.",
+      "Feb.",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0015",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Sunday",
+    "choices": [
+      "Thurs.",
+      "Sun.",
+      "Mar.",
+      "Tue."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0016",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tuesday",
+    "choices": [
+      "Fri.",
+      "Tues.",
+      "Jan.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0017",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Wednesday",
+    "choices": [
+      "Sun.",
+      "Wed.",
+      "Apr.",
+      "Fri."
+    ],
+    "answer_index": 1,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0018",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Thursday",
+    "choices": [
+      "Mon.",
+      "Thurs.",
+      "Dec.",
+      "Wed."
+    ],
+    "answer_index": 1,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0019",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Saturday",
+    "choices": [
+      "Sun.",
+      "Sat.",
+      "Feb.",
+      "Mon."
+    ],
+    "answer_index": 1,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0020",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Monday",
+    "choices": [
+      "Wed.",
+      "Mon.",
+      "Aug.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0021",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Friday",
+    "choices": [
+      "Mon.",
+      "Mar.",
+      "Fri.",
+      "Tues."
+    ],
+    "answer_index": 2,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0022",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Sunday",
+    "choices": [
+      "Wed.",
+      "Sun.",
+      "Jan.",
+      "Fri."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0023",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tuesday",
+    "choices": [
+      "Wed.",
+      "Dec.",
+      "Tues.",
+      "Sun."
+    ],
+    "answer_index": 2,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0024",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Wednesday",
+    "choices": [
+      "Thurs.",
+      "Wed.",
+      "Feb.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0025",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Thursday",
+    "choices": [
+      "Sat.",
+      "Mon.",
+      "Thurs.",
+      "Apr."
+    ],
+    "answer_index": 2,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0026",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Saturday",
+    "choices": [
+      "Fri.",
+      "Dec.",
+      "Sat.",
+      "Tues."
+    ],
+    "answer_index": 2,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0027",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Monday",
+    "choices": [
+      "Sun.",
+      "Mar.",
+      "Mon.",
+      "Wed."
+    ],
+    "answer_index": 2,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0028",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Friday",
+    "choices": [
+      "Sat.",
+      "Jan.",
+      "Thurs.",
+      "Fri."
+    ],
+    "answer_index": 3,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0029",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Sunday",
+    "choices": [
+      "Mon.",
+      "Sun.",
+      "Aug.",
+      "Tues."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0030",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tuesday",
+    "choices": [
+      "Sat.",
+      "Feb.",
+      "Wed.",
+      "Tues."
+    ],
+    "answer_index": 3,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0031",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Wednesday",
+    "choices": [
+      "Mon.",
+      "Dec.",
+      "Thu.",
+      "Wed."
+    ],
+    "answer_index": 3,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0032",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Thursday",
+    "choices": [
+      "Sun.",
+      "Jan.",
+      "Fri.",
+      "Thurs."
+    ],
+    "answer_index": 3,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0033",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Saturday",
+    "choices": [
+      "Wed.",
+      "Apr.",
+      "Sun.",
+      "Sat."
+    ],
+    "answer_index": 3,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0034",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Monday",
+    "choices": [
+      "Fri.",
+      "Feb.",
+      "Thurs.",
+      "Mon."
+    ],
+    "answer_index": 3,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0035",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Friday",
+    "choices": [
+      "Sun.",
+      "Aug.",
+      "Wed.",
+      "Fri."
+    ],
+    "answer_index": 3,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0036",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We eat lunch on Monday.",
+    "choices": [
+      "Mon.",
+      "Tues.",
+      "Wed.",
+      "Thurs."
+    ],
+    "answer_index": 0,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0037",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My dog naps on Friday.",
+    "choices": [
+      "Wed.",
+      "Fri.",
+      "Sat.",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0038",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "It often rains on Wednesday.",
+    "choices": [
+      "Tues.",
+      "Wed.",
+      "Thurs.",
+      "Fri."
+    ],
+    "answer_index": 1,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0039",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We bake cookies on Sunday.",
+    "choices": [
+      "Sat.",
+      "Sun.",
+      "Mon.",
+      "Tues."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0040",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our school starts on Thursday.",
+    "choices": [
+      "Wed.",
+      "Thurs.",
+      "Fri.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0041",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We like to swim on Saturday.",
+    "choices": [
+      "Fri.",
+      "Sat.",
+      "Sun.",
+      "Mon."
+    ],
+    "answer_index": 1,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0042",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We read books on Tuesday.",
+    "choices": [
+      "Mon.",
+      "Tues.",
+      "Wed.",
+      "Thurs."
+    ],
+    "answer_index": 1,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0043",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My aunt visits us on Monday.",
+    "choices": [
+      "Sun.",
+      "Mon.",
+      "Tues.",
+      "Wed."
+    ],
+    "answer_index": 1,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0044",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have art on Friday.",
+    "choices": [
+      "Thurs.",
+      "Fri.",
+      "Sat.",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0045",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat sleeps on Wednesday.",
+    "choices": [
+      "Tues.",
+      "Wed.",
+      "Thurs.",
+      "Fri."
+    ],
+    "answer_index": 1,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0046",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We go to church on Sunday.",
+    "choices": [
+      "Sat.",
+      "Sun.",
+      "Mon.",
+      "Tues."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0047",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have math on Thursday.",
+    "choices": [
+      "Wed.",
+      "Thurs.",
+      "Fri.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0048",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We clean the house on Saturday.",
+    "choices": [
+      "Fri.",
+      "Sat.",
+      "Sun.",
+      "Mon."
+    ],
+    "answer_index": 1,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0049",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We sing songs on Tuesday.",
+    "choices": [
+      "Mon.",
+      "Tues.",
+      "Wed.",
+      "Thurs."
+    ],
+    "answer_index": 1,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0050",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We pack lunch on Monday.",
+    "choices": [
+      "Sun.",
+      "Mon.",
+      "Tues.",
+      "Wed."
+    ],
+    "answer_index": 1,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0051",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We watch a movie on Friday.",
+    "choices": [
+      "Thurs.",
+      "Fri.",
+      "Sat.",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0052",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We plant seeds on Wednesday.",
+    "choices": [
+      "Tues.",
+      "Wed.",
+      "Thurs.",
+      "Fri."
+    ],
+    "answer_index": 1,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0053",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We feed the fish on Sunday.",
+    "choices": [
+      "Sat.",
+      "Sun.",
+      "Mon.",
+      "Tues."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0054",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We run in gym on Thursday.",
+    "choices": [
+      "Wed.",
+      "Thurs.",
+      "Fri.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0055",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We walk the dog on Saturday.",
+    "choices": [
+      "Fri.",
+      "Sat.",
+      "Sun.",
+      "Mon."
+    ],
+    "answer_index": 1,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0056",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We write stories on Tuesday.",
+    "choices": [
+      "Mon.",
+      "Tues.",
+      "Wed.",
+      "Thurs."
+    ],
+    "answer_index": 1,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0057",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We eat pancakes on Monday.",
+    "choices": [
+      "Sun.",
+      "Mon.",
+      "Tues.",
+      "Wed."
+    ],
+    "answer_index": 1,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0058",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We play games on Friday.",
+    "choices": [
+      "Thurs.",
+      "Fri.",
+      "Sat.",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0059",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We water plants on Wednesday.",
+    "choices": [
+      "Tues.",
+      "Wed.",
+      "Thurs.",
+      "Fri."
+    ],
+    "answer_index": 1,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0060",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We build a fort on Sunday.",
+    "choices": [
+      "Sat.",
+      "Sun.",
+      "Mon.",
+      "Tues."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0061",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We learn science on Thursday.",
+    "choices": [
+      "Wed.",
+      "Thurs.",
+      "Fri.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0062",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We ride bikes on Saturday.",
+    "choices": [
+      "Fri.",
+      "Sat.",
+      "Sun.",
+      "Mon."
+    ],
+    "answer_index": 1,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0063",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We share snacks on Tuesday.",
+    "choices": [
+      "Mon.",
+      "Tues.",
+      "Wed.",
+      "Thurs."
+    ],
+    "answer_index": 1,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0064",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We visit the library on Monday.",
+    "choices": [
+      "Sun.",
+      "Mon.",
+      "Tues.",
+      "Wed."
+    ],
+    "answer_index": 1,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0065",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We have music on Friday.",
+    "choices": [
+      "Thurs.",
+      "Fri.",
+      "Sat.",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0066",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We feed the bird on Wednesday.",
+    "choices": [
+      "Tues.",
+      "Wed.",
+      "Thurs.",
+      "Fri."
+    ],
+    "answer_index": 1,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0067",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We make soup on Sunday.",
+    "choices": [
+      "Sat.",
+      "Sun.",
+      "Mon.",
+      "Tues."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0068",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We play tag on Thursday.",
+    "choices": [
+      "Wed.",
+      "Thurs.",
+      "Fri.",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0069",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We rake leaves on Saturday.",
+    "choices": [
+      "Fri.",
+      "Sat.",
+      "Sun.",
+      "Mon."
+    ],
+    "answer_index": 1,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0070",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We draw pictures on Tuesday.",
+    "choices": [
+      "Mon.",
+      "Tues.",
+      "Wed.",
+      "Thurs."
+    ],
+    "answer_index": 1,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0071",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We eat cereal on Monday.",
+    "choices": [
+      "Sun.",
+      "Mon.",
+      "Tues.",
+      "Wed."
+    ],
+    "answer_index": 1,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0072",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We jump rope on Friday.",
+    "choices": [
+      "Thurs.",
+      "Fri.",
+      "Sat.",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0073",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> eats breakfast on Monday.",
+    "choices": [
+      "Mon.",
+      "Mon",
+      "Tue.",
+      "Tues."
+    ],
+    "answer_index": 0,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0074",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> plays outside on Friday.",
+    "choices": [
+      "Thu.",
+      "Fri.",
+      "Fri",
+      "Sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0075",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> does homework on Wednesday.",
+    "choices": [
+      "Tue.",
+      "Wed.",
+      "Wed",
+      "Thu."
+    ],
+    "answer_index": 1,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0076",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> feeds the cat on Sunday.",
+    "choices": [
+      "Sat.",
+      "Sun.",
+      "Sun",
+      "Mon."
+    ],
+    "answer_index": 1,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0077",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> rides the bus on Thursday.",
+    "choices": [
+      "Thur.",
+      "Thurs.",
+      "Thu.",
+      "Tues."
+    ],
+    "answer_index": 1,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0078",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> helps cook on Saturday.",
+    "choices": [
+      "Fri.",
+      "Sat.",
+      "Sat",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0079",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> paints a picture on Tuesday.",
+    "choices": [
+      "Tue.",
+      "Tues.",
+      "Tues",
+      "Thurs."
+    ],
+    "answer_index": 1,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0080",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> reads at night on Monday.",
+    "choices": [
+      "Mon",
+      "Mon.",
+      "Tue.",
+      "Wed."
+    ],
+    "answer_index": 1,
+    "explain_key": "use_period",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0081",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> walks to school on Friday.",
+    "choices": [
+      "Fri",
+      "Fri.",
+      "Thu.",
+      "Thur."
+    ],
+    "answer_index": 1,
+    "explain_key": "use_period",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0082",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> picks flowers on Wednesday.",
+    "choices": [
+      "Wed",
+      "Wed.",
+      "Tue.",
+      "Thurs."
+    ],
+    "answer_index": 1,
+    "explain_key": "use_period",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0083",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> builds a tower on Sunday.",
+    "choices": [
+      "Sun",
+      "Sun.",
+      "Sat.",
+      "Mon."
+    ],
+    "answer_index": 1,
+    "explain_key": "use_period",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0084",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> writes a note on Thursday.",
+    "choices": [
+      "Thu.",
+      "Thurs.",
+      "Thur.",
+      "Tues."
+    ],
+    "answer_index": 1,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0085",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> washes dishes on Saturday.",
+    "choices": [
+      "Sat",
+      "Sat.",
+      "Fri.",
+      "Sun."
+    ],
+    "answer_index": 1,
+    "explain_key": "use_period",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0086",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> kicks a ball on Tuesday.",
+    "choices": [
+      "Tues",
+      "Tues.",
+      "Tue.",
+      "Thu."
+    ],
+    "answer_index": 1,
+    "explain_key": "use_period",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0087",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> eats an apple on Monday.",
+    "choices": [
+      "Mon.",
+      "Mon",
+      "Mar.",
+      "Tues."
+    ],
+    "answer_index": 0,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0088",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> hugs mom on Friday.",
+    "choices": [
+      "Fri.",
+      "Fri",
+      "Feb.",
+      "Sat."
+    ],
+    "answer_index": 0,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0089",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> finds a bug on Wednesday.",
+    "choices": [
+      "Wed.",
+      "Wed",
+      "Thu.",
+      "Tue."
+    ],
+    "answer_index": 0,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0090",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> flies a kite on Sunday.",
+    "choices": [
+      "Sun.",
+      "Sun",
+      "Dec.",
+      "Mon."
+    ],
+    "answer_index": 0,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0091",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> skips rocks on Thursday.",
+    "choices": [
+      "Thurs.",
+      "Thur.",
+      "Thu.",
+      "Wed."
+    ],
+    "answer_index": 0,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0092",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> picks up toys on Saturday.",
+    "choices": [
+      "Sat.",
+      "Sat",
+      "Apr.",
+      "Sun."
+    ],
+    "answer_index": 0,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0093",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> ties shoes on Tuesday.",
+    "choices": [
+      "Tues.",
+      "Tue.",
+      "Tues",
+      "Fri."
+    ],
+    "answer_index": 0,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0094",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> drinks milk on Monday.",
+    "choices": [
+      "Mon.",
+      "Mon",
+      "Tue.",
+      "Jan."
+    ],
+    "answer_index": 0,
+    "explain_key": "monday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "monday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0095",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> climbs a tree on Friday.",
+    "choices": [
+      "Fri.",
+      "Fri",
+      "Thu.",
+      "Thurs."
+    ],
+    "answer_index": 0,
+    "explain_key": "friday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0096",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> sweeps the floor on Wednesday.",
+    "choices": [
+      "Wed.",
+      "Wed",
+      "Tue.",
+      "Thur."
+    ],
+    "answer_index": 0,
+    "explain_key": "wednesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wednesday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0097",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> makes a card on Sunday.",
+    "choices": [
+      "Sun.",
+      "Sun",
+      "Sat.",
+      "Aug."
+    ],
+    "answer_index": 0,
+    "explain_key": "sunday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sunday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0098",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> throws a ball on Thursday.",
+    "choices": [
+      "Thurs.",
+      "Thu.",
+      "Thur.",
+      "Tues."
+    ],
+    "answer_index": 0,
+    "explain_key": "thursday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thursday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0099",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> folds clothes on Saturday.",
+    "choices": [
+      "Sat.",
+      "Sat",
+      "Fri.",
+      "Mon."
+    ],
+    "answer_index": 0,
+    "explain_key": "saturday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "saturday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_abbreviate_days_of_the_week_0100",
+    "family_id": "fam_abbreviate_days_of_the_week",
+    "skill_id": "roots_abbreviate_days_of_the_week",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> packs a bag on Tuesday.",
+    "choices": [
+      "Tues.",
+      "Tue.",
+      "Tues",
+      "Wed."
+    ],
+    "answer_index": 0,
+    "explain_key": "tuesday",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tuesday"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  }
+]

@@ -1,0 +1,2414 @@
+[
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0001",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog is little.",
+    "choices": [
+      "The dog is small.",
+      "The dog is big.",
+      "The dog is old.",
+      "The cat is little."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0002",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> is happy.",
+    "choices": [
+      "<NAME> is sad.",
+      "<NAME> is glad.",
+      "<NAME> is tired.",
+      "<NAME> is busy."
+    ],
+    "answer_index": 1,
+    "explain_key": "happy_glad",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "smile"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0003",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bag is large.",
+    "choices": [
+      "The box is large.",
+      "The bag is small.",
+      "The bag is big.",
+      "The bag is full."
+    ],
+    "answer_index": 2,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0004",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We close the door.",
+    "choices": [
+      "We shut the door.",
+      "We open the door.",
+      "We wash the door.",
+      "We close the gate."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0005",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The room is neat.",
+    "choices": [
+      "The yard is neat.",
+      "The room is dark.",
+      "The room is warm.",
+      "The room is tidy."
+    ],
+    "answer_index": 3,
+    "explain_key": "neat_tidy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0006",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> begins lunch now.",
+    "choices": [
+      "<NAME> ends lunch now.",
+      "<NAME> starts lunch now.",
+      "<NAME> begins dinner now.",
+      "<NAME> begins lunch later."
+    ],
+    "answer_index": 1,
+    "explain_key": "begin_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0007",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids spoke quietly.",
+    "choices": [
+      "The kids spoke in a loud way.",
+      "The kids sat quietly.",
+      "The kids spoke in a quiet way.",
+      "The girls spoke quietly."
+    ],
+    "answer_index": 2,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "child"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0008",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The bird flew above the tree.",
+    "choices": [
+      "The bird flew over the tree.",
+      "The bird flew under the tree.",
+      "The bird flew near the tree.",
+      "The duck flew above the tree."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0009",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat is big.",
+    "choices": [
+      "The cat is large.",
+      "The cat is small.",
+      "The cat is old.",
+      "The dog is big."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0010",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fish is small.",
+    "choices": [
+      "The fish is little.",
+      "The fish is big.",
+      "The fish is wet.",
+      "The frog is small."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0011",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Mom is sad.",
+    "choices": [
+      "Mom is unhappy.",
+      "Mom is happy.",
+      "Mom is busy.",
+      "Dad is sad."
+    ],
+    "answer_index": 0,
+    "explain_key": "sad_unhappy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mother"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0012",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We are glad.",
+    "choices": [
+      "We are happy.",
+      "We are sad.",
+      "We are tired.",
+      "They are glad."
+    ],
+    "answer_index": 0,
+    "explain_key": "happy_glad",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "smile"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0013",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hen is little.",
+    "choices": [
+      "The hen is small.",
+      "The hen is big.",
+      "The hen is brown.",
+      "The duck is little."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0014",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The box is large.",
+    "choices": [
+      "The box is big.",
+      "The box is small.",
+      "The box is heavy.",
+      "The bag is large."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0015",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pup is tiny.",
+    "choices": [
+      "The pup is small.",
+      "The pup is big.",
+      "The pup is wet.",
+      "The cat is tiny."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0016",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cake is big.",
+    "choices": [
+      "The cake is large.",
+      "The cake is small.",
+      "The cake is sweet.",
+      "The pie is big."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0017",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ant is small.",
+    "choices": [
+      "The ant is little.",
+      "The ant is big.",
+      "The ant is black.",
+      "The bug is small."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0018",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boat is little.",
+    "choices": [
+      "The boat is small.",
+      "The boat is big.",
+      "The boat is blue.",
+      "The ship is little."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0019",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> is glad.",
+    "choices": [
+      "<NAME> is happy.",
+      "<NAME> is sad.",
+      "<NAME> is sick.",
+      "Ben is glad."
+    ],
+    "answer_index": 0,
+    "explain_key": "happy_glad",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "smile"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0020",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The jar is large.",
+    "choices": [
+      "The jar is big.",
+      "The jar is small.",
+      "The jar is full.",
+      "The cup is large."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jar"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0021",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The frog is little.",
+    "choices": [
+      "The frog is small.",
+      "The frog is big.",
+      "The frog is green.",
+      "The bug is little."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0022",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bus is big.",
+    "choices": [
+      "The bus is large.",
+      "The bus is small.",
+      "The bus is yellow.",
+      "The van is big."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0023",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kid is sad.",
+    "choices": [
+      "The kid is unhappy.",
+      "The kid is happy.",
+      "The kid is tall.",
+      "The girl is sad."
+    ],
+    "answer_index": 0,
+    "explain_key": "sad_unhappy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "child"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0024",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hat is little.",
+    "choices": [
+      "The hat is small.",
+      "The hat is big.",
+      "The hat is red.",
+      "The cap is little."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0025",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ball is large.",
+    "choices": [
+      "The ball is big.",
+      "The ball is small.",
+      "The ball is round.",
+      "The balloon is large."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0026",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bee is small.",
+    "choices": [
+      "The bee is little.",
+      "The bee is big.",
+      "The bee is busy.",
+      "The ant is small."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0027",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The tent is big.",
+    "choices": [
+      "The tent is large.",
+      "The tent is small.",
+      "The tent is blue.",
+      "The cave is big."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0028",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl is little.",
+    "choices": [
+      "The owl is small.",
+      "The owl is big.",
+      "The owl is brown.",
+      "The crow is little."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0029",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pan is large.",
+    "choices": [
+      "The pan is big.",
+      "The pan is small.",
+      "The pan is hot.",
+      "The pot is large."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0030",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cub is small.",
+    "choices": [
+      "The cub is little.",
+      "The cub is big.",
+      "The cub is brown.",
+      "The pup is small."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cub"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0031",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ship is big.",
+    "choices": [
+      "The ship is large.",
+      "The ship is small.",
+      "The ship is fast.",
+      "The boat is big."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ship"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0032",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The moth is little.",
+    "choices": [
+      "The moth is small.",
+      "The moth is big.",
+      "The moth is gray.",
+      "The bug is little."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0033",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cart is large.",
+    "choices": [
+      "The cart is big.",
+      "The cart is small.",
+      "The cart is red.",
+      "The car is large."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cart"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0034",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rat is small.",
+    "choices": [
+      "The rat is little.",
+      "The rat is big.",
+      "The rat is gray.",
+      "The mouse is small."
+    ],
+    "answer_index": 0,
+    "explain_key": "little_small",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0035",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pool is big.",
+    "choices": [
+      "The pool is large.",
+      "The pool is small.",
+      "The pool is cool.",
+      "The pond is big."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pool"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0036",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We open the gate.",
+    "choices": [
+      "We opened the gate.",
+      "We shut the gate.",
+      "We fix the gate.",
+      "We open the door."
+    ],
+    "answer_index": 0,
+    "explain_key": "open_opened",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0037",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They close the box.",
+    "choices": [
+      "They shut the box.",
+      "They open the box.",
+      "They wash the box.",
+      "They close the bag."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0038",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The desk is neat.",
+    "choices": [
+      "The desk is tidy.",
+      "The desk is messy.",
+      "The desk is old.",
+      "The table is neat."
+    ],
+    "answer_index": 0,
+    "explain_key": "neat_tidy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0039",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The yard is tidy.",
+    "choices": [
+      "The yard is neat.",
+      "The yard is messy.",
+      "The yard is wet.",
+      "The park is tidy."
+    ],
+    "answer_index": 0,
+    "explain_key": "neat_tidy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0040",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We start the game.",
+    "choices": [
+      "We begin the game.",
+      "We end the game.",
+      "We watch the game.",
+      "We start the race."
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0041",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I end the show.",
+    "choices": [
+      "I ended the show.",
+      "I start the show.",
+      "I like the show.",
+      "I end the play."
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ended",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "show"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0042",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We shut the window.",
+    "choices": [
+      "We close the window.",
+      "We open the window.",
+      "We wash the window.",
+      "We shut the door."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "window"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0043",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bed is tidy.",
+    "choices": [
+      "The bed is neat.",
+      "The bed is messy.",
+      "The bed is soft.",
+      "The rug is tidy."
+    ],
+    "answer_index": 0,
+    "explain_key": "neat_tidy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0044",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> starts dinner now.",
+    "choices": [
+      "<NAME> begins dinner now.",
+      "<NAME> ends dinner now.",
+      "<NAME> starts lunch now.",
+      "<NAME> starts dinner later."
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0045",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The class is neat.",
+    "choices": [
+      "The class is tidy.",
+      "The class is loud.",
+      "The class is big.",
+      "The club is neat."
+    ],
+    "answer_index": 0,
+    "explain_key": "neat_tidy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0046",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They begin the race.",
+    "choices": [
+      "They start the race.",
+      "They end the race.",
+      "They watch the race.",
+      "They begin the game."
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "race"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0047",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We close the book.",
+    "choices": [
+      "We shut the book.",
+      "We open the book.",
+      "We read the book.",
+      "We close the box."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0048",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The shelf is neat.",
+    "choices": [
+      "The shelf is tidy.",
+      "The shelf is full.",
+      "The shelf is brown.",
+      "The desk is neat."
+    ],
+    "answer_index": 0,
+    "explain_key": "neat_tidy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shelf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0049",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The store is shut.",
+    "choices": [
+      "The store is closed.",
+      "The store is open.",
+      "The store is far.",
+      "The shop is shut."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0050",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The toys are messy.",
+    "choices": [
+      "The toys are dirty.",
+      "The toys are neat.",
+      "The toys are fun.",
+      "The books are messy."
+    ],
+    "answer_index": 0,
+    "explain_key": "messy_dirty",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0051",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dog runs fast.",
+    "choices": [
+      "The dog runs quickly.",
+      "The dog runs slowly.",
+      "The dog runs home.",
+      "The cat runs fast."
+    ],
+    "answer_index": 0,
+    "explain_key": "fast_quickly",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0052",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bus goes slow.",
+    "choices": [
+      "The bus goes slowly.",
+      "The bus goes fast.",
+      "The bus goes far.",
+      "The car goes slow."
+    ],
+    "answer_index": 0,
+    "explain_key": "slow_slowly",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0053",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We also like soup.",
+    "choices": [
+      "We like soup too.",
+      "We skip soup too.",
+      "We like soup now.",
+      "We also like rice."
+    ],
+    "answer_index": 0,
+    "explain_key": "also_too",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0054",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I am also tired.",
+    "choices": [
+      "I am tired too.",
+      "I am not tired.",
+      "I am very tall.",
+      "She is also tired."
+    ],
+    "answer_index": 0,
+    "explain_key": "also_too",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tired"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0055",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They shut the gate.",
+    "choices": [
+      "They close the gate.",
+      "They open the gate.",
+      "They paint the gate.",
+      "They shut the door."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0056",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The floor is neat.",
+    "choices": [
+      "The floor is tidy.",
+      "The floor is wet.",
+      "The floor is cold.",
+      "The rug is neat."
+    ],
+    "answer_index": 0,
+    "explain_key": "neat_tidy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "floor"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0057",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We begin art class.",
+    "choices": [
+      "We start art class.",
+      "We skip art class.",
+      "We end art class.",
+      "We begin math class."
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "art"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0058",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat purrs softly.",
+    "choices": [
+      "The cat purrs in a soft way.",
+      "The cat purrs loudly.",
+      "The cat purrs often.",
+      "The dog purrs softly."
+    ],
+    "answer_index": 0,
+    "explain_key": "softly_soft",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0059",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids yell loudly.",
+    "choices": [
+      "The kids yell in a loud way.",
+      "The kids yell quietly.",
+      "The kids yell outside.",
+      "The boys yell loudly."
+    ],
+    "answer_index": 0,
+    "explain_key": "loudly_loud",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "child"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0060",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bell rings loudly.",
+    "choices": [
+      "The bell rings in a loud way.",
+      "The bell rings quietly.",
+      "The bell rings twice.",
+      "The horn rings loudly."
+    ],
+    "answer_index": 0,
+    "explain_key": "loudly_loud",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0061",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We walk slowly home.",
+    "choices": [
+      "We walk in a slow way home.",
+      "We walk quickly home.",
+      "We walk to school.",
+      "We run slowly home."
+    ],
+    "answer_index": 0,
+    "explain_key": "slow_slowly",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0062",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The baby cries loudly.",
+    "choices": [
+      "The baby cries in a loud way.",
+      "The baby cries softly.",
+      "The baby cries now.",
+      "The kid cries loudly."
+    ],
+    "answer_index": 0,
+    "explain_key": "loudly_loud",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "baby"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0063",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The shop is closed.",
+    "choices": [
+      "The shop is shut.",
+      "The shop is open.",
+      "The shop is new.",
+      "The store is closed."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shop"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0064",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My desk is messy.",
+    "choices": [
+      "My desk is dirty.",
+      "My desk is neat.",
+      "My desk is brown.",
+      "Your desk is messy."
+    ],
+    "answer_index": 0,
+    "explain_key": "messy_dirty",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0065",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We end the trip.",
+    "choices": [
+      "We ended the trip.",
+      "We start the trip.",
+      "We like the trip.",
+      "We end the game."
+    ],
+    "answer_index": 0,
+    "explain_key": "end_ended",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "trip"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0066",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The gate is shut.",
+    "choices": [
+      "The gate is closed.",
+      "The gate is open.",
+      "The gate is red.",
+      "The door is shut."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0067",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She is also hungry.",
+    "choices": [
+      "She is hungry too.",
+      "She is not hungry.",
+      "She is very tall.",
+      "He is also hungry."
+    ],
+    "answer_index": 0,
+    "explain_key": "also_too",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hungry"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0068",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The van is large.",
+    "choices": [
+      "The van is big.",
+      "The van is small.",
+      "The van is blue.",
+      "The bus is large."
+    ],
+    "answer_index": 0,
+    "explain_key": "large_big",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "van"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0069",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We started the test.",
+    "choices": [
+      "We began the test.",
+      "We ended the test.",
+      "We took the test.",
+      "We started the race."
+    ],
+    "answer_index": 0,
+    "explain_key": "begin_start",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "test"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0070",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rug is tidy.",
+    "choices": [
+      "The rug is neat.",
+      "The rug is messy.",
+      "The rug is soft.",
+      "The mat is tidy."
+    ],
+    "answer_index": 0,
+    "explain_key": "neat_tidy",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0071",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They open the window.",
+    "choices": [
+      "They opened the window.",
+      "They shut the window.",
+      "They clean the window.",
+      "They open the door."
+    ],
+    "answer_index": 0,
+    "explain_key": "open_opened",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "window"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0072",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The barn is shut.",
+    "choices": [
+      "The barn is closed.",
+      "The barn is open.",
+      "The barn is red.",
+      "The shed is shut."
+    ],
+    "answer_index": 0,
+    "explain_key": "close_shut",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0073",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kite flew above the house.",
+    "choices": [
+      "The kite flew over the house.",
+      "The kite flew under the house.",
+      "The kite flew near the house.",
+      "The bird flew above the house."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0074",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They speak quietly at lunch.",
+    "choices": [
+      "They speak in a quiet way at lunch.",
+      "They speak in a loud way at lunch.",
+      "They eat quietly at lunch.",
+      "The kids speak quietly at lunch."
+    ],
+    "answer_index": 0,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0075",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cat sat below the table.",
+    "choices": [
+      "The cat sat under the table.",
+      "The cat sat above the table.",
+      "The cat sat on the table.",
+      "The dog sat below the table."
+    ],
+    "answer_index": 0,
+    "explain_key": "below_under",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0076",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The plane flew over the lake.",
+    "choices": [
+      "The plane flew above the lake.",
+      "The plane flew under the lake.",
+      "The plane flew near the lake.",
+      "The bird flew over the lake."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0077",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The girls sang quietly.",
+    "choices": [
+      "The girls sang in a quiet way.",
+      "The girls sang in a loud way.",
+      "The girls ran quietly.",
+      "The boys sang quietly."
+    ],
+    "answer_index": 0,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0078",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The ball rolled under the bench.",
+    "choices": [
+      "The ball rolled below the bench.",
+      "The ball rolled over the bench.",
+      "The ball rolled on the bench.",
+      "The toy rolled under the bench."
+    ],
+    "answer_index": 0,
+    "explain_key": "below_under",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0079",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We hid behind the shed.",
+    "choices": [
+      "We hid in back of the shed.",
+      "We hid in front of the shed.",
+      "We hid inside the shed.",
+      "They hid behind the shed."
+    ],
+    "answer_index": 0,
+    "explain_key": "behind_back",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0080",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The owl flew above the hill.",
+    "choices": [
+      "The owl flew over the hill.",
+      "The owl flew under the hill.",
+      "The owl flew near the hill.",
+      "The duck flew above the hill."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0081",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The team spoke quietly.",
+    "choices": [
+      "The team spoke in a quiet way.",
+      "The team spoke in a loud way.",
+      "The team sat quietly.",
+      "The class spoke quietly."
+    ],
+    "answer_index": 0,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0082",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The duck swam under the bridge.",
+    "choices": [
+      "The duck swam below the bridge.",
+      "The duck swam over the bridge.",
+      "The duck swam near the bridge.",
+      "The goose swam under the bridge."
+    ],
+    "answer_index": 0,
+    "explain_key": "below_under",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0083",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The flag hung above the door.",
+    "choices": [
+      "The flag hung over the door.",
+      "The flag hung under the door.",
+      "The flag hung on the door.",
+      "The sign hung above the door."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0084",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He read quietly in bed.",
+    "choices": [
+      "He read in a quiet way in bed.",
+      "He read in a loud way in bed.",
+      "He slept quietly in bed.",
+      "She read quietly in bed."
+    ],
+    "answer_index": 0,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0085",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The mouse hid under the rug.",
+    "choices": [
+      "The mouse hid below the rug.",
+      "The mouse hid over the rug.",
+      "The mouse hid on the rug.",
+      "The rat hid under the rug."
+    ],
+    "answer_index": 0,
+    "explain_key": "below_under",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0086",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The plane flew over the town.",
+    "choices": [
+      "The plane flew above the town.",
+      "The plane flew under the town.",
+      "The plane flew past the town.",
+      "The bird flew over the town."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0087",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We ate quietly in class.",
+    "choices": [
+      "We ate in a quiet way in class.",
+      "We ate in a loud way in class.",
+      "We sat quietly in class.",
+      "They ate quietly in class."
+    ],
+    "answer_index": 0,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0088",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The frog jumped over the log.",
+    "choices": [
+      "The frog jumped above the log.",
+      "The frog jumped under the log.",
+      "The frog jumped on the log.",
+      "The duck jumped over the log."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0089",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The toy is under the bed.",
+    "choices": [
+      "The toy is below the bed.",
+      "The toy is above the bed.",
+      "The toy is on the bed.",
+      "The book is under the bed."
+    ],
+    "answer_index": 0,
+    "explain_key": "below_under",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0090",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The moon hung above the barn.",
+    "choices": [
+      "The moon hung over the barn.",
+      "The moon hung under the barn.",
+      "The moon hung near the barn.",
+      "The sun hung above the barn."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0091",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids played quietly.",
+    "choices": [
+      "The kids played in a quiet way.",
+      "The kids played in a loud way.",
+      "The kids sat quietly.",
+      "The girls played quietly."
+    ],
+    "answer_index": 0,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "child"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0092",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fish swam below the boat.",
+    "choices": [
+      "The fish swam under the boat.",
+      "The fish swam over the boat.",
+      "The fish swam near the boat.",
+      "The duck swam below the boat."
+    ],
+    "answer_index": 0,
+    "explain_key": "below_under",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0093",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The rope hung over the tree.",
+    "choices": [
+      "The rope hung above the tree.",
+      "The rope hung under the tree.",
+      "The rope hung on the tree.",
+      "The vine hung over the tree."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0094",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She walked quietly down the hall.",
+    "choices": [
+      "She walked in a quiet way down the hall.",
+      "She walked in a loud way down the hall.",
+      "She ran quietly down the hall.",
+      "He walked quietly down the hall."
+    ],
+    "answer_index": 0,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hall"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0095",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The nest is above the door.",
+    "choices": [
+      "The nest is over the door.",
+      "The nest is under the door.",
+      "The nest is on the door.",
+      "The hive is above the door."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nest"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0096",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The puppy slept below the steps.",
+    "choices": [
+      "The puppy slept under the steps.",
+      "The puppy slept over the steps.",
+      "The puppy slept on the steps.",
+      "The kitten slept below the steps."
+    ],
+    "answer_index": 0,
+    "explain_key": "below_under",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0097",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Clouds moved over the school.",
+    "choices": [
+      "Clouds moved above the school.",
+      "Clouds moved under the school.",
+      "Clouds moved past the school.",
+      "Rain moved over the school."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0098",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They worked quietly after recess.",
+    "choices": [
+      "They worked in a quiet way after recess.",
+      "They worked in a loud way after recess.",
+      "They played quietly after recess.",
+      "We worked quietly after recess."
+    ],
+    "answer_index": 0,
+    "explain_key": "quietly_quiet",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "recess"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0099",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The shoes are under the chair.",
+    "choices": [
+      "The shoes are below the chair.",
+      "The shoes are above the chair.",
+      "The shoes are on the chair.",
+      "The socks are under the chair."
+    ],
+    "answer_index": 0,
+    "explain_key": "below_under",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_which_sentence_has_the_same_meaning_0100",
+    "family_id": "fam_which_sentence_has_the_same_meaning",
+    "skill_id": "roots_which_sentence_has_the_same_meaning",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Stars shine above the farm.",
+    "choices": [
+      "Stars shine over the farm.",
+      "Stars shine under the farm.",
+      "Stars shine near the farm.",
+      "Clouds shine above the farm."
+    ],
+    "answer_index": 0,
+    "explain_key": "above_over",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  }
+]

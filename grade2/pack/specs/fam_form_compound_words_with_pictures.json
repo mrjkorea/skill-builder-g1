@@ -1,0 +1,353 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_compound_words_with_pictures",
+  "family_title_en": "Form compound words with pictures",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_compound_words_with_pictures",
+      "ix_title": "Form compound words with pictures",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "What word do the pictures make?",
+        "ko": "두 그림이 만드는 낱말은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the one compound word.",
+        "ko": "합성어 하나를 누르세요."
+      },
+      "choice_rule": "Four lowercase closed compounds. Exactly one is the true join of the two media lemmas in left-to-right picture order. The other three follow the roots distractor_rules.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "afternoon",
+        "backpack",
+        "baseball",
+        "bedroom",
+        "birdcage",
+        "birdhouse",
+        "bookbag",
+        "butterfly",
+        "campfire",
+        "catfish",
+        "classroom",
+        "compound",
+        "cookbook",
+        "cupcake",
+        "daytime",
+        "doghouse",
+        "doorbell",
+        "driveway",
+        "firefly",
+        "fireman",
+        "firetruck",
+        "fishbowl",
+        "football",
+        "goldfish",
+        "hairbrush",
+        "handbag",
+        "hillside",
+        "homework",
+        "hotdog",
+        "housebird",
+        "lunchbox",
+        "lunchtime",
+        "mailbag",
+        "mailbox",
+        "mailman",
+        "milkshake",
+        "moonlight",
+        "nightlight",
+        "nighttime",
+        "notebook",
+        "paintbrush",
+        "pancake",
+        "pigpen",
+        "raincoat",
+        "sailboat",
+        "sandbox",
+        "sidewalk",
+        "snowball",
+        "snowman",
+        "softball",
+        "starfish",
+        "sunflower",
+        "sunhat",
+        "sunlight",
+        "sunshine",
+        "toothpaste",
+        "toothbrush",
+        "treetop"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_compound_words_with_pictures_0001",
+          "tier": 1,
+          "stem": "What word do these make?",
+          "choices": [
+            "sunflower",
+            "football",
+            "notebook",
+            "doorbell"
+          ],
+          "answer_index": 0,
+          "explain_key": "join_parts",
+          "media": [
+            {
+              "lemma": "sun"
+            },
+            {
+              "lemma": "flower"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_with_pictures_0002",
+          "tier": 1,
+          "stem": "Which word do they make?",
+          "choices": [
+            "pancake",
+            "doghouse",
+            "starfish",
+            "backpack"
+          ],
+          "answer_index": 1,
+          "explain_key": "join_parts",
+          "media": [
+            {
+              "lemma": "dog"
+            },
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_with_pictures_0003",
+          "tier": 1,
+          "stem": "Find the word they make.",
+          "choices": [
+            "sailboat",
+            "goldfish",
+            "cupcake",
+            "campfire"
+          ],
+          "answer_index": 2,
+          "explain_key": "join_parts",
+          "media": [
+            {
+              "lemma": "cup"
+            },
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_with_pictures_0004",
+          "tier": 2,
+          "stem": "Put the two words together.",
+          "choices": [
+            "football",
+            "baseball",
+            "snowball",
+            "softball"
+          ],
+          "answer_index": 0,
+          "explain_key": "first_then_second",
+          "media": [
+            {
+              "lemma": "foot"
+            },
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_with_pictures_0005",
+          "tier": 2,
+          "stem": "What word did they make?",
+          "choices": [
+            "snowball",
+            "fireman",
+            "mailman",
+            "snowman"
+          ],
+          "answer_index": 3,
+          "explain_key": "first_then_second",
+          "media": [
+            {
+              "lemma": "snow"
+            },
+            {
+              "lemma": "man"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_with_pictures_0006",
+          "tier": 2,
+          "stem": "Which word do they make?",
+          "choices": [
+            "rainbow",
+            "raincoat",
+            "sunshine",
+            "firetruck"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_just_one",
+          "media": [
+            {
+              "lemma": "rain"
+            },
+            {
+              "lemma": "coat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_with_pictures_0007",
+          "tier": 3,
+          "stem": "Put the two words together.",
+          "choices": [
+            "toothpaste",
+            "hairbrush",
+            "toothbrush",
+            "paintbrush"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_near",
+          "media": [
+            {
+              "lemma": "tooth"
+            },
+            {
+              "lemma": "brush"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_compound_words_with_pictures_0008",
+          "tier": 3,
+          "stem": "<NAME> needs the right word.",
+          "choices": [
+            "birdhouse",
+            "housebird",
+            "doghouse",
+            "birdcage"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_swapped",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bird"
+            },
+            {
+              "lemma": "house"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every choice is one closed compound in lowercase with no spaces or hyphens.",
+      "Exactly one choice is the true join of the two media lemmas in left-to-right order.",
+      "Never write either picture lemma in the stem, and never describe what a picture shows.",
+      "Never offer a two-word phrase, a definition, or a single picture lemma as a choice.",
+      "Tier 1 wrong choices share no part with the answer and come from home, food, pets, or play.",
+      "Tier 2 wrong choices share the first part or the last part, but not both.",
+      "Tier 3 uses near misses: swapped order, the same first part, or the same last part.",
+      "Both media lemmas must be concrete picturable words from kid life. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bfirst picture\\b",
+    "\\bsecond picture\\b",
+    "in the picture",
+    "looks like",
+    "this picture shows",
+    "\\/[^/\\s]+\\/"
+  ],
+  "tier_rules": {
+    "1": "Short stem of four to six words. Two clear picture lemmas. Wrong choices are unrelated compounds from home, food, pets, or play.",
+    "2": "Grade-level stem. Wrong choices share the first part or the last part with the answer, but not both parts.",
+    "3": "Near-miss compounds: swapped order, same first word, or same last word. Stem may use <NAME>."
+  },
+  "miss_explain": {
+    "join_parts": {
+      "en": "Put both picture words together to make one new word.",
+      "ko": "두 그림의 낱말을 붙여 하나의 새 낱말을 만듭니다."
+    },
+    "first_then_second": {
+      "en": "Say the first picture, then the second. That makes the compound word.",
+      "ko": "첫 그림 낱말을 말하고, 다음 그림 낱말을 이어서 말하세요."
+    },
+    "not_just_one": {
+      "en": "Use both pictures. A word that uses only one picture is not right.",
+      "ko": "두 그림을 모두 써야 합니다. 한쪽만 쓴 낱말은 오답입니다."
+    },
+    "not_near": {
+      "en": "That word is close, but it does not join these two pictures.",
+      "ko": "비슷한 말이지만 이 두 그림을 이은 낱말은 아닙니다."
+    },
+    "not_swapped": {
+      "en": "Keep the picture order. Do not switch the two words around.",
+      "ko": "그림 순서대로 붙이세요. 두 낱말의 자리를 바꾸면 안 됩니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form compound words with pictures"
+    ],
+    "no_ixl_text": true
+  }
+}

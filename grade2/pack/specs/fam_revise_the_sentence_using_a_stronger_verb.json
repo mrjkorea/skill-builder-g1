@@ -1,0 +1,311 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_revise_the_sentence_using_a_stronger_verb",
+  "family_title_en": "Revise the sentence using a stronger verb",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_revise_the_sentence_using_a_stronger_verb",
+      "ix_title": "Revise the sentence using a stronger verb",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Tap the stronger verb.",
+        "ko": "더 힘 있는 동사를 누르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the verb that makes the sentence stronger.",
+        "ko": "문장을 더 힘 있게 만드는 동사를 누르세요."
+      },
+      "choice_rule": "Four single verbs in the same tense or base form as the stem verb. Exactly one is a stronger verb that still fits the kid scene. Tiers 1 and 2 must include the original weak verb. Other distractors are weak verbs or, on tier 3, a strong verb that does not fit. Never use nouns, adjectives, or adverbs as choices.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "raced",
+        "dashed",
+        "hurried",
+        "skipped",
+        "marched",
+        "tiptoed",
+        "stomped",
+        "yelled",
+        "whispered",
+        "whisper",
+        "shouted",
+        "mumbled",
+        "grabbed",
+        "snatched",
+        "stared",
+        "stare",
+        "peeked",
+        "glared",
+        "gobbled",
+        "nibbled",
+        "slammed",
+        "stacked",
+        "tossed",
+        "rushed",
+        "poured",
+        "slumped",
+        "collapsed",
+        "sprinted",
+        "zoomed",
+        "crawled",
+        "cried",
+        "cheered",
+        "gulped",
+        "plopped",
+        "hiked",
+        "darted",
+        "jumped"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_revise_the_sentence_using_a_stronger_verb_0001",
+          "tier": 1,
+          "stem": "The dog went home.",
+          "choices": [
+            "raced",
+            "went",
+            "sat",
+            "saw"
+          ],
+          "answer_index": 0,
+          "explain_key": "motion_strong",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_revise_the_sentence_using_a_stronger_verb_0002",
+          "tier": 1,
+          "stem": "The kids said come here.",
+          "choices": [
+            "said",
+            "sat",
+            "yelled",
+            "had"
+          ],
+          "answer_index": 2,
+          "explain_key": "talk_strong",
+          "media": [
+            {
+              "lemma": "kids"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_revise_the_sentence_using_a_stronger_verb_0003",
+          "tier": 1,
+          "stem": "I got a big fish.",
+          "choices": [
+            "got",
+            "grabbed",
+            "saw",
+            "sat"
+          ],
+          "answer_index": 1,
+          "explain_key": "grab_strong",
+          "media": [
+            {
+              "lemma": "fish"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_revise_the_sentence_using_a_stronger_verb_0004",
+          "tier": 2,
+          "stem": "The bird went up high.",
+          "choices": [
+            "flew",
+            "went",
+            "sat",
+            "hid"
+          ],
+          "answer_index": 0,
+          "explain_key": "motion_strong",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_revise_the_sentence_using_a_stronger_verb_0005",
+          "tier": 2,
+          "stem": "My cat will look at the bird.",
+          "choices": [
+            "look",
+            "sit",
+            "walk",
+            "stare"
+          ],
+          "answer_index": 3,
+          "explain_key": "look_strong",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_revise_the_sentence_using_a_stronger_verb_0006",
+          "tier": 2,
+          "stem": "<NAME> put the books down.",
+          "choices": [
+            "put",
+            "slammed",
+            "saw",
+            "had"
+          ],
+          "answer_index": 1,
+          "explain_key": "slam_strong",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "books"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_revise_the_sentence_using_a_stronger_verb_0007",
+          "tier": 3,
+          "stem": "We can talk at bedtime.",
+          "choices": [
+            "shout",
+            "talk",
+            "whisper",
+            "sing"
+          ],
+          "answer_index": 2,
+          "explain_key": "quiet_fit"
+        },
+        {
+          "item_id": "roots_revise_the_sentence_using_a_stronger_verb_0008",
+          "tier": 3,
+          "stem": "The tired puppy sat on the bed.",
+          "choices": [
+            "slumped",
+            "sat",
+            "jumped",
+            "raced"
+          ],
+          "answer_index": 0,
+          "explain_key": "tired_fit",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer exactly four single verbs. Never change the count and never use a phrase.",
+      "One choice is a stronger verb that still fits the home, school, food, pet, play, family, or weather scene.",
+      "Tiers 1 and 2 must keep the original weak verb as a distractor.",
+      "Other wrong choices are weak verbs like went, said, got, look, put, sat, saw, or had.",
+      "On tier 3, include one strong verb that does not fit, such as shout at bedtime or jump when a puppy is tired.",
+      "Match tense or base form to the stem verb. Never use nouns, adjectives, or adverbs as choices."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bverb\\b",
+    "\\bweak\\b",
+    "\\bstronger\\b",
+    "\\brevise\\b",
+    "\\bsynonym\\b",
+    "\\bvivid\\b",
+    "\\bsentence\\b",
+    "\\breplace\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Weak verbs are went, said, or got. Distractors are that same weak verb plus other weak verbs. The right choice is an obvious stronger motion, talk, or grab verb.",
+    "2": "Grade-level stems of five to seven words, often with a two-syllable noun. Weak verbs are look, put, or went. Distractors stay weak and still make a possible sentence.",
+    "3": "Near-miss stems at or under ten words. Offer two strong verbs, but only one fits a quiet, tired, or other clear scene. Do not reward a vivid verb that breaks the meaning."
+  },
+  "miss_explain": {
+    "motion_strong": {
+      "en": "Went is a weak verb. Tap a verb that shows how they moved.",
+      "ko": "went는 약한 말이에요. 어떻게 움직였는지 보여 주는 동사를 고르세요."
+    },
+    "talk_strong": {
+      "en": "Said is a weak verb. Tap a verb that shows how they spoke.",
+      "ko": "said는 약한 말이에요. 어떻게 말했는지 보여 주는 동사를 고르세요."
+    },
+    "grab_strong": {
+      "en": "Got is a weak verb. Tap a verb that shows how they took it.",
+      "ko": "got는 약한 말이에요. 어떻게 집었는지 보여 주는 동사를 고르세요."
+    },
+    "look_strong": {
+      "en": "Look is a weak verb. Tap a verb that shows how they used their eyes.",
+      "ko": "look은 약한 말이에요. 어떻게 보았는지 보여 주는 동사를 고르세요."
+    },
+    "slam_strong": {
+      "en": "Put is a weak verb. Tap a verb that shows how they set it down.",
+      "ko": "put은 약한 말이에요. 어떻게 내려놓았는지 보여 주는 동사를 고르세요."
+    },
+    "quiet_fit": {
+      "en": "A stronger verb must still fit. Bedtime needs a quiet talking verb.",
+      "ko": "더 힘 있는 동사도 뜻에 맞아야 해요. 잠자리에선 조용히 말하는 말이 맞아요."
+    },
+    "tired_fit": {
+      "en": "A stronger verb must still fit. A tired puppy does not jump or race.",
+      "ko": "더 힘 있는 동사도 뜻에 맞아야 해요. 피곤한 강아지는 뛰거나 달리지 않아요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Revise the sentence using a stronger verb"
+    ],
+    "no_ixl_text": true
+  }
+}

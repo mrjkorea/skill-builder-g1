@@ -1,0 +1,2302 @@
+[
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0001",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> is tired. The walk was long.",
+    "choices": [
+      "because",
+      "and",
+      "but",
+      "or"
+    ],
+    "answer_index": 0,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "walk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0002",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Wash your hands. You eat.",
+    "choices": [
+      "and",
+      "but",
+      "before",
+      "or"
+    ],
+    "answer_index": 2,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hands"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0003",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog barks. He can hear thunder.",
+    "choices": [
+      "and",
+      "when",
+      "but",
+      "or"
+    ],
+    "answer_index": 1,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0004",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Put on a sock. You put on boots.",
+    "choices": [
+      "after",
+      "because",
+      "until",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0005",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I put the cup away. I drink.",
+    "choices": [
+      "after",
+      "before",
+      "because",
+      "until"
+    ],
+    "answer_index": 0,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0006",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Take a snack. You get hungry later.",
+    "choices": [
+      "because",
+      "if",
+      "until",
+      "while"
+    ],
+    "answer_index": 1,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0007",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> can keep the door shut. They come in.",
+    "choices": [
+      "when",
+      "if",
+      "until",
+      "because"
+    ],
+    "answer_index": 2,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0008",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I hum a song. I wash my hands.",
+    "choices": [
+      "until",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 3,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0009",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I feel hot. The sun shines.",
+    "choices": [
+      "but",
+      "and",
+      "or",
+      "because"
+    ],
+    "answer_index": 3,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0010",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We go inside. It rains.",
+    "choices": [
+      "or",
+      "but",
+      "when",
+      "and"
+    ],
+    "answer_index": 2,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0011",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Brush your teeth. You go to bed.",
+    "choices": [
+      "and",
+      "so",
+      "but",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teeth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0012",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat purrs. I pet her.",
+    "choices": [
+      "and",
+      "but",
+      "because",
+      "or"
+    ],
+    "answer_index": 2,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0013",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bell rings. We line up.",
+    "choices": [
+      "and",
+      "but",
+      "or",
+      "when"
+    ],
+    "answer_index": 3,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bell"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0014",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Tie your shoe. You run.",
+    "choices": [
+      "and",
+      "or",
+      "but",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0015",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My feet hurt. The walk was long.",
+    "choices": [
+      "but",
+      "and",
+      "because",
+      "so"
+    ],
+    "answer_index": 2,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0016",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I close my eyes. I sleep.",
+    "choices": [
+      "and",
+      "or",
+      "when",
+      "but"
+    ],
+    "answer_index": 2,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0017",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Read the book. You watch TV.",
+    "choices": [
+      "before",
+      "but",
+      "and",
+      "or"
+    ],
+    "answer_index": 0,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0018",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We stay home. The snow falls.",
+    "choices": [
+      "but",
+      "or",
+      "because",
+      "and"
+    ],
+    "answer_index": 2,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0019",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog wags. I come home.",
+    "choices": [
+      "but",
+      "and",
+      "or",
+      "when"
+    ],
+    "answer_index": 3,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0020",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Wash the apple. You eat it.",
+    "choices": [
+      "or",
+      "but",
+      "and",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0021",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I am sad. My toy broke.",
+    "choices": [
+      "or",
+      "and",
+      "because",
+      "but"
+    ],
+    "answer_index": 2,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0022",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We eat cake. We sing.",
+    "choices": [
+      "but",
+      "or",
+      "and",
+      "when"
+    ],
+    "answer_index": 3,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0023",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Put on your hat. You go out.",
+    "choices": [
+      "before",
+      "and",
+      "so",
+      "but"
+    ],
+    "answer_index": 0,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0024",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The baby cries. She is hungry.",
+    "choices": [
+      "or",
+      "because",
+      "but",
+      "and"
+    ],
+    "answer_index": 1,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0025",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I wave. The bus leaves.",
+    "choices": [
+      "and",
+      "or",
+      "but",
+      "when"
+    ],
+    "answer_index": 3,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0026",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Pack your bag. You leave.",
+    "choices": [
+      "and",
+      "or",
+      "before",
+      "but"
+    ],
+    "answer_index": 2,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0027",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I drink water. I am thirsty.",
+    "choices": [
+      "or",
+      "but",
+      "and",
+      "because"
+    ],
+    "answer_index": 3,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "water"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0028",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl hoots. It gets dark.",
+    "choices": [
+      "when",
+      "and",
+      "but",
+      "or"
+    ],
+    "answer_index": 0,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0029",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Turn off the light. You sleep.",
+    "choices": [
+      "before",
+      "but",
+      "or",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "light"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0030",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We wear coats. It is cold.",
+    "choices": [
+      "because",
+      "or",
+      "but",
+      "and"
+    ],
+    "answer_index": 0,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0031",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Be quiet. The baby sleeps.",
+    "choices": [
+      "and",
+      "or",
+      "but",
+      "when"
+    ],
+    "answer_index": 3,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0032",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Set the table. We eat dinner.",
+    "choices": [
+      "but",
+      "or",
+      "before",
+      "and"
+    ],
+    "answer_index": 2,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0033",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> smiles. He got a gift.",
+    "choices": [
+      "but",
+      "because",
+      "and",
+      "or"
+    ],
+    "answer_index": 1,
+    "explain_key": "because",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0034",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The frog croaks. Night comes.",
+    "choices": [
+      "and",
+      "or",
+      "when",
+      "but"
+    ],
+    "answer_index": 2,
+    "explain_key": "when",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0035",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Look both ways. You cross.",
+    "choices": [
+      "or",
+      "but",
+      "and",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0036",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We play games. We eat lunch.",
+    "choices": [
+      "before",
+      "when",
+      "after",
+      "because"
+    ],
+    "answer_index": 2,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0037",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Take a coat. It might rain.",
+    "choices": [
+      "when",
+      "because",
+      "if",
+      "until"
+    ],
+    "answer_index": 2,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0038",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Get the oats. You cook breakfast.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "oats"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0039",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I wash my hands. I dry them.",
+    "choices": [
+      "because",
+      "after",
+      "if",
+      "before"
+    ],
+    "answer_index": 1,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0040",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Wear a coat. You feel cold.",
+    "choices": [
+      "if",
+      "until",
+      "when",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0041",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Make a hole. You plant the seed.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "until"
+    ],
+    "answer_index": 0,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0042",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We sing a song. We clean up.",
+    "choices": [
+      "before",
+      "when",
+      "after",
+      "because"
+    ],
+    "answer_index": 2,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0043",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Save your seat. You might leave.",
+    "choices": [
+      "because",
+      "after",
+      "if",
+      "while"
+    ],
+    "answer_index": 2,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0044",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Write your name. You turn it in.",
+    "choices": [
+      "after",
+      "because",
+      "when",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0045",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I brush my teeth. I go to bed.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 1,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0046",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Bring a snack. You get hungry.",
+    "choices": [
+      "if",
+      "before",
+      "because",
+      "when"
+    ],
+    "answer_index": 0,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0047",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Wipe the lid. You open the jar.",
+    "choices": [
+      "after",
+      "before",
+      "if",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jar"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0048",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The movie ends. We clap.",
+    "choices": [
+      "if",
+      "before",
+      "because",
+      "after"
+    ],
+    "answer_index": 3,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0049",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Keep your shoes on. We might run.",
+    "choices": [
+      "when",
+      "because",
+      "if",
+      "until"
+    ],
+    "answer_index": 2,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0050",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pour the cereal. You add the milk.",
+    "choices": [
+      "because",
+      "after",
+      "before",
+      "if"
+    ],
+    "answer_index": 2,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cereal"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0051",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sun sets. We go home.",
+    "choices": [
+      "when",
+      "before",
+      "because",
+      "after"
+    ],
+    "answer_index": 3,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0052",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Take a rest. You feel tired later.",
+    "choices": [
+      "while",
+      "if",
+      "before",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0053",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick up toys. You go play outside.",
+    "choices": [
+      "after",
+      "before",
+      "if",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0054",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I say thank you. I get a treat.",
+    "choices": [
+      "because",
+      "after",
+      "if",
+      "before"
+    ],
+    "answer_index": 1,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0055",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Close the gate. The dog might run.",
+    "choices": [
+      "until",
+      "because",
+      "when",
+      "if"
+    ],
+    "answer_index": 3,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0056",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Get the fish food. You feed the fish.",
+    "choices": [
+      "after",
+      "because",
+      "before",
+      "if"
+    ],
+    "answer_index": 2,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0057",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We finish math. We have recess.",
+    "choices": [
+      "when",
+      "after",
+      "before",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0058",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Wear a hat. It might hail.",
+    "choices": [
+      "because",
+      "before",
+      "until",
+      "if"
+    ],
+    "answer_index": 3,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0059",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Count to ten. You hide.",
+    "choices": [
+      "if",
+      "after",
+      "because",
+      "before"
+    ],
+    "answer_index": 3,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0060",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We wait a bit. We eat cake.",
+    "choices": [
+      "before",
+      "when",
+      "because",
+      "after"
+    ],
+    "answer_index": 3,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0061",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Hold my hand. The path is steep.",
+    "choices": [
+      "if",
+      "while",
+      "when",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0062",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Read the sign. You cross the street.",
+    "choices": [
+      "before",
+      "because",
+      "when",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sign"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0063",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I wake up. I eat breakfast.",
+    "choices": [
+      "if",
+      "after",
+      "because",
+      "before"
+    ],
+    "answer_index": 1,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "breakfast"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0064",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Take a hat. The wind blows.",
+    "choices": [
+      "if",
+      "when",
+      "because",
+      "before"
+    ],
+    "answer_index": 0,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0065",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Blow on the soup. You take a bite.",
+    "choices": [
+      "before",
+      "after",
+      "because",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0066",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The horn rings. We line up.",
+    "choices": [
+      "before",
+      "because",
+      "when",
+      "after"
+    ],
+    "answer_index": 3,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0067",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Write it down. You may lose it.",
+    "choices": [
+      "until",
+      "when",
+      "because",
+      "if"
+    ],
+    "answer_index": 3,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0068",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Ask for help. You try again.",
+    "choices": [
+      "if",
+      "before",
+      "because",
+      "after"
+    ],
+    "answer_index": 1,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0069",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "I lock the door. I leave home.",
+    "choices": [
+      "before",
+      "because",
+      "when",
+      "after"
+    ],
+    "answer_index": 3,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0070",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Sit on the rug. We might read.",
+    "choices": [
+      "until",
+      "before",
+      "if",
+      "because"
+    ],
+    "answer_index": 2,
+    "explain_key": "if",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0071",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Wash the pot. You cook soup.",
+    "choices": [
+      "after",
+      "if",
+      "before",
+      "because"
+    ],
+    "answer_index": 2,
+    "explain_key": "before",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0072",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The game starts. We kick off.",
+    "choices": [
+      "after",
+      "before",
+      "when",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "after",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0073",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Wait by the door. Mom comes back.",
+    "choices": [
+      "because",
+      "until",
+      "if",
+      "when"
+    ],
+    "answer_index": 1,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0074",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I turn the soup. It cooks.",
+    "choices": [
+      "after",
+      "because",
+      "while",
+      "until"
+    ],
+    "answer_index": 2,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0075",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Keep your boots on. The mud dries.",
+    "choices": [
+      "when",
+      "because",
+      "until",
+      "if"
+    ],
+    "answer_index": 2,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0076",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We wait in line. The teacher talks.",
+    "choices": [
+      "after",
+      "because",
+      "before",
+      "while"
+    ],
+    "answer_index": 3,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0077",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Stay in the shade. The sun goes down.",
+    "choices": [
+      "until",
+      "if",
+      "when",
+      "because"
+    ],
+    "answer_index": 0,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0078",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I play music. I draw.",
+    "choices": [
+      "because",
+      "while",
+      "after",
+      "until"
+    ],
+    "answer_index": 1,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "music"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0079",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> holds the kite. The wind stops.",
+    "choices": [
+      "if",
+      "when",
+      "because",
+      "until"
+    ],
+    "answer_index": 3,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0080",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The rain falls. We read inside.",
+    "choices": [
+      "because",
+      "before",
+      "while",
+      "after"
+    ],
+    "answer_index": 2,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0081",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Do not open it. The pie cools.",
+    "choices": [
+      "because",
+      "if",
+      "until",
+      "when"
+    ],
+    "answer_index": 2,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0082",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You sleep. I watch the stars.",
+    "choices": [
+      "until",
+      "while",
+      "after",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0083",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Hold the rope. I climb down.",
+    "choices": [
+      "before",
+      "until",
+      "when",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0084",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I chew slowly. I eat lunch.",
+    "choices": [
+      "after",
+      "until",
+      "because",
+      "while"
+    ],
+    "answer_index": 3,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0085",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We play outside. The wind is strong.",
+    "choices": [
+      "because",
+      "if",
+      "when",
+      "although"
+    ],
+    "answer_index": 3,
+    "explain_key": "although",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0086",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The soup cools. I set the table.",
+    "choices": [
+      "because",
+      "after",
+      "until",
+      "while"
+    ],
+    "answer_index": 3,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0087",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Keep the pot on. The butter melts.",
+    "choices": [
+      "until",
+      "because",
+      "when",
+      "after"
+    ],
+    "answer_index": 0,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0088",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You miss the snack. You do your work.",
+    "choices": [
+      "when",
+      "unless",
+      "if",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "unless",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snack"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0089",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I count sheep. I try to sleep.",
+    "choices": [
+      "until",
+      "while",
+      "after",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0090",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Keep your eyes shut. We hide the gift.",
+    "choices": [
+      "until",
+      "because",
+      "when",
+      "if"
+    ],
+    "answer_index": 0,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0091",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wind blows. We fly kites.",
+    "choices": [
+      "while",
+      "after",
+      "because",
+      "before"
+    ],
+    "answer_index": 0,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0092",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Save me a seat. I get there.",
+    "choices": [
+      "if",
+      "because",
+      "until",
+      "when"
+    ],
+    "answer_index": 2,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0093",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We walk to school. It rains.",
+    "choices": [
+      "before",
+      "when",
+      "although",
+      "because"
+    ],
+    "answer_index": 2,
+    "explain_key": "although",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0094",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mom cooks dinner. I set the table.",
+    "choices": [
+      "because",
+      "until",
+      "while",
+      "after"
+    ],
+    "answer_index": 2,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0095",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Stay in the coat. The bus comes.",
+    "choices": [
+      "before",
+      "until",
+      "when",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0096",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I hold the map. We walk the path.",
+    "choices": [
+      "because",
+      "before",
+      "until",
+      "while"
+    ],
+    "answer_index": 3,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0097",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Watch the oven. The cookies bake.",
+    "choices": [
+      "after",
+      "because",
+      "until",
+      "when"
+    ],
+    "answer_index": 2,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0098",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> stacks blocks. I get more blocks.",
+    "choices": [
+      "until",
+      "while",
+      "before",
+      "because"
+    ],
+    "answer_index": 1,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0099",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Clap your hands. The play ends.",
+    "choices": [
+      "because",
+      "until",
+      "if",
+      "when"
+    ],
+    "answer_index": 1,
+    "explain_key": "until",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_use_subordinating_conjunctions_0100",
+    "family_id": "fam_use_subordinating_conjunctions",
+    "skill_id": "roots_use_subordinating_conjunctions",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We share one coat. We walk home.",
+    "choices": [
+      "until",
+      "after",
+      "because",
+      "while"
+    ],
+    "answer_index": 3,
+    "explain_key": "while",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  }
+]

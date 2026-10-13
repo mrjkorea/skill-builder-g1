@@ -1,0 +1,280 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_possessive_pronouns",
+  "family_title_en": "Identify possessive pronouns",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_possessive_pronouns",
+      "ix_title": "Identify possessive pronouns",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is a possessive pronoun?",
+        "ko": "소유 대명사는 어느 단어인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the possessive pronoun.",
+        "ko": "소유 대명사를 누르세요."
+      },
+      "choice_rule": "Build four unique lowercase words. Exactly one is a possessive pronoun from mine, yours, his, hers, ours, theirs. Take the other three from the stem: prefer a possessive adjective (my, your, her, our, their), a personal pronoun (i, me, you, he, him, she, we, us, they, them), or the owned noun. Never two possessive pronouns. Never its as the answer. Never a noun with 's. Shuffle so the answer is not always first.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "yours",
+        "hers",
+        "ours",
+        "theirs"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_possessive_pronouns_0001",
+          "tier": 1,
+          "stem": "The ball is mine.",
+          "choices": [
+            "mine",
+            "ball",
+            "the",
+            "is"
+          ],
+          "answer_index": 0,
+          "explain_key": "mine",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_possessive_pronouns_0002",
+          "tier": 1,
+          "stem": "This book is yours.",
+          "choices": [
+            "book",
+            "this",
+            "yours",
+            "is"
+          ],
+          "answer_index": 2,
+          "explain_key": "yours",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_possessive_pronouns_0003",
+          "tier": 1,
+          "stem": "The puppy is his.",
+          "choices": [
+            "puppy",
+            "his",
+            "the",
+            "is"
+          ],
+          "answer_index": 1,
+          "explain_key": "his",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_possessive_pronouns_0004",
+          "tier": 2,
+          "stem": "She said the cookie is hers.",
+          "choices": [
+            "hers",
+            "she",
+            "cookie",
+            "said"
+          ],
+          "answer_index": 0,
+          "explain_key": "hers",
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_possessive_pronouns_0005",
+          "tier": 2,
+          "stem": "We know the kite is ours.",
+          "choices": [
+            "kite",
+            "we",
+            "know",
+            "ours"
+          ],
+          "answer_index": 3,
+          "explain_key": "ours",
+          "media": [
+            {
+              "lemma": "kite"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_possessive_pronouns_0006",
+          "tier": 2,
+          "stem": "They think the cat is theirs.",
+          "choices": [
+            "they",
+            "cat",
+            "theirs",
+            "think"
+          ],
+          "answer_index": 2,
+          "explain_key": "theirs",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_possessive_pronouns_0007",
+          "tier": 3,
+          "stem": "<NAME> likes my hat, not yours.",
+          "choices": [
+            "my",
+            "yours",
+            "hat",
+            "likes"
+          ],
+          "answer_index": 1,
+          "explain_key": "yours",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "hat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_possessive_pronouns_0008",
+          "tier": 3,
+          "stem": "This is their cake, not ours.",
+          "choices": [
+            "their",
+            "cake",
+            "this",
+            "ours"
+          ],
+          "answer_index": 3,
+          "explain_key": "ours",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Every stem is one kid-world sentence with exactly one possessive pronoun used alone after a linking verb or after not/or (the ball is mine; not yours).",
+      "Correct answers may be only mine, yours, his, hers, ours, or theirs. Never its. Never my, your, her, our, their. Never a noun with 's.",
+      "Use his as the answer only in a stand-alone slot (is his, are his). Never his hat.",
+      "Wrong choices must come from the stem. On tier 2 include a personal pronoun. On tier 3 include a possessive adjective in the stem and as a choice.",
+      "Spread mine, yours, his, hers, ours, and theirs across the pool. Use <NAME> for people. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bpronoun\\b",
+    "\\badjective\\b",
+    "\\bgrammar\\b",
+    "\\bjohn\\b",
+    "\\bdavid\\b",
+    "\\bebey\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "'s"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. The pronoun follows is or are. Distractors are the noun, the, is, or this. Add a lemma picture of the noun.",
+    "2": "Stems of five to seven words. Add a personal pronoun (she, we, they) as a trap. Use two-syllable kid nouns such as cookie, puppy, or kite.",
+    "3": "Stems of six to ten words. Put a possessive adjective (my, your, her, our, their) in the same stem as the pronoun so that adjective is the main trap."
+  },
+  "miss_explain": {
+    "mine": {
+      "en": "Mine stands alone. It means the thing belongs to me.",
+      "ko": "Mine은 혼자 씁니다. 그 물건이 내 것이라는 뜻입니다."
+    },
+    "yours": {
+      "en": "Yours stands alone. It means the thing belongs to you.",
+      "ko": "Yours는 혼자 씁니다. 그 물건이 네 것이라는 뜻입니다."
+    },
+    "his": {
+      "en": "His can stand alone. It means the thing belongs to him.",
+      "ko": "His는 혼자 쓸 수 있습니다. 그 물건이 그의 것이라는 뜻입니다."
+    },
+    "hers": {
+      "en": "Hers stands alone. It means the thing belongs to her.",
+      "ko": "Hers는 혼자 씁니다. 그 물건이 그녀의 것이라는 뜻입니다."
+    },
+    "ours": {
+      "en": "Ours stands alone. It means the thing belongs to us.",
+      "ko": "Ours는 혼자 씁니다. 그 물건이 우리 것이라는 뜻입니다."
+    },
+    "theirs": {
+      "en": "Theirs stands alone. It means the thing belongs to them.",
+      "ko": "Theirs는 혼자 씁니다. 그 물건이 그들 것이라는 뜻입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify possessive pronouns"
+    ],
+    "no_ixl_text": true
+  }
+}

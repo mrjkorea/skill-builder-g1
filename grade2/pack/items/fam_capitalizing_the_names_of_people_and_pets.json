@@ -1,0 +1,2462 @@
+[
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0001",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog ran to <NAME>.",
+    "choices": [
+      "dog",
+      "ran",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0002",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They named the cat <NAME>.",
+    "choices": [
+      "named",
+      "the",
+      "cat",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0003",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> has a red ball.",
+    "choices": [
+      "<NAME>",
+      "has",
+      "red",
+      "ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0004",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The teacher saw <NAME> today.",
+    "choices": [
+      "teacher",
+      "saw",
+      "today",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0005",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our family has a dog named <NAME>.",
+    "choices": [
+      "family",
+      "dog",
+      "named",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0006",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy and <NAME> play ball.",
+    "choices": [
+      "boy",
+      "and",
+      "play",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0007",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My mom called <NAME> after lunch.",
+    "choices": [
+      "mom",
+      "called",
+      "lunch",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0008",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My grandma saw <NAME> at school.",
+    "choices": [
+      "grandma",
+      "saw",
+      "school",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0009",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We feed the fish <NAME>.",
+    "choices": [
+      "feed",
+      "fish",
+      "the",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0010",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bird sang to <NAME>.",
+    "choices": [
+      "bird",
+      "sang",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0011",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My pet rabbit is <NAME>.",
+    "choices": [
+      "pet",
+      "rabbit",
+      "is",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0012",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The puppy ran to <NAME>.",
+    "choices": [
+      "puppy",
+      "ran",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0013",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I give the dog to <NAME>.",
+    "choices": [
+      "give",
+      "dog",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0014",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hamster hid from <NAME>.",
+    "choices": [
+      "hamster",
+      "hid",
+      "from",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "hamster"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0015",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We got a kitten named <NAME>.",
+    "choices": [
+      "got",
+      "kitten",
+      "named",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0016",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The turtle ran to <NAME>.",
+    "choices": [
+      "turtle",
+      "ran",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0017",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Our goldfish swim for <NAME>.",
+    "choices": [
+      "goldfish",
+      "swim",
+      "for",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "goldfish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0018",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The frog hop near <NAME>.",
+    "choices": [
+      "frog",
+      "hop",
+      "near",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0019",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat nap by <NAME>.",
+    "choices": [
+      "cat",
+      "nap",
+      "by",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0020",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The duck ran home with <NAME>.",
+    "choices": [
+      "duck",
+      "ran",
+      "home",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0021",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We call our dog <NAME>.",
+    "choices": [
+      "call",
+      "our",
+      "dog",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0022",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The mouse ran to <NAME>.",
+    "choices": [
+      "mouse",
+      "ran",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0023",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My parrot sat by <NAME>.",
+    "choices": [
+      "parrot",
+      "sat",
+      "by",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "parrot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0024",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rat ran to <NAME>.",
+    "choices": [
+      "rat",
+      "ran",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0025",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We named the pony <NAME>.",
+    "choices": [
+      "named",
+      "pony",
+      "the",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0026",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cow ran to <NAME>.",
+    "choices": [
+      "cow",
+      "ran",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0027",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The horse wait for <NAME>.",
+    "choices": [
+      "horse",
+      "wait",
+      "for",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0028",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pig ran with <NAME>.",
+    "choices": [
+      "pig",
+      "ran",
+      "with",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0029",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We found a cat named <NAME>.",
+    "choices": [
+      "found",
+      "cat",
+      "named",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0030",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bug hop near <NAME>.",
+    "choices": [
+      "bug",
+      "hop",
+      "near",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0031",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl sat by <NAME>.",
+    "choices": [
+      "owl",
+      "sat",
+      "by",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0032",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fox ran to <NAME>.",
+    "choices": [
+      "fox",
+      "ran",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0033",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We love our pet <NAME>.",
+    "choices": [
+      "love",
+      "our",
+      "pet",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0034",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "<NAME> has a red kite.",
+    "choices": [
+      "<NAME>",
+      "has",
+      "red",
+      "kite"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0035",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fish swim to <NAME>.",
+    "choices": [
+      "fish",
+      "swim",
+      "to",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0036",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl wave at <NAME>.",
+    "choices": [
+      "girl",
+      "wave",
+      "at",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0037",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My friend saw <NAME> at recess.",
+    "choices": [
+      "friend",
+      "saw",
+      "recess",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0038",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The student help <NAME> today.",
+    "choices": [
+      "student",
+      "help",
+      "today",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0039",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our neighbor know <NAME> well.",
+    "choices": [
+      "neighbor",
+      "know",
+      "well",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0040",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids play with <NAME> outside.",
+    "choices": [
+      "kids",
+      "play",
+      "outside",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0041",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My buddy sat by <NAME> today.",
+    "choices": [
+      "buddy",
+      "sat",
+      "today",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0042",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy sleep near <NAME>.",
+    "choices": [
+      "puppy",
+      "sleep",
+      "near",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0043",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We walk the dog with <NAME>.",
+    "choices": [
+      "walk",
+      "dog",
+      "with",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0044",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl share lunch with <NAME>.",
+    "choices": [
+      "girl",
+      "share",
+      "lunch",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0045",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy build blocks with <NAME>.",
+    "choices": [
+      "boy",
+      "build",
+      "blocks",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0046",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The teacher read to <NAME> today.",
+    "choices": [
+      "teacher",
+      "read",
+      "today",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0047",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My cousin visit <NAME> after school.",
+    "choices": [
+      "cousin",
+      "visit",
+      "school",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0048",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The team pick <NAME> for leader.",
+    "choices": [
+      "team",
+      "pick",
+      "leader",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0049",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We named our hamster <NAME> yesterday.",
+    "choices": [
+      "named",
+      "hamster",
+      "yesterday",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "hamster"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0050",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The parrot sat by <NAME> at home.",
+    "choices": [
+      "parrot",
+      "sat",
+      "home",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "parrot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0051",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl draw a picture for <NAME>.",
+    "choices": [
+      "girl",
+      "draw",
+      "picture",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0052",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy throw the ball to <NAME>.",
+    "choices": [
+      "boy",
+      "throw",
+      "ball",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0053",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our family got a cat named <NAME>.",
+    "choices": [
+      "family",
+      "got",
+      "cat",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0054",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy chew shoe near <NAME>.",
+    "choices": [
+      "puppy",
+      "chew",
+      "shoe",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0055",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids sing a song for <NAME>.",
+    "choices": [
+      "kids",
+      "sing",
+      "song",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0056",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My pal share cookies with <NAME>.",
+    "choices": [
+      "pal",
+      "share",
+      "cookies",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0057",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl ride bike with <NAME>.",
+    "choices": [
+      "girl",
+      "ride",
+      "bike",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0058",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy feed the fish for <NAME>.",
+    "choices": [
+      "boy",
+      "feed",
+      "fish",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0059",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We buy a goldfish named <NAME>.",
+    "choices": [
+      "buy",
+      "goldfish",
+      "named",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0060",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The teacher give cards to <NAME>.",
+    "choices": [
+      "teacher",
+      "give",
+      "cards",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0061",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl write a note for <NAME>.",
+    "choices": [
+      "girl",
+      "write",
+      "note",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0062",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy run race with <NAME>.",
+    "choices": [
+      "boy",
+      "run",
+      "race",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0063",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Our pet turtle live with <NAME> now.",
+    "choices": [
+      "pet",
+      "turtle",
+      "now",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0064",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids build a fort with <NAME>.",
+    "choices": [
+      "kids",
+      "build",
+      "fort",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0065",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl pick flower for <NAME>.",
+    "choices": [
+      "girl",
+      "pick",
+      "flower",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0066",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy fix a kite for <NAME>.",
+    "choices": [
+      "boy",
+      "fix",
+      "kite",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0067",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We got a pony named <NAME> last week.",
+    "choices": [
+      "got",
+      "pony",
+      "week",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0068",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy wags tail at <NAME>.",
+    "choices": [
+      "puppy",
+      "wags",
+      "tail",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0069",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl make a card for <NAME>.",
+    "choices": [
+      "girl",
+      "make",
+      "card",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0070",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boy share toy with <NAME>.",
+    "choices": [
+      "boy",
+      "share",
+      "toy",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0071",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids eat snack with <NAME> today.",
+    "choices": [
+      "kids",
+      "eat",
+      "snack",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0072",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> and the girl play games.",
+    "choices": [
+      "<NAME>",
+      "girl",
+      "play",
+      "games"
+    ],
+    "answer_index": 0,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0073",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My dad drive <NAME> to school today.",
+    "choices": [
+      "dad",
+      "drive",
+      "school",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0074",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My sister play games with <NAME> after lunch.",
+    "choices": [
+      "sister",
+      "play",
+      "lunch",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0075",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My brother share his toy with <NAME> yesterday.",
+    "choices": [
+      "brother",
+      "share",
+      "toy",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0076",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My aunt bake cookies for <NAME> on Friday.",
+    "choices": [
+      "aunt",
+      "bake",
+      "cookies",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0077",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My grandpa tell a story to <NAME> at bedtime.",
+    "choices": [
+      "grandpa",
+      "tell",
+      "story",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0078",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My mom pack lunch for <NAME> this morning.",
+    "choices": [
+      "mom",
+      "pack",
+      "lunch",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0079",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My dad fix a bike for <NAME> after work.",
+    "choices": [
+      "dad",
+      "fix",
+      "bike",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0080",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My sister draw pictures with <NAME> in art class.",
+    "choices": [
+      "sister",
+      "draw",
+      "pictures",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0081",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My brother help <NAME> clean the kitchen.",
+    "choices": [
+      "brother",
+      "help",
+      "clean",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0082",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My grandma make soup for <NAME> when it rain.",
+    "choices": [
+      "grandma",
+      "make",
+      "soup",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0083",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My mom read a book to <NAME> before nap time.",
+    "choices": [
+      "mom",
+      "read",
+      "book",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0084",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My dad take <NAME> to the park on Saturday.",
+    "choices": [
+      "dad",
+      "take",
+      "park",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0085",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My sister give a pencil to <NAME> during math.",
+    "choices": [
+      "sister",
+      "give",
+      "pencil",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0086",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My brother build a fort with <NAME> in winter.",
+    "choices": [
+      "brother",
+      "build",
+      "fort",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0087",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My aunt send a card to <NAME> on her birthday.",
+    "choices": [
+      "aunt",
+      "send",
+      "card",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0088",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My grandpa show <NAME> how to fly a kite.",
+    "choices": [
+      "grandpa",
+      "show",
+      "fly",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0089",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We named our new puppy <NAME> last night.",
+    "choices": [
+      "named",
+      "new",
+      "puppy",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0090",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My mom wash the dog for <NAME> after play.",
+    "choices": [
+      "mom",
+      "wash",
+      "dog",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0091",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My dad build a box for our hamster <NAME>.",
+    "choices": [
+      "dad",
+      "build",
+      "box",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "hamster"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0092",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My sister feed the cat for <NAME> after school.",
+    "choices": [
+      "sister",
+      "feed",
+      "cat",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0093",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My brother walk the dog with <NAME> at night.",
+    "choices": [
+      "brother",
+      "walk",
+      "dog",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0094",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My grandma knit a blanket for our kitten <NAME>.",
+    "choices": [
+      "grandma",
+      "knit",
+      "blanket",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0095",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My mom buy fish food for our goldfish <NAME>.",
+    "choices": [
+      "mom",
+      "buy",
+      "food",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0096",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My dad fix the gate for our pony <NAME>.",
+    "choices": [
+      "dad",
+      "fix",
+      "gate",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0097",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My sister brush the horse for <NAME> after lunch.",
+    "choices": [
+      "sister",
+      "brush",
+      "horse",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "person_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0098",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My brother clean the tub for our turtle <NAME>.",
+    "choices": [
+      "brother",
+      "clean",
+      "tub",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0099",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My aunt bring treat for our parrot <NAME>.",
+    "choices": [
+      "aunt",
+      "bring",
+      "treat",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "parrot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_capitalizing_the_names_of_people_and_pets_0100",
+    "family_id": "fam_capitalizing_the_names_of_people_and_pets",
+    "skill_id": "roots_capitalizing_the_names_of_people_and_pets",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My grandpa fix a box for our bird <NAME>.",
+    "choices": [
+      "grandpa",
+      "fix",
+      "box",
+      "<NAME>"
+    ],
+    "answer_index": 3,
+    "explain_key": "pet_name",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  }
+]

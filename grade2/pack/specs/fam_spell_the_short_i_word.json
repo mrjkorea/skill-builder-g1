@@ -1,0 +1,295 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_short_i_word",
+  "family_title_en": "Spell the short i word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_short_i_word",
+      "ix_title": "Spell the short i word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어떤 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right short i spelling.",
+        "ko": "맞는 단모음 i 철자를 누르세요."
+      },
+      "choice_rule": "Every item has one media lemma, the picture of a short i word. Give four different whole-word spellings. The correct choice equals that lemma. The other three are misspellings: a different vowel, a silent e, or one letter added, dropped, or swapped. Do not offer a second real short i word, a single letter, or a sound symbol.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bib",
+        "clip",
+        "dig",
+        "drip",
+        "fig",
+        "fist",
+        "grin",
+        "grip",
+        "kiss",
+        "lid",
+        "mist",
+        "mix",
+        "pit",
+        "rib",
+        "ring",
+        "sip",
+        "slip",
+        "spin",
+        "thick",
+        "thin",
+        "tip",
+        "trick",
+        "twin"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_short_i_word_0001",
+          "tier": 1,
+          "stem": "Spell the short i word.",
+          "choices": [
+            "pig",
+            "pag",
+            "peg",
+            "pog"
+          ],
+          "answer_index": 0,
+          "explain_key": "cvc_i",
+          "media": [
+            {
+              "lemma": "pig"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_i_word_0002",
+          "tier": 1,
+          "stem": "Tap the short i word.",
+          "choices": [
+            "fash",
+            "fish",
+            "fesh",
+            "fosh"
+          ],
+          "answer_index": 1,
+          "explain_key": "cvc_i",
+          "media": [
+            {
+              "lemma": "fish"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_i_word_0003",
+          "tier": 1,
+          "stem": "Which short i word is it?",
+          "choices": [
+            "pan",
+            "pen",
+            "pin",
+            "pon"
+          ],
+          "answer_index": 2,
+          "explain_key": "cvc_i",
+          "media": [
+            {
+              "lemma": "pin"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_i_word_0004",
+          "tier": 2,
+          "stem": "Pick the short i spelling.",
+          "choices": [
+            "melk",
+            "malk",
+            "milke",
+            "milk"
+          ],
+          "answer_index": 3,
+          "explain_key": "no_silent_e",
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_i_word_0005",
+          "tier": 2,
+          "stem": "Tap the right short i word.",
+          "choices": [
+            "shep",
+            "ship",
+            "shap",
+            "shipe"
+          ],
+          "answer_index": 1,
+          "explain_key": "no_silent_e",
+          "media": [
+            {
+              "lemma": "ship"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_i_word_0006",
+          "tier": 2,
+          "stem": "Which spelling is the short i word?",
+          "choices": [
+            "ribbon",
+            "ribon",
+            "rabbon",
+            "ribbone"
+          ],
+          "answer_index": 0,
+          "explain_key": "double_letter",
+          "media": [
+            {
+              "lemma": "ribbon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_i_word_0007",
+          "tier": 3,
+          "stem": "<NAME> can spell this short i word.",
+          "choices": [
+            "miten",
+            "mittin",
+            "mitten",
+            "mittenn"
+          ],
+          "answer_index": 2,
+          "explain_key": "double_letter",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "mitten"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_i_word_0008",
+          "tier": 3,
+          "stem": "Spell this short i word for <NAME>.",
+          "choices": [
+            "childern",
+            "chidren",
+            "childen",
+            "children"
+          ],
+          "answer_index": 3,
+          "explain_key": "two_part_i",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "children"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four whole-word spellings and exactly one correct short i spelling.",
+      "The correct choice matches the picture lemma. Do not print that spelling in the stem.",
+      "Wrong choices change the vowel, add a silent e, drop a letter, double the wrong letter, or swap two letters.",
+      "Use obvious vowel swaps for tier 1 and one-letter near misses for tier 3.",
+      "Never offer a lone letter, a slash sound, IPA, or a held phoneme as a choice.",
+      "Do not use a second real short i word as a distractor.",
+      "Rotate answer_index so the correct spelling is not always in the same slot.",
+      "Tag cvc_i, no_silent_e, double_letter, or two_part_i to match the spelling trap."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "/",
+    "\\bsex\\b",
+    "æ",
+    "ɪ",
+    "ə"
+  ],
+  "tier_rules": {
+    "1": "Picture of a one-syllable short i word. Stem of five or six words. Each distractor changes the vowel i to a, e, or o so the real spelling stands out.",
+    "2": "One or two syllable short i words from pets, food, home, weather, or play. Distractors are a vowel change, a silent e, or a missing double letter. Stems stay at five to seven words.",
+    "3": "Two-syllable short i words. Every distractor is one letter off: dropped, added, or swapped. Stems use <NAME> and run seven to ten words."
+  },
+  "miss_explain": {
+    "cvc_i": {
+      "en": "The short i sound is spelled with the letter i, as in pig and pin.",
+      "ko": "단모음 i는 글자 i로 씁니다. pig와 pin이 그렇습니다."
+    },
+    "no_silent_e": {
+      "en": "Do not add a silent e. That e would make the vowel long, not short.",
+      "ko": "묵음 e를 붙이지 마세요. 그 e는 모음을 길게 만듭니다."
+    },
+    "double_letter": {
+      "en": "A short i is often followed by a double consonant, as in mitten.",
+      "ko": "단모음 i 뒤에는 자음을 겹쳐 쓰는 일이 많습니다."
+    },
+    "two_part_i": {
+      "en": "In a two-syllable word, keep the short i and every letter in order.",
+      "ko": "두 음절 단어에서도 단모음 i와 글자 순서를 지키세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the short i word"
+    ],
+    "no_ixl_text": true
+  }
+}

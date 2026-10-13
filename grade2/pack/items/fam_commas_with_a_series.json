@@ -1,0 +1,3047 @@
+[
+  {
+    "item_id": "roots_commas_with_a_series_0001",
+    "tier": 1,
+    "stem": "I like these for a snack.",
+    "choices": [
+      "I like apples, bananas, and grapes.",
+      "I like apples bananas and grapes.",
+      "I like apples, bananas and, grapes.",
+      "I like, apples bananas and grapes."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "media": [
+      {
+        "lemma": "apple"
+      },
+      {
+        "lemma": "banana"
+      },
+      {
+        "lemma": "grape"
+      }
+    ],
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0002",
+    "tier": 1,
+    "stem": "We see pets at home.",
+    "choices": [
+      "We see a cat dog and bird.",
+      "We see, a cat dog and bird.",
+      "We see a cat, dog, and bird.",
+      "We see a cat, dog and, bird."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "bird"
+      }
+    ],
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0003",
+    "tier": 1,
+    "stem": "We need food for lunch.",
+    "choices": [
+      "We need milk eggs and butter.",
+      "We need milk, eggs, and butter.",
+      "We need, milk eggs and butter.",
+      "We need milk, eggs and, butter."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "media": [
+      {
+        "lemma": "milk"
+      },
+      {
+        "lemma": "egg"
+      },
+      {
+        "lemma": "butter"
+      }
+    ],
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0004",
+    "tier": 2,
+    "stem": "Bring things for class today.",
+    "choices": [
+      "Bring books blocks and crayons.",
+      "Bring books, blocks and, crayons.",
+      "Bring, books blocks and crayons.",
+      "Bring books, blocks, and crayons."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "media": [
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "block"
+      },
+      {
+        "lemma": "crayon"
+      }
+    ],
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0005",
+    "tier": 2,
+    "stem": "<NAME> packed food for the picnic.",
+    "choices": [
+      "<NAME> packed bread, cheese, and jam.",
+      "<NAME> packed bread cheese and jam.",
+      "<NAME> packed bread cheese, and jam.",
+      "<NAME> packed bread, cheese and, jam."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bread"
+      },
+      {
+        "lemma": "cheese"
+      },
+      {
+        "lemma": "jam"
+      }
+    ],
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0006",
+    "tier": 2,
+    "stem": "They want food after the game.",
+    "choices": [
+      "They want soup rice and peas.",
+      "They want soup rice, and peas.",
+      "They want soup, rice, and peas.",
+      "They want soup, rice and, peas."
+    ],
+    "answer_index": 2,
+    "explain_key": "comma_before_and_only",
+    "media": [
+      {
+        "lemma": "soup"
+      },
+      {
+        "lemma": "rice"
+      },
+      {
+        "lemma": "peas"
+      }
+    ],
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0007",
+    "tier": 3,
+    "stem": "She has sweet food at home.",
+    "choices": [
+      "She has, cookies, cake, and fruit.",
+      "She has cookies, cake, and fruit.",
+      "She has cookies, cake, and, fruit.",
+      "She has cookies cake, and fruit."
+    ],
+    "answer_index": 1,
+    "explain_key": "no_comma_after_verb",
+    "media": [
+      {
+        "lemma": "cookie"
+      },
+      {
+        "lemma": "cake"
+      },
+      {
+        "lemma": "fruit"
+      }
+    ],
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0008",
+    "tier": 3,
+    "stem": "<NAME> saw the weather this week.",
+    "choices": [
+      "<NAME> saw rain, wind, and snow.",
+      "<NAME> saw rain, and wind, snow.",
+      "<NAME> saw, rain, wind, and snow.",
+      "<NAME> saw rain wind, and snow."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "rain"
+      },
+      {
+        "lemma": "wind"
+      },
+      {
+        "lemma": "snow"
+      }
+    ],
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0009",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I want fruit at home.",
+    "choices": [
+      "I want pears oranges and apples.",
+      "I want pears, oranges, and apples.",
+      "I want pears, oranges and, apples.",
+      "I want, pears oranges and apples."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pear"
+      },
+      {
+        "lemma": "orange"
+      },
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0010",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We eat beans with rice.",
+    "choices": [
+      "We eat beans corn and peas.",
+      "We eat beans, corn and, peas.",
+      "We eat beans, corn, and peas.",
+      "We eat, beans corn and peas."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bean"
+      },
+      {
+        "lemma": "corn"
+      },
+      {
+        "lemma": "peas"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0011",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She likes pets a lot.",
+    "choices": [
+      "She likes cats, dogs, and fish.",
+      "She likes cats dogs and fish.",
+      "She likes cats, dogs and, fish.",
+      "She likes, cats dogs and fish."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0012",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He has toys to share.",
+    "choices": [
+      "He has trucks trains and planes.",
+      "He has trucks, trains and, planes.",
+      "He has, trucks trains and planes.",
+      "He has trucks, trains, and planes."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      },
+      {
+        "lemma": "train"
+      },
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0013",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We pick food from trees.",
+    "choices": [
+      "We pick apples pears and oranges.",
+      "We pick apples, pears, and oranges.",
+      "We pick apples, pears and, oranges.",
+      "We pick, apples pears and oranges."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      },
+      {
+        "lemma": "pear"
+      },
+      {
+        "lemma": "orange"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0014",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I see bugs in the yard.",
+    "choices": [
+      "I see ants worms and bugs.",
+      "I see ants, worms and, bugs.",
+      "I see ants, worms, and bugs.",
+      "I see, ants worms and bugs."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      },
+      {
+        "lemma": "worm"
+      },
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0015",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "They feed farm animals.",
+    "choices": [
+      "They feed hens, cows, and pigs.",
+      "They feed hens cows and pigs.",
+      "They feed hens, cows and, pigs.",
+      "They feed, hens cows and pigs."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      },
+      {
+        "lemma": "cow"
+      },
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0016",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We play with toys outside.",
+    "choices": [
+      "We play with balls kites and bikes.",
+      "We play with balls, kites and, bikes.",
+      "We play with, balls kites and bikes.",
+      "We play with balls, kites, and bikes."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      },
+      {
+        "lemma": "kite"
+      },
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0017",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I put snacks in my bag.",
+    "choices": [
+      "I put peanuts beans and fruit.",
+      "I put peanuts, beans, and fruit.",
+      "I put peanuts, beans and, fruit.",
+      "I put, peanuts beans and fruit."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "peanut"
+      },
+      {
+        "lemma": "bean"
+      },
+      {
+        "lemma": "fruit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0018",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We find shells at beach.",
+    "choices": [
+      "We find shells rocks and sticks.",
+      "We find shells, rocks and, sticks.",
+      "We find shells, rocks, and sticks.",
+      "We find, shells rocks and sticks."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shell"
+      },
+      {
+        "lemma": "rock"
+      },
+      {
+        "lemma": "stick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0019",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She loves sweet treats.",
+    "choices": [
+      "She loves cookies, cake, and pie.",
+      "She loves cookies cake and pie.",
+      "She loves cookies, cake and, pie.",
+      "She loves, cookies cake and pie."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      },
+      {
+        "lemma": "cake"
+      },
+      {
+        "lemma": "pie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0020",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He eats oats for breakfast.",
+    "choices": [
+      "He eats oats fruit and milk.",
+      "He eats oats, fruit and, milk.",
+      "He eats, oats fruit and milk.",
+      "He eats oats, fruit, and milk."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "oat"
+      },
+      {
+        "lemma": "fruit"
+      },
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0021",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We see birds in trees.",
+    "choices": [
+      "We see owls ducks and geese.",
+      "We see owls, ducks, and geese.",
+      "We see owls, ducks and, geese.",
+      "We see, owls ducks and geese."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      },
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "goose"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0022",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I like crayons in art.",
+    "choices": [
+      "I like red blue and green.",
+      "I like red, blue and, green.",
+      "I like red, blue, and green.",
+      "I like, red blue and green."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "red"
+      },
+      {
+        "lemma": "blue"
+      },
+      {
+        "lemma": "green"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0023",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We grow food in garden.",
+    "choices": [
+      "We grow corn, beans, and tomatoes.",
+      "We grow corn beans and tomatoes.",
+      "We grow corn, beans and, tomatoes.",
+      "We grow, corn beans and tomatoes."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      },
+      {
+        "lemma": "bean"
+      },
+      {
+        "lemma": "tomato"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0024",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She has soft pets at home.",
+    "choices": [
+      "She has rabbits kittens and puppies.",
+      "She has rabbits, kittens and, puppies.",
+      "She has, rabbits kittens and puppies.",
+      "She has rabbits, kittens, and puppies."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      },
+      {
+        "lemma": "kitten"
+      },
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0025",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I drink juice at lunch.",
+    "choices": [
+      "I drink juice milk and tea.",
+      "I drink juice, milk, and tea.",
+      "I drink juice, milk and, tea.",
+      "I drink, juice milk and tea."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      },
+      {
+        "lemma": "milk"
+      },
+      {
+        "lemma": "tea"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0026",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We catch fish at lake.",
+    "choices": [
+      "We catch fish crabs and frogs.",
+      "We catch fish, crabs and, frogs.",
+      "We catch fish, crabs, and frogs.",
+      "We catch, fish crabs and frogs."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "crab"
+      },
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0027",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He builds with blocks inside.",
+    "choices": [
+      "He builds with blocks, bricks, and sticks.",
+      "He builds with blocks bricks and sticks.",
+      "He builds with blocks, bricks and, sticks.",
+      "He builds with, blocks bricks and sticks."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      },
+      {
+        "lemma": "brick"
+      },
+      {
+        "lemma": "stick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0028",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We read books at night.",
+    "choices": [
+      "We read books maps and cards.",
+      "We read books, maps, and cards.",
+      "We read books, maps and, cards.",
+      "We read, books maps and cards."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "map"
+      },
+      {
+        "lemma": "card"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0029",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I wear hats in sun.",
+    "choices": [
+      "I wear hats socks and shoes.",
+      "I wear hats, socks and, shoes.",
+      "I wear hats, socks, and shoes.",
+      "I wear, hats socks and shoes."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      },
+      {
+        "lemma": "sock"
+      },
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0030",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We see stars at night.",
+    "choices": [
+      "We see stars, moons, and clouds.",
+      "We see stars moons and clouds.",
+      "We see stars, moons and, clouds.",
+      "We see, stars moons and clouds."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      },
+      {
+        "lemma": "moon"
+      },
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0031",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "She picks flowers in yard.",
+    "choices": [
+      "She picks flowers leaves and seeds.",
+      "She picks flowers, leaves and, seeds.",
+      "She picks, flowers leaves and seeds.",
+      "She picks flowers, leaves, and seeds."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      },
+      {
+        "lemma": "leaf"
+      },
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0032",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We eat toast with breakfast.",
+    "choices": [
+      "We eat toast eggs and butter.",
+      "We eat toast, eggs, and butter.",
+      "We eat toast, eggs and, butter.",
+      "We eat, toast eggs and butter."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toast"
+      },
+      {
+        "lemma": "egg"
+      },
+      {
+        "lemma": "butter"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0033",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "I like games at recess.",
+    "choices": [
+      "I like games balls and kites.",
+      "I like games, balls and, kites.",
+      "I like games, balls, and kites.",
+      "I like, games balls and kites."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      },
+      {
+        "lemma": "ball"
+      },
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0034",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We see boats on lake.",
+    "choices": [
+      "We see boats, ducks, and fish.",
+      "We see boats ducks and fish.",
+      "We see boats, ducks and, fish.",
+      "We see, boats ducks and fish."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      },
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0035",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "He has coins in jar.",
+    "choices": [
+      "He has coins beads and buttons.",
+      "He has coins, beads and, buttons.",
+      "He has, coins beads and buttons.",
+      "He has coins, beads, and buttons."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coin"
+      },
+      {
+        "lemma": "bead"
+      },
+      {
+        "lemma": "button"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0036",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pack your bag for school.",
+    "choices": [
+      "Pack pencils books and paper.",
+      "Pack pencils books, and paper.",
+      "Pack pencils, books, and paper.",
+      "Pack pencils, books and, paper."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      },
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "paper"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0037",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We need tools for art.",
+    "choices": [
+      "We need crayons brushes and pencils.",
+      "We need crayons, brushes, and pencils.",
+      "We need crayons brushes, and pencils.",
+      "We need crayons, brushes and, pencils."
+    ],
+    "answer_index": 1,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      },
+      {
+        "lemma": "brush"
+      },
+      {
+        "lemma": "pencil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0038",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They bought food at store.",
+    "choices": [
+      "They bought bread, milk, and eggs.",
+      "They bought bread milk and eggs.",
+      "They bought bread milk, and eggs.",
+      "They bought bread, milk and, eggs."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      },
+      {
+        "lemma": "milk"
+      },
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0039",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Bring cups for the party.",
+    "choices": [
+      "Bring cups plates and spoons.",
+      "Bring cups plates, and spoons.",
+      "Bring cups, plates and, spoons.",
+      "Bring cups, plates, and spoons."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      },
+      {
+        "lemma": "plate"
+      },
+      {
+        "lemma": "spoon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0040",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We love animals at zoo.",
+    "choices": [
+      "We love bears horses and sheep.",
+      "We love bears, horses, and sheep.",
+      "We love bears horses, and sheep.",
+      "We love bears, horses and, sheep."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      },
+      {
+        "lemma": "horse"
+      },
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0041",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> likes fruit after school.",
+    "choices": [
+      "<NAME> likes apples pears and oranges.",
+      "<NAME> likes apples pears, and oranges.",
+      "<NAME> likes apples, pears, and oranges.",
+      "<NAME> likes apples, pears and, oranges."
+    ],
+    "answer_index": 2,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      },
+      {
+        "lemma": "pear"
+      },
+      {
+        "lemma": "orange"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0042",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Set the table for dinner.",
+    "choices": [
+      "Set the table with forks, spoons, and bowls.",
+      "Set the table with forks spoons and bowls.",
+      "Set the table with forks spoons, and bowls.",
+      "Set the table with forks, spoons and, bowls."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fork"
+      },
+      {
+        "lemma": "spoon"
+      },
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0043",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We saw pets at the park.",
+    "choices": [
+      "We saw puppies kittens and rabbits.",
+      "We saw puppies kittens, and rabbits.",
+      "We saw puppies, kittens and, rabbits.",
+      "We saw puppies, kittens, and rabbits."
+    ],
+    "answer_index": 3,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      },
+      {
+        "lemma": "kitten"
+      },
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0044",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Pick three veggies for soup.",
+    "choices": [
+      "Pick beans peas and corn.",
+      "Pick beans, peas, and corn.",
+      "Pick beans peas, and corn.",
+      "Pick beans, peas and, corn."
+    ],
+    "answer_index": 1,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bean"
+      },
+      {
+        "lemma": "peas"
+      },
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0045",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> found rocks on trail.",
+    "choices": [
+      "<NAME> found rocks, sticks, and leaves.",
+      "<NAME> found rocks sticks and leaves.",
+      "<NAME> found rocks sticks, and leaves.",
+      "<NAME> found rocks, sticks and, leaves."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      },
+      {
+        "lemma": "stick"
+      },
+      {
+        "lemma": "leaf"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0046",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We play games on field.",
+    "choices": [
+      "We play hop jump and run.",
+      "We play hop jump, and run.",
+      "We play hop, jump, and run.",
+      "We play hop, jump and, run."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hop"
+      },
+      {
+        "lemma": "jump"
+      },
+      {
+        "lemma": "run"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0047",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She packed toys for trip.",
+    "choices": [
+      "She packed dolls trucks and trains.",
+      "She packed dolls, trucks, and trains.",
+      "She packed dolls trucks, and trains.",
+      "She packed dolls, trucks and, trains."
+    ],
+    "answer_index": 1,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "doll"
+      },
+      {
+        "lemma": "truck"
+      },
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0048",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We need snacks for hike.",
+    "choices": [
+      "We need peanuts fruit and bread.",
+      "We need peanuts fruit, and bread.",
+      "We need peanuts, fruit and, bread.",
+      "We need peanuts, fruit, and bread."
+    ],
+    "answer_index": 3,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "peanut"
+      },
+      {
+        "lemma": "fruit"
+      },
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0049",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He washed dishes after meal.",
+    "choices": [
+      "He washed cups, plates, and bowls.",
+      "He washed cups plates and bowls.",
+      "He washed cups plates, and bowls.",
+      "He washed cups, plates and, bowls."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      },
+      {
+        "lemma": "plate"
+      },
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0050",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We plant seeds in spring.",
+    "choices": [
+      "We plant seeds beans and corn.",
+      "We plant seeds beans, and corn.",
+      "We plant seeds, beans, and corn.",
+      "We plant seeds, beans and, corn."
+    ],
+    "answer_index": 2,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      },
+      {
+        "lemma": "bean"
+      },
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0051",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> drew dots in class.",
+    "choices": [
+      "<NAME> drew dots stars and hearts.",
+      "<NAME> drew dots, stars, and hearts.",
+      "<NAME> drew dots stars, and hearts.",
+      "<NAME> drew dots, stars and, hearts."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dot"
+      },
+      {
+        "lemma": "star"
+      },
+      {
+        "lemma": "heart"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0052",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They built a fort outside.",
+    "choices": [
+      "They built with sticks ropes and blankets.",
+      "They built with sticks ropes, and blankets.",
+      "They built with sticks, ropes and, blankets.",
+      "They built with sticks, ropes, and blankets."
+    ],
+    "answer_index": 3,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stick"
+      },
+      {
+        "lemma": "rope"
+      },
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0053",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We ate lunch at school.",
+    "choices": [
+      "We ate soup, rice, and fruit.",
+      "We ate soup rice and fruit.",
+      "We ate soup rice, and fruit.",
+      "We ate soup, rice and, fruit."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      },
+      {
+        "lemma": "rice"
+      },
+      {
+        "lemma": "fruit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0054",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She hung hats on hooks.",
+    "choices": [
+      "She hung hats coats and bags.",
+      "She hung hats coats, and bags.",
+      "She hung hats, coats, and bags.",
+      "She hung hats, coats and, bags."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      },
+      {
+        "lemma": "coat"
+      },
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0055",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We made cards for friends.",
+    "choices": [
+      "We made cards ribbons and beads.",
+      "We made cards, ribbons, and beads.",
+      "We made cards ribbons, and beads.",
+      "We made cards, ribbons and, beads."
+    ],
+    "answer_index": 1,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      },
+      {
+        "lemma": "ribbon"
+      },
+      {
+        "lemma": "bead"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0056",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He fixed toys with tape.",
+    "choices": [
+      "He fixed trucks trains and planes.",
+      "He fixed trucks trains, and planes.",
+      "He fixed trucks, trains and, planes.",
+      "He fixed trucks, trains, and planes."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "truck"
+      },
+      {
+        "lemma": "train"
+      },
+      {
+        "lemma": "plane"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0057",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We saw clouds after rain.",
+    "choices": [
+      "We saw clouds, rain, and hail.",
+      "We saw clouds rain and hail.",
+      "We saw clouds rain, and hail.",
+      "We saw clouds, rain and, hail."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      },
+      {
+        "lemma": "rain"
+      },
+      {
+        "lemma": "hail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0058",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> fed ducks at pond.",
+    "choices": [
+      "<NAME> fed ducks geese and fish.",
+      "<NAME> fed ducks geese, and fish.",
+      "<NAME> fed ducks, geese, and fish.",
+      "<NAME> fed ducks, geese and, fish."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      },
+      {
+        "lemma": "goose"
+      },
+      {
+        "lemma": "fish"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0059",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "They sorted blocks by size.",
+    "choices": [
+      "They sorted blocks bricks and sticks.",
+      "They sorted blocks, bricks, and sticks.",
+      "They sorted blocks bricks, and sticks.",
+      "They sorted blocks, bricks and, sticks."
+    ],
+    "answer_index": 1,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      },
+      {
+        "lemma": "brick"
+      },
+      {
+        "lemma": "stick"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0060",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We need rugs for room.",
+    "choices": [
+      "We need rugs mats and blankets.",
+      "We need rugs mats, and blankets.",
+      "We need rugs, mats and, blankets.",
+      "We need rugs, mats, and blankets."
+    ],
+    "answer_index": 3,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      },
+      {
+        "lemma": "mat"
+      },
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0061",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She picked apples at farm.",
+    "choices": [
+      "She picked apples, pears, and oranges.",
+      "She picked apples pears and oranges.",
+      "She picked apples pears, and oranges.",
+      "She picked apples, pears and, oranges."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      },
+      {
+        "lemma": "pear"
+      },
+      {
+        "lemma": "orange"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0062",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We carried bags to car.",
+    "choices": [
+      "We carried bags boxes and crates.",
+      "We carried bags boxes, and crates.",
+      "We carried bags, boxes, and crates.",
+      "We carried bags, boxes and, crates."
+    ],
+    "answer_index": 2,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      },
+      {
+        "lemma": "box"
+      },
+      {
+        "lemma": "crate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0063",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He found bugs under log.",
+    "choices": [
+      "He found ants worms and bugs.",
+      "He found ants, worms, and bugs.",
+      "He found ants worms, and bugs.",
+      "He found ants, worms and, bugs."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      },
+      {
+        "lemma": "worm"
+      },
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0064",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We stacked books on shelf.",
+    "choices": [
+      "We stacked books maps and cards.",
+      "We stacked books maps, and cards.",
+      "We stacked books, maps and, cards.",
+      "We stacked books, maps, and cards."
+    ],
+    "answer_index": 3,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "map"
+      },
+      {
+        "lemma": "card"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0065",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> mixed colors in art.",
+    "choices": [
+      "<NAME> mixed red, yellow, and blue.",
+      "<NAME> mixed red yellow and blue.",
+      "<NAME> mixed red yellow, and blue.",
+      "<NAME> mixed red, yellow and, blue."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "red"
+      },
+      {
+        "lemma": "yellow"
+      },
+      {
+        "lemma": "blue"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0066",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We hear songs at camp.",
+    "choices": [
+      "We hear songs bells and drums.",
+      "We hear songs bells, and drums.",
+      "We hear songs, bells, and drums.",
+      "We hear songs, bells and, drums."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      },
+      {
+        "lemma": "bell"
+      },
+      {
+        "lemma": "drum"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0067",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We rolled balls on grass.",
+    "choices": [
+      "We rolled balls hoops and pins.",
+      "We rolled balls, hoops, and pins.",
+      "We rolled balls hoops, and pins.",
+      "We rolled balls, hoops and, pins."
+    ],
+    "answer_index": 1,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      },
+      {
+        "lemma": "hoop"
+      },
+      {
+        "lemma": "pin"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0068",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "She tied ribbons on gifts.",
+    "choices": [
+      "She tied ribbons beads and buttons.",
+      "She tied ribbons beads, and buttons.",
+      "She tied ribbons, beads and, buttons.",
+      "She tied ribbons, beads, and buttons."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ribbon"
+      },
+      {
+        "lemma": "bead"
+      },
+      {
+        "lemma": "button"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0069",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We watched birds from window.",
+    "choices": [
+      "We watched owls, crows, and bats.",
+      "We watched owls crows and bats.",
+      "We watched owls crows, and bats.",
+      "We watched owls, crows and, bats."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      },
+      {
+        "lemma": "crow"
+      },
+      {
+        "lemma": "bat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0070",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "He ate peanuts at game.",
+    "choices": [
+      "He ate peanuts beans and corn.",
+      "He ate peanuts beans, and corn.",
+      "He ate peanuts, beans, and corn.",
+      "He ate peanuts, beans and, corn."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "peanut"
+      },
+      {
+        "lemma": "bean"
+      },
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0071",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "We cleaned room after play.",
+    "choices": [
+      "We cleaned toys books and blocks.",
+      "We cleaned toys, books, and blocks.",
+      "We cleaned toys books, and blocks.",
+      "We cleaned toys, books and, blocks."
+    ],
+    "answer_index": 1,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      },
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "block"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0072",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> shared snacks with class.",
+    "choices": [
+      "<NAME> shared bread cheese and fruit.",
+      "<NAME> shared bread cheese, and fruit.",
+      "<NAME> shared bread, cheese and, fruit.",
+      "<NAME> shared bread, cheese, and fruit."
+    ],
+    "answer_index": 3,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      },
+      {
+        "lemma": "cheese"
+      },
+      {
+        "lemma": "fruit"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0073",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Mom bought food for us.",
+    "choices": [
+      "Mom bought, milk, bread, and eggs.",
+      "Mom bought milk, bread, and eggs.",
+      "Mom bought milk bread, and eggs.",
+      "Mom bought milk, bread, and, eggs."
+    ],
+    "answer_index": 1,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      },
+      {
+        "lemma": "bread"
+      },
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0074",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Dad fixed tools at home.",
+    "choices": [
+      "Dad fixed hooks, ropes, and tools.",
+      "Dad fixed, hooks, ropes, and tools.",
+      "Dad fixed hooks ropes, and tools.",
+      "Dad fixed hooks, ropes, and, tools."
+    ],
+    "answer_index": 0,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hook"
+      },
+      {
+        "lemma": "rope"
+      },
+      {
+        "lemma": "tool"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0075",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> picked toys from floor.",
+    "choices": [
+      "<NAME> picked, dolls, blocks, and trucks.",
+      "<NAME> picked dolls blocks, and trucks.",
+      "<NAME> picked dolls, blocks, and trucks.",
+      "<NAME> picked dolls, blocks, and, trucks."
+    ],
+    "answer_index": 2,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "doll"
+      },
+      {
+        "lemma": "block"
+      },
+      {
+        "lemma": "truck"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0076",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We heard sounds at night.",
+    "choices": [
+      "We heard, rain, wind, and thunder.",
+      "We heard rain wind, and thunder.",
+      "We heard rain, wind, and, thunder.",
+      "We heard rain, wind, and thunder."
+    ],
+    "answer_index": 3,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      },
+      {
+        "lemma": "wind"
+      },
+      {
+        "lemma": "thunder"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0077",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She put flowers in vase.",
+    "choices": [
+      "She put, flowers, leaves, and seeds.",
+      "She put flowers, leaves, and seeds.",
+      "She put flowers leaves, and seeds.",
+      "She put flowers, leaves, and, seeds."
+    ],
+    "answer_index": 1,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      },
+      {
+        "lemma": "leaf"
+      },
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0078",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They ate fruit after swim.",
+    "choices": [
+      "They ate apples, pears, and grapes.",
+      "They ate, apples, pears, and grapes.",
+      "They ate apples pears, and grapes.",
+      "They ate apples, pears, and, grapes."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      },
+      {
+        "lemma": "pear"
+      },
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0079",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> wore hats on trip.",
+    "choices": [
+      "<NAME> wore, hats, coats, and bags.",
+      "<NAME> wore hats coats, and bags.",
+      "<NAME> wore hats, coats, and bags.",
+      "<NAME> wore hats, coats, and, bags."
+    ],
+    "answer_index": 2,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      },
+      {
+        "lemma": "coat"
+      },
+      {
+        "lemma": "bag"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0080",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We found shells by sea.",
+    "choices": [
+      "We found, shells, rocks, and sand.",
+      "We found shells rocks, and sand.",
+      "We found shells, rocks, and, sand.",
+      "We found shells, rocks, and sand."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shell"
+      },
+      {
+        "lemma": "rock"
+      },
+      {
+        "lemma": "sand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0081",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He drew animals at desk.",
+    "choices": [
+      "He drew, cats, dogs, and birds.",
+      "He drew cats, dogs, and birds.",
+      "He drew cats dogs, and birds.",
+      "He drew cats, dogs, and, birds."
+    ],
+    "answer_index": 1,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      },
+      {
+        "lemma": "dog"
+      },
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0082",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We felt weather change fast.",
+    "choices": [
+      "We felt rain, hail, and snow.",
+      "We felt, rain, hail, and snow.",
+      "We felt rain hail, and snow.",
+      "We felt rain, hail, and, snow."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      },
+      {
+        "lemma": "hail"
+      },
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0083",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> got gifts on birthday.",
+    "choices": [
+      "<NAME> got, books, games, and toys.",
+      "<NAME> got books games, and toys.",
+      "<NAME> got books, games, and toys.",
+      "<NAME> got books, games, and, toys."
+    ],
+    "answer_index": 2,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "game"
+      },
+      {
+        "lemma": "toy"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0084",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She kept pets in box.",
+    "choices": [
+      "She kept, mice, rats, and bats.",
+      "She kept mice rats, and bats.",
+      "She kept mice, rats, and, bats.",
+      "She kept mice, rats, and bats."
+    ],
+    "answer_index": 3,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      },
+      {
+        "lemma": "rat"
+      },
+      {
+        "lemma": "bat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0085",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We made lunch for picnic.",
+    "choices": [
+      "We made, bread, fruit, and juice.",
+      "We made bread, fruit, and juice.",
+      "We made bread fruit, and juice.",
+      "We made bread, fruit, and, juice."
+    ],
+    "answer_index": 1,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      },
+      {
+        "lemma": "fruit"
+      },
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0086",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They saw fish in stream.",
+    "choices": [
+      "They saw fish, frogs, and turtles.",
+      "They saw, fish, frogs, and turtles.",
+      "They saw fish frogs, and turtles.",
+      "They saw fish, frogs, and, turtles."
+    ],
+    "answer_index": 0,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      },
+      {
+        "lemma": "frog"
+      },
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0087",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> lost mittens at park.",
+    "choices": [
+      "<NAME> lost, mittens, hats, and socks.",
+      "<NAME> lost mittens hats, and socks.",
+      "<NAME> lost mittens, hats, and socks.",
+      "<NAME> lost mittens, hats, and, socks."
+    ],
+    "answer_index": 2,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      },
+      {
+        "lemma": "hat"
+      },
+      {
+        "lemma": "sock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0088",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We heard birds at dawn.",
+    "choices": [
+      "We heard, owls, crows, and bats.",
+      "We heard owls crows, and bats.",
+      "We heard owls, crows, and, bats.",
+      "We heard owls, crows, and bats."
+    ],
+    "answer_index": 3,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      },
+      {
+        "lemma": "crow"
+      },
+      {
+        "lemma": "bat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0089",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He put seeds in soil.",
+    "choices": [
+      "He put, seeds, beans, and corn.",
+      "He put seeds, beans, and corn.",
+      "He put seeds beans, and corn.",
+      "He put seeds, beans, and, corn."
+    ],
+    "answer_index": 1,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      },
+      {
+        "lemma": "bean"
+      },
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0090",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We saw colors in sky.",
+    "choices": [
+      "We saw red, blue, and yellow.",
+      "We saw, red, blue, and yellow.",
+      "We saw red blue, and yellow.",
+      "We saw red, blue, and, yellow."
+    ],
+    "answer_index": 0,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "red"
+      },
+      {
+        "lemma": "blue"
+      },
+      {
+        "lemma": "yellow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0091",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> ate soup for dinner.",
+    "choices": [
+      "<NAME> ate, soup, bread, and fruit.",
+      "<NAME> ate soup bread, and fruit.",
+      "<NAME> ate soup, bread, and fruit.",
+      "<NAME> ate soup, bread, and, fruit."
+    ],
+    "answer_index": 2,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      },
+      {
+        "lemma": "bread"
+      },
+      {
+        "lemma": "fruit"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0092",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She has dolls on bed.",
+    "choices": [
+      "She has, dolls, bears, and puppies.",
+      "She has dolls bears, and puppies.",
+      "She has dolls, bears, and, puppies.",
+      "She has dolls, bears, and puppies."
+    ],
+    "answer_index": 3,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "doll"
+      },
+      {
+        "lemma": "bear"
+      },
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0093",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We brought food to party.",
+    "choices": [
+      "We brought, cake, pie, and cookies.",
+      "We brought cake, pie, and cookies.",
+      "We brought cake pie, and cookies.",
+      "We brought cake, pie, and, cookies."
+    ],
+    "answer_index": 1,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      },
+      {
+        "lemma": "pie"
+      },
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0094",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They played games after lunch.",
+    "choices": [
+      "They played hop, jump, and run.",
+      "They played, hop, jump, and run.",
+      "They played hop jump, and run.",
+      "They played hop, jump, and, run."
+    ],
+    "answer_index": 0,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hop"
+      },
+      {
+        "lemma": "jump"
+      },
+      {
+        "lemma": "run"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0095",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> saw bugs on leaf.",
+    "choices": [
+      "<NAME> saw, ants, worms, and bugs.",
+      "<NAME> saw ants worms, and bugs.",
+      "<NAME> saw ants, worms, and bugs.",
+      "<NAME> saw ants, worms, and, bugs."
+    ],
+    "answer_index": 2,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      },
+      {
+        "lemma": "worm"
+      },
+      {
+        "lemma": "bug"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0096",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We kept tools in shed.",
+    "choices": [
+      "We kept, brooms, mops, and rakes.",
+      "We kept brooms mops, and rakes.",
+      "We kept brooms, mops, and, rakes.",
+      "We kept brooms, mops, and rakes."
+    ],
+    "answer_index": 3,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "broom"
+      },
+      {
+        "lemma": "mop"
+      },
+      {
+        "lemma": "rake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0097",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He likes fruit after school.",
+    "choices": [
+      "He likes, apples, bananas, and grapes.",
+      "He likes apples, bananas, and grapes.",
+      "He likes apples bananas, and grapes.",
+      "He likes apples, bananas, and, grapes."
+    ],
+    "answer_index": 1,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      },
+      {
+        "lemma": "banana"
+      },
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0098",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We felt wind by lake.",
+    "choices": [
+      "We felt wind, rain, and hail.",
+      "We felt, wind, rain, and hail.",
+      "We felt wind rain, and hail.",
+      "We felt wind, rain, and, hail."
+    ],
+    "answer_index": 0,
+    "explain_key": "comma_before_and_only",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      },
+      {
+        "lemma": "rain"
+      },
+      {
+        "lemma": "hail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0099",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> read books at library.",
+    "choices": [
+      "<NAME> read, books, maps, and cards.",
+      "<NAME> read books maps, and cards.",
+      "<NAME> read books, maps, and cards.",
+      "<NAME> read books, maps, and, cards."
+    ],
+    "answer_index": 2,
+    "explain_key": "no_comma_after_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      },
+      {
+        "lemma": "map"
+      },
+      {
+        "lemma": "card"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_commas_with_a_series_0100",
+    "family_id": "fam_commas_with_a_series",
+    "skill_id": "roots_commas_with_a_series",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She saw stars through window.",
+    "choices": [
+      "She saw, stars, moons, and clouds.",
+      "She saw stars moons, and clouds.",
+      "She saw stars, moons, and, clouds.",
+      "She saw stars, moons, and clouds."
+    ],
+    "answer_index": 3,
+    "explain_key": "list_commas",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      },
+      {
+        "lemma": "moon"
+      },
+      {
+        "lemma": "cloud"
+      }
+    ]
+  }
+]

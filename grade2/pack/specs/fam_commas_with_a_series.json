@@ -1,0 +1,318 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_commas_with_a_series",
+  "family_title_en": "Commas with a series",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_commas_with_a_series",
+      "ix_title": "Commas with a series",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which list uses commas right?",
+        "ko": "어느 목록이 쉼표를 바르게 썼나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the list with commas in the right places.",
+        "ko": "쉼표가 바른 자리에 있는 목록을 누르세요."
+      },
+      "choice_rule": "Write four full sentences that keep the same words in the same order. Only the commas change. The correct choice is a three-item list written as item, item, and item. Never treat a two-item list as correct. Never treat item, item and item with no comma before and as correct. Wrong choices must be unambiguously wrong: no commas, a comma after and, a comma after the verb, a comma only before and, or commas that split and from the last item. Do not add or drop nouns. Exactly one correct choice. Mix answer_index.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "comma",
+        "commas"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_commas_with_a_series_0001",
+          "tier": 1,
+          "stem": "I like these for a snack.",
+          "choices": [
+            "I like apples, bananas, and grapes.",
+            "I like apples bananas and grapes.",
+            "I like apples, bananas and, grapes.",
+            "I like, apples bananas and grapes."
+          ],
+          "answer_index": 0,
+          "explain_key": "list_commas",
+          "media": [
+            {
+              "lemma": "apple"
+            },
+            {
+              "lemma": "banana"
+            },
+            {
+              "lemma": "grape"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_a_series_0002",
+          "tier": 1,
+          "stem": "We see pets at home.",
+          "choices": [
+            "We see a cat dog and bird.",
+            "We see, a cat dog and bird.",
+            "We see a cat, dog, and bird.",
+            "We see a cat, dog and, bird."
+          ],
+          "answer_index": 2,
+          "explain_key": "list_commas",
+          "media": [
+            {
+              "lemma": "cat"
+            },
+            {
+              "lemma": "dog"
+            },
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_a_series_0003",
+          "tier": 1,
+          "stem": "We need food for lunch.",
+          "choices": [
+            "We need milk eggs and butter.",
+            "We need milk, eggs, and butter.",
+            "We need, milk eggs and butter.",
+            "We need milk, eggs and, butter."
+          ],
+          "answer_index": 1,
+          "explain_key": "list_commas",
+          "media": [
+            {
+              "lemma": "milk"
+            },
+            {
+              "lemma": "egg"
+            },
+            {
+              "lemma": "butter"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_a_series_0004",
+          "tier": 2,
+          "stem": "Bring things for class today.",
+          "choices": [
+            "Bring books blocks and crayons.",
+            "Bring books, blocks and, crayons.",
+            "Bring, books blocks and crayons.",
+            "Bring books, blocks, and crayons."
+          ],
+          "answer_index": 3,
+          "explain_key": "list_commas",
+          "media": [
+            {
+              "lemma": "book"
+            },
+            {
+              "lemma": "block"
+            },
+            {
+              "lemma": "crayon"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_a_series_0005",
+          "tier": 2,
+          "stem": "<NAME> packed food for the picnic.",
+          "choices": [
+            "<NAME> packed bread, cheese, and jam.",
+            "<NAME> packed bread cheese and jam.",
+            "<NAME> packed bread cheese, and jam.",
+            "<NAME> packed bread, cheese and, jam."
+          ],
+          "answer_index": 0,
+          "explain_key": "comma_before_and_only",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bread"
+            },
+            {
+              "lemma": "cheese"
+            },
+            {
+              "lemma": "jam"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_a_series_0006",
+          "tier": 2,
+          "stem": "They want food after the game.",
+          "choices": [
+            "They want soup rice and peas.",
+            "They want soup rice, and peas.",
+            "They want soup, rice, and peas.",
+            "They want soup, rice and, peas."
+          ],
+          "answer_index": 2,
+          "explain_key": "comma_before_and_only",
+          "media": [
+            {
+              "lemma": "soup"
+            },
+            {
+              "lemma": "rice"
+            },
+            {
+              "lemma": "peas"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_a_series_0007",
+          "tier": 3,
+          "stem": "She has sweet food at home.",
+          "choices": [
+            "She has, cookies, cake, and fruit.",
+            "She has cookies, cake, and fruit.",
+            "She has cookies, cake, and, fruit.",
+            "She has cookies cake, and fruit."
+          ],
+          "answer_index": 1,
+          "explain_key": "no_comma_after_verb",
+          "media": [
+            {
+              "lemma": "cookie"
+            },
+            {
+              "lemma": "cake"
+            },
+            {
+              "lemma": "fruit"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_a_series_0008",
+          "tier": 3,
+          "stem": "<NAME> saw the weather this week.",
+          "choices": [
+            "<NAME> saw rain, wind, and snow.",
+            "<NAME> saw rain, and wind, snow.",
+            "<NAME> saw, rain, wind, and snow.",
+            "<NAME> saw rain wind, and snow."
+          ],
+          "answer_index": 0,
+          "explain_key": "list_commas",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "rain"
+            },
+            {
+              "lemma": "wind"
+            },
+            {
+              "lemma": "snow"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep the same words in the same order in all four choices. Only commas may change.",
+      "The correct form is always a three-item list written as item, item, and item.",
+      "Never mark a two-item list as correct. Never mark item, item and item with no comma before and as correct.",
+      "Tier 1 distractors drop every comma, put a comma after and, or put a comma after the verb.",
+      "Tier 2 adds a comma only before and. Tier 3 uses a near-miss extra comma after the verb while the list commas look almost right, or commas that split and from the last item."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bcomma\\b",
+    "\\bcommas\\b",
+    "\\bpunctuation\\b",
+    "\\boxford\\b",
+    "\\bseries\\b",
+    "\\bserial\\b",
+    "\\bsentence\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words with picture lemmas for the list nouns. One choice is item, item, and item. Distractors drop every comma, add a comma after and, or add a comma after the verb.",
+    "2": "Stems of five to eight words in home, school, food, or play settings. Keep the same three-item list in every choice. Add a distractor that puts a comma only before and. Use two-syllable nouns when you can.",
+    "3": "Near-miss distractors: a comma after the verb while the list commas are otherwise right, a comma only before and, or commas that split and from the last noun. Stems may use <NAME>."
+  },
+  "miss_explain": {
+    "list_commas": {
+      "en": "Three or more items need commas. Write item, item, and item.",
+      "ko": "항목이 세 개 이상이면 쉼표를 씁니다. 항목, 항목, and 항목처럼 씁니다."
+    },
+    "no_comma_after_and": {
+      "en": "Do not put a comma after and. Write and then the last item.",
+      "ko": "and 뒤에는 쉼표를 쓰지 마세요. and 다음에 마지막 항목을 씁니다."
+    },
+    "no_comma_after_verb": {
+      "en": "Do not put a comma after the action word. Start the list right away.",
+      "ko": "동작 말 뒤에 쉼표를 쓰지 마세요. 바로 목록을 시작하세요."
+    },
+    "comma_before_and_only": {
+      "en": "Put a comma after each item before the last, not only before and.",
+      "ko": "and 앞에만 쉼표를 쓰지 말고, 마지막을 뺀 각 항목 뒤에 쉼표를 쓰세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Commas with a series"
+    ],
+    "no_ixl_text": true
+  }
+}

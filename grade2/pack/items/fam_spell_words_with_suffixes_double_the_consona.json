@@ -1,0 +1,2420 @@
+[
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0001",
+    "tier": 1,
+    "stem": "Add ing to hop.",
+    "choices": [
+      "hopping",
+      "hoping",
+      "hoppping",
+      "hoppeing"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ing",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0002",
+    "tier": 1,
+    "stem": "The dog will run.",
+    "choices": [
+      "runing",
+      "running",
+      "runnung",
+      "runnning"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0003",
+    "tier": 1,
+    "stem": "The cat can sit.",
+    "choices": [
+      "siting",
+      "sittng",
+      "sitting",
+      "sittting"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_ing",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0004",
+    "tier": 2,
+    "stem": "Did the kids clap?",
+    "choices": [
+      "clapped",
+      "claped",
+      "clapd",
+      "clappped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ],
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0005",
+    "tier": 2,
+    "stem": "Did <NAME> hug mom?",
+    "choices": [
+      "huged",
+      "huggd",
+      "huggedd",
+      "hugged"
+    ],
+    "answer_index": 3,
+    "explain_key": "double_ed",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ],
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0006",
+    "tier": 2,
+    "stem": "My bag is big.",
+    "choices": [
+      "biger",
+      "bigger",
+      "bigerr",
+      "biggger"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_er",
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0007",
+    "tier": 3,
+    "stem": "<NAME> will hope we win.",
+    "choices": [
+      "hopping",
+      "hopeing",
+      "hoping",
+      "hoppeing"
+    ],
+    "answer_index": 2,
+    "explain_key": "no_double_e",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ],
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0008",
+    "tier": 3,
+    "stem": "Add ed to jump.",
+    "choices": [
+      "jumpped",
+      "jumped",
+      "jumpt",
+      "jumpd"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_cc",
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ],
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0009",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to cut.",
+    "choices": [
+      "cuting",
+      "cutting",
+      "cuttng",
+      "cuttting"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "knife"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0010",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to get.",
+    "choices": [
+      "geting",
+      "getting",
+      "gettng",
+      "gettting"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0011",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to hit.",
+    "choices": [
+      "hiting",
+      "hitting",
+      "hittting",
+      "hittng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0012",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to win.",
+    "choices": [
+      "wining",
+      "winning",
+      "winnng",
+      "winnning"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "trophy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0013",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to zip.",
+    "choices": [
+      "ziping",
+      "zipping",
+      "zippng",
+      "zippping"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "jacket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0014",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to tap.",
+    "choices": [
+      "tapng",
+      "tapping",
+      "tapinng",
+      "tappping"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drum"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0015",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to rip.",
+    "choices": [
+      "riping",
+      "ripping",
+      "rippng",
+      "rippingg"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paper"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0016",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to skip.",
+    "choices": [
+      "skiping",
+      "skipping",
+      "skippng",
+      "skippping"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0017",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to drip.",
+    "choices": [
+      "driping",
+      "dripping",
+      "drippng",
+      "dripingg"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sink"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0018",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to grab.",
+    "choices": [
+      "grabed",
+      "grabbing",
+      "grabing",
+      "grabbng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0019",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "We will shop.",
+    "choices": [
+      "shoping",
+      "shopping",
+      "shoppng",
+      "shoppping"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0020",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to wrap.",
+    "choices": [
+      "wraping",
+      "wrapping",
+      "wrappng",
+      "wrappping"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0021",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to pet.",
+    "choices": [
+      "peted",
+      "petting",
+      "peting",
+      "pettting"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0022",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to nap.",
+    "choices": [
+      "naped",
+      "napping",
+      "naping",
+      "nappng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0023",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to pin.",
+    "choices": [
+      "pined",
+      "pinning",
+      "pining",
+      "pinnng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "board"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0024",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to rob.",
+    "choices": [
+      "robed",
+      "robbing",
+      "robing",
+      "robbng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0025",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to step.",
+    "choices": [
+      "steped",
+      "stepping",
+      "steping",
+      "steppng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "stairs"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0026",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to stop.",
+    "choices": [
+      "stoped",
+      "stopping",
+      "stoping",
+      "stoppng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sign"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0027",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to flip.",
+    "choices": [
+      "fliped",
+      "flipping",
+      "fliping",
+      "flippng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pancake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0028",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to chop.",
+    "choices": [
+      "choped",
+      "chopping",
+      "choping",
+      "choppng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wood"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0029",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to tug.",
+    "choices": [
+      "tuged",
+      "tugging",
+      "tuging",
+      "tuggng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0030",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to hum.",
+    "choices": [
+      "humed",
+      "humming",
+      "huming",
+      "hummng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0031",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to let.",
+    "choices": [
+      "leting",
+      "letting",
+      "lettng",
+      "letttng"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0032",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to put.",
+    "choices": [
+      "puting",
+      "putting",
+      "puttng",
+      "puttting"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0033",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to set.",
+    "choices": [
+      "seting",
+      "setting",
+      "settng",
+      "settting"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "table"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0034",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Add ing to shut.",
+    "choices": [
+      "shuting",
+      "shutting",
+      "shuttng",
+      "shuttting"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0035",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Frogs like to hop.",
+    "choices": [
+      "hoping",
+      "hopping",
+      "hoppping",
+      "hoppeing"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0036",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did you clap loud?",
+    "choices": [
+      "clapped",
+      "claped",
+      "clapd",
+      "clappped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0037",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did the dog nap?",
+    "choices": [
+      "napped",
+      "naped",
+      "napd",
+      "nappped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0038",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did <NAME> pet the pup?",
+    "choices": [
+      "petted",
+      "peted",
+      "petd",
+      "pettted"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0039",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did she pin the art?",
+    "choices": [
+      "pinned",
+      "pined",
+      "pind",
+      "pinnned"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "paper"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0040",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did we skip rope?",
+    "choices": [
+      "skipped",
+      "skiped",
+      "skipd",
+      "skipppped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0041",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did he zip his coat?",
+    "choices": [
+      "zipped",
+      "ziped",
+      "zipd",
+      "zippped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0042",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did they tap the drum?",
+    "choices": [
+      "tapped",
+      "taped",
+      "tapd",
+      "tapt"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drum"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0043",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did Mom chop wood?",
+    "choices": [
+      "chopped",
+      "choped",
+      "chopd",
+      "chopppped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wood"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0044",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did Dad grab the bag?",
+    "choices": [
+      "grabbed",
+      "grabed",
+      "grabd",
+      "grabbbed"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0045",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did the ball flip over?",
+    "choices": [
+      "flipped",
+      "fliped",
+      "flipd",
+      "flippped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0046",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did we step in mud?",
+    "choices": [
+      "stepped",
+      "steped",
+      "stepd",
+      "steppped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0047",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did the bus stop?",
+    "choices": [
+      "stopped",
+      "stoped",
+      "stopd",
+      "stoppped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0048",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did she rip her dress?",
+    "choices": [
+      "ripped",
+      "riped",
+      "ripd",
+      "rippped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dress"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0049",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did he trip on the rug?",
+    "choices": [
+      "tripped",
+      "triped",
+      "tripd",
+      "trippped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0050",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did the boat tug hard?",
+    "choices": [
+      "tugged",
+      "tuged",
+      "tugd",
+      "tuggged"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0051",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did <NAME> hum a song?",
+    "choices": [
+      "hummed",
+      "humed",
+      "humd",
+      "hummmed"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0052",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did we ship the box?",
+    "choices": [
+      "shipped",
+      "shiped",
+      "shipd",
+      "shippped"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "box"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0053",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did we cook soup?",
+    "choices": [
+      "cooked",
+      "cookked",
+      "cookd",
+      "cookedd"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0054",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did it rain today?",
+    "choices": [
+      "rained",
+      "rainned",
+      "raind",
+      "rainnned"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0055",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did she clean her room?",
+    "choices": [
+      "cleaned",
+      "cleanned",
+      "cleand",
+      "cleannned"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0056",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did he need help?",
+    "choices": [
+      "needed",
+      "needded",
+      "needd",
+      "needdded"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0057",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did they open the gate?",
+    "choices": [
+      "opened",
+      "openned",
+      "opend",
+      "opennned"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0058",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did we look at stars?",
+    "choices": [
+      "looked",
+      "lookked",
+      "lookd",
+      "lookkked"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0059",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did she like the cake?",
+    "choices": [
+      "liked",
+      "likked",
+      "likd",
+      "likkked"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0060",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did he walk home?",
+    "choices": [
+      "walked",
+      "walkked",
+      "walkd",
+      "walkkked"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0061",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Did we wait long?",
+    "choices": [
+      "waited",
+      "waitted",
+      "waitd",
+      "waittted"
+    ],
+    "answer_index": 0,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0062",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The soup is hot.",
+    "choices": [
+      "hoter",
+      "hotter",
+      "hoterr",
+      "hottter"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0063",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Today I feel sad.",
+    "choices": [
+      "sader",
+      "sadder",
+      "saderr",
+      "saddder"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "face"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0064",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "This rope is fit.",
+    "choices": [
+      "fiter",
+      "fitter",
+      "fiterr",
+      "fittter"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0065",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My red hat is big.",
+    "choices": [
+      "biger",
+      "bigger",
+      "bigerr",
+      "biggger"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_er",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0066",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Add ed to hug.",
+    "choices": [
+      "huged",
+      "huggd",
+      "hugged",
+      "huggedd"
+    ],
+    "answer_index": 2,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0067",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Add ed to hop.",
+    "choices": [
+      "hoped",
+      "hopped",
+      "hopd",
+      "hoppped"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0068",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Add ed to plan.",
+    "choices": [
+      "planed",
+      "planned",
+      "pland",
+      "plannned"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0069",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Add ed to rob.",
+    "choices": [
+      "robed",
+      "robbed",
+      "robd",
+      "robbbed"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0070",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Add ed to pin.",
+    "choices": [
+      "pined",
+      "pinned",
+      "pind",
+      "pinnned"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0071",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Add ed to ship.",
+    "choices": [
+      "shiped",
+      "shipped",
+      "shipd",
+      "shippped"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0072",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Add ed to stop.",
+    "choices": [
+      "stoped",
+      "stopped",
+      "stopd",
+      "stoppped"
+    ],
+    "answer_index": 1,
+    "explain_key": "double_ed",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0073",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to bake.",
+    "choices": [
+      "bakeing",
+      "bakking",
+      "baking",
+      "baaking"
+    ],
+    "answer_index": 2,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "oven"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0074",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to hope.",
+    "choices": [
+      "hopeing",
+      "hoping",
+      "hopping",
+      "hoppeing"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0075",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to make.",
+    "choices": [
+      "makeing",
+      "making",
+      "makking",
+      "maaking"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0076",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to ride.",
+    "choices": [
+      "rideing",
+      "riding",
+      "ridding",
+      "riddeing"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0077",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to smile.",
+    "choices": [
+      "smileing",
+      "smiling",
+      "smilling",
+      "smilleing"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "face"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0078",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to wave.",
+    "choices": [
+      "waveing",
+      "waving",
+      "wavving",
+      "waaveing"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hand"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0079",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to come.",
+    "choices": [
+      "comeing",
+      "coming",
+      "comming",
+      "coomeing"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friend"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0080",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to take.",
+    "choices": [
+      "takeing",
+      "taking",
+      "takking",
+      "taaking"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0081",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to give.",
+    "choices": [
+      "giveing",
+      "giving",
+      "givving",
+      "giiving"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0082",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to live.",
+    "choices": [
+      "liveing",
+      "living",
+      "livving",
+      "liiving"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0083",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to love.",
+    "choices": [
+      "loveing",
+      "loving",
+      "lovving",
+      "looving"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pet"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0084",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to dance.",
+    "choices": [
+      "danceing",
+      "dancing",
+      "danccing",
+      "daancing"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "music"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0085",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to rain.",
+    "choices": [
+      "rainning",
+      "raining",
+      "rainnng",
+      "raaining"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0086",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to open.",
+    "choices": [
+      "openning",
+      "opening",
+      "opennng",
+      "oopening"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0087",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to look.",
+    "choices": [
+      "lookking",
+      "looking",
+      "lookkng",
+      "loooking"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0088",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ed to help.",
+    "choices": [
+      "helpped",
+      "helped",
+      "helpd",
+      "helpt"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_cc",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friend"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0089",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ed to camp.",
+    "choices": [
+      "campped",
+      "camped",
+      "campd",
+      "campt"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_cc",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0090",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> jumped over mud.",
+    "choices": [
+      "jumpped",
+      "jumped",
+      "jumpd",
+      "jumpt"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_cc",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puddle"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0091",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Dad will help us.",
+    "choices": [
+      "helpped",
+      "helped",
+      "helpd",
+      "helpt"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_cc",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0092",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We camp by the lake.",
+    "choices": [
+      "campped",
+      "camped",
+      "campd",
+      "campt"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_cc",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0093",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to jump.",
+    "choices": [
+      "jumpping",
+      "jumping",
+      "jumpd",
+      "jumpng"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_cc",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0094",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to help.",
+    "choices": [
+      "helpping",
+      "helping",
+      "helpd",
+      "helpng"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_cc",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0095",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> will bake cookies.",
+    "choices": [
+      "bakeing",
+      "baking",
+      "bakking",
+      "baaking"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0096",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We will make lunch.",
+    "choices": [
+      "makeing",
+      "making",
+      "makking",
+      "maaking"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0097",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ed to rain.",
+    "choices": [
+      "rainned",
+      "rained",
+      "raind",
+      "rainnned"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puddle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0098",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ed to bake.",
+    "choices": [
+      "bakeed",
+      "baked",
+      "bakd",
+      "bakked"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0099",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids will wave.",
+    "choices": [
+      "waveing",
+      "waving",
+      "wavving",
+      "waaveing"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_spell_words_with_suffixes_double_the_consona_0100",
+    "family_id": "fam_spell_words_with_suffixes_double_the_consona",
+    "skill_id": "roots_spell_words_with_suffixes_double_the_consona",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Add ing to hide.",
+    "choices": [
+      "hideing",
+      "hiding",
+      "hidding",
+      "hiiding"
+    ],
+    "answer_index": 1,
+    "explain_key": "no_double_e",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  }
+]

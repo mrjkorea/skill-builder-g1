@@ -1,0 +1,305 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_words_with_open_syllables",
+  "family_title_en": "Spell words with open syllables",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_words_with_open_syllables",
+      "ix_title": "Spell words with open syllables",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "How do you spell the open syllable word?",
+        "ko": "열린 음절 단어를 어떻게 쓰나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the correct spelling.",
+        "ko": "올바른 철자를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word spellings of one target. Exactly one is correct. The other three misspell that same word and are not real words. Vary which index is correct. The stem never contains the correct spelling.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "acorn",
+        "apron",
+        "bacon",
+        "bonus",
+        "cable",
+        "cradle",
+        "donut",
+        "equal",
+        "fever",
+        "focus",
+        "gravy",
+        "humor",
+        "lady",
+        "maple",
+        "menu",
+        "moment",
+        "pilot",
+        "polite",
+        "pony",
+        "robot",
+        "secret",
+        "silent",
+        "soda",
+        "spider",
+        "super",
+        "syllable",
+        "syllables",
+        "tiger",
+        "tulip",
+        "unit",
+        "yogurt",
+        "zero"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_words_with_open_syllables_0001",
+          "tier": 1,
+          "stem": "A very little child.",
+          "choices": [
+            "baby",
+            "baaby",
+            "babee",
+            "byba"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_long",
+          "media": [
+            {
+              "lemma": "baby"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_syllables_0002",
+          "tier": 1,
+          "stem": "We hear a song.",
+          "choices": [
+            "mmusic",
+            "music",
+            "musicc",
+            "mucis"
+          ],
+          "answer_index": 1,
+          "explain_key": "open_long",
+          "media": [
+            {
+              "lemma": "music"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_syllables_0003",
+          "tier": 1,
+          "stem": "We write on this.",
+          "choices": [
+            "papr",
+            "ppaper",
+            "paper",
+            "paperrr"
+          ],
+          "answer_index": 2,
+          "explain_key": "keep_vowel",
+          "media": [
+            {
+              "lemma": "paper"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_syllables_0004",
+          "tier": 2,
+          "stem": "We eat lunch at this.",
+          "choices": [
+            "tabble",
+            "tayble",
+            "tabel",
+            "table"
+          ],
+          "answer_index": 3,
+          "explain_key": "no_double",
+          "media": [
+            {
+              "lemma": "table"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_syllables_0005",
+          "tier": 2,
+          "stem": "A brave person can help.",
+          "choices": [
+            "hero",
+            "herro",
+            "heero",
+            "herow"
+          ],
+          "answer_index": 0,
+          "explain_key": "no_double",
+          "media": [
+            {
+              "lemma": "hero"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_syllables_0006",
+          "tier": 2,
+          "stem": "The name on a jar.",
+          "choices": [
+            "lable",
+            "label",
+            "labbel",
+            "labell"
+          ],
+          "answer_index": 1,
+          "explain_key": "no_double",
+          "media": [
+            {
+              "lemma": "label"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_syllables_0007",
+          "tier": 3,
+          "stem": "<NAME> took a picture of our pet.",
+          "choices": [
+            "photto",
+            "phoeto",
+            "photo",
+            "photu"
+          ],
+          "answer_index": 2,
+          "explain_key": "open_long",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "photo"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_open_syllables_0008",
+          "tier": 3,
+          "stem": "A quiet place with many books.",
+          "choices": [
+            "libbrary",
+            "liebrary",
+            "librery",
+            "library"
+          ],
+          "answer_index": 3,
+          "explain_key": "no_double",
+          "media": [
+            {
+              "lemma": "library"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four spellings of one word. Exactly one is the real spelling.",
+      "The real word has an open syllable that ends in one vowel letter, and that vowel is long.",
+      "Distractors are misspellings of that same word, never a different real word.",
+      "Tier 1 distractors drop a vowel, scramble letters, or repeat an extra letter.",
+      "Tier 2 distractors double the consonant after the open vowel, or replace that vowel with a vowel team.",
+      "Tier 3 distractors are one letter off on a two-syllable or three-syllable word, usually a doubled consonant that would close the syllable.",
+      "The stem is a short meaning clue. Do not write the correct spelling in the stem.",
+      "Use whole words only. No isolated sounds, no IPA, no audio file names, and no brand names.",
+      "Stay in a kid world of school, home, food, pets, play, family, and weather.",
+      "Every stem word comes from the roots word list or allowed_extra_words, or is the token <NAME>."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\.mp3\\b",
+    "\\.wav\\b",
+    "phoneme",
+    "\\bipa\\b",
+    "æ",
+    "ə",
+    "ɪ",
+    "ʊ",
+    "ʃ",
+    "θ",
+    "ð",
+    "ŋ",
+    "ˈ",
+    "ː"
+  ],
+  "tier_rules": {
+    "1": "Short clues of three to five words for familiar two-syllable words. Wrong spellings are obvious: a missing vowel, scrambled letters, or extra repeated letters.",
+    "2": "Clues of four to seven words. Wrong spellings double the consonant after the open vowel, or use a vowel team in place of one vowel letter.",
+    "3": "Longer clues up to ten words, and a name token when it fits. Wrong spellings on two-syllable or three-syllable words change one letter, usually the consonant that would close the open syllable."
+  },
+  "miss_explain": {
+    "open_long": {
+      "en": "An open syllable ends in a vowel. That vowel says its name. Spell it with one vowel letter.",
+      "ko": "열린 음절은 모음으로 끝납니다. 그 모음은 자기 이름을 말합니다. 모음 글자는 하나만 쓰세요."
+    },
+    "no_double": {
+      "en": "Do not double the consonant after the vowel. A double consonant closes the syllable.",
+      "ko": "모음 다음 자음을 겹쳐 쓰지 마세요. 자음을 겹치면 음절이 닫히고 모음이 짧아집니다."
+    },
+    "keep_vowel": {
+      "en": "Keep the vowel at the end of the open syllable. Do not drop it or add an extra vowel.",
+      "ko": "열린 음절 끝의 모음을 지키세요. 모음을 빼거나 여분의 모음을 넣지 마세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell words with open syllables"
+    ],
+    "no_ixl_text": true
+  }
+}

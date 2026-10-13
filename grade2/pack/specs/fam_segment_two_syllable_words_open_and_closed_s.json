@@ -1,0 +1,262 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_segment_two_syllable_words_open_and_closed_s",
+  "family_title_en": "Segment two-syllable words: open and closed syllables",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_segment_two_syllable_words_open_and_closed_s",
+      "ix_title": "Segment two-syllable words: open and closed syllables",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "How do you split the last word?",
+        "ko": "마지막 단어를 어떻게 나눌까요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right open or closed split.",
+        "ko": "알맞은 열린 음절 또는 닫힌 음절 나누기를 누르세요."
+      },
+      "choice_rule": "The last word of the stem is the target. Give four unique cuts of that same word. Use a hyphen, except a tier 1 miss may be the uncut word. Exactly one cut follows open and closed rules. Vary the correct slot.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bacon",
+        "basic",
+        "basket",
+        "bonus",
+        "button",
+        "cabin",
+        "cactus",
+        "camel",
+        "chicken",
+        "comet",
+        "focus",
+        "gravy",
+        "habit",
+        "happen",
+        "jacket",
+        "lady",
+        "lemon",
+        "lesson",
+        "magnet",
+        "minus",
+        "moment",
+        "muffin",
+        "planet",
+        "pony",
+        "puppet",
+        "pupil",
+        "rapid",
+        "robin",
+        "robot",
+        "salad",
+        "silent",
+        "sudden",
+        "tennis",
+        "tulip",
+        "unit"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_segment_two_syllable_words_open_and_closed_s_0001",
+          "tier": 1,
+          "stem": "rabbit",
+          "choices": [
+            "r-abbit",
+            "rab-bit",
+            "rabbi-t",
+            "rabbit"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed_closed"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_open_and_closed_s_0002",
+          "tier": 1,
+          "stem": "kitten",
+          "choices": [
+            "k-itten",
+            "kitten",
+            "kitte-n",
+            "kit-ten"
+          ],
+          "answer_index": 3,
+          "explain_key": "closed_closed"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_open_and_closed_s_0003",
+          "tier": 1,
+          "stem": "ribbon",
+          "choices": [
+            "rib-bon",
+            "r-ibbon",
+            "ribbo-n",
+            "ribbon"
+          ],
+          "answer_index": 0,
+          "explain_key": "closed_closed"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_open_and_closed_s_0004",
+          "tier": 2,
+          "stem": "baby",
+          "choices": [
+            "bab-y",
+            "b-aby",
+            "ba-by",
+            "baby"
+          ],
+          "answer_index": 2,
+          "explain_key": "open_open"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_open_and_closed_s_0005",
+          "tier": 2,
+          "stem": "hotel",
+          "choices": [
+            "hot-el",
+            "ho-tel",
+            "hote-l",
+            "hotel"
+          ],
+          "answer_index": 1,
+          "explain_key": "open_closed"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_open_and_closed_s_0006",
+          "tier": 2,
+          "stem": "happy",
+          "choices": [
+            "ha-ppy",
+            "h-appy",
+            "hap-py",
+            "happy"
+          ],
+          "answer_index": 2,
+          "explain_key": "closed_open"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_open_and_closed_s_0007",
+          "tier": 3,
+          "stem": "<NAME> can visit",
+          "choices": [
+            "v-isit",
+            "visi-t",
+            "vi-sit",
+            "vis-it"
+          ],
+          "answer_index": 3,
+          "explain_key": "closed_closed",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_open_and_closed_s_0008",
+          "tier": 3,
+          "stem": "music",
+          "choices": [
+            "mu-sic",
+            "m-usic",
+            "mus-ic",
+            "musi-c"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_closed"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four choices cut the last word of the stem. Exactly one cut is correct, and the answer slot changes from item to item.",
+      "A closed syllable ends in a consonant and has a short vowel. An open syllable ends in a vowel, including y, and has a long vowel.",
+      "Twin consonants split in the middle, as in rab-bit. One consonant between vowels splits before that consonant when the first vowel is long, and after it when the first vowel is short.",
+      "Do not split a digraph such as sh, ch, th, ck, or ng. Skip one-syllable words, words of three or more syllables, r-controlled syllables, vowel teams, and consonant-le.",
+      "Tier 1 misses are edge cuts or the uncut word. Tier 2 includes the opposite open or closed cut. Tier 3 uses the nearest cuts and does not offer the uncut word.",
+      "The target is the last word. Any other stem word is one syllable, except the <NAME> token. Stems use the roots list, allowed_extra_words, and <NAME> only.",
+      "Stay in the kid world of school, home, food, pets, play, family, and weather. No brand names and no real personal names.",
+      "Choices are written syllable cuts of that same word, with a hyphen. Never use phoneme symbols, slashes, or held sounds."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "schwa",
+    "phoneme",
+    "\\bipa\\b",
+    "/",
+    "ə",
+    "æ"
+  ],
+  "tier_rules": {
+    "1": "One familiar word with twin consonants, such as rabbit, kitten, or ribbon. Wrong splits are at the edge or the word is left whole.",
+    "2": "A grade-level word such as baby, hotel, or happy. One wrong split is the opposite open or closed cut, and the other wrong splits are farther.",
+    "3": "Nearest cuts only, including the open cut set against the closed cut. The stem may be a short sentence that ends with the target word."
+  },
+  "miss_explain": {
+    "open_open": {
+      "en": "Both parts end in a vowel, so both syllables are open. The vowels are long. A final y is a vowel.",
+      "ko": "두 부분 모두 모음으로 끝나 둘 다 열린 음절입니다. 모음은 긴 소리이고, 끝의 y도 모음입니다."
+    },
+    "open_closed": {
+      "en": "The first part ends in a vowel, so it is open. The second part ends in a consonant, so it is closed.",
+      "ko": "첫 부분은 모음으로 끝나 열린 음절입니다. 둘째 부분은 자음으로 끝나 닫힌 음절입니다."
+    },
+    "closed_open": {
+      "en": "The first part ends in a consonant, so it is closed. The second part ends in a vowel, so it is open. A final y is a vowel.",
+      "ko": "첫 부분은 자음으로 끝나 닫힌 음절입니다. 둘째 부분은 모음으로 끝나 열린 음절입니다. 끝의 y도 모음입니다."
+    },
+    "closed_closed": {
+      "en": "Both parts end in a consonant, so both syllables are closed. The vowels are short.",
+      "ko": "두 부분 모두 자음으로 끝나 둘 다 닫힌 음절입니다. 모음은 짧은 소리입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Segment two-syllable words: open and closed syllables"
+    ],
+    "no_ixl_text": true
+  }
+}

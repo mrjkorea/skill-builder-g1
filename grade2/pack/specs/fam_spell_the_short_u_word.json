@@ -1,0 +1,294 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_short_u_word",
+  "family_title_en": "Spell the short u word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_short_u_word",
+      "ix_title": "Spell the short u word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which short u spelling is right?",
+        "ko": "짧은 u의 바른 철자는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right spelling of the short u word.",
+        "ko": "짧은 u 단어의 바른 철자를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word spellings of the one short u word the stem names. Exactly one is correct. The other three misspell that same word by swapping the vowel, adding or dropping one letter, writing k instead of ck, or adding a silent e. A real-word distractor must not fit the stem. Do not put the correct spelling in the stem. No IPA and no lone sounds.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bump",
+        "button",
+        "crunch",
+        "crush",
+        "dump",
+        "hunt",
+        "hut",
+        "jug",
+        "luck",
+        "lump",
+        "mug",
+        "munch",
+        "nut",
+        "plum",
+        "puff",
+        "pump",
+        "punch",
+        "rush",
+        "snug",
+        "stuff",
+        "thumb",
+        "trunk"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_short_u_word_0001",
+          "tier": 1,
+          "stem": "You drink milk from this.",
+          "choices": [
+            "cup",
+            "cap",
+            "cop",
+            "kip"
+          ],
+          "answer_index": 0,
+          "explain_key": "cvc_u",
+          "media": [
+            {
+              "lemma": "cup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_u_word_0002",
+          "tier": 1,
+          "stem": "The hot yellow ball in the sky.",
+          "choices": [
+            "san",
+            "sun",
+            "sin",
+            "sunn"
+          ],
+          "answer_index": 1,
+          "explain_key": "cvc_u",
+          "media": [
+            {
+              "lemma": "sun"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_u_word_0003",
+          "tier": 1,
+          "stem": "A little animal on a leaf.",
+          "choices": [
+            "bag",
+            "beg",
+            "bug",
+            "big"
+          ],
+          "answer_index": 2,
+          "explain_key": "cvc_u",
+          "media": [
+            {
+              "lemma": "bug"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_u_word_0004",
+          "tier": 2,
+          "stem": "This bird can swim on a pond.",
+          "choices": [
+            "duk",
+            "duc",
+            "dukk",
+            "duck"
+          ],
+          "answer_index": 3,
+          "explain_key": "ck_spell",
+          "media": [
+            {
+              "lemma": "duck"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_u_word_0005",
+          "tier": 2,
+          "stem": "You do this with two feet to go up.",
+          "choices": [
+            "jamp",
+            "jemp",
+            "jimp",
+            "jump"
+          ],
+          "answer_index": 3,
+          "explain_key": "blend_u",
+          "media": [
+            {
+              "lemma": "jump"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_u_word_0006",
+          "tier": 2,
+          "stem": "<NAME> can use this on wet hair.",
+          "choices": [
+            "brush",
+            "brash",
+            "brish",
+            "brosh"
+          ],
+          "answer_index": 0,
+          "explain_key": "blend_u",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "brush"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_u_word_0007",
+          "tier": 3,
+          "stem": "A baby bear is called this.",
+          "choices": [
+            "cab",
+            "cube",
+            "cub",
+            "cob"
+          ],
+          "answer_index": 2,
+          "explain_key": "no_silent_e",
+          "media": [
+            {
+              "lemma": "cub"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_u_word_0008",
+          "tier": 3,
+          "stem": "It is after spring and before the fall.",
+          "choices": [
+            "sumer",
+            "summer",
+            "summar",
+            "summor"
+          ],
+          "answer_index": 1,
+          "explain_key": "two_syllable",
+          "media": [
+            {
+              "lemma": "summer"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each item has four spellings of one short u word, and answer_index marks the only correct spelling.",
+      "Distractors misspell that same word by swapping the vowel, adding or dropping one letter, writing k instead of ck, or adding a silent e.",
+      "A distractor that is a real word must not fit the stem. The stem names only the correct word.",
+      "Use whole words only. Do not write IPA, slash sounds, or a vowel sound by itself.",
+      "Build each stem from the roots word list, allowed extra words, and <NAME> only, and do not show the correct spelling in the stem.",
+      "Keep the scene in school, home, food, pets, play, family, or weather, with no brand names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bipa\\b",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "\\buh\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b"
+  ],
+  "tier_rules": {
+    "1": "Easy CVC words such as cup, bug, and sun. Stems of four to seven words. Distractors swap the vowel or add an obvious extra letter.",
+    "2": "Grade 2 blends and ck endings such as jump, brush, and duck. Stems of six to nine words. Distractors are one letter off.",
+    "3": "Near misses only: a silent e that makes u long, as in cub and cube, or a two-syllable word such as summer with one letter wrong."
+  },
+  "miss_explain": {
+    "cvc_u": {
+      "en": "Short u is spelled with the letter u, as in cup, bug, and sun.",
+      "ko": "짧은 u는 글자 u로 씁니다. cup, bug, sun이 그 예입니다."
+    },
+    "ck_spell": {
+      "en": "After a short vowel, use the letters ck at the end, as in duck.",
+      "ko": "짧은 모음 뒤에는 duck처럼 ck로 끝냅니다."
+    },
+    "blend_u": {
+      "en": "Keep every letter. Short u is the letter u in the middle of the word.",
+      "ko": "글자를 빠뜨리지 마세요. 짧은 u는 단어 가운데의 글자 u입니다."
+    },
+    "no_silent_e": {
+      "en": "This word has a short u and no silent e. A silent e would make the vowel long.",
+      "ko": "이 단어는 짧은 u이고 묵음 e가 없습니다. 묵음 e가 있으면 모음이 길어집니다."
+    },
+    "two_syllable": {
+      "en": "This word has two parts. Spell the short u in the first part, then the ending.",
+      "ko": "이 단어는 두 부분입니다. 앞부분의 짧은 u를 쓰고 끝도 맞추세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the short u word"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_guide_words",
+  "family_title_en": "Use guide words",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_guide_words",
+      "ix_title": "Use guide words",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is between these guide words?",
+        "ko": "이 안내어 사이에 있는 낱말은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that belongs on the page.",
+        "ko": "그 페이지에 들어가는 낱말을 누르세요."
+      },
+      "choice_rule": "Four lowercase wordlist words. Exactly one sits alphabetically between the two stem guide words, inclusive. The other three sit before the first guide word or after the last. Never invent words. One tap, one right answer. Shuffle answer_index.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "words",
+        "dictionary",
+        "dictionaries",
+        "alphabetical",
+        "alphabet",
+        "belong",
+        "belongs",
+        "pages",
+        "entry",
+        "entries",
+        "comes",
+        "pair",
+        "pairs"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_guide_words_0001",
+          "tier": 1,
+          "stem": "The guide words are cat and dog.",
+          "choices": [
+            "desk",
+            "ball",
+            "egg",
+            "fish"
+          ],
+          "answer_index": 0,
+          "explain_key": "between",
+          "media": [
+            {
+              "lemma": "cat"
+            },
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_guide_words_0002",
+          "tier": 1,
+          "stem": "The guide words are apple and bear.",
+          "choices": [
+            "ant",
+            "baby",
+            "bird",
+            "cake"
+          ],
+          "answer_index": 1,
+          "explain_key": "before_first",
+          "media": [
+            {
+              "lemma": "apple"
+            },
+            {
+              "lemma": "bear"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_guide_words_0003",
+          "tier": 1,
+          "stem": "The guide words are frog and hat.",
+          "choices": [
+            "game",
+            "fish",
+            "home",
+            "jump"
+          ],
+          "answer_index": 0,
+          "explain_key": "after_last",
+          "media": [
+            {
+              "lemma": "frog"
+            },
+            {
+              "lemma": "hat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_guide_words_0004",
+          "tier": 2,
+          "stem": "The guide words are cat and cow.",
+          "choices": [
+            "cake",
+            "chair",
+            "cup",
+            "cut"
+          ],
+          "answer_index": 1,
+          "explain_key": "look_next"
+        },
+        {
+          "item_id": "roots_use_guide_words_0005",
+          "tier": 2,
+          "stem": "The guide words are hand and hill.",
+          "choices": [
+            "hair",
+            "home",
+            "happy",
+            "hop"
+          ],
+          "answer_index": 2,
+          "explain_key": "between"
+        },
+        {
+          "item_id": "roots_use_guide_words_0006",
+          "tier": 2,
+          "stem": "These guide words are plant and pot.",
+          "choices": [
+            "pink",
+            "plan",
+            "pup",
+            "play"
+          ],
+          "answer_index": 3,
+          "explain_key": "look_next"
+        },
+        {
+          "item_id": "roots_use_guide_words_0007",
+          "tier": 3,
+          "stem": "The guide words are bring and brown.",
+          "choices": [
+            "bright",
+            "bread",
+            "broke",
+            "brush"
+          ],
+          "answer_index": 2,
+          "explain_key": "before_first"
+        },
+        {
+          "item_id": "roots_use_guide_words_0008",
+          "tier": 3,
+          "stem": "<NAME> has stone and street.",
+          "choices": [
+            "stick",
+            "store",
+            "strong",
+            "study"
+          ],
+          "answer_index": 1,
+          "explain_key": "after_last",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four unique wordlist words. Exactly one is alphabetically between the two guide words, inclusive. The other three are before the first or after the last.",
+      "Check letter by letter. Never keep a choice that could also sit between the guide words.",
+      "Tier 1: guide words start with different letters. Distractors start with letters clearly before or after that span.",
+      "Tier 2: all four choices share the first letter with the guide words. Kids must use the second or third letter.",
+      "Tier 3: near-miss distractors share the first two or three letters and sit just outside the range.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands. No real names.",
+      "Do not use a guide word as a choice except for one inclusive tier-3 check.",
+      "Spread answer_index across 0, 1, 2, and 3. The first guide word must come earlier in the alphabet than the second."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "would you find",
+    "following guide",
+    "dictionary page",
+    "\\bpicture shows\\b",
+    "\\blisten to\\b",
+    "/[aeiouæəɪʊɑɔθðʃʒŋ]/"
+  ],
+  "tier_rules": {
+    "1": "Short stems. Guide words start with different letters. The right word starts with a letter clearly between them. Distractors start with far-away letters.",
+    "2": "Grade-level stems. Guide words and all choices share a first letter. Kids compare the next letters. One distractor sits just before and one just after.",
+    "3": "Near-miss distractors share the first two or three letters with a guide word and sit just outside the range. Optional NAME swap."
+  },
+  "miss_explain": {
+    "between": {
+      "en": "Guide words name the first and last words on a page. Pick the word that comes between them.",
+      "ko": "안내어는 그 페이지의 첫 낱말과 마지막 낱말입니다. 그 사이에 오는 낱말을 고르세요."
+    },
+    "before_first": {
+      "en": "This word comes before the first guide word, so it is not on that page.",
+      "ko": "이 낱말은 첫 안내어보다 앞에 있어서 그 페이지에 없습니다."
+    },
+    "after_last": {
+      "en": "This word comes after the last guide word, so it is not on that page.",
+      "ko": "이 낱말은 마지막 안내어보다 뒤에 있어서 그 페이지에 없습니다."
+    },
+    "look_next": {
+      "en": "The first letters match. Look at the next letters to see which word fits between.",
+      "ko": "첫 글자가 같으면 다음 글자를 보고 사이에 들어가는 낱말을 찾으세요."
+    },
+    "inclusive": {
+      "en": "The guide words are on the page too. They are the first and last words.",
+      "ko": "안내어도 그 페이지에 있습니다. 안내어는 첫 낱말과 마지막 낱말입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use guide words"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,2444 @@
+[
+  {
+    "item_id": "roots_combine_sentences_predicates_0001",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dog barked. The dog ran.",
+    "choices": [
+      "The dog barked and ran.",
+      "The dog and barked ran.",
+      "Barked and ran the dog.",
+      "The barked dog and ran."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0002",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cat sat. The cat hid.",
+    "choices": [
+      "The cat sat and hid.",
+      "The cat and sat hid.",
+      "Sat and hid the cat.",
+      "The sat cat and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0003",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bird sang. The bird flew.",
+    "choices": [
+      "The bird sang and flew.",
+      "The bird and sang flew.",
+      "Sang and flew the bird.",
+      "The sang bird and flew."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0004",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> baked bread. <NAME> made soup.",
+    "choices": [
+      "<NAME> baked bread and made soup.",
+      "<NAME> baked and bread made soup.",
+      "<NAME> and baked bread made soup.",
+      "<NAME> baked bread and soup."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0005",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My little sister smiled. My little sister waved.",
+    "choices": [
+      "My little sister smiled and waved.",
+      "My little sister smiled and my little sister waved.",
+      "My little sister and smiled waved.",
+      "My little smiled sister and waved."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0006",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy packed lunch. The puppy hid.",
+    "choices": [
+      "The puppy packed lunch and hid.",
+      "The puppy packed and lunch hid.",
+      "The puppy and packed lunch hid.",
+      "The packed puppy lunch and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0007",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The brown horse ran. The brown horse ate.",
+    "choices": [
+      "The brown horse ran and ate.",
+      "The horse ran and the horse ate.",
+      "The brown horse and ran ate.",
+      "The brown and horse ran ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0008",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> read books. <NAME> drew pictures.",
+    "choices": [
+      "<NAME> read books and drew pictures.",
+      "<NAME> read books and pictures.",
+      "<NAME> read and books drew pictures.",
+      "<NAME> read books and <NAME> drew pictures."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0009",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fish swim. The fish jumped.",
+    "choices": [
+      "The fish swim and jumped.",
+      "The fish and swim jumped.",
+      "Swam and jumped the fish.",
+      "The swim fish and jumped."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0010",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The frog jumped. The frog hopped.",
+    "choices": [
+      "The frog jumped and hopped.",
+      "The frog and jumped hopped.",
+      "Jumped and hopped the frog.",
+      "The jumped frog and hopped."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0011",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The duck swim. The duck flew.",
+    "choices": [
+      "The duck swim and flew.",
+      "The duck and swim flew.",
+      "Swam and flew the duck.",
+      "The swim duck and flew."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0012",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hen ate. The hen hid.",
+    "choices": [
+      "The hen ate and hid.",
+      "The hen and ate hid.",
+      "Ate and hid the hen.",
+      "The ate hen and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0013",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl flew. The owl hid.",
+    "choices": [
+      "The owl flew and hid.",
+      "The owl and flew hid.",
+      "Flew and hid the owl.",
+      "The flew owl and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0014",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bug crawl. The bug hid.",
+    "choices": [
+      "The bug crawl and hid.",
+      "The bug and crawl hid.",
+      "Crawled and hid the bug.",
+      "The crawl bug and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0015",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ant ran. The ant hid.",
+    "choices": [
+      "The ant ran and hid.",
+      "The ant and ran hid.",
+      "Ran and hid the ant.",
+      "The ran ant and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0016",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cow ate. The cow rests.",
+    "choices": [
+      "The cow ate and rests.",
+      "The cow and ate rests.",
+      "Ate and rests the cow.",
+      "The ate cow and rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0017",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pig rolled. The pig ate.",
+    "choices": [
+      "The pig rolled and ate.",
+      "The pig and rolled ate.",
+      "Rolled and ate the pig.",
+      "The rolled pig and ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0018",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The sheep ate. The sheep rests.",
+    "choices": [
+      "The sheep ate and rests.",
+      "The sheep and ate rests.",
+      "Ate and rests the sheep.",
+      "The ate sheep and rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0019",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The mouse ran. The mouse hid.",
+    "choices": [
+      "The mouse ran and hid.",
+      "The mouse and ran hid.",
+      "Ran and hid the mouse.",
+      "The ran mouse and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0020",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fox ran. The fox hid.",
+    "choices": [
+      "The fox ran and hid.",
+      "The fox and ran hid.",
+      "Ran and hid the fox.",
+      "The ran fox and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0021",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The wolf ran. The wolf hid.",
+    "choices": [
+      "The wolf ran and hid.",
+      "The wolf and ran hid.",
+      "Ran and hid the wolf.",
+      "The ran wolf and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wolf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0022",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bear ate. The bear rests.",
+    "choices": [
+      "The bear ate and rests.",
+      "The bear and ate rests.",
+      "Ate and rests the bear.",
+      "The ate bear and rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0023",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The seal swim. The seal rests.",
+    "choices": [
+      "The seal swim and rests.",
+      "The seal and swim rests.",
+      "Swam and rests the seal.",
+      "The swim seal and rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seal"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0024",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The crab crawl. The crab hid.",
+    "choices": [
+      "The crab crawl and hid.",
+      "The crab and crawl hid.",
+      "Crawled and hid the crab.",
+      "The crawl crab and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crab"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0025",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The turtle crawl. The turtle rests.",
+    "choices": [
+      "The turtle crawl and rests.",
+      "The turtle and crawl rests.",
+      "Crawled and rests the turtle.",
+      "The crawl turtle and rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0026",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The snake slid. The snake hid.",
+    "choices": [
+      "The snake slid and hid.",
+      "The snake and slid hid.",
+      "Slid and hid the snake.",
+      "The slid snake and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0027",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rabbit hopped. The rabbit ate.",
+    "choices": [
+      "The rabbit hopped and ate.",
+      "The rabbit and hopped ate.",
+      "Hopped and ate the rabbit.",
+      "The hopped rabbit and ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0028",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kitten purrs. The kitten played.",
+    "choices": [
+      "The kitten purrs and played.",
+      "The kitten and purrs played.",
+      "Purrs and played the kitten.",
+      "The purrs kitten and played."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0029",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ball bounced. The ball rolled.",
+    "choices": [
+      "The ball bounced and rolled.",
+      "The ball and bounced rolled.",
+      "Bounced and rolled the ball.",
+      "The bounced ball and rolled."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0030",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boat rolled. The boat stood.",
+    "choices": [
+      "The boat rolled and stood.",
+      "The boat and rolled stood.",
+      "Rolled and stood the boat.",
+      "The rolled boat and stood."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0031",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The train rolled. The train stood.",
+    "choices": [
+      "The train rolled and stood.",
+      "The train and rolled stood.",
+      "Rolled and stood the train.",
+      "The rolled train and stood."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0032",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bus stood. The bus ran.",
+    "choices": [
+      "The bus stood and ran.",
+      "The bus and stood ran.",
+      "Stopped and ran the bus.",
+      "The stood bus and ran."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0033",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The boy ran. The boy fell.",
+    "choices": [
+      "The boy ran and fell.",
+      "The boy and ran fell.",
+      "Ran and fell the boy.",
+      "The ran boy and fell."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0034",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The girl sang. The girl danced.",
+    "choices": [
+      "The girl sang and danced.",
+      "The girl and sang danced.",
+      "Sang and danced the girl.",
+      "The sang girl and danced."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0035",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "My dad baked. My dad rests.",
+    "choices": [
+      "My dad baked and rests.",
+      "My dad and baked rests.",
+      "Baked and rests my dad.",
+      "My baked dad and rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_and",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0036",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kid ate lunch. The kid played.",
+    "choices": [
+      "The kid ate lunch and played.",
+      "The kid ate and lunch played.",
+      "The kid and ate lunch played.",
+      "The kid ate lunch and snack."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0037",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kid kicked ball. The kid ran.",
+    "choices": [
+      "The kid kicked ball and ran.",
+      "The kid kicked and ball ran.",
+      "The kid and kicked ball ran.",
+      "The kid kicked ball and fast."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0038",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat ate fish. The cat rests.",
+    "choices": [
+      "The cat ate fish and rests.",
+      "The cat ate and fish rests.",
+      "The cat and ate fish rests.",
+      "The cat ate fish and milk."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0039",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dog kicked ball. The dog ran.",
+    "choices": [
+      "The dog kicked ball and ran.",
+      "The dog kicked and ball ran.",
+      "The dog and kicked ball ran.",
+      "The dog kicked ball and home."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0040",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bird built nest. The bird rests.",
+    "choices": [
+      "The bird built nest and rests.",
+      "The bird built and nest rests.",
+      "The bird and built nest rests.",
+      "The bird built nest and flew."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0041",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mouse ate bread. The mouse ran.",
+    "choices": [
+      "The mouse ate bread and ran.",
+      "The mouse ate and bread ran.",
+      "The mouse and ate bread ran.",
+      "The mouse ate bread and hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0042",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The horse ate hay. The horse ran.",
+    "choices": [
+      "The horse ate hay and ran.",
+      "The horse ate and hay ran.",
+      "The horse and ate hay ran.",
+      "The horse ate hay and barn."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0043",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cow ate grass. The cow rests.",
+    "choices": [
+      "The cow ate grass and rests.",
+      "The cow ate and grass rests.",
+      "The cow and ate grass rests.",
+      "The cow ate grass and milk."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0044",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hen ate corn. The hen hid.",
+    "choices": [
+      "The hen ate corn and hid.",
+      "The hen ate and corn hid.",
+      "The hen and ate corn hid.",
+      "The hen ate corn and ran."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0045",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The pig rolled mud. The pig ate.",
+    "choices": [
+      "The pig rolled mud and ate.",
+      "The pig rolled and mud ate.",
+      "The pig and rolled mud ate.",
+      "The pig rolled mud and barn."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0046",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The duck swim pond. The duck ate.",
+    "choices": [
+      "The duck swim pond and ate.",
+      "The duck swim and pond ate.",
+      "The duck and swim pond ate.",
+      "The duck swim pond and bread."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0047",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The frog sat log. The frog jumped.",
+    "choices": [
+      "The frog sat log and jumped.",
+      "The frog sat and log jumped.",
+      "The frog and sat log jumped.",
+      "The frog sat log and pond."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0048",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bug crawl leaf. The bug hid.",
+    "choices": [
+      "The bug crawl leaf and hid.",
+      "The bug crawl and leaf hid.",
+      "The bug and crawl leaf hid.",
+      "The bug crawl leaf and dirt."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0049",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My big brother ran. My big brother jumped.",
+    "choices": [
+      "My big brother ran and jumped.",
+      "My big brother ran and my big brother jumped.",
+      "My big brother and ran jumped.",
+      "My big ran brother and jumped."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "brother"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0050",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My kind grandma baked. My kind grandma rests.",
+    "choices": [
+      "My kind grandma baked and rests.",
+      "My kind grandma baked and my kind grandma rests.",
+      "My kind grandma and baked rests.",
+      "My kind grandma baked and bread."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandma"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0051",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My old grandpa read. My old grandpa rests.",
+    "choices": [
+      "My old grandpa read and rests.",
+      "My old grandpa read and my old grandpa rests.",
+      "My old grandpa and read rests.",
+      "My old grandpa read and books."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandpa"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0052",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The little kid ate. The little kid played.",
+    "choices": [
+      "The little kid ate and played.",
+      "The little kid ate and the little kid played.",
+      "The little kid and ate played.",
+      "The little kid ate and lunch."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0053",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tall boy ran. The tall boy kicked.",
+    "choices": [
+      "The tall boy ran and kicked.",
+      "The tall boy ran and the tall boy kicked.",
+      "The tall boy and ran kicked.",
+      "The tall boy ran and ball."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0054",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The happy girl sang. The happy girl danced.",
+    "choices": [
+      "The happy girl sang and danced.",
+      "The happy girl sang and the happy girl danced.",
+      "The happy girl and sang danced.",
+      "The happy girl sang and song."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0055",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> washed hand. <NAME> ate lunch.",
+    "choices": [
+      "<NAME> washed hand and ate lunch.",
+      "<NAME> washed and hand ate lunch.",
+      "<NAME> and washed hand ate lunch.",
+      "<NAME> washed hand and soup."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hand"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0056",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> picked apple. <NAME> washed apple.",
+    "choices": [
+      "<NAME> picked apple and washed apple.",
+      "<NAME> picked and apple washed apple.",
+      "<NAME> and picked apple washed apple.",
+      "<NAME> picked apple and washed."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0057",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> walked home. <NAME> ate dinner.",
+    "choices": [
+      "<NAME> walked home and ate dinner.",
+      "<NAME> walked and home ate dinner.",
+      "<NAME> and walked home ate dinner.",
+      "<NAME> walked home and dinner."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0058",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> played games. <NAME> ate snack.",
+    "choices": [
+      "<NAME> played games and ate snack.",
+      "<NAME> played and games ate snack.",
+      "<NAME> and played games ate snack.",
+      "<NAME> played games and food."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0059",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> baked cookies. <NAME> ate cookies.",
+    "choices": [
+      "<NAME> baked cookies and ate cookies.",
+      "<NAME> baked and cookies ate cookies.",
+      "<NAME> and baked cookies ate cookies.",
+      "<NAME> baked cookies and ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0060",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> read books. <NAME> drew books.",
+    "choices": [
+      "<NAME> read books and drew books.",
+      "<NAME> read and books drew books.",
+      "<NAME> and read books drew books.",
+      "<NAME> read books and drew."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0061",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> kicked ball. <NAME> ran fast.",
+    "choices": [
+      "<NAME> kicked ball and ran fast.",
+      "<NAME> kicked and ball ran fast.",
+      "<NAME> and kicked ball ran fast.",
+      "<NAME> kicked ball and fast."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0062",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The wet dog ran. The wet dog hid.",
+    "choices": [
+      "The wet dog ran and hid.",
+      "The wet dog ran and the wet dog hid.",
+      "The wet dog and ran hid.",
+      "The wet dog ran and mud."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0063",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hot soup spilled. The hot soup rests.",
+    "choices": [
+      "The hot soup spilled and rests.",
+      "The hot soup spilled and the hot soup rests.",
+      "The hot soup and spilled rests.",
+      "The hot soup spilled and bowl."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0064",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cold rain fell. The cold rain stood.",
+    "choices": [
+      "The cold rain fell and stood.",
+      "The cold rain fell and the cold rain stood.",
+      "The cold rain and fell stood.",
+      "The cold rain fell and sky."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0065",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The red kite flew. The red kite fell.",
+    "choices": [
+      "The red kite flew and fell.",
+      "The red kite flew and the red kite fell.",
+      "The red kite and flew fell.",
+      "The red kite flew and string."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0066",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The soft blanket covered. The soft blanket rests.",
+    "choices": [
+      "The soft blanket covered and rests.",
+      "The soft blanket covered and the soft blanket rests.",
+      "The soft blanket and covered rests.",
+      "The soft blanket covered and bed."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0067",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The muddy boot hid. The muddy boot rests.",
+    "choices": [
+      "The muddy boot hid and rests.",
+      "The muddy boot hid and the muddy boot rests.",
+      "The muddy boot and hid rests.",
+      "The muddy boot hid and door."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0068",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sunny sky shines. The sunny sky glows.",
+    "choices": [
+      "The sunny sky shines and glows.",
+      "The sunny sky shines and the sunny sky glows.",
+      "The sunny sky and shines glows.",
+      "The sunny sky shines and cloud."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sky"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0069",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The gray cloud moved. The gray cloud rests.",
+    "choices": [
+      "The gray cloud moved and rests.",
+      "The gray cloud moved and the gray cloud rests.",
+      "The gray cloud and moved rests.",
+      "The gray cloud moved and rain."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0070",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy packed toy. The puppy hid.",
+    "choices": [
+      "The puppy packed toy and hid.",
+      "The puppy packed and toy hid.",
+      "The puppy and packed toy hid.",
+      "The puppy packed toy and bed."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0071",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kid finished work. The kid rests.",
+    "choices": [
+      "The kid finished work and rests.",
+      "The kid finished and work rests.",
+      "The kid and finished work rests.",
+      "The kid finished work and play."
+    ],
+    "answer_index": 0,
+    "explain_key": "and_place",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0072",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "My young aunt baked. My young aunt smiled.",
+    "choices": [
+      "My young aunt baked and smiled.",
+      "My young aunt baked and my young aunt smiled.",
+      "My young aunt and baked smiled.",
+      "My young aunt baked and cake."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0073",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The brown bear ate. The brown bear rests.",
+    "choices": [
+      "The brown bear ate and rests.",
+      "The bear ate and the bear rests.",
+      "The brown bear and ate rests.",
+      "The brown and bear ate rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0074",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The black cat ran. The black cat hid.",
+    "choices": [
+      "The black cat ran and hid.",
+      "The cat ran and the cat hid.",
+      "The black cat and ran hid.",
+      "The black and cat ran hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0075",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The white sheep ate. The white sheep rests.",
+    "choices": [
+      "The white sheep ate and rests.",
+      "The sheep ate and the sheep rests.",
+      "The white sheep and ate rests.",
+      "The white and sheep ate rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0076",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The gray mouse ran. The gray mouse hid.",
+    "choices": [
+      "The gray mouse ran and hid.",
+      "The mouse ran and the mouse hid.",
+      "The gray mouse and ran hid.",
+      "The gray and mouse ran hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0077",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The green frog jumped. The green frog hopped.",
+    "choices": [
+      "The green frog jumped and hopped.",
+      "The frog jumped and the frog hopped.",
+      "The green frog and jumped hopped.",
+      "The green and frog jumped hopped."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0078",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The red fox ran. The red fox hid.",
+    "choices": [
+      "The red fox ran and hid.",
+      "The fox ran and the fox hid.",
+      "The red fox and ran hid.",
+      "The red and fox ran hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0079",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The blue bird sang. The blue bird flew.",
+    "choices": [
+      "The blue bird sang and flew.",
+      "The bird sang and the bird flew.",
+      "The blue bird and sang flew.",
+      "The blue and bird sang flew."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0080",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The yellow duck swim. The yellow duck ate.",
+    "choices": [
+      "The yellow duck swim and ate.",
+      "The duck swim and the duck ate.",
+      "The yellow duck and swim ate.",
+      "The yellow and duck swim ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0081",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The little rabbit hopped. The little rabbit ate.",
+    "choices": [
+      "The little rabbit hopped and ate.",
+      "The rabbit hopped and the rabbit ate.",
+      "The little rabbit and hopped ate.",
+      "The little and rabbit hopped ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0082",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fluffy kitten played. The fluffy kitten jumped.",
+    "choices": [
+      "The fluffy kitten played and jumped.",
+      "The kitten played and the kitten jumped.",
+      "The fluffy kitten and played jumped.",
+      "The fluffy and kitten played jumped."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0083",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fast horse ran. The fast horse ate.",
+    "choices": [
+      "The fast horse ran and ate.",
+      "The horse ran and the horse ate.",
+      "The fast horse and ran ate.",
+      "The fast and horse ran ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0084",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The big cow ate. The big cow rests.",
+    "choices": [
+      "The big cow ate and rests.",
+      "The cow ate and the cow rests.",
+      "The big cow and ate rests.",
+      "The big and cow ate rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0085",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The small pig rolled. The small pig ate.",
+    "choices": [
+      "The small pig rolled and ate.",
+      "The pig rolled and the pig ate.",
+      "The small pig and rolled ate.",
+      "The small and pig rolled ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0086",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The old turtle crawl. The old turtle rests.",
+    "choices": [
+      "The old turtle crawl and rests.",
+      "The turtle crawl and the turtle rests.",
+      "The old turtle and crawl rests.",
+      "The old and turtle crawl rests."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0087",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The young puppy ran. The young puppy hid.",
+    "choices": [
+      "The young puppy ran and hid.",
+      "The puppy ran and the puppy hid.",
+      "The young puppy and ran hid.",
+      "The young and puppy ran hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0088",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The brave boy ran. The brave boy jumped.",
+    "choices": [
+      "The brave boy ran and jumped.",
+      "The boy ran and the boy jumped.",
+      "The brave boy and ran jumped.",
+      "The brave and boy ran jumped."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0089",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kind girl smiled. The kind girl waved.",
+    "choices": [
+      "The kind girl smiled and waved.",
+      "The girl smiled and the girl waved.",
+      "The kind girl and smiled waved.",
+      "The kind and girl smiled waved."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0090",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My little <NAME> ran. My little <NAME> jumped.",
+    "choices": [
+      "My little <NAME> ran and jumped.",
+      "My little <NAME> ran and my little <NAME> jumped.",
+      "My little <NAME> and ran jumped.",
+      "My little <NAME> ran and home."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0091",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "My big <NAME> ate. My big <NAME> rests.",
+    "choices": [
+      "My big <NAME> ate and rests.",
+      "My big <NAME> ate and my big <NAME> rests.",
+      "My big <NAME> and ate rests.",
+      "My big <NAME> ate and food."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0092",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> read story. <NAME> drew story.",
+    "choices": [
+      "<NAME> read story and drew story.",
+      "<NAME> read story and <NAME> drew story.",
+      "<NAME> and read story drew story.",
+      "<NAME> read story and pictures."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0093",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> washed face. <NAME> ate toast.",
+    "choices": [
+      "<NAME> washed face and ate toast.",
+      "<NAME> washed face and <NAME> ate toast.",
+      "<NAME> and washed face ate toast.",
+      "<NAME> washed face and toast."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "face"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0094",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "<NAME> packed bag. <NAME> tied shoe.",
+    "choices": [
+      "<NAME> packed bag and tied shoe.",
+      "<NAME> packed bag and <NAME> tied shoe.",
+      "<NAME> and packed bag tied shoe.",
+      "<NAME> packed bag and shoe."
+    ],
+    "answer_index": 0,
+    "explain_key": "keep_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0095",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The brown dog barked. The brown dog ran.",
+    "choices": [
+      "The brown dog barked and ran.",
+      "The dog barked and the dog ran.",
+      "The brown dog and barked ran.",
+      "The brown and dog barked ran."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0096",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The white cat sat. The white cat hid.",
+    "choices": [
+      "The white cat sat and hid.",
+      "The cat sat and the cat hid.",
+      "The white cat and sat hid.",
+      "The white and cat sat hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0097",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The little bird sang. The little bird flew.",
+    "choices": [
+      "The little bird sang and flew.",
+      "The bird sang and the bird flew.",
+      "The little bird and sang flew.",
+      "The little and bird sang flew."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0098",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The happy kid smiled. The happy kid played.",
+    "choices": [
+      "The happy kid smiled and played.",
+      "The kid smiled and the kid played.",
+      "The happy kid and smiled played.",
+      "The happy and kid smiled played."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0099",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The tired mom rests. The tired mom read.",
+    "choices": [
+      "The tired mom rests and read.",
+      "The mom rests and the mom read.",
+      "The tired mom and rests read.",
+      "The tired and mom rests read."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_predicates_0100",
+    "family_id": "fam_combine_sentences_predicates",
+    "skill_id": "roots_combine_sentences_predicates",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The hungry dad ate. The hungry dad baked.",
+    "choices": [
+      "The hungry dad ate and baked.",
+      "The dad ate and the dad baked.",
+      "The hungry dad and ate baked.",
+      "The hungry and dad ate baked."
+    ],
+    "answer_index": 0,
+    "explain_key": "same_who",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ]
+  }
+]

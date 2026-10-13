@@ -1,0 +1,355 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_pronoun_verb_agreement",
+  "family_title_en": "Pronoun-verb agreement",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_pronoun_verb_agreement",
+      "ix_title": "Pronoun-verb agreement",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word fits?",
+        "ko": "어떤 말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that belongs.",
+        "ko": "알맞은 단어를 누르세요."
+      },
+      "choice_rule": "Four verb forms. Exactly one agrees with the stem pronoun in person, number, and tense. The stem is a short kid sentence with the verb left out. Distractors are the same verb in a wrong person or number, a non-finite form, or a tense the stem time word blocks. Never give two forms that both make a true sentence.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "asks",
+        "bakes",
+        "brings",
+        "calls",
+        "carries",
+        "catches",
+        "cleans",
+        "closes",
+        "comes",
+        "cooks",
+        "cries",
+        "doesn't",
+        "drinks",
+        "eats",
+        "finds",
+        "flies",
+        "gets",
+        "gives",
+        "grows",
+        "helps",
+        "holds",
+        "jumps",
+        "knows",
+        "likes",
+        "lives",
+        "looks",
+        "loves",
+        "makes",
+        "opens",
+        "paints",
+        "picks",
+        "plays",
+        "pulls",
+        "rains",
+        "reads",
+        "rides",
+        "runs",
+        "sees",
+        "shows",
+        "sings",
+        "sits",
+        "sleeps",
+        "stands",
+        "starts",
+        "stays",
+        "stops",
+        "takes",
+        "talks",
+        "tells",
+        "thinks",
+        "throws",
+        "tries",
+        "walks",
+        "wants",
+        "washes",
+        "works",
+        "writes"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_pronoun_verb_agreement_0001",
+          "tier": 1,
+          "stem": "She at home now.",
+          "choices": [
+            "is",
+            "are",
+            "am",
+            "were"
+          ],
+          "answer_index": 0,
+          "explain_key": "be_singular",
+          "media": [
+            {
+              "lemma": "home"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pronoun_verb_agreement_0002",
+          "tier": 1,
+          "stem": "They on the bus.",
+          "choices": [
+            "is",
+            "are",
+            "am",
+            "has"
+          ],
+          "answer_index": 1,
+          "explain_key": "be_plural",
+          "media": [
+            {
+              "lemma": "bus"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pronoun_verb_agreement_0003",
+          "tier": 1,
+          "stem": "I a little puppy.",
+          "choices": [
+            "has",
+            "is",
+            "have",
+            "are"
+          ],
+          "answer_index": 2,
+          "explain_key": "have_plural",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pronoun_verb_agreement_0004",
+          "tier": 2,
+          "stem": "He the red ball now.",
+          "choices": [
+            "kick",
+            "kicking",
+            "kicks",
+            "kicked"
+          ],
+          "answer_index": 2,
+          "explain_key": "verb_s",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pronoun_verb_agreement_0005",
+          "tier": 2,
+          "stem": "We lunch in the kitchen.",
+          "choices": [
+            "eats",
+            "eating",
+            "eater",
+            "eat"
+          ],
+          "answer_index": 3,
+          "explain_key": "verb_plain",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pronoun_verb_agreement_0006",
+          "tier": 2,
+          "stem": "It in the nest now.",
+          "choices": [
+            "sit",
+            "sits",
+            "sitting",
+            "sat"
+          ],
+          "answer_index": 1,
+          "explain_key": "verb_s",
+          "media": [
+            {
+              "lemma": "nest"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pronoun_verb_agreement_0007",
+          "tier": 3,
+          "stem": "Yesterday they at the park.",
+          "choices": [
+            "was",
+            "are",
+            "were",
+            "is"
+          ],
+          "answer_index": 2,
+          "explain_key": "were_plural",
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_pronoun_verb_agreement_0008",
+          "tier": 3,
+          "stem": "<NAME> and I in the yard.",
+          "choices": [
+            "is",
+            "am",
+            "has",
+            "are"
+          ],
+          "answer_index": 3,
+          "explain_key": "compound_plural",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "yard"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt",
+    "NAME2": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four verb forms and keep exactly one that agrees with the stem pronoun.",
+      "Leave the verb out of the stem. Do not mark the gap with a blank line or underscore.",
+      "Never include a second form that also makes a true sentence, such as a past form when no time word blocks it.",
+      "Use now or yesterday when is and was, or are and were, would both fit.",
+      "Wrong choices stay close: wrong person, wrong number, or -ing. Do not use random nouns.",
+      "Keep stems in kid world: home, school, food, pets, play, family, or weather.",
+      "Use <NAME> or <NAME> and <NAME2> for people. Never write a real name."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bpronoun\\b",
+    "\\bagreement\\b",
+    "\\bconjugate",
+    "\\bconjugation",
+    "\\bsubject-verb\\b",
+    "\\bgrammar\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four or five words. Use am, is, are, have, and has. Wrong choices are other person forms of be or have. Add a noun picture.",
+    "2": "Grade-level stems of five to seven words. Use present action verbs. He, she, and it take the -s form. I, you, we, and they take the plain form.",
+    "3": "Near misses. Lock tense with now or yesterday. Use they was, you is, and a name plus I with is as traps."
+  },
+  "miss_explain": {
+    "be_am": {
+      "en": "I takes am, not is or are.",
+      "ko": "I에는 am을 쓰고 is나 are는 쓰지 않습니다."
+    },
+    "be_singular": {
+      "en": "He, she, and it take is.",
+      "ko": "he, she, it에는 is를 씁니다."
+    },
+    "be_plural": {
+      "en": "You, we, and they take are.",
+      "ko": "you, we, they에는 are를 씁니다."
+    },
+    "was_singular": {
+      "en": "He, she, and it take was.",
+      "ko": "he, she, it에는 was를 씁니다."
+    },
+    "were_plural": {
+      "en": "You, we, and they take were, not was.",
+      "ko": "you, we, they에는 were를 쓰고 was는 쓰지 않습니다."
+    },
+    "have_singular": {
+      "en": "He, she, and it take has.",
+      "ko": "he, she, it에는 has를 씁니다."
+    },
+    "have_plural": {
+      "en": "I, you, we, and they take have.",
+      "ko": "I, you, we, they에는 have를 씁니다."
+    },
+    "verb_s": {
+      "en": "He, she, and it take a verb that ends with s.",
+      "ko": "he, she, it 뒤에는 s로 끝나는 말을 씁니다."
+    },
+    "verb_plain": {
+      "en": "I, you, we, and they take a verb with no extra s.",
+      "ko": "I, you, we, they 뒤에는 s를 붙이지 않습니다."
+    },
+    "you_are": {
+      "en": "You takes are, not is or am.",
+      "ko": "you에는 are를 쓰고 is나 am은 쓰지 않습니다."
+    },
+    "compound_plural": {
+      "en": "A name and I means more than one, so use are.",
+      "ko": "이름과 I가 함께이면 둘 이상이므로 are를 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Pronoun-verb agreement"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_words_with_a_given_long_vowel",
+  "family_title_en": "Choose the words with a given long vowel",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_words_with_a_given_long_vowel",
+      "ix_title": "Choose the words with a given long vowel",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word has this long vowel?",
+        "ko": "이 장모음이 있는 단어는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word with that long vowel.",
+        "ko": "그 장모음이 있는 단어를 누르세요."
+      },
+      "choice_rule": "Four different whole words from the roots list or allowed_extra_words. The stem names one long vowel: long a, long e, long i, long o, or long u. Exactly one choice has that long vowel, and answer_index points to it. Move the right word to a new slot from item to item. Wrong words are kid words about school, home, food, pets, play, family, or weather. No misspellings, brands, real names, IPA, or lone sounds.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bee",
+        "cape",
+        "cube",
+        "cute",
+        "flute",
+        "goat",
+        "hope",
+        "huge",
+        "pine",
+        "tube"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_words_with_a_given_long_vowel_0001",
+          "tier": 1,
+          "stem": "Find the long a word.",
+          "choices": [
+            "cake",
+            "cat",
+            "bed",
+            "sun"
+          ],
+          "answer_index": 0,
+          "explain_key": "long_a",
+          "media": [
+            {
+              "lemma": "cake"
+            },
+            {
+              "lemma": "cat"
+            },
+            {
+              "lemma": "bed"
+            },
+            {
+              "lemma": "sun"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_words_with_a_given_long_vowel_0002",
+          "tier": 1,
+          "stem": "Find the long e word.",
+          "choices": [
+            "frog",
+            "hat",
+            "tree",
+            "pig"
+          ],
+          "answer_index": 2,
+          "explain_key": "long_e",
+          "media": [
+            {
+              "lemma": "frog"
+            },
+            {
+              "lemma": "hat"
+            },
+            {
+              "lemma": "tree"
+            },
+            {
+              "lemma": "pig"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_words_with_a_given_long_vowel_0003",
+          "tier": 1,
+          "stem": "Find the long i word.",
+          "choices": [
+            "box",
+            "cup",
+            "milk",
+            "bike"
+          ],
+          "answer_index": 3,
+          "explain_key": "long_i",
+          "media": [
+            {
+              "lemma": "box"
+            },
+            {
+              "lemma": "cup"
+            },
+            {
+              "lemma": "milk"
+            },
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_words_with_a_given_long_vowel_0004",
+          "tier": 2,
+          "stem": "Which word has the long o vowel?",
+          "choices": [
+            "fish",
+            "boat",
+            "rain",
+            "fox"
+          ],
+          "answer_index": 1,
+          "explain_key": "long_o",
+          "media": [
+            {
+              "lemma": "fish"
+            },
+            {
+              "lemma": "boat"
+            },
+            {
+              "lemma": "rain"
+            },
+            {
+              "lemma": "fox"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_words_with_a_given_long_vowel_0005",
+          "tier": 2,
+          "stem": "Which word has the long u vowel?",
+          "choices": [
+            "duck",
+            "music",
+            "leaf",
+            "bone"
+          ],
+          "answer_index": 1,
+          "explain_key": "long_u",
+          "media": [
+            {
+              "lemma": "duck"
+            },
+            {
+              "lemma": "music"
+            },
+            {
+              "lemma": "leaf"
+            },
+            {
+              "lemma": "bone"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_words_with_a_given_long_vowel_0006",
+          "tier": 2,
+          "stem": "Tap the word with the long a vowel.",
+          "choices": [
+            "rainbow",
+            "rabbit",
+            "puppy",
+            "winter"
+          ],
+          "answer_index": 0,
+          "explain_key": "long_a",
+          "media": [
+            {
+              "lemma": "rainbow"
+            },
+            {
+              "lemma": "rabbit"
+            },
+            {
+              "lemma": "puppy"
+            },
+            {
+              "lemma": "winter"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_words_with_a_given_long_vowel_0007",
+          "tier": 3,
+          "stem": "Which one word has the long e vowel?",
+          "choices": [
+            "head",
+            "bear",
+            "beach",
+            "bread"
+          ],
+          "answer_index": 2,
+          "explain_key": "long_e",
+          "media": [
+            {
+              "lemma": "head"
+            },
+            {
+              "lemma": "bear"
+            },
+            {
+              "lemma": "beach"
+            },
+            {
+              "lemma": "bread"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_words_with_a_given_long_vowel_0008",
+          "tier": 3,
+          "stem": "Which one word has the long o vowel?",
+          "choices": [
+            "cow",
+            "clown",
+            "flower",
+            "snow"
+          ],
+          "answer_index": 3,
+          "explain_key": "long_o",
+          "media": [
+            {
+              "lemma": "cow"
+            },
+            {
+              "lemma": "clown"
+            },
+            {
+              "lemma": "flower"
+            },
+            {
+              "lemma": "snow"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The stem names one target only: long a, long e, long i, long o, or long u, using the letter name.",
+      "Offer four real whole words. Exactly one has that long vowel, and answer_index marks it.",
+      "Use correct spellings only. Do not put misspelled word-list forms in the choices.",
+      "Long a is the letter name in cake, rain, play, and baby. Cat, have, and said are not long a.",
+      "Long e is the letter name in tree, beach, and sleep. Head, bread, and bear are not long e. A final y, as in baby, puppy, happy, funny, and family, is long e.",
+      "Long i is the letter name in bike, kite, and night. Kit, give, and milk are not long i.",
+      "Long o is the letter name in boat, snow, and home. Fox, cow, clown, and flower are not long o.",
+      "Long u is the letter name in music, mule, and use. Duck, moon, blue, and food are not long u.",
+      "Tier 1 wrong words use an obvious different short vowel. Tier 2 may share a letter or be another long vowel. Tier 3 keeps a lookalike spelling with a different sound.",
+      "Stems and choices stay whole words or letter names. No IPA, no slash sounds, no held sounds, no brands, and no real names."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bipa\\b",
+    "phoneme",
+    "\\bschwa\\b",
+    "\\/[^\\/]+\\/",
+    "\\b([a-z])\\1\\1+\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stem of about five words, such as Find the long a word. Three wrong words have an obvious different short vowel and do not look like the right word.",
+    "2": "A grade-level question of about seven or eight words. Wrong words may share a letter or carry another long vowel. Two-syllable kid words are fine. Still only one word has the named long vowel.",
+    "3": "A longer question up to ten words. Wrong words are near misses with a similar spelling but not the named long vowel, such as ea in head and bread or ow in cow and clown."
+  },
+  "miss_explain": {
+    "long_a": {
+      "en": "Long a says the name of the letter a, like cake and rain.",
+      "ko": "장모음 a는 글자 a의 이름처럼 소리 납니다. cake, rain처럼요."
+    },
+    "long_e": {
+      "en": "Long e says the name of the letter e, like tree and beach.",
+      "ko": "장모음 e는 글자 e의 이름처럼 소리 납니다. tree, beach처럼요."
+    },
+    "long_i": {
+      "en": "Long i says the name of the letter i, like bike and kite.",
+      "ko": "장모음 i는 글자 i의 이름처럼 소리 납니다. bike, kite처럼요."
+    },
+    "long_o": {
+      "en": "Long o says the name of the letter o, like boat and snow.",
+      "ko": "장모음 o는 글자 o의 이름처럼 소리 납니다. boat, snow처럼요."
+    },
+    "long_u": {
+      "en": "Long u says the name of the letter u, like music and mule.",
+      "ko": "장모음 u는 글자 u의 이름처럼 소리 납니다. music, mule처럼요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Choose the words with a given long vowel"
+    ],
+    "no_ixl_text": true
+  }
+}

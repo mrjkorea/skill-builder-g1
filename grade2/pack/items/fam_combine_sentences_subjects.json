@@ -1,0 +1,2347 @@
+[
+  {
+    "item_id": "roots_combine_sentences_subjects_0001",
+    "tier": 1,
+    "stem": "The cat sat. The dog sat.",
+    "choices": [
+      "The cat and the dog sat.",
+      "The cat sat.",
+      "The dog sat.",
+      "The cat sat the dog."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_subjects",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0002",
+    "tier": 1,
+    "stem": "Mom baked. Dad baked.",
+    "choices": [
+      "Mom baked.",
+      "Dad baked Mom.",
+      "Mom and Dad baked.",
+      "Mom baked Dad."
+    ],
+    "answer_index": 2,
+    "explain_key": "join_subjects",
+    "media": [
+      {
+        "lemma": "mom"
+      }
+    ],
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0003",
+    "tier": 1,
+    "stem": "The hen ate. The pig ate.",
+    "choices": [
+      "The hen ate.",
+      "The hen and the pig ate.",
+      "The hen ate the pig.",
+      "The pig ate."
+    ],
+    "answer_index": 1,
+    "explain_key": "join_subjects",
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ],
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0004",
+    "tier": 2,
+    "stem": "<NAME> ran. The puppy ran.",
+    "choices": [
+      "<NAME> and the puppy ran.",
+      "<NAME> ran and the puppy.",
+      "<NAME> ran the puppy.",
+      "The puppy ran."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_fragment",
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ],
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0005",
+    "tier": 2,
+    "stem": "The boy waved. The girl waved.",
+    "choices": [
+      "The boy waved and the girl.",
+      "The boy or the girl waved.",
+      "The boy waved the girl.",
+      "The boy and the girl waved."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ],
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0006",
+    "tier": 2,
+    "stem": "My sister smiled. My brother smiled.",
+    "choices": [
+      "My sister smiled.",
+      "My sister and my brother smiled.",
+      "My sister smiled my brother.",
+      "My sister smiled and my brother."
+    ],
+    "answer_index": 1,
+    "explain_key": "keep_both",
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ],
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0007",
+    "tier": 3,
+    "stem": "He sat. She sat.",
+    "choices": [
+      "He sat and she sat.",
+      "He or she sat.",
+      "He and she sat.",
+      "He sat she."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_two_verbs",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0008",
+    "tier": 3,
+    "stem": "The children clapped. The teacher clapped.",
+    "choices": [
+      "The children and the teacher clapped.",
+      "The children clapped and the teacher.",
+      "The children clapped the teacher.",
+      "The children or the teacher clapped."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "media": [
+      {
+        "lemma": "teacher"
+      }
+    ],
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0009",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The owl flew. The crow flew.",
+    "choices": [
+      "The owl and the crow flew.",
+      "The owl flew.",
+      "The crow flew.",
+      "The owl flew the crow."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0010",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bird sang. The chick sang.",
+    "choices": [
+      "The bird sang the chick.",
+      "The chick sang.",
+      "The bird sang.",
+      "The bird and the chick sang."
+    ],
+    "answer_index": 3,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0011",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bear sat. The cub sat.",
+    "choices": [
+      "The bear and the cub sat.",
+      "The bear sat.",
+      "The cub sat.",
+      "The bear sat the cub."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bear"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0012",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The horse ran. The foal ran.",
+    "choices": [
+      "The horse and the foal ran.",
+      "The foal ran.",
+      "The horse ran.",
+      "The horse ran the foal."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0013",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The sheep ate. The calf ate.",
+    "choices": [
+      "The sheep ate the calf.",
+      "The sheep and the calf ate.",
+      "The sheep ate.",
+      "The calf ate."
+    ],
+    "answer_index": 1,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0014",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The pig ate. The hog ate.",
+    "choices": [
+      "The pig ate.",
+      "The pig ate the hog.",
+      "The hog ate.",
+      "The pig and the hog ate."
+    ],
+    "answer_index": 3,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pig"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0015",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kitten sat. The pup sat.",
+    "choices": [
+      "The kitten sat the pup.",
+      "The pup sat.",
+      "The kitten and the pup sat.",
+      "The kitten sat."
+    ],
+    "answer_index": 2,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0016",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fox ran. The pup ran.",
+    "choices": [
+      "The fox and the pup ran.",
+      "The fox ran the pup.",
+      "The fox ran.",
+      "The pup ran."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0017",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The eagle flew. The owl flew.",
+    "choices": [
+      "The eagle and the owl flew.",
+      "The owl flew.",
+      "The eagle flew.",
+      "The eagle flew the owl."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "eagle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0018",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The snail hid. The slug hid.",
+    "choices": [
+      "The slug hid.",
+      "The snail hid the slug.",
+      "The snail and the slug hid.",
+      "The snail hid."
+    ],
+    "answer_index": 2,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0019",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The crab hid. The bug hid.",
+    "choices": [
+      "The crab hid.",
+      "The crab hid the bug.",
+      "The bug hid.",
+      "The crab and the bug hid."
+    ],
+    "answer_index": 3,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crab"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0020",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The turtle sat. The frog sat.",
+    "choices": [
+      "The frog sat.",
+      "The turtle and the frog sat.",
+      "The turtle sat the frog.",
+      "The turtle sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0021",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The wolf ran. The dog ran.",
+    "choices": [
+      "The wolf and the dog ran.",
+      "The dog ran.",
+      "The wolf ran the dog.",
+      "The wolf ran."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wolf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0022",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rabbit ran. The mouse ran.",
+    "choices": [
+      "The rabbit ran the mouse.",
+      "The mouse ran.",
+      "The rabbit and the mouse ran.",
+      "The rabbit ran."
+    ],
+    "answer_index": 2,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0023",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The queen waved. The king waved.",
+    "choices": [
+      "The queen waved.",
+      "The queen waved the king.",
+      "The queen and the king waved.",
+      "The king waved."
+    ],
+    "answer_index": 2,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "queen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0024",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cow sat. The calf sat.",
+    "choices": [
+      "The cow sat.",
+      "The cow and the calf sat.",
+      "The calf sat.",
+      "The cow sat the calf."
+    ],
+    "answer_index": 1,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0025",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The duck ate. The goose ate.",
+    "choices": [
+      "The duck ate.",
+      "The goose ate.",
+      "The duck and the goose ate.",
+      "The duck ate the goose."
+    ],
+    "answer_index": 2,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0026",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The fish hid. The frog hid.",
+    "choices": [
+      "The fish hid the frog.",
+      "The fish and the frog hid.",
+      "The frog hid.",
+      "The fish hid."
+    ],
+    "answer_index": 1,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0027",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ant hid. The bug hid.",
+    "choices": [
+      "The ant and the bug hid.",
+      "The ant hid.",
+      "The bug hid.",
+      "The ant hid the bug."
+    ],
+    "answer_index": 0,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0028",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The skunk ran. The bug ran.",
+    "choices": [
+      "The skunk ran.",
+      "The skunk ran the bug.",
+      "The bug ran.",
+      "The skunk and the bug ran."
+    ],
+    "answer_index": 3,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "skunk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0029",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The moose ate. The cow ate.",
+    "choices": [
+      "The moose ate the cow.",
+      "The cow ate.",
+      "The moose ate.",
+      "The moose and the cow ate."
+    ],
+    "answer_index": 3,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moose"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0030",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The beaver swims. The duck swims.",
+    "choices": [
+      "The beaver swims.",
+      "The beaver and the duck swim.",
+      "The beaver swims the duck.",
+      "The duck swims."
+    ],
+    "answer_index": 1,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "beaver"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0031",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The whale swims. The seal swims.",
+    "choices": [
+      "The seal swims.",
+      "The whale swims the seal.",
+      "The whale swims.",
+      "The whale and the seal swim."
+    ],
+    "answer_index": 3,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "whale"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0032",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The minnow swims. The fish swims.",
+    "choices": [
+      "The minnow swims.",
+      "The fish swims.",
+      "The minnow swims the fish.",
+      "The minnow and the fish swim."
+    ],
+    "answer_index": 3,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0033",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The snake hid. The frog hid.",
+    "choices": [
+      "The snake hid the frog.",
+      "The snake and the frog hid.",
+      "The frog hid.",
+      "The snake hid."
+    ],
+    "answer_index": 1,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0034",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The moth flew. The bug flew.",
+    "choices": [
+      "The moth flew.",
+      "The moth and the bug flew.",
+      "The moth flew the bug.",
+      "The bug flew."
+    ],
+    "answer_index": 1,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0035",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The rat hid. The mouse hid.",
+    "choices": [
+      "The rat hid the mouse.",
+      "The rat hid.",
+      "The rat and the mouse hid.",
+      "The mouse hid."
+    ],
+    "answer_index": 2,
+    "explain_key": "join_subjects",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0036",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The star shines. The moon shines.",
+    "choices": [
+      "The star shines.",
+      "The star shines the moon.",
+      "The star and the moon shine.",
+      "The moon shines."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0037",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kids play. The pets play.",
+    "choices": [
+      "The kids play and the pets.",
+      "The kids play pets.",
+      "The kids or the pets play.",
+      "The kids and the pets play."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kids"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0038",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The students read. The teacher read.",
+    "choices": [
+      "The students or the teacher read.",
+      "The students and the teacher read.",
+      "The students read and the teacher.",
+      "The students read teacher."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "students"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0039",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The puppy sat. The kitten sat.",
+    "choices": [
+      "The puppy and the kitten sat.",
+      "The puppy or the kitten sat.",
+      "The puppy sat kitten.",
+      "The puppy sat and the kitten."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0040",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The grandma baked. The grandpa baked.",
+    "choices": [
+      "The grandma baked and the grandpa.",
+      "The grandma and the grandpa baked.",
+      "The grandma or the grandpa baked.",
+      "The grandma baked grandpa."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandma"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0041",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The friends laugh. The kids laugh.",
+    "choices": [
+      "The friends or the kids laugh.",
+      "The friends and the kids laugh.",
+      "The friends laugh and the kids.",
+      "The friends laugh kids."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friends"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0042",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The rabbit sat. The turtle sat.",
+    "choices": [
+      "The rabbit or the turtle sat.",
+      "The rabbit sat and the turtle.",
+      "The rabbit sat turtle.",
+      "The rabbit and the turtle sat."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0043",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The student waved. The teacher waved.",
+    "choices": [
+      "The student or the teacher waved.",
+      "The student waved teacher.",
+      "The student waved and the teacher.",
+      "The student and the teacher waved."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "student"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0044",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mother cooked. The father cooked.",
+    "choices": [
+      "The mother cooked and the father.",
+      "The mother and the father cooked.",
+      "The mother or the father cooked.",
+      "The mother cooked father."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mother"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0045",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The girl ran. The boy ran.",
+    "choices": [
+      "The girl and the boy ran.",
+      "The girl ran boy.",
+      "The girl ran and the boy.",
+      "The girl or the boy ran."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "girl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0046",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hen ate. The chick ate.",
+    "choices": [
+      "The hen or the chick ate.",
+      "The hen ate chick.",
+      "The hen ate and the chick.",
+      "The hen and the chick ate."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0047",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cat purrs. The kitten purrs.",
+    "choices": [
+      "The cat purrs kitten.",
+      "The cat purrs and the kitten.",
+      "The cat and the kitten purr.",
+      "The cat or the kitten purrs."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0048",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dog barks. The pup barks.",
+    "choices": [
+      "The dog barks pup.",
+      "The dog barks and the pup.",
+      "The dog and the pup bark.",
+      "The dog or the pup barks."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0049",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The mouse hid. The rat hid.",
+    "choices": [
+      "The mouse hid rat.",
+      "The mouse or the rat hid.",
+      "The mouse hid and the rat.",
+      "The mouse and the rat hid."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0050",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The frog jumped. The turtle jumped.",
+    "choices": [
+      "The frog and the turtle jumped.",
+      "The frog or the turtle jumped.",
+      "The frog jumped and the turtle.",
+      "The frog jumped turtle."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0051",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kitten play. The puppy play.",
+    "choices": [
+      "The kitten play puppy.",
+      "The kitten and the puppy play.",
+      "The kitten or the puppy play.",
+      "The kitten play and the puppy."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0052",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The king waved. The queen waved.",
+    "choices": [
+      "The king waved queen.",
+      "The king waved and the queen.",
+      "The king and the queen waved.",
+      "The king or the queen waved."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "king"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0053",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The fish swims. The duck swims.",
+    "choices": [
+      "The fish and the duck swim.",
+      "The duck swims.",
+      "The fish swims the duck.",
+      "The fish swims."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0054",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bird sang. The owl sang.",
+    "choices": [
+      "The bird and the owl sang.",
+      "The bird or the owl sang.",
+      "The bird sang owl.",
+      "The bird sang and the owl."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0055",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bug hid. The ant hid.",
+    "choices": [
+      "The bug hid and the ant.",
+      "The bug or the ant hid.",
+      "The bug hid ant.",
+      "The bug and the ant hid."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0056",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The crab sat. The bug sat.",
+    "choices": [
+      "The crab sat bug.",
+      "The crab or the bug sat.",
+      "The crab sat and the bug.",
+      "The crab and the bug sat."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crab"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0057",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The man waved. The woman waved.",
+    "choices": [
+      "The man or the woman waved.",
+      "The man waved woman.",
+      "The man waved and the woman.",
+      "The man and the woman waved."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "man"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0058",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The aunt baked. The mother baked.",
+    "choices": [
+      "The aunt baked mother.",
+      "The aunt or the mother baked.",
+      "The aunt and the mother baked.",
+      "The aunt baked and the mother."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "aunt"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0059",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The nurse smiled. The teacher smiled.",
+    "choices": [
+      "The nurse or the teacher smiled.",
+      "The nurse smiled teacher.",
+      "The nurse and the teacher smiled.",
+      "The nurse smiled and the teacher."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nurse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0060",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The teddy sat. The doll sat.",
+    "choices": [
+      "The teddy sat doll.",
+      "The teddy and the doll sat.",
+      "The teddy sat and the doll.",
+      "The teddy or the doll sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teddy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0061",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The boat float. The ship float.",
+    "choices": [
+      "The boat float and the ship.",
+      "The boat or the ship float.",
+      "The boat and the ship float.",
+      "The boat float ship."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0062",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The train rolled. The truck rolled.",
+    "choices": [
+      "The train rolled truck.",
+      "The train or the truck rolled.",
+      "The train and the truck rolled.",
+      "The train rolled and the truck."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0063",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cookie baked. The cake baked.",
+    "choices": [
+      "The cookie and the cake baked.",
+      "The cookie or the cake baked.",
+      "The cookie baked and the cake.",
+      "The cookie baked cake."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0064",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The apple rolled. The pear rolled.",
+    "choices": [
+      "The apple or the pear rolled.",
+      "The apple rolled and the pear.",
+      "The apple and the pear rolled.",
+      "The apple rolled pear."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0065",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The sock sat. The shoe sat.",
+    "choices": [
+      "The sock and the shoe sat.",
+      "The sock or the shoe sat.",
+      "The sock sat and the shoe.",
+      "The sock sat shoe."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0066",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hat sat. The cap sat.",
+    "choices": [
+      "The hat sat cap.",
+      "The hat or the cap sat.",
+      "The hat sat and the cap.",
+      "The hat and the cap sat."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0067",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bed sat. The couch sat.",
+    "choices": [
+      "The bed or the couch sat.",
+      "The bed sat and the couch.",
+      "The bed sat couch.",
+      "The bed and the couch sat."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0068",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The lamp sat. The desk sat.",
+    "choices": [
+      "The lamp sat and the desk.",
+      "The lamp and the desk sat.",
+      "The lamp or the desk sat.",
+      "The lamp sat desk."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lamp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0069",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "<NAME> jumped. The puppy jumped.",
+    "choices": [
+      "<NAME> jumped and the puppy.",
+      "<NAME> or the puppy jumped.",
+      "The puppy jumped.",
+      "<NAME> and the puppy jumped."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_fragment",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0070",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He jumped. She jumped.",
+    "choices": [
+      "He jumped she.",
+      "He or she jumped.",
+      "He jumped and she jumped.",
+      "He and she jumped."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0071",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I waved. You waved.",
+    "choices": [
+      "I waved and you waved.",
+      "I and you waved.",
+      "I waved you.",
+      "I or you waved."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0072",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We smiled. They smiled.",
+    "choices": [
+      "We smiled and they smiled.",
+      "We smiled they.",
+      "We or they smiled.",
+      "We and they smiled."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0073",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He ran. I ran.",
+    "choices": [
+      "He ran I.",
+      "He ran and I ran.",
+      "He and I ran.",
+      "He or I ran."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0074",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "She clapped. He clapped.",
+    "choices": [
+      "She or he clapped.",
+      "She clapped he.",
+      "She clapped and he clapped.",
+      "She and he clapped."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0075",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "You sat. I sat.",
+    "choices": [
+      "You and I sat.",
+      "You sat and I sat.",
+      "You or I sat.",
+      "You sat I."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0076",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "They ate. We ate.",
+    "choices": [
+      "They and we ate.",
+      "They ate we.",
+      "They ate and we ate.",
+      "They or we ate."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0077",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "He drew. She drew.",
+    "choices": [
+      "He drew she.",
+      "He and she drew.",
+      "He drew and she drew.",
+      "He or she drew."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0078",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "I sang. You sang.",
+    "choices": [
+      "I or you sang.",
+      "I sang you.",
+      "I and you sang.",
+      "I sang and you sang."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0079",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "We hid. They hid.",
+    "choices": [
+      "We and they hid.",
+      "We or they hid.",
+      "We hid they.",
+      "We hid and they hid."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_two_verbs",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0080",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The children waved. The teacher waved.",
+    "choices": [
+      "The children and the teacher waved.",
+      "The children or the teacher waved.",
+      "The children waved and the teacher.",
+      "The children waved the teacher."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "children"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0081",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kids smiled. The teacher smiled.",
+    "choices": [
+      "The kids and the teacher smiled.",
+      "The kids smiled the teacher.",
+      "The kids smiled and the teacher.",
+      "The kids or the teacher smiled."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kids"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0082",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The boy jumped. The girl jumped.",
+    "choices": [
+      "The boy and the girl jumped.",
+      "The boy jumped the girl.",
+      "The boy or the girl jumped.",
+      "The boy jumped and the girl."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0083",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The duck swims. The goose swims.",
+    "choices": [
+      "The goose swims.",
+      "The duck and the goose swim.",
+      "The duck swims.",
+      "The duck swims the goose."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0084",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cow ate. The calf ate.",
+    "choices": [
+      "The cow or the calf ate.",
+      "The cow ate and the calf.",
+      "The cow and the calf ate.",
+      "The cow ate the calf."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0085",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The peacock sat. The hen sat.",
+    "choices": [
+      "The peacock sat the hen.",
+      "The peacock and the hen sat.",
+      "The hen sat.",
+      "The peacock sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "peacock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0086",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The peacock sat. The owl sat.",
+    "choices": [
+      "The peacock sat the owl.",
+      "The peacock sat.",
+      "The owl sat.",
+      "The peacock and the owl sat."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "peacock"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0087",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The peanut rolled. The bean rolled.",
+    "choices": [
+      "The peanut rolled the bean.",
+      "The peanut and the bean rolled.",
+      "The bean rolled.",
+      "The peanut rolled."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "peanut"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0088",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The corn grew. The peas grew.",
+    "choices": [
+      "The peas grew.",
+      "The corn grew.",
+      "The corn and the peas grew.",
+      "The corn grew the peas."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0089",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The map sat. The book sat.",
+    "choices": [
+      "The map sat the book.",
+      "The map sat.",
+      "The book sat.",
+      "The map and the book sat."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0090",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The pen sat. The pencil sat.",
+    "choices": [
+      "The pen sat the pencil.",
+      "The pen and the pencil sat.",
+      "The pencil sat.",
+      "The pen sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0091",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cup sat. The bowl sat.",
+    "choices": [
+      "The cup sat.",
+      "The cup sat the bowl.",
+      "The bowl sat.",
+      "The cup and the bowl sat."
+    ],
+    "answer_index": 3,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0092",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The pan sat. The pot sat.",
+    "choices": [
+      "The pan and the pot sat.",
+      "The pan sat.",
+      "The pot sat.",
+      "The pan sat the pot."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pan"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0093",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The key sat. The lock sat.",
+    "choices": [
+      "The key and the lock sat.",
+      "The key sat.",
+      "The lock sat.",
+      "The key sat the lock."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "key"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0094",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The drum sat. The horn sat.",
+    "choices": [
+      "The horn sat.",
+      "The drum sat the horn.",
+      "The drum and the horn sat.",
+      "The drum sat."
+    ],
+    "answer_index": 2,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drum"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0095",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The kite flew. The ball flew.",
+    "choices": [
+      "The ball flew.",
+      "The kite and the ball flew.",
+      "The kite flew the ball.",
+      "The kite flew."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0096",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The rope sat. The hook sat.",
+    "choices": [
+      "The rope and the hook sat.",
+      "The rope sat the hook.",
+      "The rope sat.",
+      "The hook sat."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0097",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The gate sat. The fence sat.",
+    "choices": [
+      "The gate and the fence sat.",
+      "The fence sat.",
+      "The gate sat the fence.",
+      "The gate sat."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gate"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0098",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The barn sat. The shed sat.",
+    "choices": [
+      "The barn sat.",
+      "The barn and the shed sat.",
+      "The barn sat the shed.",
+      "The shed sat."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "barn"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0099",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The hill sat. The mountains sat.",
+    "choices": [
+      "The mountains sat.",
+      "The hill and the mountains sat.",
+      "The hill sat.",
+      "The hill sat the mountains."
+    ],
+    "answer_index": 1,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hill"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_combine_sentences_subjects_0100",
+    "family_id": "fam_combine_sentences_subjects",
+    "skill_id": "roots_combine_sentences_subjects",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The lake swims. The pond swims.",
+    "choices": [
+      "The lake and the pond swim.",
+      "The pond swims.",
+      "The lake swims the pond.",
+      "The lake swims."
+    ],
+    "answer_index": 0,
+    "explain_key": "not_or",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      }
+    ]
+  }
+]

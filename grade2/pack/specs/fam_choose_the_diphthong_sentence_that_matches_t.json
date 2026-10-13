@@ -1,0 +1,289 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_diphthong_sentence_that_matches_t",
+  "family_title_en": "Choose the diphthong sentence that matches the picture",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_diphthong_sentence_that_matches_t",
+      "ix_title": "Choose the diphthong sentence that matches the picture",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence matches the picture?",
+        "ko": "그림과 맞는 문장은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that matches.",
+        "ko": "그림과 맞는 문장을 누르세요."
+      },
+      "choice_rule": "Write four different sentences of at most eight words from the roots word list plus allowed_extra_words. Exactly one sentence contains the media lemma as a whole word and matches that picture. That sentence must include oi, oy, ou, or ow in a whole word. Set answer_index to it. The other sentences must not contain the lemma. The stem is at most ten words from the same lists, may include NAME, and must not name the lemma or describe the picture. Add media with that one lemma.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "annoy",
+        "boil",
+        "bounce",
+        "cowboy",
+        "enjoy",
+        "frown",
+        "growl",
+        "hour",
+        "howl",
+        "joy",
+        "moist",
+        "oil",
+        "oyster",
+        "proud",
+        "shower",
+        "sound",
+        "spoil",
+        "towel",
+        "voice"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_diphthong_sentence_that_matches_t_0001",
+          "tier": 1,
+          "stem": "Which one matches the picture?",
+          "choices": [
+            "The cat is black.",
+            "The cow is brown.",
+            "We read at school.",
+            "The duck is little."
+          ],
+          "answer_index": 1,
+          "explain_key": "diphthong_ow",
+          "media": [
+            {
+              "lemma": "cow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_diphthong_sentence_that_matches_t_0002",
+          "tier": 1,
+          "stem": "Which one matches the picture?",
+          "choices": [
+            "The boy has a toy.",
+            "The cat has a hat.",
+            "The dog has a bone.",
+            "Mom has a red cup."
+          ],
+          "answer_index": 0,
+          "explain_key": "diphthong_oy",
+          "media": [
+            {
+              "lemma": "toy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_diphthong_sentence_that_matches_t_0003",
+          "tier": 1,
+          "stem": "Which one matches the picture?",
+          "choices": [
+            "The ball is red.",
+            "She has a kite.",
+            "We eat a snack.",
+            "The coin is gold."
+          ],
+          "answer_index": 3,
+          "explain_key": "diphthong_oi",
+          "media": [
+            {
+              "lemma": "coin"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_diphthong_sentence_that_matches_t_0004",
+          "tier": 2,
+          "stem": "Tap the one that matches the picture.",
+          "choices": [
+            "The mouse is little.",
+            "The cat is little.",
+            "Our house is white.",
+            "The barn is red."
+          ],
+          "answer_index": 2,
+          "explain_key": "diphthong_ou",
+          "media": [
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_diphthong_sentence_that_matches_t_0005",
+          "tier": 2,
+          "stem": "Tap the one that matches the picture.",
+          "choices": [
+            "The owl is in the tree.",
+            "The cow is in the barn.",
+            "The hen is by the nest.",
+            "The dog is by the lake."
+          ],
+          "answer_index": 0,
+          "explain_key": "diphthong_ow",
+          "media": [
+            {
+              "lemma": "owl"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_diphthong_sentence_that_matches_t_0006",
+          "tier": 2,
+          "stem": "Tap the one that matches the picture.",
+          "choices": [
+            "The boy has a coin.",
+            "The dog is on the bed.",
+            "The cat is by the lake.",
+            "The mouse is on the couch."
+          ],
+          "answer_index": 3,
+          "explain_key": "diphthong_ou",
+          "media": [
+            {
+              "lemma": "mouse"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_diphthong_sentence_that_matches_t_0007",
+          "tier": 3,
+          "stem": "<NAME> can see which one matches the picture?",
+          "choices": [
+            "The toy is by the boy.",
+            "The cow is by the house.",
+            "The soil is in the pot.",
+            "Point at the brown owl."
+          ],
+          "answer_index": 2,
+          "explain_key": "diphthong_oi",
+          "media": [
+            {
+              "lemma": "soil"
+            }
+          ],
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_choose_the_diphthong_sentence_that_matches_t_0008",
+          "tier": 3,
+          "stem": "<NAME> can see which one matches the picture?",
+          "choices": [
+            "The clown has a crown.",
+            "The round cloud is gray.",
+            "The boy found a coin.",
+            "Our mouse is on the couch."
+          ],
+          "answer_index": 1,
+          "explain_key": "diphthong_ou",
+          "media": [
+            {
+              "lemma": "cloud"
+            }
+          ],
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one sentence may match the picture. The picture lemma is a whole word in that sentence only.",
+      "The correct sentence must use oi as in coin, oy as in boy, ou as in house, or ow as in cow.",
+      "For ow and ou, use the sound in cow and house, not the long o in snow, grow, show, or yellow.",
+      "Tier 1 wrong sentences are easy and do not use oi, oy, ou, or ow.",
+      "Tier 2 has exactly one wrong sentence that uses oi, oy, ou, or ow for a different picture.",
+      "Tier 3 wrong sentences all use oi, oy, ou, or ow, and none of them match the picture.",
+      "Stay in a kid world of school, home, food, pets, play, family, and weather. No brands and no real names.",
+      "Use whole words only. Do not write a lone sound, a slash mark, or a held letter."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\b(oi|oy|ou|ow)\\b",
+    "/[a-zæɑəɪʊʌɔɛθðʃʒŋ.ˈˌ]+/",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bdiphthong\\b",
+    "[æɑəɛɪʊʌɔθðʃʒŋˈˌ]"
+  ],
+  "tier_rules": {
+    "1": "Five-word stems such as Which one matches the picture? The lemma is an easy noun. The correct sentence is short and obvious. Wrong sentences do not use oi, oy, ou, or ow.",
+    "2": "About seven words in the stem. The correct sentence matches the picture with a clear diphthong word. Exactly one wrong sentence may use oi, oy, ou, or ow for a different picture.",
+    "3": "About eight words in the stem, including NAME. Every sentence uses oi, oy, ou, or ow. Only the correct sentence matches the picture, so the other three are near misses."
+  },
+  "miss_explain": {
+    "diphthong_ow": {
+      "en": "The right sentence matches the picture and has ow, as in cow or owl.",
+      "ko": "그림과 맞는 문장에는 cow나 owl처럼 ow가 있습니다."
+    },
+    "diphthong_oy": {
+      "en": "The right sentence matches the picture and has oy, as in boy or toy.",
+      "ko": "그림과 맞는 문장에는 boy나 toy처럼 oy가 있습니다."
+    },
+    "diphthong_oi": {
+      "en": "The right sentence matches the picture and has oi, as in coin or point.",
+      "ko": "그림과 맞는 문장에는 coin이나 point처럼 oi가 있습니다."
+    },
+    "diphthong_ou": {
+      "en": "The right sentence matches the picture and has ou, as in house or mouse.",
+      "ko": "그림과 맞는 문장에는 house나 mouse처럼 ou가 있습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Choose the diphthong sentence that matches the picture"
+    ],
+    "no_ixl_text": true
+  }
+}

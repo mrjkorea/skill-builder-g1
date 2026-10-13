@@ -1,0 +1,2423 @@
+[
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0001",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ball of the dog",
+    "choices": [
+      "the dog's ball",
+      "the dog ball",
+      "the ball dog",
+      "dog ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0002",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The desk of our teacher",
+    "choices": [
+      "the teacher desk",
+      "our teacher's desk",
+      "our teacher desk",
+      "teacher desk"
+    ],
+    "answer_index": 1,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0003",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The food of my puppy",
+    "choices": [
+      "my puppy's food",
+      "my puppy food",
+      "the puppy food",
+      "puppy food"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0004",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The games of the kids",
+    "choices": [
+      "the kid's games",
+      "the kids games",
+      "the kids' games",
+      "the kids's games"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0005",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cars of two girls",
+    "choices": [
+      "two girls' cars",
+      "two girl's cars",
+      "two girls cars",
+      "two girls's cars"
+    ],
+    "answer_index": 0,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0006",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bike of <NAME>",
+    "choices": [
+      "<NAME>s bike",
+      "<NAME>'s bike",
+      "<NAME>' bike",
+      "<NAME> bike"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0007",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The little red books of the children",
+    "choices": [
+      "the children's little red books",
+      "the childrens' little red books",
+      "the child's little red books",
+      "the children little red books"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0008",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The new cars of the men",
+    "choices": [
+      "the mens' new cars",
+      "the man's new cars",
+      "the men's new cars",
+      "the men new cars"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0009",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The tail of the cat",
+    "choices": [
+      "the cat's tail",
+      "the cat tail",
+      "the tail cat",
+      "cat tail"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0010",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hat of my dad",
+    "choices": [
+      "my dad's hat",
+      "my dad hat",
+      "the dad hat",
+      "dad hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0011",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bed of the frog",
+    "choices": [
+      "the frog's bed",
+      "the frog bed",
+      "the bed frog",
+      "frog bed"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0012",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cup of our mom",
+    "choices": [
+      "our mom's cup",
+      "our mom cup",
+      "the mom cup",
+      "mom cup"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0013",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bone of the dog",
+    "choices": [
+      "the dog's bone",
+      "the dog bone",
+      "the bone dog",
+      "dog bone"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bone"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0014",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bowl of the pet",
+    "choices": [
+      "the pet's bowl",
+      "the pet bowl",
+      "the bowl pet",
+      "pet bowl"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0015",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The coat of my sister",
+    "choices": [
+      "my sister's coat",
+      "my sister coat",
+      "the sister coat",
+      "sister coat"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0016",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The toy of the boy",
+    "choices": [
+      "the boy's toy",
+      "the boy toy",
+      "the toy boy",
+      "boy toy"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0017",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The leash of the horse",
+    "choices": [
+      "the horse's leash",
+      "the horse leash",
+      "the leash horse",
+      "horse leash"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0018",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The nest of the duck",
+    "choices": [
+      "the duck's nest",
+      "the duck nest",
+      "the nest duck",
+      "duck nest"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0019",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dish of my grandma",
+    "choices": [
+      "my grandma's dish",
+      "my grandma dish",
+      "the grandma dish",
+      "grandma dish"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0020",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The book of the student",
+    "choices": [
+      "the student's book",
+      "the student book",
+      "the book student",
+      "student book"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0021",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The desk of my brother",
+    "choices": [
+      "my brother's desk",
+      "my brother desk",
+      "the brother desk",
+      "brother desk"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0022",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bag of the girl",
+    "choices": [
+      "the girl's bag",
+      "the girl bag",
+      "the bag girl",
+      "girl bag"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0023",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The kite of my friend",
+    "choices": [
+      "my friend's kite",
+      "my friend kite",
+      "the friend kite",
+      "friend kite"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0024",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The ball of my cat",
+    "choices": [
+      "my cat's ball",
+      "my cat ball",
+      "the cat ball",
+      "cat ball"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0025",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The food of the pet",
+    "choices": [
+      "the pet's food",
+      "the pet food",
+      "the food pet",
+      "pet food"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pet"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0026",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The hat of our teacher",
+    "choices": [
+      "our teacher's hat",
+      "our teacher hat",
+      "the teacher hat",
+      "teacher hat"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0027",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bed of my puppy",
+    "choices": [
+      "my puppy's bed",
+      "my puppy bed",
+      "the puppy bed",
+      "puppy bed"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0028",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The tail of our dog",
+    "choices": [
+      "our dog's tail",
+      "our dog tail",
+      "the dog tail",
+      "dog tail"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0029",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The cup of the frog",
+    "choices": [
+      "the frog's cup",
+      "the frog cup",
+      "the cup frog",
+      "frog cup"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0030",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The toy of my kid",
+    "choices": [
+      "my kid's toy",
+      "my kid toy",
+      "the kid toy",
+      "kid toy"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0031",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The coat of the horse",
+    "choices": [
+      "the horse's coat",
+      "the horse coat",
+      "the coat horse",
+      "horse coat"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0032",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bone of our puppy",
+    "choices": [
+      "our puppy's bone",
+      "our puppy bone",
+      "the puppy bone",
+      "puppy bone"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bone"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0033",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The bowl of my pet",
+    "choices": [
+      "my pet's bowl",
+      "my pet bowl",
+      "the pet bowl",
+      "pet bowl"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0034",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The dish of my mom",
+    "choices": [
+      "my mom's dish",
+      "my mom dish",
+      "the mom dish",
+      "mom dish"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0035",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "The book of our teacher",
+    "choices": [
+      "our teacher's book",
+      "our teacher book",
+      "the teacher book",
+      "teacher book"
+    ],
+    "answer_index": 0,
+    "explain_key": "singular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0036",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The toys of the boys",
+    "choices": [
+      "the boy's toys",
+      "the boys toys",
+      "the boys' toys",
+      "the boys's toys"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0037",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hats of the kids",
+    "choices": [
+      "the kid's hats",
+      "the kids hats",
+      "the kids' hats",
+      "the kids's hats"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0038",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The desks of the students",
+    "choices": [
+      "the student's desks",
+      "the students desks",
+      "the students' desks",
+      "the students's desks"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0039",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The balls of the pets",
+    "choices": [
+      "the pet's balls",
+      "the pets balls",
+      "the pets' balls",
+      "the pets's balls"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0040",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The coats of the girls",
+    "choices": [
+      "the girl's coats",
+      "the girls coats",
+      "the girls' coats",
+      "the girls's coats"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0041",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bowls of the boys",
+    "choices": [
+      "the boy's bowls",
+      "the boys bowls",
+      "the boys' bowls",
+      "the boys's bowls"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0042",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cups of the girls",
+    "choices": [
+      "the girl's cups",
+      "the girls cups",
+      "the girls' cups",
+      "the girls's cups"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0043",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tails of the pets",
+    "choices": [
+      "the pet's tails",
+      "the pets tails",
+      "the pets' tails",
+      "the pets's tails"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0044",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dishes of the students",
+    "choices": [
+      "the student's dishes",
+      "the students dishes",
+      "the students' dishes",
+      "the students's dishes"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0045",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The books of the teachers",
+    "choices": [
+      "the teacher's books",
+      "the teachers books",
+      "the teachers' books",
+      "the teachers's books"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0046",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bikes of three boys",
+    "choices": [
+      "three boy's bikes",
+      "three boys bikes",
+      "three boys' bikes",
+      "three boys's bikes"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0047",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bags of the friends",
+    "choices": [
+      "the friend's bags",
+      "the friends bags",
+      "the friends' bags",
+      "the friends's bags"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0048",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The games of the girls",
+    "choices": [
+      "the girl's games",
+      "the girls games",
+      "the girls' games",
+      "the girls's games"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0049",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bones of the pets",
+    "choices": [
+      "the pet's bones",
+      "the pets bones",
+      "the pets' bones",
+      "the pets's bones"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bone"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0050",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hats of the boys",
+    "choices": [
+      "the boy's hats",
+      "the boys hats",
+      "the boys' hats",
+      "the boys's hats"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0051",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The toys of the kids",
+    "choices": [
+      "the kid's toys",
+      "the kids toys",
+      "the kids' toys",
+      "the kids's toys"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0052",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The desks of the boys",
+    "choices": [
+      "the boy's desks",
+      "the boys desks",
+      "the boys' desks",
+      "the boys's desks"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0053",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bowls of the friends",
+    "choices": [
+      "the friend's bowls",
+      "the friends bowls",
+      "the friends' bowls",
+      "the friends's bowls"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0054",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cups of the boys",
+    "choices": [
+      "the boy's cups",
+      "the boys cups",
+      "the boys' cups",
+      "the boys's cups"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0055",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The tails of the kids",
+    "choices": [
+      "the kid's tails",
+      "the kids tails",
+      "the kids' tails",
+      "the kids's tails"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0056",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The dishes of the boys",
+    "choices": [
+      "the boy's dishes",
+      "the boys dishes",
+      "the boys' dishes",
+      "the boys's dishes"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0057",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The books of the students",
+    "choices": [
+      "the student's books",
+      "the students books",
+      "the students' books",
+      "the students's books"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0058",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bags of the girls",
+    "choices": [
+      "the girl's bags",
+      "the girls bags",
+      "the girls' bags",
+      "the girls's bags"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bag"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0059",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The coats of the boys",
+    "choices": [
+      "the boy's coats",
+      "the boys coats",
+      "the boys' coats",
+      "the boys's coats"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0060",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The toys of the pets",
+    "choices": [
+      "the pet's toys",
+      "the pets toys",
+      "the pets' toys",
+      "the pets's toys"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0061",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bones of the boys",
+    "choices": [
+      "the boy's bones",
+      "the boys bones",
+      "the boys' bones",
+      "the boys's bones"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bone"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0062",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The beds of the pets",
+    "choices": [
+      "the pet's beds",
+      "the pets beds",
+      "the pets' beds",
+      "the pets's beds"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0063",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hats of the friends",
+    "choices": [
+      "the friend's hats",
+      "the friends hats",
+      "the friends' hats",
+      "the friends's hats"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0064",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The desks of the girls",
+    "choices": [
+      "the girl's desks",
+      "the girls desks",
+      "the girls' desks",
+      "the girls's desks"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0065",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bowls of the kids",
+    "choices": [
+      "the kid's bowls",
+      "the kids bowls",
+      "the kids' bowls",
+      "the kids's bowls"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0066",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cups of the friends",
+    "choices": [
+      "the friend's cups",
+      "the friends cups",
+      "the friends' cups",
+      "the friends's cups"
+    ],
+    "answer_index": 2,
+    "explain_key": "plural_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0067",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The kite of <NAME>",
+    "choices": [
+      "<NAME>s kite",
+      "<NAME>'s kite",
+      "<NAME>' kite",
+      "<NAME> kite"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0068",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The hat of <NAME>",
+    "choices": [
+      "<NAME>s hat",
+      "<NAME>'s hat",
+      "<NAME>' hat",
+      "<NAME> hat"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0069",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The toy of <NAME>",
+    "choices": [
+      "<NAME>s toy",
+      "<NAME>'s toy",
+      "<NAME>' toy",
+      "<NAME> toy"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0070",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The ball of <NAME>",
+    "choices": [
+      "<NAME>s ball",
+      "<NAME>'s ball",
+      "<NAME>' ball",
+      "<NAME> ball"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0071",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The cup of <NAME>",
+    "choices": [
+      "<NAME>s cup",
+      "<NAME>'s cup",
+      "<NAME>' cup",
+      "<NAME> cup"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0072",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "The bed of <NAME>",
+    "choices": [
+      "<NAME>s bed",
+      "<NAME>'s bed",
+      "<NAME>' bed",
+      "<NAME> bed"
+    ],
+    "answer_index": 1,
+    "explain_key": "name_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0073",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The big hats of the men",
+    "choices": [
+      "the mens' big hats",
+      "the man's big hats",
+      "the men's big hats",
+      "the men big hats"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0074",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The soft beds of the children",
+    "choices": [
+      "the children's soft beds",
+      "the childrens' soft beds",
+      "the child's soft beds",
+      "the children soft beds"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0075",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The red coats of the women",
+    "choices": [
+      "the womens' red coats",
+      "the woman's red coats",
+      "the women's red coats",
+      "the women red coats"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0076",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The new toys of the children",
+    "choices": [
+      "the children's new toys",
+      "the childrens' new toys",
+      "the child's new toys",
+      "the children new toys"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0077",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The warm coats of the men",
+    "choices": [
+      "the mens' warm coats",
+      "the man's warm coats",
+      "the men's warm coats",
+      "the men warm coats"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0078",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The small cups of the children",
+    "choices": [
+      "the children's small cups",
+      "the childrens' small cups",
+      "the child's small cups",
+      "the children small cups"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0079",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The old bikes of the men",
+    "choices": [
+      "the mens' old bikes",
+      "the man's old bikes",
+      "the men's old bikes",
+      "the men old bikes"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0080",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The blue hats of the women",
+    "choices": [
+      "the womens' blue hats",
+      "the woman's blue hats",
+      "the women's blue hats",
+      "the women blue hats"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0081",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The clean dishes of the children",
+    "choices": [
+      "the children's clean dishes",
+      "the childrens' clean dishes",
+      "the child's clean dishes",
+      "the children clean dishes"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0082",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fast bikes of the men",
+    "choices": [
+      "the mens' fast bikes",
+      "the man's fast bikes",
+      "the men's fast bikes",
+      "the men fast bikes"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0083",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The tall trees of the women",
+    "choices": [
+      "the womens' tall trees",
+      "the woman's tall trees",
+      "the women's tall trees",
+      "the women tall trees"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0084",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The big books of the children",
+    "choices": [
+      "the children's big books",
+      "the childrens' big books",
+      "the child's big books",
+      "the children big books"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0085",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The hot soup of the men",
+    "choices": [
+      "the mens' hot soup",
+      "the man's hot soup",
+      "the men's hot soup",
+      "the men hot soup"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0086",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The long tails of the children",
+    "choices": [
+      "the children's long tails",
+      "the childrens' long tails",
+      "the child's long tails",
+      "the children long tails"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tail"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0087",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The dark coats of the women",
+    "choices": [
+      "the womens' dark coats",
+      "the woman's dark coats",
+      "the women's dark coats",
+      "the women dark coats"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0088",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The wet boots of the men",
+    "choices": [
+      "the mens' wet boots",
+      "the man's wet boots",
+      "the men's wet boots",
+      "the men wet boots"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0089",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The happy songs of the children",
+    "choices": [
+      "the children's happy songs",
+      "the childrens' happy songs",
+      "the child's happy songs",
+      "the children happy songs"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0090",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The green coats of the women",
+    "choices": [
+      "the womens' green coats",
+      "the woman's green coats",
+      "the women's green coats",
+      "the women green coats"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0091",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The loud drums of the men",
+    "choices": [
+      "the mens' loud drums",
+      "the man's loud drums",
+      "the men's loud drums",
+      "the men loud drums"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "drum"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0092",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The soft blankets of the children",
+    "choices": [
+      "the children's soft blankets",
+      "the childrens' soft blankets",
+      "the child's soft blankets",
+      "the children soft blankets"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "blanket"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0093",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The big cars of the men",
+    "choices": [
+      "the mens' big cars",
+      "the man's big cars",
+      "the men's big cars",
+      "the men big cars"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "car"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0094",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The nice rooms of the women",
+    "choices": [
+      "the womens' nice rooms",
+      "the woman's nice rooms",
+      "the women's nice rooms",
+      "the women nice rooms"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "room"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0095",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The fun games of the children",
+    "choices": [
+      "the children's fun games",
+      "the childrens' fun games",
+      "the child's fun games",
+      "the children fun games"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "game"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0096",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The cold milk of the men",
+    "choices": [
+      "the mens' cold milk",
+      "the man's cold milk",
+      "the men's cold milk",
+      "the men cold milk"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0097",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The pink hats of the women",
+    "choices": [
+      "the womens' pink hats",
+      "the woman's pink hats",
+      "the women's pink hats",
+      "the women pink hats"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0098",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The old desks of the children",
+    "choices": [
+      "the children's old desks",
+      "the childrens' old desks",
+      "the child's old desks",
+      "the children old desks"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0099",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The warm hats of the men",
+    "choices": [
+      "the mens' warm hats",
+      "the man's warm hats",
+      "the men's warm hats",
+      "the men warm hats"
+    ],
+    "answer_index": 2,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_the_singular_or_plural_possessive_0100",
+    "family_id": "fam_form_the_singular_or_plural_possessive",
+    "skill_id": "roots_form_the_singular_or_plural_possessive",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "The yellow kites of the children",
+    "choices": [
+      "the children's yellow kites",
+      "the childrens' yellow kites",
+      "the child's yellow kites",
+      "the children yellow kites"
+    ],
+    "answer_index": 0,
+    "explain_key": "irregular_s",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  }
+]

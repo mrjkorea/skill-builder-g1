@@ -1,0 +1,342 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_plurals_singular_possessives_and_pl",
+  "family_title_en": "Identify plurals, singular possessives, and plural possessives",
+  "item_type": "sort_three_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_plurals_singular_possessives_and_pl",
+      "ix_title": "Identify plurals, singular possessives, and plural possessives",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which kind of noun is this?",
+        "ko": "이것은 어떤 명사인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the matching bin.",
+        "ko": "맞는 칸을 누르세요."
+      },
+      "choices": [
+        "plural",
+        "singular possessive",
+        "plural possessive"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "apple's",
+        "apples",
+        "baby's",
+        "babies",
+        "babies'",
+        "ball's",
+        "balls",
+        "bird's",
+        "birds",
+        "book's",
+        "books'",
+        "bowl's",
+        "bowls",
+        "boy's",
+        "boys",
+        "boys'",
+        "brother's",
+        "brothers",
+        "brothers'",
+        "cat's",
+        "cats",
+        "cats'",
+        "child's",
+        "children's",
+        "class's",
+        "coat's",
+        "coats",
+        "cookie's",
+        "cookies'",
+        "dad's",
+        "dog's",
+        "dogs",
+        "dogs'",
+        "family's",
+        "friend's",
+        "friends'",
+        "frog's",
+        "frogs'",
+        "girl's",
+        "girls",
+        "girls'",
+        "grandma's",
+        "grandpa's",
+        "hat's",
+        "hats",
+        "horse's",
+        "house's",
+        "houses",
+        "houses'",
+        "kid's",
+        "kids'",
+        "kitten's",
+        "men's",
+        "mom's",
+        "owl's",
+        "owls'",
+        "pet's",
+        "pets'",
+        "pup's",
+        "pups'",
+        "puppy's",
+        "school's",
+        "sister's",
+        "sisters",
+        "sisters'",
+        "student's",
+        "students'",
+        "teacher's",
+        "teachers",
+        "teachers'",
+        "toy's",
+        "toys",
+        "toys'",
+        "women's"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_plurals_singular_possessives_and_pl_0001",
+          "tier": 1,
+          "stem": "two books",
+          "choices": [
+            "plural",
+            "singular possessive",
+            "plural possessive"
+          ],
+          "answer_index": 0,
+          "explain_key": "plural",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_plurals_singular_possessives_and_pl_0002",
+          "tier": 1,
+          "stem": "the cat's milk",
+          "choices": [
+            "plural",
+            "singular possessive",
+            "plural possessive"
+          ],
+          "answer_index": 1,
+          "explain_key": "singular_possessive",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_plurals_singular_possessives_and_pl_0003",
+          "tier": 1,
+          "stem": "five frogs",
+          "choices": [
+            "plural",
+            "singular possessive",
+            "plural possessive"
+          ],
+          "answer_index": 0,
+          "explain_key": "plural",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_plurals_singular_possessives_and_pl_0004",
+          "tier": 2,
+          "stem": "the kids' games",
+          "choices": [
+            "plural",
+            "singular possessive",
+            "plural possessive"
+          ],
+          "answer_index": 2,
+          "explain_key": "plural_possessive",
+          "media": [
+            {
+              "lemma": "game"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_plurals_singular_possessives_and_pl_0005",
+          "tier": 2,
+          "stem": "my sister's bike",
+          "choices": [
+            "plural",
+            "singular possessive",
+            "plural possessive"
+          ],
+          "answer_index": 1,
+          "explain_key": "singular_possessive",
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_plurals_singular_possessives_and_pl_0006",
+          "tier": 2,
+          "stem": "our pets' food",
+          "choices": [
+            "plural",
+            "singular possessive",
+            "plural possessive"
+          ],
+          "answer_index": 2,
+          "explain_key": "plural_possessive",
+          "media": [
+            {
+              "lemma": "pet"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_plurals_singular_possessives_and_pl_0007",
+          "tier": 3,
+          "stem": "the children's lunch",
+          "choices": [
+            "plural",
+            "singular possessive",
+            "plural possessive"
+          ],
+          "answer_index": 2,
+          "explain_key": "irregular_pl_poss",
+          "media": [
+            {
+              "lemma": "child"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_plurals_singular_possessives_and_pl_0008",
+          "tier": 3,
+          "stem": "<NAME> saw the mice",
+          "choices": [
+            "plural",
+            "singular possessive",
+            "plural possessive"
+          ],
+          "answer_index": 0,
+          "explain_key": "irregular_plural",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "mouse"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The three bin labels stay fixed in this order: plural, singular possessive, plural possessive.",
+      "Every stem is one clear noun form. A kid must not be able to read it two ways.",
+      "Keep the filled pool near one third for each bin.",
+      "Wrong-bin near misses use the same noun in another s form when you can: cats, cat's, cats'.",
+      "Tier 1 uses short regular +s plurals and clear 's singular possessives.",
+      "Tier 2 adds two-syllable nouns and regular plural possessives that end with s'.",
+      "Tier 3 uses irregular plurals such as mice, children, men, geese, feet, or teeth, and their 's possessives.",
+      "Stems use only the roots wordlist, allowed_extra_words, and <NAME>. No real names.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands.",
+      "Pictures are lemma_lookup notes only. Never invent audio files."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bapostrophe\\b",
+    "\\bunderline\\b",
+    "\\bpunctuation\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of two to four words. Regular +s plurals and clear one-owner 's forms. Add a lemma picture of the noun.",
+    "2": "Three to six words. Mix two-syllable nouns and regular more-than-one-owner forms that end with s'.",
+    "3": "Near misses: irregular plurals versus their 's possessives, and s versus s' on the same kid-world noun."
+  },
+  "miss_explain": {
+    "plural": {
+      "en": "This noun names more than one. It does not show who owns something.",
+      "ko": "이 명사는 둘 이상을 가리킵니다. 누구의 것인지 나타내지 않습니다."
+    },
+    "singular_possessive": {
+      "en": "A singular possessive shows one owner. Add 's after that one noun.",
+      "ko": "단수 소유격은 주인이 한 명일 때 씁니다. 그 명사 뒤에 's를 붙입니다."
+    },
+    "plural_possessive": {
+      "en": "A plural possessive shows more than one owner. Put the mark after the s.",
+      "ko": "복수 소유격은 주인이 둘 이상일 때 씁니다. s 뒤에 기호를 붙입니다."
+    },
+    "irregular_plural": {
+      "en": "Mice and men name more than one. They are plurals, not possessives.",
+      "ko": "mice와 men은 둘 이상을 가리킵니다. 소유격이 아니라 복수입니다."
+    },
+    "irregular_pl_poss": {
+      "en": "Children's shows that more than one child owns something.",
+      "ko": "children's는 여러 아이가 무언가를 가지고 있음을 나타냅니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify plurals, singular possessives, and plural possessives"
+    ],
+    "no_ixl_text": true
+  }
+}

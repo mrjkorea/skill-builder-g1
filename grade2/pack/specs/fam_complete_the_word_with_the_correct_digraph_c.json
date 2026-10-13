@@ -1,0 +1,274 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_the_correct_digraph_c",
+  "family_title_en": "Complete the word with the correct digraph",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_the_correct_digraph_c",
+      "ix_title": "Complete the word with the correct digraph: ch, sh, th, ph, wh",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which two letters complete the word?",
+        "ko": "어떤 두 글자가 단어를 완성하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the two letters that fit.",
+        "ko": "알맞은 두 글자를 누르세요."
+      },
+      "choice_rule": "Four different pairs from ch, sh, th, ph, and wh. Exactly one pair completes the word the stem means, and the answer index changes from item to item. The stem begins with First or End, and that is where the pair sits. Never offer a full word, one letter, tch, or a made-up sound.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_digraph_c_0001",
+          "tier": 1,
+          "stem": "First of a very big boat.",
+          "choices": [
+            "ch",
+            "sh",
+            "th",
+            "ph"
+          ],
+          "answer_index": 1,
+          "explain_key": "sh_start",
+          "media": [
+            {
+              "lemma": "ship"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_digraph_c_0002",
+          "tier": 1,
+          "stem": "First of a round bike part.",
+          "choices": [
+            "sh",
+            "ch",
+            "th",
+            "wh"
+          ],
+          "answer_index": 3,
+          "explain_key": "wh_start",
+          "media": [
+            {
+              "lemma": "wheel"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_digraph_c_0003",
+          "tier": 1,
+          "stem": "First of a baby bird.",
+          "choices": [
+            "ch",
+            "wh",
+            "ph",
+            "th"
+          ],
+          "answer_index": 0,
+          "explain_key": "ch_start",
+          "media": [
+            {
+              "lemma": "chick"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_digraph_c_0004",
+          "tier": 2,
+          "stem": "End of an animal in a lake.",
+          "choices": [
+            "ch",
+            "th",
+            "sh",
+            "ph"
+          ],
+          "answer_index": 2,
+          "explain_key": "sh_end",
+          "media": [
+            {
+              "lemma": "fish"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_digraph_c_0005",
+          "tier": 2,
+          "stem": "First of an image on a desk.",
+          "choices": [
+            "th",
+            "ph",
+            "sh",
+            "wh"
+          ],
+          "answer_index": 1,
+          "explain_key": "ph_start",
+          "media": [
+            {
+              "lemma": "photo"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_digraph_c_0006",
+          "tier": 2,
+          "stem": "First of a number before four.",
+          "choices": [
+            "sh",
+            "ch",
+            "wh",
+            "th"
+          ],
+          "answer_index": 3,
+          "explain_key": "th_start"
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_digraph_c_0007",
+          "tier": 3,
+          "stem": "First of food kids eat from a bag.",
+          "choices": [
+            "sh",
+            "th",
+            "ch",
+            "ph"
+          ],
+          "answer_index": 2,
+          "explain_key": "ch_start",
+          "media": [
+            {
+              "lemma": "chip"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_digraph_c_0008",
+          "tier": 3,
+          "stem": "First of a question <NAME> may ask about an area.",
+          "choices": [
+            "th",
+            "sh",
+            "ch",
+            "wh"
+          ],
+          "answer_index": 3,
+          "explain_key": "wh_start",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four different pairs from ch, sh, th, ph, and wh. Exactly one pair completes the word the stem means.",
+      "A wrong pair must not complete another real word that fits the same stem.",
+      "Tier 1 wrong pairs should not build any common word a child knows for that clue.",
+      "Tier 3 includes one near-miss pair that builds a different real word, such as sh for ship when the clue means chip, or th for there when the clue means where.",
+      "Choices are only those two-letter pairs. Never a full word, never one letter, and never tch, shr, or thr.",
+      "No stem word may contain the consecutive letters ch, sh, th, ph, or wh. Do not use the, that, this, they, she, with, what, when, or school.",
+      "If a stem word begins with c, s, t, p, or w, do not offer ch, sh, th, ph, or wh as a wrong choice for that same first letter.",
+      "Use whole words from the roots list about home, food, pets, play, family, or weather. No brand names and no real personal names. Use <NAME> for a person.",
+      "Begin the stem with First or End so the child knows where the two letters sit. ph and wh only start words here, as in photo, phone, wheel, and where. Do not use tch words such as catch, match, or watch."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "digraph",
+    "phoneme",
+    "\\bipa\\b",
+    "\\btch\\b",
+    "\\bchuh\\b",
+    "\\bshuh\\b",
+    "\\bthuh\\b"
+  ],
+  "tier_rules": {
+    "1": "Four to six words. A very common word such as ship, wheel, or chick. The clue fits only one word. Wrong pairs do not build another real word.",
+    "2": "Six to eight words. Use the end of a word, as in fish, or a two-syllable word such as photo. A clear number word such as three is fine. Wrong pairs do not fit the clue.",
+    "3": "A longer clue with one near-miss pair that spells a different real word. Chip traps ship. A question about an area traps there. The stem still fits only one pair."
+  },
+  "miss_explain": {
+    "ch_start": {
+      "en": "This word starts with ch, as in chair, chip, and chick.",
+      "ko": "이 단어는 chair, chip, chick처럼 ch로 시작합니다."
+    },
+    "ch_end": {
+      "en": "This word ends with ch, as in beach and lunch.",
+      "ko": "이 단어는 beach, lunch처럼 ch로 끝납니다."
+    },
+    "sh_start": {
+      "en": "This word starts with sh, as in ship and shop.",
+      "ko": "이 단어는 ship, shop처럼 sh로 시작합니다."
+    },
+    "sh_end": {
+      "en": "This word ends with sh, as in fish and wish.",
+      "ko": "이 단어는 fish, wish처럼 sh로 끝납니다."
+    },
+    "th_start": {
+      "en": "This word starts with th, as in three and thank.",
+      "ko": "이 단어는 three, thank처럼 th로 시작합니다."
+    },
+    "th_end": {
+      "en": "This word ends with th, as in path and tooth.",
+      "ko": "이 단어는 path, tooth처럼 th로 끝납니다."
+    },
+    "ph_start": {
+      "en": "This word starts with ph, as in photo and phone.",
+      "ko": "이 단어는 photo, phone처럼 ph로 시작합니다."
+    },
+    "wh_start": {
+      "en": "This word starts with wh, as in wheel and where.",
+      "ko": "이 단어는 wheel, where처럼 wh로 시작합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with the correct digraph: ch, sh, th, ph, wh"
+    ],
+    "no_ixl_text": true
+  }
+}

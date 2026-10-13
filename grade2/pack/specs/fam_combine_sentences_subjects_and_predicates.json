@@ -1,0 +1,271 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_combine_sentences_subjects_and_predicates",
+  "family_title_en": "Combine subjects and predicates",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_combine_sentences_subjects_and_predicates",
+      "ix_title": "Combine sentences: subjects and predicates",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence joins both?",
+        "ko": "어느 문장이 둘을 이을까요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that puts them together.",
+        "ko": "두 문장을 하나로 만든 문장을 누르세요."
+      },
+      "choice_rule": "Four sentence choices each time. Exactly one correctly combines the two stem sentences by joining the shared who or the shared action with and and saying the shared part only once. The other three are uniquely wrong: a jumbled and-string, a who or action that was not in the stem, an unfinished and-join, or at tier 3 two full sentences glued with and. Each choice is one Grade 2 sentence. Never two choices that can both be read as correct.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "jumped",
+        "played",
+        "walked",
+        "kicked",
+        "climbed",
+        "laughed",
+        "skipped",
+        "hopped",
+        "washed",
+        "picked",
+        "bark",
+        "runs",
+        "walks",
+        "likes",
+        "eats"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_combine_sentences_subjects_and_predicates_0001",
+          "tier": 1,
+          "stem": "The dog ran. The cat ran.",
+          "choices": [
+            "The dog and the cat ran.",
+            "The dog ran and sat.",
+            "The cat ran the dog.",
+            "The dog ran the cat ran."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_who",
+          "media": [
+            {
+              "lemma": "dog"
+            },
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_and_predicates_0002",
+          "tier": 1,
+          "stem": "The frog ate. The frog hid.",
+          "choices": [
+            "The frog ate and hid.",
+            "The frog and hid ate.",
+            "The frog ate the bug.",
+            "The frog and the duck ate."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_do",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_and_predicates_0003",
+          "tier": 1,
+          "stem": "Mom sat. Dad sat.",
+          "choices": [
+            "Mom and Dad sat.",
+            "Mom sat and Dad.",
+            "Mom sat and ate.",
+            "Dad sat Mom sat."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_who"
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_and_predicates_0004",
+          "tier": 2,
+          "stem": "<NAME> baked. <NAME> cleaned.",
+          "choices": [
+            "<NAME> baked and cleaned.",
+            "<NAME> and baked cleaned.",
+            "<NAME> baked the cake.",
+            "Mom baked and cleaned."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_do",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_and_predicates_0005",
+          "tier": 2,
+          "stem": "The bird sang. The duck sang.",
+          "choices": [
+            "The bird and the duck sang.",
+            "The bird sang and flew.",
+            "The bird and sang the duck.",
+            "The bird sang and the duck."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_who",
+          "media": [
+            {
+              "lemma": "bird"
+            },
+            {
+              "lemma": "duck"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_and_predicates_0006",
+          "tier": 2,
+          "stem": "<NAME> ran. <NAME2> ran.",
+          "choices": [
+            "<NAME> and <NAME2> ran.",
+            "<NAME> ran and sat.",
+            "<NAME> and ran <NAME2>.",
+            "<NAME> ran and <NAME2>."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_who",
+          "swap_slots": {
+            "NAME": "names.txt",
+            "NAME2": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_and_predicates_0007",
+          "tier": 3,
+          "stem": "<NAME> drew. <NAME> read.",
+          "choices": [
+            "<NAME> drew and read.",
+            "<NAME> drew and <NAME> read.",
+            "<NAME> and drew read.",
+            "<NAME> drew the picture."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_do",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_combine_sentences_subjects_and_predicates_0008",
+          "tier": 3,
+          "stem": "The puppy barked. The kitten barked.",
+          "choices": [
+            "The puppy and the kitten barked.",
+            "The puppy barked and the kitten barked.",
+            "The puppy barked and ran.",
+            "The puppy and barked the kitten."
+          ],
+          "answer_index": 0,
+          "explain_key": "join_who",
+          "media": [
+            {
+              "lemma": "puppy"
+            },
+            {
+              "lemma": "kitten"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt",
+    "NAME2": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four choices every item. One right answer. Never two choices that can both be read as correct.",
+      "The right choice joins a shared who or a shared action with and and says the shared part only once.",
+      "Wrong choices are a jumbled and-string, a who or action not in the stem, an unfinished and-join, or at tier 3 two full sentences glued with and.",
+      "Every stem is exactly two short statements that share a who or share an action, never both and never neither.",
+      "Keep about half the pool as shared-action items and half as shared-who items.",
+      "Kid world only: school, home, food, pets, play, family, weather. No brands. No real names; use <NAME> or <NAME2>.",
+      "Never put subject, predicate, sentence, combine, or clause in a stem or choice."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsubject\\b",
+    "\\bpredicate\\b",
+    "\\bcompound\\b",
+    "\\bcombine\\b",
+    "\\bsentence\\b",
+    "\\bclause\\b",
+    "\\bconjunction\\b"
+  ],
+  "tier_rules": {
+    "1": "Two very short statements that clearly share a who or an action. The right choice uses and. Distractors are jumbled, unfinished, or change the meaning.",
+    "2": "Grade 2 stems with two-syllable words. Mix shared-who and shared-action items. Distractors use the wrong join type or add a who or action.",
+    "3": "Near misses that glue both full sentences with and, plus name or two-syllable pet stems. The shared part must still be said only once."
+  },
+  "miss_explain": {
+    "join_who": {
+      "en": "They do the same thing. Join the who with and. Say the action only once.",
+      "ko": "같은 일을 합니다. 누구를 and로 이으세요. 동작은 한 번만 말하세요."
+    },
+    "join_do": {
+      "en": "The same who does two things. Keep the who once. Join the actions with and.",
+      "ko": "같은 사람이 두 가지를 합니다. 누구는 한 번만 쓰세요. 동작을 and로 이으세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Combine sentences: subjects and predicates"
+    ],
+    "no_ixl_text": true
+  }
+}

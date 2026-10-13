@@ -1,0 +1,276 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_add_descriptive_details_to_sentences",
+  "family_title_en": "Add descriptive details to sentences",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_add_descriptive_details_to_sentences",
+      "ix_title": "Add descriptive details to sentences",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence adds a detail?",
+        "ko": "어느 문장에 묘사하는 말이 더해졌나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence with a describing word.",
+        "ko": "묘사하는 말이 들어간 문장을 누르세요."
+      },
+      "choice_rule": "Write four full grammatical sentences. Exactly one is the stem plus one size, color, look, feel, or how-word from the wordlist or allowed_extra_words. The other three only add too, also, again, a time word, a number word, another person, another noun, or a determiner swap. Never copy the stem. One right answer.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "quickly",
+        "loudly",
+        "gently",
+        "huge",
+        "messy",
+        "cute",
+        "yummy",
+        "rainy",
+        "windy",
+        "cloudy",
+        "fuzzy",
+        "smooth",
+        "sleepy",
+        "sticky",
+        "bumpy"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_add_descriptive_details_to_sentences_0001",
+          "tier": 1,
+          "stem": "The dog ran.",
+          "choices": [
+            "The big dog ran.",
+            "The dog ran too.",
+            "The dog ran also.",
+            "The dog ran again."
+          ],
+          "answer_index": 0,
+          "explain_key": "size_or_color",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_add_descriptive_details_to_sentences_0002",
+          "tier": 1,
+          "stem": "The bird sat.",
+          "choices": [
+            "The bird sat too.",
+            "The bird sat also.",
+            "The red bird sat.",
+            "The bird sat again."
+          ],
+          "answer_index": 2,
+          "explain_key": "size_or_color",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_add_descriptive_details_to_sentences_0003",
+          "tier": 1,
+          "stem": "The pig ate.",
+          "choices": [
+            "The pig ate too.",
+            "The pink pig ate.",
+            "The pig ate also.",
+            "The pig ate again."
+          ],
+          "answer_index": 1,
+          "explain_key": "size_or_color",
+          "media": [
+            {
+              "lemma": "pig"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_add_descriptive_details_to_sentences_0004",
+          "tier": 2,
+          "stem": "The kitten sat on the bed.",
+          "choices": [
+            "The kitten sat on the bed too.",
+            "The kitten sat on one bed.",
+            "The kitten sat on the bed again.",
+            "The fluffy kitten sat on the bed."
+          ],
+          "answer_index": 3,
+          "explain_key": "look_or_feel",
+          "media": [
+            {
+              "lemma": "kitten"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_add_descriptive_details_to_sentences_0005",
+          "tier": 2,
+          "stem": "<NAME> ate the soup.",
+          "choices": [
+            "<NAME> ate the soup too.",
+            "<NAME> ate the hot soup.",
+            "<NAME> ate the soup again.",
+            "<NAME> and mom ate the soup."
+          ],
+          "answer_index": 1,
+          "explain_key": "look_or_feel",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_add_descriptive_details_to_sentences_0006",
+          "tier": 2,
+          "stem": "The kids play in the yard.",
+          "choices": [
+            "The kids play in the sunny yard.",
+            "The kids play in the yard today.",
+            "The kids play in one yard.",
+            "The kids and mom play in the yard."
+          ],
+          "answer_index": 0,
+          "explain_key": "look_or_feel",
+          "media": [
+            {
+              "lemma": "yard"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_add_descriptive_details_to_sentences_0007",
+          "tier": 3,
+          "stem": "The boy ran to school.",
+          "choices": [
+            "The boy ran to school yesterday.",
+            "The boy ran to school today.",
+            "The boy ran slowly to school.",
+            "The boy and sister ran to school."
+          ],
+          "answer_index": 2,
+          "explain_key": "how_word",
+          "media": [
+            {
+              "lemma": "boy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_add_descriptive_details_to_sentences_0008",
+          "tier": 3,
+          "stem": "The rain fell on the roof.",
+          "choices": [
+            "The rain fell on the roof yesterday.",
+            "The rain and hail fell on the roof.",
+            "The rain fell on that roof.",
+            "The heavy rain fell on the roof."
+          ],
+          "answer_index": 3,
+          "explain_key": "look_or_feel",
+          "media": [
+            {
+              "lemma": "rain"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The correct choice is the stem with one describing word added. Never reuse the stem as a choice.",
+      "Tier 1 wrong choices add only too, also, or again.",
+      "Tier 2 wrong choices add a time word, a number word, or another person.",
+      "Tier 3 wrong choices look like extra facts: yesterday, today, another noun, or a determiner swap.",
+      "Every choice must be a grammatical kid sentence. Do not use broken grammar as a trick.",
+      "Put only one describing word in the right choice. Never write two right answers."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\badjective\\b",
+    "\\badverb\\b",
+    "\\bdescriptive\\b",
+    "\\bdetail\\b",
+    "\\bsentence\\b",
+    "\\bsensory\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words. The right choice adds a clear size or color word. Wrong choices only add too, also, or again.",
+    "2": "Stems of five to seven words. The right choice adds a look or feel word. Wrong choices add today, again, one, too, or another person.",
+    "3": "Near-miss extra facts. The right choice adds a how-word or a two-syllable look word. Wrong choices add yesterday, today, another noun, or a determiner swap."
+  },
+  "miss_explain": {
+    "size_or_color": {
+      "en": "Add a size or color word to tell more about it.",
+      "ko": "크기나 색깔을 나타내는 말을 더해 더 자세히 알려 주세요."
+    },
+    "look_or_feel": {
+      "en": "Add a word that tells how it looks or feels.",
+      "ko": "어떻게 보이거나 느껴지는지 알려 주는 말을 더하세요."
+    },
+    "how_word": {
+      "en": "Add a word that tells how it happens.",
+      "ko": "어떻게 일어나는지 알려 주는 말을 더하세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Add descriptive details to sentences"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_replace_the_singular_noun_with_a_personal_pr",
+  "family_title_en": "Replace the singular noun with a personal pronoun",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_replace_the_singular_noun_with_a_personal_pr",
+      "ix_title": "Replace the singular noun with a personal pronoun",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which pronoun replaces the noun?",
+        "ko": "명사를 대신할 대명사는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right pronoun.",
+        "ko": "알맞은 대명사를 누르세요."
+      },
+      "choice_rule": "Offer exactly four personal pronouns. One matches the gender, number, and case of the one singular noun. Include a gender miss, a case miss for people (he/him or she/her), and they or them as the plural miss. Animals and things take it. Never use I, me, we, or you as the key for a third-person noun.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "he",
+        "she",
+        "it",
+        "him",
+        "her",
+        "they",
+        "them"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_replace_the_singular_noun_with_a_personal_pr_0001",
+          "tier": 1,
+          "stem": "The cat sat.",
+          "choices": [
+            "it",
+            "he",
+            "she",
+            "they"
+          ],
+          "answer_index": 0,
+          "explain_key": "it_thing",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_singular_noun_with_a_personal_pr_0002",
+          "tier": 1,
+          "stem": "The boy ran.",
+          "choices": [
+            "she",
+            "he",
+            "it",
+            "they"
+          ],
+          "answer_index": 1,
+          "explain_key": "he_male",
+          "media": [
+            {
+              "lemma": "boy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_singular_noun_with_a_personal_pr_0003",
+          "tier": 1,
+          "stem": "Mom is happy.",
+          "choices": [
+            "he",
+            "it",
+            "she",
+            "they"
+          ],
+          "answer_index": 2,
+          "explain_key": "she_female"
+        },
+        {
+          "item_id": "roots_replace_the_singular_noun_with_a_personal_pr_0004",
+          "tier": 2,
+          "stem": "The little puppy purrs.",
+          "choices": [
+            "he",
+            "she",
+            "it",
+            "they"
+          ],
+          "answer_index": 2,
+          "explain_key": "it_thing",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_replace_the_singular_noun_with_a_personal_pr_0005",
+          "tier": 2,
+          "stem": "Dad is very hungry.",
+          "choices": [
+            "him",
+            "she",
+            "they",
+            "he"
+          ],
+          "answer_index": 3,
+          "explain_key": "he_male"
+        },
+        {
+          "item_id": "roots_replace_the_singular_noun_with_a_personal_pr_0006",
+          "tier": 2,
+          "stem": "My grandma smiled nicely.",
+          "choices": [
+            "her",
+            "he",
+            "they",
+            "she"
+          ],
+          "answer_index": 3,
+          "explain_key": "she_female"
+        },
+        {
+          "item_id": "roots_replace_the_singular_noun_with_a_personal_pr_0007",
+          "tier": 3,
+          "stem": "I hugged Mom today.",
+          "choices": [
+            "she",
+            "him",
+            "her",
+            "it"
+          ],
+          "answer_index": 2,
+          "explain_key": "her_object"
+        },
+        {
+          "item_id": "roots_replace_the_singular_noun_with_a_personal_pr_0008",
+          "tier": 3,
+          "stem": "I saw the man yesterday.",
+          "choices": [
+            "he",
+            "her",
+            "them",
+            "him"
+          ],
+          "answer_index": 3,
+          "explain_key": "him_object"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {},
+  "distractor_rules": {
+    "roots": [
+      "Each stem has exactly one singular noun a kid can replace. Do not add a second person, pet, or thing.",
+      "Choices are four personal pronouns only. Never write phrases or full sentences as choices.",
+      "The key matches gender, number, and case. Subject nouns take he, she, or it. Object nouns take him, her, or it.",
+      "Always include they or them so kids cannot treat a singular noun as plural.",
+      "For a person, include the case twin (he with him, she with her) and the other gender.",
+      "Pets, animals, and things take it. Do not make he or she the key for a cat, dog, puppy, ball, or book.",
+      "Never use I, me, we, or you as the key for a third-person noun.",
+      "Do not use NAME. A name token has no gender, so he and she cannot be keyed.",
+      "Keep stems in kid world: school, home, food, pets, play, family, weather. No brands.",
+      "Keep answers unique. Only one pronoun can be right."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bpronoun\\b",
+    "\\bnoun\\b",
+    "\\breplace\\b",
+    "\\bsingular\\b",
+    "\\bplural\\b",
+    "\\bunderline\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of three to five words with one obvious subject noun. Use he, she, or it. Pictures for pets and kids. Distractors are the other genders plus they.",
+    "2": "Stems of four to seven words. Use two-syllable nouns such as puppy or grandma. Keep the noun in subject place. Add a case miss (him or her) beside they.",
+    "3": "Near-miss object case. The noun comes after the verb, so the key is him or her, not he or she. Stems may run longer, still under ten words."
+  },
+  "miss_explain": {
+    "he_male": {
+      "en": "A boy or man is he when he does the action.",
+      "ko": "남자아이나 남자가 행동을 하면 he를 씁니다."
+    },
+    "she_female": {
+      "en": "A girl or woman is she when she does the action.",
+      "ko": "여자아이나 여자가 행동을 하면 she를 씁니다."
+    },
+    "it_thing": {
+      "en": "A pet, animal, or thing is it.",
+      "ko": "반려동물, 동물, 사물은 it입니다."
+    },
+    "her_object": {
+      "en": "Use her for a girl or woman after the verb.",
+      "ko": "동사 뒤에서 여자아이나 여자를 가리킬 때는 her를 씁니다."
+    },
+    "him_object": {
+      "en": "Use him for a boy or man after the verb.",
+      "ko": "동사 뒤에서 남자아이나 남자를 가리킬 때는 him을 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Replace the singular noun with a personal pronoun"
+    ],
+    "no_ixl_text": true
+  }
+}

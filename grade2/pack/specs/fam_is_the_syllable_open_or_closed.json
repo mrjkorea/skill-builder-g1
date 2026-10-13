@@ -1,0 +1,243 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_is_the_syllable_open_or_closed",
+  "family_title_en": "Is the syllable open or closed?",
+  "item_type": "ab",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_is_the_syllable_open_or_closed",
+      "ix_title": "Is the syllable open or closed?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Is this syllable open or closed?",
+        "ko": "이 음절은 열린 음절인가요, 닫힌 음절인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap open or closed.",
+        "ko": "열린 음절 또는 닫힌 음절을 누르세요."
+      },
+      "choices": [
+        "open",
+        "closed"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "acorn",
+        "bacon",
+        "bas",
+        "basket",
+        "bot",
+        "cab",
+        "cabin",
+        "da",
+        "der",
+        "ger",
+        "ket",
+        "lady",
+        "lem",
+        "lemon",
+        "ma",
+        "mag",
+        "magnet",
+        "maple",
+        "mel",
+        "melon",
+        "ny",
+        "pony",
+        "raven",
+        "robot",
+        "soda",
+        "spi",
+        "spider",
+        "sunset",
+        "ti",
+        "tiger",
+        "ven"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_is_the_syllable_open_or_closed_0001",
+          "tier": 1,
+          "stem": "cat",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed"
+        },
+        {
+          "item_id": "roots_is_the_syllable_open_or_closed_0002",
+          "tier": 1,
+          "stem": "me",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 0,
+          "explain_key": "open"
+        },
+        {
+          "item_id": "roots_is_the_syllable_open_or_closed_0003",
+          "tier": 1,
+          "stem": "sun",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed"
+        },
+        {
+          "item_id": "roots_is_the_syllable_open_or_closed_0004",
+          "tier": 2,
+          "stem": "The part ba in baby",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 0,
+          "explain_key": "open"
+        },
+        {
+          "item_id": "roots_is_the_syllable_open_or_closed_0005",
+          "tier": 2,
+          "stem": "The part nap in napkin",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed"
+        },
+        {
+          "item_id": "roots_is_the_syllable_open_or_closed_0006",
+          "tier": 2,
+          "stem": "The part ta in table",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 0,
+          "explain_key": "open"
+        },
+        {
+          "item_id": "roots_is_the_syllable_open_or_closed_0007",
+          "tier": 3,
+          "stem": "The part pen in the word open",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed_part"
+        },
+        {
+          "item_id": "roots_is_the_syllable_open_or_closed_0008",
+          "tier": 3,
+          "stem": "The part by in the word baby",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_y"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep the two labels open then closed. Never change the words, the order, or the count.",
+      "A one-word stem is the syllable to judge. In a longer stem, the named part must be a real syllable of that word, and you judge only that part.",
+      "An open syllable ends in one vowel letter, and a final y counts as a vowel. A closed syllable ends in a consonant. Use one vowel, and a blend or digraph may sit beside it.",
+      "Do not target silent-e words, vowel-team syllables, or a consonant-le part. Those are other syllable types.",
+      "Use real spellings. Skip misspelled wordlist lines. Use school, home, food, pets, play, family, or weather words. No brands or real names.",
+      "Keep about half the answers open and half closed. Tier 3 uses a final y or a closed part inside a misleading word."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\.mp3\\b",
+    "\\.wav\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "æ",
+    "ə"
+  ],
+  "tier_rules": {
+    "1": "One-word stems only, each a real word a child knows. Open ends in a, e, i, o, or u. Closed ends in a consonant after one vowel. No final y on tier 1.",
+    "2": "Five-word stems that name one part of a two-syllable word. The part has one vowel and is clearly open or clearly closed.",
+    "3": "Longer stems of about seven words. Use a closed part inside a word such as open, or an open part that ends with the vowel letter y."
+  },
+  "miss_explain": {
+    "open": {
+      "en": "This syllable ends with a vowel, so it is open.",
+      "ko": "이 음절은 모음으로 끝나서 열린 음절입니다."
+    },
+    "closed": {
+      "en": "This syllable ends with a consonant, so it is closed.",
+      "ko": "이 음절은 자음으로 끝나서 닫힌 음절입니다."
+    },
+    "open_y": {
+      "en": "Y is a vowel here. It ends with a vowel, so it is open.",
+      "ko": "여기서 y는 모음입니다. 모음으로 끝나서 열린 음절입니다."
+    },
+    "closed_part": {
+      "en": "Look at that part only. It ends with a consonant, so it is closed.",
+      "ko": "그 부분만 보세요. 자음으로 끝나서 닫힌 음절입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Is the syllable open or closed?"
+    ],
+    "no_ixl_text": true
+  }
+}

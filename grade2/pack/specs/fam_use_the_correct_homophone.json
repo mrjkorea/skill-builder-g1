@@ -1,0 +1,409 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_the_correct_homophone",
+  "family_title_en": "Use the correct homophone",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_the_correct_homophone",
+      "ix_title": "Use the correct homophone",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word fits?",
+        "ko": "어떤 단어가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that fits.",
+        "ko": "알맞은 단어를 누르세요."
+      },
+      "choice_rule": "Four single words. Exactly one completes the blank. Always include the partner homophone. Add a third form from the same set when one exists (to/too/two, there/their/they're). Last slot is a look-alike. Never a second grammatical fit. Use they're, you're, it's with apostrophes.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "blank",
+        "bee",
+        "son",
+        "hour",
+        "knew",
+        "threw",
+        "flour",
+        "weak",
+        "meet",
+        "pair",
+        "pale",
+        "brake",
+        "bored",
+        "bare",
+        "hare",
+        "heal",
+        "passed",
+        "poor",
+        "witch",
+        "weight",
+        "knot",
+        "maid",
+        "tale",
+        "sew",
+        "sum",
+        "bye",
+        "you're",
+        "they're",
+        "it's",
+        "piece",
+        "peace",
+        "clothes",
+        "aloud",
+        "rap",
+        "role",
+        "dye",
+        "rows",
+        "seam",
+        "tow",
+        "whose",
+        "deer",
+        "dear"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_the_correct_homophone_0001",
+          "tier": 1,
+          "stem": "I can blank the dog.",
+          "choices": [
+            "hear",
+            "here",
+            "hat",
+            "had"
+          ],
+          "answer_index": 0,
+          "explain_key": "hear_here",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_homophone_0002",
+          "tier": 1,
+          "stem": "I want blank cookies.",
+          "choices": [
+            "to",
+            "too",
+            "two",
+            "ten"
+          ],
+          "answer_index": 2,
+          "explain_key": "to_too_two",
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_homophone_0003",
+          "tier": 1,
+          "stem": "We blank the big boat.",
+          "choices": [
+            "sea",
+            "see",
+            "say",
+            "sit"
+          ],
+          "answer_index": 1,
+          "explain_key": "see_sea",
+          "media": [
+            {
+              "lemma": "boat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_homophone_0004",
+          "tier": 2,
+          "stem": "The kids left blank bag at school.",
+          "choices": [
+            "their",
+            "there",
+            "they're",
+            "they"
+          ],
+          "answer_index": 0,
+          "explain_key": "their_there_theyre",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_homophone_0005",
+          "tier": 2,
+          "stem": "<NAME> will blank a letter.",
+          "choices": [
+            "right",
+            "rite",
+            "write",
+            "white"
+          ],
+          "answer_index": 2,
+          "explain_key": "write_right",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "letter"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_the_correct_homophone_0006",
+          "tier": 2,
+          "stem": "I blank the right way home.",
+          "choices": [
+            "no",
+            "now",
+            "new",
+            "know"
+          ],
+          "answer_index": 3,
+          "explain_key": "know_no"
+        },
+        {
+          "item_id": "roots_use_the_correct_homophone_0007",
+          "tier": 3,
+          "stem": "<NAME> does not know blank or not we should wait.",
+          "choices": [
+            "weather",
+            "whether",
+            "where",
+            "when"
+          ],
+          "answer_index": 1,
+          "explain_key": "weather_whether",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_use_the_correct_homophone_0008",
+          "tier": 3,
+          "stem": "<NAME> said blank ready to play outside.",
+          "choices": [
+            "their",
+            "there",
+            "they're",
+            "they"
+          ],
+          "answer_index": 2,
+          "explain_key": "their_there_theyre",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep four one-word choices and never reorder a fixed label set, because labels change per item.",
+      "The partner homophone must appear in every choice set.",
+      "No other choice may make a real sentence in the blank.",
+      "Tier 1 far words are short and obviously wrong (hat, ten, sit).",
+      "Tier 3 must show the full common set or close wh- look-alikes.",
+      "Do not write picture clues in the stem.",
+      "Stay in school, home, food, pets, play, family, or weather."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bhomophone",
+    "\\bhomonym",
+    "sounds like",
+    "same sound",
+    "\\/[^ \\n]+\\/",
+    "\\bsentence\\b",
+    "\\bpunctuation\\b",
+    "\\bipa\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. Easy pairs: hear/here, see/sea, to/too/two. Far distractors plus the partner. Add a lemma picture for a concrete noun.",
+    "2": "Stems of five to eight words. Grade 2 pairs: their/there/they're, write/right, know/no, your/you're. Partner plus one look-alike.",
+    "3": "Stems of seven to ten words. Near misses: whether or not, they're vs their/there. Two-syllable words are fine. Only one choice can fit."
+  },
+  "miss_explain": {
+    "hear_here": {
+      "en": "Hear means to listen. Here means this place.",
+      "ko": "Hear는 듣다는 뜻입니다. Here는 이곳입니다."
+    },
+    "see_sea": {
+      "en": "See means to look. Sea means the ocean.",
+      "ko": "See는 본다는 뜻입니다. Sea는 바다입니다."
+    },
+    "to_too_two": {
+      "en": "To means toward. Too means also or very. Two means the number 2.",
+      "ko": "To는 '~로'입니다. Too는 '너무' 또는 '또한'입니다. Two는 숫자 2입니다."
+    },
+    "their_there_theyre": {
+      "en": "Their means it belongs to them. There means a place. They're means they are.",
+      "ko": "Their는 그들의 것입니다. There는 장소입니다. They're는 they are입니다."
+    },
+    "write_right": {
+      "en": "Write means to make words. Right means correct or the right side.",
+      "ko": "Write는 글을 쓴다는 뜻입니다. Right는 맞다 또는 오른쪽입니다."
+    },
+    "know_no": {
+      "en": "Know means you have the fact. No means not yes.",
+      "ko": "Know는 안다는 뜻입니다. No는 아니라는 뜻입니다."
+    },
+    "weather_whether": {
+      "en": "Weather means rain or sun. Whether means if or which way.",
+      "ko": "Weather는 날씨입니다. Whether는 '~인지'라는 뜻입니다."
+    },
+    "your_youre": {
+      "en": "Your means it belongs to you. You're means you are.",
+      "ko": "Your는 너의 것입니다. You're는 you are입니다."
+    },
+    "one_won": {
+      "en": "One means the number 1. Won means you came in first.",
+      "ko": "One은 숫자 1입니다. Won은 이겼다는 뜻입니다."
+    },
+    "ate_eight": {
+      "en": "Ate means you finished food. Eight means the number 8.",
+      "ko": "Ate는 먹었다는 뜻입니다. Eight는 숫자 8입니다."
+    },
+    "for_four": {
+      "en": "For means meant for someone. Four means the number 4.",
+      "ko": "For는 '~을 위해'입니다. Four는 숫자 4입니다."
+    },
+    "by_buy": {
+      "en": "By means next to or how. Buy means to get with money.",
+      "ko": "By는 옆에 또는 '~로'입니다. Buy는 산다는 뜻입니다."
+    },
+    "hole_whole": {
+      "en": "Hole means an opening. Whole means all of it.",
+      "ko": "Hole은 구멍입니다. Whole은 전부라는 뜻입니다."
+    },
+    "blew_blue": {
+      "en": "Blew means the wind moved it. Blue is a color.",
+      "ko": "Blew는 바람이 불었다는 뜻입니다. Blue는 파란색입니다."
+    },
+    "sun_son": {
+      "en": "Sun is the bright star. Son is a boy in a family.",
+      "ko": "Sun은 해입니다. Son은 아들입니다."
+    },
+    "be_bee": {
+      "en": "Be means to exist. A bee is a bug that buzzes.",
+      "ko": "Be는 '~이다'입니다. Bee는 꿀벌입니다."
+    },
+    "our_hour": {
+      "en": "Our means it belongs to us. An hour is a time of day.",
+      "ko": "Our는 우리의 것입니다. Hour는 한 시간입니다."
+    },
+    "new_knew": {
+      "en": "New means not old. Knew means you already had the fact.",
+      "ko": "New는 새것이라는 뜻입니다. Knew는 알고 있었다는 뜻입니다."
+    },
+    "through_threw": {
+      "en": "Through means from one side to the other. Threw means you tossed it.",
+      "ko": "Through는 통과한다는 뜻입니다. Threw는 던졌다는 뜻입니다."
+    },
+    "flower_flour": {
+      "en": "A flower grows in a garden. Flour is used to bake.",
+      "ko": "Flower는 꽃입니다. Flour는 밀가루입니다."
+    },
+    "week_weak": {
+      "en": "A week is seven days. Weak means not strong.",
+      "ko": "Week는 일주일입니다. Weak는 힘이 없다는 뜻입니다."
+    },
+    "meat_meet": {
+      "en": "Meat is food from an animal. Meet means to see someone.",
+      "ko": "Meat는 고기입니다. Meet는 만난다는 뜻입니다."
+    },
+    "wood_would": {
+      "en": "Wood comes from a tree. Would talks about a wish or plan.",
+      "ko": "Wood는 나무입니다. Would는 바람이나 계획에 쓰입니다."
+    },
+    "night_knight": {
+      "en": "Night is the dark time. A knight is a person in armor.",
+      "ko": "Night는 밤입니다. Knight는 기사입니다."
+    },
+    "red_read": {
+      "en": "Red is a color. Read means you looked at words.",
+      "ko": "Red는 빨간색입니다. Read는 읽었다는 뜻입니다."
+    },
+    "plane_plain": {
+      "en": "A plane flies in the sky. Plain means simple or not fancy.",
+      "ko": "Plane은 비행기입니다. Plain은 수수한 것입니다."
+    },
+    "sail_sale": {
+      "en": "Sail means a boat moves on water. Sale means a lower price.",
+      "ko": "Sail은 배가 가는 것입니다. Sale은 할인 판매입니다."
+    },
+    "wear_where": {
+      "en": "Wear means to put on clothes. Where asks about a place.",
+      "ko": "Wear는 옷을 입는 것입니다. Where는 장소를 묻습니다."
+    },
+    "its_contraction": {
+      "en": "Its means it belongs to it. It's means it is.",
+      "ko": "Its는 그것의 것입니다. It's는 it is입니다."
+    },
+    "mail_male": {
+      "en": "Mail is a letter. Male means a boy or man.",
+      "ko": "Mail은 편지입니다. Male은 남자입니다."
+    },
+    "road_rode": {
+      "en": "A road is a street. Rode means you went on a bike or horse.",
+      "ko": "Road는 길입니다. Rode는 탔다는 뜻입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use the correct homophone"
+    ],
+    "no_ixl_text": true
+  }
+}

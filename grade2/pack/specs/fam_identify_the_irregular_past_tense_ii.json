@@ -1,0 +1,303 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_the_irregular_past_tense_ii",
+  "family_title_en": "Identify the irregular past tense II",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_the_irregular_past_tense_ii",
+      "ix_title": "Identify the irregular past tense II",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is the irregular past?",
+        "ko": "어느 단어가 불규칙 과거형인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the irregular past tense word.",
+        "ko": "불규칙 과거형 단어를 누르세요."
+      },
+      "choice_rule": "Four unique whole words. Exactly one is a Set II irregular past from the stem: blew, flew, grew, drew, threw, knew, began, rang, sang, drank, swam, hid, dug, bit, slid, hung, woke, wore, spoke, chose, drove, rode, wrote, froze, broke, built, kept, left, felt, fell, stood, sat, told, heard, caught. Never key Set I pasts: went, saw, ate, came, had, said, did, got, made, took, gave, found, ran, was, were. Three distractors from the stem or allowed list: a noun or describing word, the present-tense mate, and or a regular -ed past. Shuffle answer_index. One tap.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "threw",
+        "knew",
+        "swam",
+        "blow",
+        "speak",
+        "brought",
+        "bought",
+        "taught",
+        "slept",
+        "swept",
+        "held",
+        "met",
+        "paid",
+        "meant",
+        "sent",
+        "spent",
+        "tore",
+        "stole",
+        "became",
+        "shook",
+        "steal",
+        "meet",
+        "spend",
+        "ring",
+        "dig",
+        "slide",
+        "caught"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_ii_0001",
+          "tier": 1,
+          "stem": "The little bird flew home.",
+          "choices": [
+            "flew",
+            "bird",
+            "home",
+            "little"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_noun",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_ii_0002",
+          "tier": 1,
+          "stem": "The garden plant grew tall.",
+          "choices": [
+            "plant",
+            "tall",
+            "grew",
+            "garden"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_noun",
+          "media": [
+            {
+              "lemma": "plant"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_ii_0003",
+          "tier": 1,
+          "stem": "<NAME> drank the cold milk.",
+          "choices": [
+            "milk",
+            "drank",
+            "cold",
+            "cup"
+          ],
+          "answer_index": 1,
+          "explain_key": "vowel_change",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_ii_0004",
+          "tier": 2,
+          "stem": "The children sang a loud song.",
+          "choices": [
+            "sang",
+            "sing",
+            "children",
+            "song"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_present",
+          "media": [
+            {
+              "lemma": "children"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_ii_0005",
+          "tier": 2,
+          "stem": "My sister hid the gift.",
+          "choices": [
+            "hide",
+            "gift",
+            "sister",
+            "hid"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_present",
+          "media": [
+            {
+              "lemma": "gift"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_ii_0006",
+          "tier": 2,
+          "stem": "My brother woke up early.",
+          "choices": [
+            "wake",
+            "woke",
+            "brother",
+            "early"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_present",
+          "media": [
+            {
+              "lemma": "brother"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_ii_0007",
+          "tier": 3,
+          "stem": "The teacher began and then clapped.",
+          "choices": [
+            "clapped",
+            "teacher",
+            "began",
+            "begin"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_ed_form",
+          "media": [
+            {
+              "lemma": "teacher"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_irregular_past_tense_ii_0008",
+          "tier": 3,
+          "stem": "<NAME> chose the bike and packed.",
+          "choices": [
+            "packed",
+            "chose",
+            "choose",
+            "bike"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_ed_form",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one choice is the Set II irregular past tense from the stem. Never mark a regular -ed word as the key.",
+      "Never key Set I pasts: went, saw, ate, came, had, said, did, got, made, took, gave, found, ran, was, were.",
+      "Tier 1 distractors are nouns or describing words from the stem. Keep the past word easy to spot.",
+      "Tier 2 must include the present-tense mate of the key among the wrong choices.",
+      "Tier 3 must include a regular -ed past from the same stem so kids must reject the -ed trick.",
+      "All stem words come from roots.txt, allowed_extra_words, or <NAME>. Kid world only: school, home, food, pets, play, family, weather.",
+      "Shuffle the correct tap. Never use real names, brands, IPA, or grammar labels in stems or choices."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\birregular\\b",
+    "\\btense\\b",
+    "\\bverb\\b",
+    "\\bconjugate\\b",
+    "\\binfinitive\\b",
+    "\\bparticiple\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\/[^\\/ ]+\\/"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. The irregular past is clear. Wrong taps are nouns or describing words, not the present mate.",
+    "2": "Stems of five to seven words. One wrong tap is the present-tense mate. Use two-syllable kid words.",
+    "3": "Near misses. The stem also holds a regular -ed past. Kids must tap the irregular past, not the -ed word or the present mate."
+  },
+  "miss_explain": {
+    "vowel_change": {
+      "en": "This past word changes its inside letters. It does not add -ed.",
+      "ko": "이 과거형은 가운데 글자가 바뀝니다. -ed를 붙이지 않습니다."
+    },
+    "not_present": {
+      "en": "That word is for now. Tap the word that already happened.",
+      "ko": "그 단어는 지금을 말합니다. 이미 일어난 일을 나타내는 단어를 누르세요."
+    },
+    "not_ed_form": {
+      "en": "Regular past adds -ed. The irregular past does not add -ed.",
+      "ko": "규칙 과거는 -ed를 붙입니다. 불규칙 과거는 -ed를 붙이지 않습니다."
+    },
+    "not_noun": {
+      "en": "That word names a person or thing, not a past action.",
+      "ko": "그 단어는 사람이나 사물의 이름이지, 과거 동작이 아닙니다."
+    },
+    "new_word_past": {
+      "en": "This past word looks new. It does not add -ed.",
+      "ko": "이 과거형은 새 단어처럼 보입니다. -ed를 붙이지 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify the irregular past tense II"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,2564 @@
+[
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0001",
+    "tier": 1,
+    "stem": "Yesterday <NAME> eat an apple.",
+    "choices": [
+      "ate",
+      "eated",
+      "eats",
+      "eating"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_regular",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ],
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0002",
+    "tier": 1,
+    "stem": "Yesterday the dog run home.",
+    "choices": [
+      "runned",
+      "ran",
+      "runs",
+      "running"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0003",
+    "tier": 1,
+    "stem": "Last night <NAME> see a bird.",
+    "choices": [
+      "see",
+      "sees",
+      "saw",
+      "seeing"
+    ],
+    "answer_index": 2,
+    "explain_key": "use_past",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ],
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0004",
+    "tier": 2,
+    "stem": "Yesterday <NAME> go to school.",
+    "choices": [
+      "went",
+      "goed",
+      "goes",
+      "gone"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0005",
+    "tier": 2,
+    "stem": "Yesterday <NAME> make a cake.",
+    "choices": [
+      "maked",
+      "makes",
+      "making",
+      "made"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0006",
+    "tier": 2,
+    "stem": "Last night the baby drink milk.",
+    "choices": [
+      "drinked",
+      "drank",
+      "drinks",
+      "drinking"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ing",
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ],
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0007",
+    "tier": 3,
+    "stem": "Yesterday <NAME> write a letter.",
+    "choices": [
+      "writed",
+      "written",
+      "wrote",
+      "writes"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "letter"
+      }
+    ],
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0008",
+    "tier": 3,
+    "stem": "Yesterday <NAME> give mom a gift.",
+    "choices": [
+      "gave",
+      "given",
+      "gived",
+      "got"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_verb",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ],
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "item_type": "abcd",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0009",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> come home.",
+    "choices": [
+      "came",
+      "comed",
+      "comes",
+      "coming"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "home"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0010",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night the cat sit on bed.",
+    "choices": [
+      "sitted",
+      "sat",
+      "sits",
+      "sitting"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0011",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> take a nap.",
+    "choices": [
+      "taked",
+      "takes",
+      "taking",
+      "took"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "nap"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0012",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday the kid do math.",
+    "choices": [
+      "doed",
+      "did",
+      "does",
+      "doing"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "math"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0013",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> say good night.",
+    "choices": [
+      "sayed",
+      "said",
+      "says",
+      "saying"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "night"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0014",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday the boy get a toy.",
+    "choices": [
+      "getted",
+      "got",
+      "gets",
+      "getting"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0015",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> sit on bench.",
+    "choices": [
+      "sat",
+      "sitted",
+      "sits",
+      "sitting"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0016",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night we find a bug.",
+    "choices": [
+      "finded",
+      "finds",
+      "finding",
+      "found"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bug"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0017",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> tell us hi.",
+    "choices": [
+      "telled",
+      "tells",
+      "telling",
+      "told"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "friend"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0018",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday the girl draw a sun.",
+    "choices": [
+      "drawed",
+      "draws",
+      "drawing",
+      "drew"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0019",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night the bird fly south.",
+    "choices": [
+      "flied",
+      "flew",
+      "flies",
+      "flying"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0020",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> grow a bean.",
+    "choices": [
+      "growed",
+      "grew",
+      "grows",
+      "growing"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bean"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0021",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday the kid ride a bike.",
+    "choices": [
+      "rided",
+      "rode",
+      "rides",
+      "riding"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0022",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> hide in tent.",
+    "choices": [
+      "hided",
+      "hid",
+      "hides",
+      "hiding"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0023",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday leaves fall down.",
+    "choices": [
+      "falled",
+      "falls",
+      "falling",
+      "fell"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "leaf"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0024",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> eat lunch.",
+    "choices": [
+      "eated",
+      "ate",
+      "eats",
+      "eating"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0025",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night the pup run fast.",
+    "choices": [
+      "runned",
+      "runs",
+      "running",
+      "ran"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0026",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> see a rainbow.",
+    "choices": [
+      "see",
+      "saw",
+      "sees",
+      "seeing"
+    ],
+    "answer_index": 1,
+    "explain_key": "use_past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rainbow"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0027",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday the hen sit on egg.",
+    "choices": [
+      "sits",
+      "sitting",
+      "sitted",
+      "sat"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0028",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> drink juice.",
+    "choices": [
+      "drinked",
+      "drinks",
+      "drinking",
+      "drank"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0029",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday ants find food.",
+    "choices": [
+      "finds",
+      "finded",
+      "finding",
+      "found"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0030",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> make soup.",
+    "choices": [
+      "maked",
+      "makes",
+      "making",
+      "made"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0031",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night the owl fly away.",
+    "choices": [
+      "flies",
+      "flied",
+      "flying",
+      "flew"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0032",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> fall on grass.",
+    "choices": [
+      "falled",
+      "fell",
+      "falls",
+      "falling"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grass"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0033",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday the cat hide under rug.",
+    "choices": [
+      "hides",
+      "hided",
+      "hiding",
+      "hid"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0034",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> run in rain.",
+    "choices": [
+      "runs",
+      "runned",
+      "running",
+      "ran"
+    ],
+    "answer_index": 3,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0035",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Yesterday the fish hide in mud.",
+    "choices": [
+      "hided",
+      "hid",
+      "hides",
+      "hiding"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0036",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> come to class.",
+    "choices": [
+      "came",
+      "comed",
+      "comes",
+      "gone"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0037",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night the frog sit on log.",
+    "choices": [
+      "sitted",
+      "sat",
+      "sits",
+      "sitting"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0038",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> take the bus.",
+    "choices": [
+      "taked",
+      "took",
+      "takes",
+      "taken"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0039",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday we do a craft.",
+    "choices": [
+      "doed",
+      "did",
+      "does",
+      "done"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "craft"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0040",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> say a song.",
+    "choices": [
+      "sayed",
+      "said",
+      "says",
+      "saying"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "song"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0041",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday the team get a win.",
+    "choices": [
+      "getted",
+      "got",
+      "gets",
+      "getting"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "team"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0042",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> find a rock.",
+    "choices": [
+      "finded",
+      "found",
+      "finds",
+      "finding"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rock"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0043",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night dad tell a story.",
+    "choices": [
+      "telled",
+      "told",
+      "tells",
+      "telling"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0044",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> draw a house.",
+    "choices": [
+      "drawed",
+      "drew",
+      "draws",
+      "drawing"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "house"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0045",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday the moth fly out.",
+    "choices": [
+      "flied",
+      "flew",
+      "flies",
+      "flying"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0046",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> grow a plant.",
+    "choices": [
+      "growed",
+      "grew",
+      "grows",
+      "growing"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "plant"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0047",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday we ride the train.",
+    "choices": [
+      "rided",
+      "rode",
+      "rides",
+      "riding"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "train"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0048",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> hide behind door.",
+    "choices": [
+      "hided",
+      "hid",
+      "hides",
+      "hiding"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "door"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0049",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night snow fall on roof.",
+    "choices": [
+      "falled",
+      "fell",
+      "falls",
+      "falling"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0050",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> go to park.",
+    "choices": [
+      "went",
+      "goed",
+      "goes",
+      "gone"
+    ],
+    "answer_index": 0,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0051",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> make a card.",
+    "choices": [
+      "maked",
+      "made",
+      "makes",
+      "making"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "card"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0052",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night the cat drink water.",
+    "choices": [
+      "drinked",
+      "drank",
+      "drinks",
+      "drinking"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "water"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0053",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> write her name.",
+    "choices": [
+      "writed",
+      "wrote",
+      "writes",
+      "written"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "name"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0054",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> give dad a hug.",
+    "choices": [
+      "gived",
+      "gave",
+      "gives",
+      "given"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hug"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0055",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday the dog run in yard.",
+    "choices": [
+      "runned",
+      "ran",
+      "runs",
+      "running"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "yard"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0056",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> see the moon.",
+    "choices": [
+      "seen",
+      "saw",
+      "sees",
+      "seeing"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0057",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> eat a cookie.",
+    "choices": [
+      "eated",
+      "ate",
+      "eats",
+      "eaten"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0058",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday the kids sit for lunch.",
+    "choices": [
+      "sitted",
+      "sat",
+      "sits",
+      "sitting"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0059",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> take a toy.",
+    "choices": [
+      "taked",
+      "took",
+      "takes",
+      "taken"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0060",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday we do one dish.",
+    "choices": [
+      "doed",
+      "did",
+      "does",
+      "done"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0061",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> get a shoe.",
+    "choices": [
+      "getted",
+      "got",
+      "gets",
+      "getting"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0062",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night mom say dinner time.",
+    "choices": [
+      "sayed",
+      "said",
+      "says",
+      "saying"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dinner"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0063",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> tell the class.",
+    "choices": [
+      "telled",
+      "told",
+      "tells",
+      "telling"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "class"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0064",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday the egg fall down.",
+    "choices": [
+      "falled",
+      "fell",
+      "falls",
+      "falling"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0065",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> ride a sled.",
+    "choices": [
+      "rided",
+      "rode",
+      "rides",
+      "riding"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sled"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0066",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday the kite fly high.",
+    "choices": [
+      "flied",
+      "flew",
+      "flies",
+      "flying"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0067",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> find her hat.",
+    "choices": [
+      "finded",
+      "found",
+      "finds",
+      "finding"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0068",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night the hat fall down.",
+    "choices": [
+      "falled",
+      "fell",
+      "falls",
+      "falling"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0069",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> drink hot tea.",
+    "choices": [
+      "drinked",
+      "drank",
+      "drinks",
+      "drinking"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_ing",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tea"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0070",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday the class write a word.",
+    "choices": [
+      "writed",
+      "wrote",
+      "writes",
+      "written"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "word"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0071",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> give food to cat.",
+    "choices": [
+      "gived",
+      "gave",
+      "gives",
+      "given"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0072",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Yesterday grandma come for visit.",
+    "choices": [
+      "comed",
+      "came",
+      "comes",
+      "coming"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_regular",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grandma"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0073",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> come to party.",
+    "choices": [
+      "came",
+      "comed",
+      "fell",
+      "comes"
+    ],
+    "answer_index": 0,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "party"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0074",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night the mouse hide in hole.",
+    "choices": [
+      "hided",
+      "hid",
+      "sat",
+      "hides"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0075",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> take a photo.",
+    "choices": [
+      "taked",
+      "took",
+      "taken",
+      "told"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "photo"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0076",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday the kids do a dance.",
+    "choices": [
+      "doed",
+      "did",
+      "done",
+      "drank"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dance"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0077",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> say thank you.",
+    "choices": [
+      "sayed",
+      "said",
+      "sat",
+      "says"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thank"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0078",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday the boy get a pet.",
+    "choices": [
+      "getted",
+      "got",
+      "gave",
+      "gets"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pet"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0079",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> sit by the fire.",
+    "choices": [
+      "sitted",
+      "sat",
+      "hid",
+      "sits"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fire"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0080",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night we find lost key.",
+    "choices": [
+      "finded",
+      "found",
+      "flew",
+      "finds"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "key"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0081",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> tell dad hi.",
+    "choices": [
+      "telled",
+      "told",
+      "took",
+      "tells"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0082",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday the art club draw map.",
+    "choices": [
+      "drawed",
+      "drew",
+      "grew",
+      "draws"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "map"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0083",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night geese fly over lake.",
+    "choices": [
+      "flied",
+      "flew",
+      "fell",
+      "flies"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "goose"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0084",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> grow a flower.",
+    "choices": [
+      "growed",
+      "grew",
+      "drew",
+      "grows"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0085",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday we ride a horse.",
+    "choices": [
+      "rided",
+      "rode",
+      "ran",
+      "rides"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0086",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> hide the ball.",
+    "choices": [
+      "hided",
+      "hid",
+      "sat",
+      "hides"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0087",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday the boy fall off swing.",
+    "choices": [
+      "falled",
+      "fell",
+      "flew",
+      "falls"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "swing"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0088",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> eat corn at picnic.",
+    "choices": [
+      "eated",
+      "ate",
+      "eaten",
+      "drank"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "corn"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0089",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night the dog run away.",
+    "choices": [
+      "runned",
+      "ran",
+      "rode",
+      "runs"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0090",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> see a star.",
+    "choices": [
+      "seen",
+      "saw",
+      "sat",
+      "sees"
+    ],
+    "answer_index": 1,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0091",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> go with dad.",
+    "choices": [
+      "goed",
+      "went",
+      "got",
+      "goes"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dad"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0092",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> make a fort.",
+    "choices": [
+      "maked",
+      "made",
+      "said",
+      "makes"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fort"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0093",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night the pup drink from bowl.",
+    "choices": [
+      "drinked",
+      "drank",
+      "drew",
+      "drinks"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bowl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0094",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> write a note.",
+    "choices": [
+      "writed",
+      "written",
+      "wrote",
+      "told"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "note"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0095",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> give mom a rose.",
+    "choices": [
+      "gived",
+      "given",
+      "gave",
+      "got"
+    ],
+    "answer_index": 2,
+    "explain_key": "not_participle",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rose"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0096",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night the cat sit on couch.",
+    "choices": [
+      "sitted",
+      "sat",
+      "hid",
+      "sits"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "couch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0097",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday <NAME> run in field.",
+    "choices": [
+      "runned",
+      "ran",
+      "rode",
+      "running"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "field"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0098",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday the bird fly to tree.",
+    "choices": [
+      "flied",
+      "flew",
+      "fell",
+      "flying"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0099",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Last night <NAME> find a coin.",
+    "choices": [
+      "finded",
+      "found",
+      "flew",
+      "finding"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coin"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0100",
+    "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+    "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Yesterday snow fall on step.",
+    "choices": [
+      "falled",
+      "fell",
+      "flew",
+      "falling"
+    ],
+    "answer_index": 1,
+    "explain_key": "wrong_verb",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "step"
+      }
+    ]
+  }
+]

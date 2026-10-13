@@ -1,0 +1,329 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_choose_the_correct_spelling_of_the_consonant",
+  "family_title_en": "Consonant-l-e spelling",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_choose_the_correct_spelling_of_the_consonant",
+      "ix_title": "Choose the correct spelling of the consonant-l-e word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어느 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that is spelled right.",
+        "ko": "바르게 적힌 단어를 누르세요."
+      },
+      "choice_rule": "Four unique whole-word spellings of one consonant-l-e word. Exactly one dictionary spelling. Three distractors from le/el swap, dropped final e, missing consonant, wrong first-syllable vowel, or a dropped double consonant. Never put the target word in the stem. Shuffle answer_index.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "candle",
+        "bubble",
+        "uncle",
+        "purple",
+        "simple",
+        "bottle",
+        "puzzle",
+        "middle",
+        "puddle",
+        "giggle",
+        "jungle",
+        "handle",
+        "maple",
+        "pickle",
+        "tickle",
+        "twinkle",
+        "pebble",
+        "noodle",
+        "kettle",
+        "castle",
+        "ankle",
+        "sparkle",
+        "buckle",
+        "gobble",
+        "wobble",
+        "tumble",
+        "nibble",
+        "double",
+        "trouble",
+        "needle",
+        "beetle",
+        "whistle",
+        "riddle",
+        "cattle",
+        "cradle",
+        "staple",
+        "cable",
+        "shape",
+        "bath"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_choose_the_correct_spelling_of_the_consonant_0001",
+          "tier": 1,
+          "stem": "This red fruit is sweet.",
+          "choices": [
+            "apple",
+            "appel",
+            "aple",
+            "appl"
+          ],
+          "answer_index": 0,
+          "explain_key": "double_cons",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_correct_spelling_of_the_consonant_0002",
+          "tier": 1,
+          "stem": "We eat at this.",
+          "choices": [
+            "tabel",
+            "table",
+            "tabl",
+            "tabble"
+          ],
+          "answer_index": 1,
+          "explain_key": "ble_end",
+          "media": [
+            {
+              "lemma": "table"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_correct_spelling_of_the_consonant_0003",
+          "tier": 1,
+          "stem": "This pet is in water.",
+          "choices": [
+            "turtel",
+            "turtl",
+            "turtle",
+            "turtal"
+          ],
+          "answer_index": 2,
+          "explain_key": "tle_end",
+          "media": [
+            {
+              "lemma": "turtle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_correct_spelling_of_the_consonant_0004",
+          "tier": 2,
+          "stem": "<NAME> put it on the cake.",
+          "choices": [
+            "candal",
+            "candl",
+            "candel",
+            "candle"
+          ],
+          "answer_index": 3,
+          "explain_key": "dle_end",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "candle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_correct_spelling_of_the_consonant_0005",
+          "tier": 2,
+          "stem": "Draw this on paper.",
+          "choices": [
+            "circle",
+            "circel",
+            "circl",
+            "circal"
+          ],
+          "answer_index": 0,
+          "explain_key": "cle_end",
+          "media": [
+            {
+              "lemma": "circle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_correct_spelling_of_the_consonant_0006",
+          "tier": 2,
+          "stem": "The puppy is not big.",
+          "choices": [
+            "littel",
+            "litle",
+            "little",
+            "littl"
+          ],
+          "answer_index": 2,
+          "explain_key": "double_cons",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_correct_spelling_of_the_consonant_0007",
+          "tier": 3,
+          "stem": "This bird is in the sky.",
+          "choices": [
+            "eagel",
+            "eagle",
+            "eagal",
+            "egle"
+          ],
+          "answer_index": 1,
+          "explain_key": "gle_end",
+          "media": [
+            {
+              "lemma": "eagle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_choose_the_correct_spelling_of_the_consonant_0008",
+          "tier": 3,
+          "stem": "Many kids are at school.",
+          "choices": [
+            "peopel",
+            "peple",
+            "peopl",
+            "people"
+          ],
+          "answer_index": 3,
+          "explain_key": "ple_end"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four unique spellings of one consonant-l-e word. One is the real spelling.",
+      "Never put the target word in the stem. Use a short kid-world clue. Add a lemma picture when the word is a concrete noun.",
+      "Tier 1 distractors drop a letter or swap le to el in a loud way.",
+      "Tier 2 distractors stay grade-level: le versus el, missing final e, or a wrong vowel in the first syllable.",
+      "Tier 3 distractors are near-misses: el for le, a dropped double consonant, or a real-looking wrong vowel.",
+      "Use kid-world CLe words from home, food, pets, play, school, family, or weather. No brands. No real names.",
+      "Every choice is a whole word. Never IPA, never a lone sound, never a letter name as the answer.",
+      "Shuffle the correct index. Do not always put the right spelling first."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bconsonant\\b",
+    "\\bsyllable\\b",
+    "\\bphoneme\\b",
+    "\\bdigraph\\b",
+    "\\bblend\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\/æ",
+    "\\/ə",
+    "listen to the",
+    "what sound",
+    "letter sound",
+    "\\bpicture\\b",
+    "\\bphoto\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to six words. Concrete nouns such as apple, table, or turtle with a lemma picture. Distractors drop a letter or use a loud el ending.",
+    "2": "Grade-level CLe words such as candle, circle, or little. Mix le/el and missing-e distractors. Picture when the word is a thing you can see.",
+    "3": "Near-miss spellings of two-syllable CLe words such as eagle, people, or title. Include some <NAME> stems. Distractors look almost right."
+  },
+  "miss_explain": {
+    "le_not_el": {
+      "en": "This word ends with l-e, not e-l.",
+      "ko": "이 단어는 e-l이 아니라 l-e로 끝납니다."
+    },
+    "double_cons": {
+      "en": "Keep the double consonant, then add l-e.",
+      "ko": "자음을 겹쳐 쓴 다음 l-e를 붙입니다."
+    },
+    "ble_end": {
+      "en": "This word ends with b and l-e.",
+      "ko": "이 단어는 b와 l-e로 끝납니다."
+    },
+    "tle_end": {
+      "en": "This word ends with t and l-e.",
+      "ko": "이 단어는 t와 l-e로 끝납니다."
+    },
+    "dle_end": {
+      "en": "This word ends with d and l-e.",
+      "ko": "이 단어는 d와 l-e로 끝납니다."
+    },
+    "cle_end": {
+      "en": "This word ends with c and l-e.",
+      "ko": "이 단어는 c와 l-e로 끝납니다."
+    },
+    "gle_end": {
+      "en": "This word ends with g and l-e.",
+      "ko": "이 단어는 g와 l-e로 끝납니다."
+    },
+    "ple_end": {
+      "en": "This word ends with p and l-e.",
+      "ko": "이 단어는 p와 l-e로 끝납니다."
+    },
+    "drop_letter": {
+      "en": "Do not drop a letter. Keep the consonant and l-e.",
+      "ko": "글자를 빼지 마세요. 자음과 l-e를 모두 적으세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Choose the correct spelling of the consonant-l-e word"
+    ],
+    "no_ixl_text": true
+  }
+}

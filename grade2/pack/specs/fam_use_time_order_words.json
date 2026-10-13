@@ -1,0 +1,315 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_time_order_words",
+  "family_title_en": "Use time-order words",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_time_order_words",
+      "ix_title": "Use time-order words",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which time-order word fits?",
+        "ko": "어떤 시간 순서 말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that shows the order.",
+        "ko": "순서를 나타내는 단어를 누르세요."
+      },
+      "choice_rule": "Four lowercase words. One time-order word fits the gap marked ... . The other three are linking words (because, if, but, and, while) or time-order words that do not fit this slot or tense. Never offer both next and then. Never write two choices that both fit.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "first",
+        "then",
+        "next",
+        "last",
+        "before",
+        "after",
+        "later",
+        "finally",
+        "yesterday",
+        "today",
+        "tomorrow",
+        "soon",
+        "now",
+        "earlier",
+        "lastly",
+        "meanwhile",
+        "afterward",
+        "during",
+        "while",
+        "once",
+        "second"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_time_order_words_0001",
+          "tier": 1,
+          "stem": "... we pack lunch. Then we go.",
+          "choices": [
+            "because",
+            "if",
+            "first",
+            "and"
+          ],
+          "answer_index": 2,
+          "explain_key": "first_start",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_time_order_words_0002",
+          "tier": 1,
+          "stem": "First we wash. ... we eat.",
+          "choices": [
+            "because",
+            "then",
+            "if",
+            "but"
+          ],
+          "answer_index": 1,
+          "explain_key": "then_next",
+          "media": [
+            {
+              "lemma": "wash"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_time_order_words_0003",
+          "tier": 1,
+          "stem": "First we play. Then we eat. ... we go.",
+          "choices": [
+            "because",
+            "if",
+            "and",
+            "last"
+          ],
+          "answer_index": 3,
+          "explain_key": "last_end",
+          "media": [
+            {
+              "lemma": "play"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_time_order_words_0004",
+          "tier": 2,
+          "stem": "Pack your bag ... you leave.",
+          "choices": [
+            "before",
+            "after",
+            "because",
+            "if"
+          ],
+          "answer_index": 0,
+          "explain_key": "before_earlier",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_time_order_words_0005",
+          "tier": 2,
+          "stem": "... lunch, we went to the park.",
+          "choices": [
+            "because",
+            "after",
+            "if",
+            "while"
+          ],
+          "answer_index": 1,
+          "explain_key": "after_later",
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_time_order_words_0006",
+          "tier": 2,
+          "stem": "First we sit. ... we read books. Last we write.",
+          "choices": [
+            "because",
+            "before",
+            "next",
+            "after"
+          ],
+          "answer_index": 2,
+          "explain_key": "then_next",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_time_order_words_0007",
+          "tier": 3,
+          "stem": "<NAME> ate breakfast ... class.",
+          "choices": [
+            "after",
+            "because",
+            "while",
+            "before"
+          ],
+          "answer_index": 3,
+          "explain_key": "before_earlier",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "breakfast"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_time_order_words_0008",
+          "tier": 3,
+          "stem": "Lunch is now. Recess is ...",
+          "choices": [
+            "earlier",
+            "later",
+            "yesterday",
+            "because"
+          ],
+          "answer_index": 1,
+          "explain_key": "later_future",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four lowercase choices and exactly one right answer. Never change that count.",
+      "Mark the missing slot with ... . Do not use a blank line, underscore, or the word blank.",
+      "Never put next and then in the same choice list. They both fit many middle slots.",
+      "Never write two choices that both fit the gap. After and then must not both work.",
+      "Tier 1 distractors are linking words that do not show time: because, if, but, and.",
+      "Tier 2 adds one wrong time-order word plus linking-word distractors.",
+      "Tier 3 uses near-miss time words: before vs after, later vs earlier, yesterday vs tomorrow or soon.",
+      "Stems stay in kid world: school, home, food, pets, play, family, weather. No brands.",
+      "Use only the roots wordlist, allowed_extra_words, and <NAME>. No real names.",
+      "Do not name or describe a picture in the stem. Lemma notes only."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "time-order",
+    "time order",
+    "\\bsequence\\b",
+    "chronological",
+    "\\btransition\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to eight words. The gap is first, then, or last. Distractors are because, if, but, or and.",
+    "2": "Stems of five to ten words. Use before, after, or next. Add one wrong time-order word plus linking-word distractors.",
+    "3": "Near-miss time words that almost fit. Two-syllable kid words are fine. <NAME> is allowed. Wrong choices fail the slot or tense."
+  },
+  "miss_explain": {
+    "first_start": {
+      "en": "First goes at the start of the steps.",
+      "ko": "First는 순서의 맨 앞에 옵니다."
+    },
+    "then_next": {
+      "en": "Then or next comes after a step you already did.",
+      "ko": "Then이나 next는 이미 한 일 다음에 옵니다."
+    },
+    "last_end": {
+      "en": "Last goes with the final step.",
+      "ko": "Last는 마지막 단계에 씁니다."
+    },
+    "before_earlier": {
+      "en": "Before means it happens earlier than the next thing.",
+      "ko": "Before는 다음 일보다 먼저라는 뜻입니다."
+    },
+    "after_later": {
+      "en": "After means it happens later than the thing before it.",
+      "ko": "After는 앞의 일보다 나중이라는 뜻입니다."
+    },
+    "later_future": {
+      "en": "Later means a time after now.",
+      "ko": "Later는 지금보다 뒤의 때를 말합니다."
+    },
+    "yesterday_past": {
+      "en": "Yesterday names the day before today.",
+      "ko": "Yesterday는 오늘 바로 전날을 말합니다."
+    },
+    "finally_end": {
+      "en": "Finally is for the last step, like last.",
+      "ko": "Finally는 last처럼 마지막 단계에 씁니다."
+    },
+    "not_time_word": {
+      "en": "Because and if do not show time order.",
+      "ko": "Because와 if는 시간 순서를 나타내지 않습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "tts-bake",
+    "voices": [
+      "bella",
+      "puck"
+    ]
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use time-order words"
+    ],
+    "no_ixl_text": true
+  }
+}

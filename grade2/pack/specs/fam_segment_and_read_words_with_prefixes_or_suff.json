@@ -1,0 +1,395 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_segment_and_read_words_with_prefixes_or_suff",
+  "family_title_en": "Segment and read words with prefixes or suffixes",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_segment_and_read_words_with_prefixes_or_suff",
+      "ix_title": "Segment and read words with prefixes or suffixes",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Read it. Which is the base word?",
+        "ko": "읽어 보세요. 기본 단어는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the base word.",
+        "ko": "기본 단어를 누르세요."
+      },
+      "choice_rule": "Build four different whole-word choices. Exactly one is the base word left after the prefix or suffix is removed. The other three are real words from the roots list or allowed_extra_words and are not the base. Vary answer_index across 0, 1, 2, and 3. If the base spelling changed, set explain_key to drop_e, double_letter, or y_to_i. Otherwise set explain_key to the affix: suffix_ing, suffix_ed, suffix_ly, suffix_er, suffix_s, suffix_y, suffix_est, suffix_ful, suffix_less, prefix_un, prefix_re, prefix_pre, prefix_dis, or prefix_mis.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "babies",
+        "baking",
+        "biggest",
+        "busier",
+        "busiest",
+        "calling",
+        "careful",
+        "careless",
+        "carried",
+        "cleaning",
+        "closing",
+        "coming",
+        "cooking",
+        "cried",
+        "deeply",
+        "dirty",
+        "dislike",
+        "dried",
+        "easier",
+        "easiest",
+        "eating",
+        "endless",
+        "fastest",
+        "fishing",
+        "funnier",
+        "funniest",
+        "giving",
+        "gladly",
+        "grabbed",
+        "happier",
+        "happiest",
+        "helpful",
+        "helping",
+        "helpless",
+        "hiding",
+        "hopped",
+        "hottest",
+        "jumping",
+        "kindly",
+        "liked",
+        "lived",
+        "loudly",
+        "loved",
+        "miscount",
+        "mismatch",
+        "misplace",
+        "misread",
+        "naming",
+        "nearly",
+        "packing",
+        "painting",
+        "planned",
+        "playful",
+        "playing",
+        "preschool",
+        "preview",
+        "puppies",
+        "quickest",
+        "quickly",
+        "raining",
+        "rainy",
+        "reading",
+        "recheck",
+        "redo",
+        "refill",
+        "remake",
+        "repaint",
+        "replay",
+        "reread",
+        "retell",
+        "reuse",
+        "riding",
+        "sadly",
+        "saving",
+        "shaking",
+        "sharing",
+        "shopped",
+        "sleeping",
+        "sleepy",
+        "slowest",
+        "smallest",
+        "snowy",
+        "softly",
+        "stopped",
+        "taking",
+        "tallest",
+        "tapped",
+        "tasting",
+        "unclean",
+        "undo",
+        "unhappy",
+        "unkind",
+        "unlock",
+        "unpack",
+        "unsafe",
+        "untie",
+        "useful",
+        "waking",
+        "walking",
+        "waving",
+        "windy",
+        "writing"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_segment_and_read_words_with_prefixes_or_suff_0001",
+          "tier": 1,
+          "stem": "looking",
+          "choices": [
+            "look",
+            "book",
+            "lock",
+            "cook"
+          ],
+          "answer_index": 0,
+          "explain_key": "suffix_ing"
+        },
+        {
+          "item_id": "roots_segment_and_read_words_with_prefixes_or_suff_0002",
+          "tier": 1,
+          "stem": "cleaned",
+          "choices": [
+            "clear",
+            "clean",
+            "can",
+            "cream"
+          ],
+          "answer_index": 1,
+          "explain_key": "suffix_ed"
+        },
+        {
+          "item_id": "roots_segment_and_read_words_with_prefixes_or_suff_0003",
+          "tier": 1,
+          "stem": "slowly",
+          "choices": [
+            "snow",
+            "sled",
+            "slow",
+            "slug"
+          ],
+          "answer_index": 2,
+          "explain_key": "suffix_ly"
+        },
+        {
+          "item_id": "roots_segment_and_read_words_with_prefixes_or_suff_0004",
+          "tier": 2,
+          "stem": "running",
+          "choices": [
+            "running",
+            "fun",
+            "ran",
+            "run"
+          ],
+          "answer_index": 3,
+          "explain_key": "double_letter"
+        },
+        {
+          "item_id": "roots_segment_and_read_words_with_prefixes_or_suff_0005",
+          "tier": 2,
+          "stem": "making",
+          "choices": [
+            "cake",
+            "make",
+            "king",
+            "rake"
+          ],
+          "answer_index": 1,
+          "explain_key": "drop_e"
+        },
+        {
+          "item_id": "roots_segment_and_read_words_with_prefixes_or_suff_0006",
+          "tier": 2,
+          "stem": "teacher",
+          "choices": [
+            "teach",
+            "each",
+            "team",
+            "beach"
+          ],
+          "answer_index": 0,
+          "explain_key": "suffix_er"
+        },
+        {
+          "item_id": "roots_segment_and_read_words_with_prefixes_or_suff_0007",
+          "tier": 3,
+          "stem": "review",
+          "choices": [
+            "review",
+            "few",
+            "view",
+            "new"
+          ],
+          "answer_index": 2,
+          "explain_key": "prefix_re"
+        },
+        {
+          "item_id": "roots_segment_and_read_words_with_prefixes_or_suff_0008",
+          "tier": 3,
+          "stem": "heavier",
+          "choices": [
+            "very",
+            "heavier",
+            "hear",
+            "heavy"
+          ],
+          "answer_index": 3,
+          "explain_key": "y_to_i"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The stem is exactly one word, and that word has one clear prefix or suffix.",
+      "The correct choice is the base word after the affix is removed.",
+      "If the spelling changed, undo the change: drop the extra doubled letter, put a silent e back, or turn i back into y.",
+      "Wrong choices are real whole words from the roots list or allowed_extra_words.",
+      "A wrong choice must not be a second true base of the same stem.",
+      "Use only these affixes: un, re, pre, dis, mis, ing, ed, s, es, er, est, ly, y, ful, less.",
+      "Do not split compounds or opaque words such as birthday, playground, repeat, remember, or early.",
+      "Tier 2 and tier 3 may use the whole affixed word as one wrong choice.",
+      "Keep the topic in school, home, food, pets, play, family, or weather, with no brand names.",
+      "About one third of the pool is prefixes and about two thirds is suffixes."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "kindergarten",
+    "https?://",
+    "@",
+    "phoneme",
+    "\\bipa\\b",
+    "/",
+    "æ",
+    "ə",
+    "ɪ",
+    "ʊ",
+    "ɑ",
+    "ɔ",
+    "ʌ",
+    "ʃ",
+    "θ",
+    "ð",
+    "ŋ",
+    "\\.mp3",
+    "\\.wav",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b",
+    "\\bgoogle\\b",
+    "\\bnike\\b",
+    "\\bdisney\\b"
+  ],
+  "tier_rules": {
+    "1": "A short base plus ing, ed, or ly with no spelling change. Wrong choices are other short words that do not sit inside the stem and are not the whole word.",
+    "2": "A doubled consonant, a dropped silent e, or the suffix er. One wrong choice is a close word, a hidden chunk, or the whole word. The correct base is still easy to see at one end.",
+    "3": "A prefix un, re, pre, dis, or mis, or a y-to-i change before er, est, or ed. One wrong choice is the whole word with the affix still on. Another is only a letter or two off the true base."
+  },
+  "miss_explain": {
+    "suffix_ing": {
+      "en": "Ing is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 ing입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "suffix_ed": {
+      "en": "Ed is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 ed입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "suffix_ly": {
+      "en": "Ly is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 ly입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "suffix_er": {
+      "en": "Er is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 er입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "suffix_s": {
+      "en": "S or es is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 s 또는 es입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "suffix_y": {
+      "en": "Y is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 y입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "suffix_est": {
+      "en": "Est is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 est입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "suffix_ful": {
+      "en": "Ful is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 ful입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "suffix_less": {
+      "en": "Less is the suffix. Take the suffix off. The part left is the base word.",
+      "ko": "접미사는 less입니다. 접미사를 떼면 기본 단어가 남습니다."
+    },
+    "prefix_un": {
+      "en": "Un is the prefix. Take the prefix off. The part left is the base word.",
+      "ko": "접두사는 un입니다. 접두사를 떼면 기본 단어가 남습니다."
+    },
+    "prefix_re": {
+      "en": "Re is the prefix. Take the prefix off. The part left is the base word.",
+      "ko": "접두사는 re입니다. 접두사를 떼면 기본 단어가 남습니다."
+    },
+    "prefix_pre": {
+      "en": "Pre is the prefix. Take the prefix off. The part left is the base word.",
+      "ko": "접두사는 pre입니다. 접두사를 떼면 기본 단어가 남습니다."
+    },
+    "prefix_dis": {
+      "en": "Dis is the prefix. Take the prefix off. The part left is the base word.",
+      "ko": "접두사는 dis입니다. 접두사를 떼면 기본 단어가 남습니다."
+    },
+    "prefix_mis": {
+      "en": "Mis is the prefix. Take the prefix off. The part left is the base word.",
+      "ko": "접두사는 mis입니다. 접두사를 떼면 기본 단어가 남습니다."
+    },
+    "drop_e": {
+      "en": "A silent e dropped off the base when the suffix was added. Put that e back.",
+      "ko": "접미사가 붙을 때 묵음 e가 빠졌습니다. e를 되돌리면 기본 단어입니다."
+    },
+    "double_letter": {
+      "en": "The base doubled its last letter before the suffix. Drop that extra letter.",
+      "ko": "접미사 앞에서 마지막 글자가 겹쳤습니다. 겹친 글자를 빼면 기본 단어입니다."
+    },
+    "y_to_i": {
+      "en": "A final y on the base changed to i before the suffix. Change i back to y.",
+      "ko": "접미사 앞에서 y가 i로 바뀌었습니다. i를 y로 되돌리면 기본 단어입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Segment and read words with prefixes or suffixes"
+    ],
+    "no_ixl_text": true
+  }
+}

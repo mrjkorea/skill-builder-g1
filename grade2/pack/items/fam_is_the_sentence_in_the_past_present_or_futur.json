@@ -1,0 +1,2117 @@
+[
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0001",
+    "tier": 1,
+    "stem": "The dog ate the food.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ],
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0002",
+    "tier": 1,
+    "stem": "The cat purrs at home.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ],
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0003",
+    "tier": 1,
+    "stem": "We will play at school.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ],
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0004",
+    "tier": 2,
+    "stem": "<NAME> went to the park.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ],
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0005",
+    "tier": 2,
+    "stem": "The kids are running outside.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0006",
+    "tier": 2,
+    "stem": "Mom will bake a cake today.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ],
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0007",
+    "tier": 3,
+    "stem": "Yesterday the little bird flew away.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ],
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0008",
+    "tier": 3,
+    "stem": "<NAME> will visit grandma later.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "swap_slots": {
+      "NAME": "names.txt"
+    },
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "item_type": "sort_three_bins",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0009",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The fish swims in water.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0010",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "Dad cooked rice for dinner.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0011",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "We will go to the zoo.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "zoo"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0012",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The frog jumps in grass.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0013",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "She washed her red hat.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0014",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "They will eat lunch soon.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0015",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "My pet dog barks loud.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0016",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "He jumped over the log.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "log"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0017",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "I will read my book.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0018",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The sun shines on us.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0019",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "We played ball at recess.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0020",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "She will help Mom cook.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0021",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The cow eats green grass.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0022",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "Grandpa told a funny story.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0023",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "It will rain tomorrow morning.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0024",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The baby sleeps in bed.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0025",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "I liked the sweet cookie.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0026",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "We will walk home later.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0027",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The hen is by the nest.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hen"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0028",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "He kicked the soccer ball.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0029",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "They will sing a song.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0030",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "Mom washes the big dish.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0031",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The fox ran through field.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0032",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "I will draw a picture.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "picture"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0033",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "The owl is on the tree.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0034",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "We watched a movie tonight.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0035",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "sort_three_bins",
+    "stem": "You will get a gift.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "gift"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0036",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> played games after school.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0037",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The bird is hopping outside.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0038",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Dad will fix the broken toy.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "toy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0039",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Last week we saw our granma.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0040",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The puppy chews a big bone.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0041",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "She will plant corn in spring.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0042",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> walked to the library.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "library"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0043",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "My friends eat a fun snack.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0044",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We will build a snow fort.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0045",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The horse ran across the field.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0046",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Granma is making hot soup now.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0047",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "They will camp by the lake.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0048",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Earlier I found my lost mitten.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0049",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The class is learning new math.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0050",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "He will wash his muddy boots.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boots"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0051",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We baked bread in the oven.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0052",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The frog is sitting on rock.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0053",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "I will feed the hungry cat.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0054",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> helped dad rake leaves.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0055",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Rain taps on the big roof.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0056",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Mom will pack my lunch tomorrow.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0057",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The team won the big game.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0058",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Sister is making her warm bed.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0059",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We will ride a bike later.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0060",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "I talked to my best friend.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0061",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The kitten likes warm milk.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0062",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> will learn to swim soon.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0063",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "They cleaned the big toy room.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0064",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "Brother is sitting at his desk.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "desk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0065",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "It will snow on Monday night.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0066",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We jumped in soft green leaves.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0067",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The owl rests in the tree.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0068",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "She will write a letter today.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0069",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "I worked hard on my project.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0070",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "The kids wait for the bus.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0071",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "We will pick an apple today.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0072",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "sort_three_bins",
+    "stem": "He slept through the loud thunder.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0073",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Yesterday <NAME> drew a bright kite.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kite"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0074",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The mouse moves under the couch.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0075",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> will jump in the pool.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pool"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0076",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Last night the wind blew hard.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0077",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Right now we eat our breakfast.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0078",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "She will look at the moon tonight.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0079",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Earlier the dog hid my shoe.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "shoe"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0080",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The kids are building with blocks.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0081",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "We will watch the game tomorrow.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0082",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Yesterday I ate peas at lunch.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0083",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "My pet is running on wheel.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0084",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> will talk to the teacher.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0085",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The small sheep broke the fence.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sheep"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0086",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The sky is gray right now.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0087",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "They will share cookies with friends.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0088",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Last year we came to town.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0089",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The bird is on the green tree.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0090",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "I will want ice cream later.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0091",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Yesterday Mom drove us to school.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0092",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The ants go back to nest.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0093",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "<NAME> will kick the ball hard.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0094",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "The old boat rode in creek.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0095",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Right now Dad cooks our dinner.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0096",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "We will sleep in tent tonight.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tent"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0097",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Earlier the cat ate a mouse.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0098",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "An ant is busy by the hive.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 1,
+    "explain_key": "present",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0099",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "She will read stories at bedtime.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 2,
+    "explain_key": "future",
+    "source": "composer-2.5",
+    "spec_version": 1
+  },
+  {
+    "item_id": "roots_is_the_sentence_in_the_past_present_or_futur_0100",
+    "family_id": "fam_is_the_sentence_in_the_past_present_or_futur",
+    "skill_id": "roots_is_the_sentence_in_the_past_present_or_futur",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "sort_three_bins",
+    "stem": "Yesterday we sang at the party.",
+    "choices": [
+      "past",
+      "present",
+      "future"
+    ],
+    "answer_index": 0,
+    "explain_key": "past",
+    "source": "composer-2.5",
+    "spec_version": 1
+  }
+]

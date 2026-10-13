@@ -1,0 +1,224 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_sentence_with_a_two_sylla_g2",
+  "family_title_en": "Complete the sentence with a two-syllable word: easier",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_sentence_with_a_two_syllable_wo",
+      "ix_title": "Complete the sentence with a two-syllable word: easier",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Complete the sentence with a two-syllable word.",
+        "ko": "두 음절 단어로 문장을 완성하세요."
+      },
+      "what_to_do": {
+        "en": "Tap the one word that fits.",
+        "ko": "알맞은 단어 하나를 누르세요."
+      },
+      "choice_rule": "Four unique lowercase whole words from the roots word list. Exactly one choice is a two-syllable word that fills the hyphen and makes a sensible sentence. Vary the answer index. Tier 1 wrong choices are three one-syllable words that do not fit. Tier 2 uses one one-syllable meaning trap, one three-syllable word, and one one-syllable word that does not fit, with no second two-syllable choice. Tier 3 uses one one-syllable word that fits the meaning and one two-syllable word that does not fit. Correct spellings only.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_sentence_with_a_two_syllable_wo_0001",
+          "tier": 1,
+          "stem": "We eat a red - .",
+          "choices": [
+            "apple",
+            "cup",
+            "hat",
+            "pen"
+          ],
+          "answer_index": 0,
+          "explain_key": "fits_two"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_two_syllable_wo_0002",
+          "tier": 1,
+          "stem": "Mom put a soft - on the bed.",
+          "choices": [
+            "cup",
+            "pillow",
+            "box",
+            "ant"
+          ],
+          "answer_index": 1,
+          "explain_key": "fits_two"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_two_syllable_wo_0003",
+          "tier": 1,
+          "stem": "We saw a - hop in the grass.",
+          "choices": [
+            "bag",
+            "book",
+            "rabbit",
+            "pen"
+          ],
+          "answer_index": 2,
+          "explain_key": "fits_two"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_two_syllable_wo_0004",
+          "tier": 2,
+          "stem": "Dad gave me a - for school.",
+          "choices": [
+            "pen",
+            "together",
+            "frog",
+            "pencil"
+          ],
+          "answer_index": 3,
+          "explain_key": "fits_two"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_two_syllable_wo_0005",
+          "tier": 2,
+          "stem": "My kitten can drink - from a bowl.",
+          "choices": [
+            "milk",
+            "water",
+            "banana",
+            "hat"
+          ],
+          "answer_index": 1,
+          "explain_key": "fits_two"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_two_syllable_wo_0006",
+          "tier": 2,
+          "stem": "A tiny - sat in the yard.",
+          "choices": [
+            "bug",
+            "yesterday",
+            "puppy",
+            "rock"
+          ],
+          "answer_index": 2,
+          "explain_key": "fits_two"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_two_syllable_wo_0007",
+          "tier": 3,
+          "stem": "<NAME> wore a warm - in the cold snow.",
+          "choices": [
+            "mitten",
+            "coat",
+            "winter",
+            "book"
+          ],
+          "answer_index": 0,
+          "explain_key": "near_two",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_two_syllable_wo_0008",
+          "tier": 3,
+          "stem": "Please pass the - and the jam at breakfast.",
+          "choices": [
+            "bread",
+            "dinner",
+            "hat",
+            "butter"
+          ],
+          "answer_index": 3,
+          "explain_key": "near_two"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Write one Grade 2 sentence about school, home, food, pets, play, family, or weather, with exactly one hyphen where the word is missing.",
+      "Every stem word must come from the roots word list, aside from the hyphen blank and an optional <NAME> token.",
+      "Offer four whole-word choices from the roots list. Exactly one choice has two syllables and completes the sentence.",
+      "The answer must be a correctly spelled easy two-syllable word. Never make a one-syllable or three-syllable word the answer.",
+      "On tier 1, the three wrong choices are one-syllable words that do not fit the sentence.",
+      "On tier 2, include one one-syllable word that could fit the meaning, one three-syllable word, and one one-syllable word that does not fit.",
+      "On tier 3, include one one-syllable word that fits the meaning and one two-syllable word that does not fit the meaning.",
+      "Use correct spellings only. Do not use misspellings, brand names, real person names, or isolated sounds.",
+      "Vary answer_index across items. Do not describe a picture and do not invent audio files."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\bphoneme\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "\\bmp3\\b",
+    "\\bwav\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of about four to eight words. The correct choice is a common two-syllable word that completes the sentence. The other three choices are one-syllable words that do not fit. Use explain_key fits_two.",
+    "2": "Grade-level stems. One choice is the two-syllable word that fits. One distractor is a one-syllable word that could fit the meaning. One distractor has three syllables. One distractor is a one-syllable word that does not fit. Use explain_key fits_two.",
+    "3": "Near misses on longer kid sentences of up to ten words. One distractor is a one-syllable word that fits the meaning. One distractor is a two-syllable word that does not fit. Only one choice does both jobs. Use explain_key near_two."
+  },
+  "miss_explain": {
+    "fits_two": {
+      "en": "This word has two syllables and it completes the sentence.",
+      "ko": "이 단어는 두 음절이고 문장을 완성합니다."
+    },
+    "near_two": {
+      "en": "Only this word has two syllables and fits the sentence.",
+      "ko": "이 단어만 두 음절이면서 문장에 맞습니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the sentence with a two-syllable word: easier"
+    ],
+    "no_ixl_text": true
+  }
+}

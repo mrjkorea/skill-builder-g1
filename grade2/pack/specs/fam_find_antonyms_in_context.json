@@ -1,0 +1,381 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_find_antonyms_in_context",
+  "family_title_en": "Find antonyms in context",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_find_antonyms_in_context",
+      "ix_title": "Find antonyms in context",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word means the opposite?",
+        "ko": "반대 뜻인 낱말은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the opposite of the word in quotes.",
+        "ko": "따옴표 안 낱말의 반댓말을 누르세요."
+      },
+      "choice_rule": "Offer four single words from the wordlist or allowed_extra_words. Exactly one is the antonym of the quoted word in the sense that stem uses. Never use a phrase. Never repeat the quoted word. Mix answer_index across the pool.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "empty",
+        "dirty",
+        "bad",
+        "worse",
+        "weak",
+        "messy",
+        "ugly",
+        "sour",
+        "bottom",
+        "forget",
+        "narrow",
+        "shallow"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_find_antonyms_in_context_0001",
+          "tier": 1,
+          "stem": "The soup is \"hot\" today.",
+          "choices": [
+            "cold",
+            "warm",
+            "red",
+            "wet"
+          ],
+          "answer_index": 0,
+          "explain_key": "temp_hot",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_antonyms_in_context_0002",
+          "tier": 1,
+          "stem": "The little dog is \"happy\".",
+          "choices": [
+            "glad",
+            "sad",
+            "funny",
+            "kind"
+          ],
+          "answer_index": 1,
+          "explain_key": "feeling_happy",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_antonyms_in_context_0003",
+          "tier": 1,
+          "stem": "My bag is very \"big\".",
+          "choices": [
+            "large",
+            "full",
+            "small",
+            "soft"
+          ],
+          "answer_index": 2,
+          "explain_key": "size_big",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_antonyms_in_context_0004",
+          "tier": 2,
+          "stem": "The \"heavy\" box is not easy.",
+          "choices": [
+            "dark",
+            "light",
+            "big",
+            "full"
+          ],
+          "answer_index": 1,
+          "explain_key": "weight_heavy",
+          "media": [
+            {
+              "lemma": "box"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_antonyms_in_context_0005",
+          "tier": 2,
+          "stem": "<NAME> ran \"fast\" at recess.",
+          "choices": [
+            "quick",
+            "late",
+            "slow",
+            "loud"
+          ],
+          "answer_index": 2,
+          "explain_key": "speed_fast",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_find_antonyms_in_context_0006",
+          "tier": 2,
+          "stem": "Please \"close\" the kitchen door.",
+          "choices": [
+            "open",
+            "shut",
+            "lock",
+            "leave"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_close",
+          "media": [
+            {
+              "lemma": "door"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_antonyms_in_context_0007",
+          "tier": 3,
+          "stem": "The \"light\" bag was easy to carry.",
+          "choices": [
+            "dark",
+            "bright",
+            "soft",
+            "heavy"
+          ],
+          "answer_index": 3,
+          "explain_key": "weight_light",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_find_antonyms_in_context_0008",
+          "tier": 3,
+          "stem": "The room looks \"light\" this morning.",
+          "choices": [
+            "dark",
+            "heavy",
+            "sunny",
+            "white"
+          ],
+          "answer_index": 0,
+          "explain_key": "light_dark",
+          "media": [
+            {
+              "lemma": "sun"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep all four choices as single words from the wordlist or allowed_extra_words.",
+      "Exactly one choice is the antonym of the quoted word as that sentence uses it.",
+      "Never set a synonym of the quoted word as the key.",
+      "Tier 1 distractors stay far: another sense, a color, or a loosely related kid word.",
+      "Tier 2 includes one synonym of the quoted word and one related word from the same scene.",
+      "Tier 3 must include the antonym of a different sense of the same word, such as light as weight versus light as brightness.",
+      "Stems stay in kid world: school, home, food, pets, play, family, weather. No brands.",
+      "Each stem quotes exactly one target word and also uses that same word in the sentence."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bantonym",
+    "\\bopposite",
+    "\\bsynonym",
+    "\\bunderline",
+    "\\bbold",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bsentence\\b",
+    "\\/[^\\s/]+\\/"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words with one quoted target. Picture lemma on the noun. Distractors are far: color, object, or a loosely related word, not a near synonym.",
+    "2": "Grade-level stems of five to seven words. Two-syllable words are fine. Include one synonym distractor and one same-scene related word.",
+    "3": "Near-miss stems. The quoted word has two common senses. One distractor is the antonym of the unused sense, such as dark for light-as-weight."
+  },
+  "miss_explain": {
+    "temp_hot": {
+      "en": "Hot means very warm. The opposite of hot is cold.",
+      "ko": "hot은 아주 따뜻하다는 뜻입니다. 반대말은 cold입니다."
+    },
+    "temp_cold": {
+      "en": "Cold means not hot. The opposite of cold is hot.",
+      "ko": "cold는 춥다는 뜻입니다. 반대말은 hot입니다."
+    },
+    "feeling_happy": {
+      "en": "Happy means glad. The opposite of happy is sad.",
+      "ko": "happy는 기쁘다는 뜻입니다. 반대말은 sad입니다."
+    },
+    "feeling_sad": {
+      "en": "Sad means not happy. The opposite of sad is happy.",
+      "ko": "sad는 슬프다는 뜻입니다. 반대말은 happy입니다."
+    },
+    "size_big": {
+      "en": "Big means large. The opposite of big is small.",
+      "ko": "big은 크다는 뜻입니다. 반대말은 small입니다."
+    },
+    "size_small": {
+      "en": "Small means little. The opposite of small is big.",
+      "ko": "small은 작다는 뜻입니다. 반대말은 big입니다."
+    },
+    "weight_heavy": {
+      "en": "Heavy means not easy to lift. The opposite is light.",
+      "ko": "heavy는 무겁다는 뜻입니다. 반대말은 light입니다."
+    },
+    "weight_light": {
+      "en": "Here light means not heavy. The opposite is heavy.",
+      "ko": "여기서 light는 가볍다는 뜻입니다. 반대말은 heavy입니다."
+    },
+    "light_dark": {
+      "en": "Here light means not dark. The opposite is dark.",
+      "ko": "여기서 light는 밝다는 뜻입니다. 반대말은 dark입니다."
+    },
+    "speed_fast": {
+      "en": "Fast means quick. The opposite of fast is slow.",
+      "ko": "fast는 빠르다는 뜻입니다. 반대말은 slow입니다."
+    },
+    "speed_slow": {
+      "en": "Slow means not fast. The opposite of slow is fast.",
+      "ko": "slow는 느리다는 뜻입니다. 반대말은 fast입니다."
+    },
+    "open_close": {
+      "en": "Close means shut. The opposite of close is open.",
+      "ko": "close는 닫는다는 뜻입니다. 반대말은 open입니다."
+    },
+    "wet_dry": {
+      "en": "Wet means full of water. The opposite of wet is dry.",
+      "ko": "wet은 젖었다는 뜻입니다. 반대말은 dry입니다."
+    },
+    "loud_quiet": {
+      "en": "Loud means a lot of noise. The opposite of loud is quiet.",
+      "ko": "loud는 시끄럽다는 뜻입니다. 반대말은 quiet입니다."
+    },
+    "old_new": {
+      "en": "New means just made. The opposite of new is old.",
+      "ko": "new는 새것이라는 뜻입니다. 반대말은 old입니다."
+    },
+    "in_out": {
+      "en": "In means inside. The opposite of in is out.",
+      "ko": "in은 안이라는 뜻입니다. 반대말은 out입니다."
+    },
+    "up_down": {
+      "en": "Up means high. The opposite of up is down.",
+      "ko": "up은 위라는 뜻입니다. 반대말은 down입니다."
+    },
+    "early_late": {
+      "en": "Early means before the time. The opposite of early is late.",
+      "ko": "early는 이르다는 뜻입니다. 반대말은 late입니다."
+    },
+    "same_different": {
+      "en": "Same means not different. The opposite of same is different.",
+      "ko": "same은 같다는 뜻입니다. 반대말은 different입니다."
+    },
+    "always_never": {
+      "en": "Always means every time. The opposite of always is never.",
+      "ko": "always는 언제나라는 뜻입니다. 반대말은 never입니다."
+    },
+    "hard_soft": {
+      "en": "Soft means not hard. The opposite of soft is hard.",
+      "ko": "soft는 부드럽다는 뜻입니다. 반대말은 hard입니다."
+    },
+    "full_empty": {
+      "en": "Full means no more room. The opposite of full is empty.",
+      "ko": "full은 가득 찼다는 뜻입니다. 반대말은 empty입니다."
+    },
+    "near_far": {
+      "en": "Near means close by. The opposite of near is far.",
+      "ko": "near는 가깝다는 뜻입니다. 반대말은 far입니다."
+    },
+    "young_old": {
+      "en": "Young means not old. The opposite of young is old.",
+      "ko": "young은 어리다는 뜻입니다. 반대말은 old입니다."
+    },
+    "day_night": {
+      "en": "Day is when the sun is out. The opposite of day is night.",
+      "ko": "day는 낮입니다. 반대말은 night입니다."
+    },
+    "before_after": {
+      "en": "Before means earlier. The opposite of before is after.",
+      "ko": "before는 전이라는 뜻입니다. 반대말은 after입니다."
+    },
+    "give_take": {
+      "en": "Give means to hand to someone. The opposite of give is take.",
+      "ko": "give는 준다는 뜻입니다. 반대말은 take입니다."
+    },
+    "start_stop": {
+      "en": "Start means begin. The opposite of start is stop.",
+      "ko": "start는 시작이라는 뜻입니다. 반대말은 stop입니다."
+    },
+    "right_wrong": {
+      "en": "Here right means correct. The opposite is wrong.",
+      "ko": "여기서 right는 맞다는 뜻입니다. 반대말은 wrong입니다."
+    },
+    "left_right": {
+      "en": "Here right means the side. The opposite of right is left.",
+      "ko": "여기서 right는 오른쪽입니다. 반대말은 left입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Find antonyms in context"
+    ],
+    "no_ixl_text": true
+  }
+}

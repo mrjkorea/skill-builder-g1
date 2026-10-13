@@ -1,0 +1,276 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_the_adjective_that_describes_the_no",
+  "family_title_en": "Identify the adjective that describes the noun",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_the_adjective_that_describes_the_no",
+      "ix_title": "Identify the adjective that describes the noun",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word describes the noun?",
+        "ko": "명사를 꾸며 주는 단어는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the describing word.",
+        "ko": "꾸며 주는 말을 누르세요."
+      },
+      "choice_rule": "Build four unique lowercase choices from the stem. Exactly one is the adjective that describes a noun. The other three are the described noun, a verb or linking verb, and one more stem word that is not an adjective (a second noun, an adverb, or a time or place word). Never put two adjectives in one stem. Never make an -ly adverb the key.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "cute",
+        "messy",
+        "yummy",
+        "sleepy",
+        "windy",
+        "cloudy",
+        "sticky",
+        "spicy"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_the_adjective_that_describes_the_no_0001",
+          "tier": 1,
+          "stem": "The big dog ran home.",
+          "choices": [
+            "big",
+            "dog",
+            "ran",
+            "home"
+          ],
+          "answer_index": 0,
+          "explain_key": "adj_before",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_adjective_that_describes_the_no_0002",
+          "tier": 1,
+          "stem": "The yellow bird sat here.",
+          "choices": [
+            "bird",
+            "sat",
+            "yellow",
+            "here"
+          ],
+          "answer_index": 2,
+          "explain_key": "adj_before",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_adjective_that_describes_the_no_0003",
+          "tier": 1,
+          "stem": "A red ball hit me.",
+          "choices": [
+            "ball",
+            "red",
+            "hit",
+            "me"
+          ],
+          "answer_index": 1,
+          "explain_key": "adj_before",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_adjective_that_describes_the_no_0004",
+          "tier": 2,
+          "stem": "The fluffy kitten hid inside.",
+          "choices": [
+            "kitten",
+            "hid",
+            "inside",
+            "fluffy"
+          ],
+          "answer_index": 3,
+          "explain_key": "adj_before",
+          "media": [
+            {
+              "lemma": "kitten"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_adjective_that_describes_the_no_0005",
+          "tier": 2,
+          "stem": "The soup is hot today.",
+          "choices": [
+            "soup",
+            "is",
+            "today",
+            "hot"
+          ],
+          "answer_index": 3,
+          "explain_key": "adj_linking",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_adjective_that_describes_the_no_0006",
+          "tier": 2,
+          "stem": "<NAME> saw my muddy boots.",
+          "choices": [
+            "saw",
+            "my",
+            "muddy",
+            "boots"
+          ],
+          "answer_index": 2,
+          "explain_key": "adj_before",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "boot"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_adjective_that_describes_the_no_0007",
+          "tier": 3,
+          "stem": "The slow turtle moves slowly.",
+          "choices": [
+            "turtle",
+            "slowly",
+            "slow",
+            "moves"
+          ],
+          "answer_index": 2,
+          "explain_key": "adj_not_adverb",
+          "media": [
+            {
+              "lemma": "turtle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_adjective_that_describes_the_no_0008",
+          "tier": 3,
+          "stem": "The quiet child sat nicely.",
+          "choices": [
+            "nicely",
+            "child",
+            "sat",
+            "quiet"
+          ],
+          "answer_index": 3,
+          "explain_key": "adj_not_adverb",
+          "media": [
+            {
+              "lemma": "child"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four tap choices taken from the stem. Exactly one choice is the adjective that describes a noun.",
+      "Keep one describing adjective in every stem. A second adjective makes two right answers.",
+      "Wrong choices are the described noun, a verb or linking verb, and one other non-adjective stem word.",
+      "Use kid places only: school, home, food, pets, play, family, weather. No brands and no real names.",
+      "Tier 1 distractors are far: the noun, a clear action, and a place or person word.",
+      "Tier 2 may use a second noun or a linking verb. The adjective may come after is or are.",
+      "Tier 3 must include an -ly adverb as a near-miss wrong choice. That -ly word is never the key.",
+      "Never use an article as the key. Never invent a choice that is not in the stem."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\badjective\\b",
+    "\\bnoun\\b",
+    "\\badverb\\b",
+    "\\bdescribes\\b",
+    "\\bmodify",
+    "\\bwhich word\\b",
+    "\\bwhat kind\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. One obvious color or size adjective sits right before the noun. Distractors are the noun, a verb, and a place or person word. Add a noun picture.",
+    "2": "Grade-level stems of five to seven words. Use two-syllable adjectives, a second noun, or a describing word after is or are. Distractors stay on grade.",
+    "3": "Near misses. The stem holds both one adjective and an -ly adverb. The adverb is a wrong choice. Keep only one describing adjective."
+  },
+  "miss_explain": {
+    "adj_before": {
+      "en": "The describing word sits by the noun. It tells what the noun is like.",
+      "ko": "꾸며 주는 말은 명사 옆에 있어요. 명사가 어떤지 알려 줍니다."
+    },
+    "adj_linking": {
+      "en": "After is or are, the describing word still tells about the noun.",
+      "ko": "is나 are 뒤에 있어도 그 말은 명사를 꾸며 줍니다."
+    },
+    "adj_not_adverb": {
+      "en": "A word that ends with ly tells how. The describing word tells what kind.",
+      "ko": "ly로 끝나는 말은 어떻게인지 말해요. 꾸며 주는 말은 어떤지 말해요."
+    },
+    "adj_not_noun": {
+      "en": "The noun is the person or thing. Tap the word that tells about it.",
+      "ko": "명사는 사람이나 사물이에요. 그것을 알려 주는 말을 누르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify the adjective that describes the noun"
+    ],
+    "no_ixl_text": true
+  }
+}

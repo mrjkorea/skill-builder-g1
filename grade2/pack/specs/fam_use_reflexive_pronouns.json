@@ -1,0 +1,275 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_reflexive_pronouns",
+  "family_title_en": "Use reflexive pronouns",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_reflexive_pronouns",
+      "ix_title": "Use reflexive pronouns",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word belongs?",
+        "ko": "어떤 말이 들어갈까요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that fits.",
+        "ko": "알맞은 말을 누르세요."
+      },
+      "choice_rule": "Four unique lowercase choices. Exactly one reflexive matches the subject. The other three are different reflexives. In tier 3, one distractor may be me, him, her, us, or them. Never use hisself, theirselves, or themself. Do not repeat a four-choice set.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "myself",
+        "yourself",
+        "himself",
+        "herself",
+        "itself",
+        "ourselves",
+        "yourselves",
+        "themselves"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_reflexive_pronouns_0001",
+          "tier": 1,
+          "stem": "I made this cake by",
+          "choices": [
+            "myself",
+            "himself",
+            "herself",
+            "themselves"
+          ],
+          "answer_index": 0,
+          "explain_key": "myself",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_reflexive_pronouns_0002",
+          "tier": 1,
+          "stem": "The cat cleaned",
+          "choices": [
+            "himself",
+            "herself",
+            "itself",
+            "myself"
+          ],
+          "answer_index": 2,
+          "explain_key": "itself",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_reflexive_pronouns_0003",
+          "tier": 1,
+          "stem": "She can wash",
+          "choices": [
+            "himself",
+            "herself",
+            "myself",
+            "itself"
+          ],
+          "answer_index": 1,
+          "explain_key": "herself",
+          "media": [
+            {
+              "lemma": "girl"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_reflexive_pronouns_0004",
+          "tier": 2,
+          "stem": "He hurt after the game",
+          "choices": [
+            "herself",
+            "itself",
+            "himself",
+            "themselves"
+          ],
+          "answer_index": 2,
+          "explain_key": "himself",
+          "media": [
+            {
+              "lemma": "boy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_reflexive_pronouns_0005",
+          "tier": 2,
+          "stem": "The kids can feed",
+          "choices": [
+            "himself",
+            "themselves",
+            "ourselves",
+            "itself"
+          ],
+          "answer_index": 1,
+          "explain_key": "themselves"
+        },
+        {
+          "item_id": "roots_use_reflexive_pronouns_0006",
+          "tier": 2,
+          "stem": "You can do it by",
+          "choices": [
+            "myself",
+            "himself",
+            "yourself",
+            "themselves"
+          ],
+          "answer_index": 2,
+          "explain_key": "yourself"
+        },
+        {
+          "item_id": "roots_use_reflexive_pronouns_0007",
+          "tier": 3,
+          "stem": "<NAME> and I did it by",
+          "choices": [
+            "myself",
+            "me",
+            "themselves",
+            "ourselves"
+          ],
+          "answer_index": 3,
+          "explain_key": "ourselves",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_use_reflexive_pronouns_0008",
+          "tier": 3,
+          "stem": "You two did it by",
+          "choices": [
+            "yourself",
+            "ourselves",
+            "yourselves",
+            "themselves"
+          ],
+          "answer_index": 2,
+          "explain_key": "yourselves"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep four tap choices. One reflexive matches the subject. Never change the task to identify or sort.",
+      "Wrong choices are other reflexives first. Far person or number errors belong in tier 1.",
+      "Tier 2 mixes he and she, you and they, or singular and plural self words.",
+      "Tier 3 uses near misses: myself for a name-and-I subject, yourself for you plus a number word, or me him her us them in place of a self word.",
+      "Never write hisself, theirselves, or themself. Never use a real name. Use <NAME> only.",
+      "Every stem must make only one self word correct. Do not write a stem that fits two answers."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\breflexive",
+    "\\bpronouns?\\b",
+    "\\bgrammar\\b",
+    "\\bhisself\\b",
+    "\\btheirselves\\b",
+    "\\bthemself\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of three to five words. Subject is I, she, or one animal. Distractors are far self words. Add a picture lemma when the stem has a concrete noun.",
+    "2": "Grade-level stems of four to seven words. Subjects are he, you, they, or kids. Distractors mix he and she or you and they.",
+    "3": "Near misses. A name and I needs ourselves, not myself. You plus a number word needs yourselves, not yourself. One choice may be me, him, her, us, or them."
+  },
+  "miss_explain": {
+    "myself": {
+      "en": "Use myself with I.",
+      "ko": "I에는 myself를 쓰세요."
+    },
+    "yourself": {
+      "en": "Use yourself with you.",
+      "ko": "you에는 yourself를 쓰세요."
+    },
+    "himself": {
+      "en": "Use himself with he or a boy.",
+      "ko": "he나 남자아이에는 himself를 쓰세요."
+    },
+    "herself": {
+      "en": "Use herself with she or a girl.",
+      "ko": "she나 여자아이에는 herself를 쓰세요."
+    },
+    "itself": {
+      "en": "Use itself with an animal or a thing.",
+      "ko": "동물이나 사물에는 itself를 쓰세요."
+    },
+    "ourselves": {
+      "en": "Use ourselves with we or with a name and I.",
+      "ko": "we나 이름과 I가 있으면 ourselves를 쓰세요."
+    },
+    "yourselves": {
+      "en": "Use yourselves with you when you mean more than one.",
+      "ko": "여럿을 뜻하는 you에는 yourselves를 쓰세요."
+    },
+    "themselves": {
+      "en": "Use themselves with they or more than one.",
+      "ko": "they나 여럿에는 themselves를 쓰세요."
+    },
+    "not_object": {
+      "en": "Do not use me, him, or her here. Use a self word.",
+      "ko": "여기에는 me, him, her가 아니라 self가 있는 말을 쓰세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use reflexive pronouns"
+    ],
+    "no_ixl_text": true
+  }
+}

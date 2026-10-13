@@ -1,0 +1,280 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_the_predicate_of_a_sentence",
+  "family_title_en": "Identify the predicate of a sentence",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_the_predicate_of_a_sentence",
+      "ix_title": "Identify the predicate of a sentence",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which part is the predicate?",
+        "ko": "어느 부분이 서술어인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the part that tells what they do or are.",
+        "ko": "무엇을 하거나 어떤지 말하는 부분을 누르세요."
+      },
+      "choice_rule": "Four unique chunks copied from the stem. One is the full predicate: the action or linking word and every word after it. One is the full subject. One is a leftover phrase from inside the predicate. One is a leftover noun or small word. Every choice word must appear in the stem. Do not add new words. Exactly one choice is the full predicate.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "likes",
+        "plays",
+        "jumped",
+        "walked"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_the_predicate_of_a_sentence_0001",
+          "tier": 1,
+          "stem": "The big dog barks.",
+          "choices": [
+            "The big dog",
+            "barks",
+            "The",
+            "dog"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_subject",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_predicate_of_a_sentence_0002",
+          "tier": 1,
+          "stem": "The cat sat down.",
+          "choices": [
+            "sat down",
+            "The cat",
+            "down",
+            "The"
+          ],
+          "answer_index": 0,
+          "explain_key": "action_all",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_predicate_of_a_sentence_0003",
+          "tier": 1,
+          "stem": "The cake is sweet.",
+          "choices": [
+            "The cake",
+            "cake",
+            "is sweet",
+            "The"
+          ],
+          "answer_index": 2,
+          "explain_key": "linking_all",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_predicate_of_a_sentence_0004",
+          "tier": 2,
+          "stem": "The little puppy ran home fast.",
+          "choices": [
+            "The little",
+            "ran home fast",
+            "home",
+            "The little puppy"
+          ],
+          "answer_index": 1,
+          "explain_key": "action_all",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_predicate_of_a_sentence_0005",
+          "tier": 2,
+          "stem": "<NAME> ate cookies after school today.",
+          "choices": [
+            "ate cookies after school today",
+            "<NAME>",
+            "after school today",
+            "cookies"
+          ],
+          "answer_index": 0,
+          "explain_key": "action_all",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cookies"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_predicate_of_a_sentence_0006",
+          "tier": 2,
+          "stem": "The happy kids play in the yard.",
+          "choices": [
+            "The happy kids",
+            "in the yard",
+            "yard",
+            "play in the yard"
+          ],
+          "answer_index": 3,
+          "explain_key": "leftover_phrase",
+          "media": [
+            {
+              "lemma": "kids"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_predicate_of_a_sentence_0007",
+          "tier": 3,
+          "stem": "My hungry sister drank cold milk at dinner.",
+          "choices": [
+            "drank cold milk",
+            "My hungry sister",
+            "drank cold milk at dinner",
+            "at dinner"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_partial",
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_the_predicate_of_a_sentence_0008",
+          "tier": 3,
+          "stem": "<NAME> put the red book on the desk today.",
+          "choices": [
+            "the red book",
+            "put the red book on the desk today",
+            "on the desk today",
+            "<NAME>"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_partial",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Copy every choice from the stem. Never invent words, never rewrite, and never add a second verb that is not in the stem.",
+      "Offer exactly four choices: the full predicate, the full subject, one leftover phrase from inside the predicate, and one leftover noun or small word.",
+      "The full predicate starts at the action or linking word and runs to the end of the stem. Never leave off the last phrase on the correct choice.",
+      "Keep leftover-phrase distractors shorter than the full predicate. In tier 3 they must be near misses such as verb plus object without the last phrase.",
+      "Use only statements in subject-then-verb order. No questions, no commands, no implied subjects, and no names except <NAME>.",
+      "Keep stems in the kid world of school, home, food, pets, play, family, or weather. No brands.",
+      "Exactly one choice is the full predicate. Shuffle its slot across the pool so the answer is not always in the same place."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "simple predicate",
+    "complete predicate",
+    "simple subject",
+    "complete subject",
+    "\\bverb phrase\\b",
+    "who or what",
+    "\\bunderline",
+    "\\bpredicate\\b",
+    "\\bsubject\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four or five words. The predicate is one action word or a linking word plus one word. Distractors are the obvious subject and leftover nouns.",
+    "2": "Stems of six or seven words with a two-syllable noun. The predicate includes an object or a short phrase. One distractor is that leftover phrase.",
+    "3": "Stems of eight to ten words. Near-miss distractors drop the last phrase from the predicate or offer only the object. Subjects may hold an adjective."
+  },
+  "miss_explain": {
+    "not_subject": {
+      "en": "That names who or what. The predicate tells what they do or are.",
+      "ko": "그건 누구 또는 무엇인지를 말해요. 서술어는 무엇을 하거나 어떤지를 말해요."
+    },
+    "action_all": {
+      "en": "The predicate is the action and the words that finish it.",
+      "ko": "서술어는 동작과 그 동작을 끝맺는 말들입니다."
+    },
+    "linking_all": {
+      "en": "The predicate starts with is, are, or was and tells what someone is.",
+      "ko": "서술어는 is, are, was로 시작하여 어떤 상태인지를 말합니다."
+    },
+    "not_partial": {
+      "en": "Tap every word in the predicate, not just part of it.",
+      "ko": "서술어의 모든 단어를 누르세요. 일부만 고르면 안 돼요."
+    },
+    "leftover_phrase": {
+      "en": "That leftover bit is not the whole predicate. Start from the action word.",
+      "ko": "그 남은 부분은 서술어 전체가 아니에요. 동작 단어부터 시작하세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify the predicate of a sentence"
+    ],
+    "no_ixl_text": true
+  }
+}

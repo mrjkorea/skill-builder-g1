@@ -1,0 +1,348 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_word_with_the_correct_r_c_g2",
+  "family_title_en": "Complete the word with the correct r-controlled vowel: er, ir, ur",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_word_with_the_correct_r_control",
+      "ix_title": "Complete the word with the correct r-controlled vowel: er, ir, ur",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which letters complete the word?",
+        "ko": "단어를 완성하는 글자를 고르세요."
+      },
+      "what_to_do": {
+        "en": "Tap er, ir, or ur.",
+        "ko": "er, ir, ur 중 하나를 누르세요."
+      },
+      "choices": [
+        "er",
+        "ir",
+        "ur"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "aft-",
+        "anoth-",
+        "b-d",
+        "b-n",
+        "b-thday",
+        "beav-",
+        "bett-",
+        "bigg-",
+        "broth-",
+        "butt-",
+        "c-cle",
+        "c-l",
+        "c-rent",
+        "cent-",
+        "ch-ch",
+        "comput-",
+        "d-ing",
+        "d-t",
+        "d-ty",
+        "diff-ent",
+        "dinn-",
+        "earli-",
+        "en-gy",
+        "ent-",
+        "ev-",
+        "ev-y",
+        "f-m",
+        "f-n",
+        "f-st",
+        "farm-",
+        "fath-",
+        "flow-",
+        "g-l",
+        "g-ls",
+        "g-m",
+        "h-d",
+        "h-ry",
+        "h-t",
+        "hott-",
+        "lat-",
+        "lett-",
+        "memb-",
+        "moth-",
+        "n-se",
+        "nev-",
+        "numb-",
+        "oth-",
+        "ov-",
+        "p-ple",
+        "p-se",
+        "p-son",
+        "pap-",
+        "pow-",
+        "rememb-",
+        "ret-n",
+        "riv-",
+        "sat-day",
+        "sh-t",
+        "sist-",
+        "sk-t",
+        "socc-",
+        "st-",
+        "summ-",
+        "t-key",
+        "t-m",
+        "t-n",
+        "t-ned",
+        "t-tle",
+        "teach-",
+        "th-d",
+        "th-sday",
+        "th-sty",
+        "thund-",
+        "tig-",
+        "togeth-",
+        "und-",
+        "v-y",
+        "wat-",
+        "weath-",
+        "wett-",
+        "wint-",
+        "yest-day"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0001",
+          "tier": 1,
+          "stem": "My sist- has a cat.",
+          "choices": [
+            "er",
+            "ir",
+            "ur"
+          ],
+          "answer_index": 0,
+          "explain_key": "er_spell",
+          "media": [
+            {
+              "lemma": "sister"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0002",
+          "tier": 1,
+          "stem": "A red b-d can fly.",
+          "choices": [
+            "er",
+            "ir",
+            "ur"
+          ],
+          "answer_index": 1,
+          "explain_key": "ir_spell",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0003",
+          "tier": 1,
+          "stem": "The t-tle is slow.",
+          "choices": [
+            "er",
+            "ir",
+            "ur"
+          ],
+          "answer_index": 2,
+          "explain_key": "ur_spell",
+          "media": [
+            {
+              "lemma": "turtle"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0004",
+          "tier": 2,
+          "stem": "My kind teach- is at school today.",
+          "choices": [
+            "er",
+            "ir",
+            "ur"
+          ],
+          "answer_index": 0,
+          "explain_key": "er_spell",
+          "media": [
+            {
+              "lemma": "teacher"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0005",
+          "tier": 2,
+          "stem": "The b-thday cake is on the table.",
+          "choices": [
+            "er",
+            "ir",
+            "ur"
+          ],
+          "answer_index": 1,
+          "explain_key": "ir_spell",
+          "media": [
+            {
+              "lemma": "birthday"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0006",
+          "tier": 2,
+          "stem": "The n-se can help the sick cat.",
+          "choices": [
+            "er",
+            "ir",
+            "ur"
+          ],
+          "answer_index": 2,
+          "explain_key": "ur_spell",
+          "media": [
+            {
+              "lemma": "nurse"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0007",
+          "tier": 3,
+          "stem": "<NAME> drew a red flow- on a big card.",
+          "choices": [
+            "er",
+            "ir",
+            "ur"
+          ],
+          "answer_index": 0,
+          "explain_key": "er_spell",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "flower"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_word_with_the_correct_r_control_0008",
+          "tier": 3,
+          "stem": "We got so th-sty on that hot sunny day.",
+          "choices": [
+            "er",
+            "ir",
+            "ur"
+          ],
+          "answer_index": 1,
+          "explain_key": "ir_spell",
+          "media": [
+            {
+              "lemma": "thirsty"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The choices are always er, ir, and ur, in that order. Never add, drop, or reorder them.",
+      "Put exactly one gap token from allowed_extra_words in the stem. The hyphen is only the missing er, ir, or ur.",
+      "Joining the correct choice to the gap must spell one real word. The other two joins must not be real words.",
+      "The sentence must fit that one word only. If the gap is t-n, the sentence must mean turn.",
+      "Do not leave a finished word that contains er, ir, or ur, or that spelling gives the answer away.",
+      "Use only roots word-list words, allowed gap tokens, and <NAME>. Keep every stem at ten words or under.",
+      "Stay in school, home, food, pets, play, family, and weather. No brands and no real names.",
+      "When the stem has <NAME>, set that item swap_slots NAME to names.txt.",
+      "A target word may repeat later, but every stem sentence must be new.",
+      "Use whole words and the letter patterns er, ir, and ur only. No sound symbols and no audio file names.",
+      "If you add media, the lemma is the completed word. Never describe a picture in the stem."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bipa\\b",
+    "phoneme",
+    "schwa",
+    "\\/ɜ",
+    "\\/ə",
+    "\\/ɝ",
+    "\\/ɚ",
+    "\\.mp3\\b",
+    "\\.wav\\b",
+    "_"
+  ],
+  "tier_rules": {
+    "1": "Four or five words. A very common word and an obvious gap, such as sister, bird, or turtle, in a sentence a child can picture.",
+    "2": "Six to eight words. Two-syllable grade-level words such as teacher, birthday, and nurse, where er, ir, and ur are easy to mix up.",
+    "3": "Seven to ten words. Near-miss words such as flower and thirsty, where er, ir, and ur sound the same, in a longer sentence. Use <NAME> when it fits."
+  },
+  "miss_explain": {
+    "er_spell": {
+      "en": "er, ir, and ur can sound the same. This word uses er, as in sister.",
+      "ko": "er, ir, ur는 소리가 같을 수 있습니다. 이 단어는 sister처럼 er로 씁니다."
+    },
+    "ir_spell": {
+      "en": "er, ir, and ur can sound the same. This word uses ir, as in bird.",
+      "ko": "er, ir, ur는 소리가 같을 수 있습니다. 이 단어는 bird처럼 ir로 씁니다."
+    },
+    "ur_spell": {
+      "en": "er, ir, and ur can sound the same. This word uses ur, as in turtle.",
+      "ko": "er, ir, ur는 소리가 같을 수 있습니다. 이 단어는 turtle처럼 ur로 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the word with the correct r-controlled vowel: er, ir, ur"
+    ],
+    "no_ixl_text": true
+  }
+}

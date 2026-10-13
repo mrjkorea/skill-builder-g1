@@ -1,0 +1,279 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_commas_with_dates",
+  "family_title_en": "Commas with dates",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_commas_with_dates",
+      "ix_title": "Commas with dates",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which date is written right?",
+        "ko": "날짜가 바르게 쓰인 것은?"
+      },
+      "what_to_do": {
+        "en": "Tap the date with the right comma.",
+        "ko": "쉼표가 바른 날짜를 누르세요."
+      },
+      "choice_rule": "Four writings of one date. Only commas change. One is right. Wrong choices drop a comma, put it after the month, add an extra comma, or skip the weekday comma.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "comma",
+        "commas",
+        "born"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_commas_with_dates_0001",
+          "tier": 1,
+          "stem": "My birthday is this day.",
+          "choices": [
+            "May 5, 2018",
+            "May 5 2018",
+            "May, 5 2018",
+            "May 5 2018,"
+          ],
+          "answer_index": 0,
+          "explain_key": "day_year",
+          "media": [
+            {
+              "lemma": "birthday"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_dates_0002",
+          "tier": 1,
+          "stem": "We had a picnic this day.",
+          "choices": [
+            "June, 10 2020",
+            "June 10 2020",
+            "June 10, 2020",
+            "June 10 2020,"
+          ],
+          "answer_index": 2,
+          "explain_key": "day_year",
+          "media": [
+            {
+              "lemma": "picnic"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_dates_0003",
+          "tier": 2,
+          "stem": "The puppy came home this day.",
+          "choices": [
+            "April 3 2019",
+            "April 3, 2019",
+            "April 3, 2019,",
+            "April, 3, 2019"
+          ],
+          "answer_index": 1,
+          "explain_key": "day_year",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_dates_0004",
+          "tier": 2,
+          "stem": "Her party is this month.",
+          "choices": [
+            "March 12",
+            "March, 12",
+            "March 12,",
+            "March, 12,"
+          ],
+          "answer_index": 0,
+          "explain_key": "no_month_day_comma",
+          "media": [
+            {
+              "lemma": "party"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_dates_0005",
+          "tier": 2,
+          "stem": "<NAME> had a game this day.",
+          "choices": [
+            "Friday May 6",
+            "Friday May, 6",
+            "Friday, May, 6",
+            "Friday, May 6"
+          ],
+          "answer_index": 3,
+          "explain_key": "weekday_comma",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "game"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_dates_0006",
+          "tier": 3,
+          "stem": "We went in this month.",
+          "choices": [
+            "August, 2021",
+            "August 2021",
+            "August 2021,",
+            ", August 2021"
+          ],
+          "answer_index": 1,
+          "explain_key": "no_month_year_comma",
+          "media": [
+            {
+              "lemma": "beach"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_dates_0007",
+          "tier": 3,
+          "stem": "Our class play is this day.",
+          "choices": [
+            "Monday, May 5, 2018",
+            "Monday May 5, 2018",
+            "Monday, May 5 2018",
+            "Monday May 5 2018"
+          ],
+          "answer_index": 0,
+          "explain_key": "weekday_and_year",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_commas_with_dates_0008",
+          "tier": 3,
+          "stem": "Grandma came to dinner this day.",
+          "choices": [
+            "October, 2, 2022",
+            "October 2, 2022,",
+            "October 2, 2022",
+            "October, 2 2022"
+          ],
+          "answer_index": 2,
+          "explain_key": "wrong_spot",
+          "media": [
+            {
+              "lemma": "grandma"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four writings of the same date. Only the commas change. Only one writing is right.",
+      "Never change the month, day number, year, or weekday across the four choices.",
+      "Wrong choices leave out a needed comma, put a comma after the month, add an extra comma, or skip the weekday comma.",
+      "Month plus day only is right with no comma. Month plus year only is right with no comma.",
+      "A weekday plus a date needs a comma after the weekday. A weekday plus month, day, and year needs a comma after the weekday and a comma after the day.",
+      "Keep dates in kid life at home, school, play, family, food, or pets. Use years from 2016 to 2026. Never use famous history dates.",
+      "Never use a real name in a stem. Use <NAME> with swap_slots. Do not name or describe a picture in the stem.",
+      "One tap and one right answer. Keep every stem at ten words or fewer from the roots list, allowed extra words, or <NAME>."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bpunctuation\\b",
+    "\\bpunctuate\\b",
+    "1776",
+    "\\bindependence\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Full dates with month, day, and year. Wrong choices drop the comma or put it after the month.",
+    "2": "Grade-level stems. Mix full dates, month and day only, and weekday plus date. Distractors look almost right.",
+    "3": "Near-miss dates. Month and year only, weekday plus full date with two commas, extra end commas, and commas after the month."
+  },
+  "miss_explain": {
+    "day_year": {
+      "en": "Put a comma between the day and the year.",
+      "ko": "일과 연도 사이에 쉼표를 넣습니다."
+    },
+    "no_month_day_comma": {
+      "en": "A month and a day do not need a comma.",
+      "ko": "월과 일만 쓸 때는 쉼표가 필요 없습니다."
+    },
+    "no_month_year_comma": {
+      "en": "A month and a year do not need a comma.",
+      "ko": "월과 연도만 쓸 때는 쉼표가 필요 없습니다."
+    },
+    "weekday_comma": {
+      "en": "Put a comma after the day of the week.",
+      "ko": "요일 뒤에 쉼표를 넣습니다."
+    },
+    "weekday_and_year": {
+      "en": "Put a comma after the weekday and after the day.",
+      "ko": "요일 뒤와 일 뒤에 쉼표를 넣습니다."
+    },
+    "wrong_spot": {
+      "en": "The comma goes after the day, not after the month.",
+      "ko": "쉼표는 월 뒤가 아니라 일 뒤에 옵니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Commas with dates"
+    ],
+    "no_ixl_text": true
+  }
+}

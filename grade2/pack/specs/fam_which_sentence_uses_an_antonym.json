@@ -1,0 +1,404 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_which_sentence_uses_an_antonym",
+  "family_title_en": "Which sentence uses an antonym?",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_which_sentence_uses_an_antonym",
+      "ix_title": "Which sentence uses an antonym?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence uses an antonym?",
+        "ko": "어떤 문장이 반의어를 쓰나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence with the opposite word.",
+        "ko": "반대말이 있는 문장을 누르세요."
+      },
+      "choice_rule": "Write four short kid sentences. The stem names one cue word after The word is. Exactly one sentence uses a true antonym of that cue. The other three use the same cue word, a close-meaning word, or an unrelated kid word. Never put two true antonyms in one item. Each choice stays under 60 characters.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "antonym",
+        "antonyms",
+        "asleep",
+        "awake",
+        "bad",
+        "bottom",
+        "dirty",
+        "empty",
+        "huge",
+        "meaning",
+        "opposite",
+        "opposites",
+        "pair",
+        "pairs",
+        "sentence",
+        "sentences",
+        "synonym",
+        "synonyms",
+        "unlike",
+        "uses",
+        "weak",
+        "worst"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_which_sentence_uses_an_antonym_0001",
+          "tier": 1,
+          "stem": "The word is hot.",
+          "choices": [
+            "The soup is cold.",
+            "The soup is hot.",
+            "The soup is warm.",
+            "The soup is tasty."
+          ],
+          "answer_index": 0,
+          "explain_key": "hot_cold",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_uses_an_antonym_0002",
+          "tier": 1,
+          "stem": "The word is big.",
+          "choices": [
+            "The cat is large.",
+            "The cat is little.",
+            "The cat is big.",
+            "The cat is fluffy."
+          ],
+          "answer_index": 1,
+          "explain_key": "big_little",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_uses_an_antonym_0003",
+          "tier": 1,
+          "stem": "The word is happy.",
+          "choices": [
+            "The girl is glad.",
+            "The girl is happy.",
+            "The girl is sad.",
+            "The girl is funny."
+          ],
+          "answer_index": 2,
+          "explain_key": "happy_sad",
+          "media": [
+            {
+              "lemma": "girl"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_uses_an_antonym_0004",
+          "tier": 2,
+          "stem": "The word is fast.",
+          "choices": [
+            "The bike is quick.",
+            "The bike is fast.",
+            "The bike is new.",
+            "The bike is slow."
+          ],
+          "answer_index": 3,
+          "explain_key": "fast_slow",
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_uses_an_antonym_0005",
+          "tier": 2,
+          "stem": "The word is day.",
+          "choices": [
+            "The kids play at night.",
+            "The kids play by day.",
+            "The kids play at noon.",
+            "The kids play at home."
+          ],
+          "answer_index": 0,
+          "explain_key": "day_night",
+          "media": [
+            {
+              "lemma": "sun"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_uses_an_antonym_0006",
+          "tier": 2,
+          "stem": "The word is open.",
+          "choices": [
+            "Please open the door.",
+            "Please close the door.",
+            "Please lock the door.",
+            "Please wash the door."
+          ],
+          "answer_index": 1,
+          "explain_key": "open_close",
+          "media": [
+            {
+              "lemma": "door"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_uses_an_antonym_0007",
+          "tier": 3,
+          "stem": "<NAME> said the word quiet.",
+          "choices": [
+            "Mom sang quiet.",
+            "Mom sang soft.",
+            "Mom sang loud.",
+            "Mom sang quietly."
+          ],
+          "answer_index": 2,
+          "explain_key": "quiet_loud",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "mom"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_which_sentence_uses_an_antonym_0008",
+          "tier": 3,
+          "stem": "The word is always.",
+          "choices": [
+            "They always play ball.",
+            "They often play ball.",
+            "They also play ball.",
+            "They never play ball."
+          ],
+          "answer_index": 3,
+          "explain_key": "always_never",
+          "media": [
+            {
+              "lemma": "ball"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Exactly one choice uses a true antonym of the cue word named in the stem.",
+      "Wrong choices use the same cue word, a close-meaning word, or an unrelated kid word. Never a second true antonym.",
+      "Keep every sentence in kid world: school, home, food, pets, play, family, or weather. No brands.",
+      "Choice sentences must be grammatical, tap-friendly, and under 60 characters.",
+      "Tier 3 near-misses should be synonyms, milder cousins, or adverb forms of the cue, such as quietly for quiet.",
+      "Never use real names in stems or choices. Use only the <NAME> swap token in the stem."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bmp3\\b"
+  ],
+  "tier_rules": {
+    "1": "Cue stem is The word is plus a common one-syllable adjective. The right sentence uses a clear opposite such as hot and cold or big and little. Wrong sentences repeat the cue, use a near meaning, or use an unrelated kid word.",
+    "2": "Cue is a grade-two everyday word such as fast, day, or open. The right sentence uses the everyday opposite. One distractor is a close cousin such as quick, noon, or lock.",
+    "3": "Longer cue with <NAME> or a two-syllable word such as quiet or always. Near-miss distractors use a synonym, a milder cousin, or an adverb form. Only one true opposite."
+  },
+  "miss_explain": {
+    "hot_cold": {
+      "en": "Hot and cold are opposites. Tap the sentence with the opposite word.",
+      "ko": "hot와 cold는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "big_little": {
+      "en": "Big and little are opposites. Tap the sentence with the opposite word.",
+      "ko": "big과 little은 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "happy_sad": {
+      "en": "Happy and sad are opposites. Tap the sentence with the opposite word.",
+      "ko": "happy와 sad는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "fast_slow": {
+      "en": "Fast and slow are opposites. Tap the sentence with the opposite word.",
+      "ko": "fast와 slow는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "day_night": {
+      "en": "Day and night are opposites. Tap the sentence with the opposite word.",
+      "ko": "day와 night는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "open_close": {
+      "en": "Open and close are opposites. Tap the sentence with the opposite word.",
+      "ko": "open과 close는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "quiet_loud": {
+      "en": "Quiet and loud are opposites. Soft and quietly are not antonyms.",
+      "ko": "quiet와 loud는 반대말입니다. soft와 quietly는 반의어가 아닙니다."
+    },
+    "always_never": {
+      "en": "Always and never are opposites. Tap the sentence with the opposite word.",
+      "ko": "always와 never는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "pick_antonym": {
+      "en": "An antonym is the opposite word. Tap the sentence that uses it.",
+      "ko": "반의어는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "in_out": {
+      "en": "In and out are opposites. Tap the sentence with the opposite word.",
+      "ko": "in과 out은 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "up_down": {
+      "en": "Up and down are opposites. Tap the sentence with the opposite word.",
+      "ko": "up과 down은 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "new_old": {
+      "en": "New and old are opposites. Tap the sentence with the opposite word.",
+      "ko": "new와 old는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "long_short": {
+      "en": "Long and short are opposites. Tap the sentence with the opposite word.",
+      "ko": "long과 short는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "wet_dry": {
+      "en": "Wet and dry are opposites. Tap the sentence with the opposite word.",
+      "ko": "wet과 dry는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "early_late": {
+      "en": "Early and late are opposites. Tap the sentence with the opposite word.",
+      "ko": "early와 late는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "before_after": {
+      "en": "Before and after are opposites. Tap the sentence with the opposite word.",
+      "ko": "before와 after는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "inside_outside": {
+      "en": "Inside and outside are opposites. Tap the sentence with the opposite word.",
+      "ko": "inside와 outside는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "more_less": {
+      "en": "More and less are opposites. Tap the sentence with the opposite word.",
+      "ko": "more와 less는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "same_different": {
+      "en": "Same and different are opposites. Tap the sentence with the opposite word.",
+      "ko": "same과 different는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "good_bad": {
+      "en": "Good and bad are opposites. Tap the sentence with the opposite word.",
+      "ko": "good과 bad는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "full_empty": {
+      "en": "Full and empty are opposites. Tap the sentence with the opposite word.",
+      "ko": "full과 empty는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "hard_soft": {
+      "en": "Hard and soft are opposites. Tap the sentence with the opposite word.",
+      "ko": "hard와 soft는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "dark_light": {
+      "en": "Dark and light are opposites. Tap the sentence with the opposite word.",
+      "ko": "dark와 light는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "on_off": {
+      "en": "On and off are opposites. Tap the sentence with the opposite word.",
+      "ko": "on과 off는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "over_under": {
+      "en": "Over and under are opposites. Tap the sentence with the opposite word.",
+      "ko": "over와 under는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "left_right": {
+      "en": "Left and right are opposites. Tap the sentence with the opposite word.",
+      "ko": "left와 right는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "first_last": {
+      "en": "First and last are opposites. Tap the sentence with the opposite word.",
+      "ko": "first와 last는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "high_low": {
+      "en": "High and low are opposites. Tap the sentence with the opposite word.",
+      "ko": "high와 low는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "young_old": {
+      "en": "Young and old are opposites. Tap the sentence with the opposite word.",
+      "ko": "young과 old는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "front_back": {
+      "en": "Front and back are opposites. Tap the sentence with the opposite word.",
+      "ko": "front와 back은 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "right_wrong": {
+      "en": "Right and wrong are opposites. Tap the sentence with the opposite word.",
+      "ko": "right와 wrong은 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "clean_dirty": {
+      "en": "Clean and dirty are opposites. Tap the sentence with the opposite word.",
+      "ko": "clean과 dirty는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "sleep_wake": {
+      "en": "Sleep and wake are opposites. Tap the sentence with the opposite word.",
+      "ko": "sleep와 wake는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    },
+    "sit_stand": {
+      "en": "Sit and stand are opposites. Tap the sentence with the opposite word.",
+      "ko": "sit과 stand는 반대말입니다. 반대말이 있는 문장을 누르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Which sentence uses an antonym?"
+    ],
+    "no_ixl_text": true
+  }
+}

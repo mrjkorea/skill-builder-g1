@@ -1,0 +1,342 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_use_contractions_with_not",
+  "family_title_en": "Use contractions with not",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_use_contractions_with_not",
+      "ix_title": "Use contractions with \"not\"",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which contraction matches?",
+        "ko": "어떤 줄임말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the matching not contraction.",
+        "ko": "not이 들어간 알맞은 줄임말을 누르세요."
+      },
+      "choice_rule": "Exactly four not-contractions with apostrophes. One matches the expanded not-pair in the stem. Three are other not-contractions. Never use I'm, he's, she's, we're, they're, it's, or I've.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "isn't",
+        "aren't",
+        "don't",
+        "doesn't",
+        "didn't",
+        "can't",
+        "couldn't",
+        "wouldn't",
+        "shouldn't",
+        "wasn't",
+        "weren't",
+        "won't",
+        "cannot",
+        "hasn't",
+        "haven't",
+        "hadn't"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_use_contractions_with_not_0001",
+          "tier": 1,
+          "stem": "The cat is not sad.",
+          "choices": [
+            "isn't",
+            "don't",
+            "can't",
+            "won't"
+          ],
+          "answer_index": 0,
+          "explain_key": "isnt",
+          "media": [
+            {
+              "lemma": "cat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_contractions_with_not_0002",
+          "tier": 1,
+          "stem": "We do not run.",
+          "choices": [
+            "doesn't",
+            "don't",
+            "isn't",
+            "aren't"
+          ],
+          "answer_index": 1,
+          "explain_key": "dont"
+        },
+        {
+          "item_id": "roots_use_contractions_with_not_0003",
+          "tier": 1,
+          "stem": "The frogs are not wet.",
+          "choices": [
+            "don't",
+            "isn't",
+            "aren't",
+            "can't"
+          ],
+          "answer_index": 2,
+          "explain_key": "arent",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_contractions_with_not_0004",
+          "tier": 2,
+          "stem": "The puppy does not jump.",
+          "choices": [
+            "don't",
+            "didn't",
+            "isn't",
+            "doesn't"
+          ],
+          "answer_index": 3,
+          "explain_key": "doesnt",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_contractions_with_not_0005",
+          "tier": 2,
+          "stem": "<NAME> did not eat lunch.",
+          "choices": [
+            "didn't",
+            "doesn't",
+            "don't",
+            "wasn't"
+          ],
+          "answer_index": 0,
+          "explain_key": "didnt",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_use_contractions_with_not_0006",
+          "tier": 2,
+          "stem": "The door was not open.",
+          "choices": [
+            "isn't",
+            "wasn't",
+            "aren't",
+            "weren't"
+          ],
+          "answer_index": 1,
+          "explain_key": "wasnt",
+          "media": [
+            {
+              "lemma": "door"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_use_contractions_with_not_0007",
+          "tier": 3,
+          "stem": "The little children were not at school today.",
+          "choices": [
+            "wasn't",
+            "aren't",
+            "weren't",
+            "isn't"
+          ],
+          "answer_index": 2,
+          "explain_key": "werent"
+        },
+        {
+          "item_id": "roots_use_contractions_with_not_0008",
+          "tier": 3,
+          "stem": "<NAME> will not ride the bike today.",
+          "choices": [
+            "wouldn't",
+            "wasn't",
+            "don't",
+            "won't"
+          ],
+          "answer_index": 3,
+          "explain_key": "wont",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer exactly four not-contractions. Exactly one matches the two-word form in the stem.",
+      "Never offer I'm, he's, she's, we're, they're, it's, I've, or that's.",
+      "Always write contractions with an apostrophe: isn't, not isnt.",
+      "Tier 1 wrong choices use distant helping verbs so the match is obvious.",
+      "Tier 2 distractors come from nearby tense or number pairs such as don't, doesn't, and didn't.",
+      "Tier 3 uses near-miss pairs: wasn't/weren't, won't/wouldn't, don't/doesn't, can't/couldn't.",
+      "Keep stems as kid statements that hold the expanded form. Never put the answer contraction in the stem.",
+      "Cover many not-pairs across the pool: is/are, do/does/did, was/were, will/would, can/could, should, has/have/had.",
+      "One right answer only. Never write two contractions that both fit.",
+      "Use <NAME> from names.txt. Never write a real name."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\byahoo\\b",
+    "\\bebay\\b",
+    "\\bcontraction\\b",
+    "\\bapostrophe\\b",
+    "\\bisnt\\b",
+    "\\barent\\b",
+    "\\bdont\\b",
+    "\\bdoesnt\\b",
+    "\\bdidnt\\b",
+    "\\bwasnt\\b",
+    "\\bwerent\\b",
+    "\\bwont\\b",
+    "\\bwouldnt\\b",
+    "\\bshouldnt\\b",
+    "\\bcouldnt\\b",
+    "\\bcant\\b",
+    "\\bhasnt\\b",
+    "\\bhavent\\b",
+    "\\bhadnt\\b",
+    "\\bi'm\\b",
+    "\\bhe's\\b",
+    "\\bshe's\\b",
+    "\\bwe're\\b",
+    "\\bthey're\\b",
+    "\\bit's\\b",
+    "\\bi've\\b",
+    "\\byou've\\b",
+    "\\bwe've\\b",
+    "\\bthat's\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. Use easy pairs such as is not, do not, and are not. Wrong choices use far helping verbs. Add a picture lemma when the noun is concrete.",
+    "2": "Grade-level stems of five to seven words. Mix does not, did not, was not, and can not. Distractors are other not-contractions from nearby tenses.",
+    "3": "Longer stems up to ten words. Use near-miss distractors such as was/were, will/would, and do/does. Two-syllable words are fine."
+  },
+  "miss_explain": {
+    "isnt": {
+      "en": "Is not shortens to isn't.",
+      "ko": "is not은 isn't으로 줄어듭니다."
+    },
+    "arent": {
+      "en": "Are not shortens to aren't.",
+      "ko": "are not은 aren't으로 줄어듭니다."
+    },
+    "dont": {
+      "en": "Do not shortens to don't.",
+      "ko": "do not은 don't으로 줄어듭니다."
+    },
+    "doesnt": {
+      "en": "Does not shortens to doesn't.",
+      "ko": "does not은 doesn't으로 줄어듭니다."
+    },
+    "didnt": {
+      "en": "Did not shortens to didn't.",
+      "ko": "did not은 didn't으로 줄어듭니다."
+    },
+    "wasnt": {
+      "en": "Was not shortens to wasn't.",
+      "ko": "was not은 wasn't으로 줄어듭니다."
+    },
+    "werent": {
+      "en": "Were not shortens to weren't.",
+      "ko": "were not은 weren't으로 줄어듭니다."
+    },
+    "wont": {
+      "en": "Will not shortens to won't.",
+      "ko": "will not은 won't으로 줄어듭니다."
+    },
+    "cant": {
+      "en": "Can not shortens to can't.",
+      "ko": "can not은 can't으로 줄어듭니다."
+    },
+    "couldnt": {
+      "en": "Could not shortens to couldn't.",
+      "ko": "could not은 couldn't으로 줄어듭니다."
+    },
+    "wouldnt": {
+      "en": "Would not shortens to wouldn't.",
+      "ko": "would not은 wouldn't으로 줄어듭니다."
+    },
+    "shouldnt": {
+      "en": "Should not shortens to shouldn't.",
+      "ko": "should not은 shouldn't으로 줄어듭니다."
+    },
+    "hasnt": {
+      "en": "Has not shortens to hasn't.",
+      "ko": "has not은 hasn't으로 줄어듭니다."
+    },
+    "havent": {
+      "en": "Have not shortens to haven't.",
+      "ko": "have not은 haven't으로 줄어듭니다."
+    },
+    "hadnt": {
+      "en": "Had not shortens to hadn't.",
+      "ko": "had not은 hadn't으로 줄어듭니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Use contractions with \"not\""
+    ],
+    "no_ixl_text": true
+  }
+}

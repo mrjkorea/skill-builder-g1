@@ -1,0 +1,288 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_capitalizing_the_names_of_places_and_geograp",
+  "family_title_en": "Capitalizing the names of places and geographic features",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_capitalizing_the_names_of_places_and_geograp",
+      "ix_title": "Capitalizing the names of places and geographic features",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which sentence is written right?",
+        "ko": "어떤 문장이 바르게 쓰였나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the sentence that uses capitals the right way.",
+        "ko": "대문자를 바르게 쓴 문장을 누르세요."
+      },
+      "choice_rule": "Four full sentences that reuse the stem words. Exactly one capitalizes the first word plus place and geographic names only (cities, states, countries, and named streets, lakes, and rivers). Two-word names need a capital on each word. Distractors leave a place name lowercase, capitalize only one word of a two-word name, capitalize a common place word (park, lake, river, beach, school, street), or capitalize a random mid-sentence word. Never change word order or add words.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "ocean",
+        "mountain",
+        "island",
+        "maple",
+        "oak",
+        "pine",
+        "ohio",
+        "florida",
+        "mexico",
+        "oregon",
+        "alaska",
+        "avenue",
+        "pacific",
+        "atlantic"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0001",
+          "tier": 1,
+          "stem": "We live in texas.",
+          "choices": [
+            "We live in Texas.",
+            "We live in texas.",
+            "We Live in texas.",
+            "we live in Texas."
+          ],
+          "answer_index": 0,
+          "explain_key": "place_name",
+          "media": [
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0002",
+          "tier": 1,
+          "stem": "They went to london.",
+          "choices": [
+            "They went to london.",
+            "They went to London.",
+            "They Went to london.",
+            "they went to London."
+          ],
+          "answer_index": 1,
+          "explain_key": "place_name",
+          "media": [
+            {
+              "lemma": "train"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0003",
+          "tier": 1,
+          "stem": "We play at the Lake.",
+          "choices": [
+            "We play at the lake.",
+            "We play at the Lake.",
+            "We Play at the lake.",
+            "we play at the Lake."
+          ],
+          "answer_index": 0,
+          "explain_key": "common_place",
+          "media": [
+            {
+              "lemma": "lake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0004",
+          "tier": 2,
+          "stem": "Our school is in california.",
+          "choices": [
+            "Our school is in california.",
+            "Our School is in california.",
+            "Our school is in California.",
+            "our school is in California."
+          ],
+          "answer_index": 2,
+          "explain_key": "place_name",
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0005",
+          "tier": 2,
+          "stem": "The bus stop is on main street.",
+          "choices": [
+            "The bus stop is on Main Street.",
+            "The bus stop is on main street.",
+            "The bus stop is on Main street.",
+            "The Bus stop is on main Street."
+          ],
+          "answer_index": 0,
+          "explain_key": "geo_name",
+          "media": [
+            {
+              "lemma": "bus"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0006",
+          "tier": 2,
+          "stem": "<NAME> will visit china.",
+          "choices": [
+            "<NAME> will visit China.",
+            "<NAME> will visit china.",
+            "<NAME> Will visit china.",
+            "<NAME> will Visit China."
+          ],
+          "answer_index": 0,
+          "explain_key": "place_name",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "plane"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0007",
+          "tier": 3,
+          "stem": "My aunt is in new york.",
+          "choices": [
+            "My aunt is in New York.",
+            "My aunt is in new york.",
+            "My aunt is in New york.",
+            "My Aunt is in new York."
+          ],
+          "answer_index": 0,
+          "explain_key": "place_name",
+          "media": [
+            {
+              "lemma": "house"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_capitalizing_the_names_of_places_and_geograp_0008",
+          "tier": 3,
+          "stem": "The beach in florida is hot.",
+          "choices": [
+            "The beach in Florida is hot.",
+            "The Beach in florida is hot.",
+            "The beach in florida is hot.",
+            "The Beach in Florida is hot."
+          ],
+          "answer_index": 0,
+          "explain_key": "place_not_common",
+          "media": [
+            {
+              "lemma": "beach"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep all four choices the same words in the same order. Only capitals may change.",
+      "Exactly one choice is right: first word plus place and geographic names only.",
+      "Wrong choices must be near the skill: drop the place capital, cap a common place word, cap only half of a two-word name, or cap a random verb or noun.",
+      "Never use real personal names. Use <NAME> when a person is needed.",
+      "Keep stems in kid world: home, school, family, pets, play, food, weather. No brands.",
+      "Balance the pool across cities, states, countries, named streets or rivers, common place words, and mixed stems that hold both."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bquestion mark\\b",
+    "\\bpunctuation\\b",
+    "\\bproper noun\\b",
+    "\\bcapital letter\\b",
+    "\\buppercase\\b",
+    "\\blowercase\\b",
+    "\\bcapitalize\\b",
+    "\\bgeographic\\b",
+    "\\bjohn\\b",
+    "\\bdavid\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words. One clear city, state, or country left lowercase, or one common place word wrongly capitalized. Distractors are far: a random mid-sentence capital or a lowercase first word.",
+    "2": "Grade-level stems of five to eight words. Use two-syllable place names and named streets. Distractors miss one word of a two-word name or capitalize school, park, or street when it is not a name.",
+    "3": "Near misses. Mix a common place word with a real place name, or use two-word places. Distractors capitalize the common word, leave one half of the name lowercase, or capitalize a verb."
+  },
+  "miss_explain": {
+    "place_name": {
+      "en": "Names of cities, states, and countries need a capital letter.",
+      "ko": "도시, 주, 나라 이름은 대문자로 씁니다."
+    },
+    "geo_name": {
+      "en": "Names of streets, lakes, and rivers need a capital.",
+      "ko": "거리, 호수, 강 이름은 대문자로 씁니다."
+    },
+    "common_place": {
+      "en": "A regular park, lake, or river is not a name. Do not capitalize it.",
+      "ko": "그냥 공원, 호수, 강은 이름이 아닙니다. 대문자로 쓰지 마세요."
+    },
+    "place_not_common": {
+      "en": "Capitalize the place name. Leave park, beach, and river lowercase.",
+      "ko": "지명만 대문자로 쓰고, 공원, 해변, 강은 소문자로 두세요."
+    },
+    "first_only": {
+      "en": "Capitalize the place name. Do not capitalize every word.",
+      "ko": "지명만 대문자로 쓰세요. 모든 단어를 대문자로 쓰지 마세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Capitalizing the names of places and geographic features"
+    ],
+    "no_ixl_text": true
+  }
+}

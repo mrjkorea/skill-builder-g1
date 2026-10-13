@@ -1,0 +1,317 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_and_use_the_irregular_past_tense_set_1",
+  "family_title_en": "Irregular past tense: set 1",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_and_use_the_irregular_past_tense_set_1",
+      "ix_title": "Form and use the irregular past tense: set 1",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word is the past tense?",
+        "ko": "어떤 단어가 과거형인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that already happened.",
+        "ko": "이미 일어난 일을 나타내는 단어를 누르세요."
+      },
+      "choice_rule": "Four single lowercase words. Exactly one is the irregular past that matches the stem verb. Use only these pairs: eat/ate, run/ran, see/saw, go/went, make/made, drink/drank, write/wrote, give/gave, come/came, take/took, do/did, say/said, get/got, sit/sat, find/found, tell/told, draw/drew, fly/flew, grow/grew, ride/rode, hide/hid, fall/fell. Stem shows a time clue plus the base verb. Distractors are overregularized -ed, present or -s, -ing, a participle (gone, done, given, written, taken), or for tier 3 a different pair's past. Never two correct answers.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "goed",
+        "eated",
+        "runned",
+        "maked",
+        "drinked",
+        "writed",
+        "gived",
+        "taked",
+        "comed",
+        "doed",
+        "sitted",
+        "sayed",
+        "finded",
+        "telled",
+        "drawed",
+        "growed",
+        "rided",
+        "hided",
+        "falled",
+        "written",
+        "taken",
+        "eaten",
+        "seen",
+        "flied",
+        "getted"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0001",
+          "tier": 1,
+          "stem": "Yesterday <NAME> eat an apple.",
+          "choices": [
+            "ate",
+            "eated",
+            "eats",
+            "eating"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_regular",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0002",
+          "tier": 1,
+          "stem": "Yesterday the dog run home.",
+          "choices": [
+            "runned",
+            "ran",
+            "runs",
+            "running"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_present",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0003",
+          "tier": 1,
+          "stem": "Last night <NAME> see a bird.",
+          "choices": [
+            "see",
+            "sees",
+            "saw",
+            "seeing"
+          ],
+          "answer_index": 2,
+          "explain_key": "use_past",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0004",
+          "tier": 2,
+          "stem": "Yesterday <NAME> go to school.",
+          "choices": [
+            "went",
+            "goed",
+            "goes",
+            "gone"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_participle",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0005",
+          "tier": 2,
+          "stem": "Yesterday <NAME> make a cake.",
+          "choices": [
+            "maked",
+            "makes",
+            "making",
+            "made"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_regular",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0006",
+          "tier": 2,
+          "stem": "Last night the baby drink milk.",
+          "choices": [
+            "drinked",
+            "drank",
+            "drinks",
+            "drinking"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_ing",
+          "media": [
+            {
+              "lemma": "milk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0007",
+          "tier": 3,
+          "stem": "Yesterday <NAME> write a letter.",
+          "choices": [
+            "writed",
+            "written",
+            "wrote",
+            "writes"
+          ],
+          "answer_index": 2,
+          "explain_key": "not_participle",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "letter"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_and_use_the_irregular_past_tense_set_1_0008",
+          "tier": 3,
+          "stem": "Yesterday <NAME> give mom a gift.",
+          "choices": [
+            "gave",
+            "given",
+            "gived",
+            "got"
+          ],
+          "answer_index": 0,
+          "explain_key": "wrong_verb",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "gift"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Offer four unique one-word choices. Exactly one is the irregular past that matches the stem verb.",
+      "Every stem needs a time clue (yesterday or last night) and the base form of one set-1 verb.",
+      "Tier 1 distractors are far: overregularized -ed, present, and -ing of the same verb.",
+      "Tier 2 may add a participle that needs have or has, such as gone, done, or given.",
+      "Tier 3 uses near misses: a participle or a different set-1 past (got for give, drew for write).",
+      "Never write two forms that could both complete the stem. Never invent a second past for the same verb.",
+      "Keep choices in the kid world: school, home, food, pets, play, family, weather. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\birregular\\b",
+    "\\btense\\b",
+    "\\bconjugate",
+    "\\bparticiple",
+    "\\binfinitive",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebays?\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words with yesterday or last night. Distractors are a fake -ed form, a present form, and an -ing form. Add a lemma picture.",
+    "2": "Grade-level stems of five to seven words. Mix overregularized -ed with a participle such as gone or given, plus present or -ing.",
+    "3": "Near-miss distractors: written or taken beside the true past, or a different irregular past from the same set. Stems may use two-syllable nouns."
+  },
+  "miss_explain": {
+    "not_regular": {
+      "en": "This verb does not add -ed. Pick the special past form.",
+      "ko": "이 동사는 -ed를 붙이지 않습니다. 특별한 과거형을 고르세요."
+    },
+    "not_present": {
+      "en": "That word is for now. Yesterday needs the past form.",
+      "ko": "그 단어는 지금을 나타냅니다. yesterday에는 과거형이 필요합니다."
+    },
+    "not_ing": {
+      "en": "A word that ends in -ing is not the past.",
+      "ko": "-ing로 끝나는 단어는 과거형이 아닙니다."
+    },
+    "not_participle": {
+      "en": "Gone, done, and given need have or has. Pick the past that stands alone.",
+      "ko": "gone, done, given은 have나 has가 필요합니다. 혼자 쓰는 과거형을 고르세요."
+    },
+    "wrong_verb": {
+      "en": "That past form belongs to a different verb.",
+      "ko": "그 과거형은 다른 동사의 과거형입니다."
+    },
+    "use_past": {
+      "en": "A time word like yesterday means the action already happened.",
+      "ko": "yesterday 같은 말은 이미 일어난 일을 뜻합니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form and use the irregular past tense: set 1"
+    ],
+    "no_ixl_text": true
+  }
+}

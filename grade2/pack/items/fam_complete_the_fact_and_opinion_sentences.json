@@ -1,0 +1,2408 @@
+[
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0001",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. A frog can live in",
+    "choices": [
+      "a pretty place",
+      "a pond",
+      "the best home",
+      "a fun spot"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "frog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0002",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. This cake is",
+    "choices": [
+      "on a plate",
+      "from the store",
+      "the best",
+      "in a box"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0003",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. Ice is very",
+    "choices": [
+      "pretty",
+      "tasty",
+      "cold",
+      "fun"
+    ],
+    "answer_index": 2,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0004",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. The little puppy is",
+    "choices": [
+      "brown",
+      "young",
+      "funny",
+      "wet"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0005",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. My little dog ate a",
+    "choices": [
+      "tasty treat",
+      "fun snack",
+      "bone",
+      "pretty meal"
+    ],
+    "answer_index": 2,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0006",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. Recess at school is",
+    "choices": [
+      "after lunch",
+      "before class",
+      "at noon",
+      "fun"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0007",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. My brother rode the bus to",
+    "choices": [
+      "the best school",
+      "a fun town",
+      "school",
+      "a pretty park"
+    ],
+    "answer_index": 2,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0008",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. My friend <NAME> is",
+    "choices": [
+      "at home",
+      "in bed",
+      "funny",
+      "at school"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0009",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. A cat has four",
+    "choices": [
+      "feet",
+      "cute feet",
+      "fun feet",
+      "pretty feet"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0010",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. My soup is",
+    "choices": [
+      "in a bowl",
+      "yummy",
+      "very hot",
+      "on the stove"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0011",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. The sun is",
+    "choices": [
+      "the best",
+      "very fun",
+      "pretty",
+      "very hot"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0012",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. This book is",
+    "choices": [
+      "great",
+      "on my desk",
+      "in my bag",
+      "at school"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "book"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0013",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. Fish live in",
+    "choices": [
+      "a fun place",
+      "water",
+      "the best spot",
+      "a pretty home"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0014",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. My pet rabbit is",
+    "choices": [
+      "in a box",
+      "in the yard",
+      "brown",
+      "cute"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rabbit"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0015",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. Snow is white and",
+    "choices": [
+      "cold",
+      "fun",
+      "pretty",
+      "best"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0016",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. Hot soup at lunch is",
+    "choices": [
+      "in a bowl",
+      "after class",
+      "tasty",
+      "at school"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0017",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. A bird has two",
+    "choices": [
+      "pretty wings",
+      "wings",
+      "the best wings",
+      "fun wings"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0018",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. The big red ball is",
+    "choices": [
+      "on the grass",
+      "in the yard",
+      "by the gate",
+      "fun"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0019",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. A week has seven",
+    "choices": [
+      "days",
+      "fun days",
+      "pretty days",
+      "best days"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "day"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0020",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. My blue hat is",
+    "choices": [
+      "on my head",
+      "pretty",
+      "in my room",
+      "by the door"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0021",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. My cat can",
+    "choices": [
+      "be fun",
+      "be cute",
+      "be best",
+      "meow"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0022",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. Warm milk at night is",
+    "choices": [
+      "cozy",
+      "in a cup",
+      "before bed",
+      "from the store"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "milk"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0023",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. Rain is in the",
+    "choices": [
+      "pretty sky",
+      "sky",
+      "fun sky",
+      "best sky"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0024",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. My little sister is",
+    "choices": [
+      "in first grade",
+      "at home now",
+      "in grade two",
+      "nice"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sister"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0025",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. I got an egg from a",
+    "choices": [
+      "hen",
+      "pretty bird",
+      "fun hen",
+      "best bird"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "egg"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0026",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. Grapes for a snack are",
+    "choices": [
+      "in a bowl",
+      "from the store",
+      "sweet",
+      "on the table"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0027",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. The moon shines at",
+    "choices": [
+      "a fun time",
+      "night",
+      "the best time",
+      "a pretty time"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "moon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0028",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. My soft teddy is",
+    "choices": [
+      "on my bed",
+      "in my room",
+      "by the lamp",
+      "cute"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "teddy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0029",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. Honey is in a",
+    "choices": [
+      "hive",
+      "fun nest",
+      "pretty nest",
+      "best nest"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "honey"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0030",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. Jump rope at gym is",
+    "choices": [
+      "after lunch",
+      "fun",
+      "before class",
+      "at ten"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rope"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0031",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. A tree is very",
+    "choices": [
+      "fun",
+      "pretty",
+      "best",
+      "tall"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0032",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. A banana at lunch is",
+    "choices": [
+      "yummy",
+      "in a bag",
+      "from the store",
+      "on the table"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "banana"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0033",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. A duck swims in a",
+    "choices": [
+      "best place",
+      "pond",
+      "fun place",
+      "pretty place"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "duck"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0034",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Opinion. The new crayons are",
+    "choices": [
+      "in my desk",
+      "from art class",
+      "in a box",
+      "bright"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0035",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 1,
+    "item_type": "abcd",
+    "stem": "Fact. A star shines at",
+    "choices": [
+      "night",
+      "a fun time",
+      "the best time",
+      "a pretty time"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "star"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0036",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. Cookies from grandma smell",
+    "choices": [
+      "from the oven",
+      "in the kitchen",
+      "great",
+      "after school"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0037",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. We eat lunch in the",
+    "choices": [
+      "best room",
+      "kitchen",
+      "fun room",
+      "pretty room"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0038",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. My dad drove us to the",
+    "choices": [
+      "best park",
+      "fun park",
+      "pretty park",
+      "store"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "store"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0039",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. A wet day feels",
+    "choices": [
+      "sad",
+      "in april",
+      "after lunch",
+      "at school"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0040",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. An owl is out at",
+    "choices": [
+      "a fun time",
+      "night",
+      "the best time",
+      "a pretty time"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "owl"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0041",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. A math test is",
+    "choices": [
+      "on friday",
+      "after recess",
+      "in the morning",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "math"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0042",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. My sister lost a",
+    "choices": [
+      "tooth",
+      "pretty tooth",
+      "fun tooth",
+      "best tooth"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tooth"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0043",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. The green grapes taste",
+    "choices": [
+      "from the store",
+      "sweet",
+      "in a bowl",
+      "after lunch"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "grape"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0044",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. Ants live in a little",
+    "choices": [
+      "fun home",
+      "pretty home",
+      "best home",
+      "nest"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0045",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. My bike ride feels",
+    "choices": [
+      "great",
+      "in the yard",
+      "after school",
+      "on the road"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bike"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0046",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. The horse ate some",
+    "choices": [
+      "tasty hay",
+      "fun hay",
+      "hay",
+      "pretty hay"
+    ],
+    "answer_index": 2,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "horse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0047",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. Our class pet mouse is",
+    "choices": [
+      "in a box",
+      "cute",
+      "from the store",
+      "in the room"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0048",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. I wrote my name with a",
+    "choices": [
+      "fun pen",
+      "pretty pen",
+      "best pen",
+      "pencil"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pencil"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0049",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. A long school day is",
+    "choices": [
+      "tired",
+      "from eight",
+      "until three",
+      "on monday"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "school"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0050",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. A turtle is very",
+    "choices": [
+      "fun",
+      "slow",
+      "pretty",
+      "best"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0051",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. Hot rice at dinner smells",
+    "choices": [
+      "from the pot",
+      "in the kitchen",
+      "at six",
+      "great"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0052",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. We saw a fox by the",
+    "choices": [
+      "road",
+      "fun road",
+      "pretty road",
+      "best road"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fox"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0053",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. My old brown boots are",
+    "choices": [
+      "in the hall",
+      "worst",
+      "by the door",
+      "from last year"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "boot"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0054",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. We eat lunch at",
+    "choices": [
+      "a fun time",
+      "the best time",
+      "a pretty time",
+      "noon"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0055",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. A ball game at recess is",
+    "choices": [
+      "fun",
+      "after lunch",
+      "before class",
+      "at school"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ball"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0056",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. An ant is on a",
+    "choices": [
+      "fun flower",
+      "pretty flower",
+      "flower",
+      "best flower"
+    ],
+    "answer_index": 2,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0057",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. I think the wind is",
+    "choices": [
+      "from the west",
+      "cool",
+      "after rain",
+      "in spring"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "wind"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0058",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. My cat is on the",
+    "choices": [
+      "fun rug",
+      "pretty rug",
+      "best rug",
+      "rug"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0059",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. The big yellow bus is",
+    "choices": [
+      "slow",
+      "at the gate",
+      "by the road",
+      "from school"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0060",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. We put a seed in the",
+    "choices": [
+      "fun soil",
+      "soil",
+      "pretty soil",
+      "best soil"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "seed"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0061",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. My aunt thinks pie is",
+    "choices": [
+      "from the store",
+      "in the oven",
+      "after dinner",
+      "tasty"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "pie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0062",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. A snake is under a",
+    "choices": [
+      "rock",
+      "fun rock",
+      "pretty rock",
+      "best rock"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snake"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0063",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. A dark cloud is",
+    "choices": [
+      "in the west",
+      "scary",
+      "after lunch",
+      "at noon"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cloud"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0064",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. I drank cold",
+    "choices": [
+      "fun juice",
+      "pretty juice",
+      "best juice",
+      "juice"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "juice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0065",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. Building with blocks is",
+    "choices": [
+      "fun",
+      "after nap",
+      "before lunch",
+      "in the room"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "block"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0066",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. A bird built a",
+    "choices": [
+      "fun nest",
+      "pretty nest",
+      "nest",
+      "best nest"
+    ],
+    "answer_index": 2,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bird"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0067",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. Hot soup in a bowl is",
+    "choices": [
+      "on the table",
+      "tasty",
+      "from the pot",
+      "at lunch"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "soup"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0068",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. My brother got a",
+    "choices": [
+      "fun fish",
+      "pretty fish",
+      "best fish",
+      "fish"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "fish"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0069",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. The tiny kitten is",
+    "choices": [
+      "cute",
+      "in a box",
+      "from the barn",
+      "at home"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kitten"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0070",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. My coat is on a",
+    "choices": [
+      "fun hook",
+      "hook",
+      "pretty hook",
+      "best hook"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "coat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0071",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Opinion. A long winter feels",
+    "choices": [
+      "in january",
+      "after snow",
+      "at night",
+      "cold"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "winter"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0072",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 2,
+    "item_type": "abcd",
+    "stem": "Fact. A cow ate green",
+    "choices": [
+      "grass",
+      "fun grass",
+      "pretty grass",
+      "best grass"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0073",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. My crayon is",
+    "choices": [
+      "the best red",
+      "blue",
+      "a fun blue",
+      "a pretty pink"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "crayon"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0074",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The best park ever is",
+    "choices": [
+      "by the lake",
+      "near my house",
+      "down the road",
+      "fun"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "park"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0075",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The yard was white after",
+    "choices": [
+      "snow",
+      "fun rain",
+      "best wind",
+      "pretty rain"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "snow"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0076",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The tall tree in yard is",
+    "choices": [
+      "by the fence",
+      "near the road",
+      "strong",
+      "in the sun"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "tree"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0077",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The flower is in the",
+    "choices": [
+      "best vase",
+      "vase",
+      "fun pot",
+      "pretty cup"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "flower"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0078",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. My pal <NAME> is",
+    "choices": [
+      "at the game",
+      "from my town",
+      "in grade two",
+      "nice"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "kid"
+      }
+    ],
+    "swap_slots": {
+      "NAME": "names.txt"
+    }
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0079",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The apple on my plate was",
+    "choices": [
+      "red",
+      "the best one",
+      "a fun snack",
+      "from the store"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "apple"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0080",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The bus ride home is",
+    "choices": [
+      "at three ten",
+      "long",
+      "after school",
+      "by the store"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bus"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0081",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The story my dad read was",
+    "choices": [
+      "the best story",
+      "a fun book",
+      "about a frog",
+      "long"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "story"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0082",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. Cold ice in a cup is",
+    "choices": [
+      "yummy",
+      "on the table",
+      "from the store",
+      "after lunch"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ice"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0083",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The worst rain we had was",
+    "choices": [
+      "the best day",
+      "in march",
+      "a fun day",
+      "very loud"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "rain"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0084",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The little gray mouse is",
+    "choices": [
+      "in the wall",
+      "under the sink",
+      "by the door",
+      "scary"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "mouse"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0085",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The cute pup at the barn was",
+    "choices": [
+      "brown",
+      "the best dog",
+      "a fun pet",
+      "very small"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "puppy"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0086",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. Work after dinner is",
+    "choices": [
+      "at seven",
+      "before bed",
+      "hard",
+      "on tuesday"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "work"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0087",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The yummy cookie on the plate was",
+    "choices": [
+      "the best one",
+      "big",
+      "a fun treat",
+      "from grandma"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "cookie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0088",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The wet path by the creek is",
+    "choices": [
+      "by the barn",
+      "after rain",
+      "near the road",
+      "worst"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "path"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0089",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The happy day at camp was",
+    "choices": [
+      "in july",
+      "the best week",
+      "a fun time",
+      "very hot"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "camp"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0090",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The old bench in the park is",
+    "choices": [
+      "by the tree",
+      "worst",
+      "in the sun",
+      "near the gate"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bench"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0091",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The loud thunder last night was",
+    "choices": [
+      "the best hit",
+      "a fun time",
+      "very strong",
+      "very loud"
+    ],
+    "answer_index": 3,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "thunder"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0092",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. Fresh bread from the oven is",
+    "choices": [
+      "tasty",
+      "on the table",
+      "in the kitchen",
+      "after school"
+    ],
+    "answer_index": 0,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "bread"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0093",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The pretty dress at the party was",
+    "choices": [
+      "the best one",
+      "pink",
+      "a fun dress",
+      "from the store"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dress"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0094",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The long wait for lunch is",
+    "choices": [
+      "until noon",
+      "after math",
+      "at ten",
+      "hard"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "lunch"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0095",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The scary movie at home was",
+    "choices": [
+      "about owls",
+      "the best show",
+      "a fun story",
+      "very long"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "movie"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0096",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The tiny ant on my hand is",
+    "choices": [
+      "from the grass",
+      "after picnic",
+      "scary",
+      "near the hill"
+    ],
+    "answer_index": 2,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "ant"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0097",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The best time to feed my dog is",
+    "choices": [
+      "the fun time",
+      "at six",
+      "a pretty time",
+      "very early"
+    ],
+    "answer_index": 1,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "dog"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0098",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The bright sun at noon is",
+    "choices": [
+      "in the sky",
+      "after breakfast",
+      "on monday",
+      "hot"
+    ],
+    "answer_index": 3,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "sun"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0099",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Fact. The funny hat at the party was",
+    "choices": [
+      "red",
+      "the best hat",
+      "a pretty cap",
+      "on my head"
+    ],
+    "answer_index": 0,
+    "explain_key": "fact_check",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "hat"
+      }
+    ]
+  },
+  {
+    "item_id": "roots_complete_the_fact_and_opinion_sentences_0100",
+    "family_id": "fam_complete_the_fact_and_opinion_sentences",
+    "skill_id": "roots_complete_the_fact_and_opinion_sentences",
+    "stage": "roots",
+    "tier": 3,
+    "item_type": "abcd",
+    "stem": "Opinion. The slow turtle in the box is",
+    "choices": [
+      "by the lamp",
+      "worst",
+      "from the pet store",
+      "in my room"
+    ],
+    "answer_index": 1,
+    "explain_key": "opinion_feel",
+    "source": "composer-2.5",
+    "spec_version": 1,
+    "media": [
+      {
+        "lemma": "turtle"
+      }
+    ]
+  }
+]

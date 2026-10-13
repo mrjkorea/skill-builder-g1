@@ -1,0 +1,265 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_the_short_e_word",
+  "family_title_en": "Spell the short e word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_the_short_e_word",
+      "ix_title": "Spell the short e word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which short e spelling is right?",
+        "ko": "바른 단모음 e 철자는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the correct spelling.",
+        "ko": "바른 철자를 누르세요."
+      },
+      "choice_rule": "Each stem is a clue of at most ten roots-list words and must not already show the target spelling. Give four different whole-word choices for that one word: the correct short e spelling, plus three foils that swap the vowel for a, i, or ee. Exactly one choice is correct.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_the_short_e_word_0001",
+          "tier": 1,
+          "stem": "I nap in my",
+          "choices": [
+            "bed",
+            "bad",
+            "bead",
+            "bid"
+          ],
+          "answer_index": 0,
+          "explain_key": "short_e_cvc",
+          "media": [
+            {
+              "lemma": "bed"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_e_word_0002",
+          "tier": 1,
+          "stem": "The ink is in my",
+          "choices": [
+            "pan",
+            "pin",
+            "pen",
+            "peen"
+          ],
+          "answer_index": 2,
+          "explain_key": "short_e_cvc",
+          "media": [
+            {
+              "lemma": "pen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_e_word_0003",
+          "tier": 1,
+          "stem": "The bird at home is a",
+          "choices": [
+            "han",
+            "hen",
+            "hin",
+            "heen"
+          ],
+          "answer_index": 1,
+          "explain_key": "short_e_cvc",
+          "media": [
+            {
+              "lemma": "hen"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_e_word_0004",
+          "tier": 2,
+          "stem": "A bird sat in the",
+          "choices": [
+            "nist",
+            "neest",
+            "nast",
+            "nest"
+          ],
+          "answer_index": 3,
+          "explain_key": "short_e_blend",
+          "media": [
+            {
+              "lemma": "nest"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_e_word_0005",
+          "tier": 2,
+          "stem": "I do my work at the",
+          "choices": [
+            "dask",
+            "desk",
+            "deesk",
+            "disk"
+          ],
+          "answer_index": 1,
+          "explain_key": "short_e_blend",
+          "media": [
+            {
+              "lemma": "desk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_e_word_0006",
+          "tier": 2,
+          "stem": "My snow toy at home is a",
+          "choices": [
+            "slad",
+            "sleed",
+            "sled",
+            "slid"
+          ],
+          "answer_index": 2,
+          "explain_key": "short_e_blend",
+          "media": [
+            {
+              "lemma": "sled"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_e_word_0007",
+          "tier": 3,
+          "stem": "<NAME> can draw a big cat with a",
+          "choices": [
+            "pincil",
+            "peencil",
+            "pancil",
+            "pencil"
+          ],
+          "answer_index": 3,
+          "explain_key": "short_e_two",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "pencil"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_the_short_e_word_0008",
+          "tier": 3,
+          "stem": "Count the days in one full week",
+          "choices": [
+            "savan",
+            "seven",
+            "sivin",
+            "seeven"
+          ],
+          "answer_index": 1,
+          "explain_key": "short_e_two",
+          "media": [
+            {
+              "lemma": "seven"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Each item has four whole-word choices and exactly one correct short e spelling.",
+      "Wrong choices keep the other letters and change the short e vowel to a, i, or ee.",
+      "A foil must not be a second correct spelling of the clue word.",
+      "Tier 1 targets are simple words such as bed, pen, or hen, with easy vowel swaps.",
+      "Tier 2 targets are blend words such as nest, desk, or sled, and foils keep the consonants.",
+      "Tier 3 targets are two-syllable words such as pencil or seven, and foils change only the short e vowel.",
+      "Keep clues in school, home, food, pets, play, family, or weather, with no brand names.",
+      "Use <NAME> when a clue needs a child, and do not use a real person's name."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b",
+    "\\bdisney\\b",
+    "\\bnike\\b",
+    "\\blego\\b",
+    "\\byoutube\\b",
+    "\\bgoogle\\b",
+    "\\bpokemon\\b"
+  ],
+  "tier_rules": {
+    "1": "Use a stem of three to six words that clues a simple short e word such as bed, pen, or hen. Wrong choices swap in a, i, or ee.",
+    "2": "Use a stem of five to eight words that clues a short e blend word such as nest, desk, or sled. Wrong choices keep the consonants and miss the vowel.",
+    "3": "Use a stem of seven to ten words that clues a two-syllable short e word such as pencil or seven. Wrong choices change only that short e vowel to a, i, or ee."
+  },
+  "miss_explain": {
+    "short_e_cvc": {
+      "en": "The short e vowel uses one e, as in bed, pen, and hen.",
+      "ko": "단모음 e는 e 한 글자로 씁니다. bed, pen, hen이 그 예입니다."
+    },
+    "short_e_blend": {
+      "en": "Keep one e in the middle of nest, desk, and sled.",
+      "ko": "nest, desk, sled는 가운데에 e를 하나만 씁니다."
+    },
+    "short_e_two": {
+      "en": "Pencil and seven have two beats, and the short e beat uses e.",
+      "ko": "pencil과 seven은 두 박자입니다. 단모음 박자는 e로 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell the short e word"
+    ],
+    "no_ixl_text": true
+  }
+}

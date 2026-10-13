@@ -1,0 +1,304 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_words_with_silent_letters",
+  "family_title_en": "Complete the words with silent letters",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_words_with_silent_letters",
+      "ix_title": "Complete the words with silent letters",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling completes the word?",
+        "ko": "단어를 완성하는 철자는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the right spelling.",
+        "ko": "맞는 철자를 누르세요."
+      },
+      "choice_rule": "Give four different real whole-word choices. Exactly one keeps the silent letter and fits the stem. Do not use phonemes, slash sounds, held letters, or non-words such as kno or wlk. The stem is one kid sentence of at most ten words. Every stem word comes from the roots list, allowed_extra_words, or NAME. Either show a real listed word that dropped the silent letter, or omit the target word. If a picture is needed, add a media lemma and do not describe the picture.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "answer",
+        "autumn",
+        "castle",
+        "comb",
+        "crumb",
+        "fasten",
+        "gnome",
+        "gnaw",
+        "half",
+        "honest",
+        "hour",
+        "island",
+        "knee",
+        "knife",
+        "knock",
+        "knot",
+        "knuckle",
+        "lamb",
+        "listen",
+        "scene",
+        "scent",
+        "sight",
+        "thumb",
+        "whistle",
+        "wrinkle",
+        "wrist",
+        "yolk"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_words_with_silent_letters_0001",
+          "tier": 1,
+          "stem": "I now the way home.",
+          "choices": [
+            "know",
+            "now",
+            "new",
+            "no"
+          ],
+          "answer_index": 0,
+          "explain_key": "silent_k"
+        },
+        {
+          "item_id": "roots_complete_the_words_with_silent_letters_0002",
+          "tier": 1,
+          "stem": "Please rite your name.",
+          "choices": [
+            "rite",
+            "ride",
+            "write",
+            "wrote"
+          ],
+          "answer_index": 2,
+          "explain_key": "silent_w"
+        },
+        {
+          "item_id": "roots_complete_the_words_with_silent_letters_0003",
+          "tier": 1,
+          "stem": "The kite flew hi.",
+          "choices": [
+            "hi",
+            "hay",
+            "high",
+            "hot"
+          ],
+          "answer_index": 2,
+          "explain_key": "silent_gh",
+          "media": [
+            {
+              "lemma": "kite"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_words_with_silent_letters_0004",
+          "tier": 2,
+          "stem": "I wood like more soup at lunch.",
+          "choices": [
+            "wood",
+            "would",
+            "word",
+            "world"
+          ],
+          "answer_index": 1,
+          "explain_key": "silent_l",
+          "media": [
+            {
+              "lemma": "soup"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_complete_the_words_with_silent_letters_0005",
+          "tier": 2,
+          "stem": "I see to big pups at home.",
+          "choices": [
+            "to",
+            "too",
+            "two",
+            "top"
+          ],
+          "answer_index": 2,
+          "explain_key": "silent_w"
+        },
+        {
+          "item_id": "roots_complete_the_words_with_silent_letters_0006",
+          "tier": 2,
+          "stem": "Please do not fit your sister.",
+          "choices": [
+            "fit",
+            "fill",
+            "fish",
+            "fight"
+          ],
+          "answer_index": 3,
+          "explain_key": "silent_gh"
+        },
+        {
+          "item_id": "roots_complete_the_words_with_silent_letters_0007",
+          "tier": 3,
+          "stem": "The hole class ate lunch at school today.",
+          "choices": [
+            "hole",
+            "hall",
+            "who",
+            "whole"
+          ],
+          "answer_index": 3,
+          "explain_key": "silent_w"
+        },
+        {
+          "item_id": "roots_complete_the_words_with_silent_letters_0008",
+          "tier": 3,
+          "stem": "<NAME> can be a night in the school play.",
+          "choices": [
+            "night",
+            "knight",
+            "knit",
+            "know"
+          ],
+          "answer_index": 1,
+          "explain_key": "silent_k",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "knight"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Wrong choices are real whole words. Never use a phoneme, a slash sound, or a held letter.",
+      "One wrong choice drops the silent letter when that leaves a real word, such as now, rite, hole, or hi.",
+      "One wrong choice is another real word that looks almost the same but does not fit the stem.",
+      "Do not use a string that is not a real word. Listed fragments such as kno or wlk are not choices.",
+      "Tier 3 traps are real words a child may mix up, such as hole for whole, night for knight, or to for two.",
+      "Only one choice may fit the stem. could, would, and should must not all be offered for one sentence."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "kindergarten",
+    "https?://",
+    "@",
+    "\\bai\\b",
+    "\\bbelt\\b",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "/",
+    "æ",
+    "ɪ",
+    "ə",
+    "ʃ",
+    "θ",
+    "ð",
+    "ŋ",
+    "ʒ"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. Show a common word with its silent letter dropped, using a real word such as now, rite, or hi. Wrong choices are other real words and are easy to reject.",
+    "2": "Stems of five to eight words about home, school, pets, play, or family. Use silent k, w, l, b, g, t, or gh. Wrong choices are real words that look like the target.",
+    "3": "Stems of seven to ten words. The trap is a real word that differs by a silent letter, such as hole for whole or night for knight. Two-syllable words such as often, design, and listen are fine."
+  },
+  "miss_explain": {
+    "silent_k": {
+      "en": "The k is silent. The word still needs that k in its spelling.",
+      "ko": "k는 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_w": {
+      "en": "The w is silent. The word still needs that w in its spelling.",
+      "ko": "w는 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_l": {
+      "en": "The l is silent. The word still needs that l in its spelling.",
+      "ko": "l은 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_b": {
+      "en": "The b is silent. The word still needs that b in its spelling.",
+      "ko": "b는 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_g": {
+      "en": "The g is silent. The word still needs that g in its spelling.",
+      "ko": "g는 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_gh": {
+      "en": "The g and h are silent. The word still needs both letters in its spelling.",
+      "ko": "g와 h는 묵음입니다. 철자에 두 글자를 남기세요."
+    },
+    "silent_t": {
+      "en": "The t is silent. The word still needs that t in its spelling.",
+      "ko": "t는 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_h": {
+      "en": "The h is silent. The word still needs that h in its spelling.",
+      "ko": "h는 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_n": {
+      "en": "The n is silent. The word still needs that n in its spelling.",
+      "ko": "n은 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_c": {
+      "en": "The c is silent. The word still needs that c in its spelling.",
+      "ko": "c는 묵음입니다. 철자에 그 글자를 남기세요."
+    },
+    "silent_s": {
+      "en": "The s is silent. The word still needs that s in its spelling.",
+      "ko": "s는 묵음입니다. 철자에 그 글자를 남기세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the words with silent letters"
+    ],
+    "no_ixl_text": true
+  }
+}

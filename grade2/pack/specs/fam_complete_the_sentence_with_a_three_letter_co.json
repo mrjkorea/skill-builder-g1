@@ -1,0 +1,241 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_complete_the_sentence_with_a_three_letter_co",
+  "family_title_en": "Complete the sentence with a three-letter consonant blend word",
+  "item_type": "tap_missing_word",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_complete_the_sentence_with_a_three_letter_co",
+      "ix_title": "Complete the sentence with a three-letter consonant blend word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word completes the sentence?",
+        "ko": "어느 낱말이 문장을 완성하나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the blend word that replaces blank.",
+        "ko": "blank 자리에 알맞은 세 글자 자음 블렌드 낱말을 누르세요."
+      },
+      "choice_rule": "Four lowercase whole words from the roots list. Exactly one choice starts with str, spr, scr, squ, or thr and is the only word that completes the stem. Put that word at a varying answer index. The other three choices follow the roots distractor rule for the item tier. The stem uses blank once as the missing word.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "blank"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_complete_the_sentence_with_a_three_letter_co_0001",
+          "tier": 1,
+          "stem": "I see blank red ants.",
+          "choices": [
+            "three",
+            "cake",
+            "milk",
+            "book"
+          ],
+          "answer_index": 0,
+          "explain_key": "thr_blend"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_three_letter_co_0002",
+          "tier": 1,
+          "stem": "My duck swims in the blank.",
+          "choices": [
+            "hat",
+            "stream",
+            "cup",
+            "bed"
+          ],
+          "answer_index": 1,
+          "explain_key": "str_blend"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_three_letter_co_0003",
+          "tier": 1,
+          "stem": "A loud blank woke the baby.",
+          "choices": [
+            "pen",
+            "mop",
+            "scream",
+            "rug"
+          ],
+          "answer_index": 2,
+          "explain_key": "scr_blend"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_three_letter_co_0004",
+          "tier": 2,
+          "stem": "My shoe has a loose blank.",
+          "choices": [
+            "stick",
+            "spoon",
+            "stone",
+            "string"
+          ],
+          "answer_index": 3,
+          "explain_key": "str_blend"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_three_letter_co_0005",
+          "tier": 2,
+          "stem": "We blank the little green plant.",
+          "choices": [
+            "spray",
+            "spill",
+            "sleep",
+            "stop"
+          ],
+          "answer_index": 0,
+          "explain_key": "spr_blend"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_three_letter_co_0006",
+          "tier": 2,
+          "stem": "Please blank the ripe orange now.",
+          "choices": [
+            "sleep",
+            "spill",
+            "squeeze",
+            "slow"
+          ],
+          "answer_index": 2,
+          "explain_key": "squ_blend"
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_three_letter_co_0007",
+          "tier": 3,
+          "stem": "<NAME> will blank the little ball to me.",
+          "choices": [
+            "through",
+            "throw",
+            "thread",
+            "throne"
+          ],
+          "answer_index": 1,
+          "explain_key": "blend_fits",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_complete_the_sentence_with_a_three_letter_co_0008",
+          "tier": 3,
+          "stem": "Please blank the jam on my bread today.",
+          "choices": [
+            "spray",
+            "spring",
+            "spread",
+            "stripe"
+          ],
+          "answer_index": 2,
+          "explain_key": "blend_fits"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Write four different whole-word choices and exactly one right answer.",
+      "Put the lowercase word blank once in the stem where the missing word belongs.",
+      "The right word starts with str, spr, scr, squ, or thr and is on the roots list.",
+      "The right word is the only choice that makes a true, sensible sentence.",
+      "Tier 1 distractors are ordinary words that do not fit and are not three-letter blends.",
+      "Tier 2 distractors are two-letter blend words that look a little like the answer but do not fit.",
+      "Tier 3 distractors are other three-letter blend words that do not fit the sentence.",
+      "Do not use blank as a choice, and do not use a second choice that could also be correct.",
+      "Tiers 1 and 2 use the explain key for the answer onset: str_blend, spr_blend, scr_blend, squ_blend, or thr_blend.",
+      "Tier 3 uses the explain key blend_fits, because several choices are three-letter blend words.",
+      "Keep sentences in the kid world of school, home, food, pets, play, family, and weather."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "\\bipa\\b",
+    "\\bdigraph\\b",
+    "\\bblend\\b",
+    "\\bconsonant\\b",
+    "\\b(str|spr|scr|squ|thr|spl|shr)\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words about home, pets, or play. The answer is a common blend word, and the other choices are ordinary words that do not fit.",
+    "2": "Grade-level stems of about six words. Distractors are two-letter blend words that share letters with the answer but do not complete the sentence.",
+    "3": "Stems of seven or more words. Distractors are other three-letter blend words, so only sentence meaning shows which word is right."
+  },
+  "miss_explain": {
+    "thr_blend": {
+      "en": "The right word starts with thr. Those three letters blend, and only that word fits the sentence.",
+      "ko": "맞는 낱말은 thr로 시작합니다. 세 글자가 이어지고, 그 낱말만 문장에 맞습니다."
+    },
+    "str_blend": {
+      "en": "The right word starts with str. Those three letters blend, and only that word fits the sentence.",
+      "ko": "맞는 낱말은 str로 시작합니다. 세 글자가 이어지고, 그 낱말만 문장에 맞습니다."
+    },
+    "scr_blend": {
+      "en": "The right word starts with scr. Those three letters blend, and only that word fits the sentence.",
+      "ko": "맞는 낱말은 scr로 시작합니다. 세 글자가 이어지고, 그 낱말만 문장에 맞습니다."
+    },
+    "spr_blend": {
+      "en": "The right word starts with spr. Those three letters blend, and only that word fits the sentence.",
+      "ko": "맞는 낱말은 spr로 시작합니다. 세 글자가 이어지고, 그 낱말만 문장에 맞습니다."
+    },
+    "squ_blend": {
+      "en": "The right word starts with squ. Those three letters blend, and only that word fits the sentence.",
+      "ko": "맞는 낱말은 squ로 시작합니다. 세 글자가 이어지고, 그 낱말만 문장에 맞습니다."
+    },
+    "blend_fits": {
+      "en": "More than one word has a three-letter blend. Tap the only word that completes the sentence.",
+      "ko": "세 글자 자음 블렌드 낱말이 둘 이상입니다. 문장을 완성하는 낱말을 누르세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Complete the sentence with a three-letter consonant blend word"
+    ],
+    "no_ixl_text": true
+  }
+}

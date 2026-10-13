@@ -1,0 +1,218 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_change_the_sound_in_a_word",
+  "family_title_en": "Change the sound in a word",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_change_the_sound_in_a_word",
+      "ix_title": "Change the sound in a word",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which new word do you get?",
+        "ko": "어떤 새 단어를 얻게 되나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word the letter change makes.",
+        "ko": "글자를 바꿔 만든 단어를 누르세요."
+      },
+      "choice_rule": "Four different whole words from the roots list. Exactly one is the stem word with only the named letter replaced by the named new letter. The other three are real words: the old word, a change in the wrong place, or a word one letter away from the right word.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_change_the_sound_in_a_word_0001",
+          "tier": 1,
+          "stem": "Change the first letter in cat to h.",
+          "choices": [
+            "hat",
+            "hit",
+            "mat",
+            "cap"
+          ],
+          "answer_index": 0,
+          "explain_key": "first_letter"
+        },
+        {
+          "item_id": "roots_change_the_sound_in_a_word_0002",
+          "tier": 1,
+          "stem": "Change the letter i in sit to a.",
+          "choices": [
+            "set",
+            "sat",
+            "sit",
+            "bit"
+          ],
+          "answer_index": 1,
+          "explain_key": "middle_letter"
+        },
+        {
+          "item_id": "roots_change_the_sound_in_a_word_0003",
+          "tier": 1,
+          "stem": "Change the last letter in man to p.",
+          "choices": [
+            "mat",
+            "pan",
+            "men",
+            "map"
+          ],
+          "answer_index": 3,
+          "explain_key": "last_letter"
+        },
+        {
+          "item_id": "roots_change_the_sound_in_a_word_0004",
+          "tier": 2,
+          "stem": "Change the first letter in cake to l.",
+          "choices": [
+            "bake",
+            "lake",
+            "like",
+            "make"
+          ],
+          "answer_index": 1,
+          "explain_key": "first_letter"
+        },
+        {
+          "item_id": "roots_change_the_sound_in_a_word_0005",
+          "tier": 2,
+          "stem": "Change the letter a in boat to o.",
+          "choices": [
+            "coat",
+            "boat",
+            "book",
+            "boot"
+          ],
+          "answer_index": 3,
+          "explain_key": "middle_letter"
+        },
+        {
+          "item_id": "roots_change_the_sound_in_a_word_0006",
+          "tier": 2,
+          "stem": "Change the last letter in rain to l.",
+          "choices": [
+            "main",
+            "rain",
+            "rail",
+            "tail"
+          ],
+          "answer_index": 2,
+          "explain_key": "last_letter"
+        },
+        {
+          "item_id": "roots_change_the_sound_in_a_word_0007",
+          "tier": 3,
+          "stem": "Change the first letter in light to r.",
+          "choices": [
+            "night",
+            "right",
+            "might",
+            "fight"
+          ],
+          "answer_index": 1,
+          "explain_key": "first_letter"
+        },
+        {
+          "item_id": "roots_change_the_sound_in_a_word_0008",
+          "tier": 3,
+          "stem": "Change the first letter in kitten to m.",
+          "choices": [
+            "kitchen",
+            "kitten",
+            "mitten",
+            "sitting"
+          ],
+          "answer_index": 2,
+          "explain_key": "first_letter"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Use four real whole words from the roots list. Never a made-up spelling, a single sound, or a brand.",
+      "Exactly one choice is the stem word with only the named letter changed to the named new letter.",
+      "Wrong choices are the old word, a change in the wrong place, or one letter away from the right word.",
+      "Tier 1 wrong choices are easy to spot. Tier 3 wrong choices keep almost all the same letters.",
+      "Do not use a real person's name. If a child is needed, use the token <NAME>."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "phoneme",
+    "\\bipa\\b",
+    "schwa",
+    "/",
+    "digraph",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bjay\\b"
+  ],
+  "tier_rules": {
+    "1": "Easy three-letter words about pets, home, food, or play. Change the first, middle, or last letter. Wrong choices change a different letter or keep the old word.",
+    "2": "Grade 2 spellings such as silent e or a vowel team. Stems stay within ten words. Wrong choices are one letter off, in the wrong place, or the old word.",
+    "3": "Near misses on igh words or two-syllable words such as kitten and mitten. Wrong choices keep almost the same letters, like night beside right or kitchen beside kitten."
+  },
+  "miss_explain": {
+    "first_letter": {
+      "en": "Change only the first letter. Every other letter stays the same.",
+      "ko": "첫 글자만 바꾸세요. 나머지 글자는 그대로입니다."
+    },
+    "last_letter": {
+      "en": "Change only the last letter. Every other letter stays the same.",
+      "ko": "끝 글자만 바꾸세요. 나머지 글자는 그대로입니다."
+    },
+    "middle_letter": {
+      "en": "Change only that one letter inside the word. Keep the other letters.",
+      "ko": "단어 안의 그 글자만 바꾸세요. 다른 글자는 그대로 두세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Change the sound in a word"
+    ],
+    "no_ixl_text": true
+  }
+}

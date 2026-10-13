@@ -1,0 +1,210 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_read_two_syllable_words_open_and_closed_syll",
+  "family_title_en": "Read two-syllable words: open and closed syllables",
+  "item_type": "sort_two_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_read_two_syllable_words_open_and_closed_syll",
+      "ix_title": "Read two-syllable words: open and closed syllables",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Is the first syllable open or closed?",
+        "ko": "첫 음절은 열린 음절인가요, 닫힌 음절인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap open or closed.",
+        "ko": "열린 음절 또는 닫힌 음절을 누르세요."
+      },
+      "choices": [
+        "open",
+        "closed"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_read_two_syllable_words_open_and_closed_syll_0001",
+          "tier": 1,
+          "stem": "rabbit",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed_syl"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_open_and_closed_syll_0002",
+          "tier": 1,
+          "stem": "baby",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_syl"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_open_and_closed_syll_0003",
+          "tier": 2,
+          "stem": "music",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_syl"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_open_and_closed_syll_0004",
+          "tier": 2,
+          "stem": "napkin",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed_syl"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_open_and_closed_syll_0005",
+          "tier": 2,
+          "stem": "pencil",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed_syl"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_open_and_closed_syll_0006",
+          "tier": 3,
+          "stem": "study",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 1,
+          "explain_key": "closed_vcv"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_open_and_closed_syll_0007",
+          "tier": 3,
+          "stem": "student",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_vcv"
+        },
+        {
+          "item_id": "roots_read_two_syllable_words_open_and_closed_syll_0008",
+          "tier": 3,
+          "stem": "label",
+          "choices": [
+            "open",
+            "closed"
+          ],
+          "answer_index": 0,
+          "explain_key": "open_vcv"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {},
+  "distractor_rules": {
+    "roots": [
+      "Keep the choice order open then closed on every item. Never add a choice.",
+      "The stem is exactly one two-syllable word. Judge its first syllable only.",
+      "The wrong tap is the other type. No word may be both open and closed.",
+      "Open means the first syllable ends in a vowel and that vowel says its name.",
+      "Closed means the first syllable ends in a consonant and that vowel is short.",
+      "Skip a first syllable that is schwa, r-controlled, or a vowel team.",
+      "Skip silent-e and consonant-le words, and skip words that are not two syllables.",
+      "Tier 3 is a VCV near miss that looks easy to split the wrong way.",
+      "Use kid words about school, home, food, pets, play, family, or weather. No brands.",
+      "Do not use a real name, and do not use the stem open or the stem closed."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "/",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "\\bipa\\b",
+    "-",
+    "\\[[^\\]]+\\]"
+  ],
+  "tier_rules": {
+    "1": "One easy two-syllable word. Closed words show a doubled consonant, like rabbit. Open words show a clear long vowel, like baby.",
+    "2": "A grade-level two-syllable word with a reliable first vowel. The split is clear, but no doubled consonant gives it away.",
+    "3": "A VCV near miss. Closed words such as study look open. Open words such as student or label look closed. The vowel sound decides."
+  },
+  "miss_explain": {
+    "open_syl": {
+      "en": "An open syllable ends in a vowel. That vowel says its name.",
+      "ko": "열린 음절은 모음으로 끝납니다. 그 모음은 자기 이름을 말합니다."
+    },
+    "closed_syl": {
+      "en": "A closed syllable ends in a consonant. That vowel stays short.",
+      "ko": "닫힌 음절은 자음으로 끝납니다. 그 모음은 짧은 소리입니다."
+    },
+    "open_vcv": {
+      "en": "Split after the first vowel. It says its name, so the syllable is open.",
+      "ko": "첫 모음 뒤에서 나누세요. 모음이 자기 이름을 말하므로 열린 음절입니다."
+    },
+    "closed_vcv": {
+      "en": "The first vowel is short. End that syllable with a consonant. It is closed.",
+      "ko": "첫 모음은 짧은 소리입니다. 그 음절을 자음으로 끝내면 닫힌 음절입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Read two-syllable words: open and closed syllables"
+    ],
+    "no_ixl_text": true
+  }
+}

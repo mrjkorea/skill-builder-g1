@@ -1,0 +1,274 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_abbreviate_months_of_the_year",
+  "family_title_en": "Abbreviate months of the year",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_abbreviate_months_of_the_year",
+      "ix_title": "Abbreviate months of the year",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which is the short form?",
+        "ko": "짧은 달 이름은 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the short month name.",
+        "ko": "짧은 달 이름을 누르세요."
+      },
+      "choice_rule": "Offer four tap choices. Exactly one is the short form of the month named in the stem. Short forms are Jan. Feb. Mar. Apr. Aug. Sept. Oct. Nov. Dec. with a period. May, June, and July stay May, June, and July with no period. Never mark both Sep. and Sept. correct. Never mark both Jun. and June correct. Wrong choices are short forms of other months, not misspellings and not extra words.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "apr",
+        "aug",
+        "jun",
+        "jul",
+        "sept"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_abbreviate_months_of_the_year_0001",
+          "tier": 1,
+          "stem": "January",
+          "choices": [
+            "Jan.",
+            "Jun.",
+            "Oct.",
+            "Dec."
+          ],
+          "answer_index": 0,
+          "explain_key": "first_three",
+          "media": [
+            {
+              "lemma": "snow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_abbreviate_months_of_the_year_0002",
+          "tier": 1,
+          "stem": "February",
+          "choices": [
+            "Mar.",
+            "Feb.",
+            "Nov.",
+            "Sept."
+          ],
+          "answer_index": 1,
+          "explain_key": "first_three",
+          "media": [
+            {
+              "lemma": "heart"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_abbreviate_months_of_the_year_0003",
+          "tier": 1,
+          "stem": "October",
+          "choices": [
+            "Aug.",
+            "Mar.",
+            "Oct.",
+            "Jan."
+          ],
+          "answer_index": 2,
+          "explain_key": "first_three",
+          "media": [
+            {
+              "lemma": "leaf"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_abbreviate_months_of_the_year_0004",
+          "tier": 2,
+          "stem": "My birthday is in April.",
+          "choices": [
+            "Apr.",
+            "Aug.",
+            "Mar.",
+            "Oct."
+          ],
+          "answer_index": 0,
+          "explain_key": "first_three",
+          "media": [
+            {
+              "lemma": "cake"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_abbreviate_months_of_the_year_0005",
+          "tier": 2,
+          "stem": "The picnic is in March.",
+          "choices": [
+            "May",
+            "June",
+            "Nov.",
+            "Mar."
+          ],
+          "answer_index": 3,
+          "explain_key": "first_three",
+          "media": [
+            {
+              "lemma": "kite"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_abbreviate_months_of_the_year_0006",
+          "tier": 2,
+          "stem": "School is back in September.",
+          "choices": [
+            "Dec.",
+            "Sept.",
+            "June",
+            "Mar."
+          ],
+          "answer_index": 1,
+          "explain_key": "september",
+          "media": [
+            {
+              "lemma": "apple"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_abbreviate_months_of_the_year_0007",
+          "tier": 3,
+          "stem": "<NAME> went home in January.",
+          "choices": [
+            "Jun.",
+            "Jul.",
+            "Jan.",
+            "Mar."
+          ],
+          "answer_index": 2,
+          "explain_key": "near_miss",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "snow"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_abbreviate_months_of_the_year_0008",
+          "tier": 3,
+          "stem": "The family can swim in June.",
+          "choices": [
+            "June",
+            "Jun.",
+            "Jan.",
+            "Jul."
+          ],
+          "answer_index": 0,
+          "explain_key": "stay_long",
+          "media": [
+            {
+              "lemma": "sun"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep one correct short form. Never write two acceptable short forms in the same choice set.",
+      "Use only other month short forms as wrong taps. Do not invent spellings, numbers, or days of the week.",
+      "Tier 1 wrong taps come from far months, not the same season.",
+      "Tier 2 wrong taps come from nearby months in the same season.",
+      "Tier 3 wrong taps are look-alikes: Jan. Jun. Jul., Mar. May, Apr. Aug., or Sept. Dec.",
+      "May, June, and July stay full words. Jun. and Jul. are always wrong.",
+      "September is only Sept. Never offer Sep. as a choice.",
+      "Do not move the period or drop it on Jan. Feb. Mar. Apr. Aug. Sept. Oct. Nov. Dec."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\babbreviation\\b",
+    "\\babbreviate\\b",
+    "\\bpunctuation\\b",
+    "\\bperiod\\b",
+    "\\bshort form\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bsep\\.\\b"
+  ],
+  "tier_rules": {
+    "1": "Stem is one month name. Wrong taps are short forms from other seasons. Picture lemma may support the month.",
+    "2": "Stem is a kid sentence of four to seven words that names one month. Wrong taps are months from the same season.",
+    "3": "Stem may use <NAME> and irregular past. Wrong taps are look-alike short forms. Include May, June, or July stay-long items."
+  },
+  "miss_explain": {
+    "first_three": {
+      "en": "Most months get short with the first three letters and a period.",
+      "ko": "대부분의 달은 앞 세 글자와 마침표로 짧게 씁니다."
+    },
+    "september": {
+      "en": "September is Sept. Keep four letters and a period.",
+      "ko": "September는 Sept.입니다. 네 글자와 마침표를 씁니다."
+    },
+    "stay_long": {
+      "en": "May, June, and July stay the same. Do not shorten them.",
+      "ko": "May, June, July는 그대로 둡니다. 줄이지 마세요."
+    },
+    "near_miss": {
+      "en": "Pick this month's short form, not a month that looks close.",
+      "ko": "이 달의 짧은 이름을 고르세요. 비슷해 보이는 달을 고르지 마세요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Abbreviate months of the year"
+    ],
+    "no_ixl_text": true
+  }
+}

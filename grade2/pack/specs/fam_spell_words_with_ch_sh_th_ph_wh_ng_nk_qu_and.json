@@ -1,0 +1,289 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and",
+  "family_title_en": "Spell words with ch, sh, th, ph, wh, ng, nk, qu, and x",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and",
+      "ix_title": "Spell words with ch, sh, th, ph, wh, ng, nk, qu, and x",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which spelling is right?",
+        "ko": "어느 철자가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word spelled the right way.",
+        "ko": "바르게 쓴 단어를 누르세요."
+      },
+      "choice_rule": "Four whole-word choices. One is the correct spelling of the word the stem points to. The other three are misspellings of that same word, never a different real word. Vary answer_index. Set media to one lemma, the correct word.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bath",
+        "chicken",
+        "dolphin",
+        "elephant",
+        "ring",
+        "thumb",
+        "whisper"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and_0001",
+          "tier": 1,
+          "stem": "A big boat on the sea.",
+          "choices": [
+            "shipe",
+            "ship",
+            "shp",
+            "shiip"
+          ],
+          "answer_index": 1,
+          "explain_key": "sh_spell",
+          "media": [
+            {
+              "lemma": "ship"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and_0002",
+          "tier": 1,
+          "stem": "The mouse ate this yellow food.",
+          "choices": [
+            "sheese",
+            "chese",
+            "cheese",
+            "cheeze"
+          ],
+          "answer_index": 2,
+          "explain_key": "ch_spell",
+          "media": [
+            {
+              "lemma": "cheese"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and_0003",
+          "tier": 1,
+          "stem": "The number after five.",
+          "choices": [
+            "siks",
+            "sixe",
+            "sixx",
+            "six"
+          ],
+          "answer_index": 3,
+          "explain_key": "x_spell",
+          "media": [
+            {
+              "lemma": "six"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and_0004",
+          "tier": 2,
+          "stem": "Snow is this color in winter.",
+          "choices": [
+            "whiet",
+            "white",
+            "whitte",
+            "wite"
+          ],
+          "answer_index": 1,
+          "explain_key": "wh_spell",
+          "media": [
+            {
+              "lemma": "white"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and_0005",
+          "tier": 2,
+          "stem": "You sing this with your class.",
+          "choices": [
+            "song",
+            "sonng",
+            "sogn",
+            "songg"
+          ],
+          "answer_index": 0,
+          "explain_key": "ng_spell",
+          "media": [
+            {
+              "lemma": "song"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and_0006",
+          "tier": 2,
+          "stem": "You do this with your brain.",
+          "choices": [
+            "thinc",
+            "thinck",
+            "think",
+            "thynk"
+          ],
+          "answer_index": 2,
+          "explain_key": "th_nk_spell",
+          "media": [
+            {
+              "lemma": "think"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and_0007",
+          "tier": 3,
+          "stem": "You ask this when you need help.",
+          "choices": [
+            "qestion",
+            "question",
+            "queston",
+            "kwestion"
+          ],
+          "answer_index": 1,
+          "explain_key": "qu_spell",
+          "media": [
+            {
+              "lemma": "question"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_spell_words_with_ch_sh_th_ph_wh_ng_nk_qu_and_0008",
+          "tier": 3,
+          "stem": "You call your family on this at home.",
+          "choices": [
+            "fone",
+            "phoen",
+            "phome",
+            "phone"
+          ],
+          "answer_index": 3,
+          "explain_key": "ph_spell",
+          "media": [
+            {
+              "lemma": "phone"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Wrong choices are misspellings of the target word. Never use a different real word.",
+      "Break ch, sh, th, ph, wh, ng, nk, qu, or final x. Do not invent a new word.",
+      "Tier 1 drops a letter, repeats a letter, or swaps ch with sh in a one-syllable word.",
+      "Tier 2 swaps a vowel, drops h in wh or th, or spells nk as nck.",
+      "Tier 3 changes one letter or the letter order. Trade ph for f and qu for kw.",
+      "Use school, home, food, pets, play, family, or weather. No brand names and no real child names.",
+      "Cover ch, sh, th, ph, wh, ng, nk, qu, and x in the pool. Do not skip ph, qu, or x."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "kindergarten",
+    "https?://",
+    "@",
+    "\\bdigraph\\b",
+    "\\btrigraph\\b",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b",
+    "/",
+    "æ",
+    "ɪ",
+    "ʃ",
+    "θ",
+    "ŋ"
+  ],
+  "tier_rules": {
+    "1": "Stems of four to six words. One-syllable words such as ship, cheese, and six. Wrong choices drop a letter, repeat a letter, or swap ch with sh.",
+    "2": "Stems of about six words. Words such as white, song, and think. Wrong choices are closer: a wrong vowel, a missing h, or nk spelled nck.",
+    "3": "Stems of seven to ten words. Longer words such as question and phone. Wrong choices keep almost every letter, or trade ph for f and qu for kw."
+  },
+  "miss_explain": {
+    "sh_spell": {
+      "en": "Ship is spelled s, h, i, p. The first two letters are s and h.",
+      "ko": "ship은 s, h, i, p로 씁니다. 앞의 두 글자는 s와 h입니다."
+    },
+    "ch_spell": {
+      "en": "Cheese is spelled c, h, e, e, s, e. The first two letters are c and h.",
+      "ko": "cheese는 c, h, e, e, s, e로 씁니다. 앞의 두 글자는 c와 h입니다."
+    },
+    "x_spell": {
+      "en": "Six is spelled s, i, x. The last letter is x.",
+      "ko": "six는 s, i, x로 씁니다. 마지막 글자는 x입니다."
+    },
+    "wh_spell": {
+      "en": "White is spelled w, h, i, t, e. The first two letters are w and h.",
+      "ko": "white는 w, h, i, t, e로 씁니다. 앞의 두 글자는 w와 h입니다."
+    },
+    "ng_spell": {
+      "en": "Song is spelled s, o, n, g. The last two letters are n and g.",
+      "ko": "song은 s, o, n, g로 씁니다. 끝의 두 글자는 n과 g입니다."
+    },
+    "th_nk_spell": {
+      "en": "Think is spelled t, h, i, n, k. It starts with t, h and ends with n, k.",
+      "ko": "think는 t, h, i, n, k로 씁니다. t, h로 시작하고 n, k로 끝납니다."
+    },
+    "qu_spell": {
+      "en": "Question starts with q, u. It is spelled q, u, e, s, t, i, o, n.",
+      "ko": "question은 q, u로 시작합니다. q, u, e, s, t, i, o, n으로 씁니다."
+    },
+    "ph_spell": {
+      "en": "Phone starts with p, h. It is spelled p, h, o, n, e.",
+      "ko": "phone은 p, h로 시작합니다. p, h, o, n, e로 씁니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Spell words with ch, sh, th, ph, wh, ng, nk, qu, and x"
+    ],
+    "no_ixl_text": true
+  }
+}

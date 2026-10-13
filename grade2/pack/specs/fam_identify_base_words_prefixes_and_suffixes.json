@@ -1,0 +1,300 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_base_words_prefixes_and_suffixes",
+  "family_title_en": "Identify base words, prefixes, and suffixes",
+  "item_type": "sort_three_bins",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_base_words_prefixes_and_suffixes",
+      "ix_title": "Identify base words, prefixes, and suffixes",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "What kind of word part is this?",
+        "ko": "이것은 어떤 낱말 조각인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap prefix, suffix, or base word.",
+        "ko": "접두사, 접미사, 또는 기본 낱말을 누르세요."
+      },
+      "choices": [
+        "prefix",
+        "suffix",
+        "base word"
+      ],
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "un",
+        "pre",
+        "dis",
+        "mis",
+        "ing",
+        "ed",
+        "es",
+        "est",
+        "ful",
+        "ly",
+        "ness",
+        "unpack",
+        "unkind",
+        "unsafe",
+        "unused",
+        "unlock",
+        "unhappy",
+        "replay",
+        "rewrite",
+        "reread",
+        "retell",
+        "redo",
+        "pretest",
+        "preview",
+        "dislike",
+        "helpful",
+        "playful",
+        "thankful",
+        "kindness",
+        "jumping",
+        "walking",
+        "player",
+        "biggest",
+        "coldest",
+        "fastest",
+        "tallest",
+        "smallest",
+        "quickly",
+        "loudly",
+        "mismatch",
+        "misspell",
+        "unable",
+        "prefix",
+        "suffix",
+        "prefixes",
+        "suffixes"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_base_words_prefixes_and_suffixes_0001",
+          "tier": 1,
+          "stem": "un in unpack",
+          "choices": [
+            "prefix",
+            "suffix",
+            "base word"
+          ],
+          "answer_index": 0,
+          "explain_key": "prefix",
+          "media": [
+            {
+              "lemma": "bag"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_base_words_prefixes_and_suffixes_0002",
+          "tier": 1,
+          "stem": "clean in cleaned",
+          "choices": [
+            "prefix",
+            "suffix",
+            "base word"
+          ],
+          "answer_index": 2,
+          "explain_key": "base_word",
+          "media": [
+            {
+              "lemma": "broom"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_base_words_prefixes_and_suffixes_0003",
+          "tier": 1,
+          "stem": "ing in running",
+          "choices": [
+            "prefix",
+            "suffix",
+            "base word"
+          ],
+          "answer_index": 1,
+          "explain_key": "suffix",
+          "media": [
+            {
+              "lemma": "run"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_base_words_prefixes_and_suffixes_0004",
+          "tier": 2,
+          "stem": "re in replay",
+          "choices": [
+            "prefix",
+            "suffix",
+            "base word"
+          ],
+          "answer_index": 0,
+          "explain_key": "prefix",
+          "media": [
+            {
+              "lemma": "play"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_base_words_prefixes_and_suffixes_0005",
+          "tier": 2,
+          "stem": "er in teacher",
+          "choices": [
+            "prefix",
+            "suffix",
+            "base word"
+          ],
+          "answer_index": 1,
+          "explain_key": "suffix",
+          "media": [
+            {
+              "lemma": "teacher"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_base_words_prefixes_and_suffixes_0006",
+          "tier": 2,
+          "stem": "kind in kindness",
+          "choices": [
+            "prefix",
+            "suffix",
+            "base word"
+          ],
+          "answer_index": 2,
+          "explain_key": "base_word",
+          "media": [
+            {
+              "lemma": "gift"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_base_words_prefixes_and_suffixes_0007",
+          "tier": 3,
+          "stem": "pre in pretest",
+          "choices": [
+            "prefix",
+            "suffix",
+            "base word"
+          ],
+          "answer_index": 0,
+          "explain_key": "prefix",
+          "media": [
+            {
+              "lemma": "test"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_base_words_prefixes_and_suffixes_0008",
+          "tier": 3,
+          "stem": "ful in helpful",
+          "choices": [
+            "prefix",
+            "suffix",
+            "base word"
+          ],
+          "answer_index": 1,
+          "explain_key": "suffix",
+          "media": [
+            {
+              "lemma": "help"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "The three bin labels stay prefix, suffix, base word in that order. Never rename, translate, or shuffle them.",
+      "Every stem names one real word part inside one whole word, like un in unpack. Never split a word in a false place.",
+      "A bare one-syllable base word may stand alone only in tier 1. All other stems use the part-in-word shape.",
+      "Keep the filled pool mixed: about one third prefix, one third suffix, one third base word.",
+      "Wrong bins are the other two labels. Never add a fourth bin or a second right bin.",
+      "Use only list words plus allowed_extra_words. Kid world only: school, home, food, pets, play, family, weather.",
+      "Tier 3 may use pre, dis, ful, or ness, or a two-syllable base such as happy in unhappy. Never a fake affix."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "morpheme",
+    "etymolog",
+    "\\baffix",
+    "\\broot word\\b",
+    "\\/"
+  ],
+  "tier_rules": {
+    "1": "Short part-in-word stems. Common prefix un or suffix ing or ed. The base is a clear one-syllable list word. Add a lemma picture of the whole word.",
+    "2": "Grade-level stems. Prefix re or dis, or suffix er or ly on a two-syllable word such as teacher or slowly. Show the base inside the longer word.",
+    "3": "Less common or near-miss parts: prefix pre or dis, suffix ful or ness, or a two-syllable base such as happy. Never invent an affix that is not really there."
+  },
+  "miss_explain": {
+    "prefix": {
+      "en": "A prefix goes on the front of a base word, like un in unpack.",
+      "ko": "접두사는 기본 낱말 앞에 붙어요. unpack의 un처럼요."
+    },
+    "suffix": {
+      "en": "A suffix goes on the end of a base word, like ing in running.",
+      "ko": "접미사는 기본 낱말 뒤에 붙어요. running의 ing처럼요."
+    },
+    "base_word": {
+      "en": "A base word is the main word. Other parts can join it.",
+      "ko": "기본 낱말은 중심 말이에요. 다른 조각이 붙을 수 있어요."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify base words, prefixes, and suffixes"
+    ],
+    "no_ixl_text": true
+  }
+}

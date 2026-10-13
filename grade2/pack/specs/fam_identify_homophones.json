@@ -1,0 +1,314 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_identify_homophones",
+  "family_title_en": "Identify homophones",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_identify_homophones",
+      "ix_title": "Identify homophones",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word fits?",
+        "ko": "어떤 낱말이 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that belongs.",
+        "ko": "문장에 맞는 낱말을 누르세요."
+      },
+      "choice_rule": "Give exactly four single words from the wordlist or allowed_extra_words. One word is the spelling that matches the stem meaning. One word is the same-sound twin with the other meaning. Two words are look-alikes or kid-world mates that do not fit. Never write a second valid fit. Never put the answer word in the stem.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bee",
+        "son",
+        "hour",
+        "meet",
+        "weak",
+        "threw",
+        "witch",
+        "flour",
+        "deer",
+        "bare",
+        "brake",
+        "knot",
+        "pale",
+        "piece",
+        "peace",
+        "weight",
+        "tale",
+        "maid",
+        "knew",
+        "pair",
+        "hare",
+        "heal",
+        "steel",
+        "waist",
+        "whose",
+        "they're",
+        "you're",
+        "it's",
+        "dear",
+        "herd",
+        "inn",
+        "mist",
+        "scene",
+        "seen",
+        "sum",
+        "dye",
+        "mane",
+        "steal",
+        "missed",
+        "weigh",
+        "waste",
+        "stair",
+        "stare",
+        "soul",
+        "fair"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_identify_homophones_0001",
+          "tier": 1,
+          "stem": "The boat floats on this.",
+          "choices": [
+            "sea",
+            "see",
+            "sit",
+            "set"
+          ],
+          "answer_index": 0,
+          "explain_key": "fit_meaning",
+          "media": [
+            {
+              "lemma": "sea"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_homophones_0002",
+          "tier": 1,
+          "stem": "I finished my lunch.",
+          "choices": [
+            "eight",
+            "eat",
+            "ate",
+            "late"
+          ],
+          "answer_index": 2,
+          "explain_key": "sound_twin",
+          "media": [
+            {
+              "lemma": "lunch"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_homophones_0003",
+          "tier": 1,
+          "stem": "Look at the bird.",
+          "choices": [
+            "sea",
+            "see",
+            "say",
+            "sad"
+          ],
+          "answer_index": 1,
+          "explain_key": "fit_meaning",
+          "media": [
+            {
+              "lemma": "bird"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_homophones_0004",
+          "tier": 2,
+          "stem": "The wind did this to my hat.",
+          "choices": [
+            "blue",
+            "flew",
+            "grow",
+            "blew"
+          ],
+          "answer_index": 3,
+          "explain_key": "sound_twin",
+          "media": [
+            {
+              "lemma": "hat"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_homophones_0005",
+          "tier": 2,
+          "stem": "We can ride in this.",
+          "choices": [
+            "plain",
+            "plant",
+            "plane",
+            "play"
+          ],
+          "answer_index": 2,
+          "explain_key": "sound_twin",
+          "media": [
+            {
+              "lemma": "plane"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_homophones_0006",
+          "tier": 2,
+          "stem": "<NAME> goes to bed at this time.",
+          "choices": [
+            "knight",
+            "night",
+            "light",
+            "right"
+          ],
+          "answer_index": 1,
+          "explain_key": "sound_twin",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bed"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_homophones_0007",
+          "tier": 3,
+          "stem": "Yesterday the brown horse went down this.",
+          "choices": [
+            "rode",
+            "road",
+            "read",
+            "ride"
+          ],
+          "answer_index": 1,
+          "explain_key": "sound_twin",
+          "media": [
+            {
+              "lemma": "horse"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_identify_homophones_0008",
+          "tier": 3,
+          "stem": "This is the little dog they own.",
+          "choices": [
+            "there",
+            "theyre",
+            "here",
+            "their"
+          ],
+          "answer_index": 3,
+          "explain_key": "own_word",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Always give exactly four single-word choices in a new order. Never reuse a fixed label set.",
+      "One choice is the spelling that matches the stem meaning. One choice is the same-sound twin. Two choices are look-alikes or theme mates that cannot fit.",
+      "Never write two choices that both fit the stem. Never put the answer word in the stem.",
+      "Stay in kid world: school, home, food, pets, play, family, weather. No brands and no real names.",
+      "Tier 3 must use near-miss triples such as there/their/theyre, weather/whether, or road/rode/read."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bhomophone\\b",
+    "\\bsynonym\\b",
+    "\\bdefinition\\b",
+    "\\bsounds like\\b",
+    "\\bspelling\\b",
+    "\\bipa\\b",
+    "\\/[^\\/]+\\/"
+  ],
+  "tier_rules": {
+    "1": "Short stems of four to six words with a picture lemma for the meaning. The sound twin should look clearly different, such as see/sea or ate/eight.",
+    "2": "Grade-level stems of five to eight words. Use close Grade 2 pairs such as blew/blue, plane/plain, or night/knight.",
+    "3": "Near-miss triples and stems up to ten words. Use Grade 2 traps such as there/their/theyre, weather/whether, or road/rode/read, including pronoun or yesterday stems."
+  },
+  "miss_explain": {
+    "fit_meaning": {
+      "en": "Homophones sound the same. Pick the spelling that matches the meaning.",
+      "ko": "동음이의어는 소리가 같습니다. 뜻에 맞는 철자를 고르세요."
+    },
+    "sound_twin": {
+      "en": "That word sounds the same but means something else. Pick the spelling that fits.",
+      "ko": "그 말은 소리는 같지만 뜻이 다릅니다. 문장에 맞는 철자를 고르세요."
+    },
+    "look_close": {
+      "en": "That word looks close, but it does not fit this meaning.",
+      "ko": "그 말은 비슷해 보이지만 이 뜻에는 맞지 않습니다."
+    },
+    "own_word": {
+      "en": "Their shows who owns something. There is a place. They're means they are.",
+      "ko": "Their은 소유를 나타냅니다. There는 장소입니다. They're는 they are입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "tts-bake",
+    "voices": [
+      "bella",
+      "puck"
+    ]
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Identify homophones"
+    ],
+    "no_ixl_text": true
+  }
+}

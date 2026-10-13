@@ -1,0 +1,317 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_form_the_singular_or_plural_possessive",
+  "family_title_en": "Form the singular or plural possessive",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_form_the_singular_or_plural_possessive",
+      "ix_title": "Form the singular or plural possessive",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which words show who owns it?",
+        "ko": "누가 가졌는지 보여 주는 말을 고르세요."
+      },
+      "what_to_do": {
+        "en": "Tap the words that show who owns it.",
+        "ko": "누가 가졌는지 보여 주는 말을 누르세요."
+      },
+      "choice_rule": "Four unique phrases that use the same nouns as the stem. Rewrite the of-phrase as a possessive: one owner gets 's, a regular plural owner gets only ', and an irregular plural owner gets 's. Keep adjectives and the owner determiner. Exactly one choice is correct. Include one apostrophe-place miss, one missing apostrophe, and one bare noun phrase. Never reuse the of-phrase as a choice.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "bags",
+        "beds",
+        "bones",
+        "bowls",
+        "boy's",
+        "boys",
+        "boys'",
+        "brother's",
+        "brothers'",
+        "cat's",
+        "cats'",
+        "child's",
+        "children's",
+        "coats",
+        "cups",
+        "dad's",
+        "desks",
+        "dishes",
+        "dog's",
+        "dogs'",
+        "duck's",
+        "family's",
+        "father's",
+        "friend's",
+        "friends'",
+        "frog's",
+        "girl's",
+        "girls'",
+        "grandma's",
+        "grandpa's",
+        "hats",
+        "horse's",
+        "kid's",
+        "kids'",
+        "man's",
+        "men's",
+        "mom's",
+        "mother's",
+        "owns",
+        "pet's",
+        "pets'",
+        "puppy's",
+        "sister's",
+        "sisters'",
+        "student's",
+        "students'",
+        "tails",
+        "teacher's",
+        "teachers'",
+        "toys",
+        "woman's",
+        "women's"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_form_the_singular_or_plural_possessive_0001",
+          "tier": 1,
+          "stem": "The ball of the dog",
+          "choices": [
+            "the dog's ball",
+            "the dog ball",
+            "the ball dog",
+            "dog ball"
+          ],
+          "answer_index": 0,
+          "explain_key": "singular_s",
+          "media": [
+            {
+              "lemma": "dog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_the_singular_or_plural_possessive_0002",
+          "tier": 1,
+          "stem": "The desk of our teacher",
+          "choices": [
+            "the teacher desk",
+            "our teacher's desk",
+            "our teacher desk",
+            "teacher desk"
+          ],
+          "answer_index": 1,
+          "explain_key": "singular_s",
+          "media": [
+            {
+              "lemma": "desk"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_the_singular_or_plural_possessive_0003",
+          "tier": 1,
+          "stem": "The food of my puppy",
+          "choices": [
+            "my puppy's food",
+            "my puppy food",
+            "the puppy food",
+            "puppy food"
+          ],
+          "answer_index": 0,
+          "explain_key": "singular_s",
+          "media": [
+            {
+              "lemma": "puppy"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_the_singular_or_plural_possessive_0004",
+          "tier": 2,
+          "stem": "The games of the kids",
+          "choices": [
+            "the kid's games",
+            "the kids games",
+            "the kids' games",
+            "the kids's games"
+          ],
+          "answer_index": 2,
+          "explain_key": "plural_s",
+          "media": [
+            {
+              "lemma": "game"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_the_singular_or_plural_possessive_0005",
+          "tier": 2,
+          "stem": "The cars of two girls",
+          "choices": [
+            "two girls' cars",
+            "two girl's cars",
+            "two girls cars",
+            "two girls's cars"
+          ],
+          "answer_index": 0,
+          "explain_key": "plural_s",
+          "media": [
+            {
+              "lemma": "car"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_the_singular_or_plural_possessive_0006",
+          "tier": 2,
+          "stem": "The bike of <NAME>",
+          "choices": [
+            "<NAME>s bike",
+            "<NAME>'s bike",
+            "<NAME>' bike",
+            "<NAME> bike"
+          ],
+          "answer_index": 1,
+          "explain_key": "name_s",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "bike"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_the_singular_or_plural_possessive_0007",
+          "tier": 3,
+          "stem": "The little red books of the children",
+          "choices": [
+            "the children's little red books",
+            "the childrens' little red books",
+            "the child's little red books",
+            "the children little red books"
+          ],
+          "answer_index": 0,
+          "explain_key": "irregular_s",
+          "media": [
+            {
+              "lemma": "book"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_form_the_singular_or_plural_possessive_0008",
+          "tier": 3,
+          "stem": "The new cars of the men",
+          "choices": [
+            "the mens' new cars",
+            "the man's new cars",
+            "the men's new cars",
+            "the men new cars"
+          ],
+          "answer_index": 2,
+          "explain_key": "irregular_s",
+          "media": [
+            {
+              "lemma": "car"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Keep four unique phrases and exactly one correct possessive rewrite. Never change the nouns from the stem.",
+      "Tier 1 uses one owner and obvious misses: drop the apostrophe or drop 's.",
+      "Tier 2 uses regular plural owners or a name. The closest miss flips 's and s'.",
+      "Tier 3 uses irregular plurals children, men, or women. The closest miss is childrens', mens', or womens'.",
+      "Never put the of-phrase in the choices. Never use real names; swap <NAME> from names.txt.",
+      "Stay in kid world: school, home, food, pets, play, family, weather. No brands."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\bapostrophe\\b",
+    "\\bpossessive\\b",
+    "\\bpunctuation\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b"
+  ],
+  "tier_rules": {
+    "1": "Short of-phrases of four to six words. One owner. Picture the owner or thing. Wrong choices drop 's or scramble the nouns.",
+    "2": "Five to seven words. Regular plural owners or a name. Near-miss choices flip singular 's and plural s'.",
+    "3": "Six to eight words with an adjective. Irregular plurals children, men, or women. Closest miss is childrens', mens', womens', or the singular 's form."
+  },
+  "miss_explain": {
+    "singular_s": {
+      "en": "One owner needs 's. The dog's ball shows one dog owns the ball.",
+      "ko": "주인 한 명에는 's를 붙입니다. the dog's ball은 개 한 마리가 공을 가진 것입니다."
+    },
+    "plural_s": {
+      "en": "A plural owner that ends in s needs only '. The kids' games shows more than one kid.",
+      "ko": "s로 끝나는 복수 주인에는 '만 붙입니다. the kids' games는 아이 여러 명을 뜻합니다."
+    },
+    "irregular_s": {
+      "en": "Special plurals like children and men need 's. Write the children's books.",
+      "ko": "children이나 men처럼 특별한 복수에는 's를 붙입니다. the children's books처럼 씁니다."
+    },
+    "name_s": {
+      "en": "A name is one owner. Add 's after the name.",
+      "ko": "이름은 주인 한 명입니다. 이름 뒤에 's를 붙입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Form the singular or plural possessive"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_segment_two_syllable_words_silent_e_vowel_te",
+  "family_title_en": "Segment two-syllable words: silent e, vowel team, r-controlled",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_segment_two_syllable_words_silent_e_vowel_te",
+      "ix_title": "Segment two-syllable words: silent e, vowel team, r-controlled",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which split is right?",
+        "ko": "어떤 나누기가 맞나요?"
+      },
+      "what_to_do": {
+        "en": "Tap the two parts of the long word.",
+        "ko": "긴 단어의 두 부분을 누르세요."
+      },
+      "choice_rule": "Four choices. Each choice is the same target word with one hyphen and the letters kept in order. Exactly one choice is the real two-part split. Tier 1 wrong splits are easy chops or cuts inside the pattern. Tier 2 wrong splits slide the hyphen by one letter. Tier 3 wrong splits sit one or two letters from the real break.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "airport",
+        "awake",
+        "backbone",
+        "backyard",
+        "barnyard",
+        "baseball",
+        "became",
+        "bedroom",
+        "beside",
+        "birdhouse",
+        "bookshelf",
+        "burger",
+        "campsite",
+        "carpet",
+        "circus",
+        "compete",
+        "corner",
+        "costume",
+        "cupcake",
+        "curtain",
+        "daydream",
+        "dirty",
+        "doctor",
+        "escape",
+        "farmer",
+        "flagpole",
+        "football",
+        "grapevine",
+        "hammer",
+        "handshake",
+        "homemade",
+        "homework",
+        "invite",
+        "ladder",
+        "lifetime",
+        "mailbox",
+        "marker",
+        "mermaid",
+        "milkshake",
+        "mistake",
+        "moonlight",
+        "notebook",
+        "oatmeal",
+        "pancake",
+        "perfect",
+        "polite",
+        "popcorn",
+        "purple",
+        "raincoat",
+        "reptile",
+        "rowboat",
+        "sailboat",
+        "seahorse",
+        "seaweed",
+        "shortcut",
+        "snowman",
+        "sometime",
+        "spider",
+        "starfish",
+        "stormy",
+        "sunrise",
+        "sunshine",
+        "supper",
+        "tadpole",
+        "teacup",
+        "teapot",
+        "thirteen",
+        "thirty",
+        "tiger",
+        "tractor",
+        "turkey"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_segment_two_syllable_words_silent_e_vowel_te_0001",
+          "tier": 1,
+          "stem": "cupcake",
+          "choices": [
+            "cu-pcake",
+            "cupc-ake",
+            "cup-cake",
+            "cupca-ke"
+          ],
+          "answer_index": 2,
+          "explain_key": "silent_e"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_silent_e_vowel_te_0002",
+          "tier": 1,
+          "stem": "rainbow",
+          "choices": [
+            "rain-bow",
+            "ra-inbow",
+            "rai-nbow",
+            "rainb-ow"
+          ],
+          "answer_index": 0,
+          "explain_key": "vowel_team"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_silent_e_vowel_te_0003",
+          "tier": 1,
+          "stem": "sister",
+          "choices": [
+            "s-ister",
+            "sis-ter",
+            "siste-r",
+            "sist-er"
+          ],
+          "answer_index": 1,
+          "explain_key": "r_controlled"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_silent_e_vowel_te_0004",
+          "tier": 2,
+          "stem": "Bedtime is so fun.",
+          "choices": [
+            "be-dtime",
+            "bedt-ime",
+            "bedti-me",
+            "bed-time"
+          ],
+          "answer_index": 3,
+          "explain_key": "silent_e"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_silent_e_vowel_te_0005",
+          "tier": 2,
+          "stem": "The peanut is hot.",
+          "choices": [
+            "pe-anut",
+            "pea-nut",
+            "pean-ut",
+            "peanu-t"
+          ],
+          "answer_index": 1,
+          "explain_key": "vowel_team"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_silent_e_vowel_te_0006",
+          "tier": 2,
+          "stem": "The garden is big.",
+          "choices": [
+            "ga-rden",
+            "gard-en",
+            "gar-den",
+            "garde-n"
+          ],
+          "answer_index": 2,
+          "explain_key": "r_controlled"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_silent_e_vowel_te_0007",
+          "tier": 3,
+          "stem": "A red balloon is big.",
+          "choices": [
+            "ba-lloon",
+            "ball-oon",
+            "ballo-on",
+            "bal-loon"
+          ],
+          "answer_index": 3,
+          "explain_key": "double_team"
+        },
+        {
+          "item_id": "roots_segment_two_syllable_words_silent_e_vowel_te_0008",
+          "tier": 3,
+          "stem": "<NAME> has a pet turtle.",
+          "choices": [
+            "tur-tle",
+            "tu-rtle",
+            "turt-le",
+            "turtl-e"
+          ],
+          "answer_index": 0,
+          "explain_key": "r_and_silent_e",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Give four hyphen splits of the same word, with every letter kept in order.",
+      "Exactly one choice is the real two-part split. The other three are wrong.",
+      "The right silent-e split keeps the whole silent-e chunk, as in cup-cake or bed-time.",
+      "The right vowel-team split keeps each team inside one part, as in rain-bow or pea-nut.",
+      "The right r-controlled split keeps r with its vowel and breaks between the two consonants.",
+      "For a double letter plus a vowel team, break between the doubles and keep the team together.",
+      "Tier 1 wrong splits are easy to spot. Tier 3 wrong splits sit only one or two letters from the real hyphen.",
+      "Use explain_key silent_e, vowel_team, r_controlled, double_team, or r_and_silent_e.",
+      "Each stem has only one two-syllable target from home, school, food, pets, play, family, or weather.",
+      "Never use sound symbols, brand names, or a real child name. A name slot must be <NAME>.",
+      "A final silent e after r stays in the last part, and r stays with its vowel, as in tur-tle."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bschwa\\b",
+    "\\bdigraph\\b",
+    "\\bipa\\b",
+    "\\bsound of\\b",
+    "/[^\\s/]{1,6}/",
+    "\\bnike\\b",
+    "\\bdisney\\b",
+    "\\bpokemon\\b",
+    "\\blego\\b",
+    "\\bbarbie\\b"
+  ],
+  "tier_rules": {
+    "1": "The stem is one familiar two-syllable word. The right split is an obvious two-beat break. Wrong splits chop off one letter or cut inside a team, an r, or a silent e.",
+    "2": "The stem is a short kid sentence with one two-syllable word. Wrong splits slide the hyphen by one letter.",
+    "3": "The stem is a longer kid sentence. Wrong splits are near misses that divide double letters the wrong way, pull r off its vowel, or leave a silent e behind."
+  },
+  "miss_explain": {
+    "silent_e": {
+      "en": "Keep the silent-e part whole. The e stays with its vowel.",
+      "ko": "묵음 e 부분은 통째로 둡니다. e는 그 모음과 함께 있습니다."
+    },
+    "vowel_team": {
+      "en": "Say the two real parts. Keep each vowel team inside its part.",
+      "ko": "진짜 두 부분으로 말하세요. 모음 팀은 각 부분 안에 둡니다."
+    },
+    "r_controlled": {
+      "en": "Keep r with its vowel, and split between the two consonants.",
+      "ko": "r은 모음과 함께 둡니다. 자음 둘 사이를 나눕니다."
+    },
+    "double_team": {
+      "en": "Split between the double letters, and keep the vowel team together.",
+      "ko": "같은 자음 둘 사이를 나눕니다. 모음 팀은 한 부분에 둡니다."
+    },
+    "r_and_silent_e": {
+      "en": "Keep r with its vowel, and keep the silent e in the last part.",
+      "ko": "r은 모음과 함께 둡니다. 묵음 e는 끝 부분에 둡니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "EASY",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Segment two-syllable words: silent e, vowel team, r-controlled"
+    ],
+    "no_ixl_text": true
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_change_the_sentence_to_future_tense",
+  "family_title_en": "Change the sentence to future tense",
+  "item_type": "abcd",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_change_the_sentence_to_future_tense",
+      "ix_title": "Change the sentence to future tense",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Change this to future tense.",
+        "ko": "이 문장을 미래 시제로 바꾸세요."
+      },
+      "what_to_do": {
+        "en": "Tap the future tense sentence.",
+        "ko": "미래 시제 문장을 누르세요."
+      },
+      "choice_rule": "Write four unique sentence choices that keep the same subject and kid-world details. Exactly one is future: will plus the base verb (be-verb stems become will be). The other three are the unchanged stem, a present or past form, or a broken future (will plus past, will plus -ing, or will plus has/are/were/am/is). Never use going to. Never change the verb meaning.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [
+        "eating",
+        "eats",
+        "eaten",
+        "played",
+        "playing",
+        "plays",
+        "baking",
+        "bakes",
+        "runs",
+        "walks",
+        "walked",
+        "walking",
+        "jumps",
+        "jumped",
+        "jumping",
+        "reads",
+        "reading",
+        "drinks",
+        "drinking",
+        "gives",
+        "giving",
+        "comes",
+        "coming",
+        "makes",
+        "takes",
+        "taking",
+        "sees",
+        "having",
+        "being",
+        "doing",
+        "cooked",
+        "cooking",
+        "washed",
+        "washing",
+        "helped",
+        "helping",
+        "opened",
+        "opening"
+      ],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_change_the_sentence_to_future_tense_0001",
+          "tier": 1,
+          "stem": "I eat breakfast.",
+          "choices": [
+            "I will eat breakfast.",
+            "I eat breakfast.",
+            "I ate breakfast.",
+            "I eating breakfast."
+          ],
+          "answer_index": 0,
+          "explain_key": "add_will",
+          "media": [
+            {
+              "lemma": "breakfast"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_change_the_sentence_to_future_tense_0002",
+          "tier": 1,
+          "stem": "We play soccer.",
+          "choices": [
+            "We play soccer.",
+            "We will play soccer.",
+            "We played soccer.",
+            "We playing soccer."
+          ],
+          "answer_index": 1,
+          "explain_key": "not_present",
+          "media": [
+            {
+              "lemma": "soccer"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_change_the_sentence_to_future_tense_0003",
+          "tier": 1,
+          "stem": "They bake cookies.",
+          "choices": [
+            "They bake cookies.",
+            "They baked cookies.",
+            "They will bake cookies.",
+            "They baking cookies."
+          ],
+          "answer_index": 2,
+          "explain_key": "not_past",
+          "media": [
+            {
+              "lemma": "cookie"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_change_the_sentence_to_future_tense_0004",
+          "tier": 2,
+          "stem": "She ran home.",
+          "choices": [
+            "She will run home.",
+            "She will ran home.",
+            "She ran home.",
+            "She runs home."
+          ],
+          "answer_index": 0,
+          "explain_key": "keep_base",
+          "media": [
+            {
+              "lemma": "home"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_change_the_sentence_to_future_tense_0005",
+          "tier": 2,
+          "stem": "<NAME> went to school.",
+          "choices": [
+            "<NAME> went to school.",
+            "<NAME> will go to school.",
+            "<NAME> will went to school.",
+            "<NAME> goes to school."
+          ],
+          "answer_index": 1,
+          "explain_key": "add_will",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "school"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_change_the_sentence_to_future_tense_0006",
+          "tier": 2,
+          "stem": "I saw a frog.",
+          "choices": [
+            "I saw a frog.",
+            "I see a frog.",
+            "I will see a frog.",
+            "I will saw a frog."
+          ],
+          "answer_index": 2,
+          "explain_key": "keep_base",
+          "media": [
+            {
+              "lemma": "frog"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_change_the_sentence_to_future_tense_0007",
+          "tier": 3,
+          "stem": "<NAME> has a red kite.",
+          "choices": [
+            "<NAME> will have a red kite.",
+            "<NAME> will has a red kite.",
+            "<NAME> has a red kite.",
+            "<NAME> had a red kite."
+          ],
+          "answer_index": 0,
+          "explain_key": "keep_base",
+          "swap_slots": {
+            "NAME": "names.txt"
+          },
+          "media": [
+            {
+              "lemma": "kite"
+            }
+          ]
+        },
+        {
+          "item_id": "roots_change_the_sentence_to_future_tense_0008",
+          "tier": 3,
+          "stem": "We were at the park.",
+          "choices": [
+            "We were at the park.",
+            "We are at the park.",
+            "We will were at the park.",
+            "We will be at the park."
+          ],
+          "answer_index": 3,
+          "explain_key": "not_past",
+          "media": [
+            {
+              "lemma": "park"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Always give four unique sentence choices and exactly one right future form.",
+      "The right choice is will plus the base verb. Be-verb stems become will be.",
+      "Never offer going to, gonna, or shall. Those can look like future too.",
+      "Wrong choices are the unchanged stem, a present form, a past form, or a broken future.",
+      "Broken future means will plus a past form, will plus -ing, or will plus has, are, were, am, or is.",
+      "Keep the same subject, names, and kid-world details in every choice. Do not swap in a new verb.",
+      "Stems must be clearly present or past. Do not put will, tonight, or tomorrow in a stem.",
+      "Tier 3 must include one near-miss such as will has, will are, will were, or will plus the old past form."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bsentence\\b",
+    "\\btense\\b",
+    "\\bverb\\b",
+    "\\bgrammar\\b",
+    "\\bpunctuation\\b",
+    "going to",
+    "\\bgonna\\b",
+    "\\bshall\\b",
+    "\\bdavid\\b",
+    "\\bjohn\\b",
+    "\\bebay\\b",
+    "\\byahoo\\b"
+  ],
+  "tier_rules": {
+    "1": "Short present stems of three to five words. The right choice adds will and keeps the same base verb. Wrong choices repeat the stem, use a simple past, or drop a helping word.",
+    "2": "Grade-level stems with irregular past or a name. One distractor uses will plus the old past form, such as will ran or will went.",
+    "3": "Near-miss helping verbs. Stems use has, are, or were. Wrong choices keep will has, will are, or will were."
+  },
+  "miss_explain": {
+    "add_will": {
+      "en": "Future tense needs will and the action word.",
+      "ko": "미래 시제는 will과 동사 원형이 필요합니다."
+    },
+    "keep_base": {
+      "en": "After will, use the simple action word.",
+      "ko": "will 다음에는 동사 원형을 씁니다."
+    },
+    "not_present": {
+      "en": "This tells what happens now, not later.",
+      "ko": "이것은 지금 일어나는 일이고, 나중이 아닙니다."
+    },
+    "not_past": {
+      "en": "This already happened. Future is later.",
+      "ko": "이것은 이미 일어난 일입니다. 미래는 나중입니다."
+    }
+  },
+  "media_policy": {
+    "pictures": "lemma_lookup",
+    "word_audio": "lemma_lookup"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "NONE",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.6",
+    "date": "2026-09-13",
+    "ix_titles": [
+      "Change the sentence to future tense"
+    ],
+    "no_ixl_text": true
+  }
+}

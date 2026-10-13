@@ -1,0 +1,283 @@
+{
+  "spec_version": 1,
+  "family_id": "fam_which_word_has_a_different_vowel_sound",
+  "family_title_en": "Which word has a different vowel sound?",
+  "item_type": "odd_one_out",
+  "stages": [
+    {
+      "stage": "roots",
+      "skill_id": "roots_which_word_has_a_different_vowel_sound",
+      "ix_title": "Which word has a different vowel sound?",
+      "grade_classroom": "2",
+      "prompt": {
+        "en": "Which word has a different vowel sound?",
+        "ko": "모음 소리가 다른 단어는 무엇인가요?"
+      },
+      "what_to_do": {
+        "en": "Tap the word that does not match.",
+        "ko": "소리가 다른 단어를 누르세요."
+      },
+      "choice_rule": "Four different whole words from the roots list. Three share one vowel sound. answer_index is the one word with a different vowel sound. Shuffle that word across the four slots. Tier 1 is an easy team, as in boat, tree, or rain. Tier 2 and tier 3 use closer variant vowels.",
+      "wordlist": "factory/wordlists/roots.txt",
+      "allowed_extra_words": [],
+      "stem_max_words": 10,
+      "target_items": 100,
+      "tier_mix": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "gold_items": [
+        {
+          "item_id": "roots_which_word_has_a_different_vowel_sound_0001",
+          "tier": 1,
+          "stem": "Which word has a different vowel?",
+          "choices": [
+            "cat",
+            "boat",
+            "coat",
+            "road"
+          ],
+          "answer_index": 0,
+          "explain_key": "not_long_o"
+        },
+        {
+          "item_id": "roots_which_word_has_a_different_vowel_sound_0002",
+          "tier": 1,
+          "stem": "Which word has a different vowel?",
+          "choices": [
+            "tree",
+            "sheep",
+            "feet",
+            "pig"
+          ],
+          "answer_index": 3,
+          "explain_key": "not_long_e"
+        },
+        {
+          "item_id": "roots_which_word_has_a_different_vowel_sound_0003",
+          "tier": 1,
+          "stem": "Which word has a different vowel?",
+          "choices": [
+            "rain",
+            "hot",
+            "train",
+            "paint"
+          ],
+          "answer_index": 1,
+          "explain_key": "not_long_a"
+        },
+        {
+          "item_id": "roots_which_word_has_a_different_vowel_sound_0004",
+          "tier": 2,
+          "stem": "Tap the word with a different vowel.",
+          "choices": [
+            "moon",
+            "boot",
+            "spoon",
+            "book"
+          ],
+          "answer_index": 3,
+          "explain_key": "oo_as_book"
+        },
+        {
+          "item_id": "roots_which_word_has_a_different_vowel_sound_0005",
+          "tier": 2,
+          "stem": "Tap the word with a different vowel.",
+          "choices": [
+            "snow",
+            "cow",
+            "town",
+            "down"
+          ],
+          "answer_index": 0,
+          "explain_key": "ow_as_snow"
+        },
+        {
+          "item_id": "roots_which_word_has_a_different_vowel_sound_0006",
+          "tier": 2,
+          "stem": "Tap the word with a different vowel.",
+          "choices": [
+            "bread",
+            "head",
+            "beach",
+            "spread"
+          ],
+          "answer_index": 2,
+          "explain_key": "ea_as_beach"
+        },
+        {
+          "item_id": "roots_which_word_has_a_different_vowel_sound_0007",
+          "tier": 3,
+          "stem": "<NAME>, pick the word with a different vowel.",
+          "choices": [
+            "house",
+            "soup",
+            "mouse",
+            "cloud"
+          ],
+          "answer_index": 1,
+          "explain_key": "ou_as_soup",
+          "swap_slots": {
+            "NAME": "names.txt"
+          }
+        },
+        {
+          "item_id": "roots_which_word_has_a_different_vowel_sound_0008",
+          "tier": 3,
+          "stem": "Now pick the word with a different vowel.",
+          "choices": [
+            "meat",
+            "seat",
+            "sweat",
+            "wheat"
+          ],
+          "answer_index": 2,
+          "explain_key": "ea_as_bread"
+        }
+      ]
+    }
+  ],
+  "swap_slots": {
+    "NAME": "names.txt"
+  },
+  "distractor_rules": {
+    "roots": [
+      "Four whole words from the roots list. Exactly one has a different vowel sound, and that word is the only answer.",
+      "The other three must share one vowel sound in American English. Same spelling is not required, but the sound must match.",
+      "Never put two different vowel sounds in the matching trio, and never make two answers possible.",
+      "Do not use a word that can be read two ways, such as read, live, close, wind, or tear.",
+      "Tier 1 uses an easy vowel team, as in boat, tree, or rain, plus one obvious mismatch such as cat, pig, or hot.",
+      "Tier 2 splits a variant vowel, such as book beside moon, snow beside cow, or beach beside bread.",
+      "Tier 3 is a near miss with the same vowel letters, such as soup beside house or sweat beside wheat.",
+      "Stems must be one of these only: Which word has a different vowel? Tap the word with a different vowel. Now pick the word with a different vowel. <NAME>, pick the word with a different vowel.",
+      "Use whole words only. Do not write IPA, slash sounds, letter sounds alone, or a held vowel.",
+      "Shuffle the different word across slots. Set explain_key from miss_explain. Do not write new explanation prose.",
+      "Two-syllable words are allowed only when the compared vowel is clear and syllable count does not create a second answer.",
+      "No brand names and no real child names. Use the NAME swap only in the name stem frame."
+    ]
+  },
+  "banned_patterns": [
+    "ixl",
+    "smartscore",
+    "challenge zone",
+    "tap ?tap",
+    "duolingo",
+    "lexia",
+    "quill",
+    "noredink",
+    "seedream",
+    "\\bbelt\\b",
+    "kindergarten",
+    "\\bai\\b",
+    "https?://",
+    "@",
+    "\\bphoneme\\b",
+    "\\bipa\\b",
+    "\\bschwa\\b"
+  ],
+  "tier_rules": {
+    "1": "Short stem and four one-syllable words. Three share an easy vowel, as in boat, coat, and road. The different word is obvious, as in cat, pig, or hot.",
+    "2": "Grade 2 variant vowels. Three words share a sound, as in moon, boot, and spoon, or cow, town, and down. The different word is close but clear, as in book, snow, or beach.",
+    "3": "Near misses with the same vowel letters and a different sound, as in soup beside house or sweat beside wheat. Two-syllable words only when one vowel is clearly different."
+  },
+  "miss_explain": {
+    "not_long_o": {
+      "en": "The other words have the vowel in boat. The different word does not.",
+      "ko": "나머지 단어는 boat의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "not_long_e": {
+      "en": "The other words have the vowel in tree. The different word does not.",
+      "ko": "나머지 단어는 tree의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "not_long_a": {
+      "en": "The other words have the vowel in rain. The different word does not.",
+      "ko": "나머지 단어는 rain의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "not_long_i": {
+      "en": "The other words have the vowel in bike. The different word does not.",
+      "ko": "나머지 단어는 bike의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "not_long_u": {
+      "en": "The other words have the vowel in blue. The different word does not.",
+      "ko": "나머지 단어는 blue의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "oo_as_book": {
+      "en": "The different word has the vowel in look. It does not match moon.",
+      "ko": "소리가 다른 단어는 look의 모음이에요. moon의 모음이 아니에요."
+    },
+    "oo_as_moon": {
+      "en": "The different word has the vowel in moon. It does not match look.",
+      "ko": "소리가 다른 단어는 moon의 모음이에요. look의 모음이 아니에요."
+    },
+    "ow_as_snow": {
+      "en": "The different word has the vowel in snow. It does not match cow.",
+      "ko": "소리가 다른 단어는 snow의 모음이에요. cow의 모음이 아니에요."
+    },
+    "ow_as_cow": {
+      "en": "The different word has the vowel in cow. It does not match snow.",
+      "ko": "소리가 다른 단어는 cow의 모음이에요. snow의 모음이 아니에요."
+    },
+    "ea_as_beach": {
+      "en": "The different word has the vowel in beach. It does not match bread.",
+      "ko": "소리가 다른 단어는 beach의 모음이에요. bread의 모음이 아니에요."
+    },
+    "ea_as_bread": {
+      "en": "The different word has the vowel in bread. It does not match beach.",
+      "ko": "소리가 다른 단어는 bread의 모음이에요. beach의 모음이 아니에요."
+    },
+    "ou_as_soup": {
+      "en": "The different word has the vowel in soup. It does not match house.",
+      "ko": "소리가 다른 단어는 soup의 모음이에요. house의 모음이 아니에요."
+    },
+    "ou_as_house": {
+      "en": "The different word has the vowel in house. It does not match soup.",
+      "ko": "소리가 다른 단어는 house의 모음이에요. soup의 모음이 아니에요."
+    },
+    "not_oy": {
+      "en": "The other words have the vowel in boy. The different word does not.",
+      "ko": "나머지 단어는 boy의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "not_aw": {
+      "en": "The other words have the vowel in saw. The different word does not.",
+      "ko": "나머지 단어는 saw의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "not_ar": {
+      "en": "The other words have the vowel in car. The different word does not.",
+      "ko": "나머지 단어는 car의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "not_or": {
+      "en": "The other words have the vowel in corn. The different word does not.",
+      "ko": "나머지 단어는 corn의 모음이에요. 다른 하나는 모음이 달라요."
+    },
+    "not_er": {
+      "en": "The other words have the vowel in bird. The different word does not.",
+      "ko": "나머지 단어는 bird의 모음이에요. 다른 하나는 모음이 달라요."
+    }
+  },
+  "media_policy": {
+    "pictures": "none",
+    "word_audio": "none"
+  },
+  "audio_policy": {
+    "stem": "none"
+  },
+  "phonics": {
+    "cost": "MEDIUM",
+    "sound_bank_only": false
+  },
+  "models": {
+    "spec_model": "grok-4.6",
+    "fill_model": "composer-2.5",
+    "qa_model": "grok-4.6",
+    "qa_sample_n": 5
+  },
+  "provenance": {
+    "written_by": "grok-4.7",
+    "date": "2026-10-11",
+    "ix_titles": [
+      "Which word has a different vowel sound?"
+    ],
+    "no_ixl_text": true
+  }
+}
