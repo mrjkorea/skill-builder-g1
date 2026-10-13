@@ -8,7 +8,7 @@ const vm = require("node:vm");
 
 const scoreSave = require("../sb-score-save.js");
 
-const BUILD = "20261011-savefix";
+const BUILD = "20261013-cloud";
 const TEST_STUDENT = "zz_test_mrjmetrics";
 
 function loadMrjScores(mocks) {

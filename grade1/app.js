@@ -1,7 +1,15 @@
 (() => {
   const PACK = "./pack/";
-  const PROGRAM = "skill-builder-g1";
   const PACK_SAVE_THROTTLE_MS = 17000;
+  const GRADE = "g1";
+  function packProgram() {
+    const api = packApi();
+    return (api && api.PACK_PROGRAM) || "skill-builder";
+  }
+  function legacyPackProgram() {
+    const api = packApi();
+    return (api && api.LEGACY_PACK_PROGRAM) || "skill-builder-g1";
+  }
   // Shared MRJ sign-in. Student id comes from mrj-auth-ready, not a typed name.
   const CATEGORIES = [
     { key: "phonics", label: "Phonics" },
@@ -59,8 +67,7 @@
   ];
 
   const LANG_CODES = new Set(LANGUAGES.map((l) => l.code));
-  const savedLang = localStorage.getItem("sb_lang");
-  const initialLang = savedLang && LANG_CODES.has(savedLang) ? savedLang : "en";
+  const initialLang = "en";
 
   const state = {
     skills: [],
@@ -79,10 +86,12 @@
     locked: false,
     orderPicked: [],
     packReady: false,
+    lastPlace: null,
   };
 
   let studentId = "";
   let studentIdKey = "";
+  let packSyncSeq = 0;
   let packLoadOk = false;
   let packSavePending = false;
   let packDirty = false;
@@ -93,11 +102,15 @@
   const packApi = () => (typeof window !== "undefined" && window.SB_PACK_SYNC) || null;
 
   function buildProgressJson() {
+    const api = packApi();
+    const last = api && api.normalizeLast ? api.normalizeLast(state.lastPlace) : state.lastPlace;
     return JSON.stringify({
-      v: 1,
+      v: 2,
+      grade: GRADE,
       scores: state.scores,
       stats: loadStats(),
       lang: state.lang,
+      last,
     });
   }
 
@@ -131,9 +144,10 @@
 
   function applyProgressBlob(blob) {
     const api = packApi();
-    const empty = api ? api.emptyProgress() : { v: 1, scores: {}, stats: {}, lang: null };
+    const empty = api ? api.emptyProgress(GRADE) : { v: 2, grade: GRADE, scores: {}, stats: {}, lang: null, last: null };
     const p = blob || empty;
     state.scores = p.scores && typeof p.scores === "object" ? p.scores : {};
+    state.lastPlace = api && api.normalizeLast ? api.normalizeLast(p.last) : p.last || null;
     if (p.lang && LANG_CODES.has(p.lang)) {
       state.lang = p.lang;
       localStorage.setItem(langStorageKey(), p.lang);
@@ -143,16 +157,43 @@
   }
 
   function captureProgressFromState() {
+    const api = packApi();
     const langRaw = localStorage.getItem(langStorageKey());
     const lang =
       (langRaw && LANG_CODES.has(langRaw) ? langRaw : null) ||
       (LANG_CODES.has(state.lang) ? state.lang : null);
+    const last = api && api.normalizeLast ? api.normalizeLast(state.lastPlace) : state.lastPlace;
     return {
-      v: 1,
+      v: 2,
+      grade: GRADE,
       scores: Object.assign({}, state.scores),
       stats: readJsonStorage(statsStorageKey(), {}),
       lang,
+      last,
     };
+  }
+
+  function resetInMemoryForStudentSwitch() {
+    state.scores = {};
+    state.streaks = {};
+    state.skillIntroPlayed = {};
+    state.lastPlace = null;
+    state.skill = null;
+    state.selectedCategory = null;
+    state.lang = initialLang;
+  }
+
+  function resetPackSession() {
+    packSyncSeq += 1;
+    packLoadOk = false;
+    packSavePending = false;
+    packDirty = false;
+    packLastSaveAt = 0;
+    clearPackSaveTimer();
+    if (packLoadRetryTimer) {
+      clearTimeout(packLoadRetryTimer);
+      packLoadRetryTimer = null;
+    }
   }
 
   function mergeKeyedStorageIntoState() {
@@ -160,13 +201,19 @@
     if (!api) return;
     const langRaw = localStorage.getItem(langStorageKey());
     const stored = {
-      v: 1,
+      v: 2,
+      grade: GRADE,
       scores: readJsonStorage(scoresStorageKey(), {}),
       stats: readJsonStorage(statsStorageKey(), {}),
       lang: langRaw && LANG_CODES.has(langRaw) ? langRaw : null,
+      last: null,
     };
-    const merged = api.mergeProgress(stored, captureProgressFromState());
+    const legacy = api.consumeDeviceLegacy ? api.consumeDeviceLegacy(studentIdKey, GRADE) : null;
+    let base = stored;
+    if (legacy) base = api.mergeProgress(stored, legacy, GRADE);
+    const merged = api.mergeProgress(base, captureProgressFromState(), GRADE);
     state.scores = merged.scores && typeof merged.scores === "object" ? merged.scores : {};
+    state.lastPlace = api.normalizeLast ? api.normalizeLast(merged.last) : merged.last;
     localStorage.setItem(scoresStorageKey(), JSON.stringify(state.scores));
     localStorage.setItem(
       statsStorageKey(),
@@ -190,7 +237,7 @@
   function canPackSave() {
     const api = packApi();
     if (!api) return false;
-    return api.canSaveToServer(packLoadOk, window.MRJ_AUTH, PROGRAM);
+    return api.canSaveToServer(packLoadOk, window.MRJ_AUTH, packProgram());
   }
 
   function clearPackSaveTimer() {
@@ -208,7 +255,7 @@
     packSavePending = false;
     clearPackSaveTimer();
     try {
-      const res = await auth.savePack(PROGRAM, buildProgressJson());
+      const res = await auth.savePack(packProgram(), buildProgressJson());
       if (res && res.ok) {
         packLastSaveAt = Date.now();
         packDirty = false;
@@ -252,9 +299,19 @@
     }, 30000);
   }
 
+  async function loadCloudPack(auth, program) {
+    try {
+      return await auth.loadPack(program);
+    } catch (_) {
+      return { ok: false, error: "network" };
+    }
+  }
+
   async function syncStudentPack(id) {
     const api = packApi();
     if (!api) return;
+    const seq = packSyncSeq;
+    const program = packProgram();
     studentIdKey = api.idKey(id);
     packLoadOk = false;
     clearPackSaveTimer();
@@ -263,11 +320,24 @@
 
     if (!authHasPackApi()) return;
 
-    let loadRes;
-    try {
-      loadRes = await window.MRJ_AUTH.loadPack(PROGRAM);
-    } catch (_) {
-      loadRes = { ok: false, error: "network" };
+    let loadRes = await loadCloudPack(window.MRJ_AUTH, program);
+    if (seq !== packSyncSeq || api.idKey(studentId) !== studentIdKey) return;
+
+    if (loadRes && loadRes.ok && !loadRes.found) {
+      const legacyRes = await loadCloudPack(window.MRJ_AUTH, legacyPackProgram());
+      if (seq !== packSyncSeq || api.idKey(studentId) !== studentIdKey) return;
+      if (legacyRes && legacyRes.ok && legacyRes.found && legacyRes.progress_json) {
+        const migrated = api.parseProgressJson(legacyRes.progress_json, GRADE);
+        migrated.grade = GRADE;
+        try {
+          await window.MRJ_AUTH.savePack(program, JSON.stringify(migrated));
+        } catch (_) {}
+        loadRes = {
+          ok: true,
+          found: true,
+          progress_json: JSON.stringify(migrated),
+        };
+      }
     }
 
     if (!loadRes || !loadRes.ok) {
@@ -278,13 +348,14 @@
     packLoadOk = true;
     const { merged, serverParsed } = api.mergeAfterPackLoad(
       captureProgressFromState(),
-      loadRes.progress_json
+      loadRes.progress_json,
+      GRADE
     );
     applyProgressBlob(merged);
 
     if (api.isRicherThan(merged, serverParsed)) {
       try {
-        const saveRes = await window.MRJ_AUTH.savePack(PROGRAM, JSON.stringify(merged));
+        const saveRes = await window.MRJ_AUTH.savePack(program, JSON.stringify(merged));
         if (saveRes && saveRes.ok) {
           packLastSaveAt = Date.now();
           packDirty = false;
@@ -295,6 +366,22 @@
         markPackDirty();
       }
     }
+  }
+
+  function rememberLastSkill(skill, category) {
+    if (!skill || !skill.skill_id) return;
+    const api = packApi();
+    state.lastPlace = {
+      skill_id: skill.skill_id,
+      category: category || skill.category || state.selectedCategory || null,
+    };
+    if (api && api.normalizeLast) state.lastPlace = api.normalizeLast(state.lastPlace);
+    markPackDirty();
+    schedulePackSave();
+  }
+
+  function skillById(skillId) {
+    return state.skills.find((s) => s.skill_id === skillId) || null;
   }
 
   function logAnswer(skillId, q, correct, smartScore, tier) {
@@ -1033,15 +1120,10 @@
     if (packDirty || packSavePending) flushPackSave(true);
     studentId = "";
     studentIdKey = "";
-    packLoadOk = false;
-    packSavePending = false;
-    packDirty = false;
-    clearPackSaveTimer();
-    if (packLoadRetryTimer) {
-      clearTimeout(packLoadRetryTimer);
-      packLoadRetryTimer = null;
-    }
-    state.scores = {};
+    resetPackSession();
+    resetInMemoryForStudentSwitch();
+    const api = packApi();
+    if (api && api.purgeDeviceWideKeys) api.purgeDeviceWideKeys();
     localStorage.removeItem("sb_account");
     const el = app();
     if (el) el.innerHTML = "";
@@ -1059,7 +1141,16 @@
       const raw = event && event.detail ? event.detail.id : "";
       const id = String(raw == null ? "" : raw).trim();
       if (!id) return;
+      const api = packApi();
+      const nextKey = api ? api.idKey(id) : id;
+      const prevKey = studentIdKey;
+      if (prevKey && nextKey && prevKey !== nextKey) {
+        if (packDirty || packSavePending) await flushPackSave(true);
+        resetInMemoryForStudentSwitch();
+        resetPackSession();
+      }
       studentId = id;
+      studentIdKey = nextKey;
       try {
         await packPromise;
       } catch (e) {
@@ -1093,6 +1184,8 @@
     const el = app();
     el.innerHTML = "";
     el.appendChild($(`<h1 class="title-main">English Skill Builder · Grade 1</h1>`));
+    const gradesLink = $(`<a class="btn small grades-link" href="../">← Grades</a>`);
+    el.appendChild(gradesLink);
 
     const toolbar = $('<div class="toolbar row"></div>');
     if (studentId) {
@@ -1104,6 +1197,17 @@
     }
     appendPlayToolbar(toolbar, home);
     el.appendChild(toolbar);
+
+    const last = state.lastPlace;
+    const lastSkill = last && last.skill_id ? skillById(last.skill_id) : null;
+    if (lastSkill) {
+      const resume = $(
+        `<button type="button" class="btn primary resume-btn">Continue: ${escapeHtml(lastSkill.title_en)}</button>`
+      );
+      resume.onclick = () =>
+        startSkill(lastSkill, { category: last.category || lastSkill.category, fromResume: true });
+      el.appendChild(resume);
+    }
 
     const search = $(`<input class="search" type="search" placeholder="Find a skill" autocomplete="off" />`);
     el.appendChild(search);
@@ -1241,6 +1345,7 @@
     state.queue = servePool(state.items, skill.skill_id);
     state.idx = 0;
     state.skillIntroPlayed[skill.skill_id] = false;
+    rememberLastSkill(skill, opts.category || state.selectedCategory);
     showItem();
   }
 
