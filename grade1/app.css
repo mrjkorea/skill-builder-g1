@@ -48,6 +48,15 @@ a.grades-link {
   margin-bottom: 8px;
 }
 .resume-btn { text-align: center; margin: 4px 0 12px; }
+.sound-gesture-hint {
+  margin: 0 0 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 2px solid var(--accent);
+  background: color-mix(in srgb, var(--accent) 18%, var(--card));
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
 .btn.replay {
   width: 56px;
   height: 56px;
