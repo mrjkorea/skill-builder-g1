@@ -406,6 +406,46 @@
 
   let skillAudio = null;
   let audioGen = 0;
+  let picturesLoadPromise = null;
+  const SOUND_GESTURE_KEY = "sb_sound_gesture_ok";
+
+  function soundGestureOk() {
+    try {
+      return sessionStorage.getItem(SOUND_GESTURE_KEY) === "1";
+    } catch (_) {
+      return false;
+    }
+  }
+
+  function markSoundGesture() {
+    try {
+      sessionStorage.setItem(SOUND_GESTURE_KEY, "1");
+    } catch (_) {}
+    try {
+      if (window.speechSynthesis) window.speechSynthesis.getVoices();
+    } catch (_) {}
+    const hint = document.getElementById("sound-gesture-hint");
+    if (hint) hint.remove();
+  }
+
+  function installSoundGestureCapture() {
+    if (soundGestureOk()) return;
+    const onGesture = () => {
+      markSoundGesture();
+      document.removeEventListener("pointerdown", onGesture, true);
+      document.removeEventListener("keydown", onGesture, true);
+    };
+    document.addEventListener("pointerdown", onGesture, true);
+    document.addEventListener("keydown", onGesture, true);
+  }
+
+  function appendSoundGestureHint(el) {
+    if (!soundEnabled() || soundGestureOk()) return;
+    const hint = $(
+      `<p class="sound-gesture-hint" id="sound-gesture-hint">Tap the screen once so sound can play. · 한 번 눌러 주세요.</p>`
+    );
+    el.appendChild(hint);
+  }
   const TAP_SKIP = new Set(["the", "and", "for", "with", "that", "this"]);
   const TAP_MARK_RE = /\[\[([^\]]+)\]\]/g;
 
@@ -650,30 +690,50 @@
     return !puck;
   }
 
+  function speakWeb(word, wantFemale) {
+    return new Promise((resolve) => {
+      if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) {
+        resolve(false);
+        return;
+      }
+      try {
+        window.speechSynthesis.cancel();
+      } catch (_) {}
+      const u = new SpeechSynthesisUtterance(word);
+      u.rate = 0.95;
+      u.onend = () => resolve(true);
+      u.onerror = () => resolve(false);
+      ensureVoices()
+        .then((voices) => {
+          const stored = localStorage.getItem(wantFemale ? "sb_voice_uri_f" : "sb_voice_uri_m");
+          const v = pickVoice(voices, wantFemale, stored);
+          if (v) {
+            u.voice = v;
+            try {
+              localStorage.setItem(wantFemale ? "sb_voice_uri_f" : "sb_voice_uri_m", v.voiceURI);
+            } catch (_) {}
+          }
+          window.speechSynthesis.speak(u);
+        })
+        .catch(() => resolve(false));
+    });
+  }
+
   async function speak(text, opts = {}) {
     const word = String(text || "").trim();
-    if (!word) return;
+    if (!word || !soundEnabled()) return;
+    if (!soundGestureOk()) return;
     const role = opts.role || "item";
     const wantFemale = roleWantsFemale(role);
-    const sid = wantFemale ? 0 : 1;
     const p = ttsPlugin();
     try {
       if (p && p.stop) p.stop().catch(() => {});
       if (p && p.speak) {
-        await p.speak({ text: word, sid, gender: wantFemale ? "female" : "male" });
+        await p.speak({ text: word, sid: wantFemale ? 0 : 1, gender: wantFemale ? "female" : "male" });
         return;
       }
     } catch (_) {}
-    const k = window.MRJ_KOKORO;
-    if (k && k.speak) {
-      try {
-        if (k.stop) k.stop();
-        await k.speak(word, wantFemale ? "bella" : "puck");
-        return;
-      } catch (err) {
-        console.error("Kokoro speak failed", err);
-      }
-    }
+    await speakWeb(word, wantFemale);
   }
 
   function lemmas(it) {
@@ -790,9 +850,6 @@
     } catch (_) {}
     const p = ttsPlugin();
     if (p && p.stop) p.stop().catch(() => {});
-    try {
-      if (window.MRJ_KOKORO && window.MRJ_KOKORO.stop) window.MRJ_KOKORO.stop();
-    } catch (_) {}
   }
 
   function playSkillFish(skill) {
@@ -1048,10 +1105,7 @@
   }
 
   function appendVoiceToggle(el, rerender) {
-    const k = window.MRJ_KOKORO;
-    const st = k ? k.status : "off";
-    const ready = k && k.ready;
-    const label = `Voice: ${state.voice === "bella" ? "Bella" : "Puck"}${ready ? "" : st === "loading" || st === "boot" ? " · loading" : st === "fail" ? " · fail" : " · Kokoro"}`;
+    const label = `Voice: ${state.voice === "bella" ? "Female" : "Male"}`;
     const voice = $(`<button type="button" class="btn small">${label}</button>`);
     voice.onclick = () => {
       state.voice = state.voice === "bella" ? "puck" : "bella";
@@ -1092,16 +1146,46 @@
     if (c) c.textContent = String(statCount(skillId, "correct"));
   }
 
+  function ensurePicturesLoaded() {
+    if (state.pictures && Object.keys(state.pictures).length > 0) {
+      return Promise.resolve(state.pictures);
+    }
+    if (!picturesLoadPromise) {
+      picturesLoadPromise = fetch(PACK + "pictures.json")
+        .then((r) => {
+          if (!r.ok) throw new Error("pictures.json " + r.status);
+          return r.json();
+        })
+        .then((pictures) => {
+          state.pictures = pictures && typeof pictures === "object" ? pictures : {};
+          return state.pictures;
+        })
+        .catch((err) => {
+          picturesLoadPromise = null;
+          console.error("Pictures load failed", err);
+          state.pictures = state.pictures || {};
+          return state.pictures;
+        });
+    }
+    return picturesLoadPromise;
+  }
+
   async function loadPackData() {
-    const [skills, pictures, score] = await Promise.all([
-      fetch(PACK + "skills.json").then((r) => r.json()),
-      fetch(PACK + "pictures.json").then((r) => r.json()),
-      fetch(PACK + "score.json").then((r) => r.json()),
+    const [skills, score] = await Promise.all([
+      fetch(PACK + "skills.json").then((r) => {
+        if (!r.ok) throw new Error("skills.json " + r.status);
+        return r.json();
+      }),
+      fetch(PACK + "score.json").then((r) => {
+        if (!r.ok) throw new Error("score.json " + r.status);
+        return r.json();
+      }),
     ]);
     state.skills = skills;
-    state.pictures = pictures;
+    state.pictures = {};
     state.scoreTable = score;
     state.packReady = true;
+    ensurePicturesLoaded();
   }
 
   async function waitForPack() {
@@ -1113,6 +1197,7 @@
   async function enterApp() {
     await waitForPack();
     ensureVoices();
+    installSoundGestureCapture();
     home();
   }
 
@@ -1172,10 +1257,6 @@
     window.addEventListener("pagehide", () => {
       if (packDirty || packSavePending) flushPackSave(true);
     });
-    window.addEventListener("mrj-kokoro-status", () => {
-      if (!studentId || state.skill || !state.packReady) return;
-      home();
-    });
   }
 
   function home() {
@@ -1197,6 +1278,7 @@
     }
     appendPlayToolbar(toolbar, home);
     el.appendChild(toolbar);
+    appendSoundGestureHint(el);
 
     const last = state.lastPlace;
     const lastSkill = last && last.skill_id ? skillById(last.skill_id) : null;
@@ -1325,10 +1407,12 @@
 
   async function startSkill(skill, opts = {}) {
     stopAllAudio();
+    markSoundGesture();
     state.skill = skill;
     state.selectedCategory = opts.category || state.selectedCategory || skill.category || null;
     state.fromSearch = !!opts.fromSearch;
     app().innerHTML = "<p class='muted'>Loading…</p>";
+    await ensurePicturesLoaded();
     state.items = await loadItems(skill);
     if (!state.items.length) {
       app().innerHTML = "";
