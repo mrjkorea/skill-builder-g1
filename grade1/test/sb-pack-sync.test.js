@@ -4,6 +4,8 @@ const test = require("node:test");
 const assert = require("node:assert/strict");
 const sync = require("../sb-pack-sync.js");
 
+const G = sync.GRADE_G1;
+
 test("mergeProgress keeps max scores per skill", () => {
   const local = { v: 1, scores: { a: 40, b: 10 }, stats: {}, lang: null };
   const remote = { v: 1, scores: { a: 55, c: 5 }, stats: {}, lang: null };
@@ -50,9 +52,9 @@ test("isRicherThan detects merged progress worth uploading", () => {
 });
 
 test("canSaveToServer requires packReady after successful load", () => {
-  const auth = { packReady: (p) => p === "skill-builder-g1" };
-  assert.equal(sync.canSaveToServer(false, auth, "skill-builder-g1"), false);
-  assert.equal(sync.canSaveToServer(true, auth, "skill-builder-g1"), true);
+  const auth = { packReady: (p) => p === sync.PACK_PROGRAM };
+  assert.equal(sync.canSaveToServer(false, auth, sync.PACK_PROGRAM), false);
+  assert.equal(sync.canSaveToServer(true, auth, sync.PACK_PROGRAM), true);
   assert.equal(sync.canSaveToServer(true, auth, "other"), false);
 });
 
@@ -78,9 +80,52 @@ test("scores recorded while loadPack is pending survive mergeAfterPackLoad", () 
     lang: null,
   };
   const serverRaw = '{"scores":{"other":30},"stats":{}}';
-  const { merged } = sync.mergeAfterPackLoad(currentAfterAnswers, serverRaw);
+  const { merged } = sync.mergeAfterPackLoad(currentAfterAnswers, serverRaw, G);
   assert.equal(merged.scores.skill_a, 42);
   assert.equal(merged.scores.other, 30);
-  const wrong = sync.mergeProgress(staleBeforeRequest, sync.parseProgressJson(serverRaw));
+  const wrong = sync.mergeProgress(staleBeforeRequest, sync.parseProgressJson(serverRaw, G), G);
   assert.equal(wrong.scores.skill_a, undefined);
+});
+
+test("consumeDeviceLegacy blocks a second student from reading device-wide scores", () => {
+  const store = {
+    sb_scores: '{"leak":99}',
+    sb_stats: "{}",
+    sb_legacy_claimed_by: "alice",
+  };
+  global.localStorage = {
+    getItem(k) {
+      return store[k] == null ? null : store[k];
+    },
+    setItem(k, v) {
+      store[k] = v;
+    },
+    removeItem(k) {
+      delete store[k];
+    },
+  };
+  const bob = sync.consumeDeviceLegacy("bob", G);
+  assert.equal(bob, null);
+  assert.equal(store.sb_scores, '{"leak":99}');
+});
+
+test("mergeProgress keeps resume last skill", () => {
+  const a = {
+    v: 2,
+    grade: G,
+    scores: {},
+    stats: {},
+    lang: null,
+    last: { skill_id: "seed_a", category: "phonics" },
+  };
+  const b = {
+    v: 2,
+    grade: G,
+    scores: {},
+    stats: {},
+    lang: null,
+    last: { skill_id: "seed_b", category: "grammar" },
+  };
+  const merged = sync.mergeProgress(a, b, G);
+  assert.ok(merged.last && merged.last.skill_id);
 });

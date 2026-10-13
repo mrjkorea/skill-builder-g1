@@ -3,19 +3,36 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="mrj-build" content="20261011-savefix" />
+  <meta name="mrj-build" content="20261013-chooser" />
   <title>English Skill Builder</title>
-  <link rel="stylesheet" href="app.css?v=202609232232" />
+  <link rel="stylesheet" href="chooser.css?v=20261013-chooser" />
 </head>
 <body>
-  <div id="app"></div>
-  <script type="module" src="kokoro-boot.js?v=202609232200"></script>
-  <script src="sb-pack-sync.js?v=20261007-pack-sync-2"></script>
-  <script src="sb-score-save.js?v=20261011-savefix"></script>
-  <script src="mrj-scores.js?v=20261011-savefix"></script>
-  <link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css">
-  <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js"></script>
-  <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js" data-mrj-app="skill-builder-g1"></script>
-  <script src="app.js?v=20261011-savefix"></script>
+  <main class="chooser" id="chooser">
+    <header class="chooser-head">
+      <p class="chooser-kicker">MRJ English</p>
+      <h1>Skill Builder</h1>
+      <p class="chooser-lead">Pick your grade. Sign in on the next screen with your MRJ ID.</p>
+    </header>
+    <div class="grade-stack" role="list">
+      <a class="grade-card grade-1" href="grade1/" role="listitem">
+        <span class="grade-bar" aria-hidden="true"></span>
+        <span class="grade-body">
+          <span class="grade-name">Grade 1</span>
+          <span class="grade-meta">Phonics · Reading · Grammar · Vocabulary</span>
+          <span class="grade-cta">Open Grade 1</span>
+        </span>
+      </a>
+      <a class="grade-card grade-2" href="grade2/" role="listitem">
+        <span class="grade-bar" aria-hidden="true"></span>
+        <span class="grade-body">
+          <span class="grade-name">Grade 2</span>
+          <span class="grade-meta">Coming soon — placeholder</span>
+          <span class="grade-cta">View Grade 2</span>
+        </span>
+      </a>
+    </div>
+    <p class="chooser-foot muted">W.A.I.T. 4 LANGUAGES · MRJ English</p>
+  </main>
 </body>
 </html>
