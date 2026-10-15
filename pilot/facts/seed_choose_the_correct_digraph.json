@@ -1,0 +1,45 @@
+{
+  "skill_id": "seed_choose_the_correct_digraph",
+  "family_id": "fam_choose_the_correct_digraph",
+  "title": "Choose the correct digraph",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "ship",
+      "phones": [
+        "SH",
+        "IH1",
+        "P"
+      ],
+      "claims": [
+        "digraph sh"
+      ]
+    },
+    {
+      "word": "chop",
+      "phones": [
+        "CH",
+        "AA1",
+        "P"
+      ],
+      "claims": [
+        "digraph ch"
+      ]
+    },
+    {
+      "word": "duck",
+      "phones": [
+        "D",
+        "AH1",
+        "K"
+      ],
+      "claims": [
+        "digraph ck"
+      ]
+    }
+  ],
+  "dropped": []
+}

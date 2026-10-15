@@ -1,0 +1,51 @@
+{
+  "skill_id": "seed_find_the_word_with_the_same_vowel_sound",
+  "family_id": "fam_find_the_word_with_the_same_vowel_sound",
+  "title": "Find the word with the same vowel sound",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "short_a"
+      ]
+    },
+    {
+      "word": "bed",
+      "phones": [
+        "B",
+        "EH1",
+        "D"
+      ],
+      "claims": [
+        "short_e"
+      ]
+    },
+    {
+      "word": "sun",
+      "phones": [
+        "S",
+        "AH1",
+        "N"
+      ],
+      "claims": [
+        "short_u"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "word": "matter",
+      "claim": "contains the word mat",
+      "reason": "refused spelling-substring (true) and bare phoneme-prefix (true; matter M AE T ER, mat M AE T). Only whole-word compounds such as cup + cake are kept."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "skill_id": "seed_complete_the_word_with_the_right_initial_con",
+  "family_id": "fam_complete_the_word_with_the_right_initial_con",
+  "title": "Complete the word with the right initial consonant blend",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "stop",
+      "phones": [
+        "S",
+        "T",
+        "AA1",
+        "P"
+      ],
+      "claims": [
+        "initial blend"
+      ]
+    },
+    {
+      "word": "frog",
+      "phones": [
+        "F",
+        "R",
+        "AA1",
+        "G"
+      ],
+      "claims": [
+        "initial blend"
+      ]
+    },
+    {
+      "word": "flag",
+      "phones": [
+        "F",
+        "L",
+        "AE1",
+        "G"
+      ],
+      "claims": [
+        "initial blend"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "word": "two",
+      "claim": "initial blend tw",
+      "reason": "CMUdict T UW does not confirm initial blend tw"
+    },
+    {
+      "word": "ship",
+      "claim": "initial blend",
+      "reason": "CMUdict SH IH P does not confirm initial blend"
+    }
+  ]
+}

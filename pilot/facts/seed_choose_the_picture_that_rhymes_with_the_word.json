@@ -1,0 +1,48 @@
+{
+  "skill_id": "seed_choose_the_picture_that_rhymes_with_the_word",
+  "family_id": "fam_choose_the_picture_that_rhymes_with_the_word",
+  "title": "Choose the picture that rhymes with the word",
+  "item_type": "word_to_picture",
+  "present": "eyes",
+  "text_version": true,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "hat",
+      "phones": [
+        "HH",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "rhymes with cat",
+        "AE T"
+      ]
+    },
+    {
+      "word": "red",
+      "phones": [
+        "R",
+        "EH1",
+        "D"
+      ],
+      "claims": [
+        "rhymes with bed",
+        "EH D"
+      ]
+    },
+    {
+      "word": "rug",
+      "phones": [
+        "R",
+        "AH1",
+        "G"
+      ],
+      "claims": [
+        "rhymes with bug",
+        "AH G"
+      ]
+    }
+  ],
+  "dropped": []
+}

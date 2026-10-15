@@ -1,0 +1,61 @@
+{
+  "skill_id": "seed_identify_the_short_vowel_sound_in_a_word",
+  "family_id": "fam_identify_the_short_vowel_sound_in_a_word",
+  "title": "Identify the short vowel sound in a word",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "short_a"
+      ]
+    },
+    {
+      "word": "bed",
+      "phones": [
+        "B",
+        "EH1",
+        "D"
+      ],
+      "claims": [
+        "short_e"
+      ]
+    },
+    {
+      "word": "sun",
+      "phones": [
+        "S",
+        "AH1",
+        "N"
+      ],
+      "claims": [
+        "short_u"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "word": "was",
+      "claim": "short a",
+      "reason": "CMUdict W AA Z does not confirm short a"
+    },
+    {
+      "word": "dog",
+      "claim": "short o",
+      "reason": "CMUdict D AO G does not confirm short o"
+    },
+    {
+      "word": "come",
+      "claim": "short o",
+      "reason": "CMUdict K AH M does not confirm short o"
+    }
+  ]
+}

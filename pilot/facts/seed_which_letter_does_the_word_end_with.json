@@ -1,0 +1,45 @@
+{
+  "skill_id": "seed_which_letter_does_the_word_end_with",
+  "family_id": "fam_which_letter_does_the_word_end_with",
+  "title": "Which letter does the word end with?",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "end"
+      ]
+    },
+    {
+      "word": "sun",
+      "phones": [
+        "S",
+        "AH1",
+        "N"
+      ],
+      "claims": [
+        "end"
+      ]
+    },
+    {
+      "word": "bed",
+      "phones": [
+        "B",
+        "EH1",
+        "D"
+      ],
+      "claims": [
+        "end"
+      ]
+    }
+  ],
+  "dropped": []
+}

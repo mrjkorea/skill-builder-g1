@@ -1,0 +1,66 @@
+{
+  "skill_id": "seed_complete_the_silent_e_words",
+  "family_id": "fam_complete_the_silent_e_words",
+  "title": "Complete the silent e words",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cake",
+      "phones": [
+        "K",
+        "EY1",
+        "K"
+      ],
+      "claims": [
+        "silent e long a"
+      ]
+    },
+    {
+      "word": "bike",
+      "phones": [
+        "B",
+        "AY1",
+        "K"
+      ],
+      "claims": [
+        "silent e long i"
+      ]
+    },
+    {
+      "word": "home",
+      "phones": [
+        "HH",
+        "OW1",
+        "M"
+      ],
+      "claims": [
+        "silent e long o"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "word": "give",
+      "claim": "long i silent e",
+      "reason": "CMUdict G IH V does not confirm long i silent e"
+    },
+    {
+      "word": "have",
+      "claim": "long a silent e",
+      "reason": "CMUdict HH AE V does not confirm long a silent e"
+    },
+    {
+      "word": "come",
+      "claim": "long o silent e",
+      "reason": "CMUdict K AH M does not confirm long o silent e"
+    },
+    {
+      "word": "love",
+      "claim": "long o silent e",
+      "reason": "CMUdict L AH V does not confirm long o silent e"
+    }
+  ]
+}

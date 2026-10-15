@@ -1,0 +1,45 @@
+{
+  "skill_id": "seed_complete_the_word_with_the_right_digraph",
+  "family_id": "fam_complete_the_word_with_the_right_digraph",
+  "title": "Complete the word with the right digraph",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "ship",
+      "phones": [
+        "SH",
+        "IH1",
+        "P"
+      ],
+      "claims": [
+        "digraph sh"
+      ]
+    },
+    {
+      "word": "chin",
+      "phones": [
+        "CH",
+        "IH1",
+        "N"
+      ],
+      "claims": [
+        "digraph ch"
+      ]
+    },
+    {
+      "word": "fish",
+      "phones": [
+        "F",
+        "IH1",
+        "SH"
+      ],
+      "claims": [
+        "digraph sh"
+      ]
+    }
+  ],
+  "dropped": []
+}

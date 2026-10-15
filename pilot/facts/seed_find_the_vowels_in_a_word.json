@@ -1,0 +1,45 @@
+{
+  "skill_id": "seed_find_the_vowels_in_a_word",
+  "family_id": "fam_find_the_vowels_in_a_word",
+  "title": "Find the vowels in a word",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "vowel"
+      ]
+    },
+    {
+      "word": "bed",
+      "phones": [
+        "B",
+        "EH1",
+        "D"
+      ],
+      "claims": [
+        "vowel"
+      ]
+    },
+    {
+      "word": "sun",
+      "phones": [
+        "S",
+        "AH1",
+        "N"
+      ],
+      "claims": [
+        "vowel"
+      ]
+    }
+  ],
+  "dropped": []
+}

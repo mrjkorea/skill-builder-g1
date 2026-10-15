@@ -1,0 +1,50 @@
+{
+  "skill_id": "seed_how_many_syllables_does_the_word_have",
+  "family_id": "fam_how_many_syllables_does_the_word_have",
+  "title": "How many syllables does the word have?",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "1 syllables"
+      ]
+    },
+    {
+      "word": "rabbit",
+      "phones": [
+        "R",
+        "AE1",
+        "B",
+        "AH0",
+        "T"
+      ],
+      "claims": [
+        "2 syllables"
+      ]
+    },
+    {
+      "word": "banana",
+      "phones": [
+        "B",
+        "AH0",
+        "N",
+        "AE1",
+        "N",
+        "AH0"
+      ],
+      "claims": [
+        "3 syllables"
+      ]
+    }
+  ],
+  "dropped": []
+}

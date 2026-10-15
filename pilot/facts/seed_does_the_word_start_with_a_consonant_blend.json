@@ -1,0 +1,46 @@
+{
+  "skill_id": "seed_does_the_word_start_with_a_consonant_blend",
+  "family_id": "fam_does_the_word_start_with_a_consonant_blend",
+  "title": "Does the word start with a consonant blend?",
+  "item_type": "ab",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "stop",
+      "phones": [
+        "S",
+        "T",
+        "AA1",
+        "P"
+      ],
+      "claims": [
+        "consonant blend"
+      ]
+    },
+    {
+      "word": "ship",
+      "phones": [
+        "SH",
+        "IH1",
+        "P"
+      ],
+      "claims": [
+        "not a consonant blend"
+      ]
+    },
+    {
+      "word": "tree",
+      "phones": [
+        "T",
+        "R",
+        "IY1"
+      ],
+      "claims": [
+        "consonant blend"
+      ]
+    }
+  ],
+  "dropped": []
+}

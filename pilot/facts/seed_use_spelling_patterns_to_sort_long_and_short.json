@@ -1,0 +1,45 @@
+{
+  "skill_id": "seed_use_spelling_patterns_to_sort_long_and_short",
+  "family_id": "fam_use_spelling_patterns_to_sort_long_and_short",
+  "title": "Use spelling patterns to sort long and short vowel words",
+  "item_type": "ab",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cake",
+      "phones": [
+        "K",
+        "EY1",
+        "K"
+      ],
+      "claims": [
+        "long"
+      ]
+    },
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "short"
+      ]
+    },
+    {
+      "word": "bike",
+      "phones": [
+        "B",
+        "AY1",
+        "K"
+      ],
+      "claims": [
+        "long"
+      ]
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,61 @@
+{
+  "skill_id": "seed_complete_the_vowel_team_words",
+  "family_id": "fam_complete_the_vowel_team_words",
+  "title": "Complete the vowel team words",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "rain",
+      "phones": [
+        "R",
+        "EY1",
+        "N"
+      ],
+      "claims": [
+        "vowel team ai"
+      ]
+    },
+    {
+      "word": "boat",
+      "phones": [
+        "B",
+        "OW1",
+        "T"
+      ],
+      "claims": [
+        "vowel team oa"
+      ]
+    },
+    {
+      "word": "tree",
+      "phones": [
+        "T",
+        "R",
+        "IY1"
+      ],
+      "claims": [
+        "vowel team ee"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "word": "bread",
+      "claim": "long e spelled ea",
+      "reason": "CMUdict B R EH D does not confirm long e spelled ea"
+    },
+    {
+      "word": "head",
+      "claim": "long e spelled ea",
+      "reason": "CMUdict HH EH D does not confirm long e spelled ea"
+    },
+    {
+      "word": "cow",
+      "claim": "long o spelled ow",
+      "reason": "CMUdict K AW does not confirm long o spelled ow"
+    }
+  ]
+}

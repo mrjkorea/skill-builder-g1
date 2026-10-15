@@ -1,0 +1,47 @@
+{
+  "skill_id": "seed_fill_in_the_missing_consonant_blend",
+  "family_id": "fam_fill_in_the_missing_consonant_blend",
+  "title": "Fill in the missing consonant blend",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "tree",
+      "phones": [
+        "T",
+        "R",
+        "IY1"
+      ],
+      "claims": [
+        "initial blend"
+      ]
+    },
+    {
+      "word": "hand",
+      "phones": [
+        "HH",
+        "AE1",
+        "N",
+        "D"
+      ],
+      "claims": [
+        "final blend"
+      ]
+    },
+    {
+      "word": "snap",
+      "phones": [
+        "S",
+        "N",
+        "AE1",
+        "P"
+      ],
+      "claims": [
+        "initial blend"
+      ]
+    }
+  ],
+  "dropped": []
+}

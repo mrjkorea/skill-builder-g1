@@ -1,0 +1,51 @@
+{
+  "skill_id": "seed_which_letter_does_the_word_start_with",
+  "family_id": "fam_which_letter_does_the_word_start_with",
+  "title": "Which letter does the word start with?",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "start"
+      ]
+    },
+    {
+      "word": "sun",
+      "phones": [
+        "S",
+        "AH1",
+        "N"
+      ],
+      "claims": [
+        "start"
+      ]
+    },
+    {
+      "word": "map",
+      "phones": [
+        "M",
+        "AE1",
+        "P"
+      ],
+      "claims": [
+        "start"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "word": "phone",
+      "claim": "starts with the letter p",
+      "reason": "CMUdict F OW N does not confirm starts with the letter p"
+    }
+  ]
+}

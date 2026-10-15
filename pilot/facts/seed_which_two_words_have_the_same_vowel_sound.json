@@ -1,0 +1,78 @@
+{
+  "skill_id": "seed_which_two_words_have_the_same_vowel_sound",
+  "family_id": "fam_which_two_words_have_the_same_vowel_sound",
+  "title": "Which two words have the same vowel sound?",
+  "item_type": "abcd",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "vowel sound"
+      ]
+    },
+    {
+      "word": "hat",
+      "phones": [
+        "HH",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "vowel sound"
+      ]
+    },
+    {
+      "word": "bed",
+      "phones": [
+        "B",
+        "EH1",
+        "D"
+      ],
+      "claims": [
+        "vowel sound"
+      ]
+    },
+    {
+      "word": "red",
+      "phones": [
+        "R",
+        "EH1",
+        "D"
+      ],
+      "claims": [
+        "vowel sound"
+      ]
+    },
+    {
+      "word": "sun",
+      "phones": [
+        "S",
+        "AH1",
+        "N"
+      ],
+      "claims": [
+        "vowel sound"
+      ]
+    },
+    {
+      "word": "cup",
+      "phones": [
+        "K",
+        "AH1",
+        "P"
+      ],
+      "claims": [
+        "vowel sound"
+      ]
+    }
+  ],
+  "dropped": []
+}

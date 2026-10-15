@@ -1,0 +1,47 @@
+{
+  "skill_id": "seed_does_the_word_end_with_a_consonant_blend",
+  "family_id": "fam_does_the_word_end_with_a_consonant_blend",
+  "title": "Does the word end with a consonant blend?",
+  "item_type": "ab",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "jump",
+      "phones": [
+        "JH",
+        "AH1",
+        "M",
+        "P"
+      ],
+      "claims": [
+        "consonant blend"
+      ]
+    },
+    {
+      "word": "fish",
+      "phones": [
+        "F",
+        "IH1",
+        "SH"
+      ],
+      "claims": [
+        "not a consonant blend"
+      ]
+    },
+    {
+      "word": "nest",
+      "phones": [
+        "N",
+        "EH1",
+        "S",
+        "T"
+      ],
+      "claims": [
+        "consonant blend"
+      ]
+    }
+  ],
+  "dropped": []
+}

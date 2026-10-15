@@ -1,0 +1,35 @@
+{
+  "skill_id": "seed_sort_consonants_and_vowels",
+  "family_id": "fam_sort_consonants_and_vowels",
+  "title": "Sort consonants and vowels",
+  "item_type": "ab",
+  "present": "eyes",
+  "text_version": false,
+  "question_count": 3,
+  "facts": [
+    {
+      "word": "cat",
+      "phones": [
+        "K",
+        "AE1",
+        "T"
+      ],
+      "claims": [
+        "vowel",
+        "consonant"
+      ]
+    },
+    {
+      "word": "sun",
+      "phones": [
+        "S",
+        "AH1",
+        "N"
+      ],
+      "claims": [
+        "vowel"
+      ]
+    }
+  ],
+  "dropped": []
+}
