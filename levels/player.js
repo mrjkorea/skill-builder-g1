@@ -182,6 +182,7 @@
       }
 
       function appendGoToNextSkill(el, skill, sameTab) {
+        if (!el || el.querySelector(".next-skill-btn")) return;
         const next = Progress.nextSkillInOrder(skills, skill.skill_id);
         if (!next) return;
         const go = $("button", "btn primary next-skill-btn");
