@@ -5,6 +5,9 @@
   --muted: #94a3b8;
   --g1: #38bdf8;
   --g2: #a855f7;
+  --seed: #22c55e;
+  --roots: #f59e0b;
+  --sprout: #fb7185;
 }
 * { box-sizing: border-box; }
 html, body {
@@ -69,6 +72,21 @@ html, body {
 }
 .grade-1 .grade-bar { background: var(--g1); }
 .grade-2 .grade-bar { background: var(--g2); }
+.level-seed {
+  border-color: color-mix(in srgb, var(--seed) 55%, #334155);
+  background: color-mix(in srgb, var(--seed) 18%, #0f172a);
+}
+.level-roots {
+  border-color: color-mix(in srgb, var(--roots) 55%, #334155);
+  background: color-mix(in srgb, var(--roots) 16%, #0f172a);
+}
+.level-sprout {
+  border-color: color-mix(in srgb, var(--sprout) 55%, #334155);
+  background: color-mix(in srgb, var(--sprout) 16%, #0f172a);
+}
+.level-seed .grade-bar { background: var(--seed); }
+.level-roots .grade-bar { background: var(--roots); }
+.level-sprout .grade-bar { background: var(--sprout); }
 .grade-body {
   flex: 1;
   padding: 16px 18px;
