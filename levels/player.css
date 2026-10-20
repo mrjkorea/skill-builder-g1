@@ -22,7 +22,7 @@ h2, .prompt { font-size: 1.15rem; margin: 8px 0 12px; line-height: 1.35; white-s
 .muted { color: var(--muted); font-size: 0.95rem; }
 .toolbar, .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 .play-top { margin: 8px 0; }
-.btn, button.choice, button.skill-row, button.section-card {
+.btn, a.btn, button.choice, button.skill-row, a.skill-row, button.section-card {
   display: block;
   width: 100%;
   text-align: left;
@@ -57,9 +57,78 @@ button.section-card { margin: 0; padding: 0; display: flex; overflow: hidden; }
 .section-card-body { flex: 1; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; }
 .section-card-name { font-weight: 800; font-size: 1.15rem; }
 .section-card-meta, .section-card-progress { color: var(--muted); font-size: 0.95rem; }
-button.skill-row { display: flex; flex-direction: column; gap: 4px; }
-.skill-name { font-weight: 700; }
-.skill-meta { color: var(--muted); font-size: 0.9rem; }
+a.skill-row, button.skill-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit;
+}
+.skill-index-head { margin: 12px 0 8px; }
+.skill-index-title { font-size: 1.5rem; margin: 0 0 6px; font-weight: 800; }
+.index-lead { margin: 0 0 8px; color: var(--muted); font-size: 0.95rem; line-height: 1.35; }
+.skill-index-list { display: flex; flex-direction: column; gap: 20px; margin-top: 8px; }
+.strand-block { display: flex; flex-direction: column; gap: 8px; }
+.strand-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  padding: 6px 4px 2px;
+  border-left: 4px solid var(--section-color, var(--accent));
+  padding-left: 10px;
+}
+.strand-name { font-weight: 800; font-size: 1.05rem; }
+.strand-meta { color: var(--muted); font-size: 0.9rem; }
+.skill-row-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; width: 100%; }
+.skill-name { font-weight: 700; flex: 1; text-align: left; }
+.skill-pct { font-weight: 800; color: var(--accent); font-size: 1rem; flex-shrink: 0; }
+.skill-done-badge {
+  flex-shrink: 0;
+  background: var(--good);
+  color: #052e16;
+  font-weight: 800;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.skill-done-badge.large { font-size: 0.95rem; padding: 6px 14px; }
+a.skill-row.skill-done { border-color: #166534; }
+.skill-progress-track {
+  width: 100%;
+  height: 8px;
+  background: #0b1220;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.skill-progress-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  min-width: 0;
+  transition: width 0.2s ease;
+}
+.skill-progress-fill.full { background: var(--good); }
+.skill-meta { color: var(--muted); font-size: 0.9rem; text-align: left; }
+.skill-mastered-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  background: #14532d;
+  border: 2px solid var(--good);
+  border-radius: 16px;
+  padding: 16px;
+  margin: 8px 0 12px;
+}
+.next-skill-btn {
+  font-size: 1.15rem;
+  padding: 18px 16px;
+  margin: 12px 0;
+  text-align: center;
+}
+a.resume-btn { text-decoration: none; display: block; }
 .search, .type-input {
   width: 100%;
   margin: 8px 0;

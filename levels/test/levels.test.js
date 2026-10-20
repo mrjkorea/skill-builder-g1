@@ -96,6 +96,23 @@ test("progress merge keeps the further score and place without localStorage", ()
   assert.equal(down.score, 8);
 });
 
+test("mastery is SmartScore at the 99 cap", () => {
+  assert.equal(progress.MASTER_SCORE, 99);
+  assert.equal(progress.isSkillMastered(98), false);
+  assert.equal(progress.isSkillMastered(99), true);
+  const skills = [{ skill_id: "a" }, { skill_id: "b" }, { skill_id: "c" }];
+  assert.equal(progress.nextSkillInOrder(skills, "a").skill_id, "b");
+  assert.equal(progress.nextSkillInOrder(skills, "c"), null);
+});
+
+test("skill-nav builds skill and index URLs", () => {
+  const nav = require("../skill-nav.js");
+  const base = "https://example.com/levels/seed/?foo=1";
+  assert.equal(nav.parseSkillParam(base + "&skill=abc"), "abc");
+  assert.equal(nav.skillPageUrl("x", base), "/levels/seed/?foo=1&skill=x");
+  assert.equal(nav.indexPageUrl(base + "&skill=x"), "/levels/seed/?foo=1");
+});
+
 test("level player has no TTS and no local progress store", () => {
   const player = fs.readFileSync(path.join(root, "levels/player.js"), "utf8");
   assert.equal(/speechSynthesis|SpeechSynthesis|kokoro|SkillBuilderTts|localStorage/i.test(player), false);

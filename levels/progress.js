@@ -139,6 +139,27 @@
     return "low";
   }
 
+  /** SmartScore ceiling; also the mastery threshold (see applyScore clamp). */
+  const MASTER_SCORE = 99;
+
+  function skillScore(progress, skillId) {
+    const n = Number(progress && progress.scores && progress.scores[skillId]);
+    return Number.isFinite(n) ? Math.max(0, Math.min(MASTER_SCORE, n)) : 0;
+  }
+
+  function isSkillMastered(score) {
+    const n = Number(score);
+    return Number.isFinite(n) && n >= MASTER_SCORE;
+  }
+
+  function nextSkillInOrder(skills, currentSkillId) {
+    const list = Array.isArray(skills) ? skills : [];
+    const id = String(currentSkillId || "");
+    const idx = list.findIndex((s) => s && s.skill_id === id);
+    if (idx < 0 || idx >= list.length - 1) return null;
+    return list[idx + 1] || null;
+  }
+
   function applyScore(score, correct, streak) {
     let s = Number(score) || 0;
     let nextStreak = Number(streak) || 0;
@@ -158,15 +179,19 @@
       else if (b === "mid") s -= 4;
       else s -= 2;
     }
-    s = Math.max(0, Math.min(99, s));
+    s = Math.max(0, Math.min(MASTER_SCORE, s));
     return { score: s, streak: nextStreak };
   }
 
   return {
+    MASTER_SCORE,
     emptyProgress,
     parseProgress,
     mergeProgress,
     normalizeLast,
     applyScore,
+    skillScore,
+    isSkillMastered,
+    nextSkillInOrder,
   };
 });
