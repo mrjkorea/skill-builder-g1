@@ -13,8 +13,27 @@ const INK = "#1e293b";
 const S = `fill="none" stroke="${INK}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"`;
 const SF = (fill) => `fill="${fill}" stroke="${INK}" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"`;
 
+function dedupeAttrs(markup) {
+  return markup.replace(/<[^>]+>/g, (tag) => {
+    const open = tag.match(/^<([a-zA-Z0-9:-]+)([\s\S]*?)(\/?)>$/);
+    if (!open || tag.startsWith("</")) return tag;
+    const map = new Map();
+    const order = [];
+    const re = /([:@\w-]+)="([^"]*)"/g;
+    let attr;
+    while ((attr = re.exec(open[2]))) {
+      if (!map.has(attr[1])) order.push(attr[1]);
+      map.set(attr[1], attr[2]);
+    }
+    const body = order.map((key) => `${key}="${map.get(key)}"`).join(" ");
+    return `<${open[1]}${body ? " " + body : ""}${open[3] ? "/" : ""}>`;
+  });
+}
+
 function svg(inner, bg = "#fff7ed") {
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160"><rect width="160" height="160" fill="${bg}"/>${inner}</svg>\n`;
+  return dedupeAttrs(
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160"><rect width="160" height="160" fill="${bg}"/>${inner}</svg>\n`
+  );
 }
 
 function face(cx, cy, mood) {
