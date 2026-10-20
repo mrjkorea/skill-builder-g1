@@ -1,0 +1,103 @@
+Skill Builders media inventory (read-only)
+Generated: 2026-10-18 (Asia/Seoul)
+
+Inputs
+- seed: SEED_FINAL.jsonl
+- roots: ROOTS_FINAL.jsonl + passed top-ups (verify/topup_*.pass.txt + skills/roots_topup_*.jsonl)
+- sprout: SPROUT_FINAL.jsonl + passed top-ups (verify/topup_*.pass.txt + skills/sprout_topup_*.jsonl)
+
+Old media
+- pictures: grade1 pack/pictures.json (1496 names); grade2 pictures.json empty
+- audio clips with text: 198 skill intros via skills.json speak_en -> audio_skill
+- Only audio-with-text manifest found: skills.json (speak_en -> audio_skill). pack/audio contains 198 skill-intro mp3s only; no per-item clip index. Item speak_en exists in grade1 items but is spoken via live TTS, not pre-made clips.
+- Rule: every question needs a prompt clip; listening or phonics also need option clips (+ sound: target words).
+
+=== SEED ===
+1. Total passed questions: 10250
+2. Unique sentences/words needing a clip: 9508
+   phonics questions: 3160
+   listening questions: 7
+   questions that also need option clips: 3160
+3. Exact match existing old clip (text == skills.json speak_en): 0
+   voice used: n/a (zero matches)
+4. New clips needed: 9508
+5. Questions that need a picture: 801
+   match existing old picture by word/name: 750
+   need a new picture: 51
+   unique new picture subjects: 47
+   list: /workspace/sb_media/new_pictures_seed.txt
+
+=== ROOTS ===
+1. Total passed questions: 7052
+2. Unique sentences/words needing a clip: 9209
+   phonics questions: 2188
+   listening questions: 0
+   questions that also need option clips: 2188
+3. Exact match existing old clip (text == skills.json speak_en): 0
+   voice used: n/a (zero matches)
+4. New clips needed: 9209
+5. Questions that need a picture: 48
+   match existing old picture by word/name: 30
+   need a new picture: 18
+   unique new picture subjects: 18
+   list: /workspace/sb_media/new_pictures_roots.txt
+
+=== SPROUT ===
+1. Total passed questions: 7702
+2. Unique sentences/words needing a clip: 10144
+   phonics questions: 2145
+   listening questions: 0
+   questions that also need option clips: 2145
+3. Exact match existing old clip (text == skills.json speak_en): 0
+   voice used: n/a (zero matches)
+4. New clips needed: 10144
+5. Questions that need a picture: 41
+   match existing old picture by word/name: 26
+   need a new picture: 15
+   unique new picture subjects: 15
+   list: /workspace/sb_media/new_pictures_sprout.txt
+
+=== 6. TTS code (Kokoro / speechSynthesis / TTS) ===
+
+/workspace/sbrepo/grade1/app.js
+  line 425: speechSynthesis.getVoices() preload
+  line 575: function ttsPlugin()
+  line 578: plugins.SkillBuilderTts
+  line 579: window.Capacitor.Plugins.SkillBuilderTts
+  line 580: return SkillBuilderTts
+  line 590: speechSynthesis.getVoices()
+  line 599: speechSynthesis.removeEventListener("voiceschanged")
+  line 601: speechSynthesis.addEventListener("voiceschanged")
+  line 602: speechSynthesis.getVoices() timeout fallback
+  line 695: guard: speechSynthesis / SpeechSynthesisUtterance
+  line 700: speechSynthesis.cancel()
+  line 702: new SpeechSynthesisUtterance(word)
+  line 716: speechSynthesis.speak(u)
+  line 722: async function speak(text) live TTS entry
+  line 728: ttsPlugin()
+  line 732: SkillBuilderTts p.speak(...)
+  line 849: speechSynthesis.cancel() in stopSpeaking
+  line 851: ttsPlugin() in stopSpeaking
+  Note: grade1/kokoro-boot.js loads Kokoro (bella/puck), but grade1/app.js speak() does not call MRJ_KOKORO; bella/puck only pick speechSynthesis gender.
+
+/workspace/sbrepo/grade2/app.js
+  line 544: function ttsPlugin()
+  line 547: plugins.SkillBuilderTts
+  line 548: window.Capacitor.Plugins.SkillBuilderTts
+  line 549: return SkillBuilderTts
+  line 559: speechSynthesis.getVoices()
+  line 568: speechSynthesis.removeEventListener("voiceschanged")
+  line 570: speechSynthesis.addEventListener("voiceschanged")
+  line 571: speechSynthesis.getVoices() timeout fallback
+  line 662: async function speak(text) live TTS entry
+  line 668: ttsPlugin()
+  line 672: SkillBuilderTts p.speak(...)
+  line 676: window.MRJ_KOKORO
+  line 680: Kokoro k.speak(word, "bella"|"puck")
+  line 683: console.error Kokoro speak failed
+  line 798: speechSynthesis.cancel()
+  line 800: ttsPlugin() in stop
+  line 803: MRJ_KOKORO.stop()
+  line 1055: MRJ_KOKORO status for voice UI
+  line 1058: UI label Bella/Puck/Kokoro
+  line 1224: addEventListener("mrj-kokoro-status")

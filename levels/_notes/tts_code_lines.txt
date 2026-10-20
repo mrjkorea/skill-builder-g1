@@ -1,0 +1,44 @@
+=== 6. TTS code (Kokoro / speechSynthesis / TTS) ===
+
+/workspace/sbrepo/grade1/app.js
+  line 425: speechSynthesis.getVoices() preload
+  line 575: function ttsPlugin()
+  line 578: plugins.SkillBuilderTts
+  line 579: window.Capacitor.Plugins.SkillBuilderTts
+  line 580: return SkillBuilderTts
+  line 590: speechSynthesis.getVoices()
+  line 599: speechSynthesis.removeEventListener("voiceschanged")
+  line 601: speechSynthesis.addEventListener("voiceschanged")
+  line 602: speechSynthesis.getVoices() timeout fallback
+  line 695: guard: speechSynthesis / SpeechSynthesisUtterance
+  line 700: speechSynthesis.cancel()
+  line 702: new SpeechSynthesisUtterance(word)
+  line 716: speechSynthesis.speak(u)
+  line 722: async function speak(text) live TTS entry
+  line 728: ttsPlugin()
+  line 732: SkillBuilderTts p.speak(...)
+  line 849: speechSynthesis.cancel() in stopSpeaking
+  line 851: ttsPlugin() in stopSpeaking
+  Note: grade1/kokoro-boot.js loads Kokoro (bella/puck), but grade1/app.js speak() does not call MRJ_KOKORO; bella/puck only pick speechSynthesis gender.
+
+/workspace/sbrepo/grade2/app.js
+  line 544: function ttsPlugin()
+  line 547: plugins.SkillBuilderTts
+  line 548: window.Capacitor.Plugins.SkillBuilderTts
+  line 549: return SkillBuilderTts
+  line 559: speechSynthesis.getVoices()
+  line 568: speechSynthesis.removeEventListener("voiceschanged")
+  line 570: speechSynthesis.addEventListener("voiceschanged")
+  line 571: speechSynthesis.getVoices() timeout fallback
+  line 662: async function speak(text) live TTS entry
+  line 668: ttsPlugin()
+  line 672: SkillBuilderTts p.speak(...)
+  line 676: window.MRJ_KOKORO
+  line 680: Kokoro k.speak(word, "bella"|"puck")
+  line 683: console.error Kokoro speak failed
+  line 798: speechSynthesis.cancel()
+  line 800: ttsPlugin() in stop
+  line 803: MRJ_KOKORO.stop()
+  line 1055: MRJ_KOKORO status for voice UI
+  line 1058: UI label Bella/Puck/Kokoro
+  line 1224: addEventListener("mrj-kokoro-status")
