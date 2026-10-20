@@ -74,7 +74,6 @@
     pictures: {},
     scoreTable: null,
     lang: initialLang,
-    voice: localStorage.getItem("sb_voice") || "puck",
     skillIntroPlayed: {},
     skill: null,
     selectedCategory: null,
@@ -421,9 +420,6 @@
     try {
       sessionStorage.setItem(SOUND_GESTURE_KEY, "1");
     } catch (_) {}
-    try {
-      if (window.speechSynthesis) window.speechSynthesis.getVoices();
-    } catch (_) {}
     const hint = document.getElementById("sound-gesture-hint");
     if (hint) hint.remove();
   }
@@ -572,169 +568,6 @@
     el.appendChild(img);
   }
 
-  function ttsPlugin() {
-    const cap = window.Capacitor;
-    const plugins = cap && (cap.Plugins || (cap.getPlatform && cap.Plugins));
-    if (plugins && plugins.SkillBuilderTts) return plugins.SkillBuilderTts;
-    if (window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.SkillBuilderTts) {
-      return window.Capacitor.Plugins.SkillBuilderTts;
-    }
-    return null;
-  }
-
-  let voicesReadyPromise = null;
-  function ensureVoices() {
-    if (voicesReadyPromise) return voicesReadyPromise;
-    voicesReadyPromise = new Promise((resolve) => {
-      const pick = () => {
-        const v = speechSynthesis.getVoices();
-        if (v && v.length) {
-          resolve(v);
-          return true;
-        }
-        return false;
-      };
-      if (pick()) return;
-      const onChange = () => {
-        if (pick()) speechSynthesis.removeEventListener("voiceschanged", onChange);
-      };
-      speechSynthesis.addEventListener("voiceschanged", onChange);
-      setTimeout(() => resolve(speechSynthesis.getVoices() || []), 800);
-    });
-    return voicesReadyPromise;
-  }
-
-  const FEMALE_HINTS = [
-    "samantha",
-    "karen",
-    "moira",
-    "victoria",
-    "zira",
-    "female",
-    "google us english",
-    "google uk english female",
-  ];
-  const MALE_HINTS = [
-    "daniel",
-    "alex",
-    "fred",
-    "david",
-    "arthur",
-    "gordon",
-    "rishi",
-    "male",
-    "en-us-x-iom",
-    "google uk english male",
-    "google us english male",
-  ];
-  const FEMALE_REJECT = ["samantha", "karen", "moira", "victoria", "zira", "female"];
-
-  function voiceKey(v) {
-    return (v.voiceURI + " " + v.name).toLowerCase();
-  }
-
-  function isEnglishVoice(v) {
-    const lang = (v.lang || "").toLowerCase();
-    return lang.startsWith("en");
-  }
-
-  function scoreVoice(v, wantFemale) {
-    const k = voiceKey(v);
-    let score = isEnglishVoice(v) ? 10 : 0;
-    const hints = wantFemale ? FEMALE_HINTS : MALE_HINTS;
-    for (const h of hints) {
-      if (k.includes(h)) score += 20;
-    }
-    if (wantFemale) {
-      if (k.includes("male")) score -= 40;
-      for (const h of MALE_HINTS) {
-        if (h !== "male" && k.includes(h)) score -= 25;
-      }
-    } else {
-      for (const r of FEMALE_REJECT) {
-        if (k.includes(r)) score -= 50;
-      }
-      if (k.includes("female")) score -= 40;
-    }
-    return score;
-  }
-
-  function pickVoice(voices, wantFemale, storedUri) {
-    if (storedUri) {
-      const hit = voices.find((v) => v.voiceURI === storedUri);
-      if (hit) return hit;
-    }
-    const en = voices.filter(isEnglishVoice);
-    const pool = en.length ? en : voices;
-    let best = null;
-    let bestScore = -Infinity;
-    for (const v of pool) {
-      const s = scoreVoice(v, wantFemale);
-      if (s > bestScore) {
-        bestScore = s;
-        best = v;
-      }
-    }
-    if (!wantFemale && best) {
-      const k = voiceKey(best);
-      for (const r of FEMALE_REJECT) {
-        if (k.includes(r)) best = null;
-      }
-    }
-    return best;
-  }
-
-  function roleWantsFemale(role) {
-    const puck = state.voice !== "bella";
-    if (role === "skill") return puck;
-    return !puck;
-  }
-
-  function speakWeb(word, wantFemale) {
-    return new Promise((resolve) => {
-      if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) {
-        resolve(false);
-        return;
-      }
-      try {
-        window.speechSynthesis.cancel();
-      } catch (_) {}
-      const u = new SpeechSynthesisUtterance(word);
-      u.rate = 0.95;
-      u.onend = () => resolve(true);
-      u.onerror = () => resolve(false);
-      ensureVoices()
-        .then((voices) => {
-          const stored = localStorage.getItem(wantFemale ? "sb_voice_uri_f" : "sb_voice_uri_m");
-          const v = pickVoice(voices, wantFemale, stored);
-          if (v) {
-            u.voice = v;
-            try {
-              localStorage.setItem(wantFemale ? "sb_voice_uri_f" : "sb_voice_uri_m", v.voiceURI);
-            } catch (_) {}
-          }
-          window.speechSynthesis.speak(u);
-        })
-        .catch(() => resolve(false));
-    });
-  }
-
-  async function speak(text, opts = {}) {
-    const word = String(text || "").trim();
-    if (!word || !soundEnabled()) return;
-    if (!soundGestureOk()) return;
-    const role = opts.role || "item";
-    const wantFemale = roleWantsFemale(role);
-    const p = ttsPlugin();
-    try {
-      if (p && p.stop) p.stop().catch(() => {});
-      if (p && p.speak) {
-        await p.speak({ text: word, sid: wantFemale ? 0 : 1, gender: wantFemale ? "female" : "male" });
-        return;
-      }
-    } catch (_) {}
-    await speakWeb(word, wantFemale);
-  }
 
   function lemmas(it) {
     const media = it.media || [];
@@ -842,14 +675,17 @@
     skillAudio = null;
   }
 
+  const missingClipLog = new Set();
+  function warnMissingClip(kind, label) {
+    const key = kind + "\n" + String(label || "");
+    if (missingClipLog.has(key)) return;
+    missingClipLog.add(key);
+    console.warn("Missing clip:", kind, label || "");
+  }
+
   function stopAllAudio() {
     audioGen += 1;
     stopSkillAudio();
-    try {
-      speechSynthesis.cancel();
-    } catch (_) {}
-    const p = ttsPlugin();
-    if (p && p.stop) p.stop().catch(() => {});
   }
 
   function playSkillFish(skill) {
@@ -1104,22 +940,9 @@
     return wrap;
   }
 
-  function appendVoiceToggle(el, rerender) {
-    const label = `Voice: ${state.voice === "bella" ? "Female" : "Male"}`;
-    const voice = $(`<button type="button" class="btn small">${label}</button>`);
-    voice.onclick = () => {
-      state.voice = state.voice === "bella" ? "puck" : "bella";
-      localStorage.setItem("sb_voice", state.voice);
-      rerender();
-    };
-    el.appendChild(voice);
-    return voice;
-  }
-
   function appendPlayToolbar(el, rerender) {
     appendSoundToggle(el, rerender);
     appendLanguageControl(el, rerender);
-    appendVoiceToggle(el, rerender);
   }
 
   function appendScoreBar(el, skillId) {
@@ -1196,7 +1019,6 @@
 
   async function enterApp() {
     await waitForPack();
-    ensureVoices();
     installSoundGestureCapture();
     home();
   }
@@ -1502,9 +1324,6 @@
     addScenePic(el, it);
 
     const readText = itemReadText(skill, it, stemVisible);
-    const replay = $(`<button type="button" class="btn replay" aria-label="Play again">▶</button>`);
-    replay.onclick = () => speak(readText, { role: "item" });
-    el.appendChild(replay);
 
     const type = it.item_type || skill.item_type || "abcd";
     if (blend) renderBlendChoices(el, it);
@@ -1538,22 +1357,18 @@
 
   async function playItemAudio(skill, itemText, gen) {
     if (gen !== audioGen) return;
-    if (!soundEnabled()) return;
     const sid = skill.skill_id;
     const needSkillIntro = !state.skillIntroPlayed[sid];
     if (needSkillIntro) {
       state.skillIntroPlayed[sid] = true;
-      const playedMp3 = await playSkillFish(skill);
-      if (gen !== audioGen) return;
-      if (!soundEnabled()) return;
-      if (!playedMp3) {
-        const intro = skillPromptText(skill);
-        if (intro) await speak(intro, { role: "skill" });
+      if (!skill || !skill.audio_skill) warnMissingClip("skill intro", sid || "");
+      else if (soundEnabled()) {
+        const playedMp3 = await playSkillFish(skill);
+        if (gen !== audioGen) return;
+        if (!playedMp3) warnMissingClip("skill intro", sid || "");
       }
     }
-    if (gen !== audioGen) return;
-    if (!soundEnabled()) return;
-    if (itemText) await speak(itemText, { role: "item" });
+    if (itemText) warnMissingClip("question", itemText);
   }
 
   function escapeHtml(s) {

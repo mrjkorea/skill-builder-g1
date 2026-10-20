@@ -5,9 +5,20 @@ const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
 
-test("grade1 index does not load Kokoro (classroom PCs use browser speech)", () => {
-  const html = fs.readFileSync(path.join(__dirname, "../index.html"), "utf8");
-  assert.doesNotMatch(html, /kokoro/i);
-  assert.doesNotMatch(html, /huggingface/i);
-  assert.match(html, /app\.js\?v=20261013-scores/);
+test("grade pages do not load a TTS engine", () => {
+  const files = [
+    "../index.html",
+    "../app.js",
+    "../../grade2/index.html",
+    "../../grade2/app.js",
+    "../../index.html",
+    "../../levels/player.js",
+  ].map((rel) => fs.readFileSync(path.join(__dirname, rel), "utf8"));
+  const blob = files.join("\n");
+  assert.doesNotMatch(blob, /kokoro/i);
+  assert.doesNotMatch(blob, /huggingface/i);
+  assert.doesNotMatch(blob, /speechSynthesis/);
+  assert.doesNotMatch(blob, /SpeechSynthesisUtterance/);
+  assert.doesNotMatch(blob, /SkillBuilderTts/);
+  assert.match(files[0], /app\.js\?v=20261020-notts/);
 });
