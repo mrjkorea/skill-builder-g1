@@ -27,12 +27,24 @@
     };
   }
 
+  /** Old SmartScore cap; stored 99 means mastered under the previous rule. */
+  const LEGACY_MASTER_SCORE = 99;
+  /** SmartScore ceiling and mastery threshold (see applyScore clamp). */
+  const MASTER_SCORE = 100;
+
+  function normalizeStoredScore(n) {
+    if (!Number.isFinite(n)) return 0;
+    let s = Math.max(0, Math.min(MASTER_SCORE, n));
+    if (s === LEGACY_MASTER_SCORE) s = MASTER_SCORE;
+    return s;
+  }
+
   function copyScores(src) {
     const out = {};
     const scores = src && typeof src === "object" ? src : {};
     for (const key of Object.keys(scores)) {
       const n = Number(scores[key]);
-      if (Number.isFinite(n)) out[key] = Math.max(0, Math.min(99, n));
+      if (Number.isFinite(n)) out[key] = normalizeStoredScore(n);
     }
     return out;
   }
@@ -87,7 +99,11 @@
       const n = Number(src[key]);
       if (!Number.isFinite(n)) continue;
       const cur = Number(out[key]);
-      out[key] = Number.isFinite(cur) ? Math.max(cur, n) : n;
+      const merged = Number.isFinite(cur) ? Math.max(cur, n) : n;
+      out[key] = normalizeStoredScore(merged);
+    }
+    for (const key of Object.keys(out)) {
+      out[key] = normalizeStoredScore(Number(out[key]));
     }
     return out;
   }
@@ -139,6 +155,25 @@
     return "low";
   }
 
+  function skillScore(progress, skillId) {
+    const n = Number(progress && progress.scores && progress.scores[skillId]);
+    return Number.isFinite(n) ? normalizeStoredScore(n) : 0;
+  }
+
+  function isSkillMastered(score) {
+    const n = Number(score);
+    if (!Number.isFinite(n)) return false;
+    return normalizeStoredScore(n) >= MASTER_SCORE;
+  }
+
+  function nextSkillInOrder(skills, currentSkillId) {
+    const list = Array.isArray(skills) ? skills : [];
+    const id = String(currentSkillId || "");
+    const idx = list.findIndex((s) => s && s.skill_id === id);
+    if (idx < 0 || idx >= list.length - 1) return null;
+    return list[idx + 1] || null;
+  }
+
   function applyScore(score, correct, streak) {
     let s = Number(score) || 0;
     let nextStreak = Number(streak) || 0;
@@ -158,15 +193,21 @@
       else if (b === "mid") s -= 4;
       else s -= 2;
     }
-    s = Math.max(0, Math.min(99, s));
+    s = Math.max(0, Math.min(MASTER_SCORE, s));
     return { score: s, streak: nextStreak };
   }
 
   return {
+    MASTER_SCORE,
+    LEGACY_MASTER_SCORE,
+    normalizeStoredScore,
     emptyProgress,
     parseProgress,
     mergeProgress,
     normalizeLast,
     applyScore,
+    skillScore,
+    isSkillMastered,
+    nextSkillInOrder,
   };
 });

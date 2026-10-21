@@ -96,6 +96,28 @@ test("progress merge keeps the further score and place without localStorage", ()
   assert.equal(down.score, 8);
 });
 
+test("mastery is SmartScore at 100 with legacy 99 upgraded on load", () => {
+  assert.equal(progress.MASTER_SCORE, 100);
+  assert.equal(progress.isSkillMastered(98), false);
+  assert.equal(progress.isSkillMastered(99), true);
+  assert.equal(progress.isSkillMastered(100), true);
+  const legacy = progress.parseProgress({ v: 2, level: "seed", scores: { done: 99, mid: 50 } }, "seed");
+  assert.equal(legacy.scores.done, 100);
+  assert.equal(legacy.scores.mid, 50);
+  assert.equal(progress.isSkillMastered(progress.skillScore(legacy, "done")), true);
+  const skills = [{ skill_id: "a" }, { skill_id: "b" }, { skill_id: "c" }];
+  assert.equal(progress.nextSkillInOrder(skills, "a").skill_id, "b");
+  assert.equal(progress.nextSkillInOrder(skills, "c"), null);
+});
+
+test("skill-nav builds skill and index URLs", () => {
+  const nav = require("../skill-nav.js");
+  const base = "https://example.com/levels/seed/?foo=1";
+  assert.equal(nav.parseSkillParam(base + "&skill=abc"), "abc");
+  assert.equal(nav.skillPageUrl("x", base), "/levels/seed/?foo=1&skill=x");
+  assert.equal(nav.indexPageUrl(base + "&skill=x"), "/levels/seed/?foo=1");
+});
+
 test("level player has no TTS and no local progress store", () => {
   const player = fs.readFileSync(path.join(root, "levels/player.js"), "utf8");
   assert.equal(/speechSynthesis|SpeechSynthesis|kokoro|SkillBuilderTts|localStorage/i.test(player), false);

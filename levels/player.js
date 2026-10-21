@@ -66,8 +66,10 @@
       const program = String((opts && opts.program) || "skill-builder-" + level);
       const Progress = root.SB_LEVEL_PROGRESS;
       const Pictures = root.SB_PICTURES;
+      const Nav = root.SB_SKILL_NAV;
       if (!level) throw new Error("level required");
-      if (!Progress || !Pictures) throw new Error("level helpers missing");
+      if (!Progress || !Pictures || !Nav) throw new Error("level helpers missing");
+      const launchSkillId = Nav.parseSkillParam(root.location.href);
 
       let manifest = { intros: {}, questions: {} };
       let skills = [];
@@ -176,8 +178,38 @@
       }
 
       function scoreOf(skillId) {
-        const n = Number(progress.scores[skillId]);
-        return Number.isFinite(n) ? n : 0;
+        return Progress.skillScore(progress, skillId);
+      }
+
+      function appendGoToNextSkill(el, skill, sameTab) {
+        if (!el || el.querySelector(".next-skill-btn")) return;
+        const next = Progress.nextSkillInOrder(skills, skill.skill_id);
+        if (!next) return;
+        const go = $("button", "btn primary next-skill-btn");
+        go.type = "button";
+        go.textContent = "Go to next skill → " + next.title;
+        go.onclick = () => {
+          if (sameTab) root.location.href = Nav.skillPageUrl(next.skill_id);
+          else root.open(Nav.skillPageUrl(next.skill_id), "_blank", "noopener,noreferrer");
+        };
+        el.appendChild(go);
+      }
+
+      async function syncProgressFromCloud() {
+        if (!studentId || !packReady) return;
+        const auth = root.MRJ_AUTH;
+        if (!auth || typeof auth.loadPack !== "function") return;
+        try {
+          const res = await auth.loadPack(program);
+          if (!res || !res.ok) return;
+          const remote = Progress.parseProgress(res.progress_json, level);
+          const merged = Progress.mergeProgress(progress, remote, level);
+          if (JSON.stringify(merged) === JSON.stringify(progress)) return;
+          progress = merged;
+          if (view.name === "home") renderHome();
+          else if (view.name === "question" && view.skill) showQuestion(view.skill, view.index);
+          else if (view.name === "strand" && view.strand) renderStrand(view.strand);
+        } catch (_) {}
       }
 
       function statOf(skillId, which) {
@@ -325,12 +357,23 @@
         bar.appendChild(sound);
         el.appendChild(bar);
 
+        const masteredCount = skills.filter((s) => Progress.isSkillMastered(scoreOf(s.skill_id))).length;
+        const indexHead = $("div", "skill-index-head");
+        indexHead.appendChild($("h2", "skill-index-title", "Skills"));
+        indexHead.appendChild(
+          $("p", "index-lead", masteredCount + " of " + skills.length + " done · Tap a skill — it opens in a new tab so this list stays here.")
+        );
+        el.appendChild(indexHead);
+
         const last = progress.last;
         const lastSkill = last && skillById(last.skill_id);
-        if (lastSkill) {
-          const resume = $("button", "btn primary resume-btn", "Continue: " + lastSkill.title);
-          resume.type = "button";
-          resume.onclick = () => openSkill(lastSkill);
+        if (lastSkill && !Progress.isSkillMastered(scoreOf(lastSkill.skill_id))) {
+          const resume = document.createElement("a");
+          resume.className = "btn primary resume-btn";
+          resume.href = Nav.skillPageUrl(lastSkill.skill_id);
+          resume.target = "_blank";
+          resume.rel = "noopener noreferrer";
+          resume.textContent = "Continue: " + lastSkill.title;
           el.appendChild(resume);
         }
 
@@ -341,66 +384,84 @@
         search.autocomplete = "off";
         el.appendChild(search);
 
-        const host = $("div", "section-stack");
+        const host = $("div", "skill-index-list");
         el.appendChild(host);
+
+        const strandsInOrder = () => {
+          const strands = [];
+          const seen = new Set();
+          for (const key of STRAND_ORDER) {
+            if (skills.some((s) => s.strand === key)) {
+              strands.push(key);
+              seen.add(key);
+            }
+          }
+          for (const s of skills) {
+            if (!seen.has(s.strand)) {
+              strands.push(s.strand);
+              seen.add(s.strand);
+            }
+          }
+          return strands;
+        };
 
         const draw = () => {
           host.innerHTML = "";
           const q = search.value.trim().toLowerCase();
+          const show = q
+            ? skills.filter((s) => s.title.toLowerCase().includes(q) || s.skill_id.toLowerCase().includes(q))
+            : skills;
+          if (!show.length) {
+            host.appendChild($("p", "muted", "No skills match."));
+            return;
+          }
           if (!q) {
-            const strands = [];
-            const seen = new Set();
-            for (const key of STRAND_ORDER) {
-              if (skills.some((s) => s.strand === key)) {
-                strands.push(key);
-                seen.add(key);
-              }
-            }
-            for (const s of skills) {
-              if (!seen.has(s.strand)) {
-                strands.push(s.strand);
-                seen.add(s.strand);
-              }
-            }
-            for (const strand of strands) {
-              const list = skills.filter((s) => s.strand === strand);
-              const started = list.filter((s) => scoreOf(s.skill_id) > 0 || statOf(s.skill_id, "correct") || statOf(s.skill_id, "wrong")).length;
-              const card = document.createElement("button");
-              card.type = "button";
-              card.className = "section-card";
-              card.style.setProperty("--section-color", COLORS[strand] || "#38bdf8");
-              const barSpan = $("span", "section-card-bar");
-              const body = $("span", "section-card-body");
-              body.appendChild($("span", "section-card-name", labelStrand(strand)));
-              body.appendChild($("span", "section-card-meta", list.length + " skills"));
-              body.appendChild($("span", "section-card-progress", started ? started + " started" : "Not started"));
-              card.appendChild(barSpan);
-              card.appendChild(body);
-              card.onclick = () => renderStrand(strand);
-              host.appendChild(card);
+            for (const strand of strandsInOrder()) {
+              const list = show.filter((s) => s.strand === strand);
+              if (!list.length) continue;
+              const doneInStrand = list.filter((s) => Progress.isSkillMastered(scoreOf(s.skill_id))).length;
+              const head = $("div", "strand-block");
+              head.style.setProperty("--section-color", COLORS[strand] || "#38bdf8");
+              const label = $("div", "strand-label");
+              label.appendChild($("span", "strand-name", labelStrand(strand)));
+              label.appendChild($("span", "strand-meta", doneInStrand + "/" + list.length + " done"));
+              head.appendChild(label);
+              for (const s of list) head.appendChild(skillIndexLink(s));
+              host.appendChild(head);
             }
             return;
           }
-          for (const s of skills) {
-            if (!s.title.toLowerCase().includes(q) && !s.skill_id.toLowerCase().includes(q)) continue;
-            host.appendChild(skillButton(s));
-          }
-          if (!host.children.length) host.appendChild($("p", "muted", "No skills match."));
+          for (const s of show) host.appendChild(skillIndexLink(s));
         };
         search.oninput = draw;
         draw();
       }
 
+      function skillIndexLink(s) {
+        const pct = scoreOf(s.skill_id);
+        const mastered = Progress.isSkillMastered(pct);
+        const a = document.createElement("a");
+        a.className = "skill-row" + (mastered ? " skill-done" : "");
+        a.href = Nav.skillPageUrl(s.skill_id);
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        const top = $("span", "skill-row-top");
+        top.appendChild($("span", "skill-name", s.title));
+        if (mastered) top.appendChild($("span", "skill-done-badge", "Done"));
+        else top.appendChild($("span", "skill-pct", pct + "%"));
+        a.appendChild(top);
+        const track = $("div", "skill-progress-track");
+        const fill = $("div", "skill-progress-fill");
+        fill.style.width = pct + "%";
+        if (mastered) fill.classList.add("full");
+        track.appendChild(fill);
+        a.appendChild(track);
+        a.appendChild($("span", "skill-meta", s.questions.length + " questions"));
+        return a;
+      }
+
       function skillButton(s) {
-        const b = document.createElement("button");
-        b.type = "button";
-        b.className = "skill-row";
-        const name = $("span", "skill-name", s.title);
-        const meta = $("span", "skill-meta", scoreOf(s.skill_id) + "% · " + s.questions.length + " questions");
-        b.appendChild(name);
-        b.appendChild(meta);
-        b.onclick = () => openSkill(s);
-        return b;
+        return skillIndexLink(s);
       }
 
       function renderStrand(strand) {
@@ -452,11 +513,12 @@
         el.appendChild(scorebar);
 
         const top = $("div", "play-top row");
-        const back = $("button", "btn small", "Index");
-        back.type = "button";
-        back.onclick = () => {
+        const back = $("a", "btn small", "← Skill list");
+        back.href = Nav.indexPageUrl();
+        back.onclick = (ev) => {
+          ev.preventDefault();
           stopAudio();
-          renderHome();
+          root.location.href = Nav.indexPageUrl();
         };
         top.appendChild(back);
         const skip = $("button", "btn small", "Skip");
@@ -472,6 +534,13 @@
         el.appendChild(top);
 
         el.appendChild($("div", "muted skill-line", skill.title));
+        if (Progress.isSkillMastered(scoreOf(skill.skill_id))) {
+          const doneBanner = $("div", "skill-mastered-banner");
+          doneBanner.appendChild($("span", "skill-done-badge large", "Done"));
+          doneBanner.appendChild($("span", "", "You reached " + Progress.MASTER_SCORE + "% on this skill."));
+          el.appendChild(doneBanner);
+          appendGoToNextSkill(el, skill, true);
+        }
         const prompt = $("h2", "prompt");
         prompt.textContent = q.prompt == null ? "" : String(q.prompt);
         el.appendChild(prompt);
@@ -604,6 +673,8 @@
         }
         const next = document.querySelector(".next-btn");
         if (next) next.hidden = false;
+        const app = appEl();
+        if (Progress.isSkillMastered(applied.score) && app) appendGoToNextSkill(app, skill, true);
       }
 
       function renderLoading() {
@@ -708,7 +779,9 @@
         if (gen !== authGen) return;
         if (!booted) {
           booted = true;
-          renderHome();
+          const launch = launchSkillId && skillById(launchSkillId);
+          if (launch) openSkill(launch);
+          else renderHome();
         } else {
           render();
         }
@@ -733,6 +806,12 @@
       });
       root.addEventListener("pagehide", () => {
         if (studentId) markDirtySave();
+      });
+      root.document.addEventListener("visibilitychange", () => {
+        if (root.document.visibilityState === "visible") syncProgressFromCloud();
+      });
+      root.addEventListener("focus", () => {
+        syncProgressFromCloud();
       });
       if (root.MRJ_AUTH && typeof root.MRJ_AUTH.student === "function") {
         const existing = root.MRJ_AUTH.student();
