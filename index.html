@@ -3,58 +3,74 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="mrj-build" content="20261020-levels" />
+  <meta name="mrj-build" content="20261021-desktop" />
   <title>English Skill Builder</title>
-  <link rel="stylesheet" href="chooser.css?v=20261020-levels" />
+  <link rel="stylesheet" href="chooser.css?v=20261021-desktop" />
 </head>
 <body>
   <main class="chooser" id="chooser">
     <header class="chooser-head">
       <p class="chooser-kicker">MRJ English</p>
       <h1>Skill Builder</h1>
-      <p class="chooser-lead">Pick a grade or a level. Sign in on the next screen with your MRJ ID.</p>
+      <p class="chooser-lead">Pick a level. Sign in on the next screen with your MRJ ID.</p>
     </header>
-    <div class="grade-stack" role="list">
-      <a class="grade-card grade-1" href="grade1/" role="listitem">
-        <span class="grade-bar" aria-hidden="true"></span>
-        <span class="grade-body">
-          <span class="grade-name">Grade 1</span>
-          <span class="grade-meta">Phonics · Reading · Grammar · Vocabulary</span>
-          <span class="grade-cta">Open Grade 1</span>
+    <div class="level-grid" role="list">
+      <a class="level-card level-seed" href="levels/seed/" role="listitem">
+        <span class="level-bar" aria-hidden="true"></span>
+        <span class="level-body">
+          <span class="level-name">Seed</span>
+          <span class="level-meta">Starting skills · pictures and sound</span>
+          <span class="level-cta">Open Seed</span>
         </span>
       </a>
-      <a class="grade-card grade-2" href="grade2/" role="listitem">
-        <span class="grade-bar" aria-hidden="true"></span>
-        <span class="grade-body">
-          <span class="grade-name">Grade 2</span>
-          <span class="grade-meta">Phonics · Reading · Writing · Grammar · Vocabulary · 160 skills</span>
-          <span class="grade-cta">Open Grade 2</span>
+      <a class="level-card level-roots" href="levels/roots/" role="listitem">
+        <span class="level-bar" aria-hidden="true"></span>
+        <span class="level-body">
+          <span class="level-name">Roots</span>
+          <span class="level-meta">Growing skills · pictures and sound</span>
+          <span class="level-cta">Open Roots</span>
         </span>
       </a>
-      <a class="grade-card level-seed" href="levels/seed/" role="listitem">
-        <span class="grade-bar" aria-hidden="true"></span>
-        <span class="grade-body">
-          <span class="grade-name">Seed</span>
-          <span class="grade-meta">Starting skills · tap to answer · pictures and sound</span>
-          <span class="grade-cta">Open Seed</span>
+      <a class="level-card level-sprout" href="levels/sprout/" role="listitem">
+        <span class="level-bar" aria-hidden="true"></span>
+        <span class="level-body">
+          <span class="level-name">Sprout</span>
+          <span class="level-meta">Next skills · pictures and sound</span>
+          <span class="level-cta">Open Sprout</span>
         </span>
       </a>
-      <a class="grade-card level-roots" href="levels/roots/" role="listitem">
-        <span class="grade-bar" aria-hidden="true"></span>
-        <span class="grade-body">
-          <span class="grade-name">Roots</span>
-          <span class="grade-meta">Growing skills · tap to answer · pictures and sound</span>
-          <span class="grade-cta">Open Roots</span>
+      <div class="level-card level-soon level-sapling" role="listitem" aria-disabled="true">
+        <span class="level-bar" aria-hidden="true"></span>
+        <span class="level-body">
+          <span class="level-name">Sapling</span>
+          <span class="level-meta">More skills on the way</span>
+          <span class="level-soon-tag">Coming soon</span>
         </span>
-      </a>
-      <a class="grade-card level-sprout" href="levels/sprout/" role="listitem">
-        <span class="grade-bar" aria-hidden="true"></span>
-        <span class="grade-body">
-          <span class="grade-name">Sprout</span>
-          <span class="grade-meta">Next skills · tap to answer · pictures and sound</span>
-          <span class="grade-cta">Open Sprout</span>
+      </div>
+      <div class="level-card level-soon level-tree" role="listitem" aria-disabled="true">
+        <span class="level-bar" aria-hidden="true"></span>
+        <span class="level-body">
+          <span class="level-name">Tree</span>
+          <span class="level-meta">More skills on the way</span>
+          <span class="level-soon-tag">Coming soon</span>
         </span>
-      </a>
+      </div>
+      <div class="level-card level-soon level-blooming" role="listitem" aria-disabled="true">
+        <span class="level-bar" aria-hidden="true"></span>
+        <span class="level-body">
+          <span class="level-name">Blooming Tree</span>
+          <span class="level-meta">More skills on the way</span>
+          <span class="level-soon-tag">Coming soon</span>
+        </span>
+      </div>
+      <div class="level-card level-soon level-master" role="listitem" aria-disabled="true">
+        <span class="level-bar" aria-hidden="true"></span>
+        <span class="level-body">
+          <span class="level-name">Master</span>
+          <span class="level-meta">More skills on the way</span>
+          <span class="level-soon-tag">Coming soon</span>
+        </span>
+      </div>
     </div>
     <p class="chooser-foot muted">W.A.I.T. 4 LANGUAGES · MRJ English</p>
   </main>

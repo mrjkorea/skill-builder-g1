@@ -67,8 +67,9 @@
       const Progress = root.SB_LEVEL_PROGRESS;
       const Pictures = root.SB_PICTURES;
       const Nav = root.SB_SKILL_NAV;
+      const UI = root.SB_LEVEL_UI;
       if (!level) throw new Error("level required");
-      if (!Progress || !Pictures || !Nav) throw new Error("level helpers missing");
+      if (!Progress || !Pictures || !Nav || !UI) throw new Error("level helpers missing");
       const launchSkillId = Nav.parseSkillParam(root.location.href);
 
       let manifest = { intros: {}, questions: {} };
@@ -99,6 +100,7 @@
       }
 
       function stopAudio() {
+        UI.unbindQuestionKeys();
         generation += 1;
         if (!audio) return;
         try {
@@ -324,12 +326,14 @@
         stopAudio();
         view = { name: "home", strand: null, skill: null, index: 0, locked: false };
         const el = appEl();
+        UI.setViewMode(el, "home");
         el.innerHTML = "";
-        el.appendChild($("h1", "title-main", "English Skill Builder · " + title));
-        const back = $("a", "btn small grades-link", "← Levels");
-        back.href = "../../";
-        el.appendChild(back);
 
+        const header = $("header", "home-header");
+        header.appendChild($("h1", "title-main", "Skill Builder · " + title));
+        const back = $("a", "btn small levels-link", "← All levels");
+        back.href = "../../";
+        header.appendChild(back);
         const bar = $("div", "toolbar row");
         if (studentId) bar.appendChild($("span", "home-user", studentId));
         const out = $("button", "btn small", "Sign out");
@@ -355,15 +359,19 @@
           renderHome();
         };
         bar.appendChild(sound);
-        el.appendChild(bar);
+        header.appendChild(bar);
+        el.appendChild(header);
+
+        const layout = $("div", "home-layout");
+        const side = $("div", "home-side");
+        const main = $("div", "home-main");
 
         const masteredCount = skills.filter((s) => Progress.isSkillMastered(scoreOf(s.skill_id))).length;
         const indexHead = $("div", "skill-index-head");
         indexHead.appendChild($("h2", "skill-index-title", "Skills"));
-        indexHead.appendChild(
-          $("p", "index-lead", masteredCount + " of " + skills.length + " done · Tap a skill — it opens in a new tab so this list stays here.")
-        );
-        el.appendChild(indexHead);
+        indexHead.appendChild($("p", "index-lead", masteredCount + " of " + skills.length + " done"));
+        side.appendChild(indexHead);
+        side.appendChild($("p", "home-hint", "Click a skill to open it in a new tab. This list stays open so you can pick the next one."));
 
         const last = progress.last;
         const lastSkill = last && skillById(last.skill_id);
@@ -374,7 +382,7 @@
           resume.target = "_blank";
           resume.rel = "noopener noreferrer";
           resume.textContent = "Continue: " + lastSkill.title;
-          el.appendChild(resume);
+          side.appendChild(resume);
         }
 
         const search = document.createElement("input");
@@ -382,10 +390,13 @@
         search.type = "search";
         search.placeholder = "Find a skill";
         search.autocomplete = "off";
-        el.appendChild(search);
+        side.appendChild(search);
 
         const host = $("div", "skill-index-list");
-        el.appendChild(host);
+        main.appendChild(host);
+        layout.appendChild(side);
+        layout.appendChild(main);
+        el.appendChild(layout);
 
         const strandsInOrder = () => {
           const strands = [];
@@ -426,12 +437,16 @@
               label.appendChild($("span", "strand-name", labelStrand(strand)));
               label.appendChild($("span", "strand-meta", doneInStrand + "/" + list.length + " done"));
               head.appendChild(label);
-              for (const s of list) head.appendChild(skillIndexLink(s));
+              const grid = $("div", "skill-index-grid");
+              for (const s of list) grid.appendChild(skillIndexLink(s));
+              head.appendChild(grid);
               host.appendChild(head);
             }
             return;
           }
-          for (const s of show) host.appendChild(skillIndexLink(s));
+          const grid = $("div", "skill-index-grid");
+          for (const s of show) grid.appendChild(skillIndexLink(s));
+          host.appendChild(grid);
         };
         search.oninput = draw;
         draw();
@@ -493,6 +508,7 @@
         const q = skill.questions[index];
         view = { name: "question", strand: skill.strand, skill, index, locked: false };
         const el = appEl();
+        UI.setViewMode(el, "play");
         el.innerHTML = "";
         if (!q) {
           el.appendChild($("p", "muted", "No questions for this skill yet."));
@@ -503,6 +519,11 @@
           return;
         }
 
+        const shell = $("div", "play-layout");
+        const playMain = $("div", "play-main");
+        shell.appendChild(playMain);
+        el.appendChild(shell);
+
         const scorebar = $("div", "scorebar");
         scorebar.appendChild($("div", "score-col score-wrong", String(statOf(skill.skill_id, "wrong"))));
         const mid = $("div", "score-col score-mid");
@@ -510,7 +531,7 @@
         mid.appendChild($("span", "num", scoreOf(skill.skill_id) + "%"));
         scorebar.appendChild(mid);
         scorebar.appendChild($("div", "score-col score-good", String(statOf(skill.skill_id, "correct"))));
-        el.appendChild(scorebar);
+        playMain.appendChild(scorebar);
 
         const top = $("div", "play-top row");
         const back = $("a", "btn small", "← Skill list");
@@ -531,19 +552,22 @@
           showQuestion(skill, next);
         };
         top.appendChild(skip);
-        el.appendChild(top);
+        playMain.appendChild(top);
 
-        el.appendChild($("div", "muted skill-line", skill.title));
+        const card = $("div", "question-card");
+        playMain.appendChild(card);
+
+        card.appendChild($("div", "muted skill-line", skill.title));
         if (Progress.isSkillMastered(scoreOf(skill.skill_id))) {
           const doneBanner = $("div", "skill-mastered-banner");
           doneBanner.appendChild($("span", "skill-done-badge large", "Done"));
           doneBanner.appendChild($("span", "", "You reached " + Progress.MASTER_SCORE + "% on this skill."));
-          el.appendChild(doneBanner);
-          appendGoToNextSkill(el, skill, true);
+          card.appendChild(doneBanner);
+          appendGoToNextSkill(card, skill, true);
         }
         const prompt = $("h2", "prompt");
         prompt.textContent = q.prompt == null ? "" : String(q.prompt);
-        el.appendChild(prompt);
+        card.appendChild(prompt);
 
         const picUrl = pictureFor(q);
         if (picUrl) {
@@ -555,7 +579,7 @@
             warnOnce("picture", Pictures.subjectOf(q) || picUrl);
             img.remove();
           });
-          el.appendChild(img);
+          card.appendChild(img);
         }
 
         const qFile = questionClip(q);
@@ -580,18 +604,24 @@
               }
             })();
           };
-          el.appendChild(replay);
+          card.appendChild(replay);
         }
 
         const options = optionsOf(q);
         if (options.length) {
-          options.forEach((choice) => {
-            const b = $("button", "choice", String(choice));
-            b.type = "button";
-            b.onclick = () => grade(skill, q, index, String(choice), b, el.querySelectorAll(".choice"));
-            el.appendChild(b);
+          card.appendChild($("p", "keyboard-hint", "Press 1–" + options.length + " to choose · Enter for next"));
+          const grid = $("div", "choices-grid");
+          if (options.length === 1) grid.classList.add("cols-1");
+          if (options.length === 3) grid.classList.add("cols-3");
+          options.forEach((choice, i) => {
+            const b = UI.choiceButton(i, String(choice), () =>
+              grade(skill, q, index, String(choice), b, card.querySelectorAll(".choice"))
+            );
+            grid.appendChild(b);
           });
+          card.appendChild(grid);
         } else {
+          card.appendChild($("p", "keyboard-hint", "Type your answer · Enter to check"));
           const form = $("form", "type-row");
           const input = document.createElement("input");
           input.className = "type-input";
@@ -608,22 +638,24 @@
             ev.preventDefault();
             grade(skill, q, index, input.value, null, []);
           };
-          el.appendChild(form);
+          card.appendChild(form);
           input.focus();
         }
 
-        el.appendChild($("div", "feedback"));
+        card.appendChild($("div", "feedback"));
         const explain = $("div", "explain-panel");
         explain.hidden = true;
-        el.appendChild(explain);
-        const next = $("button", "btn primary next-btn", "Next");
+        card.appendChild(explain);
+        const next = $("button", "btn primary next-btn", "Next (Enter)");
         next.type = "button";
         next.hidden = true;
         next.onclick = () => {
           const n = index + 1 >= skill.questions.length ? 0 : index + 1;
           showQuestion(skill, n);
         };
-        el.appendChild(next);
+        card.appendChild(next);
+
+        UI.bindQuestionKeys(() => ({ active: view.name === "question", locked: view.locked }));
 
         const gen = generation;
         playQuestion(skill, q, gen);
@@ -652,7 +684,9 @@
 
         const choices = nodes && nodes.length ? Array.from(nodes) : Array.from(document.querySelectorAll(".choice"));
         choices.forEach((n) => {
-          if (String(n.textContent) === String(q.answer)) n.classList.add("ok");
+          const txt = n.querySelector(".choice-text");
+          const label = txt ? txt.textContent : n.textContent;
+          if (String(label) === String(q.answer)) n.classList.add("ok");
           if (n === node && !ok) n.classList.add("no");
           n.disabled = true;
         });

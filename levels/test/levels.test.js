@@ -124,6 +124,14 @@ test("level player has no TTS and no local progress store", () => {
   assert.match(player, /questions\.jsonl/);
   assert.match(player, /manifest\.json/);
   assert.equal(/10250|7052|7702/.test(player), false);
+  assert.match(player, /SB_LEVEL_UI/);
+});
+
+test("chooser lists levels only, not legacy grade apps", () => {
+  const html = fs.readFileSync(path.join(root, "index.html"), "utf8");
+  assert.match(html, /levels\/seed\//);
+  assert.match(html, /Coming soon/);
+  assert.equal(/grade1\/|Grade 1|Grade 2/i.test(html), false);
 });
 
 test("prompts missing a manifest clip are only the known gaps", () => {

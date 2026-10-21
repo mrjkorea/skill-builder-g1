@@ -16,9 +16,90 @@ html, body {
   min-height: 100%;
   -webkit-tap-highlight-color: transparent;
 }
-#app { max-width: 480px; margin: 0 auto; padding: 16px 16px 48px; }
-h1, .title-main { font-size: 1.35rem; margin: 0 0 12px; line-height: 1.25; }
-h2, .prompt { font-size: 1.15rem; margin: 8px 0 12px; line-height: 1.35; white-space: pre-wrap; }
+#app.app-shell {
+  width: 100%;
+  max-width: min(100%, 1440px);
+  margin: 0 auto;
+  padding: 20px clamp(16px, 3vw, 40px) 48px;
+}
+h1, .title-main { font-size: clamp(1.35rem, 2.2vw, 1.85rem); margin: 0 0 12px; line-height: 1.25; }
+h2, .prompt {
+  font-size: clamp(1.15rem, 1.8vw, 1.55rem);
+  margin: 8px 0 16px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+.home-header { margin-bottom: 16px; }
+.home-header .title-main { margin-bottom: 8px; }
+.home-layout {
+  display: grid;
+  gap: 24px;
+  align-items: start;
+}
+@media (min-width: 960px) {
+  .home-layout {
+    grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);
+  }
+}
+.home-side { display: flex; flex-direction: column; gap: 12px; }
+.home-side .skill-index-head { margin: 0; }
+.home-side .search { margin: 0; }
+.home-hint {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.4;
+  margin: 0;
+}
+.play-layout { width: 100%; }
+.play-main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.question-card {
+  background: var(--card);
+  border: 2px solid #334155;
+  border-radius: 20px;
+  padding: clamp(16px, 2vw, 28px);
+  margin-top: 12px;
+}
+.choices-grid {
+  display: grid;
+  gap: 12px;
+  margin: 12px 0;
+}
+@media (min-width: 720px) {
+  .choices-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .choices-grid.cols-1 { grid-template-columns: 1fr; }
+  .choices-grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+button.choice {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 64px;
+  font-size: 1.12rem;
+  margin: 0;
+  text-align: left;
+}
+.choice-key {
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #0b1220;
+  border: 2px solid #475569;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.choice-text { flex: 1; line-height: 1.3; }
+.keyboard-hint {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0 0 8px;
+}
 .muted { color: var(--muted); font-size: 0.95rem; }
 .toolbar, .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
 .play-top { margin: 8px 0; }
@@ -39,7 +120,7 @@ h2, .prompt { font-size: 1.15rem; margin: 8px 0 12px; line-height: 1.35; white-s
 }
 .btn.primary { background: var(--accent); color: #0f172a; border-color: var(--accent); font-weight: 700; text-align: center; }
 .btn.small { width: auto; padding: 10px 14px; font-size: 0.9rem; margin: 0; }
-a.grades-link { display: inline-block; width: auto; text-decoration: none; margin-bottom: 8px; }
+a.levels-link { display: inline-block; width: auto; text-decoration: none; margin-bottom: 8px; }
 .resume-btn { text-align: center; }
 .btn.replay {
   width: 56px;
@@ -67,8 +148,20 @@ a.skill-row, button.skill-row {
 .skill-index-head { margin: 12px 0 8px; }
 .skill-index-title { font-size: 1.5rem; margin: 0 0 6px; font-weight: 800; }
 .index-lead { margin: 0 0 8px; color: var(--muted); font-size: 0.95rem; line-height: 1.35; }
-.skill-index-list { display: flex; flex-direction: column; gap: 20px; margin-top: 8px; }
-.strand-block { display: flex; flex-direction: column; gap: 8px; }
+.skill-index-list { display: flex; flex-direction: column; gap: 24px; }
+.strand-block { display: flex; flex-direction: column; gap: 10px; }
+.skill-index-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .skill-index-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1200px) {
+  .skill-index-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+a.skill-row, button.skill-row { margin: 0; }
 .strand-label {
   display: flex;
   justify-content: space-between;
@@ -144,7 +237,7 @@ a.resume-btn { text-decoration: none; display: block; }
 .type-row .btn { width: auto; margin: 0; }
 .q-pic {
   display: block;
-  width: min(100%, 280px);
+  width: min(100%, 420px);
   height: auto;
   margin: 8px auto 12px;
   background: #fff7ed;
@@ -177,3 +270,7 @@ button.choice.ok { border-color: var(--good); background: #14532d; }
 button.choice.no { border-color: var(--bad); background: #7f1d1d; }
 .home-user { font-weight: 700; }
 .skill-line { margin-bottom: 4px; }
+.scorebar { max-width: 640px; }
+@media (max-width: 719px) {
+  .choices-grid { grid-template-columns: 1fr; }
+}

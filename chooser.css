@@ -3,11 +3,13 @@
   --card: #1e293b;
   --ink: #f8fafc;
   --muted: #94a3b8;
-  --g1: #38bdf8;
-  --g2: #a855f7;
   --seed: #22c55e;
   --roots: #f59e0b;
   --sprout: #fb7185;
+  --sapling: #38bdf8;
+  --tree: #a855f7;
+  --blooming: #f472b6;
+  --master: #eab308;
 }
 * { box-sizing: border-box; }
 html, body {
@@ -19,9 +21,9 @@ html, body {
   -webkit-tap-highlight-color: transparent;
 }
 .chooser {
-  max-width: 480px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 20px 16px 40px;
+  padding: 28px 32px 48px;
 }
 .chooser-kicker {
   margin: 0;
@@ -32,24 +34,25 @@ html, body {
 }
 .chooser-head h1 {
   margin: 6px 0 10px;
-  font-size: 1.75rem;
+  font-size: clamp(1.75rem, 3vw, 2.35rem);
   line-height: 1.2;
 }
 .chooser-lead {
-  margin: 0 0 20px;
+  margin: 0 0 28px;
   color: var(--muted);
-  font-size: 1rem;
-  line-height: 1.4;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  max-width: 52ch;
 }
-.grade-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+.level-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
 }
-.grade-card {
+.level-card {
   display: flex;
   align-items: stretch;
-  min-height: 104px;
+  min-height: 120px;
   text-decoration: none;
   color: inherit;
   border-radius: 16px;
@@ -58,20 +61,12 @@ html, body {
   background: var(--card);
   touch-action: manipulation;
 }
-.grade-1 {
-  border-color: color-mix(in srgb, var(--g1) 55%, #334155);
-  background: color-mix(in srgb, var(--g1) 22%, #0f172a);
+.level-card.level-soon {
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
 }
-.grade-2 {
-  border-color: color-mix(in srgb, var(--g2) 45%, #334155);
-  background: color-mix(in srgb, var(--g2) 18%, #0f172a);
-  opacity: 0.92;
-}
-.grade-bar {
-  flex: 0 0 16px;
-}
-.grade-1 .grade-bar { background: var(--g1); }
-.grade-2 .grade-bar { background: var(--g2); }
+.level-bar { flex: 0 0 14px; }
 .level-seed {
   border-color: color-mix(in srgb, var(--seed) 55%, #334155);
   background: color-mix(in srgb, var(--seed) 18%, #0f172a);
@@ -84,34 +79,50 @@ html, body {
   border-color: color-mix(in srgb, var(--sprout) 55%, #334155);
   background: color-mix(in srgb, var(--sprout) 16%, #0f172a);
 }
-.level-seed .grade-bar { background: var(--seed); }
-.level-roots .grade-bar { background: var(--roots); }
-.level-sprout .grade-bar { background: var(--sprout); }
-.grade-body {
+.level-sapling .level-bar { background: var(--sapling); }
+.level-tree .level-bar { background: var(--tree); }
+.level-blooming .level-bar { background: var(--blooming); }
+.level-master .level-bar { background: var(--master); }
+.level-seed .level-bar { background: var(--seed); }
+.level-roots .level-bar { background: var(--roots); }
+.level-sprout .level-bar { background: var(--sprout); }
+.level-body {
   flex: 1;
-  padding: 16px 18px;
+  padding: 18px 20px;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
 }
-.grade-name {
-  font-size: 1.25rem;
+.level-name {
+  font-size: 1.3rem;
   font-weight: 800;
 }
-.grade-meta {
+.level-meta {
   font-size: 0.95rem;
   color: var(--muted);
   line-height: 1.35;
+  flex: 1;
 }
-.grade-cta {
-  margin-top: 6px;
-  font-size: 0.9rem;
+.level-cta {
+  margin-top: 4px;
+  font-size: 0.95rem;
   font-weight: 700;
-  color: var(--ink);
+}
+.level-soon-tag {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
 }
 .chooser-foot {
-  margin-top: 28px;
+  margin-top: 36px;
   text-align: center;
   font-size: 0.85rem;
 }
 .muted { color: var(--muted); }
+@media (max-width: 600px) {
+  .chooser { padding: 20px 16px 40px; }
+  .level-grid { grid-template-columns: 1fr; }
+}
