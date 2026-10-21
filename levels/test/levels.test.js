@@ -148,5 +148,5 @@ test("prompts missing a manifest clip are only the known gaps", () => {
       }
     }
   }
-  assert.equal(gaps.length, 23);
+  assert.equal(gaps.length, 0);
 });
