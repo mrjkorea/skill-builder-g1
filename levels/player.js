@@ -68,8 +68,9 @@
       const Pictures = root.SB_PICTURES;
       const Nav = root.SB_SKILL_NAV;
       const UI = root.SB_LEVEL_UI;
+      const AudioUrl = root.SB_AUDIO_URL;
       if (!level) throw new Error("level required");
-      if (!Progress || !Pictures || !Nav || !UI) throw new Error("level helpers missing");
+      if (!Progress || !Pictures || !Nav || !UI || !AudioUrl) throw new Error("level helpers missing");
       const launchSkillId = Nav.parseSkillParam(root.location.href);
 
       let manifest = { intros: {}, questions: {} };
@@ -150,6 +151,10 @@
         if (text == null) return null;
         const row = manifest.questions && manifest.questions[text];
         return row && row.file ? row.file : null;
+      }
+
+      function clipUrl(file) {
+        return AudioUrl.resolveClipUrl(manifest, file);
       }
 
       function questionClip(q) {
@@ -297,7 +302,7 @@
             skill.introPlayed = true;
             warnOnce("clip", "intro " + skill.skill_id);
           } else if (soundOn && gestureOk && gen === generation) {
-            const status = await playUrl(intro.file, gen);
+            const status = await playUrl(clipUrl(intro.file), gen);
             if (status === "error") {
               skill.introPlayed = true;
               warnOnce("clip", "intro " + skill.skill_id);
@@ -317,7 +322,7 @@
         if (sFile && sFile !== qFile) files.push(sFile);
         for (const file of files) {
           if (gen !== generation || !soundOn) return;
-          const status = await playUrl(file, gen);
+          const status = await playUrl(clipUrl(file), gen);
           if (status === "error") warnOnce("clip", file);
         }
       }
@@ -599,7 +604,7 @@
             (async () => {
               for (const file of files) {
                 if (gen !== generation) return;
-                const status = await playUrl(file, gen);
+                const status = await playUrl(clipUrl(file), gen);
                 if (status === "error") warnOnce("clip", file);
               }
             })();

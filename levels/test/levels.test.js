@@ -7,6 +7,7 @@ const path = require("path");
 
 const pictures = require("../picture-resolve.js");
 const progress = require("../progress.js");
+const audioUrl = require("../audio-url.js");
 
 const root = path.join(__dirname, "..", "..");
 
@@ -125,6 +126,28 @@ test("level player has no TTS and no local progress store", () => {
   assert.match(player, /manifest\.json/);
   assert.equal(/10250|7052|7702/.test(player), false);
   assert.match(player, /SB_LEVEL_UI/);
+});
+
+test("audio_base resolves clip URLs for Pages satellites", () => {
+  const m = { audio_base: "https://example.com/skill-builder-g1-audio-2/levels/seed/" };
+  assert.equal(
+    audioUrl.resolveClipUrl(m, "audio/q/abc.mp3"),
+    "https://example.com/skill-builder-g1-audio-2/levels/seed/audio/q/abc.mp3"
+  );
+  assert.equal(audioUrl.resolveClipUrl({}, "audio/q/x.mp3"), "audio/q/x.mp3");
+});
+
+test("manifest audio_base is set for each live level", () => {
+  const expected = {
+    seed: "skill-builder-g1-audio-2",
+    roots: "skill-builder-g1-audio-3",
+    sprout: "skill-builder-g1-audio-4",
+  };
+  for (const [level, repo] of Object.entries(expected)) {
+    const manifest = JSON.parse(fs.readFileSync(path.join(root, "levels", level, "manifest.json"), "utf8"));
+    assert.match(String(manifest.audio_base || ""), new RegExp(repo));
+    assert.match(String(manifest.audio_base), new RegExp("levels/" + level + "/"));
+  }
 });
 
 test("chooser lists levels only, not legacy grade apps", () => {
