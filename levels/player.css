@@ -399,3 +399,17 @@ button.choice {
   cursor: pointer;
 }
 .choice-speaker:hover { background: #1e293b; border-color: var(--accent); }
+
+/* New-set (v2) question parts */
+.q-pics { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+.q-pics .q-pic { max-width: 42%; }
+.q-pics-plus { font-size: 2rem; font-weight: 700; }
+.q-text { font-size: 1.6rem; font-weight: 600; text-align: center; margin: 10px 0; }
+.q-textcard { display: block; width: fit-content; margin: 12px auto; padding: 18px 28px; border-radius: 14px; font-weight: 800; font-size: 2.2rem; letter-spacing: 0.04em; text-align: center; }
+.q-textcard.sign { background: #1f7a3a; color: #fff; border: 6px solid #fff; box-shadow: 0 0 0 3px #1f7a3a; }
+.q-textcard.word { background: #fff7d6; color: #333; border: 3px solid #e2b93b; }
+.choice.has-pic { flex-direction: column; }
+.choice-pic { width: 100%; max-width: 160px; aspect-ratio: 1 / 1; object-fit: contain; }
+.choice.picked { outline: 4px solid #3b82f6; }
+.choice[data-pick-order]:not([data-pick-order=""])::after { content: attr(data-pick-order); font-weight: 800; margin-left: 6px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

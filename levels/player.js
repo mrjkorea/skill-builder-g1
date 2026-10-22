@@ -162,11 +162,19 @@
         return row && row.file ? row.file : null;
       }
 
+      function optionClip(q, label) {
+        if (q && q.opt_aud) return q.opt_aud[label] || null;
+        if (q && q.v === 2) return null;
+        return clipForText(label);
+      }
+
       function clipUrl(file) {
+        if (/^https?:\/\//i.test(String(file || ""))) return String(file);
         return AudioUrl.resolveClipUrl(manifest, file);
       }
 
       function questionClip(q) {
+        if (q && q.v === 2) return q.aud || null;
         return clipForText(q && q.prompt);
       }
 
@@ -178,6 +186,7 @@
       }
 
       function pictureFor(q) {
+        if (q && q.img) return q.img;
         const subject = Pictures.subjectOf(q);
         if (!subject) return null;
         const resolved = Pictures.resolve(q, newPics, oldPics);
@@ -354,7 +363,7 @@
         if (gen !== generation) return;
         const qFile = questionClip(q);
         const sFile = soundClip(q);
-        if (!qFile) warnOnce("clip", (q && q.id) || (q && q.prompt) || "");
+        if (!qFile && !(q && q.v === 2)) warnOnce("clip", (q && q.id) || (q && q.prompt) || "");
         if (String((q && q.needs) || "").toLowerCase().startsWith("sound:") && !sFile) {
           warnOnce("clip", "sound " + ((q && q.id) || ""));
         }
@@ -649,6 +658,20 @@
           });
           card.appendChild(img);
         }
+        if (Array.isArray(q.imgs) && q.imgs.length) {
+          const row = $("div", "q-pics");
+          q.imgs.forEach((u, i) => {
+            if (i > 0) row.appendChild($("span", "q-pics-plus", "+"));
+            const im = document.createElement("img");
+            im.className = "q-pic";
+            im.alt = "";
+            im.src = u;
+            row.appendChild(im);
+          });
+          card.appendChild(row);
+        }
+        if (q.card) card.appendChild($("div", "q-textcard " + (q.card_kind === "sign" ? "sign" : "word"), String(q.card)));
+        if (q.v === 2 && q.text) card.appendChild($("div", "q-text", String(q.text)));
 
         const qFile = questionClip(q);
         const sFile = soundClip(q);
@@ -677,7 +700,9 @@
 
         const options = optionsOf(q);
         if (options.length) {
-          const anyClips = options.some((c) => clipForText(String(c)));
+          const anyClips = options.some((c) => optionClip(q, String(c)));
+          const multi = Array.isArray(q.answer);
+          const picked = [];
           card.appendChild(
             $("p", "keyboard-hint", anyClips
               ? "Press 1–" + options.length + " to choose · Shift+number to hear a word · Enter for next"
@@ -688,7 +713,7 @@
           if (options.length === 3) grid.classList.add("cols-3");
           options.forEach((choice, i) => {
             const label = String(choice);
-            const file = clipForText(label);
+            const file = optionClip(q, label);
             const clipOpts = file
               ? {
                   clipUrl: clipUrl(file),
@@ -706,11 +731,40 @@
             const b = UI.choiceButton(
               i,
               label,
-              () => grade(skill, q, index, label, b, card.querySelectorAll(".choice")),
+              () => {
+                if (!multi) return grade(skill, q, index, label, b, card.querySelectorAll(".choice"));
+                if (view.locked) return;
+                const at = picked.indexOf(label);
+                if (at >= 0) {
+                  picked.splice(at, 1);
+                  b.classList.remove("picked");
+                } else {
+                  picked.push(label);
+                  b.classList.add("picked");
+                }
+                Array.from(card.querySelectorAll(".choice")).forEach((n) => {
+                  const tx = n.querySelector(".choice-text");
+                  const pos = picked.indexOf(tx ? tx.textContent : "");
+                  n.dataset.pickOrder = pos >= 0 ? String(pos + 1) : "";
+                });
+                if (picked.length === q.answer.length) grade(skill, q, index, picked.slice(), null, card.querySelectorAll(".choice"));
+              },
               clipOpts
             );
+            const pic = q.opt_img && q.opt_img[label];
+            if (pic) {
+              const im = document.createElement("img");
+              im.className = "choice-pic";
+              im.alt = "";
+              im.src = pic;
+              b.classList.add("has-pic");
+              const tx = b.querySelector(".choice-text");
+              if (tx) tx.classList.add("visually-hidden");
+              b.insertBefore(im, tx || null);
+            }
             grid.appendChild(b);
           });
+          if (multi) card.appendChild($("p", "keyboard-hint", q.format === "order" ? "Tap them in order." : "Tap " + q.answer.length + "."));
           card.appendChild(grid);
         } else {
           card.appendChild($("p", "keyboard-hint", "Type your answer · Enter to check"));
@@ -758,7 +812,14 @@
         view.locked = true;
         const expected = String(q.answer == null ? "" : q.answer);
         const typed = optionsOf(q).length === 0;
-        const ok = typed
+        const multi = Array.isArray(q.answer);
+        const ok = multi
+          ? Array.isArray(given) &&
+            given.length === q.answer.length &&
+            (q.format === "order"
+              ? given.every((g, i) => String(g) === String(q.answer[i]))
+              : q.answer.every((a) => given.map(String).includes(String(a))))
+          : typed
           ? String(given).trim().toLowerCase() === expected.trim().toLowerCase()
           : String(given) === expected;
         const applied = Progress.applyScore(scoreOf(skill.skill_id), ok, streaks[skill.skill_id] || 0);
@@ -778,7 +839,8 @@
         choices.forEach((n) => {
           const txt = n.querySelector(".choice-text");
           const label = txt ? txt.textContent : n.textContent;
-          if (String(label) === String(q.answer)) n.classList.add("ok");
+          if (multi ? q.answer.map(String).includes(String(label)) : String(label) === String(q.answer)) n.classList.add("ok");
+          if (multi && !ok && Array.isArray(given) && given.map(String).includes(String(label)) && !q.answer.map(String).includes(String(label))) n.classList.add("no");
           if (n === node && !ok) n.classList.add("no");
           n.disabled = true;
         });
@@ -796,6 +858,12 @@
             ex.hidden = false;
             ex.textContent = explainOf(q);
           }
+        }
+        if (ok && q.aud_answer && soundOn) {
+          stopAudio();
+          playUrl(q.aud_answer, generation).then((status) => {
+            if (status === "error") warnOnce("clip", q.aud_answer);
+          });
         }
         const next = document.querySelector(".next-btn");
         if (next) next.hidden = false;

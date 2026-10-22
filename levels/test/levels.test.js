@@ -56,6 +56,7 @@ test("picture questions reuse old art or use a new drawing", () => {
   const missing = [];
   for (const level of ["seed", "roots", "sprout"]) {
     for (const q of loadQs(level)) {
+      if (q.v === 2) continue; // new set uses absolute media URLs; see levels/scripts/check-media.py
       if (!pictures.subjectOf(q)) continue;
       const hit = pictures.resolve(q, index, old);
       if (!hit) {
@@ -66,8 +67,8 @@ test("picture questions reuse old art or use a new drawing", () => {
     }
   }
   assert.deepEqual(missing, []);
-  assert.equal(counts.seed.new, 51);
-  assert.equal(counts.seed.old, 750);
+  assert.equal(counts.seed.new, 16); // other old picture skills were replaced by the 2026-10-23 set
+  assert.equal(counts.seed.old, 534);
   assert.equal(counts.roots.new, 18);
   assert.equal(counts.roots.old, 30);
   assert.equal(counts.sprout.new, 15);
@@ -224,6 +225,7 @@ test("prompts missing a manifest clip are only the known gaps", () => {
   for (const level of ["seed", "roots", "sprout"]) {
     const manifest = JSON.parse(fs.readFileSync(path.join(root, "levels", level, "manifest.json"), "utf8"));
     for (const q of loadQs(level)) {
+      if (q.v === 2) continue; // new set carries its own clip URLs
       if (!manifest.questions[q.prompt]) gaps.push(level + ":" + q.id);
       const needs = String(q.needs || "");
       if (needs.startsWith("sound:")) {
