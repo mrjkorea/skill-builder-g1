@@ -53,6 +53,7 @@ html, body {
   display: flex;
   align-items: stretch;
   min-height: 120px;
+  position: relative;
   text-decoration: none;
   color: inherit;
   border-radius: 16px;
@@ -66,7 +67,37 @@ html, body {
   cursor: default;
   pointer-events: none;
 }
+.level-art {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  opacity: 0.95;
+  pointer-events: none;
+}
 .level-bar { flex: 0 0 14px; }
+@keyframes seed-wiggle {
+  0%, 100% { transform: rotate(-4deg) translateY(0); }
+  50% { transform: rotate(4deg) translateY(-2px); }
+}
+@keyframes roots-grow {
+  0%, 100% { transform: scaleY(1); transform-origin: center bottom; }
+  50% { transform: scaleY(1.06); transform-origin: center bottom; }
+}
+@keyframes sprout-sway {
+  0%, 100% { transform: rotate(-5deg); transform-origin: center bottom; }
+  50% { transform: rotate(5deg); transform-origin: center bottom; }
+}
+.anim-seed { animation: seed-wiggle 2.8s ease-in-out infinite; }
+.anim-roots .root-branch { animation: roots-grow 3.2s ease-in-out infinite; }
+.anim-roots .root-branch:last-of-type { animation-delay: 0.4s; }
+.anim-sprout { animation: sprout-sway 3s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .anim-seed,
+  .anim-roots .root-branch,
+  .anim-sprout {
+    animation: none !important;
+  }
+}
 .level-seed {
   border-color: color-mix(in srgb, var(--seed) 55%, #334155);
   background: color-mix(in srgb, var(--seed) 18%, #0f172a);

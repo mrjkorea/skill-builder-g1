@@ -6,12 +6,6 @@
 (function (root) {
   "use strict";
 
-  const COLORS = {
-    phonics: "#0ea5e9",
-    reading: "#a855f7",
-    grammar: "#f97316",
-    vocabulary: "#22c55e",
-  };
   const STRAND_ORDER = ["phonics", "reading", "grammar", "vocabulary"];
 
   function $(tag, className, text) {
@@ -53,12 +47,6 @@
     return "reading";
   }
 
-  function labelStrand(key) {
-    const k = String(key || "");
-    if (!k) return "Skills";
-    return k.charAt(0).toUpperCase() + k.slice(1);
-  }
-
   root.SB_LEVELS = {
     start(opts) {
       const level = String((opts && opts.level) || "").trim();
@@ -69,8 +57,27 @@
       const Nav = root.SB_SKILL_NAV;
       const UI = root.SB_LEVEL_UI;
       const AudioUrl = root.SB_AUDIO_URL;
+      const StrandTheme = root.SB_STRAND_THEME;
+      const IndexUI = root.SB_INDEX_UI;
       if (!level) throw new Error("level required");
-      if (!Progress || !Pictures || !Nav || !UI || !AudioUrl) throw new Error("level helpers missing");
+      if (!Progress || !Pictures || !Nav || !UI || !AudioUrl || !StrandTheme || !IndexUI)
+        throw new Error("level helpers missing");
+
+      function labelStrand(key) {
+        return StrandTheme.themeFor(key).label;
+      }
+
+      function strandView(strand) {
+        const t = StrandTheme.themeFor(strand);
+        return {
+          key: t.key,
+          label: t.label,
+          color: t.color,
+          sectionId: StrandTheme.sectionId(strand),
+          iconSvg: StrandTheme.iconSvg(t.icon),
+        };
+      }
+
       const launchSkillId = Nav.parseSkillParam(root.location.href);
 
       let manifest = { intros: {}, questions: {} };
@@ -399,6 +406,8 @@
 
         const host = $("div", "skill-index-list");
         main.appendChild(host);
+        const quickNavSlot = $("div", "strand-quick-nav-slot");
+        main.insertBefore(quickNavSlot, host);
         layout.appendChild(side);
         layout.appendChild(main);
         el.appendChild(layout);
@@ -406,7 +415,7 @@
         const strandsInOrder = () => {
           const strands = [];
           const seen = new Set();
-          for (const key of STRAND_ORDER) {
+          for (const key of StrandTheme.STRAND_ORDER) {
             if (skills.some((s) => s.strand === key)) {
               strands.push(key);
               seen.add(key);
@@ -423,6 +432,7 @@
 
         const draw = () => {
           host.innerHTML = "";
+          quickNavSlot.innerHTML = "";
           const q = search.value.trim().toLowerCase();
           const show = q
             ? skills.filter((s) => s.title.toLowerCase().includes(q) || s.skill_id.toLowerCase().includes(q))
@@ -432,34 +442,33 @@
             return;
           }
           if (!q) {
-            for (const strand of strandsInOrder()) {
+            const strands = strandsInOrder().filter((st) => show.some((s) => s.strand === st));
+            quickNavSlot.appendChild(
+              IndexUI.buildQuickNav(strands, (st) => strandView(st))
+            );
+            for (const strand of strands) {
               const list = show.filter((s) => s.strand === strand);
               if (!list.length) continue;
               const doneInStrand = list.filter((s) => Progress.isSkillMastered(scoreOf(s.skill_id))).length;
-              const head = $("div", "strand-block");
-              head.style.setProperty("--section-color", COLORS[strand] || "#38bdf8");
-              const label = $("div", "strand-label");
-              label.appendChild($("span", "strand-name", labelStrand(strand)));
-              label.appendChild($("span", "strand-meta", doneInStrand + "/" + list.length + " done"));
-              head.appendChild(label);
-              const grid = $("div", "skill-index-grid");
-              for (const s of list) grid.appendChild(skillIndexLink(s));
-              head.appendChild(grid);
-              host.appendChild(head);
+              const theme = strandView(strand);
+              const built = IndexUI.buildStrandSection(strand, theme, doneInStrand, list.length);
+              for (const s of list) built.grid.appendChild(skillIndexLink(s, theme));
+              host.appendChild(built.section);
             }
             return;
           }
-          const grid = $("div", "skill-index-grid");
-          for (const s of show) grid.appendChild(skillIndexLink(s));
+          const grid = $("div", "skill-index-grid search-results-grid");
+          for (const s of show) grid.appendChild(skillIndexLink(s, strandView(s.strand)));
           host.appendChild(grid);
         };
         search.oninput = draw;
         draw();
       }
 
-      function skillIndexLink(s) {
+      function skillIndexLink(s, theme) {
         const pct = scoreOf(s.skill_id);
         const mastered = Progress.isSkillMastered(pct);
+        const th = theme || strandView(s.strand);
         const a = document.createElement("a");
         a.className = "skill-row" + (mastered ? " skill-done" : "");
         a.href = Nav.skillPageUrl(s.skill_id);
@@ -477,7 +486,7 @@
         track.appendChild(fill);
         a.appendChild(track);
         a.appendChild($("span", "skill-meta", s.questions.length + " questions"));
-        return a;
+        return IndexUI.decorateSkillRow(a, th);
       }
 
       function skillButton(s) {

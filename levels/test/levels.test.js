@@ -8,6 +8,7 @@ const path = require("path");
 const pictures = require("../picture-resolve.js");
 const progress = require("../progress.js");
 const audioUrl = require("../audio-url.js");
+const strandTheme = require("../strand-theme.js");
 
 const root = path.join(__dirname, "..", "..");
 
@@ -126,6 +127,16 @@ test("level player has no TTS and no local progress store", () => {
   assert.match(player, /manifest\.json/);
   assert.equal(/10250|7052|7702/.test(player), false);
   assert.match(player, /SB_LEVEL_UI/);
+  assert.match(player, /SB_STRAND_THEME/);
+  assert.match(player, /SB_INDEX_UI/);
+});
+
+test("strand themes cover standard subjects with section anchors", () => {
+  assert.deepEqual(strandTheme.STRAND_ORDER, ["phonics", "reading", "grammar", "vocabulary"]);
+  const p = strandTheme.themeFor("phonics");
+  assert.equal(p.color, "#0ea5e9");
+  assert.equal(strandTheme.sectionId("grammar"), "strand-grammar");
+  assert.match(strandTheme.iconSvg("reading"), /<svg/);
 });
 
 test("audio_base resolves clip URLs for Pages satellites", () => {
@@ -155,6 +166,8 @@ test("chooser lists levels only, not legacy grade apps", () => {
   assert.match(html, /levels\/seed\//);
   assert.match(html, /Coming soon/);
   assert.equal(/grade1\/|Grade 1|Grade 2/i.test(html), false);
+  assert.match(html, /anim-seed/);
+  assert.match(fs.readFileSync(path.join(root, "chooser.css"), "utf8"), /prefers-reduced-motion/);
 });
 
 test("prompts missing a manifest clip are only the known gaps", () => {
