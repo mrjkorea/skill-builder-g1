@@ -59,8 +59,9 @@
       const AudioUrl = root.SB_AUDIO_URL;
       const StrandTheme = root.SB_STRAND_THEME;
       const IndexUI = root.SB_INDEX_UI;
+      const PhonicsPlan = root.SB_PHONICS_PLAN;
       if (!level) throw new Error("level required");
-      if (!Progress || !Pictures || !Nav || !UI || !AudioUrl || !StrandTheme || !IndexUI)
+      if (!Progress || !Pictures || !Nav || !UI || !AudioUrl || !StrandTheme || !IndexUI || !PhonicsPlan)
         throw new Error("level helpers missing");
 
       function labelStrand(key) {
@@ -81,6 +82,7 @@
       const launchSkillId = Nav.parseSkillParam(root.location.href);
 
       let manifest = { intros: {}, questions: {} };
+      let phonicsPlan = null;
       let skills = [];
       let newPics = {};
       let oldPics = {};
@@ -191,13 +193,46 @@
         return skills.find((s) => s.skill_id === id) || null;
       }
 
+      function skillsForNav() {
+        return skills.filter((s) => !s.phonicsHidden && s.questions && s.questions.length > 0);
+      }
+
+      function indexVisibleSkill(s) {
+        if (!s) return false;
+        if (s.phonicsHidden) return false;
+        return PhonicsPlan.visibleForIndex(s, phonicsPlan, level);
+      }
+
+      function phonicsIndexRows(filteredSkills) {
+        const byId = new Map();
+        for (const s of filteredSkills) byId.set(s.skill_id, s);
+        const rows = [];
+        const slots = PhonicsPlan.phonicsPlanSlots(phonicsPlan, level);
+        for (const slot of slots) {
+          const ids = slot.skillIds || [];
+          if (slot.comingSoon && !ids.length) {
+            rows.push({ kind: "soon", title: slot.title });
+            continue;
+          }
+          let any = false;
+          for (const id of ids) {
+            const s = byId.get(id);
+            if (!s || !indexVisibleSkill(s)) continue;
+            rows.push({ kind: "skill", skill: s, planTitle: slot.title });
+            any = true;
+          }
+          if (ids.length && !any) rows.push({ kind: "soon", title: slot.title });
+        }
+        return rows;
+      }
+
       function scoreOf(skillId) {
         return Progress.skillScore(progress, skillId);
       }
 
       function appendGoToNextSkill(el, skill, sameTab) {
         if (!el || el.querySelector(".next-skill-btn")) return;
-        const next = Progress.nextSkillInOrder(skills, skill.skill_id);
+        const next = Progress.nextSkillInOrder(skillsForNav(), skill.skill_id);
         if (!next) return;
         const go = $("button", "btn primary next-skill-btn");
         go.type = "button";
@@ -378,10 +413,11 @@
         const side = $("div", "home-side");
         const main = $("div", "home-main");
 
-        const masteredCount = skills.filter((s) => Progress.isSkillMastered(scoreOf(s.skill_id))).length;
+        const navSkills = skillsForNav();
+        const masteredCount = navSkills.filter((s) => Progress.isSkillMastered(scoreOf(s.skill_id))).length;
         const indexHead = $("div", "skill-index-head");
         indexHead.appendChild($("h2", "skill-index-title", "Skills"));
-        indexHead.appendChild($("p", "index-lead", masteredCount + " of " + skills.length + " done"));
+        indexHead.appendChild($("p", "index-lead", masteredCount + " of " + navSkills.length + " done"));
         side.appendChild(indexHead);
         side.appendChild($("p", "home-hint", "Click a skill to open it in a new tab. This list stays open so you can pick the next one."));
 
@@ -435,8 +471,12 @@
           quickNavSlot.innerHTML = "";
           const q = search.value.trim().toLowerCase();
           const show = q
-            ? skills.filter((s) => s.title.toLowerCase().includes(q) || s.skill_id.toLowerCase().includes(q))
-            : skills;
+            ? skills.filter(
+                (s) =>
+                  indexVisibleSkill(s) &&
+                  (s.title.toLowerCase().includes(q) || s.skill_id.toLowerCase().includes(q))
+              )
+            : skills.filter((s) => indexVisibleSkill(s) || s.strand !== "phonics");
           if (!show.length) {
             host.appendChild($("p", "muted", "No skills match."));
             return;
@@ -447,10 +487,24 @@
               IndexUI.buildQuickNav(strands, (st) => strandView(st))
             );
             for (const strand of strands) {
-              const list = show.filter((s) => s.strand === strand);
+              const theme = strandView(strand);
+              if (strand === "phonics" && phonicsPlan) {
+                const list = show.filter((s) => s.strand === strand);
+                const rows = phonicsIndexRows(list);
+                const playable = rows.filter((r) => r.kind === "skill");
+                if (!rows.length) continue;
+                const doneInStrand = playable.filter((r) => Progress.isSkillMastered(scoreOf(r.skill.skill_id))).length;
+                const built = IndexUI.buildStrandSection(strand, theme, doneInStrand, playable.length);
+                for (const row of rows) {
+                  if (row.kind === "soon") built.grid.appendChild(IndexUI.buildComingSoonRow(row.title, theme));
+                  else built.grid.appendChild(skillIndexLink(row.skill, theme));
+                }
+                host.appendChild(built.section);
+                continue;
+              }
+              const list = show.filter((s) => s.strand === strand && indexVisibleSkill(s));
               if (!list.length) continue;
               const doneInStrand = list.filter((s) => Progress.isSkillMastered(scoreOf(s.skill_id))).length;
-              const theme = strandView(strand);
               const built = IndexUI.buildStrandSection(strand, theme, doneInStrand, list.length);
               for (const s of list) built.grid.appendChild(skillIndexLink(s, theme));
               host.appendChild(built.section);
@@ -623,13 +677,37 @@
 
         const options = optionsOf(q);
         if (options.length) {
-          card.appendChild($("p", "keyboard-hint", "Press 1–" + options.length + " to choose · Enter for next"));
+          const anyClips = options.some((c) => clipForText(String(c)));
+          card.appendChild(
+            $("p", "keyboard-hint", anyClips
+              ? "Press 1–" + options.length + " to choose · Shift+number to hear a word · Enter for next"
+              : "Press 1–" + options.length + " to choose · Enter for next")
+          );
           const grid = $("div", "choices-grid");
           if (options.length === 1) grid.classList.add("cols-1");
           if (options.length === 3) grid.classList.add("cols-3");
           options.forEach((choice, i) => {
-            const b = UI.choiceButton(i, String(choice), () =>
-              grade(skill, q, index, String(choice), b, card.querySelectorAll(".choice"))
+            const label = String(choice);
+            const file = clipForText(label);
+            const clipOpts = file
+              ? {
+                  clipUrl: clipUrl(file),
+                  onClip: () => {
+                    gestureOk = true;
+                    soundOn = true;
+                    stopAudio();
+                    const gen = generation;
+                    playUrl(clipUrl(file), gen).then((status) => {
+                      if (status === "error") warnOnce("clip", file);
+                    });
+                  },
+                }
+              : null;
+            const b = UI.choiceButton(
+              i,
+              label,
+              () => grade(skill, q, index, label, b, card.querySelectorAll(".choice")),
+              clipOpts
             );
             grid.appendChild(b);
           });
@@ -754,9 +832,10 @@
       }
 
       async function loadContent() {
-        const [qRes, mRes, nRes, oRes] = await Promise.all([
+        const [qRes, mRes, pRes, nRes, oRes] = await Promise.all([
           fetch("questions.jsonl"),
           fetch("manifest.json"),
+          fetch("../phonics-plan.json"),
           fetch("../pictures/index.json"),
           fetch("../../grade1/pack/pictures.json"),
         ]);
@@ -764,6 +843,7 @@
         if (!mRes.ok) throw new Error("manifest.json " + mRes.status);
         const questions = parseJsonl(await qRes.text());
         manifest = await mRes.json();
+        phonicsPlan = pRes.ok ? await pRes.json() : null;
         newPics = nRes.ok ? await nRes.json() : {};
         oldPics = oRes.ok ? await oRes.json() : {};
         const byId = new Map();
@@ -787,6 +867,7 @@
           skill.questions.push(q);
         }
         skills = Array.from(byId.values());
+        if (phonicsPlan) skills = PhonicsPlan.applyToSkills(skills, phonicsPlan, level);
         contentReady = true;
       }
 

@@ -363,3 +363,39 @@ button.choice.no { border-color: var(--bad); background: #7f1d1d; }
 @media (max-width: 719px) {
   .choices-grid { grid-template-columns: 1fr; }
 }
+.skill-row--soon {
+  opacity: 0.72;
+  border-style: dashed;
+  cursor: default;
+  pointer-events: none;
+}
+.skill-soon-badge {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #334155;
+  color: var(--muted);
+}
+button.choice {
+  position: relative;
+  padding-right: 44px;
+}
+.choice-speaker {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #475569;
+  background: #0f172a;
+  color: var(--accent);
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.choice-speaker:hover { background: #1e293b; border-color: var(--accent); }

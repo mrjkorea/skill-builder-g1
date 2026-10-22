@@ -22,7 +22,7 @@
     app.className = "app-shell app-view-" + (mode || "home");
   }
 
-  function choiceButton(index, label, onPick) {
+  function choiceButton(index, label, onPick, opts) {
     const b = el("button", "choice");
     b.type = "button";
     b.dataset.choiceIndex = String(index);
@@ -30,6 +30,20 @@
     const txt = el("span", "choice-text", label);
     b.appendChild(key);
     b.appendChild(txt);
+    if (opts && opts.clipUrl) {
+      b.dataset.clipUrl = opts.clipUrl;
+      const sp = el("button", "choice-speaker");
+      sp.type = "button";
+      sp.setAttribute("aria-label", "Play word");
+      sp.title = "Play word (Shift+" + (index + 1) + ")";
+      sp.textContent = "▶";
+      sp.onclick = (ev) => {
+        ev.preventDefault();
+        ev.stopPropagation();
+        if (opts.onClip) opts.onClip();
+      };
+      b.appendChild(sp);
+    }
     b.onclick = onPick;
     return b;
   }
@@ -72,8 +86,16 @@
       if (choices.length) {
         const n = ev.key === " " ? -1 : parseInt(ev.key, 10);
         if (n >= 1 && n <= choices.length) {
-          ev.preventDefault();
-          choices[n - 1].click();
+          if (ev.shiftKey) {
+            const sp = choices[n - 1].querySelector(".choice-speaker");
+            if (sp) {
+              ev.preventDefault();
+              sp.click();
+            }
+          } else {
+            ev.preventDefault();
+            choices[n - 1].click();
+          }
         }
         return;
       }

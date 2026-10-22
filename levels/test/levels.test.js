@@ -9,6 +9,8 @@ const pictures = require("../picture-resolve.js");
 const progress = require("../progress.js");
 const audioUrl = require("../audio-url.js");
 const strandTheme = require("../strand-theme.js");
+const phonicsPlan = require("../phonics-plan.js");
+const phonicsAudit = require("../phonics-audit.js");
 
 const root = path.join(__dirname, "..", "..");
 
@@ -129,6 +131,47 @@ test("level player has no TTS and no local progress store", () => {
   assert.match(player, /SB_LEVEL_UI/);
   assert.match(player, /SB_STRAND_THEME/);
   assert.match(player, /SB_INDEX_UI/);
+  assert.match(player, /SB_PHONICS_PLAN/);
+});
+
+test("phonics plan hides non-plan skills and excludes BAD-pattern questions", () => {
+  const plan = JSON.parse(fs.readFileSync(path.join(root, "levels/phonics-plan.json"), "utf8"));
+  assert.ok(plan.hiddenSkills.seed.includes("seed_v2_find_vowel_letter"));
+  assert.ok(plan.hiddenSkills.seed.includes("seed_v2_sort_blend_or_digraph"));
+  const ex = plan.excludeQuestions.seed["seed_v2_silent_e_picture"] || [];
+  assert.ok(ex.length > 0);
+  const qs = loadQs("seed").filter((q) => q.skill_id === "seed_v2_silent_e_picture");
+  const row = phonicsAudit.parseFinalLines(
+    fs.readFileSync(path.join(root, "levels/_notes/final_lines.txt"), "utf8")
+  ).seed.seed_v2_silent_e_picture;
+  for (const id of ex) {
+    const q = qs.find((x) => x.id === id);
+    assert.ok(q, id);
+    assert.equal(phonicsAudit.questionVerdict(q, row), "BAD");
+  }
+  const skill = {
+    skill_id: "seed_v2_silent_e_picture",
+    strand: "phonics",
+    title: "Silent e",
+    questions: qs,
+  };
+  const filtered = phonicsPlan.applyQuestionFilter(skill, plan, "seed");
+  assert.equal(filtered.questions.length, qs.length - ex.length);
+  assert.equal(phonicsPlan.visibleForIndex({ ...skill, questions: filtered.questions }, plan, "seed"), true);
+  assert.equal(
+    phonicsPlan.visibleForIndex({ skill_id: "seed_v2_find_vowel_letter", strand: "phonics", questions: [{}] }, plan, "seed"),
+    false
+  );
+});
+
+test("phonics plan JSON has 59 ordered slots across levels", () => {
+  const plan = JSON.parse(fs.readFileSync(path.join(root, "levels/phonics-plan.json"), "utf8"));
+  let n = 0;
+  for (const level of ["seed", "roots", "sprout"]) {
+    n += plan.levels[level].length;
+  }
+  assert.equal(n, 59);
+  assert.equal(plan.levels.seed[0].comingSoon, true);
 });
 
 test("strand themes cover standard subjects with section anchors", () => {

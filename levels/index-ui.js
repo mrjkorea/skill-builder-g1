@@ -57,6 +57,17 @@
     return { section, grid };
   }
 
+  function buildComingSoonRow(title, theme) {
+    const row = el("div", "skill-row skill-row--soon strand-skill strand-skill--" + theme.key);
+    applyStrandVars(row, theme);
+    const top = el("span", "skill-row-top");
+    top.appendChild(el("span", "skill-name", title));
+    top.appendChild(el("span", "skill-soon-badge", "Coming soon"));
+    row.appendChild(top);
+    row.appendChild(el("span", "skill-meta muted", "Practice coming soon"));
+    return row;
+  }
+
   function decorateSkillRow(row, theme) {
     row.classList.add("strand-skill", "strand-skill--" + theme.key);
     applyStrandVars(row, theme);
@@ -71,6 +82,7 @@
     el,
     buildQuickNav,
     buildStrandSection,
+    buildComingSoonRow,
     decorateSkillRow,
     applyStrandVars,
   };
