@@ -158,6 +158,12 @@ test("manifest audio_base is set for each live level", () => {
     const manifest = JSON.parse(fs.readFileSync(path.join(root, "levels", level, "manifest.json"), "utf8"));
     assert.match(String(manifest.audio_base || ""), new RegExp(repo));
     assert.match(String(manifest.audio_base), new RegExp("levels/" + level + "/"));
+    assert.match(String(manifest.audio_base), /^https:\/\//);
+    assert.equal(
+      fs.existsSync(path.join(root, "levels", level, "audio")),
+      false,
+      "level audio must not ship in main; use audio_base Pages repos"
+    );
   }
 });
 
@@ -180,7 +186,11 @@ test("prompts missing a manifest clip are only the known gaps", () => {
       if (needs.startsWith("sound:")) {
         const word = needs.slice(6);
         assert.ok(manifest.questions[word], word);
-        assert.equal(fs.existsSync(path.join(root, "levels", level, manifest.questions[word].file)), true);
+        assert.match(String(manifest.audio_base || ""), /^https:\/\//);
+        assert.match(
+          audioUrl.resolveClipUrl(manifest, manifest.questions[word].file),
+          /^https:\/\//
+        );
       }
     }
   }
