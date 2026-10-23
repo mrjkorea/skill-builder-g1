@@ -139,26 +139,13 @@ test("phonics plan hides non-plan skills and excludes BAD-pattern questions", ()
   const plan = JSON.parse(fs.readFileSync(path.join(root, "levels/phonics-plan.json"), "utf8"));
   assert.ok(plan.hiddenSkills.seed.includes("seed_v2_find_vowel_letter"));
   assert.ok(plan.hiddenSkills.seed.includes("seed_v2_sort_blend_or_digraph"));
-  const ex = plan.excludeQuestions.seed["seed_v2_silent_e_picture"] || [];
-  assert.ok(ex.length > 0);
-  const qs = loadQs("seed").filter((q) => q.skill_id === "seed_v2_silent_e_picture");
-  const row = phonicsAudit.parseFinalLines(
-    fs.readFileSync(path.join(root, "levels/_notes/final_lines.txt"), "utf8")
-  ).seed.seed_v2_silent_e_picture;
-  for (const id of ex) {
-    const q = qs.find((x) => x.id === id);
-    assert.ok(q, id);
-    assert.equal(phonicsAudit.questionVerdict(q, row), "BAD");
-  }
-  const skill = {
-    skill_id: "seed_v2_silent_e_picture",
-    strand: "phonics",
-    title: "Silent e",
-    questions: qs,
-  };
-  const filtered = phonicsPlan.applyQuestionFilter(skill, plan, "seed");
-  assert.equal(filtered.questions.length, qs.length - ex.length);
-  assert.equal(phonicsPlan.visibleForIndex({ ...skill, questions: filtered.questions }, plan, "seed"), true);
+  // Audited BAD questions are now removed from questions.jsonl; the filter still works for any future exclusions.
+  const qs = loadQs("seed").filter((q) => q.skill_id === "seed_v2_ph_28_silent_e");
+  assert.ok(qs.length >= 80);
+  const skill = { skill_id: "seed_v2_ph_28_silent_e", strand: "phonics", title: "Silent e", questions: qs };
+  const fake = { excludeQuestions: { seed: { seed_v2_ph_28_silent_e: [qs[0].id] } } };
+  const filtered = phonicsPlan.applyQuestionFilter(skill, fake, "seed");
+  assert.equal(filtered.questions.length, qs.length - 1);
   assert.equal(
     phonicsPlan.visibleForIndex({ skill_id: "seed_v2_find_vowel_letter", strand: "phonics", questions: [{}] }, plan, "seed"),
     false
