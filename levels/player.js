@@ -570,11 +570,29 @@
         for (const s of list) el.appendChild(skillButton(s));
       }
 
+      function qIds(skill) { return skill.questions.map((q, i) => String(q.id || i)); }
+      function orderNext(skill) {
+        const QO = root.QuestionOrder;
+        if (!QO) return 0;
+        const ids = qIds(skill);
+        const r = QO.next(QO.load(studentId, level, skill.skill_id), ids);
+        QO.save(studentId, level, skill.skill_id, r.st);
+        const i = ids.indexOf(r.id);
+        return i < 0 ? 0 : i;
+      }
+      function orderRecord(skill, index, ok) {
+        const QO = root.QuestionOrder;
+        if (!QO) return (index + 1) % Math.max(1, skill.questions.length);
+        const ids = qIds(skill);
+        const st = QO.record(QO.load(studentId, level, skill.skill_id), ids, ids[index], ok);
+        QO.save(studentId, level, skill.skill_id, st);
+        return orderNext(skill);
+      }
+
       function openSkill(skill) {
         gestureOk = true;
         skill.introPlayed = false;
-        let index = Number(progress.cursor[skill.skill_id]);
-        if (!Number.isFinite(index) || index < 0 || index >= skill.questions.length) index = 0;
+        let index = orderNext(skill);
         progress.last = { skill_id: skill.skill_id, category: skill.strand, index: index };
         markDirtySave();
         showQuestion(skill, index);
@@ -622,7 +640,7 @@
         const skip = $("button", "btn small", "Skip");
         skip.type = "button";
         skip.onclick = () => {
-          const next = index + 1 >= skill.questions.length ? 0 : index + 1;
+          const next = orderRecord(skill, index, null);
           progress.cursor[skill.skill_id] = next;
           progress.last = { skill_id: skill.skill_id, category: skill.strand, index: next };
           markDirtySave();
@@ -796,7 +814,7 @@
         next.type = "button";
         next.hidden = true;
         next.onclick = () => {
-          const n = index + 1 >= skill.questions.length ? 0 : index + 1;
+          const n = view.nextIndex != null ? view.nextIndex : orderNext(skill);
           showQuestion(skill, n);
         };
         card.appendChild(next);
@@ -829,7 +847,8 @@
         if (ok) st.correct += 1;
         else st.wrong += 1;
         progress.stats[skill.skill_id] = st;
-        const nextIndex = index + 1 >= skill.questions.length ? 0 : index + 1;
+        const nextIndex = orderRecord(skill, index, ok);
+        view.nextIndex = nextIndex;
         progress.cursor[skill.skill_id] = nextIndex;
         progress.last = { skill_id: skill.skill_id, category: skill.strand, index: nextIndex };
         logAnswer(skill.skill_id, q, ok, applied.score);

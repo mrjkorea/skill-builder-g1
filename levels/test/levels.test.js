@@ -241,3 +241,20 @@ test("prompts missing a manifest clip are only the known gaps", () => {
   }
   assert.equal(gaps.length, 0);
 });
+
+test("question order: unseen once, then wrong shuffled, then loop", () => {
+  const QO = require("../question-order.js");
+  const ids = Array.from({ length: 20 }, (_, i) => "q" + i);
+  let st = null; const firstPass = [];
+  for (let i = 0; i < 20; i++) {
+    const r = QO.next(st, ids); st = r.st; firstPass.push(r.id);
+    st = QO.record(st, ids, r.id, !(r.id === "q3" || r.id === "q7"));
+  }
+  assert.equal(new Set(firstPass).size, 20);
+  const rev = [];
+  for (let i = 0; i < 2; i++) { const r = QO.next(st, ids); st = r.st; rev.push(r.id); st = QO.record(st, ids, r.id, true); }
+  assert.deepEqual(rev.sort(), ["q3", "q7"]);
+  const again = new Set();
+  for (let i = 0; i < 20; i++) { const r = QO.next(st, ids); st = r.st; again.add(r.id); st = QO.record(st, ids, r.id, true); }
+  assert.equal(again.size, 20);
+});
