@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check every picture and audio URL that Seed/Roots/Sprout questions reference.
+"""Check every picture and audio URL that Seed/Roots/Sprout/Sapling questions reference.
 Usage: check-media.py [--local MEDIA_DIR] [--live N]
   --local DIR : map https://mrjkorea.github.io/skill-builder-media-2/<rel> to DIR/<rel> and check the file exists.
   --live N    : also HEAD-request N sampled URLs per level and require HTTP 200.
@@ -19,7 +19,7 @@ def urls(q):
     out += list((q.get("opt_aud") or {}).values())
     return out
 bad = 0
-for lv in ("seed", "roots", "sprout"):
+for lv in ("seed", "roots", "sprout", "sapling"):
     seen = set(); n = 0
     for line in open(os.path.join(ROOT, lv, "questions.jsonl"), encoding="utf-8"):
         q = json.loads(line); n += 1

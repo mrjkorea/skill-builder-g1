@@ -91,10 +91,12 @@ html, body {
 .anim-roots .root-branch { animation: roots-grow 3.2s ease-in-out infinite; }
 .anim-roots .root-branch:last-of-type { animation-delay: 0.4s; }
 .anim-sprout { animation: sprout-sway 3s ease-in-out infinite; }
+.anim-sapling { animation: sprout-sway 3.6s ease-in-out infinite; }
 @media (prefers-reduced-motion: reduce) {
   .anim-seed,
   .anim-roots .root-branch,
-  .anim-sprout {
+  .anim-sprout,
+  .anim-sapling {
     animation: none !important;
   }
 }
@@ -109,6 +111,10 @@ html, body {
 .level-sprout {
   border-color: color-mix(in srgb, var(--sprout) 55%, #334155);
   background: color-mix(in srgb, var(--sprout) 16%, #0f172a);
+}
+.level-sapling {
+  border-color: color-mix(in srgb, var(--sapling) 55%, #334155);
+  background: color-mix(in srgb, var(--sapling) 16%, #0f172a);
 }
 .level-sapling .level-bar { background: var(--sapling); }
 .level-tree .level-bar { background: var(--tree); }
