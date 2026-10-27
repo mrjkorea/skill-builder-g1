@@ -1,0 +1,234 @@
+/* Teacher control beside the fixed mrj-auth name chip.
+   The anchor also has class mrj-auth so the sign-in chip's overlap scan
+   ignores this control and stays in the top-right corner. */
+
+.sb-teacher-anchor.mrj-auth {
+  position: fixed;
+  z-index: 2147482100;
+  display: block;
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #241c16;
+  box-shadow: none;
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+.sb-teacher-anchor.mrj-auth[hidden],
+.sb-teacher-panel[hidden] {
+  display: none !important;
+}
+
+.sb-teacher-anchor.mrj-auth button.sb-teacher-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: auto;
+  height: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 0 0.75rem;
+  border: 2px solid #241c16;
+  border-radius: 999px;
+  background: #fffaf3;
+  color: #241c16;
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(36, 28, 22, 0.12);
+}
+
+.sb-teacher-anchor.mrj-auth button.sb-teacher-btn.is-on {
+  background: #1e5c45;
+  color: #fffaf3;
+}
+
+.sb-teacher-anchor.mrj-auth button.sb-teacher-btn:focus-visible,
+.sb-teacher-anchor.mrj-auth button:focus-visible,
+.sb-teacher-anchor.mrj-auth input:focus-visible,
+.sb-teacher-anchor.mrj-auth select:focus-visible {
+  outline: 3px solid #e2a122;
+  outline-offset: 2px;
+}
+
+.sb-teacher-panel {
+  position: fixed;
+  z-index: 1;
+  box-sizing: border-box;
+  width: min(22rem, calc(100vw - 1rem));
+  max-height: min(72vh, 34rem);
+  overflow: auto;
+  padding: 0.75rem 0.8rem 0.85rem;
+  border: 2px solid #241c16;
+  border-radius: 1rem;
+  background: #fffaf3;
+  color: #241c16;
+  box-shadow: 0 16px 36px rgba(36, 28, 22, 0.24);
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.sb-teacher-anchor.mrj-auth .sb-teacher-title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sb-teacher-anchor.mrj-auth .sb-teacher-who,
+.sb-teacher-anchor.mrj-auth .sb-teacher-lead {
+  margin: 0.25rem 0 0.55rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.sb-teacher-anchor.mrj-auth .sb-teacher-lead {
+  font-weight: 400;
+}
+
+.sb-teacher-anchor.mrj-auth .sb-teacher-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin: 0 0 0.55rem;
+  font-weight: 700;
+}
+
+.sb-teacher-anchor.mrj-auth .sb-teacher-label {
+  font-size: 0.82rem;
+}
+
+.sb-teacher-anchor.mrj-auth input.sb-teacher-pin,
+.sb-teacher-anchor.mrj-auth input.sb-teacher-search,
+.sb-teacher-anchor.mrj-auth select.sb-teacher-select {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 2.6rem;
+  margin: 0;
+  padding: 0.45rem 0.6rem;
+  border: 2px solid #241c16;
+  border-radius: 0.7rem;
+  background: #fff;
+  color: #241c16;
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sb-teacher-anchor.mrj-auth .sb-teacher-error {
+  min-height: 1.2rem;
+  margin: 0 0 0.55rem;
+  color: #6d1814;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sb-teacher-anchor.mrj-auth .sb-teacher-status {
+  min-height: 1.1rem;
+  margin: 0.35rem 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.sb-teacher-anchor.mrj-auth .sb-teacher-acts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.sb-teacher-anchor.mrj-auth button.sb-teacher-go,
+.sb-teacher-anchor.mrj-auth button.sb-teacher-quiet,
+.sb-teacher-anchor.mrj-auth button.sb-teacher-mini {
+  box-sizing: border-box;
+  width: auto;
+  min-height: 2.4rem;
+  margin: 0;
+  padding: 0.35rem 0.7rem;
+  border: 2px solid #241c16;
+  border-radius: 999px;
+  font-family: "Atkinson Hyperlegible", system-ui, sans-serif;
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sb-teacher-anchor.mrj-auth button.sb-teacher-go {
+  background: #1e5c45;
+  color: #fffaf3;
+}
+
+.sb-teacher-anchor.mrj-auth button.sb-teacher-quiet,
+.sb-teacher-anchor.mrj-auth button.sb-teacher-mini {
+  background: #fffaf3;
+  color: #241c16;
+}
+
+.sb-teacher-anchor.mrj-auth button:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.sb-teacher-list {
+  list-style: none;
+  margin: 0.35rem 0 0.6rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.sb-teacher-skill {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.45rem;
+  padding: 0.4rem 0.45rem;
+  border: 2px solid rgba(36, 28, 22, 0.18);
+  border-radius: 0.7rem;
+  background: #fff;
+}
+
+.sb-teacher-skill.is-mastered {
+  background: #e7f5ee;
+}
+
+.sb-teacher-skill-name {
+  flex: 1 1 8rem;
+  min-width: 0;
+  font-weight: 700;
+}
+
+.sb-teacher-skill-state {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.sb-teacher-skill-acts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.sb-teacher-empty {
+  margin: 0.2rem 0 0.6rem;
+  font-size: 0.92rem;
+}

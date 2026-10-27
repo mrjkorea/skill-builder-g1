@@ -89,6 +89,7 @@
   let packSaveTimer = null;
   let packLastSaveAt = 0;
   let packLoadRetryTimer = null;
+  const teacherScoreEdits = {};
 
   const packApi = () => (typeof window !== "undefined" && window.SB_PACK_SYNC) || null;
 
@@ -151,6 +152,7 @@
     const empty = api ? api.emptyProgress(GRADE) : { v: 2, grade: GRADE, scores: {}, stats: {}, lang: null, last: null };
     const p = blob || empty;
     state.scores = p.scores && typeof p.scores === "object" ? p.scores : {};
+    for (const id of Object.keys(teacherScoreEdits)) state.scores[id] = teacherScoreEdits[id];
     rememberScoreBaseline(state.scores);
     state.lastPlace = api && api.normalizeLast ? api.normalizeLast(p.last) : p.last || null;
     if (p.lang && LANG_CODES.has(p.lang)) {
@@ -999,8 +1001,47 @@
     }
   }
 
+  function mountTeacherTools() {
+    const teacher = window.SB_TEACHER;
+    if (!teacher || typeof teacher.gradeHost !== "function" || typeof teacher.mount !== "function") return;
+    teacher.mount(teacher.gradeHost({
+      levelId: "g2",
+      levelTitle: "Grade 2",
+      levels: [
+        { id: "g1", title: "Grade 1", href: "../grade1/" },
+        { id: "g2", title: "Grade 2", href: "../grade2/" },
+        { id: "seed", title: "Seed", href: "../levels/seed/" },
+        { id: "roots", title: "Roots", href: "../levels/roots/" },
+        { id: "sprout", title: "Sprout", href: "../levels/sprout/" },
+        { id: "sapling", title: "Sapling", href: "../levels/sapling/" },
+      ],
+      categories: () => CATEGORIES,
+      skillsIn: (key) => skillsInCategory(key),
+      score: (id) => skillScore(id),
+      titleOf: (skill) => (skill.number != null ? skill.number + ". " : "") + (skill.title_en || skill.skill_id),
+      open: (id) => {
+        const skill = skillById(id);
+        if (skill) startSkill(skill, { category: skill.category });
+      },
+      setScore: async (id, score) => {
+        if (!skillById(id)) return false;
+        teacherScoreEdits[id] = score;
+        state.scores[id] = score;
+        saveScores();
+        await flushPackSave(true);
+        if (state.skill) {
+          const mid = document.getElementById("stat-mid");
+          if (mid) mid.textContent = skillScore(state.skill.skill_id) + "%";
+        } else if (state.selectedCategory) categoryList(state.selectedCategory);
+        else home();
+        return packDirty ? "local" : true;
+      },
+    }));
+  }
+
   async function enterApp() {
     await waitForPack();
+    mountTeacherTools();
     home();
   }
 

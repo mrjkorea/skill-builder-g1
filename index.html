@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="https://mrjkorea.github.io/mrj-signin/mrj-auth.css">
   <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth.js"></script>
   <script src="https://mrjkorea.github.io/mrj-signin/mrj-auth-boot.js" data-mrj-app="skill-builder-g1"></script>
-  <meta name="mrj-build" content="20261022-design" />
+  <meta name="mrj-build" content="20261027-teacher" />
   <title>English Skill Builder</title>
   <link rel="stylesheet" href="chooser.css?v=20261023-sapling" />
+  <link rel="stylesheet" href="levels/teacher.css?v=20261027-teacher" />
 </head>
 <body>
   <main class="chooser" id="chooser">
@@ -108,5 +109,19 @@
     </div>
     <p class="chooser-foot muted">W.A.I.T. 4 LANGUAGES · MRJ English</p>
   </main>
+  <script src="levels/teacher.js?v=20261027-teacher"></script>
+  <script>
+    SB_TEACHER.mount({
+      levelId: "home",
+      levelTitle: "Skill Builder",
+      levels: [
+        { id: "seed", title: "Seed", href: "levels/seed/" },
+        { id: "roots", title: "Roots", href: "levels/roots/" },
+        { id: "sprout", title: "Sprout", href: "levels/sprout/" },
+        { id: "sapling", title: "Sapling", href: "levels/sapling/" },
+      ],
+      catalog: function () { return []; },
+    });
+  </script>
 </body>
 </html>

@@ -20,5 +20,5 @@ test("grade pages do not load a TTS engine", () => {
   assert.doesNotMatch(blob, /speechSynthesis/);
   assert.doesNotMatch(blob, /SpeechSynthesisUtterance/);
   assert.doesNotMatch(blob, /SkillBuilderTts/);
-  assert.match(files[0], /app\.js\?v=20261020-notts/);
+  assert.match(files[0], /app\.js\?v=20261027-teacher/);
 });

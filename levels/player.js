@@ -87,6 +87,7 @@
       let newPics = {};
       let oldPics = {};
       let progress = Progress.emptyProgress(level);
+      const teacherScoreEdits = {};
       let studentId = "";
       let packReady = false;
       let booted = false;
@@ -262,12 +263,84 @@
           if (!res || !res.ok) return;
           const remote = Progress.parseProgress(res.progress_json, level);
           const merged = Progress.mergeProgress(progress, remote, level);
+          applyTeacherScoreEdits(merged);
           if (JSON.stringify(merged) === JSON.stringify(progress)) return;
           progress = merged;
           if (view.name === "home") renderHome();
           else if (view.name === "question" && view.skill) showQuestion(view.skill, view.index);
           else if (view.name === "strand" && view.strand) renderStrand(view.strand);
         } catch (_) {}
+      }
+
+      function applyTeacherScoreEdits(target) {
+        if (!target.scores) target.scores = {};
+        for (const id of Object.keys(teacherScoreEdits)) target.scores[id] = teacherScoreEdits[id];
+      }
+
+      function refreshTeacher() {
+        const teacher = root.SB_TEACHER;
+        if (teacher && typeof teacher.refresh === "function") teacher.refresh();
+      }
+
+      function mountTeacher() {
+        const teacher = root.SB_TEACHER;
+        if (!teacher || typeof teacher.mount !== "function") return;
+        const levelLinks = ["seed", "roots", "sprout", "sapling"].map((id) => ({
+          id: id,
+          title: id.charAt(0).toUpperCase() + id.slice(1),
+          href: "../" + id + "/",
+        }));
+        teacher.mount({
+          levelId: level,
+          levelTitle: title,
+          levels: levelLinks,
+          catalog() {
+            const order = [];
+            const seen = new Set();
+            for (const key of STRAND_ORDER) {
+              if (skills.some((s) => s.strand === key)) {
+                order.push(key);
+                seen.add(key);
+              }
+            }
+            for (const s of skills) {
+              if (s && !seen.has(s.strand)) {
+                order.push(s.strand);
+                seen.add(s.strand);
+              }
+            }
+            return order
+              .map((strand) => ({
+                id: strand,
+                label: labelStrand(strand),
+                skills: skills
+                  .filter((s) => s && s.strand === strand && s.questions && s.questions.length)
+                  .map((s) => ({
+                    id: s.skill_id,
+                    title: s.title,
+                    mastered: Progress.isSkillMastered(scoreOf(s.skill_id)),
+                  })),
+              }))
+              .filter((block) => block.skills.length);
+          },
+          async setMastered(skillId, on) {
+            if (!skillById(skillId)) return false;
+            const score = on ? Progress.MASTER_SCORE : 0;
+            teacherScoreEdits[skillId] = score;
+            progress.scores[skillId] = score;
+            const saved = await markDirtySave();
+            if (view.name === "home" || view.name === "strand") render();
+            else if (view.name === "question") {
+              const num = root.document.querySelector(".score-mid .num");
+              if (num && view.skill) num.textContent = scoreOf(view.skill.skill_id) + "%";
+            }
+            return saved ? true : "local";
+          },
+          jump(skillId) {
+            if (!skillById(skillId)) return;
+            root.location.href = Nav.skillPageUrl(skillId);
+          },
+        });
       }
 
       function statOf(skillId, which) {
@@ -1001,6 +1074,7 @@
         } else {
           render();
         }
+        refreshTeacher();
       }
 
       ensureContent()
@@ -1009,12 +1083,15 @@
             booted = true;
             renderHome();
           }
+          refreshTeacher();
         })
         .catch((err) => {
           contentError = err && err.message ? err.message : String(err);
           console.error(err);
           renderLoading();
         });
+
+      mountTeacher();
 
       root.addEventListener("mrj-auth-ready", (event) => {
         const id = event && event.detail ? event.detail.id : "";
