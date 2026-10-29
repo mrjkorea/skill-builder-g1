@@ -161,20 +161,23 @@ test("grade host maps mastery at the grade score cap", async () => {
 });
 
 test("signed-in pages share one teacher module and the build id", () => {
-  const pages = [
+  const levelPages = [
     "levels/seed/index.html",
     "levels/roots/index.html",
     "levels/sprout/index.html",
     "levels/sapling/index.html",
-    "grade1/index.html",
-    "grade2/index.html",
-    "index.html",
   ];
+  const pages = levelPages.concat(["grade1/index.html", "grade2/index.html", "index.html"]);
   for (const page of pages) {
     const html = read(page);
-    assert.match(html, /meta name="mrj-build" content="20261027-teacher"/, page);
     assert.match(html, /teacher\.js\?v=20261027-teacher/, page);
     assert.match(html, /teacher\.css\?v=20261027-teacher/, page);
+  }
+  for (const page of levelPages) {
+    assert.match(read(page), /meta name="mrj-build" content="20261029-roots-progress"/, page);
+  }
+  for (const page of ["grade1/index.html", "grade2/index.html", "index.html"]) {
+    assert.match(read(page), /meta name="mrj-build" content="20261027-teacher"/, page);
   }
   const player = read("levels/player.js");
   assert.match(player, /SB_TEACHER/);
