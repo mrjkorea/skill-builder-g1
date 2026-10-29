@@ -53,6 +53,7 @@
       const title = String((opts && opts.title) || level || "Level");
       const program = String((opts && opts.program) || "skill-builder-" + level);
       const Progress = root.SB_LEVEL_PROGRESS;
+      const PackSave = root.SB_PACK_SAVE;
       const Pictures = root.SB_PICTURES;
       const Nav = root.SB_SKILL_NAV;
       const UI = root.SB_LEVEL_UI;
@@ -61,7 +62,7 @@
       const IndexUI = root.SB_INDEX_UI;
       const PhonicsPlan = root.SB_PHONICS_PLAN;
       if (!level) throw new Error("level required");
-      if (!Progress || !Pictures || !Nav || !UI || !AudioUrl || !StrandTheme || !IndexUI || !PhonicsPlan)
+      if (!Progress || !PackSave || !Pictures || !Nav || !UI || !AudioUrl || !StrandTheme || !IndexUI || !PhonicsPlan)
         throw new Error("level helpers missing");
 
       function labelStrand(key) {
@@ -89,7 +90,6 @@
       let progress = Progress.emptyProgress(level);
       const teacherScoreEdits = {};
       let studentId = "";
-      let packReady = false;
       let booted = false;
       let authGen = 0;
       let contentReady = false;
@@ -255,20 +255,9 @@
       }
 
       async function syncProgressFromCloud() {
-        if (!studentId || !packReady) return;
-        const auth = root.MRJ_AUTH;
-        if (!auth || typeof auth.loadPack !== "function") return;
+        if (!studentId) return;
         try {
-          const res = await auth.loadPack(program);
-          if (!res || !res.ok) return;
-          const remote = Progress.parseProgress(res.progress_json, level);
-          const merged = Progress.mergeProgress(progress, remote, level);
-          applyTeacherScoreEdits(merged);
-          if (JSON.stringify(merged) === JSON.stringify(progress)) return;
-          progress = merged;
-          if (view.name === "home") renderHome();
-          else if (view.name === "question" && view.skill) showQuestion(view.skill, view.index);
-          else if (view.name === "strand" && view.strand) renderStrand(view.strand);
+          await saver.refresh();
         } catch (_) {}
       }
 
@@ -348,22 +337,31 @@
         return Number(st[which]) || 0;
       }
 
+      const saver = PackSave.create({
+        program: program,
+        level: level,
+        Progress: Progress,
+        getAuth: () => root.MRJ_AUTH,
+        getProgress: () => progress,
+        setProgress: (next) => {
+          progress = next;
+        },
+        getStudentId: () => studentId,
+        setStatus: (status) => {
+          const el = appEl();
+          if (el) el.dataset.progress = status;
+        },
+        applyTeacher: (target) => applyTeacherScoreEdits(target),
+        afterMerge: () => {
+          if (!booted) return;
+          if (view.name === "home") renderHome();
+          else if (view.name === "question" && view.skill) showQuestion(view.skill, view.index);
+          else if (view.name === "strand" && view.strand) renderStrand(view.strand);
+        },
+      });
+
       function markDirtySave() {
-        const rootEl = appEl();
-        if (rootEl) rootEl.dataset.progress = packReady ? "saving" : "pending";
-        if (!packReady || !root.MRJ_AUTH || typeof root.MRJ_AUTH.savePack !== "function") return Promise.resolve(false);
-        return root.MRJ_AUTH.savePack(program, JSON.stringify(progress))
-          .then((res) => {
-            const ok = !!(res && res.ok);
-            const el = appEl();
-            if (el) el.dataset.progress = ok ? "saved" : "error";
-            return ok;
-          })
-          .catch(() => {
-            const el = appEl();
-            if (el) el.dataset.progress = "error";
-            return false;
-          });
+        return saver.noteLocalChange();
       }
 
       function logAnswer(skillId, q, correct, smartScore) {
@@ -467,10 +465,12 @@
         if (studentId) bar.appendChild($("span", "home-user", studentId));
         const out = $("button", "btn small", "Sign out");
         out.type = "button";
-        out.onclick = () => {
-          markDirtySave();
+        out.onclick = async () => {
+          try {
+            await saver.flush();
+          } catch (_) {}
+          saver.invalidate();
           studentId = "";
-          packReady = false;
           progress = Progress.emptyProgress(level);
           if (root.MRJ_AUTH && typeof root.MRJ_AUTH.signOut === "function") root.MRJ_AUTH.signOut();
           el.innerHTML = "";
@@ -1036,8 +1036,12 @@
         if (!next) return;
         const gen = ++authGen;
         if (studentId && studentId !== next) {
+          try {
+            await saver.flush();
+          } catch (_) {}
+          if (gen !== authGen) return;
+          saver.invalidate();
           progress = Progress.emptyProgress(level);
-          packReady = false;
           view = { name: "home", strand: null, skill: null, index: 0, locked: false };
         }
         studentId = next;
@@ -1049,22 +1053,9 @@
           return;
         }
         if (gen !== authGen) return;
-        const auth = root.MRJ_AUTH;
-        if (auth && typeof auth.loadPack === "function") {
-          const res = await auth.loadPack(program);
-          if (gen !== authGen) return;
-          if (res && res.ok) {
-            packReady = true;
-            const remote = Progress.parseProgress(res.progress_json, level);
-            const local = progress;
-            progress = Progress.mergeProgress(local, remote, level);
-            const remoteWeight = JSON.stringify(remote);
-            const mergedWeight = JSON.stringify(progress);
-            if (mergedWeight !== remoteWeight) await markDirtySave();
-            const el = appEl();
-            if (el && el.dataset.progress === "pending") await markDirtySave();
-          }
-        }
+        try {
+          await saver.refresh();
+        } catch (_) {}
         if (gen !== authGen) return;
         if (!booted) {
           booted = true;
@@ -1098,9 +1089,13 @@
         onStudent(id);
       });
       root.addEventListener("pagehide", () => {
-        if (studentId) markDirtySave();
+        if (studentId) saver.flush();
       });
       root.document.addEventListener("visibilitychange", () => {
+        if (root.document.visibilityState === "hidden") {
+          if (studentId) saver.flush();
+          return;
+        }
         if (root.document.visibilityState === "visible") syncProgressFromCloud();
       });
       root.addEventListener("focus", () => {
