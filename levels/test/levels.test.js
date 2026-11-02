@@ -123,6 +123,20 @@ test("skill-nav builds skill and index URLs", () => {
   assert.equal(nav.indexPageUrl(base + "&skill=x"), "/levels/seed/?foo=1");
 });
 
+test("signed-in content ready does not claim home when ?skill= is set", () => {
+  const player = fs.readFileSync(path.join(root, "levels/player.js"), "utf8");
+  const start = player.indexOf("ensureContent()\n        .then");
+  const end = player.indexOf("mountTeacher();", start);
+  assert.ok(start >= 0 && end > start);
+  const boot = player.slice(start, end);
+  assert.match(boot, /if \(studentId && !booted && !launchSkillId\)/);
+  assert.match(boot, /booted = true;\s*renderHome\(\);/);
+  const onStudent = player.slice(player.indexOf("async function onStudent"), start);
+  const refreshAt = onStudent.lastIndexOf("await saver.refresh()");
+  const openAt = onStudent.indexOf("if (launch) openSkill(launch);");
+  assert.ok(refreshAt >= 0 && openAt > refreshAt, "openSkill stays after pack refresh");
+});
+
 test("level player has no TTS and no local progress store", () => {
   const player = fs.readFileSync(path.join(root, "levels/player.js"), "utf8");
   assert.equal(/speechSynthesis|SpeechSynthesis|kokoro|SkillBuilderTts|localStorage/i.test(player), false);
