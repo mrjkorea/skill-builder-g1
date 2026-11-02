@@ -174,7 +174,7 @@ test("signed-in pages share one teacher module and the build id", () => {
     assert.match(html, /teacher\.css\?v=20261027-teacher/, page);
   }
   for (const page of levelPages) {
-    assert.match(read(page), /meta name="mrj-build" content="20261029-roots-progress"/, page);
+    assert.match(read(page), /meta name="mrj-build" content="20261102-skill-nav"/, page);
   }
   for (const page of ["grade1/index.html", "grade2/index.html", "index.html"]) {
     assert.match(read(page), /meta name="mrj-build" content="20261027-teacher"/, page);

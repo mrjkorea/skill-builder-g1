@@ -8,7 +8,7 @@ const path = require("path");
 const packSave = require("../pack-save.js");
 const progressApi = require("../progress.js");
 
-const BUILD = "20261029-roots-progress";
+const BUILD = "20261102-skill-nav";
 const root = path.join(__dirname, "..", "..");
 
 function miniAuth() {

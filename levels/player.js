@@ -1070,7 +1070,12 @@
 
       ensureContent()
         .then(() => {
-          if (studentId && !booted) {
+          // Questions often finish after the signed-in id is known and before
+          // onStudent's pack refresh. Painting the index here used to set
+          // booted and drop ?skill= (activity clicks and deep links) back
+          // on the menu. Leave a launch skill for onStudent, which opens it
+          // after refresh. No skill param keeps the early index paint.
+          if (studentId && !booted && !launchSkillId) {
             booted = true;
             renderHome();
           }
